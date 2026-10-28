@@ -1,0 +1,146 @@
+{
+ "boards": [
+  {
+   "id": "6c3f00000000000000000b01",
+   "name": "Staff Christmas party 2026",
+   "desc": "22 December at the Black Lion.",
+   "closed": false,
+   "id_organization": "6c3f00000000000000000f01",
+   "url": "https://trello.com/b/fhxmas26/staff-christmas-party-2026",
+   "member_ids": [
+    "6c3f00000000000000000a01",
+    "6c3f00000000000000000a02",
+    "6c3f00000000000000000a03"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "6c3f00000000000000000c01",
+   "id_board": "6c3f00000000000000000b01",
+   "name": "Ideas",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6c3f00000000000000000c02",
+   "id_board": "6c3f00000000000000000b01",
+   "name": "Doing",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6c3f00000000000000000c03",
+   "id_board": "6c3f00000000000000000b01",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "members": [
+  {
+   "id": "6c3f00000000000000000a01",
+   "fullName": "Petra Noakes",
+   "username": "petranoakes",
+   "email": "petra.noakes@fernhillbarn.example"
+  },
+  {
+   "id": "6c3f00000000000000000a02",
+   "fullName": "Gethin Whitlow",
+   "username": "gethinwhitlow",
+   "email": "gethin.whitlow@fernhillbarn.example"
+  },
+  {
+   "id": "6c3f00000000000000000a03",
+   "fullName": "Abi Flint",
+   "username": "abiflint",
+   "email": "abi.flint@fernhillbarn.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "6c3f00000000000000000d01",
+   "name": "Book the Black Lion function room",
+   "desc": "22 December, room for 30.",
+   "id_board": "6c3f00000000000000000b01",
+   "id_list": "6c3f00000000000000000c03",
+   "pos": 16384.0,
+   "due": "2026-11-30T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6c3f00000000000000000a01"
+   ],
+   "labels": [
+    "party"
+   ]
+  },
+  {
+   "id": "6c3f00000000000000000d02",
+   "name": "Secret Santa names",
+   "desc": "Five pound limit.",
+   "id_board": "6c3f00000000000000000b01",
+   "id_list": "6c3f00000000000000000c03",
+   "pos": 32768.0,
+   "due": "2026-12-05T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6c3f00000000000000000a02"
+   ],
+   "labels": [
+    "party"
+   ]
+  },
+  {
+   "id": "6c3f00000000000000000d03",
+   "name": "Taxi rota home",
+   "desc": "Two taxis at 23:30.",
+   "id_board": "6c3f00000000000000000b01",
+   "id_list": "6c3f00000000000000000c02",
+   "pos": 49152.0,
+   "due": "2026-12-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6c3f00000000000000000a03"
+   ],
+   "labels": [
+    "party"
+   ]
+  },
+  {
+   "id": "6c3f00000000000000000d04",
+   "name": "Quiz questions",
+   "desc": "Six rounds, one on the barn's history.",
+   "id_board": "6c3f00000000000000000b01",
+   "id_list": "6c3f00000000000000000c01",
+   "pos": 65536.0,
+   "due": "2026-12-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6c3f00000000000000000a01"
+   ],
+   "labels": [
+    "party"
+   ]
+  },
+  {
+   "id": "6c3f00000000000000000d05",
+   "name": "Dietary list for the pub",
+   "desc": "Collect from staff by the 15th.",
+   "id_board": "6c3f00000000000000000b01",
+   "id_list": "6c3f00000000000000000c02",
+   "pos": 81920.0,
+   "due": "2026-12-15T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6c3f00000000000000000a02"
+   ],
+   "labels": [
+    "party"
+   ]
+  }
+ ],
+ "checklists": []
+}

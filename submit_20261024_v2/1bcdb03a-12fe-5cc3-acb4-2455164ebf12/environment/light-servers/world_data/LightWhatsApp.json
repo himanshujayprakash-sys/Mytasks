@@ -1,0 +1,346 @@
+{
+ "messages": [
+  {
+   "message_id": "wamid.nl04.001",
+   "conversation_id": "conv-nl04-01",
+   "direction": "inbound",
+   "from_wa_id": "447700900512",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Hi Sunniva, can I swap my Wednesday afternoon shift for the morning?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-06T18:20:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.002",
+   "conversation_id": "conv-nl04-01",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900512",
+   "type": "text",
+   "text": "Yes, done - you're on cloakroom 8am to 12 on Wednesday now.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-06T18:42:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.003",
+   "conversation_id": "conv-nl04-02",
+   "direction": "inbound",
+   "from_wa_id": "447700900519",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Do volunteers get lunch on the load-in day too?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-10T17:15:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.004",
+   "conversation_id": "conv-nl04-02",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900519",
+   "type": "text",
+   "text": "Bacon or veggie rolls at 9 and pizza at 1 for the load-in crew.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-10T17:30:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.005",
+   "conversation_id": "conv-nl04-02",
+   "direction": "inbound",
+   "from_wa_id": "447700900519",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Perfect, thank you!",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-10T17:31:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.006",
+   "conversation_id": "conv-nl04-03",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900533",
+   "type": "text",
+   "text": "Hi Callum, your T-shirt is size L and will be in your volunteer bag at the briefing.",
+   "template_name": "",
+   "status": "delivered",
+   "sent_at": "2026-11-09T12:00:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.007",
+   "conversation_id": "conv-nl04-04",
+   "direction": "inbound",
+   "from_wa_id": "447700900546",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Is the briefing recorded? I can't make the 23rd.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-11T08:05:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.008",
+   "conversation_id": "conv-nl04-04",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900546",
+   "type": "text",
+   "text": "It isn't, but I'll do a 15-minute call with you on the 22nd instead.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-11T09:10:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.009",
+   "conversation_id": "conv-nl04-04",
+   "direction": "inbound",
+   "from_wa_id": "447700900546",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Thanks, the 22nd works",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-11T09:26:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.010",
+   "conversation_id": "conv-nl04-05",
+   "direction": "inbound",
+   "from_wa_id": "441632960742",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Good morning, Harbour Inn reservations here. Your cancellation of booking HR-A2EB-76 (arrival 24 November) reached us at nine this morning and is confirmed; the room is back in our inventory. Our back office will add it to the cancellation log in the next few days.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-10-30T11:20:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.011",
+   "conversation_id": "conv-nl04-05",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "441632960742",
+   "type": "text",
+   "text": "Thanks, I'll pass that to Tomasz in finance.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-10-30T11:34:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.012",
+   "conversation_id": "conv-nl04-06",
+   "direction": "inbound",
+   "from_wa_id": "447700900558",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Hi Sunniva, where do I park on the load-in day?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-04T19:02:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.013",
+   "conversation_id": "conv-nl04-06",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900558",
+   "type": "text",
+   "text": "Loading bay car park behind the Exchange Hall, show your volunteer pass at the barrier.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-04T19:20:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.014",
+   "conversation_id": "conv-nl04-06",
+   "direction": "inbound",
+   "from_wa_id": "447700900558",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Brilliant, thanks",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-04T19:21:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.015",
+   "conversation_id": "conv-nl04-06",
+   "direction": "inbound",
+   "from_wa_id": "447700900558",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Can my partner come to the thank-you drinks?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-08T10:40:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.016",
+   "conversation_id": "conv-nl04-07",
+   "direction": "inbound",
+   "from_wa_id": "447700900565",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "I've lost my briefing email, what time is it again?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-05T21:15:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.017",
+   "conversation_id": "conv-nl04-07",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900565",
+   "type": "text",
+   "text": "6pm on Monday 23 November in the Exchange Hall foyer.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-05T21:31:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.018",
+   "conversation_id": "conv-nl04-07",
+   "direction": "inbound",
+   "from_wa_id": "447700900565",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Got it",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-05T21:32:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.019",
+   "conversation_id": "conv-nl04-07",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900565",
+   "type": "text",
+   "text": "Reminder: bring flat shoes for the stage crew shift.",
+   "template_name": "",
+   "status": "delivered",
+   "sent_at": "2026-11-10T12:00:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.020",
+   "conversation_id": "conv-nl04-08",
+   "direction": "inbound",
+   "from_wa_id": "447700900572",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Do I need my own hi-vis for the car park shift?",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-07T08:45:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.021",
+   "conversation_id": "conv-nl04-08",
+   "direction": "outbound",
+   "from_wa_id": "441632960524",
+   "to_wa_id": "447700900572",
+   "type": "text",
+   "text": "No, the team lead hands them out at the start of each shift.",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-07T09:05:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.022",
+   "conversation_id": "conv-nl04-08",
+   "direction": "inbound",
+   "from_wa_id": "447700900572",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Ok great",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-07T09:06:00Z"
+  },
+  {
+   "message_id": "wamid.nl04.023",
+   "conversation_id": "conv-nl04-08",
+   "direction": "inbound",
+   "from_wa_id": "447700900572",
+   "to_wa_id": "441632960524",
+   "type": "text",
+   "text": "Running 10 mins late tomorrow, sorry",
+   "template_name": "",
+   "status": "read",
+   "sent_at": "2026-11-11T18:50:00Z"
+  }
+ ],
+ "conversations": [
+  {
+   "conversation_id": "conv-nl04-01",
+   "wa_id": "447700900512",
+   "started_at": "2026-11-06T18:20:00Z",
+   "last_message_at": "2026-11-06T18:42:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-02",
+   "wa_id": "447700900519",
+   "started_at": "2026-11-10T17:15:00Z",
+   "last_message_at": "2026-11-10T17:31:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-03",
+   "wa_id": "447700900533",
+   "started_at": "2026-11-09T12:00:00Z",
+   "last_message_at": "2026-11-09T12:00:00Z",
+   "origin": "business_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-04",
+   "wa_id": "447700900546",
+   "started_at": "2026-11-11T08:05:00Z",
+   "last_message_at": "2026-11-11T09:26:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-05",
+   "wa_id": "441632960742",
+   "started_at": "2026-10-30T11:20:00Z",
+   "last_message_at": "2026-10-30T11:34:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-06",
+   "wa_id": "447700900558",
+   "started_at": "2026-11-04T19:02:00Z",
+   "last_message_at": "2026-11-08T10:40:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-07",
+   "wa_id": "447700900565",
+   "started_at": "2026-11-05T21:15:00Z",
+   "last_message_at": "2026-11-10T12:00:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-nl04-08",
+   "wa_id": "447700900572",
+   "started_at": "2026-11-07T08:45:00Z",
+   "last_message_at": "2026-11-11T18:50:00Z",
+   "origin": "user_initiated",
+   "within_24h_window": true
+  }
+ ]
+}

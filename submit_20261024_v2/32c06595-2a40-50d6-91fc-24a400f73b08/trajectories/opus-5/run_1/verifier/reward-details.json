@@ -1,0 +1,385 @@
+{
+  "pytest": {
+    "score": 0.3372,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3372,
+        "raw": 0.337209,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 32 of 86, charged 3; missed 24: test_donations_read_again_after_place_writes, test_place_records_all_right, test_place_chargeback_during_close, test_place_refund_during_close, test_invoices_all_right, test_invoice_chargeback_shortfall, test_notices_all_right, test_notice_emails_subject, test_notice_chargeback_runner, test_notice_refund_runner, test_early_entry_list_all_right, test_page_banner_and_waterfall, test_reconciliation_all_rows_right, test_dossier_names_evidence, test_final_states_team_total, test_final_states_bridge_steps, test_final_states_outcome_counts, test_final_states_invoices, test_final_states_records_corrected, test_final_names_shield_winner, test_final_states_deferrals, test_final_states_emailed_runners, test_final_answer_claim_coverage, test_restraint_right_records_left_alone; guards tripped: test_guard_misread_total_stated"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.3108,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-says-team-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note says the team's raised total is 37,364.00 pounds.",
+        "reasoning": "The final message says \u201cTeam raised total \u00a337,614.00\u201d (final_message.md, line 3), not \u00a337,364.00."
+      },
+      {
+        "id": "2",
+        "name": "j-note-gives-waterfall-step",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note gives the waterfall step for gifts refunded or charged back as 680.00 pounds.",
+        "reasoning": "The waterfall says \u201cLess gifts refunded or charged back \u2212\u00a3430.00\u201d (final_message.md, line 5; dossier lines 18\u201322), not \u00a3680.00."
+      },
+      {
+        "id": "3",
+        "name": "j-note-says-150-00",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note says a 150.00 gift on R-2638's page was charged back, so R-2638's raised total is 755.00 and R-2638 is invoiced 45.00.",
+        "reasoning": "The delivered dossier says R-2638 Callan Brodie raised \u00a3905.00 and owed \u00a30.00, and the page marks him \u201cMinimum met\u201d (dossier line 82; HTML DATA), rather than recording a \u00a3150 chargeback, \u00a3755 total, and \u00a345 invoice."
+      },
+      {
+        "id": "4",
+        "name": "j-note-says-100-00",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note says a 100.00 gift on R-2636's page was refunded, so R-2636's raised total is 2,215.00.",
+        "reasoning": "The dossier says R-2636 Gethin Morgan-Bale raised \u00a32,315.00 (dossier line 78), not \u00a32,215.00 after a \u00a3100 refund."
+      },
+      {
+        "id": "5",
+        "name": "j-note-says-r-2603",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note says R-2603 Ruth Okonjo-Pryce wins the Kestrel Shield alone, at 2,315.00.",
+        "reasoning": "The final message says the Kestrel Shield was \u201cshared between Ruth Okonjo-Pryce and Gethin Morgan-Bale, \u00a32,315.00 each\u201d (final_message.md, line 23), not won by R-2603 alone."
+      },
+      {
+        "id": "6",
+        "name": "j-note-says-11-invoices",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note says 11 invoices were raised, totalling 833.50 pounds.",
+        "reasoning": "The final message reports \u201c10 totalling \u00a3788.50\u201d (final_message.md, line 13), not 11 totalling \u00a3833.50."
+      },
+      {
+        "id": "7",
+        "name": "j-note-gives-places-outcome",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.06756756756756757,
+        "description": "[final answer] The note gives the places by outcome: Minimum met 33, Shortfall invoiced 9, Shortfall waived 2, Deferred to 2027 3, Non-starter - place fee invoiced 2, Non-starter - no charge 1.",
+        "reasoning": "The stated outcomes are \u201cMinimum met 34 \u00b7 Shortfall invoiced 8 \u00b7 Shortfall waived 2 \u00b7 Deferred to 2027 3 \u00b7 Non-starter place fee invoiced 2 \u00b7 Non-starter no charge 1\u201d (final_message.md, line 11), differing from the required 33 and 9 in the first two categories."
+      },
+      {
+        "id": "8",
+        "name": "j-note-says-october-gift",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says the October Gift Aid claim is 4,189.89 pounds.",
+        "reasoning": "The final message explicitly states \u201cGift Aid \u00a34,189.89 on claim GA-2026-10\u201d (final_message.md, line 9)."
+      },
+      {
+        "id": "9",
+        "name": "j-note-says-gift-aid",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says the Gift Aid claim has 42 claim lines.",
+        "reasoning": "The final message explicitly says the claim has \u201c42 lines\u201d (final_message.md, line 9)."
+      },
+      {
+        "id": "10",
+        "name": "j-note-says-gifts-received",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says gifts received on the pages by the close come to 36,074.00 pounds.",
+        "reasoning": "The waterfall explicitly gives \u201cAll gifts received on the fifty pages by the close \u00a336,074.00\u201d (final_message.md, line 4)."
+      },
+      {
+        "id": "11",
+        "name": "j-note-says-offline-sponsorship",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says offline sponsorship banked by the close is 1,420.00 pounds.",
+        "reasoning": "The waterfall explicitly gives \u201coffline sponsorship banked by the close +\u00a31,420.00\u201d (final_message.md, line 6)."
+      },
+      {
+        "id": "12",
+        "name": "j-note-says-employer-matching",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says employer matching confirmed by the close is 550.00 pounds.",
+        "reasoning": "The waterfall explicitly gives \u201cemployer matching confirmed by the close +\u00a3550.00\u201d (final_message.md, line 7)."
+      },
+      {
+        "id": "13",
+        "name": "j-note-gives-invoice-runner",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note gives each invoice with its runner and amount: R-2615 Nadia Sorensen 21.50; R-2619 Yasmin Farouk 10.00; R-2623 Wiktor Nowak 14.00; R-2625 Darius Cole 150.00; R-2630 Freya Lindqvist 40.00; R-2631 Imelda Rourke 130.00; R-2633 Kemi Adeyinka 38.00; R-2638 Callan Brodie 45.00; R-2645 Ravi Chaudhry 145.00; R-2647 Harriet Quill 40.00; R-2649 Elspeth Garrow 200.00.",
+        "reasoning": "The invoice list contains only 10 invoices and omits R-2638 Callan Brodie\u2019s \u00a345.00 invoice (final_message.md, line 13; dossier invoice table lines 223\u2013235)."
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-r-2617",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says R-2617 is deferred to 2027 because she asked to defer on the events WhatsApp line on 1 October 2026, before the start.",
+        "reasoning": "The dossier says R-2617 Hollie Bracegirdle\u2019s deferral \u201cstands,\u201d was requested on the \u201cEvents WhatsApp line\u201d on 1 October 2026, and was before the 4 October start (dossier line 155 and deferred section)."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-r-2625",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says R-2625's request to defer, made on 5 October 2026 after the start, is not a deferral, so his 150.00 place fee is invoiced.",
+        "reasoning": "The dossier says R-2625 Darius Cole emailed on 5 October, after the race, so the request \u201cdoes not stand\u201d and the \u00a3150 gold-bond place fee was invoiced (dossier line 157)."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-r-2604",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says R-2604 and R-2639 are deferred to 2027.",
+        "reasoning": "The dossier lists both R-2604 Alys Penhaligon and R-2639 Martha Ellery under Deferred to 2027 and says each request \u201cstands\u201d (dossier lines 127\u2013132 and 154\u2013156)."
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-waiver-w",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says waiver W-09 for R-2645 does not stand because the Head of Events was not on approved leave on 2 November 2026, so R-2645 is invoiced 145.00.",
+        "reasoning": "The dossier says W-09 for R-2645 \u201cdoes not stand\u201d because the Head of Events\u2019 2\u20136 November leave was canceled, so he was not on approved leave on 2 November; the \u00a3145 shortfall was invoiced (dossier line 150)."
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-waiver-w-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says waiver W-07 for R-2609 stands because it was signed on 22 October 2026 while the Head of Events was on approved leave.",
+        "reasoning": "The dossier says W-07 for R-2609 \u201cstands,\u201d having been signed by the deputy on 22 October while the Head of Events was on approved leave from 19\u201330 October (dossier line 149)."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-gift-d",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says gift D-111154 to R-2633's page was refunded according to finance's note on the supporter care ticket, leaving R-2633 at 612.00 and invoiced 38.00.",
+        "reasoning": "The dossier identifies D-111154 as a \u00a3200 refunded duplicate documented by finance on supporter-care ticket 6214 and says Kemi Adeyinka\u2019s total fell to \u00a3612.00 with a \u00a338.00 shortfall/invoice (dossier lines 112, 174, and 200)."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-hallbrook-logistics",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says Hallbrook Logistics confirmed a 300.00 match for R-2628 by email on 29 October 2026, so R-2628's raised total is 710.00 and the minimum is met.",
+        "reasoning": "The dossier says Hallbrook Logistics confirmed a \u00a3300 match for R-2628 Dev Raghunathan by events-mailbox email on 29 October, lifting him to \u00a3710.00 and Minimum met (dossier lines 68\u201369 and 181)."
+      },
+      {
+        "id": "21",
+        "name": "j-note-says-penmor-foods",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says Penmor Foods' match for R-2631 was confirmed on 3 November 2026, after the close, so it does not count and R-2631 is invoiced 130.00.",
+        "reasoning": "The dossier says Penmor Foods\u2019 \u00a3200 match for R-2631 was dated 3 November, after the close, so it did not count and her \u00a3130 shortfall was invoiced (dossier lines 110 and 182)."
+      },
+      {
+        "id": "22",
+        "name": "j-note-says-pledgepath-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says PledgePath's October settlement added 120.00 to R-2622, whose minimum is met at 720.00.",
+        "reasoning": "The dossier says PledgePath\u2019s final October settlement added D-129001 of \u00a3120.00 to R-2622 Shona MacAulay, raising her to \u00a3720.00 and eliminating the shortfall (dossier lines 60\u201361 and 196)."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-settlement-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says the settlement's 60.00 gift to R-2647, dated 1 November, does not count because it is after the close.",
+        "reasoning": "The dossier says settlement gift D-129003 for R-2647 was \u00a360.00, received on 1 November, and did not count because it was after the close (dossier line 199)."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-r-2641",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says R-2641 was emailed rather than texted because he texted STOP to the race-day text line.",
+        "reasoning": "The dossier says R-2641 Bryn Talfryn sent STOP to the hospice race-day text line, so SMS consent was set to no and his notice went by email (dossier line 186)."
+      },
+      {
+        "id": "25",
+        "name": "j-note-says-r-2614",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says R-2614 started (DNF in the amended official results) and met the minimum.",
+        "reasoning": "The final message says bib 4114 started according to the amended results and Pellow was Minimum met; the dossier identifies Jonah Pellow as R-2614 with official result DNF and \u00a3700 raised (final_message.md, line 17; dossier line 50)."
+      },
+      {
+        "id": "26",
+        "name": "j-note-says-32-place",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says 32 place records were corrected and 18 left as they were.",
+        "reasoning": "The final message says \u201c30 corrected, 20 left exactly as keyed\u201d (final_message.md, line 15), not 32 and 18."
+      },
+      {
+        "id": "27",
+        "name": "j-note-says-waiving-shortfall",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.04054054054054054,
+        "description": "[final answer] The note says waiving every shortfall under 50 pounds does not stand because only a hardship waiver under HW-1 removes a shortfall.",
+        "reasoning": "The final message rejects the blanket sub-\u00a350 waiver and cites HW-1 generally (final_message.md, line 25), but it does not explicitly state the criterion\u2019s reason that only a hardship waiver under HW-1 removes a shortfall."
+      },
+      {
+        "id": "28",
+        "name": "j-note-says-gift-aid-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says Gift Aid does not count towards the minimum.",
+        "reasoning": "The dossier explicitly says agreement 3.5 provides that Gift Aid \u201cdoes not count towards the minimum\u201d (dossier line 24)."
+      },
+      {
+        "id": "29",
+        "name": "j-note-says-pledgepath-gifts",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says PledgePath gifts are not in the hospice's Gift Aid claim because PledgePath claims its own.",
+        "reasoning": "The dossier explicitly excludes every PledgePath gift because \u201cPledgePath reclaims and pays us the Gift Aid on its own gifts\u201d (dossier line 210)."
+      },
+      {
+        "id": "30",
+        "name": "j-note-says-gift-aid-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says Gift Aid is rounded half up, not down.",
+        "reasoning": "The dossier explicitly says each claim line is calculated at 25 percent and \u201crounded half up to the penny\u201d (dossier line 206)."
+      },
+      {
+        "id": "31",
+        "name": "j-note-names-2025-agreement",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note names the 2025 agreement and the desk crib sheet among the papers that made no difference.",
+        "reasoning": "Neither final_message.md nor the delivered dossier names both the 2025 agreement and the desk crib sheet as papers that made no difference."
+      },
+      {
+        "id": "32",
+        "name": "j-note-says-33-runners",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.013513513513513514,
+        "description": "[final answer] The note says 33 runners were added to the 2027 early-entry list.",
+        "reasoning": "The final message says \u201c34 of the 36 entitled runners added as subscribed\u201d (final_message.md, line 21), not 33."
+      },
+      {
+        "id": "33",
+        "name": "n-note-gives-team-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04054054054054054,
+        "description": "[final answer] The note gives the team's raised total as 37,614.00 pounds.",
+        "reasoning": "The final message explicitly gives the team raised total as \u00a337,614.00 (final_message.md, line 3)."
+      },
+      {
+        "id": "34",
+        "name": "n-note-says-kestrel-shield",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04054054054054054,
+        "description": "[final answer] The note says the Kestrel Shield is shared between R-2603 and R-2636.",
+        "reasoning": "The final message says the shield is shared by Ruth Okonjo-Pryce and Gethin Morgan-Bale; the dossier identifies them as R-2603 and R-2636 respectively (final_message.md, line 23; dossier lines 34 and 78)."
+      },
+      {
+        "id": "35",
+        "name": "n-note-says-r-2638",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04054054054054054,
+        "description": "[final answer] The note says R-2638 met the minimum.",
+        "reasoning": "The delivered page explicitly records R-2638 Callan Brodie with outcome \u201cMinimum met,\u201d and the dossier gives \u00a3905.00 against an \u00a3800.00 minimum (HTML DATA; dossier line 82)."
+      },
+      {
+        "id": "36",
+        "name": "n-note-says-shortfalls-under",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.06756756756756757,
+        "description": "[final answer] The note says shortfalls under 50 pounds were waived.",
+        "reasoning": "The final message explicitly says the agent did not act on the \u201cblanket waiver of sub-\u00a350 shortfalls\u201d (final_message.md, line 25), so it does not say those shortfalls were waived."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-says-team-s\":{\"score\":\"no\",\"reasoning\":\"The final message says \u201cTeam raised total \u00a337,614.00\u201d (final_message.md, line 3), not \u00a337,364.00.\"},\"j-note-gives-waterfall-step\":{\"score\":\"no\",\"reasoning\":\"The waterfall says \u201cLess gifts refunded or charged back \u2212\u00a3430.00\u201d (final_message.md, line 5; dossier lines 18\u201322), not \u00a3680.00.\"},\"j-note-says-150-00\":{\"score\":\"no\",\"reasoning\":\"The delivered dossier says R-2638 Callan Brodie raised \u00a3905.00 and owed \u00a30.00, and the page marks him \u201cMinimum met\u201d (dossier line 82; HTML DATA), rather than recording a \u00a3150 chargeback, \u00a3755 total, and \u00a345 invoice.\"},\"j-note-says-100-00\":{\"score\":\"no\",\"reasoning\":\"The dossier says R-2636 Gethin Morgan-Bale raised \u00a32,315.00 (dossier line 78), not \u00a32,215.00 after a \u00a3100 refund.\"},\"j-note-says-r-2603\":{\"score\":\"no\",\"reasoning\":\"The final message says the Kestrel Shield was \u201cshared between Ruth Okonjo-Pryce and Gethin Morgan-Bale, \u00a32,315.00 each\u201d (final_message.md, line 23), not won by R-2603 alone.\"},\"j-note-says-11-invoices\":{\"score\":\"no\",\"reasoning\":\"The final message reports \u201c10 totalling \u00a3788.50\u201d (final_message.md, line 13), not 11 totalling \u00a3833.50.\"},\"j-note-gives-places-outcome\":{\"score\":\"no\",\"reasoning\":\"The stated outcomes are \u201cMinimum met 34 \u00b7 Shortfall invoiced 8 \u00b7 Shortfall waived 2 \u00b7 Deferred to 2027 3 \u00b7 Non-starter place fee invoiced 2 \u00b7 Non-starter no charge 1\u201d (final_message.md, line 11), differing from the required 33 and 9 in the first two categories.\"},\"j-note-says-october-gift\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201cGift Aid \u00a34,189.89 on claim GA-2026-10\u201d (final_message.md, line 9).\"},\"j-note-says-gift-aid\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly says the claim has \u201c42 lines\u201d (final_message.md, line 9).\"},\"j-note-says-gifts-received\":{\"score\":\"yes\",\"reasoning\":\"The waterfall explicitly gives \u201cAll gifts received on the fifty pages by the close \u00a336,074.00\u201d (final_message.md, line 4).\"},\"j-note-says-offline-sponsorship\":{\"score\":\"yes\",\"reasoning\":\"The waterfall explicitly gives \u201coffline sponsorship banked by the close +\u00a31,420.00\u201d (final_message.md, line 6).\"},\"j-note-says-employer-matching\":{\"score\":\"yes\",\"reasoning\":\"The waterfall explicitly gives \u201cemployer matching confirmed by the close +\u00a3550.00\u201d (final_message.md, line 7).\"},\"j-note-gives-invoice-runner\":{\"score\":\"no\",\"reasoning\":\"The invoice list contains only 10 invoices and omits R-2638 Callan Brodie\u2019s \u00a345.00 invoice (final_message.md, line 13; dossier invoice table lines 223\u2013235).\"},\"j-note-says-r-2617\":{\"score\":\"yes\",\"reasoning\":\"The dossier says R-2617 Hollie Bracegirdle\u2019s deferral \u201cstands,\u201d was requested on the \u201cEvents WhatsApp line\u201d on 1 October 2026, and was before the 4 October start (dossier line 155 and deferred section).\"},\"j-note-says-r-2625\":{\"score\":\"yes\",\"reasoning\":\"The dossier says R-2625 Darius Cole emailed on 5 October, after the race, so the request \u201cdoes not stand\u201d and the \u00a3150 gold-bond place fee was invoiced (dossier line 157).\"},\"j-note-says-r-2604\":{\"score\":\"yes\",\"reasoning\":\"The dossier lists both R-2604 Alys Penhaligon and R-2639 Martha Ellery under Deferred to 2027 and says each request \u201cstands\u201d (dossier lines 127\u2013132 and 154\u2013156).\"},\"j-note-says-waiver-w\":{\"score\":\"yes\",\"reasoning\":\"The dossier says W-09 for R-2645 \u201cdoes not stand\u201d because the Head of Events\u2019 2\u20136 November leave was canceled, so he was not on approved leave on 2 November; the \u00a3145 shortfall was invoiced (dossier line 150).\"},\"j-note-says-waiver-w-2\":{\"score\":\"yes\",\"reasoning\":\"The dossier says W-07 for R-2609 \u201cstands,\u201d having been signed by the deputy on 22 October while the Head of Events was on approved leave from 19\u201330 October (dossier line 149).\"},\"j-note-says-gift-d\":{\"score\":\"yes\",\"reasoning\":\"The dossier identifies D-111154 as a \u00a3200 refunded duplicate documented by finance on supporter-care ticket 6214 and says Kemi Adeyinka\u2019s total fell to \u00a3612.00 with a \u00a338.00 shortfall/invoice (dossier lines 112, 174, and 200).\"},\"j-note-says-hallbrook-logistics\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Hallbrook Logistics confirmed a \u00a3300 match for R-2628 Dev Raghunathan by events-mailbox email on 29 October, lifting him to \u00a3710.00 and Minimum met (dossier lines 68\u201369 and 181).\"},\"j-note-says-penmor-foods\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Penmor Foods\u2019 \u00a3200 match for R-2631 was dated 3 November, after the close, so it did not count and her \u00a3130 shortfall was invoiced (dossier lines 110 and 182).\"},\"j-note-says-pledgepath-s\":{\"score\":\"yes\",\"reasoning\":\"The dossier says PledgePath\u2019s final October settlement added D-129001 of \u00a3120.00 to R-2622 Shona MacAulay, raising her to \u00a3720.00 and eliminating the shortfall (dossier lines 60\u201361 and 196).\"},\"j-note-says-settlement-s\":{\"score\":\"yes\",\"reasoning\":\"The dossier says settlement gift D-129003 for R-2647 was \u00a360.00, received on 1 November, and did not count because it was after the close (dossier line 199).\"},\"j-note-says-r-2641\":{\"score\":\"yes\",\"reasoning\":\"The dossier says R-2641 Bryn Talfryn sent STOP to the hospice race-day text line, so SMS consent was set to no and his notice went by email (dossier line 186).\"},\"j-note-says-r-2614\":{\"score\":\"yes\",\"reasoning\":\"The final message says bib 4114 started according to the amended results and Pellow was Minimum met; the dossier identifies Jonah Pellow as R-2614 with official result DNF and \u00a3700 raised (final_message.md, line 17; dossier line 50).\"},\"j-note-says-32-place\":{\"score\":\"no\",\"reasoning\":\"The final message says \u201c30 corrected, 20 left exactly as keyed\u201d (final_message.md, line 15), not 32 and 18.\"},\"j-note-says-waiving-shortfall\":{\"score\":\"no\",\"reasoning\":\"The final message rejects the blanket sub-\u00a350 waiver and cites HW-1 generally (final_message.md, line 25), but it does not explicitly state the criterion\u2019s reason that only a hardship waiver under HW-1 removes a shortfall.\"},\"j-note-says-gift-aid-2\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly says agreement 3.5 provides that Gift Aid \u201cdoes not count towards the minimum\u201d (dossier line 24).\"},\"j-note-says-pledgepath-gifts\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly excludes every PledgePath gift because \u201cPledgePath reclaims and pays us the Gift Aid on its own gifts\u201d (dossier line 210).\"},\"j-note-says-gift-aid-3\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly says each claim line is calculated at 25 percent and \u201crounded half up to the penny\u201d (dossier line 206).\"},\"j-note-names-2025-agreement\":{\"score\":\"no\",\"reasoning\":\"Neither final_message.md nor the delivered dossier names both the 2025 agreement and the desk crib sheet as papers that made no difference.\"},\"j-note-says-33-runners\":{\"score\":\"no\",\"reasoning\":\"The final message says \u201c34 of the 36 entitled runners added as subscribed\u201d (final_message.md, line 21), not 33.\"},\"n-note-gives-team-s\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly gives the team raised total as \u00a337,614.00 (final_message.md, line 3).\"},\"n-note-says-kestrel-shield\":{\"score\":\"yes\",\"reasoning\":\"The final message says the shield is shared by Ruth Okonjo-Pryce and Gethin Morgan-Bale; the dossier identifies them as R-2603 and R-2636 respectively (final_message.md, line 23; dossier lines 34 and 78).\"},\"n-note-says-r-2638\":{\"score\":\"yes\",\"reasoning\":\"The delivered page explicitly records R-2638 Callan Brodie with outcome \u201cMinimum met,\u201d and the dossier gives \u00a3905.00 against an \u00a3800.00 minimum (HTML DATA; dossier line 82).\"},\"n-note-says-shortfalls-under\":{\"score\":\"no\",\"reasoning\":\"The final message explicitly says the agent did not act on the \u201cblanket waiver of sub-\u00a350 shortfalls\u201d (final_message.md, line 25), so it does not say those shortfalls were waived.\"}}",
+    "usage": {
+      "input_tokens": 141260,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 104960,
+      "output_tokens": 4413,
+      "reasoning_output_tokens": 899,
+      "total_tokens": 145673,
+      "cost_usd": 0.275444,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 141260,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 104960,
+          "output_tokens": 4413,
+          "reasoning_output_tokens": 899,
+          "total_tokens": 145673,
+          "cost_usd": 0.275444
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.52f0eac539d94e978a09bc57d8c37b76.jsonl"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-tj-taster-60",
+   "owner": "Sol Brannan",
+   "name": "Taster session for new players",
+   "slug": "taster-session",
+   "duration": 60,
+   "kind": "group",
+   "color": "#E8A317",
+   "active": true,
+   "description": "Taster sessions for the mini-soccer and girls' teams, booked through the club website.",
+   "scheduling_url": "https://calendly.com/thornwickjuniors/taster-session",
+   "created_at": "2026-08-20T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-tj-01",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Arlo Penketh (U9)",
+   "status": "active",
+   "start_time": "2026-11-14T10:00:00.000000Z",
+   "end_time": "2026-11-14T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-08T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tj-02",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Mia Okonedo (U10)",
+   "status": "active",
+   "start_time": "2026-11-14T10:00:00.000000Z",
+   "end_time": "2026-11-14T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-09T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tj-03",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Ruby Gaskell (U13 Girls)",
+   "status": "active",
+   "start_time": "2026-11-21T10:00:00.000000Z",
+   "end_time": "2026-11-21T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-15T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tj-04",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Jonah Prest (U8)",
+   "status": "active",
+   "start_time": "2026-11-28T10:00:00.000000Z",
+   "end_time": "2026-11-28T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-20T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tj-05",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Freddie Ince (U9)",
+   "status": "canceled",
+   "start_time": "2026-11-21T10:00:00.000000Z",
+   "end_time": "2026-11-21T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "canceled_reason": "Unwell"
+  },
+  {
+   "uuid": "sev-tj-06",
+   "owner": "Sol Brannan",
+   "event_type": "et-tj-taster-60",
+   "name": "Taster - Lola Byrne (U10)",
+   "status": "active",
+   "start_time": "2026-12-05T10:00:00.000000Z",
+   "end_time": "2026-12-05T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Thornwick Recreation Ground, grass pitch 2",
+   "created_at": "2026-11-23T08:40:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-tj-01",
+   "event": "sev-tj-01",
+   "name": "Jade Penketh",
+   "email": "jade.penketh@mailbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-08T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "8"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tj-02",
+   "event": "sev-tj-02",
+   "name": "Tunde Okonedo",
+   "email": "tunde.okonedo@homemail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-09T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "9"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tj-03",
+   "event": "sev-tj-03",
+   "name": "Kim Gaskell",
+   "email": "kim.gaskell@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-15T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "12"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tj-04",
+   "event": "sev-tj-04",
+   "name": "Laura Prest",
+   "email": "laura.prest@mailbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-20T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "7"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tj-05",
+   "event": "sev-tj-05",
+   "name": "Sam Ince",
+   "email": "sam.ince@homemail.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "8"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tj-06",
+   "event": "sev-tj-06",
+   "name": "Ciara Byrne",
+   "email": "ciara.byrne@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-23T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Child's age?",
+     "answer": "9"
+    }
+   ]
+  }
+ ]
+}

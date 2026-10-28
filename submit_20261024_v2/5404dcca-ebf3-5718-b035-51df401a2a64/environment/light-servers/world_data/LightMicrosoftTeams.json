@@ -1,0 +1,204 @@
+{
+ "teams": [
+  {
+   "id": "19:team-efp-ops01@thread.tacv2",
+   "displayName": "Ellisford Depot Operations",
+   "description": "Quayside and Northgate operations staff",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.microsoft.com/l/team/19%3ateam-efp-ops01%40thread.tacv2",
+   "member_ids": [
+    "user-efp-01",
+    "user-efp-02",
+    "user-efp-03",
+    "user-efp-04",
+    "user-efp-05",
+    "user-efp-06",
+    "user-efp-07",
+    "user-efp-08",
+    "user-efp-09",
+    "user-efp-10",
+    "user-efp-11",
+    "user-efp-12",
+    "user-efp-13",
+    "user-efp-14"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "displayName": "General",
+   "description": "Notices for everyone at both depots",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-efp-gen01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  },
+  {
+   "id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "displayName": "Fleet",
+   "description": "Vans, tyres, MOTs and the yard",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-efp-fleet01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1795300000001",
+   "channel_id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-14",
+   "from_display_name": "Caspar Vosper",
+   "content": "Tail lift on QD-02 serviced with its annual service; certificate is in the van folder.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-19T13:00:00Z"
+  },
+  {
+   "id": "1795300005001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-08",
+   "from_display_name": "Lowenna Treharne",
+   "content": "Reminder: November overtime sheets to me by Friday please.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-23T09:10:00Z"
+  },
+  {
+   "id": "1795300010001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-12",
+   "from_display_name": "Morwenna Hext",
+   "content": "Secret Santa names are drawn and in your pigeonholes. Ten pound limit!",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-23T12:30:00Z"
+  },
+  {
+   "id": "1795300015001",
+   "channel_id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-06",
+   "from_display_name": "Kerensa Opie",
+   "content": "Gritting lorry is booked for any night below zero. Drivers, please take the hill steady.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-24T16:30:00Z"
+  },
+  {
+   "id": "1795300020001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-07",
+   "from_display_name": "Jago Mewton",
+   "content": "The chiller 3 installer is here all day Friday. The aisle next to the chiller room is closed.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-25T14:00:00Z"
+  },
+  {
+   "id": "1795300025001",
+   "channel_id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-14",
+   "from_display_name": "Caspar Vosper",
+   "content": "QD-06 had a slow puncture; new offside rear tyre fitted this morning and it's back out.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-26T10:40:00Z"
+  },
+  {
+   "id": "1795300030001",
+   "channel_id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-06",
+   "from_display_name": "Kerensa Opie",
+   "content": "QD-04 goes for its MOT on Wednesday afternoon. QD-07 covers its work.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-27T15:20:00Z"
+  },
+  {
+   "id": "1795300035001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-08",
+   "from_display_name": "Lowenna Treharne",
+   "content": "Christmas party menu choices close on Friday 4th. The vegetarian main is a butternut squash wellington.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-30T08:45:00Z"
+  },
+  {
+   "id": "1795300040001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-09",
+   "from_display_name": "Denzil Prowse",
+   "content": "Fire drill this morning: everyone out in under four minutes. Thanks all.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-30T11:05:00Z"
+  },
+  {
+   "id": "1795300045001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-11",
+   "from_display_name": "Tristan Bray",
+   "content": "Canteen Wi-Fi off for ten minutes at 12:30 for an update.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-01T11:50:00Z"
+  },
+  {
+   "id": "1795300050001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-13",
+   "from_display_name": "Senara Coad",
+   "content": "Northgate's car park is being relined on Saturday; anyone visiting please park on the street.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-02T09:30:00Z"
+  },
+  {
+   "id": "1795300055001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-12",
+   "from_display_name": "Morwenna Hext",
+   "content": "Quiz teams so far: Goods-in Gang, Trade Winds and the Pasty Pirates. Room for two more teams.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-03T12:15:00Z"
+  },
+  {
+   "id": "1795300060001",
+   "channel_id": "19:chan-efp-gen01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-09",
+   "from_display_name": "Denzil Prowse",
+   "content": "Please keep the fire door on the cold store corridor shut. It was propped open again this morning.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-04T07:20:00Z"
+  },
+  {
+   "id": "1795300065001",
+   "channel_id": "19:chan-efp-fleet01@thread.tacv2",
+   "team_id": "19:team-efp-ops01@thread.tacv2",
+   "from_user_id": "user-efp-06",
+   "from_display_name": "Kerensa Opie",
+   "content": "New fuel cards arrive next week; the old ones keep working until 31 December.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-07T10:00:00Z"
+  }
+ ]
+}

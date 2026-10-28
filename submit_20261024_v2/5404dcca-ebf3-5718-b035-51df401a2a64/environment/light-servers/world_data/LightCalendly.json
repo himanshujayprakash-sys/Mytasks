@@ -1,0 +1,327 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-efp-interview-30",
+   "owner": "Lowenna Treharne",
+   "name": "Seasonal driver interview",
+   "slug": "seasonal-driver-interview",
+   "duration": 30,
+   "kind": "solo",
+   "color": "#2E7D32",
+   "active": true,
+   "description": "Seasonal driver interview at the Quayside depot, booked through the Ellisford Fresh Produce website.",
+   "scheduling_url": "https://calendly.com/ellisford-quayside/seasonal-driver-interview",
+   "created_at": "2026-09-15T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-efp-supplier-45",
+   "owner": "Jago Mewton",
+   "name": "Supplier visit to Quayside",
+   "slug": "supplier-visit",
+   "duration": 45,
+   "kind": "solo",
+   "color": "#2E7D32",
+   "active": true,
+   "description": "Supplier visit to Quayside at the Quayside depot, booked through the Ellisford Fresh Produce website.",
+   "scheduling_url": "https://calendly.com/ellisford-quayside/supplier-visit",
+   "created_at": "2026-09-15T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-efp-tour-60",
+   "owner": "Morwenna Hext",
+   "name": "Depot tour for a prospective trade customer",
+   "slug": "depot-tour",
+   "duration": 60,
+   "kind": "solo",
+   "color": "#2E7D32",
+   "active": true,
+   "description": "Depot tour for a prospective trade customer at the Quayside depot, booked through the Ellisford Fresh Produce website.",
+   "scheduling_url": "https://calendly.com/ellisford-quayside/depot-tour",
+   "created_at": "2026-09-15T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-efp-01",
+   "owner": "Lowenna Treharne",
+   "event_type": "et-efp-interview-30",
+   "name": "Seasonal driver interview - Kit Rowe",
+   "status": "active",
+   "start_time": "2026-11-24T10:00:00.000000Z",
+   "end_time": "2026-11-24T10:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-02",
+   "owner": "Lowenna Treharne",
+   "event_type": "et-efp-interview-30",
+   "name": "Seasonal driver interview - Saffron Pill",
+   "status": "active",
+   "start_time": "2026-11-24T10:45:00.000000Z",
+   "end_time": "2026-11-24T11:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-03",
+   "owner": "Lowenna Treharne",
+   "event_type": "et-efp-interview-30",
+   "name": "Seasonal driver interview - Davy Hambly",
+   "status": "canceled",
+   "start_time": "2026-11-26T14:00:00.000000Z",
+   "end_time": "2026-11-26T14:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-19T08:40:00.000000Z",
+   "canceled_reason": "Applicant took another job"
+  },
+  {
+   "uuid": "sev-efp-04",
+   "owner": "Lowenna Treharne",
+   "event_type": "et-efp-interview-30",
+   "name": "Seasonal driver interview - Lowdy Matthews",
+   "status": "active",
+   "start_time": "2026-12-01T09:00:00.000000Z",
+   "end_time": "2026-12-01T09:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-23T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-05",
+   "owner": "Jago Mewton",
+   "event_type": "et-efp-supplier-45",
+   "name": "Supplier visit - Kernow Packaging Supplies",
+   "status": "active",
+   "start_time": "2026-11-30T11:00:00.000000Z",
+   "end_time": "2026-11-30T11:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-20T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-06",
+   "owner": "Jago Mewton",
+   "event_type": "et-efp-supplier-45",
+   "name": "Supplier visit - Carrick Hygiene Services",
+   "status": "active",
+   "start_time": "2026-12-03T09:30:00.000000Z",
+   "end_time": "2026-12-03T10:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-24T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-07",
+   "owner": "Jago Mewton",
+   "event_type": "et-efp-supplier-45",
+   "name": "Supplier visit - Hayle Forklift Services",
+   "status": "active",
+   "start_time": "2026-12-14T13:00:00.000000Z",
+   "end_time": "2026-12-14T13:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-12-02T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-08",
+   "owner": "Morwenna Hext",
+   "event_type": "et-efp-tour-60",
+   "name": "Depot tour - Polruan Sailing Club",
+   "status": "active",
+   "start_time": "2026-12-02T15:00:00.000000Z",
+   "end_time": "2026-12-02T16:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-09",
+   "owner": "Morwenna Hext",
+   "event_type": "et-efp-tour-60",
+   "name": "Depot tour - Roseland Retreats",
+   "status": "active",
+   "start_time": "2026-12-10T10:00:00.000000Z",
+   "end_time": "2026-12-10T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-25T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-efp-10",
+   "owner": "Morwenna Hext",
+   "event_type": "et-efp-tour-60",
+   "name": "Depot tour - St Mawes Community Larder",
+   "status": "canceled",
+   "start_time": "2026-12-15T11:00:00.000000Z",
+   "end_time": "2026-12-15T12:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Ellisford Fresh Produce, Quayside depot, reception",
+   "created_at": "2026-11-30T08:40:00.000000Z",
+   "canceled_reason": "Volunteers short before Christmas; will rebook in January"
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-efp-01",
+   "event": "sev-efp-01",
+   "name": "Kit Rowe",
+   "email": "kit.rowe@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Licence categories?",
+     "answer": "C1 and B"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-02",
+   "event": "sev-efp-02",
+   "name": "Saffron Pill",
+   "email": "saffron.pill@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Licence categories?",
+     "answer": "B only"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-03",
+   "event": "sev-efp-03",
+   "name": "Davy Hambly",
+   "email": "d.hambly@inbox.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-19T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Licence categories?",
+     "answer": "C1"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-04",
+   "event": "sev-efp-04",
+   "name": "Lowdy Matthews",
+   "email": "lowdy.m@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-23T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Licence categories?",
+     "answer": "C and C1"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-05",
+   "event": "sev-efp-05",
+   "name": "Tegen Lawry",
+   "email": "tegen@kernowpackaging.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-20T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Purpose of the visit?",
+     "answer": "Samples of the new crate liners"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-06",
+   "event": "sev-efp-06",
+   "name": "Marc Ivey",
+   "email": "marc.ivey@carrickhygiene.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-24T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Purpose of the visit?",
+     "answer": "Survey for two more hand wash stations"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-07",
+   "event": "sev-efp-07",
+   "name": "Rob Curnow",
+   "email": "rob@hayleforklift.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-02T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Purpose of the visit?",
+     "answer": "Battery health check on FL2 and FL3"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-08",
+   "event": "sev-efp-08",
+   "name": "Jenifer Bassett",
+   "email": "galley@polruansc.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "How did you hear about us?",
+     "answer": "A friend who runs a cafe in Fowey"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-09",
+   "event": "sev-efp-09",
+   "name": "Hal Pendarves",
+   "email": "hal@roselandretreats.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-25T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "How did you hear about us?",
+     "answer": "The trade show in Truro"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-efp-10",
+   "event": "sev-efp-10",
+   "name": "Annie Gilbert",
+   "email": "annie@stmaweslarder.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-30T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "How did you hear about us?",
+     "answer": "The parish council newsletter"
+    }
+   ]
+  }
+ ]
+}

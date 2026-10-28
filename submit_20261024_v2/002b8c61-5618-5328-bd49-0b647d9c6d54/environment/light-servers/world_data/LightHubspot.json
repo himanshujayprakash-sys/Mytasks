@@ -1,0 +1,229 @@
+{
+ "companies": [
+  {
+   "id": "62101",
+   "properties": {
+    "name": "Calderwick Hotel",
+    "domain": "calderwickhotel.example",
+    "industry": "Hospitality",
+    "city": "Calderwick",
+    "state": "",
+    "numberofemployees": "34",
+    "annualrevenue": "",
+    "createdate": "2026-11-10T10:00:00Z"
+   },
+   "createdAt": "2026-11-10T10:00:00Z",
+   "updatedAt": "2026-12-02T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "62102",
+   "properties": {
+    "name": "Ronsay Distillery",
+    "domain": "ronsaydistillery.example",
+    "industry": "Wine & Spirits",
+    "city": "Ronsay",
+    "state": "",
+    "numberofemployees": "21",
+    "annualrevenue": "",
+    "createdate": "2026-11-11T11:20:00Z"
+   },
+   "createdAt": "2026-11-11T11:20:00Z",
+   "updatedAt": "2026-12-07T09:40:00Z",
+   "archived": false
+  },
+  {
+   "id": "62103",
+   "properties": {
+    "name": "Ronsay Wool Shop",
+    "domain": "ronsaywool.example",
+    "industry": "Retail",
+    "city": "Ronsay",
+    "state": "",
+    "numberofemployees": "4",
+    "annualrevenue": "",
+    "createdate": "2026-11-16T14:00:00Z"
+   },
+   "createdAt": "2026-11-16T14:00:00Z",
+   "updatedAt": "2026-11-16T14:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "62104",
+   "properties": {
+    "name": "Sound Wildlife Tours",
+    "domain": "soundwildlife.example",
+    "industry": "Leisure, Travel & Tourism",
+    "city": "Calderwick",
+    "state": "",
+    "numberofemployees": "7",
+    "annualrevenue": "",
+    "createdate": "2026-11-18T09:30:00Z"
+   },
+   "createdAt": "2026-11-18T09:30:00Z",
+   "updatedAt": "2026-12-04T12:10:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "62201",
+   "properties": {
+    "firstname": "Isobel",
+    "lastname": "Garvie",
+    "email": "isobel.garvie@calderwickhotel.example",
+    "phone": "+441632960611",
+    "jobtitle": "General manager",
+    "company": "Calderwick Hotel",
+    "lifecyclestage": "customer",
+    "createdate": "2026-11-10T10:05:00Z",
+    "lastmodifieddate": "2026-12-02T15:00:00Z"
+   },
+   "createdAt": "2026-11-10T10:05:00Z",
+   "updatedAt": "2026-12-02T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "62202",
+   "properties": {
+    "firstname": "Callan",
+    "lastname": "Rennie",
+    "email": "callan.rennie@ronsaydistillery.example",
+    "phone": "+441632960612",
+    "jobtitle": "Marketing manager",
+    "company": "Ronsay Distillery",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-11-11T11:25:00Z",
+    "lastmodifieddate": "2026-12-07T09:40:00Z"
+   },
+   "createdAt": "2026-11-11T11:25:00Z",
+   "updatedAt": "2026-12-07T09:40:00Z",
+   "archived": false
+  },
+  {
+   "id": "62203",
+   "properties": {
+    "firstname": "Effie",
+    "lastname": "MacArthur",
+    "email": "effie.macarthur@ronsaywool.example",
+    "phone": "+441632960613",
+    "jobtitle": "Owner",
+    "company": "Ronsay Wool Shop",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-16T14:05:00Z",
+    "lastmodifieddate": "2026-11-16T14:05:00Z"
+   },
+   "createdAt": "2026-11-16T14:05:00Z",
+   "updatedAt": "2026-11-16T14:05:00Z",
+   "archived": false
+  },
+  {
+   "id": "62204",
+   "properties": {
+    "firstname": "Grant",
+    "lastname": "Sillars",
+    "email": "grant.sillars@soundwildlife.example",
+    "phone": "+441632960614",
+    "jobtitle": "Skipper and owner",
+    "company": "Sound Wildlife Tours",
+    "lifecyclestage": "salesqualifiedlead",
+    "createdate": "2026-11-18T09:35:00Z",
+    "lastmodifieddate": "2026-12-04T12:10:00Z"
+   },
+   "createdAt": "2026-11-18T09:35:00Z",
+   "updatedAt": "2026-12-04T12:10:00Z",
+   "archived": false
+  },
+  {
+   "id": "62205",
+   "properties": {
+    "firstname": "Mhairi",
+    "lastname": "Dunsmore",
+    "email": "mhairi.dunsmore@ronsaydistillery.example",
+    "phone": "+441632960615",
+    "jobtitle": "Visitor centre manager",
+    "company": "Ronsay Distillery",
+    "lifecyclestage": "marketingqualifiedlead",
+    "createdate": "2026-11-24T13:00:00Z",
+    "lastmodifieddate": "2026-11-24T13:00:00Z"
+   },
+   "createdAt": "2026-11-24T13:00:00Z",
+   "updatedAt": "2026-11-24T13:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "62301",
+   "properties": {
+    "dealname": "Waiting room poster panels 2027, Calderwick Hotel",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "900",
+    "closedate": "2026-12-02T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-11-10T10:30:00Z",
+    "lastmodifieddate": "2026-12-02T15:00:00Z"
+   },
+   "createdAt": "2026-11-10T10:30:00Z",
+   "updatedAt": "2026-12-02T15:00:00Z",
+   "archived": false,
+   "_company": "62101",
+   "_contact": "62201"
+  },
+  {
+   "id": "62302",
+   "properties": {
+    "dealname": "Café counter tasting display, Ronsay Distillery",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "1200",
+    "closedate": "2026-12-18T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-11T11:40:00Z",
+    "lastmodifieddate": "2026-12-07T09:40:00Z"
+   },
+   "createdAt": "2026-11-11T11:40:00Z",
+   "updatedAt": "2026-12-07T09:40:00Z",
+   "archived": false,
+   "_company": "62102",
+   "_contact": "62202"
+  },
+  {
+   "id": "62303",
+   "properties": {
+    "dealname": "Brochure cross-listing, Sound Wildlife Tours",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "450",
+    "closedate": "2026-12-16T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-18T10:00:00Z",
+    "lastmodifieddate": "2026-12-04T12:10:00Z"
+   },
+   "createdAt": "2026-11-18T10:00:00Z",
+   "updatedAt": "2026-12-04T12:10:00Z",
+   "archived": false,
+   "_company": "62104",
+   "_contact": "62204"
+  },
+  {
+   "id": "62304",
+   "properties": {
+    "dealname": "Waiting room poster panel, Ronsay Wool Shop",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "300",
+    "closedate": "2026-12-21T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-16T14:20:00Z",
+    "lastmodifieddate": "2026-11-16T14:20:00Z"
+   },
+   "createdAt": "2026-11-16T14:20:00Z",
+   "updatedAt": "2026-11-16T14:20:00Z",
+   "archived": false,
+   "_company": "62103",
+   "_contact": "62203"
+  }
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "lists": [
+  {
+   "id": "list-ts-bulletin",
+   "name": "Shore staff bulletin",
+   "stats": {
+    "member_count": 9,
+    "unsubscribe_count": 0,
+    "open_rate": 0.0,
+    "click_rate": 0.0
+   },
+   "date_created": "2026-11-09T09:00:00+00:00"
+  }
+ ],
+ "members": [
+  {
+   "id": "4712b8866c26f79733b1b135b3f054d0",
+   "list_id": "list-ts-bulletin",
+   "email_address": "euan.galbraith@tarrowsound.example",
+   "full_name": "Euan Galbraith",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-09T09:00:00.000Z",
+   "member_rating": 5,
+   "_pk": "list-ts-bulletin@4712b8866c26f79733b1b135b3f054d0"
+  },
+  {
+   "id": "27aed0520479a0a7a56e8f0732e8d123",
+   "list_id": "list-ts-bulletin",
+   "email_address": "ottilie.strang@tarrowsound.example",
+   "full_name": "Ottilie Strang",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-09T09:00:00.000Z",
+   "member_rating": 5,
+   "_pk": "list-ts-bulletin@27aed0520479a0a7a56e8f0732e8d123"
+  },
+  {
+   "id": "fabe9f71070ae0dd77f3d2b9ada22d02",
+   "list_id": "list-ts-bulletin",
+   "email_address": "fergus.lennox@tarrowsound.example",
+   "full_name": "Fergus Lennox",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-09T09:05:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-ts-bulletin@fabe9f71070ae0dd77f3d2b9ada22d02"
+  },
+  {
+   "id": "385e0032a5df0876a85927185a2cec27",
+   "list_id": "list-ts-bulletin",
+   "email_address": "rhona.dalgetty@tarrowsound.example",
+   "full_name": "Rhona Dalgetty",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-09T09:05:00.000Z",
+   "member_rating": 4,
+   "_pk": "list-ts-bulletin@385e0032a5df0876a85927185a2cec27"
+  },
+  {
+   "id": "7aeabd29d9fb2585b2cd17ef62102a8c",
+   "list_id": "list-ts-bulletin",
+   "email_address": "aileen.carmichael@tarrowsound.example",
+   "full_name": "Aileen Carmichael",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-10T11:20:00.000Z",
+   "member_rating": 4,
+   "_pk": "list-ts-bulletin@7aeabd29d9fb2585b2cd17ef62102a8c"
+  },
+  {
+   "id": "d4eaa0529bd8e7f7dd4297e4a5721cd1",
+   "list_id": "list-ts-bulletin",
+   "email_address": "lachlan.moffat@tarrowsound.example",
+   "full_name": "Lachlan Moffat",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-10T11:25:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-ts-bulletin@d4eaa0529bd8e7f7dd4297e4a5721cd1"
+  },
+  {
+   "id": "941366c17afb4177b5652067c7a1b3c3",
+   "list_id": "list-ts-bulletin",
+   "email_address": "niall.urquhart@tarrowsound.example",
+   "full_name": "Niall Urquhart",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-12T08:40:00.000Z",
+   "member_rating": 4,
+   "_pk": "list-ts-bulletin@941366c17afb4177b5652067c7a1b3c3"
+  },
+  {
+   "id": "8f032cdbe1d191f5e14a122055fe46a0",
+   "list_id": "list-ts-bulletin",
+   "email_address": "morven.lumsden@tarrowsound.example",
+   "full_name": "Morven Lumsden",
+   "status": "subscribed",
+   "timestamp_signup": "2026-11-12T08:42:00.000Z",
+   "member_rating": 2,
+   "_pk": "list-ts-bulletin@8f032cdbe1d191f5e14a122055fe46a0"
+  },
+  {
+   "id": "f89666a0372183adda98128190660789",
+   "list_id": "list-ts-bulletin",
+   "email_address": "beth.tulloch@tarrowsound.example",
+   "full_name": "Beth Tulloch",
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-11-12T08:45:00.000Z",
+   "member_rating": 1,
+   "_pk": "list-ts-bulletin@f89666a0372183adda98128190660789"
+  }
+ ],
+ "campaigns": [
+  {
+   "id": "camp-ts-nov",
+   "list_id": "list-ts-bulletin",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 8,
+   "send_time": "2026-11-20T16:00:00.000Z",
+   "create_time": "2026-11-18T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-ts-bulletin"
+   },
+   "settings": {
+    "subject_line": "Shore bulletin: November",
+    "from_name": "Tarrow Sound Ferries",
+    "reply_to": "ottilie.strang@tarrowsound.example",
+    "title": "Shore bulletin November 2026"
+   }
+  },
+  {
+   "id": "camp-ts-dec",
+   "list_id": "list-ts-bulletin",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 8,
+   "send_time": "2026-12-04T16:00:00.000Z",
+   "create_time": "2026-12-02T14:30:00.000Z",
+   "recipients": {
+    "list_id": "list-ts-bulletin"
+   },
+   "settings": {
+    "subject_line": "Shore bulletin: jackets, first aid and the night out",
+    "from_name": "Tarrow Sound Ferries",
+    "reply_to": "ottilie.strang@tarrowsound.example",
+    "title": "Shore bulletin December 2026"
+   }
+  },
+  {
+   "id": "camp-ts-xmas",
+   "list_id": "list-ts-bulletin",
+   "type": "regular",
+   "status": "save",
+   "emails_sent": 0,
+   "send_time": null,
+   "create_time": "2026-12-10T11:00:00.000Z",
+   "recipients": {
+    "list_id": "list-ts-bulletin"
+   },
+   "settings": {
+    "subject_line": "Shore bulletin: festive opening hours for the offices and café",
+    "from_name": "Tarrow Sound Ferries",
+    "reply_to": "ottilie.strang@tarrowsound.example",
+    "title": "Shore bulletin festive 2026 (draft)"
+   }
+  }
+ ]
+}

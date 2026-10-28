@@ -1,0 +1,132 @@
+{
+ "tasks": [
+  {
+   "assignee_gid": "1225000000000301",
+   "completed": false,
+   "created_at": "2026-09-10T09:00:00.000Z",
+   "due_on": "2026-11-13",
+   "gid": "1225000000004000",
+   "modified_at": "2026-10-20T10:00:00.000Z",
+   "name": "Design the Christmas window",
+   "notes": "Theme: lanterns for Lights of Remembrance.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000202"
+  },
+  {
+   "assignee_gid": "1225000000000301",
+   "completed": true,
+   "created_at": "2026-09-11T09:00:00.000Z",
+   "due_on": "2026-10-01",
+   "gid": "1225000000004001",
+   "modified_at": "2026-10-21T10:00:00.000Z",
+   "name": "Order Christmas cards",
+   "notes": "Six designs, 4,000 packs.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000203"
+  },
+  {
+   "assignee_gid": "1225000000000302",
+   "completed": false,
+   "created_at": "2026-09-12T09:00:00.000Z",
+   "due_on": "2026-12-01",
+   "gid": "1225000000004002",
+   "modified_at": "2026-10-22T10:00:00.000Z",
+   "name": "Recruit tree collection drivers",
+   "notes": "28 drivers needed.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000202"
+  },
+  {
+   "assignee_gid": "1225000000000303",
+   "completed": false,
+   "created_at": "2026-09-13T09:00:00.000Z",
+   "due_on": "2026-11-27",
+   "gid": "1225000000004003",
+   "modified_at": "2026-10-23T10:00:00.000Z",
+   "name": "Winter newsletter",
+   "notes": "Lead story on the Kestrel weekend.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000201"
+  },
+  {
+   "assignee_gid": "1225000000000302",
+   "completed": false,
+   "created_at": "2026-09-14T09:00:00.000Z",
+   "due_on": "2026-12-10",
+   "gid": "1225000000004004",
+   "modified_at": "2026-10-24T10:00:00.000Z",
+   "name": "Shop volunteer thank-you cards",
+   "notes": "Handwritten.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000201"
+  },
+  {
+   "assignee_gid": "1225000000000301",
+   "completed": true,
+   "created_at": "2026-09-15T09:00:00.000Z",
+   "due_on": "2026-10-20",
+   "gid": "1225000000004005",
+   "modified_at": "2026-10-25T10:00:00.000Z",
+   "name": "Price the donated jewellery",
+   "notes": "Valuer came on the 19th.",
+   "project_gid": "1225000000000101",
+   "section_gid": "1225000000000203"
+  }
+ ],
+ "workspace": {
+  "gid": "1225000000000001",
+  "name": "Linnet Lane Hospice"
+ },
+ "users": [
+  {
+   "email": "lorcan.featherstone@linnetlane.example",
+   "gid": "1225000000000301",
+   "name": "Lorcan Featherstone",
+   "workspace_gid": "1225000000000001"
+  },
+  {
+   "email": "delphine.ashcombe@linnetlane.example",
+   "gid": "1225000000000302",
+   "name": "Delphine Ashcombe",
+   "workspace_gid": "1225000000000001"
+  },
+  {
+   "email": "kirsty.mabey@linnetlane.example",
+   "gid": "1225000000000303",
+   "name": "Kirsty Mabey",
+   "workspace_gid": "1225000000000001"
+  }
+ ],
+ "projects": [
+  {
+   "archived": false,
+   "color": "dark-purple",
+   "created_at": "2026-09-01T09:00:00.000Z",
+   "gid": "1225000000000101",
+   "name": "Christmas in the shops",
+   "notes": "Windows, cards and the Christmas tree collection.",
+   "owner_gid": "1225000000000301",
+   "workspace_gid": "1225000000000001"
+  }
+ ],
+ "sections": [
+  {
+   "created_at": "2026-09-01T09:00:00.000Z",
+   "gid": "1225000000000201",
+   "name": "To do",
+   "project_gid": "1225000000000101"
+  },
+  {
+   "created_at": "2026-09-01T09:00:00.000Z",
+   "gid": "1225000000000202",
+   "name": "In progress",
+   "project_gid": "1225000000000101"
+  },
+  {
+   "created_at": "2026-09-01T09:00:00.000Z",
+   "gid": "1225000000000203",
+   "name": "Done",
+   "project_gid": "1225000000000101"
+  }
+ ]
+}

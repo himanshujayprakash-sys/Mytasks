@@ -1,0 +1,245 @@
+{
+ "companies": [
+  {
+   "archived": false,
+   "createdAt": "2025-02-01T09:00:00Z",
+   "id": "2510",
+   "properties": {
+    "name": "Brightwater Insurance",
+    "domain": "brightwater-insurance.example",
+    "industry": "Insurance",
+    "city": "Port Cressing",
+    "state": "England",
+    "numberofemployees": "640",
+    "annualrevenue": "57600000",
+    "createdate": "2025-02-01T09:00:00Z"
+   },
+   "updatedAt": "2026-10-10T09:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-03-01T09:00:00Z",
+   "id": "2511",
+   "properties": {
+    "name": "Hallbrook Logistics",
+    "domain": "hallbrook-logistics.example",
+    "industry": "Logistics",
+    "city": "Port Cressing",
+    "state": "England",
+    "numberofemployees": "420",
+    "annualrevenue": "37800000",
+    "createdate": "2025-03-01T09:00:00Z"
+   },
+   "updatedAt": "2026-10-11T09:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-04-01T09:00:00Z",
+   "id": "2512",
+   "properties": {
+    "name": "Saltmarsh Brewing Co",
+    "domain": "saltmarshbrewing.example",
+    "industry": "Food and Beverage",
+    "city": "Tidemouth",
+    "state": "England",
+    "numberofemployees": "35",
+    "annualrevenue": "3150000",
+    "createdate": "2025-04-01T09:00:00Z"
+   },
+   "updatedAt": "2026-10-12T09:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-05-01T09:00:00Z",
+   "id": "2513",
+   "properties": {
+    "name": "Cressing Building Society",
+    "domain": "cressingbs.example",
+    "industry": "Financial Services",
+    "city": "Port Cressing",
+    "state": "England",
+    "numberofemployees": "210",
+    "annualrevenue": "18900000",
+    "createdate": "2025-05-01T09:00:00Z"
+   },
+   "updatedAt": "2026-10-13T09:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-06-01T09:00:00Z",
+   "id": "2514",
+   "properties": {
+    "name": "Penmor Foods",
+    "domain": "penmorfoods.example",
+    "industry": "Food Production",
+    "city": "Penmor",
+    "state": "England",
+    "numberofemployees": "380",
+    "annualrevenue": "34200000",
+    "createdate": "2025-06-01T09:00:00Z"
+   },
+   "updatedAt": "2026-10-14T09:00:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "archived": false,
+   "createdAt": "2025-06-01T10:00:00Z",
+   "id": "2520",
+   "properties": {
+    "firstname": "Eleri",
+    "lastname": "Vaughan-Price",
+    "email": "community.fund@hallbrook-logistics.example",
+    "phone": "01632 960 700",
+    "jobtitle": "Community Fund Coordinator",
+    "company": "Hallbrook Logistics",
+    "lifecyclestage": "customer",
+    "createdate": "2025-06-01T10:00:00Z",
+    "lastmodifieddate": "2026-10-20T10:00:00Z"
+   },
+   "updatedAt": "2026-10-20T10:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-06-02T10:00:00Z",
+   "id": "2521",
+   "properties": {
+    "firstname": "Gavin",
+    "lastname": "Muir",
+    "email": "gavin.muir@brightwater-insurance.example",
+    "phone": "01632 960 701",
+    "jobtitle": "Giving Team Lead",
+    "company": "Brightwater Insurance",
+    "lifecyclestage": "customer",
+    "createdate": "2025-06-02T10:00:00Z",
+    "lastmodifieddate": "2026-10-21T10:00:00Z"
+   },
+   "updatedAt": "2026-10-21T10:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-06-03T10:00:00Z",
+   "id": "2522",
+   "properties": {
+    "firstname": "Lucy",
+    "lastname": "Penhallow",
+    "email": "lucy@saltmarshbrewing.example",
+    "phone": "01632 960 702",
+    "jobtitle": "Owner",
+    "company": "Saltmarsh Brewing Co",
+    "lifecyclestage": "customer",
+    "createdate": "2025-06-03T10:00:00Z",
+    "lastmodifieddate": "2026-10-22T10:00:00Z"
+   },
+   "updatedAt": "2026-10-22T10:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-06-04T10:00:00Z",
+   "id": "2523",
+   "properties": {
+    "firstname": "Simon",
+    "lastname": "Archer",
+    "email": "simon.archer@cressingbs.example",
+    "phone": "01632 960 703",
+    "jobtitle": "Branch Manager",
+    "company": "Cressing Building Society",
+    "lifecyclestage": "customer",
+    "createdate": "2025-06-04T10:00:00Z",
+    "lastmodifieddate": "2026-10-23T10:00:00Z"
+   },
+   "updatedAt": "2026-10-23T10:00:00Z"
+  },
+  {
+   "archived": false,
+   "createdAt": "2025-06-05T10:00:00Z",
+   "id": "2524",
+   "properties": {
+    "firstname": "Hayley",
+    "lastname": "Dunstan",
+    "email": "people@penmorfoods.example",
+    "phone": "01632 960 704",
+    "jobtitle": "People Partner",
+    "company": "Penmor Foods",
+    "lifecyclestage": "customer",
+    "createdate": "2025-06-05T10:00:00Z",
+    "lastmodifieddate": "2026-10-24T10:00:00Z"
+   },
+   "updatedAt": "2026-10-24T10:00:00Z"
+  }
+ ],
+ "deals": [
+  {
+   "_company": "2510",
+   "_contact": "2520",
+   "archived": false,
+   "createdAt": "2026-09-10T10:00:00Z",
+   "id": "2530",
+   "properties": {
+    "dealname": "Brightwater staff Christmas jumper day",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "1200",
+    "closedate": "2026-12-11T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-10T10:00:00Z",
+    "lastmodifieddate": "2026-11-01T10:00:00Z"
+   },
+   "updatedAt": "2026-11-01T10:00:00Z"
+  },
+  {
+   "_company": "2511",
+   "_contact": "2521",
+   "archived": false,
+   "createdAt": "2026-09-11T10:00:00Z",
+   "id": "2531",
+   "properties": {
+    "dealname": "Hallbrook volunteering days 2027",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "0",
+    "closedate": "2027-03-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-11T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T10:00:00Z"
+   },
+   "updatedAt": "2026-11-02T10:00:00Z"
+  },
+  {
+   "_company": "2512",
+   "_contact": "2522",
+   "archived": false,
+   "createdAt": "2026-09-12T10:00:00Z",
+   "id": "2532",
+   "properties": {
+    "dealname": "Saltmarsh charity ale",
+    "pipeline": "default",
+    "dealstage": "contractsent",
+    "amount": "800",
+    "closedate": "2027-01-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-12T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T10:00:00Z"
+   },
+   "updatedAt": "2026-11-03T10:00:00Z"
+  },
+  {
+   "_company": "2513",
+   "_contact": "2523",
+   "archived": false,
+   "createdAt": "2026-09-13T10:00:00Z",
+   "id": "2533",
+   "properties": {
+    "dealname": "Building society charity of the year",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "5000",
+    "closedate": "2027-04-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-13T10:00:00Z",
+    "lastmodifieddate": "2026-11-04T10:00:00Z"
+   },
+   "updatedAt": "2026-11-04T10:00:00Z"
+  }
+ ]
+}

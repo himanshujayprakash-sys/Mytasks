@@ -1,0 +1,253 @@
+{
+ "folders": {
+  "fd_gwp_scripts": {
+   "fdid": "fd_gwp_scripts",
+   "name": "Scripts",
+   "parent_id": "fd_root",
+   "path": "/Scripts",
+   "created_at": "2026-02-16T10:00"
+  },
+  "fd_gwp_sched": {
+   "fdid": "fd_gwp_sched",
+   "name": "Schedules",
+   "parent_id": "fd_root",
+   "path": "/Schedules",
+   "created_at": "2026-02-16T10:05"
+  },
+  "fd_gwp_admin": {
+   "fdid": "fd_gwp_admin",
+   "name": "Office admin",
+   "parent_id": "fd_root",
+   "path": "/Office admin",
+   "created_at": "2026-02-16T10:10"
+  }
+ },
+ "files": {
+  "fGwp102481315f2f529c36": {
+   "fid": "fGwp102481315f2f529c36",
+   "name": "Block 5 shooting script (blue).pdf",
+   "folder_id": "fd_gwp_scripts",
+   "path": "/Scripts/Block 5 shooting script (blue).pdf",
+   "size_bytes": 1840211,
+   "mime_type": "application/pdf",
+   "created_at": "2026-10-26T09:12",
+   "updated_at": "2026-11-02T17:40",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwp6d0431"
+  },
+  "fGwp52936df8bf3470341b": {
+   "fid": "fGwp52936df8bf3470341b",
+   "name": "Block 6 shooting script (white).pdf",
+   "folder_id": "fd_gwp_scripts",
+   "path": "/Scripts/Block 6 shooting script (white).pdf",
+   "size_bytes": 1902773,
+   "mime_type": "application/pdf",
+   "created_at": "2026-11-16T10:30",
+   "updated_at": "2026-11-16T10:30",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_gwp9c9bcf"
+  },
+  "fGwpd3455c85db09eeb932": {
+   "fid": "fGwpd3455c85db09eeb932",
+   "name": "One-line schedule series 2 v14.pdf",
+   "folder_id": "fd_gwp_sched",
+   "path": "/Schedules/One-line schedule series 2 v14.pdf",
+   "size_bytes": 412880,
+   "mime_type": "application/pdf",
+   "created_at": "2026-11-13T15:55",
+   "updated_at": "2026-11-13T15:55",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_gwpfc59be"
+  },
+  "fGwp9185c8dc74ec7055b6": {
+   "fid": "fGwp9185c8dc74ec7055b6",
+   "name": "Day out of days block 6.xlsx",
+   "folder_id": "fd_gwp_sched",
+   "path": "/Schedules/Day out of days block 6.xlsx",
+   "size_bytes": 98114,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-11-17T11:20",
+   "updated_at": "2026-11-19T09:05",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwpe4baa6"
+  },
+  "fGwpd18ab00af18920472c": {
+   "fid": "fGwpd18ab00af18920472c",
+   "name": "Crew list series 2.xlsx",
+   "folder_id": "fd_gwp_admin",
+   "path": "/Office admin/Crew list series 2.xlsx",
+   "size_bytes": 76220,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-03-02T09:00",
+   "updated_at": "2026-11-18T16:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwpfc38da"
+  },
+  "fGwp7c7eed8f28d9a724d4": {
+   "fid": "fGwp7c7eed8f28d9a724d4",
+   "name": "Base map.pdf",
+   "folder_id": "fd_gwp_admin",
+   "path": "/Office admin/Base map.pdf",
+   "size_bytes": 330114,
+   "mime_type": "application/pdf",
+   "created_at": "2026-03-01T12:00",
+   "updated_at": "2026-03-01T12:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwp00ea47"
+  },
+  "fGwp49c9df4041276470b4": {
+   "fid": "fGwp49c9df4041276470b4",
+   "name": "Fire evacuation plan unit base.pdf",
+   "folder_id": "fd_gwp_admin",
+   "path": "/Office admin/Fire evacuation plan unit base.pdf",
+   "size_bytes": 210334,
+   "mime_type": "application/pdf",
+   "created_at": "2026-03-01T12:10",
+   "updated_at": "2026-03-01T12:10",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwpdf1520"
+  },
+  "fGwpb7a99d5ace9e8c8c2c": {
+   "fid": "fGwpb7a99d5ace9e8c8c2c",
+   "name": "Wrap party guest list.xlsx",
+   "folder_id": "fd_gwp_admin",
+   "path": "/Office admin/Wrap party guest list.xlsx",
+   "size_bytes": 18440,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-11-06T09:30",
+   "updated_at": "2026-11-19T14:15",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_gwp33552e"
+  }
+ },
+ "versions": {
+  "v_gwp452276": {
+   "vid": "v_gwp452276",
+   "file_id": "fGwp102481315f2f529c36",
+   "version_number": 1,
+   "size_bytes": 1839311,
+   "created_at": "2026-10-26T09:12",
+   "comment": "Initial upload"
+  },
+  "v_gwp6d0431": {
+   "vid": "v_gwp6d0431",
+   "file_id": "fGwp102481315f2f529c36",
+   "version_number": 2,
+   "size_bytes": 1840211,
+   "created_at": "2026-11-02T17:40",
+   "comment": "Updated by the production office"
+  },
+  "v_gwp9c9bcf": {
+   "vid": "v_gwp9c9bcf",
+   "file_id": "fGwp52936df8bf3470341b",
+   "version_number": 1,
+   "size_bytes": 1902773,
+   "created_at": "2026-11-16T10:30",
+   "comment": "Initial upload"
+  },
+  "v_gwpfc59be": {
+   "vid": "v_gwpfc59be",
+   "file_id": "fGwpd3455c85db09eeb932",
+   "version_number": 1,
+   "size_bytes": 412880,
+   "created_at": "2026-11-13T15:55",
+   "comment": "Initial upload"
+  },
+  "v_gwp291e28": {
+   "vid": "v_gwp291e28",
+   "file_id": "fGwp9185c8dc74ec7055b6",
+   "version_number": 1,
+   "size_bytes": 97214,
+   "created_at": "2026-11-17T11:20",
+   "comment": "Initial upload"
+  },
+  "v_gwpe4baa6": {
+   "vid": "v_gwpe4baa6",
+   "file_id": "fGwp9185c8dc74ec7055b6",
+   "version_number": 2,
+   "size_bytes": 98114,
+   "created_at": "2026-11-19T09:05",
+   "comment": "Updated by the production office"
+  },
+  "v_gwp1eba83": {
+   "vid": "v_gwp1eba83",
+   "file_id": "fGwpd18ab00af18920472c",
+   "version_number": 1,
+   "size_bytes": 74420,
+   "created_at": "2026-03-02T09:00",
+   "comment": "Initial upload"
+  },
+  "v_gwp03d932": {
+   "vid": "v_gwp03d932",
+   "file_id": "fGwpd18ab00af18920472c",
+   "version_number": 2,
+   "size_bytes": 75320,
+   "created_at": "2026-11-18T16:00",
+   "comment": "Updated by the production office"
+  },
+  "v_gwpfc38da": {
+   "vid": "v_gwpfc38da",
+   "file_id": "fGwpd18ab00af18920472c",
+   "version_number": 3,
+   "size_bytes": 76220,
+   "created_at": "2026-11-18T16:00",
+   "comment": "Updated by the production office"
+  },
+  "v_gwp00ea47": {
+   "vid": "v_gwp00ea47",
+   "file_id": "fGwp7c7eed8f28d9a724d4",
+   "version_number": 1,
+   "size_bytes": 330114,
+   "created_at": "2026-03-01T12:00",
+   "comment": "Initial upload"
+  },
+  "v_gwpdf1520": {
+   "vid": "v_gwpdf1520",
+   "file_id": "fGwp49c9df4041276470b4",
+   "version_number": 1,
+   "size_bytes": 210334,
+   "created_at": "2026-03-01T12:10",
+   "comment": "Initial upload"
+  },
+  "v_gwp1e19fe": {
+   "vid": "v_gwp1e19fe",
+   "file_id": "fGwpb7a99d5ace9e8c8c2c",
+   "version_number": 1,
+   "size_bytes": 15740,
+   "created_at": "2026-11-06T09:30",
+   "comment": "Initial upload"
+  },
+  "v_gwpe67720": {
+   "vid": "v_gwpe67720",
+   "file_id": "fGwpb7a99d5ace9e8c8c2c",
+   "version_number": 2,
+   "size_bytes": 16640,
+   "created_at": "2026-11-19T14:15",
+   "comment": "Updated by the production office"
+  },
+  "v_gwpff3994": {
+   "vid": "v_gwpff3994",
+   "file_id": "fGwpb7a99d5ace9e8c8c2c",
+   "version_number": 3,
+   "size_bytes": 17540,
+   "created_at": "2026-11-19T14:15",
+   "comment": "Updated by the production office"
+  },
+  "v_gwp33552e": {
+   "vid": "v_gwp33552e",
+   "file_id": "fGwpb7a99d5ace9e8c8c2c",
+   "version_number": 4,
+   "size_bytes": 18440,
+   "created_at": "2026-11-19T14:15",
+   "comment": "Updated by the production office"
+  }
+ }
+}

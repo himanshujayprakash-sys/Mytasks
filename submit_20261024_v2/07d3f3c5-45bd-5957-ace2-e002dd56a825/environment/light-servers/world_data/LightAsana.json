@@ -1,0 +1,282 @@
+{
+ "workspace": {
+  "gid": "1218800000000001",
+  "name": "Ashgrove Mutual"
+ },
+ "users": [
+  {
+   "gid": "1218800000000300",
+   "name": "Callum Reid",
+   "email": "callum.reid@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000301",
+   "name": "Nina Okoro",
+   "email": "nina.okoro@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000302",
+   "name": "Raj Gill",
+   "email": "raj.gill@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000303",
+   "name": "Joanna Pryce",
+   "email": "joanna.pryce@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000304",
+   "name": "Gareth Lowe",
+   "email": "gareth.lowe@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000305",
+   "name": "Imelda Grice",
+   "email": "imelda.grice@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000306",
+   "name": "Torquil Ashby",
+   "email": "torquil.ashby@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000307",
+   "name": "Saoirse Mullan",
+   "email": "saoirse.mullan@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000308",
+   "name": "Hamish Tulloch",
+   "email": "hamish.tulloch@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000309",
+   "name": "Bronwen Castell",
+   "email": "bronwen.castell@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000310",
+   "name": "Ifeoma Dale",
+   "email": "ifeoma.dale@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000311",
+   "name": "Dominic Farrant",
+   "email": "dominic.farrant@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000312",
+   "name": "Leah Whitcombe",
+   "email": "leah.whitcombe@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  },
+  {
+   "gid": "1218800000000313",
+   "name": "Ottoline Brack",
+   "email": "ottoline.brack@ashgrovemutual.test",
+   "workspace_gid": "1218800000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1218800000000101",
+   "name": "Ashgrove House floor 3 refit",
+   "notes": "Desks, rooms and moves for the third floor at Ashgrove House.",
+   "color": "dark-blue",
+   "archived": false,
+   "owner_gid": "1218800000000313",
+   "workspace_gid": "1218800000000001",
+   "created_at": "2026-09-14T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1218800000000201",
+   "name": "Later",
+   "project_gid": "1218800000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  },
+  {
+   "gid": "1218800000000202",
+   "name": "This month",
+   "project_gid": "1218800000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  },
+  {
+   "gid": "1218800000000203",
+   "name": "Finished",
+   "project_gid": "1218800000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1218800000000400",
+   "name": "Agree the floor 3 seating plan with team leads",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000203",
+   "assignee_gid": "1218800000000313",
+   "completed": true,
+   "due_on": "2026-10-02",
+   "notes": "Plan signed off on 1 October; the quiet zone moves to the window side.",
+   "created_at": "2026-09-14T10:10:00.000Z",
+   "modified_at": "2026-10-01T15:20:00.000Z"
+  },
+  {
+   "gid": "1218800000000401",
+   "name": "Order sit-stand desks for the quiet zone",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000203",
+   "assignee_gid": "1218800000000306",
+   "completed": true,
+   "due_on": "2026-10-09",
+   "notes": "Twelve desks ordered on 8 October; delivery booked for the week of 2 November.",
+   "created_at": "2026-09-14T10:11:00.000Z",
+   "modified_at": "2026-10-08T15:21:00.000Z"
+  },
+  {
+   "gid": "1218800000000402",
+   "name": "Choose the carpet tile colour",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000203",
+   "assignee_gid": "1218800000000313",
+   "completed": true,
+   "due_on": "2026-10-06",
+   "notes": "Slate grey won the staff vote by four votes.",
+   "created_at": "2026-09-16T10:12:00.000Z",
+   "modified_at": "2026-10-05T15:22:00.000Z"
+  },
+  {
+   "gid": "1218800000000403",
+   "name": "Kitchen: replace the boiling water tap",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000203",
+   "assignee_gid": "1218800000000306",
+   "completed": true,
+   "due_on": "2026-09-30",
+   "notes": "New tap fitted on 29 September.",
+   "created_at": "2026-09-18T10:13:00.000Z",
+   "modified_at": "2026-09-29T15:23:00.000Z"
+  },
+  {
+   "gid": "1218800000000404",
+   "name": "Move the printers away from the kitchen",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000202",
+   "assignee_gid": "1218800000000306",
+   "completed": false,
+   "due_on": "2026-11-06",
+   "notes": "Needs two new floor boxes; the electrician's quote came in on 14 October.",
+   "created_at": "2026-09-21T10:14:00.000Z",
+   "modified_at": "2026-10-14T15:24:00.000Z"
+  },
+  {
+   "gid": "1218800000000405",
+   "name": "New screens for the floor 3 meeting rooms",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000202",
+   "assignee_gid": "1218800000000307",
+   "completed": false,
+   "due_on": "2026-11-13",
+   "notes": "Two 65-inch screens with wireless casting, same model as Skiddaw.",
+   "created_at": "2026-09-22T10:15:00.000Z",
+   "modified_at": "2026-10-12T15:25:00.000Z"
+  },
+  {
+   "gid": "1218800000000406",
+   "name": "Accessibility walk-through of the new layout",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000202",
+   "assignee_gid": "1218800000000305",
+   "completed": false,
+   "due_on": "2026-11-06",
+   "notes": "Walk the plan with the two colleagues who use wheelchairs before the walls come down.",
+   "created_at": "2026-09-28T10:16:00.000Z",
+   "modified_at": "2026-10-07T15:26:00.000Z"
+  },
+  {
+   "gid": "1218800000000407",
+   "name": "Weekend move of the finance team",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000313",
+   "completed": false,
+   "due_on": "2026-11-14",
+   "notes": "Crates handed out on Wednesday 11 November; phones moved by IT over the weekend.",
+   "created_at": "2026-10-01T10:17:00.000Z",
+   "modified_at": "2026-10-16T15:27:00.000Z"
+  },
+  {
+   "gid": "1218800000000408",
+   "name": "Lockers for hot-desk staff",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000306",
+   "completed": false,
+   "due_on": "2026-11-20",
+   "notes": "Forty lockers; still deciding between keys and codes.",
+   "created_at": "2026-10-05T10:18:00.000Z",
+   "modified_at": "2026-10-05T15:28:00.000Z"
+  },
+  {
+   "gid": "1218800000000409",
+   "name": "Update the floor 3 fire wardens list",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000306",
+   "completed": false,
+   "due_on": "2026-11-16",
+   "notes": "One warden per zone once the move is done.",
+   "created_at": "2026-10-06T10:19:00.000Z",
+   "modified_at": "2026-10-06T15:29:00.000Z"
+  },
+  {
+   "gid": "1218800000000410",
+   "name": "Name signs for the new meeting rooms",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000313",
+   "completed": false,
+   "due_on": "2026-11-20",
+   "notes": "Rooms are named after local fells: Blencathra and Catbells on floor 3.",
+   "created_at": "2026-10-08T10:20:00.000Z",
+   "modified_at": "2026-10-13T15:30:00.000Z"
+  },
+  {
+   "gid": "1218800000000411",
+   "name": "Plants for the breakout area",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000313",
+   "completed": false,
+   "due_on": "2026-11-27",
+   "notes": "Compare a maintenance contract against buying outright.",
+   "created_at": "2026-10-12T10:21:00.000Z",
+   "modified_at": "2026-10-12T15:31:00.000Z"
+  },
+  {
+   "gid": "1218800000000412",
+   "name": "Wi-Fi survey after the partitions come down",
+   "project_gid": "1218800000000101",
+   "section_gid": "1218800000000201",
+   "assignee_gid": "1218800000000307",
+   "completed": false,
+   "due_on": "2026-11-23",
+   "notes": "Book the survey once the old partitions have gone.",
+   "created_at": "2026-10-15T10:22:00.000Z",
+   "modified_at": "2026-10-15T15:32:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "customers": [
+  {
+   "Id": "9101",
+   "DisplayName": "Crew social fund members",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Weekly subs, two pounds a head"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "9201",
+   "DisplayName": "Rookhaven Assembly Rooms",
+   "PrimaryEmailAddr": {
+    "Address": "events@rookhavenassembly.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632960733"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Wrap party venue"
+  },
+  {
+   "Id": "9202",
+   "DisplayName": "Rookhaven Rovers FC",
+   "PrimaryEmailAddr": {
+    "Address": "secretary@rookhavenrovers.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632960744"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Pitch hire for the crew football"
+  }
+ ],
+ "items": [
+  {
+   "Id": "9301",
+   "Name": "Weekly subs",
+   "Description": "Crew social fund, per member per week",
+   "Type": "Service",
+   "UnitPrice": 2.0,
+   "IncomeAccountRef": {
+    "value": "91",
+    "name": "Subscriptions"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-03-02 09:00:00",
+    "LastUpdatedTime": "2026-03-02 09:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "9501",
+   "DocNumber": "SF-2026-40",
+   "TxnDate": "2026-10-30",
+   "DueDate": "2026-10-30",
+   "CustomerRef": {
+    "value": "9101",
+    "name": "Crew social fund members"
+   },
+   "Line": [
+    {
+     "Amount": 146.0,
+     "Description": "Subs week 44",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Weekly subs"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 146.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "9502",
+   "DocNumber": "SF-2026-41",
+   "TxnDate": "2026-11-06",
+   "DueDate": "2026-11-06",
+   "CustomerRef": {
+    "value": "9101",
+    "name": "Crew social fund members"
+   },
+   "Line": [
+    {
+     "Amount": 152.0,
+     "Description": "Subs week 45",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Weekly subs"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 152.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "9503",
+   "DocNumber": "SF-2026-42",
+   "TxnDate": "2026-11-13",
+   "DueDate": "2026-11-13",
+   "CustomerRef": {
+    "value": "9101",
+    "name": "Crew social fund members"
+   },
+   "Line": [
+    {
+     "Amount": 140.0,
+     "Description": "Subs week 46",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Weekly subs"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 140.0,
+   "Balance": 0,
+   "Status": "Paid"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "9601",
+   "DocNumber": "RAR-0412",
+   "VendorRef": {
+    "value": "9201",
+    "name": "Rookhaven Assembly Rooms"
+   },
+   "TxnDate": "2026-11-05",
+   "DueDate": "2026-12-05",
+   "Line": [
+    {
+     "Amount": 400.0,
+     "Description": "Wrap party deposit",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "94"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 400.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by transfer."
+  }
+ ],
+ "payments": [],
+ "estimates": [],
+ "expenses": [
+  {
+   "Id": "9901",
+   "TxnDate": "2026-11-15",
+   "TotalAmt": 36.0,
+   "Line": [
+    {
+     "Description": "Football kit wash",
+     "Amount": 36.0
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-15T10:00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "calendars": {
+  "cal_ts_office": {
+   "cid": "cal_ts_office",
+   "name": "Shore office",
+   "color": "#4285F4"
+  },
+  "cal_ts_visits": {
+   "cid": "cal_ts_visits",
+   "name": "Contractor visits",
+   "color": "#0F9D58"
+  }
+ },
+ "events": {
+  "NFTj7o2mF3z5R1EZOAvKWZ": {
+   "eid": "NFTj7o2mF3z5R1EZOAvKWZ",
+   "title": "Joiner measures the ticket office counter",
+   "calendar_id": "cal_ts_visits",
+   "start": "2026-11-11T14:00",
+   "end": "2026-11-11T15:00",
+   "location": "Calderwick ticket office",
+   "description": "Linnhe Joinery measure up for the refit quote.",
+   "attendees": [
+    "Euan Galbraith",
+    "Duncan Rae"
+   ],
+   "all_day": false
+  },
+  "QwnW6K8zwiEWxTT9oyyu7Q": {
+   "eid": "QwnW6K8zwiEWxTT9oyyu7Q",
+   "title": "Gala committee meeting room hire",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-11-11T18:30",
+   "end": "2026-11-11T20:30",
+   "location": "Shore office meeting room",
+   "description": "Ronsay Gala Committee, invoiced at £60.",
+   "attendees": [
+    "Lachlan Moffat"
+   ],
+   "all_day": false
+  },
+  "HZsQkaU1Vkw70evHNUeJVr": {
+   "eid": "HZsQkaU1Vkw70evHNUeJVr",
+   "title": "Heating engineer, Ronsay waiting room",
+   "calendar_id": "cal_ts_visits",
+   "start": "2026-12-02T09:30",
+   "end": "2026-12-02T12:00",
+   "location": "Ronsay waiting room",
+   "description": "Corran Heating replace the thermostat.",
+   "attendees": [
+    "Lachlan Moffat",
+    "Mairead Lyle"
+   ],
+   "all_day": false
+  },
+  "BxvZirkNXEx7qktYsGWYEM": {
+   "eid": "BxvZirkNXEx7qktYsGWYEM",
+   "title": "Christmas quiz night",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-05T19:30",
+   "end": "2026-12-05T22:30",
+   "location": "Crew mess, Calderwick",
+   "description": "Social club quiz, teams of four.",
+   "attendees": [
+    "Beth Tulloch",
+    "Aileen Carmichael",
+    "Euan Galbraith"
+   ],
+   "all_day": false
+  },
+  "PdRzHDZqGivsyMFRBSX7JC": {
+   "eid": "PdRzHDZqGivsyMFRBSX7JC",
+   "title": "Jacket order deadline",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-11T00:00",
+   "end": "2026-12-11T23:59",
+   "location": "",
+   "description": "Order to Mull & Sound Workwear.",
+   "attendees": [
+    "Euan Galbraith"
+   ],
+   "all_day": true
+  },
+  "R1DDYtDqBPy4hHkmQBTn11": {
+   "eid": "R1DDYtDqBPy4hHkmQBTn11",
+   "title": "Lost property clear-out",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-14T10:00",
+   "end": "2026-12-14T11:00",
+   "location": "Ronsay pier office",
+   "description": "Items older than three months to the charity shop.",
+   "attendees": [
+    "Lachlan Moffat",
+    "Morven Lumsden"
+   ],
+   "all_day": false
+  },
+  "J6S2d4rRPOSoaqJnncWokF": {
+   "eid": "J6S2d4rRPOSoaqJnncWokF",
+   "title": "Broadband engineer",
+   "calendar_id": "cal_ts_visits",
+   "start": "2026-12-15T09:00",
+   "end": "2026-12-15T12:00",
+   "location": "Shore office comms cupboard",
+   "description": "Northlight line upgrade.",
+   "attendees": [
+    "Ewan Inglis"
+   ],
+   "all_day": false
+  },
+  "KNYUWp5wA1FxxJHE2iEQ4y": {
+   "eid": "KNYUWp5wA1FxxJHE2iEQ4y",
+   "title": "First aid course",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-16T09:00",
+   "end": "2026-12-16T16:00",
+   "location": "Crew mess, Calderwick",
+   "description": "Eight places, run by an outside trainer.",
+   "attendees": [
+    "Niall Urquhart",
+    "Torquil Baird"
+   ],
+   "all_day": false
+  },
+  "DeQ74JkASavbA2bDTfAnWo": {
+   "eid": "DeQ74JkASavbA2bDTfAnWo",
+   "title": "Staff night out",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-18T19:00",
+   "end": "2026-12-18T23:30",
+   "location": "Calderwick Hotel",
+   "description": "Minibus from the shore office at 6.45pm.",
+   "attendees": [
+    "Beth Tulloch",
+    "Euan Galbraith",
+    "Aileen Carmichael",
+    "Rhona Dalgetty"
+   ],
+   "all_day": false
+  },
+  "vMD5LK4jxSkaPyaIpSL5n3": {
+   "eid": "vMD5LK4jxSkaPyaIpSL5n3",
+   "title": "Café deep clean",
+   "calendar_id": "cal_ts_office",
+   "start": "2026-12-20T08:00",
+   "end": "2026-12-20T13:00",
+   "location": "Calderwick café",
+   "description": "Ronsay Cleaning Co.",
+   "attendees": [
+    "Aileen Carmichael"
+   ],
+   "all_day": false
+  }
+ }
+}

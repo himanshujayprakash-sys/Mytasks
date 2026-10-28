@@ -1,0 +1,278 @@
+{
+ "contacts": [
+  {
+   "id": "con_pm19a",
+   "name": "Moira Pugh",
+   "email": "moira.pugh@post.example",
+   "role": "user",
+   "created_at": 1791800000,
+   "updated_at": 1792400000
+  },
+  {
+   "id": "con_pm19b",
+   "name": "Leon Stavrou",
+   "email": "leon.stavrou@post.example",
+   "role": "user",
+   "created_at": 1791886400,
+   "updated_at": 1792486400
+  },
+  {
+   "id": "con_pm19c",
+   "name": "Margaret Ilsley",
+   "email": "m.ilsley@post.example",
+   "role": "user",
+   "created_at": 1791972800,
+   "updated_at": 1792572800
+  },
+  {
+   "id": "con_pm19d",
+   "name": "Tobias Wren",
+   "email": "tobias.wren@post.example",
+   "role": "user",
+   "created_at": 1792059200,
+   "updated_at": 1792659200
+  },
+  {
+   "id": "con_pm19e",
+   "name": "Farah Qureshi",
+   "email": "farah.q@post.example",
+   "role": "user",
+   "created_at": 1792145600,
+   "updated_at": 1792745600
+  },
+  {
+   "id": "con_pm19f",
+   "name": "Achebe Rowe criminal clerk",
+   "email": "clerk@achebe-rowe.example",
+   "role": "user",
+   "created_at": 1792232000,
+   "updated_at": 1792832000
+  }
+ ],
+ "conversations": [
+  {
+   "id": "conv-pm001",
+   "contact_id": "con_pm19a",
+   "state": "closed",
+   "title": "Is there step-free access to the building?",
+   "created_at": "2026-10-12T10:00:00.000Z",
+   "updated_at": "2026-10-12T11:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": false
+  },
+  {
+   "id": "conv-pm002",
+   "contact_id": "con_pm19b",
+   "state": "closed",
+   "title": "Where can I park?",
+   "created_at": "2026-10-16T10:00:00.000Z",
+   "updated_at": "2026-10-16T11:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": false
+  },
+  {
+   "id": "conv-pm003",
+   "contact_id": "con_pm19c",
+   "state": "open",
+   "title": "Lost umbrella",
+   "created_at": "2026-10-20T10:00:00.000Z",
+   "updated_at": "2026-10-20T11:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": true
+  },
+  {
+   "id": "conv-pm004",
+   "contact_id": "con_pm19d",
+   "state": "closed",
+   "title": "How do I become a magistrate?",
+   "created_at": "2026-10-24T10:00:00.000Z",
+   "updated_at": "2026-10-24T11:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": false
+  },
+  {
+   "id": "conv-pm005",
+   "contact_id": "con_pm19e",
+   "state": "closed",
+   "title": "Free Wi-Fi?",
+   "created_at": "2026-10-28T10:00:00.000Z",
+   "updated_at": "2026-10-28T11:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": false
+  },
+  {
+   "id": "conv-pm006",
+   "contact_id": "con_pm19f",
+   "state": "closed",
+   "title": "Contact number for listing messages",
+   "created_at": "2026-11-06T14:00:00.000Z",
+   "updated_at": "2026-11-06T15:30:00.000Z",
+   "assignee_id": "admin-pm19-ruby",
+   "open": false
+  }
+ ],
+ "parts": [
+  {
+   "id": "part-pm001",
+   "conversation_id": "conv-pm001",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19a",
+   "body": "Hello, I use a wheelchair. Is there step-free access?",
+   "created_at": "2026-10-12T10:00:00.000Z"
+  },
+  {
+   "id": "part-pm002",
+   "conversation_id": "conv-pm001",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Yes. The ramp is to the left of the main steps and the doors open automatically. There is a lift to every public floor.",
+   "created_at": "2026-10-12T10:12:00.000Z"
+  },
+  {
+   "id": "part-pm003",
+   "conversation_id": "conv-pm001",
+   "part_type": "close",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Conversation closed.",
+   "created_at": "2026-10-12T10:24:00.000Z"
+  },
+  {
+   "id": "part-pm004",
+   "conversation_id": "conv-pm002",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19b",
+   "body": "Is there visitor parking at the court?",
+   "created_at": "2026-10-16T10:00:00.000Z"
+  },
+  {
+   "id": "part-pm005",
+   "conversation_id": "conv-pm002",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "The staff car park is for permit holders only. The nearest public car park is on Mill Lane, about four minutes' walk.",
+   "created_at": "2026-10-16T10:12:00.000Z"
+  },
+  {
+   "id": "part-pm006",
+   "conversation_id": "conv-pm002",
+   "part_type": "close",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Conversation closed.",
+   "created_at": "2026-10-16T10:24:00.000Z"
+  },
+  {
+   "id": "part-pm007",
+   "conversation_id": "conv-pm003",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19c",
+   "body": "I think I left a green umbrella in the waiting area on Tuesday.",
+   "created_at": "2026-10-20T10:00:00.000Z"
+  },
+  {
+   "id": "part-pm008",
+   "conversation_id": "conv-pm003",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Thank you. I have asked reception to check lost property and will reply here.",
+   "created_at": "2026-10-20T10:12:00.000Z"
+  },
+  {
+   "id": "part-pm009",
+   "conversation_id": "conv-pm004",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19d",
+   "body": "I'm interested in volunteering as a magistrate. Where do I start?",
+   "created_at": "2026-10-24T10:00:00.000Z"
+  },
+  {
+   "id": "part-pm010",
+   "conversation_id": "conv-pm004",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Our open evening on 2 December is a good start. You can also book a short call through the link on our outreach page.",
+   "created_at": "2026-10-24T10:12:00.000Z"
+  },
+  {
+   "id": "part-pm011",
+   "conversation_id": "conv-pm004",
+   "part_type": "close",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Conversation closed.",
+   "created_at": "2026-10-24T10:24:00.000Z"
+  },
+  {
+   "id": "part-pm012",
+   "conversation_id": "conv-pm005",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19e",
+   "body": "Is there Wi-Fi for visitors?",
+   "created_at": "2026-10-28T10:00:00.000Z"
+  },
+  {
+   "id": "part-pm013",
+   "conversation_id": "conv-pm005",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Yes, join PMC-Guest and accept the terms on the page that opens. It is for browsing only.",
+   "created_at": "2026-10-28T10:12:00.000Z"
+  },
+  {
+   "id": "part-pm014",
+   "conversation_id": "conv-pm005",
+   "part_type": "close",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Conversation closed.",
+   "created_at": "2026-10-28T10:24:00.000Z"
+  },
+  {
+   "id": "part-pm015",
+   "conversation_id": "conv-pm006",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con_pm19f",
+   "body": "Good afternoon, this is the criminal clerk at Achebe Rowe. Could someone in the listing office ring me about the mobile number you hold for one of our cases?",
+   "created_at": "2026-11-06T14:00:00.000Z"
+  },
+  {
+   "id": "part-pm016",
+   "conversation_id": "conv-pm006",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Thank you. I have asked the listing duty officer to call you back this afternoon.",
+   "created_at": "2026-11-06T14:12:00.000Z"
+  },
+  {
+   "id": "part-pm017",
+   "conversation_id": "conv-pm006",
+   "part_type": "note",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Duty officer note, 6 November, 14:20. Rang the Achebe Rowe clerk back. The mobile the office holds as the listing contact for R v Price (CR-26-1140) belonged to a paralegal who has since left the firm. Achebe Rowe withdraws consent to WhatsApp listing messages for CR-26-1140 from today; listings for that case go by letter or secure email only.",
+   "created_at": "2026-11-06T14:24:00.000Z"
+  },
+  {
+   "id": "part-pm018",
+   "conversation_id": "conv-pm006",
+   "part_type": "close",
+   "author_type": "admin",
+   "author_id": "admin-pm19-ruby",
+   "body": "Conversation closed.",
+   "created_at": "2026-11-06T14:36:00.000Z"
+  }
+ ]
+}

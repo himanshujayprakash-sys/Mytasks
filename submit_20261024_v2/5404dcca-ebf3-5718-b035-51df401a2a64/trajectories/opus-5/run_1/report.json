@@ -1,0 +1,1665 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "5404dcca-ebf3-5718-b035-51df401a2a64",
+  "trial": "hKx8LjB",
+  "started_at": "2026-10-24T10:20:00.375370Z",
+  "finished_at": "2026-10-24T10:53:40.945160Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.3986,
+    "passed": 50,
+    "failed": 48,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_register_lines",
+      "test_substitute_lines_created",
+      "test_allocation_by_class",
+      "test_rounding_rule",
+      "test_stock_from_delivery_note",
+      "test_goods_in_rejects_deducted",
+      "test_carry_over_counted",
+      "test_other_depot_bays_excluded",
+      "test_best_before_against_delivery_day",
+      "test_expired_lot_excluded",
+      "test_lot_on_hold_excluded",
+      "test_credit_stop_lifted",
+      "test_desk_reply_applied",
+      "test_voicemail_applied",
+      "test_crm_consent_applied",
+      "test_ledger_credit_note_applied",
+      "test_mail_amendment_applied",
+      "test_minimum_drop_one_at_a_time",
+      "test_minimum_drop_classes",
+      "test_substitutes_supplied",
+      "test_substitute_consent",
+      "test_substitute_price",
+      "test_contract_discount",
+      "test_variation_applied",
+      "test_variation_signatory_dates",
+      "test_new_exceptions_raised",
+      "test_final_states_invoice_value",
+      "test_final_states_not_delivered",
+      "test_final_states_bridge",
+      "test_final_states_every_bridge_step",
+      "test_final_states_class_split",
+      "test_final_states_ties",
+      "test_final_names_record_ids",
+      "test_final_states_register_corrections",
+      "test_allocation_messages_exact",
+      "test_reconciliation_value_rows",
+      "test_reconciliation_allocation_order",
+      "test_reconciliation_withdrawals",
+      "test_page_headline_in_full",
+      "test_page_bridge_anchors",
+      "test_page_table_rows_and_sorting"
+    ],
+    "guards_tripped": [
+      "test_guard_register_damaged",
+      "test_guard_exception_record_damaged",
+      "test_guard_misread_value_stated"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_terms_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_price_list_and_corrigendum_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_stock_papers_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_variation_letters_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_drawings_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_depot_logs_and_export_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_all_tables_listed",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_order_book_read_in_full",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_credit_and_customer_mail_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_service_desk_replies_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_consent_state_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_bulletin_members_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_voicemail_notebook_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_crm_contact_notes_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_accounts_ledger_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_whatsapp_messages_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_line_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_office_mailbox_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_read_before_written",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_each_register_line_fetched_first",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_exceptions_listed_before_changes",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_notices_after_register_settled",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_lines",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "3 register lines with the wrong cases, heading or value: ['QO-40182', 'QO-40188', 'QO-40248']",
+        "error": null
+      },
+      {
+        "name": "test_added_line_created",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_substitute_lines_created",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "substitute lines missing, wrong or extra: ['SUB-EF-2201-P-13'] []",
+        "error": null
+      },
+      {
+        "name": "test_duplicate_line_gone",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_allocation_by_class",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the stock was not shared class by class under TT-4 third edition: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_price_list_issue",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_corrigendum_held_back",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rounding_rule",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "shares were not rounded down with the spare cases going to the largest fractions: ['QO-40182']",
+        "error": null
+      },
+      {
+        "name": "test_remainder_ties",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_stock_from_delivery_note",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "stock was taken from the purchase order instead of the delivery note: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_goods_in_rejects_deducted",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the cases rejected at goods-in were not taken off the stock: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_carry_over_counted",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "Quayside carry-over lots in date and off hold were not counted: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_other_depot_bays_excluded",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "Northgate's lots in bays 13-20 were counted as Quayside stock: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_best_before_against_delivery_day",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "a lot whose best-before date is before the delivery day was counted: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_expired_lot_excluded",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "an expired carry-over lot was counted: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_lot_on_hold_excluded",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "lot L-883, still on quality hold, was counted: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_credit_stop_applied",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_credit_stop_lifted",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "credit control's later mail lifting the stop on EF-2302 was not applied: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_desk_reply_applied",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "St Brannoc's reply on its service desk ticket (vine tomatoes cut to 3, clementines cancelled) was not applied: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_voicemail_applied",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the hospital kitchen's transcribed voicemail (iceberg lettuce 7 cases instead of 4) was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_crm_consent_applied",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the account manager's CRM note recording that Mariner's Rest Inn now accepts substitutes was not applied: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_ledger_credit_note_applied",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the stop on Wrecker's Arms was not ended by the credit note on the accounts ledger: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_whatsapp_order_applied",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_late_changes_ignored",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_mail_amendment_applied",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "Fig and Fennel's mailed change to 7 cases of vine tomatoes was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_minimum_drop",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_minimum_drop_one_at_a_time",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "accounts below the minimum drop were not withdrawn one at a time, lowest first, with the allocation re-run each time: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_minimum_drop_classes",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "a class A or B account was withdrawn for the minimum drop: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_substitutes_supplied",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "substitutes from the chart were not offered to short lines: ['SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_substitute_consent",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "a substitute went to an account whose record does not accept substitutes: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_substitute_price",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "a substitute case was not charged at the lower of the two prices: ['SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_contract_discount",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "class A and B lines did not carry the contract discount: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_variation_applied",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "Saltings Brasserie's variation to class B from 1 December was not applied: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_variation_signatory_dates",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "Treloar Grocers' variation signed by M. Hollis after removal from the signatory register was applied: ['QO-40310', 'QO-40311', 'QO-40312']",
+        "error": null
+      },
+      {
+        "name": "test_cured_items_deleted",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_credit_note_restated",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_office_credit_note_restated",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_new_exceptions_raised",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "raised items differ: got [('', 'P-11', 'short supply'), ('', 'P-12', 'short supply'), ('', 'P-14', 'short supply'), ('', 'P-15', 'short supply'), ('EF-2401', '', 'below minimum drop'), ('EF-2404', '', 'below minimum drop'), ('EF-2405', '', 'credit stop - not delivered'), ('EF-2406', '', 'below minimum drop')]",
+        "error": null
+      },
+      {
+        "name": "test_final_states_invoice_value",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not state the invoice value 1900.15",
+        "error": null
+      },
+      {
+        "name": "test_final_states_delivered",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_states_not_delivered",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not say how many and which accounts are not delivered to",
+        "error": null
+      },
+      {
+        "name": "test_final_states_bridge",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not carry the bridge from the order book at price-list prices",
+        "error": null
+      },
+      {
+        "name": "test_final_states_every_bridge_step",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer leaves out bridge steps: [256.5, 615.1, 1736.5, 1955.5, 1900.15]",
+        "error": null
+      },
+      {
+        "name": "test_final_states_class_split",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer leaves out the split by contract class: [595.34]",
+        "error": null
+      },
+      {
+        "name": "test_final_states_ties",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not set out every share the tie rule decided (the lines that tied, their fraction and who got the case): ['QO-40135', 'QO-40182', 'QO-40135']",
+        "error": null
+      },
+      {
+        "name": "test_final_states_credit_stops",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_names_record_ids",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not identify every created, deleted or restated record by its id: ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177']",
+        "error": null
+      },
+      {
+        "name": "test_final_states_register_corrections",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not say how many register lines were corrected",
+        "error": null
+      },
+      {
+        "name": "test_allocation_messages_exact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "allocation messages differ: 4 mismatches",
+        "error": null
+      },
+      {
+        "name": "test_no_message_to_stop_or_unopted",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_stop_applied",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_notice_status_values",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_bulletin_audience",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_per_heading",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_value_rows",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "reconciliation rows missing or wrong for ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_allocation_order",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reconciliation does not replay the final run product by product and class by class",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_withdrawals",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reconciliation does not list each withdrawal, with its value, in the order made",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_carries_steps",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_and_sheet_read_back",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_register_damaged",
+        "weight": -5,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_exception_record_damaged",
+        "weight": -5,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing outside the two records, notice_status, the messages and the bulletin audience was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_unconsented_message",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no customer was messaged without consent, after a stop request or with another template",
+        "error": null
+      },
+      {
+        "name": "test_guard_unsubscribe_reversed",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nobody who unsubscribed was put back on the bulletin",
+        "error": null
+      },
+      {
+        "name": "test_guard_customer_messaged_twice",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no customer got two messages",
+        "error": null
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no claim of an allocation that was not worked",
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_value_stated",
+        "weight": -3,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_delivered_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no misread count of accounts delivered was stated",
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_not_delivered_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no misread count of accounts not delivered was stated",
+        "error": null
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page does not state the headline 1900.15",
+        "error": null
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the bridge carries 2 of its 7 anchors",
+        "error": null
+      },
+      {
+        "name": "test_page_split_figures",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "table rows 2/72, sortable True, filterable True",
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-note-says-invoice-value",
+      "criterion": "[final answer] The note says the invoice value after discounts for the Wednesday 9 December delivery is 1900.15 pounds.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered dossier says “Totals: 1918.58 pounds after discounts,” not £1,900.15 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-note-says-22-accounts",
+      "criterion": "[final answer] The note says 22 accounts are being delivered to.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier explicitly says “22 accounts delivered to” (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-note-says-4-accounts",
+      "criterion": "[final answer] The note says 4 accounts are not being delivered to and names them: EF-2401, EF-2404, EF-2405, EF-2406.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier says “4 not” and names EF-2401, EF-2404, EF-2405, and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-note-gives-invoice-value",
+      "criterion": "[final answer] The note gives the invoice value by contract class: Class A 478.61, Class B 595.34, Class C 707.80, Class D 118.40.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier gives class A 478.61, class B 613.77, class C 707.80, and class D 118.40; class B is not 595.34 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-note-says-order-book",
+      "criterion": "[final answer] The note says the order book as changed before the cut-off comes to 2683.55 pounds at price-list prices.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The final answer’s bridge explicitly gives “Order lines at the 06:00 cut-off, at the price list” as 2,683.55 (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-note-says-75-45",
+      "criterion": "[final answer] The note says 75.45 pounds of orders were held on credit stop.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The final answer’s bridge explicitly says “Less credit stop (EF-2405) −75.45” (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-note-says-256-50",
+      "criterion": "[final answer] The note says 256.50 pounds of orders belonged to the accounts withdrawn below the minimum drop.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer gives £343.95 for orders below minimum drop, not £256.50 (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-note-says-615-10",
+      "criterion": "[final answer] The note says 615.10 pounds of orders could not be covered by the stock.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer gives £498.85 for cases stock could not cover, not £615.10 (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-note-says-1736-50",
+      "criterion": "[final answer] The note says 1736.50 pounds were allocated at price-list prices.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither the final answer nor dossier explicitly states that £1,736.50 was allocated at price-list prices; the bridge instead reaches £1,765.30 before substitutes (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-note-says-substitutes-bring",
+      "criterion": "[final answer] The note says the substitutes bring the value to 1955.50 pounds before the contract discounts.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer says substitutes bring the running value to £1,974.70, not £1,955.50 (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-note-says-tt-4",
+      "criterion": "[final answer] The note says TT-4 third edition governs this delivery.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier explicitly identifies “TT-4 Allocation terms for short supply, third edition” as governing the delivery (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-note-says-pl-12",
+      "criterion": "[final answer] The note says the PL-12 second issue prices this delivery.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier explicitly identifies “PL-12 Trade price list, second issue” as the applicable price paper (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-note-says-corrigendum-1",
+      "criterion": "[final answer] The note says corrigendum 1 commences on 4 January 2027, so this delivery is priced at 13.75 for clementines and 14.40 for vine tomatoes.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier says corrigendum 1 commences 2027-01-04 and that the second-issue prices “13.75 and 14.40 apply to this delivery” (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-note-says-st-brannoc",
+      "criterion": "[final answer] The note says St Brannoc's Care Home (EF-2103), in a reply on its service desk ticket before the cut-off, cut its vine tomatoes to 3 cases and cancelled its clementines.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The changes table says EF-2103 changed vine tomatoes from 8 to 3 and cancelled clementines via a service-desk ticket reply received before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-note-says-fig-fennel",
+      "criterion": "[final answer] The note says Fig and Fennel Deli (EF-2306) changed its vine tomatoes to 7 cases by mail.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The changes table says EF-2306 changed vine tomatoes from 5 to 7 by mail before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-note-says-st-keverne",
+      "criterion": "[final answer] The note says St Keverne Primary School (EF-2204) added 4 cases of leeks by mail.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The changes table says EF-2204 added a new four-case P-14 leek line by mail (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-note-says-harbour-kitchen",
+      "criterion": "[final answer] The note says the Harbour Kitchen's 06:40 request for 2 more cases of leeks came after the 06:00 cut-off and was not applied.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The refused-changes table says EF-2301 requested two more leek cases at 06:40 and it was refused as after the 06:00 cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-note-says-saltings-brasserie",
+      "criterion": "[final answer] The note says Saltings Brasserie's 07:35 request for 2 more cases of clementines came after the 06:00 cut-off and was not applied.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The refused-changes table says EF-2305 requested two more clementine cases at 07:35 and it was refused as after cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-note-says-credit-control",
+      "criterion": "[final answer] The note says credit control lifted the stop on EF-2302 Ristorante Valli on 7 December, before the cut-off.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The credit-stop table says EF-2302’s stop ended through credit-control mail on 7 December at 15:40 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-note-says-saltings-brasserie-2",
+      "criterion": "[final answer] The note says Saltings Brasserie (EF-2305) is class B from 1 December on variation CV-2305, signed by R. Pendry.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The contract-class table says EF-2305 is class B under CV-2305 effective 1 December and signed by R. Pendry (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-note-says-variation-cv",
+      "criterion": "[final answer] The note says variation CV-2404 for Treloar Grocers does not stand because M. Hollis signed it on 12 November 2026 after leaving the signatory register on 30 October 2026.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The contract-class table says CV-2404 does not count because M. Hollis signed on 12 November after leaving the register on 30 October (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-note-says-l-877",
+      "criterion": "[final answer] The note says L-877 is excluded from stock because its later verified re-quarantine supersedes the printed release; the unsigned draft release has no effect.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier states the opposite: L-877 was counted because a QC log showed it “released and verified”; it does not say a later re-quarantine superseded release (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-note-says-lot-l",
+      "criterion": "[final answer] The note says lot L-883 is left out because it is still on quality hold.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The stock-lot table excludes L-883 because it remains on quality hold with the QC inspection pending (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-note-says-lot-l-2",
+      "criterion": "[final answer] The note says lot L-874 (leeks, best before 8 December) is left out because its best-before date is before the 9 December delivery.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The stock-lot table excludes L-874 because its 8 December best-before date precedes the 9 December delivery (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "25",
+      "name": "j-note-says-lot-l-3",
+      "criterion": "[final answer] The note says lot L-869 (clementines, best before 5 December) is left out as out of date.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The stock-lot table excludes L-869 because its 5 December best-before date precedes delivery (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "j-note-says-lots-l",
+      "criterion": "[final answer] The note says lots L-890 and L-891 are Northgate stock in Northgate's bays and are left out.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The stock-lot table excludes L-890 and L-891 because bays 16 and 17 are Northgate stock (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "27",
+      "name": "j-note-says-stock-comes",
+      "criterion": "[final answer] The note says stock comes from delivery note DN-55812 less the goods-in rejects, not from purchase order PO-7731.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The final answer says stock is based on the delivery note less goods-in rejects and that “The purchase order is what we asked for, not stock” (final_message.md).",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "j-note-says-accounts-withdrawn",
+      "criterion": "[final answer] The note says the accounts withdrawn below the 50.00 minimum drop were EF-2401, EF-2406.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says three accounts were withdrawn—EF-2401, EF-2404, and EF-2406—not only EF-2401 and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "j-note-lists-substitutes-supplied",
+      "criterion": "[final answer] The note lists the substitutes supplied: EF-2201 2 x P-13 for P-12; EF-2301 3 x P-13 for P-12; EF-2301 3 x P-18 for P-11; EF-2303 2 x P-13 for P-12; EF-2304 2 x P-18 for P-11; EF-2306 4 x P-18 for P-11; EF-2309 2 x P-13 for P-12; EF-2309 1 x P-18 for P-11; EF-2403 3 x P-18 for P-11.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The substitute table differs from the required list, notably giving EF-2201 only 1 × P-13 and EF-2403 only 3 × P-18, and omitting the specified EF-2301/EF-2303 quantities as stated in the criterion (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "j-note-answers-chat-claim",
+      "criterion": "[final answer] The note answers the chat claim about rounding to the nearest case by saying shares are rounded down with the spare cases going to the largest fractions.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The claims table says shares are rounded down and spare cases go to the largest rounded-off fractions (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "31",
+      "name": "j-note-says-sales-director",
+      "criterion": "[final answer] The note says the sales director's ruling that Ristorante Valli get their full six cases does not stand because Valli are class C and share pro rata.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The claims table rejects the Valli ruling, saying class C sharing applies and EF-2302 receives 2 of 6 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "32",
+      "name": "j-note-answers-chat-claim-2",
+      "criterion": "[final answer] The note answers the chat claim that the minimum drop is off this week by saying Appendix B's 50.00 minimum drop applies.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The claims table rejects the claim that minimum drop is off and says clause 5 and Appendix B are in force; the minimum-drop section explicitly gives £50 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "33",
+      "name": "j-note-answers-chat-claim-3",
+      "criterion": "[final answer] The note answers the chat claim that cos goes to anyone short of iceberg by saying substitutes go only to accounts that accept them.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The claims table says substitutes go only to accounts whose record or governing CRM note accepts them (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "34",
+      "name": "j-note-says-38-register",
+      "criterion": "[final answer] The note says 38 register lines were corrected.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says “39 lines were corrected,” not 38 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "35",
+      "name": "j-note-says-duplicate-register",
+      "criterion": "[final answer] The note says the duplicate register line al-QO-40164b was deleted and gives its record id rec63c7698bb93596.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says al-QO-40164b was deleted but does not give record ID rec63c7698bb93596 in the note (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "36",
+      "name": "j-note-says-sx-402",
+      "criterion": "[final answer] The note says SX-402 was deleted from the supply exceptions record and gives its record id rec829f6930bc4340; SX-401 remains open for L-877.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says SX-402 was removed but gives no record ID and also says SX-401 was removed, rather than remaining open (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "37",
+      "name": "j-note-says-sx-403",
+      "criterion": "[final answer] The note says SX-403 was restated to 96.60 and gives its record id rec3494108f4af30f.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier states SX-403 was restated to 96.60 but does not give record ID rec3494108f4af30f (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "38",
+      "name": "j-note-says-7-items",
+      "criterion": "[final answer] The note says 7 items were raised in the supply exceptions record.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier lists eight created exception items, SX-408 through SX-415, rather than seven (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "39",
+      "name": "j-note-says-ef-2307",
+      "criterion": "[final answer] The note says EF-2307 Gull Street Fish Bar asked on its service desk ticket to stop the allocation messages and was sent nothing.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The messages table says EF-2307 was sent nothing because it asked on service-desk ticket 5123 to stop the messages (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "40",
+      "name": "j-note-says-ef-2308",
+      "criterion": "[final answer] The note says EF-2308 The Lantern Cafe has not opted in to messages and was sent nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The messages table says EF-2308 was sent nothing because it was not opted in (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "41",
+      "name": "j-note-says-last-week",
+      "criterion": "[final answer] The note says last week's allocation report, the allocation crib sheet and Northgate's allocation sheet decided nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither the final answer nor dossier explicitly says last week’s allocation report, the allocation crib sheet, and Northgate’s allocation sheet decided nothing.",
+      "error": null
+    },
+    {
+      "id": "42",
+      "name": "j-note-says-brackenmoor-community",
+      "criterion": "[final answer] The note says Brackenmoor Community Hospital kitchen (EF-2101) raised its iceberg lettuce from 4 to 7 cases in a voicemail of 7 December at 18:52 that the night desk transcribed before the cut-off.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The changes table says EF-2101’s iceberg order changed from 4 to 7 through a night-desk voicemail transcript received 7 December at 18:52 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "43",
+      "name": "j-note-says-county-hall",
+      "criterion": "[final answer] The note says County Hall staff restaurant's (EF-2203) voicemail asking for more cos lettuce was left at 06:25, after the 06:00 cut-off, and was not applied.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The refused-changes table says EF-2203’s voicemail seeking more cos was left at 06:25 after the 06:00 cutoff and was refused (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "44",
+      "name": "j-note-says-account-manager",
+      "criterion": "[final answer] The note says the account manager's CRM note of 2 December records that Mariner's Rest Inn (EF-2304) now accepts substitutes, so it was offered them although the account record says no.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The substitutes section says a 2 December account-manager CRM note records that EF-2304 accepts substitutes despite the account record saying no, so it was offered one (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "45",
+      "name": "j-note-says-credit-stop",
+      "criterion": "[final answer] The note says the credit stop on EF-2309 Wrecker's Arms ended because credit note CN-0917 on the accounts ledger cleared invoice INV-31790 in full on 7 December, before the cut-off.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The credit-stop table says EF-2309’s stop ended because authorised CN-0917 dated 7 December cleared INV-31790’s full £112.30 before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "46",
+      "name": "j-note-says-credit-stop-2",
+      "criterion": "[final answer] The note says the credit stop on EF-2405 Corner Basket stands because invoice INV-31744 is still unpaid on the accounts ledger.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The credit-stop table says EF-2405’s stop stands because INV-31744 still has £158.40 due and CN-0915 concerns another invoice (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "47",
+      "name": "j-note-sets-out-share",
+      "criterion": "[final answer] The note sets out the share the tie rule decided: P-12 class B: QO-40135 and QO-40182 tied on a fraction of 0.5000, and the spare case went to QO-40135, ordered earlier; P-14 class C: QO-40279 and QO-40298 tied on a fraction of 0.5000, and the spare case went to QO-40279, ordered earlier.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier gives the P-14 class C tie between QO-40279 and QO-40298, but omits the required P-12 class B tie and expressly says no other spare case fell to a tie (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "48",
+      "name": "j-note-says-quayside-day",
+      "criterion": "[final answer] The note says Quayside Day Nursery (EF-2206) changed its tenderstem broccoli from 2 to 4 cases before the cut-off and that the change was applied.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The changes table says EF-2206 changed tenderstem broccoli from 2 to 4 before cutoff and lists it under “Changes applied” (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "49",
+      "name": "j-note-says-ef-2104",
+      "criterion": "[final answer] The note says EF-2104 Tregellas Lodge Nursing Home asked to stop the allocation messages and was sent nothing.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The messages table says EF-2104 was sent nothing because it asked the depot to stop these messages (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "50",
+      "name": "j-note-says-sx-400",
+      "criterion": "[final answer] The note says SX-400 was restated to 64.50 and gives its record id rec88e24a69f64cf8.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier states SX-400 was restated to 64.50 but does not give record ID rec88e24a69f64cf8 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "51",
+      "name": "n-note-gives-invoice-value",
+      "criterion": "[final answer] The note gives the invoice value after discounts as a figure other than 1900.15 pounds.",
+      "weight": -5,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 5,
+      "justification": "The dossier explicitly gives an after-discount invoice value other than £1,900.15: “1918.58 pounds” (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "52",
+      "name": "n-note-gives-count-accounts",
+      "criterion": "[final answer] The note gives a count of accounts delivered other than 22 or a count not delivered other than 4.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier gives exactly 22 delivered and 4 not delivered, so it does not provide an alternative count (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "53",
+      "name": "n-note-gives-st-brannoc",
+      "criterion": "[final answer] The note gives St Brannoc's Care Home (EF-2103) an allocation of 8 cases of vine tomatoes.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier records St Brannoc’s vine-tomato order and allocation as 3 cases, not 8 (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "54",
+      "name": "n-note-lists-ef-2302",
+      "criterion": "[final answer] The note lists EF-2302 Ristorante Valli among the accounts not delivered to.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The four accounts listed as not delivered are EF-2401, EF-2404, EF-2405, and EF-2406; EF-2302 is not among them (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "55",
+      "name": "n-note-says-account-withdrawn",
+      "criterion": "[final answer] The note says no account was withdrawn for the minimum drop.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier explicitly says three accounts were withdrawn under the minimum-drop rule, not that none were withdrawn (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "56",
+      "name": "n-note-says-ef-2309",
+      "criterion": "[final answer] The note says EF-2309 Wrecker's Arms is on credit stop or gets nothing because of a credit stop.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says EF-2309’s credit stop ended and lists six cases going out, so it does not say the account remained stopped or got nothing (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "57",
+      "name": "n-note-gives-brackenmoor-community",
+      "criterion": "[final answer] The note gives Brackenmoor Community Hospital kitchen (EF-2101) an order of 4 cases of iceberg lettuce for this delivery.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier gives EF-2101 seven iceberg cases after the applied change, not four (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    },
+    {
+      "id": "58",
+      "name": "n-note-gives-quayside-day",
+      "criterion": "[final answer] The note gives Quayside Day Nursery (EF-2206) 2 cases of tenderstem broccoli for this delivery.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier gives EF-2206 four tenderstem-broccoli cases after the applied change, not two (workspace/quayside_allocation_dossier_2026-12-09.md).",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.65,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 58,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 113716,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 78336,
+      "output_tokens": 5480,
+      "reasoning_output_tokens": 371,
+      "total_tokens": 119196,
+      "cost_usd": 0.2824544,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 113716,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 78336,
+          "output_tokens": 5480,
+          "reasoning_output_tokens": 371,
+          "total_tokens": 119196,
+          "cost_usd": 0.2824544
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.5243,
+  "channels": {
+    "pytest": 0.3986,
+    "rubric": 0.65
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

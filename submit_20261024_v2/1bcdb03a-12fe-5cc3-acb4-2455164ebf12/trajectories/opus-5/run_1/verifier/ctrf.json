@@ -1,0 +1,481 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 77,
+      "passed": 67,
+      "failed": 10,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.905213,
+      "weighted_percentage": 90.52
+    },
+    "tests": [
+      {
+        "name": "test_every_ledger_page_opened",
+        "status": "passed",
+        "duration": 35,
+        "weight": 3
+      },
+      {
+        "name": "test_second_edition_opened",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_amendment_opened",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_clock_note_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_corrin_note_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_scope_memo_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_rooming_procedure_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_calendar_drawing_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_boundary_drawing_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_cancellation_papers_opened",
+        "status": "passed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_deposit_receipts_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_card_authorities_opened",
+        "status": "passed",
+        "duration": 9,
+        "weight": 3
+      },
+      {
+        "name": "test_billing_letters_opened",
+        "status": "passed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_speaker_letters_opened",
+        "status": "passed",
+        "duration": 8,
+        "weight": 3
+      },
+      {
+        "name": "test_tally_opened",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_binding_emails_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_form_responses_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_every_room_read",
+        "status": "passed",
+        "duration": 18,
+        "weight": 1
+      },
+      {
+        "name": "test_audience_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_register_headings",
+        "status": "passed",
+        "duration": 20,
+        "weight": 5
+      },
+      {
+        "name": "test_register_amounts",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_event_time_decides",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_arrival_window",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_other_event_excluded",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_rebooked_once",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_deposit_receipts",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_card_authorities",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_signatory_dates",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_sponsor_billing",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_provisional_holds",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_cancellation_ack_date",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_cancellation_bands",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_peak_nights",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_contract_not_quoted",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_levy_zone",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_levy_cap",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_bed_nights",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_tally_reservation",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_amendment_not_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_total",
+        "status": "passed",
+        "duration": 7,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_bridge",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_attrition",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_programme_channel_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_hotels_calendar_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_wiki_schedule_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_hotel_email_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_emailed_acknowledgement",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_whatsapp_ack_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_whatsapp_acknowledgement",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_helpdesk_ticket_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_helpdesk_accessibility",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_text_line_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_text_opt_out",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_thread_withdrawal",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_calendar_out_of_service",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_wiki_accessibility",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_room_holds",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_logistics_contact",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_audience_members",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_eligibility",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_tier_order",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_letters_govern",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_touched_correct_lines",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_other_writes",
+        "status": "failed",
+        "duration": 2,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_housed_ineligible",
+        "status": "passed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_resubscribed",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_invalid_room",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_deleted_records",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_wrong_total_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "passed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "passed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "status": "passed",
+        "duration": 12,
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+ "pages": [
+  {
+   "id": "page-tbh-panel",
+   "parent_type": "workspace",
+   "parent_id": "workspace-thornbeck-engagement",
+   "title": "Tenant panel 2026",
+   "created_time": "2026-01-12T09:00:00.000Z",
+   "last_edited_time": "2026-10-22T15:00:00.000Z",
+   "created_by": "Saira Bashir",
+   "archived": false,
+   "icon": "house",
+   "cover_url": null
+  },
+  {
+   "id": "page-tbh-fund",
+   "parent_type": "workspace",
+   "parent_id": "workspace-thornbeck-engagement",
+   "title": "Estate improvement fund 2026-27",
+   "created_time": "2026-04-02T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "created_by": "Grace Adeyemi",
+   "archived": false,
+   "icon": "house",
+   "cover_url": null
+  },
+  {
+   "id": "page-tbh-news",
+   "parent_type": "workspace",
+   "parent_id": "workspace-thornbeck-engagement",
+   "title": "Newsletter planning: winter 2026",
+   "created_time": "2026-09-28T09:00:00.000Z",
+   "last_edited_time": "2026-10-30T15:00:00.000Z",
+   "created_by": "Saira Bashir",
+   "archived": false,
+   "icon": "house",
+   "cover_url": null
+  },
+  {
+   "id": "page-tbh-walk",
+   "parent_type": "workspace",
+   "parent_id": "workspace-thornbeck-engagement",
+   "title": "Estate walkabouts autumn 2026",
+   "created_time": "2026-08-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "created_by": "Stuart Bramley",
+   "archived": false,
+   "icon": "house",
+   "cover_url": null
+  },
+  {
+   "id": "page-tbh-digital",
+   "parent_type": "workspace",
+   "parent_id": "workspace-thornbeck-engagement",
+   "title": "Digital inclusion sessions",
+   "created_time": "2026-07-07T09:00:00.000Z",
+   "last_edited_time": "2026-09-30T15:00:00.000Z",
+   "created_by": "Danielle Firth",
+   "archived": false,
+   "icon": "house",
+   "cover_url": null
+  }
+ ],
+ "blocks": [
+  {
+   "id": "block-tbh-panel-000",
+   "page_id": "page-tbh-panel",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "The tenant panel meets on the second Tuesday of each month in the Spinner Court community room.",
+   "created_time": "2026-01-12T09:00:00.000Z",
+   "last_edited_time": "2026-10-22T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-panel-001",
+   "page_id": "page-tbh-panel",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Members this year: eleven tenants from eight estates. Two places are open for Cragg View and Dyehouse Street.",
+   "created_time": "2026-01-12T09:00:00.000Z",
+   "last_edited_time": "2026-10-22T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-panel-002",
+   "page_id": "page-tbh-panel",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 2,
+   "text": "Panel members get travel expenses and a GBP 20 voucher per meeting.",
+   "created_time": "2026-01-12T09:00:00.000Z",
+   "last_edited_time": "2026-10-22T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-fund-000",
+   "page_id": "page-tbh-fund",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "The fund is GBP 18,000 for the year. Tenant groups bid for up to GBP 2,500 per project.",
+   "created_time": "2026-04-02T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-fund-001",
+   "page_id": "page-tbh-fund",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Approved so far: Fold Yard community garden (GBP 2,200), Beckside play area benches (GBP 1,450), Ouzel Close noticeboards (GBP 380).",
+   "created_time": "2026-04-02T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-fund-002",
+   "page_id": "page-tbh-fund",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 2,
+   "text": "The next bidding round closes on 30 November.",
+   "created_time": "2026-04-02T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-news-000",
+   "page_id": "page-tbh-news",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "Lead story: staying warm and keeping on top of condensation.",
+   "created_time": "2026-09-28T09:00:00.000Z",
+   "last_edited_time": "2026-10-30T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-news-001",
+   "page_id": "page-tbh-news",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Also: the new out-of-hours card, the tenant panel chair election, Christmas office hours.",
+   "created_time": "2026-09-28T09:00:00.000Z",
+   "last_edited_time": "2026-10-30T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-news-002",
+   "page_id": "page-tbh-news",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 2,
+   "text": "Copy deadline 20 November, print 1 December.",
+   "created_time": "2026-09-28T09:00:00.000Z",
+   "last_edited_time": "2026-10-30T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-walk-000",
+   "page_id": "page-tbh-walk",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "Walkabouts are open to all tenants; posters go up a week before.",
+   "created_time": "2026-08-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-walk-001",
+   "page_id": "page-tbh-walk",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Millrace Road (15 October): fencing on the back lane, two abandoned cars reported to the council.",
+   "created_time": "2026-08-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-walk-002",
+   "page_id": "page-tbh-walk",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 2,
+   "text": "Weavers Rise (12 November) and Dyehouse Street (3 December) to come.",
+   "created_time": "2026-08-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-15T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-digital-000",
+   "page_id": "page-tbh-digital",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "Drop-in sessions at the Wyndale library on Thursday mornings help tenants set up the tenant portal.",
+   "created_time": "2026-07-07T09:00:00.000Z",
+   "last_edited_time": "2026-09-30T15:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-tbh-digital-001",
+   "page_id": "page-tbh-digital",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Forty-two tenants have come along since July; most wanted help with rent statements.",
+   "created_time": "2026-07-07T09:00:00.000Z",
+   "last_edited_time": "2026-09-30T15:00:00.000Z",
+   "has_children": false
+  }
+ ],
+ "comments": [
+  {
+   "id": "comment-tbh-0001",
+   "parent_page_id": "page-tbh-fund",
+   "parent_block_id": null,
+   "author_id": "user-grace-adeyemi",
+   "text": "Beckside benches installed on 9 October; photos in the Dropbox folder.",
+   "created_time": "2026-10-09T16:20:00.000Z",
+   "resolved": true
+  },
+  {
+   "id": "comment-tbh-0002",
+   "parent_page_id": "page-tbh-news",
+   "parent_block_id": null,
+   "author_id": "user-saira-bashir",
+   "text": "Ask Ruth for a short piece on condensation and when to report mould.",
+   "created_time": "2026-10-30T11:45:00.000Z",
+   "resolved": false
+  }
+ ]
+}

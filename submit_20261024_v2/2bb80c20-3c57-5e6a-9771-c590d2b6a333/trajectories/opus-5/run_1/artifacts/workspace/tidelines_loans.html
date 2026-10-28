@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Tidelines inbound loans — closing position</title>
+<style>
+ :root { --ink:#241f1a; --rule:#d8d2c7; --paper:#fbf9f5; }
+ * { box-sizing:border-box; }
+ body { margin:0; padding:28px 32px 60px; background:var(--paper); color:var(--ink);
+   font-family:Georgia,"Iowan Old Style",serif; }
+ h1 { font-size:19px; letter-spacing:.14em; text-transform:uppercase; font-weight:normal;
+   margin:0 0 4px; }
+ .sub { color:#6d655a; font-size:13px; margin-bottom:26px; }
+ .headline { display:flex; gap:26px; align-items:stretch; flex-wrap:wrap;
+   border-top:3px solid var(--ink); border-bottom:1px solid var(--rule);
+   padding:22px 0 24px; margin-bottom:30px; }
+ .big { flex:2 1 460px; }
+ .big .k { font-size:12px; letter-spacing:.17em; text-transform:uppercase; color:#6d655a; }
+ .big .v { font-size:62px; line-height:1.03; font-variant-numeric:tabular-nums;
+   letter-spacing:-.015em; }
+ .big .v small { font-size:26px; color:#6d655a; }
+ .counts { flex:1 1 300px; display:flex; gap:22px; align-items:flex-end; }
+ .cnt { flex:1; border-left:1px solid var(--rule); padding-left:18px; }
+ .cnt .n { font-size:40px; font-variant-numeric:tabular-nums; }
+ .cnt .l { font-size:12px; letter-spacing:.13em; text-transform:uppercase; color:#6d655a; }
+ section { margin-bottom:38px; }
+ h2 { font-size:13px; letter-spacing:.15em; text-transform:uppercase; font-weight:normal;
+   border-bottom:1px solid var(--ink); padding-bottom:6px; margin:0 0 6px; }
+ .note { font-size:12.5px; color:#6d655a; margin:0 0 14px; }
+ svg { max-width:100%; height:auto; display:block; }
+ text.ax { font:10px Georgia,serif; fill:#8a8277; }
+ text.vl { font:11px Georgia,serif; fill:#241f1a; }
+ text.rt { font:10px Georgia,serif; fill:#8a8277; }
+ text.cat { font:10.5px Georgia,serif; fill:#4a443c; }
+ .charts { display:flex; gap:34px; flex-wrap:wrap; align-items:flex-start; }
+ table { border-collapse:collapse; width:100%; font-size:13px; background:#fff; }
+ th,td { border-bottom:1px solid var(--rule); padding:6px 9px; text-align:left;
+   vertical-align:top; }
+ thead th { border-bottom:1.5px solid var(--ink); background:#f3efe7; position:sticky; top:0;
+   cursor:pointer; white-space:nowrap; font-weight:normal; letter-spacing:.06em;
+   text-transform:uppercase; font-size:11px; }
+ thead th:after { content:" \2195"; color:#b3aa9c; }
+ td.num { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+ tbody tr:hover { background:#fdfbf4; }
+ .filter { margin:0 0 10px; }
+ .filter input { font:13px Georgia,serif; padding:6px 9px; width:330px;
+   border:1px solid #b9b2a5; background:#fff; }
+ .filter span { font-size:12px; color:#6d655a; margin-left:10px; }
+ .legend { font-size:12px; color:#6d655a; margin-top:8px; }
+ .swatch { display:inline-block; width:10px; height:10px; margin:0 5px 0 14px; }
+</style>
+</head>
+<body>
+<h1>Tidelines — inbound loans, closing position</h1>
+<p class="sub">Brennock Museum and Art Gallery &middot; <em>Tidelines: Painting the Northern
+Coast, 1880–1940</em> &middot; register and trips settled after the loans freeze of 17:00
+on 27 November 2026 &middot; LP-7 third edition and IS-2 revision 4</p>
+
+<div class="headline">
+  <div class="big">
+    <div class="k">Total insured value, confirmed loans</div>
+    <div class="v"><small>GBP</small> 14,280,008</div>
+  </div>
+  <div class="counts">
+    <div class="cnt"><div class="n">31</div><div class="l">objects confirmed</div></div>
+    <div class="cnt"><div class="n">4</div><div class="l">not confirmed</div></div>
+  </div>
+</div>
+
+<section>
+  <h2>Bridge: lenders’ agreed values to the insured total</h2>
+  <p class="note">Every one of the 35 objects in the register, converted at the rate fixed in
+  its own signed agreement (IS-2 s1); one step for each reason an object dropped out, one step
+  for value revisions received before the freeze. Running total above each bar. The value axis
+  is cut below GBP 13,700,000 (marked on the axis) so that the steps read beside an opening
+  figure of GBP 14,530,073.</p>
+  <svg viewBox="0 0 1060 460" role="img" aria-label="Bridge from agreed values to insured total">
+<line x1="86" y1="310.0" x2="1030" y2="310.0" stroke="#e6e1d8"/>
+<text x="76" y="314.0" text-anchor="end" class="ax">13,700,000</text>
+<line x1="86" y1="283.7" x2="1030" y2="283.7" stroke="#e6e1d8"/>
+<line x1="86" y1="257.5" x2="1030" y2="257.5" stroke="#e6e1d8"/>
+<text x="76" y="261.5" text-anchor="end" class="ax">13,900,000</text>
+<line x1="86" y1="231.2" x2="1030" y2="231.2" stroke="#e6e1d8"/>
+<line x1="86" y1="204.9" x2="1030" y2="204.9" stroke="#e6e1d8"/>
+<text x="76" y="208.9" text-anchor="end" class="ax">14,100,000</text>
+<line x1="86" y1="178.7" x2="1030" y2="178.7" stroke="#e6e1d8"/>
+<line x1="86" y1="152.4" x2="1030" y2="152.4" stroke="#e6e1d8"/>
+<text x="76" y="156.4" text-anchor="end" class="ax">14,300,000</text>
+<line x1="86" y1="126.1" x2="1030" y2="126.1" stroke="#e6e1d8"/>
+<line x1="86" y1="99.9" x2="1030" y2="99.9" stroke="#e6e1d8"/>
+<text x="76" y="103.9" text-anchor="end" class="ax">14,500,000</text>
+<line x1="86" y1="73.6" x2="1030" y2="73.6" stroke="#e6e1d8"/>
+<line x1="86" y1="47.3" x2="1030" y2="47.3" stroke="#e6e1d8"/>
+<text x="76" y="51.3" text-anchor="end" class="ax">14,700,000</text>
+<line x1="86" y1="310.0" x2="1030" y2="310.0" stroke="#241f1a"/>
+<text x="76" y="326.0" text-anchor="end" class="ax">≈ 0</text>
+<path d="M80 316.0 l12 -5 M80 321.0 l12 -5" stroke="#241f1a" fill="none"/>
+<rect x="117.5" y="92.0" width="94.4" height="218.0" fill="#2f5d7c"><title>Lenders’ agreed values, all 35 objects, at each agreement’s rate: 14,530,073 | running total 14,530,073</title></rect>
+<text x="164.7" y="86.0" text-anchor="middle" class="vl">14,530,073</text>
+<text x="164.7" y="72.0" text-anchor="middle" class="rt">&#8721; 14,530,073</text>
+<text x="164.7" y="332.0" text-anchor="middle" class="cat">Lenders’ agreed</text>
+<text x="164.7" y="345.0" text-anchor="middle" class="cat">values, all 35</text>
+<text x="164.7" y="358.0" text-anchor="middle" class="cat">objects, at each</text>
+<text x="164.7" y="371.0" text-anchor="middle" class="cat">agreement’s rate</text>
+<rect x="274.8" y="92.0" width="94.4" height="55.2" fill="#9e3b35"><title>Withdrawn by lender (TW-12): -210,000 | running total 14,320,073</title></rect>
+<text x="322.0" y="86.0" text-anchor="middle" class="vl">-210,000</text>
+<text x="322.0" y="72.0" text-anchor="middle" class="rt">&#8721; 14,320,073</text>
+<text x="322.0" y="332.0" text-anchor="middle" class="cat">Withdrawn by lender</text>
+<text x="322.0" y="345.0" text-anchor="middle" class="cat">(TW-12)</text>
+<line x1="211.9" y1="92.0" x2="274.8" y2="92.0" stroke="#9a9388" stroke-dasharray="3 3"/>
+<rect x="432.1" y="147.1" width="94.4" height="46.0" fill="#9e3b35"><title>Declined – condition (TW-20): -175,000 | running total 14,145,073</title></rect>
+<text x="479.3" y="141.1" text-anchor="middle" class="vl">-175,000</text>
+<text x="479.3" y="127.1" text-anchor="middle" class="rt">&#8721; 14,145,073</text>
+<text x="479.3" y="332.0" text-anchor="middle" class="cat">Declined – condition</text>
+<text x="479.3" y="345.0" text-anchor="middle" class="cat">(TW-20)</text>
+<line x1="369.2" y1="147.1" x2="432.1" y2="147.1" stroke="#9a9388" stroke-dasharray="3 3"/>
+<rect x="589.5" y="193.1" width="94.4" height="57.3" fill="#9e3b35"><title>Not confirmed – agreement unsigned (TW-34, TW-35): -218,000 | running total 13,927,073</title></rect>
+<text x="636.7" y="187.1" text-anchor="middle" class="vl">-218,000</text>
+<text x="636.7" y="173.1" text-anchor="middle" class="rt">&#8721; 13,927,073</text>
+<text x="636.7" y="332.0" text-anchor="middle" class="cat">Not confirmed –</text>
+<text x="636.7" y="345.0" text-anchor="middle" class="cat">agreement unsigned</text>
+<text x="636.7" y="358.0" text-anchor="middle" class="cat">(TW-34, TW-35)</text>
+<line x1="526.5" y1="193.1" x2="589.5" y2="193.1" stroke="#9a9388" stroke-dasharray="3 3"/>
+<rect x="746.8" y="157.7" width="94.4" height="92.7" fill="#3f7d53"><title>Value revisions before the freeze (TW-28): +352,935 | running total 14,280,008</title></rect>
+<text x="794.0" y="151.7" text-anchor="middle" class="vl">+352,935</text>
+<text x="794.0" y="137.7" text-anchor="middle" class="rt">&#8721; 14,280,008</text>
+<text x="794.0" y="332.0" text-anchor="middle" class="cat">Value revisions before</text>
+<text x="794.0" y="345.0" text-anchor="middle" class="cat">the freeze (TW-28)</text>
+<line x1="683.9" y1="250.4" x2="746.8" y2="250.4" stroke="#9a9388" stroke-dasharray="3 3"/>
+<rect x="904.1" y="157.7" width="94.4" height="152.3" fill="#1d4a33"><title>Total insured value, confirmed loans: 14,280,008 | running total 14,280,008</title></rect>
+<text x="951.3" y="151.7" text-anchor="middle" class="vl">14,280,008</text>
+<text x="951.3" y="137.7" text-anchor="middle" class="rt">&#8721; 14,280,008</text>
+<text x="951.3" y="332.0" text-anchor="middle" class="cat">Total insured value,</text>
+<text x="951.3" y="345.0" text-anchor="middle" class="cat">confirmed loans</text>
+<line x1="841.2" y1="157.7" x2="904.1" y2="157.7" stroke="#9a9388" stroke-dasharray="3 3"/>
+  </svg>
+</section>
+
+<section>
+  <h2>Insured value by cover</h2>
+  <p class="note">Objects lent by a lender named on the Tidelines Government Indemnity Scheme
+  approval letter of 21 October 2026 are under the indemnity; every other lender, dealers
+  included, is insured commercially (IS-2 s2).</p>
+  <div class="charts">
+    <svg viewBox="0 0 560 300" role="img" aria-label="Insured value under indemnity and
+    commercial cover">
+<rect x="90" y="124.0" width="130" height="126.0" fill="#2f5d7c"><title>Government Indemnity Scheme (GIS): GBP 5,920,088 across 20 objects</title></rect>
+<text x="155" y="118.0" text-anchor="middle" class="vl">5,920,088</text>
+<text x="155" y="270" text-anchor="middle" class="cat">Government Indemnity Scheme (GIS)</text>
+<text x="155" y="284" text-anchor="middle" class="cat">20 objects</text>
+<rect x="310" y="72.0" width="130" height="178.0" fill="#9e6b2f"><title>Commercial (Keel &amp; Lantern): GBP 8,359,920 across 11 objects</title></rect>
+<text x="375" y="66.0" text-anchor="middle" class="vl">8,359,920</text>
+<text x="375" y="270" text-anchor="middle" class="cat">Commercial (Keel &amp; Lantern)</text>
+<text x="375" y="284" text-anchor="middle" class="cat">11 objects</text>
+    </svg>
+    <div>
+      <table style="width:auto">
+        <thead><tr><th>Cover</th><th>Objects</th><th>Insured value (GBP)</th>
+        <th>Premium (GBP)</th></tr></thead>
+        <tbody>
+          <tr><td>GIS</td><td class="num">20</td><td class="num">5,920,088</td>
+          <td class="num">0.00</td></tr>
+          <tr><td>Commercial</td><td class="num">11</td><td class="num">8,359,920</td>
+          <td class="num">11,341.14</td></tr>
+          <tr><td><strong>Total</strong></td><td class="num"><strong>31</strong></td>
+          <td class="num"><strong>14,280,008</strong></td>
+          <td class="num"><strong>11,341.14</strong></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Every object in the register</h2>
+  <div class="filter">
+    <input id="q" type="search" placeholder="Filter — object, artist, lender, status,
+    cover, trip&hellip;" aria-label="Filter the object table">
+    <span id="count"></span>
+  </div>
+  <table id="objects">
+    <thead><tr>
+      <th>Object</th><th>Artist</th><th>Title</th><th>Lender</th><th>Status</th>
+      <th>Insured value (GBP)</th><th>Cover</th><th>Premium (GBP)</th><th>Trip</th>
+    </tr></thead>
+    <tbody>
+<tr><td>TW-01</td><td>Edith Calderwood</td><td>Low Water, Calder Bay</td><td>Calder Bay Art Society</td><td>Confirmed</td><td class="num" data-v="85000">85,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-01</td></tr>
+<tr><td>TW-02</td><td>Edith Calderwood</td><td>Herring Girls at Dusk</td><td>Calder Bay Art Society</td><td>Confirmed</td><td class="num" data-v="140000">140,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-01</td></tr>
+<tr><td>TW-03</td><td>James Orrin</td><td>The Breakwater in Snow</td><td>Calder Bay Art Society</td><td>Confirmed</td><td class="num" data-v="62500">62,500</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-01</td></tr>
+<tr><td>TW-04</td><td>Leonie Barraud</td><td>Falaises a maree basse</td><td>Musee Leonie Barraud</td><td>Confirmed</td><td class="num" data-v="364308">364,308</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-02</td></tr>
+<tr><td>TW-05</td><td>Leonie Barraud</td><td>Le Phare de Sainte-Anne</td><td>Musee Leonie Barraud</td><td>Confirmed</td><td class="num" data-v="238969">238,969</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-02</td></tr>
+<tr><td>TW-06</td><td>Octave Ruel</td><td>Tempete, Port-Sainte-Anne</td><td>Musee Leonie Barraud</td><td>Confirmed</td><td class="num" data-v="997510">997,510</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-02</td></tr>
+<tr><td>TW-07</td><td>Pieter Voskuyl</td><td>Dunes near Oostduin</td><td>Galerie Hendriks &amp; Daalder</td><td>Confirmed</td><td class="num" data-v="1038600">1,038,600</td><td>Commercial</td><td class="num" data-v="1415.53">1415.53</td><td>TRP-03</td></tr>
+<tr><td>TW-08</td><td>Pieter Voskuyl</td><td>Fishing Pinks Beached</td><td>Galerie Hendriks &amp; Daalder</td><td>Confirmed</td><td class="num" data-v="822225">822,225</td><td>Commercial</td><td class="num" data-v="1188.34">1188.34</td><td>TRP-03</td></tr>
+<tr><td>TW-09</td><td>Anna Brakel</td><td>Grey Sea, Morning</td><td>Galerie Hendriks &amp; Daalder</td><td>Confirmed</td><td class="num" data-v="952050">952,050</td><td>Commercial</td><td class="num" data-v="1324.65">1324.65</td><td>TRP-03</td></tr>
+<tr><td>TW-10</td><td>Anna Brakel</td><td>Net Menders</td><td>Galerie Hendriks &amp; Daalder</td><td>Confirmed</td><td class="num" data-v="346200">346,200</td><td>Commercial</td><td class="num" data-v="588.54">588.54</td><td>TRP-03-2</td></tr>
+<tr><td>TW-11</td><td>Elsie Danby</td><td>Cobles at Staithe End</td><td>Mrs Imogen Thackwray</td><td>Confirmed</td><td class="num" data-v="48000">48,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-04</td></tr>
+<tr><td>TW-12</td><td>Elsie Danby</td><td>Harbour Study, Kirkby Stane</td><td>Mrs Imogen Thackwray</td><td>Withdrawn by lender</td><td class="num" data-v="0">0</td><td>—</td><td class="num" data-v="0.00">0.00</td><td>—</td></tr>
+<tr><td>TW-13</td><td>Walter Ibbs</td><td>Gulls over the Scar</td><td>Mrs Imogen Thackwray</td><td>Confirmed</td><td class="num" data-v="36500">36,500</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-04</td></tr>
+<tr><td>TW-14</td><td>Margit Lundell</td><td>Skerries in Autumn</td><td>Ostkust Konstmuseum</td><td>Confirmed</td><td class="num" data-v="447020">447,020</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-05</td></tr>
+<tr><td>TW-15</td><td>Margit Lundell</td><td>White Night, Sundvik</td><td>Ostkust Konstmuseum</td><td>Confirmed</td><td class="num" data-v="248385">248,385</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-05</td></tr>
+<tr><td>TW-16</td><td>Edvard Sahlin</td><td>Ice Floes on the Bothnian Shore</td><td>Ostkust Konstmuseum</td><td>Confirmed</td><td class="num" data-v="706580">706,580</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-05</td></tr>
+<tr><td>TW-17</td><td>Agnes Merrin</td><td>Gannets off Hollin Head</td><td>Fairhaven Fine Art Ltd</td><td>Confirmed</td><td class="num" data-v="380000">380,000</td><td>Commercial</td><td class="num" data-v="570.00">570.00</td><td>TRP-06</td></tr>
+<tr><td>TW-18</td><td>Thomas Rossiter</td><td>The Lifeboat Launch</td><td>Fairhaven Fine Art Ltd</td><td>Confirmed</td><td class="num" data-v="1250000">1,250,000</td><td>Commercial</td><td class="num" data-v="1387.50">1387.50</td><td>TRP-06</td></tr>
+<tr><td>TW-19</td><td>Thomas Rossiter</td><td>Sea Coal Gatherers</td><td>Whitcombe College</td><td>Confirmed</td><td class="num" data-v="95000">95,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-07</td></tr>
+<tr><td>TW-20</td><td>Thomas Rossiter</td><td>Fog at Skelwick</td><td>Whitcombe College</td><td>Declined - condition</td><td class="num" data-v="0">0</td><td>—</td><td class="num" data-v="0.00">0.00</td><td>—</td></tr>
+<tr><td>TW-21</td><td>Mary Tennick</td><td>Rock Pools</td><td>Whitcombe College</td><td>Confirmed</td><td class="num" data-v="52000">52,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-07</td></tr>
+<tr><td>TW-22</td><td>Pieter Voskuyl</td><td>Westerschelde, Evening</td><td>Strandhuis Collection Trust</td><td>Confirmed</td><td class="num" data-v="556160">556,160</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-08</td></tr>
+<tr><td>TW-23</td><td>Cornelis Aart</td><td>Zeeland Shrimpers</td><td>Strandhuis Collection Trust</td><td>Confirmed</td><td class="num" data-v="269499">269,499</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-08</td></tr>
+<tr><td>TW-24</td><td>Cornelis Aart</td><td>Storm Beacon</td><td>Strandhuis Collection Trust</td><td>Confirmed</td><td class="num" data-v="160982">160,982</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-08</td></tr>
+<tr><td>TW-25</td><td>Harald Strom</td><td>Midsummer Light, Solvik</td><td>Halvorsen Family Collection</td><td>Confirmed</td><td class="num" data-v="878750">878,750</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-09</td></tr>
+<tr><td>TW-26</td><td>Harald Strom</td><td>Boathouses</td><td>Halvorsen Family Collection</td><td>Confirmed</td><td class="num" data-v="333925">333,925</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-09</td></tr>
+<tr><td>TW-27</td><td>Agnes Merrin</td><td>Breakers at Hollin Head</td><td>Carrow &amp; Webb Gallery</td><td>Confirmed</td><td class="num" data-v="1254880">1,254,880</td><td>Commercial</td><td class="num" data-v="1642.62">1642.62</td><td>TRP-10</td></tr>
+<tr><td>TW-28</td><td>Agnes Merrin</td><td>Spring Tide, Brennock</td><td>Carrow &amp; Webb Gallery</td><td>Confirmed</td><td class="num" data-v="1450955">1,450,955</td><td>Commercial</td><td class="num" data-v="1848.50">1848.50</td><td>TRP-10</td></tr>
+<tr><td>TW-29</td><td>Winslow Pardee</td><td>Atlantic Squall</td><td>Carrow &amp; Webb Gallery</td><td>Confirmed</td><td class="num" data-v="549010">549,010</td><td>Commercial</td><td class="num" data-v="901.46">901.46</td><td>TRP-10-2</td></tr>
+<tr><td>TW-30</td><td>Thomas Rossiter</td><td>The Saltby Pilot Cutter</td><td>Aldred Maritime Museum</td><td>Confirmed</td><td class="num" data-v="220000">220,000</td><td>Commercial</td><td class="num" data-v="330.00">330.00</td><td>TRP-11</td></tr>
+<tr><td>TW-31</td><td>Unknown artist</td><td>Ship portrait: the brig Margaret Aldred</td><td>Aldred Maritime Museum</td><td>Confirmed</td><td class="num" data-v="96000">96,000</td><td>Commercial</td><td class="num" data-v="144.00">144.00</td><td>TRP-11</td></tr>
+<tr><td>TW-32</td><td>Mary Tennick</td><td>Portobello Sands</td><td>Mr Ruaridh Fennick</td><td>Confirmed</td><td class="num" data-v="125000">125,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-12</td></tr>
+<tr><td>TW-33</td><td>James Orrin</td><td>Leith Roads</td><td>Mr Ruaridh Fennick</td><td>Confirmed</td><td class="num" data-v="74000">74,000</td><td>GIS</td><td class="num" data-v="0.00">0.00</td><td>TRP-12</td></tr>
+<tr><td>TW-34</td><td>Edith Calderwood</td><td>Garside Bay, Winter</td><td>Garside Hall Estate</td><td>Not confirmed - agreement unsigned</td><td class="num" data-v="0">0</td><td>—</td><td class="num" data-v="0.00">0.00</td><td>—</td></tr>
+<tr><td>TW-35</td><td>Walter Ibbs</td><td>The Old Jetty</td><td>Garside Hall Estate</td><td>Not confirmed - agreement unsigned</td><td class="num" data-v="0">0</td><td>—</td><td class="num" data-v="0.00">0.00</td><td>—</td></tr>
+    </tbody>
+  </table>
+  <p class="legend">Click any column heading to sort; click again to reverse.</p>
+</section>
+
+<section>
+  <h2>Vehicles</h2>
+  <p class="note">Each lender’s objects travel as one consignment on the dates confirmed by
+  the shipping agent; where IS-2 s5 puts part of a consignment over the 3,000,000 pound
+  per-vehicle limit, the remainder travels on a further vehicle (LP-7 s5).</p>
+  <table>
+    <thead><tr><th>Trip</th><th>Lender</th><th>Origin</th><th>Mode</th><th>Departs</th>
+    <th>Arrives</th><th>Courier</th><th>Objects</th><th>Insured value (GBP)</th>
+    <th>Status</th></tr></thead>
+    <tbody>
+<tr><td>TRP-01</td><td>Calder Bay Art Society</td><td>Calder Bay</td><td>road</td><td>2027-02-08</td><td>2027-02-08</td><td>Hollis Brandt</td><td class="num">3</td><td class="num">287,500</td><td>Booked</td></tr>
+<tr><td>TRP-02</td><td>Musee Leonie Barraud</td><td>Port-Sainte-Anne</td><td>road</td><td>2027-02-09</td><td>2027-02-11</td><td>Maud Ellery</td><td class="num">3</td><td class="num">1,600,787</td><td>Booked</td></tr>
+<tr><td>TRP-04</td><td>Mrs Imogen Thackwray</td><td>Kirkby Stane</td><td>road</td><td>2027-02-11</td><td>2027-02-11</td><td>Kit Laverick</td><td class="num">2</td><td class="num">84,500</td><td>Booked</td></tr>
+<tr><td>TRP-03</td><td>Galerie Hendriks &amp; Daalder</td><td>Amsterdam</td><td>air</td><td>2027-02-15</td><td>2027-02-15</td><td>Saoirse Dunmore</td><td class="num">3</td><td class="num">2,812,875</td><td>Booked</td></tr>
+<tr><td>TRP-03-2</td><td>Galerie Hendriks &amp; Daalder</td><td>Amsterdam</td><td>air</td><td>2027-02-15</td><td>2027-02-15</td><td>Ned Aske</td><td class="num">1</td><td class="num">346,200</td><td>Booked</td></tr>
+<tr><td>TRP-05</td><td>Ostkust Konstmuseum</td><td>Sundvik</td><td>air</td><td>2027-02-15</td><td>2027-02-16</td><td>Priya Calloway</td><td class="num">3</td><td class="num">1,401,985</td><td>Booked</td></tr>
+<tr><td>TRP-06</td><td>Fairhaven Fine Art Ltd</td><td>London</td><td>road</td><td>2027-02-16</td><td>2027-02-17</td><td>Hollis Brandt</td><td class="num">2</td><td class="num">1,630,000</td><td>Booked</td></tr>
+<tr><td>TRP-07</td><td>Whitcombe College</td><td>Elsworth</td><td>road</td><td>2027-02-17</td><td>2027-02-18</td><td>Maud Ellery</td><td class="num">2</td><td class="num">147,000</td><td>Booked</td></tr>
+<tr><td>TRP-08</td><td>Strandhuis Collection Trust</td><td>Oostduin</td><td>road</td><td>2027-02-18</td><td>2027-02-20</td><td>Saoirse Dunmore</td><td class="num">3</td><td class="num">986,641</td><td>Booked</td></tr>
+<tr><td>TRP-09</td><td>Halvorsen Family Collection</td><td>Solvik</td><td>air</td><td>2027-02-19</td><td>2027-02-20</td><td>Lender&#x27;s courier</td><td class="num">2</td><td class="num">1,212,675</td><td>Booked</td></tr>
+<tr><td>TRP-10</td><td>Carrow &amp; Webb Gallery</td><td>New York</td><td>air</td><td>2027-02-22</td><td>2027-02-24</td><td>Ned Aske</td><td class="num">2</td><td class="num">2,705,835</td><td>Booked</td></tr>
+<tr><td>TRP-10-2</td><td>Carrow &amp; Webb Gallery</td><td>New York</td><td>air</td><td>2027-02-22</td><td>2027-02-24</td><td>Priya Calloway</td><td class="num">1</td><td class="num">549,010</td><td>Booked</td></tr>
+<tr><td>TRP-11</td><td>Aldred Maritime Museum</td><td>Saltby</td><td>road</td><td>2027-02-23</td><td>2027-02-23</td><td>Hollis Brandt</td><td class="num">2</td><td class="num">316,000</td><td>Booked</td></tr>
+<tr><td>TRP-12</td><td>Mr Ruaridh Fennick</td><td>Edinburgh</td><td>road</td><td>2027-02-24</td><td>2027-02-25</td><td>Maud Ellery</td><td class="num">2</td><td class="num">199,000</td><td>Booked</td></tr>
+<tr><td>TRP-13</td><td>Garside Hall Estate</td><td>Garside</td><td>road</td><td>2027-02-25</td><td>2027-02-25</td><td>—</td><td class="num">0</td><td class="num">0</td><td>Cancelled</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<script>
+(function () {
+  var table = document.getElementById('objects');
+  var tbody = table.tBodies[0];
+  var all = Array.prototype.slice.call(tbody.rows);
+  var q = document.getElementById('q');
+  var count = document.getElementById('count');
+  var dir = {};
+
+  function render(list) {
+    tbody.textContent = '';
+    list.forEach(function (r) { tbody.appendChild(r); });
+    count.textContent = list.length + ' of ' + all.length + ' objects shown';
+  }
+
+  function visible() {
+    var t = q.value.trim().toLowerCase();
+    if (!t) return all.slice();
+    return all.filter(function (r) {
+      return r.textContent.toLowerCase().indexOf(t) !== -1;
+    });
+  }
+
+  q.addEventListener('input', function () { render(visible()); });
+
+  Array.prototype.forEach.call(table.tHead.rows[0].cells, function (th, i) {
+    th.addEventListener('click', function () {
+      dir[i] = dir[i] === 1 ? -1 : 1;
+      var d = dir[i];
+      var list = visible();
+      list.sort(function (a, b) {
+        var ca = a.cells[i], cb = b.cells[i];
+        var na = ca.dataset.v, nb = cb.dataset.v;
+        if (na !== undefined && nb !== undefined) {
+          return (parseFloat(na) - parseFloat(nb)) * d;
+        }
+        return ca.textContent.trim().localeCompare(cb.textContent.trim()) * d;
+      });
+      render(list);
+    });
+  });
+
+  render(all.slice());
+})();
+</script>
+</body>
+</html>

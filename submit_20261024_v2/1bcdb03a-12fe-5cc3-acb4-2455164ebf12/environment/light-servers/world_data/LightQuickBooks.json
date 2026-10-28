@@ -1,0 +1,347 @@
+{
+ "customers": [
+  {
+   "Id": "641",
+   "DisplayName": "Corrin Developers Meetup",
+   "PrimaryEmailAddr": {
+    "Address": "bram@corrindevs.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Bulk T-shirt order for organisers."
+  },
+  {
+   "Id": "642",
+   "DisplayName": "North Data Guild",
+   "PrimaryEmailAddr": {
+    "Address": "femi.adebayo@northdata.example"
+   },
+   "Balance": 54.0,
+   "Active": true,
+   "Notes": "Tote bags for the evening social."
+  },
+  {
+   "Id": "643",
+   "DisplayName": "Walk-up sales",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Card payments at the stall."
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "741",
+   "DisplayName": "Inkwell Garments",
+   "PrimaryEmailAddr": {
+    "Address": "orders@inkwellgarments.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960 741"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Printed T-shirts, organic cotton."
+  },
+  {
+   "Id": "742",
+   "DisplayName": "Corrin Canvas Co",
+   "PrimaryEmailAddr": {
+    "Address": "hello@corrincanvas.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960 752"
+   },
+   "Balance": 180.0,
+   "Active": true,
+   "Notes": "Tote bags."
+  },
+  {
+   "Id": "743",
+   "DisplayName": "TapCard Merchant Services",
+   "PrimaryEmailAddr": {
+    "Address": "support@tapcard.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960 763"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Card reader rental."
+  }
+ ],
+ "items": [
+  {
+   "Id": "841",
+   "Name": "Summit T-shirt",
+   "Description": "Organic cotton T-shirt with the 2026 artwork",
+   "Type": "Service",
+   "UnitPrice": 18.0,
+   "IncomeAccountRef": {
+    "value": "64",
+    "name": "Merchandise Sales"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2026-09-01 09:00:00",
+    "LastUpdatedTime": "2026-09-01 09:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "842",
+   "Name": "Summit tote bag",
+   "Description": "Heavy canvas tote",
+   "Type": "Service",
+   "UnitPrice": 9.0,
+   "IncomeAccountRef": {
+    "value": "64",
+    "name": "Merchandise Sales"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2026-09-01 09:00:00",
+    "LastUpdatedTime": "2026-09-01 09:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "843",
+   "Name": "Enamel pin",
+   "Description": "Northlight logo pin",
+   "Type": "Service",
+   "UnitPrice": 4.0,
+   "IncomeAccountRef": {
+    "value": "64",
+    "name": "Merchandise Sales"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2026-09-01 09:00:00",
+    "LastUpdatedTime": "2026-09-01 09:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "6441",
+   "DocNumber": "MS-2026-011",
+   "TxnDate": "2026-10-31",
+   "DueDate": "2026-11-14",
+   "CustomerRef": {
+    "value": "641",
+    "name": "Corrin Developers Meetup"
+   },
+   "Line": [
+    {
+     "Amount": 216.0,
+     "Description": "Organic cotton T-shirt with the 2026 artwork x 12",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Summit T-shirt"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 216.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "6442",
+   "DocNumber": "MS-2026-012",
+   "TxnDate": "2026-11-06",
+   "DueDate": "2026-11-20",
+   "CustomerRef": {
+    "value": "642",
+    "name": "North Data Guild"
+   },
+   "Line": [
+    {
+     "Amount": 54.0,
+     "Description": "Heavy canvas tote x 6",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Summit tote bag"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 54.0,
+   "Balance": 54.0,
+   "Status": "Open"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "6341",
+   "DocNumber": "IG-3381",
+   "VendorRef": {
+    "value": "741",
+    "name": "Inkwell Garments"
+   },
+   "TxnDate": "2026-10-12",
+   "DueDate": "2026-11-11",
+   "Line": [
+    {
+     "Amount": 1450.0,
+     "Description": "250 summit T-shirts",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Merchandise Stock",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1450.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by bank transfer."
+  },
+  {
+   "Id": "6342",
+   "DocNumber": "CCC-0918",
+   "VendorRef": {
+    "value": "742",
+    "name": "Corrin Canvas Co"
+   },
+   "TxnDate": "2026-10-19",
+   "DueDate": "2026-11-18",
+   "Line": [
+    {
+     "Amount": 180.0,
+     "Description": "120 tote bags",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Merchandise Stock",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 180.0,
+   "Balance": 180.0,
+   "PrivateNote": "Due before event week."
+  },
+  {
+   "Id": "6343",
+   "DocNumber": "TC-77120",
+   "VendorRef": {
+    "value": "743",
+    "name": "TapCard Merchant Services"
+   },
+   "TxnDate": "2026-11-05",
+   "DueDate": "2026-12-05",
+   "Line": [
+    {
+     "Amount": 35.0,
+     "Description": "Card reader rental, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Bank and Card Fees",
+       "value": "63"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 35.0,
+   "Balance": 0,
+   "PrivateNote": ""
+  }
+ ],
+ "payments": [
+  {
+   "Id": "6481",
+   "TxnDate": "2026-11-07",
+   "CustomerRef": {
+    "value": "641",
+    "name": "Corrin Developers Meetup"
+   },
+   "TotalAmt": 216.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "6441",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 216.0
+    }
+   ],
+   "PrivateNote": "Bank transfer"
+  }
+ ],
+ "estimates": [
+  {
+   "Id": "6491",
+   "DocNumber": "MS-E-2026-004",
+   "TxnDate": "2026-11-09",
+   "ExpirationDate": "2026-12-09",
+   "CustomerRef": {
+    "value": "642",
+    "name": "North Data Guild"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 80.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Enamel pins for the evening social",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "843",
+       "name": "Enamel pin"
+      },
+      "UnitPrice": 4.0,
+      "Qty": 20
+     }
+    }
+   ],
+   "TotalAmt": 80.0,
+   "TxnStatus": "Pending",
+   "AcceptedDate": "",
+   "MetaData": {
+    "CreateTime": "2026-09-01 09:00:00",
+    "LastUpdatedTime": "2026-09-01 09:00:00"
+   },
+   "SyncToken": "0",
+   "LinkedTxn": []
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "6691",
+   "TxnDate": "2026-11-02",
+   "TotalAmt": 27.5,
+   "Line": [
+    {
+     "Description": "Price labels and a cash box for the stall",
+     "Amount": 27.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-02T13:00:00"
+   }
+  },
+  {
+   "Id": "6692",
+   "TxnDate": "2026-11-09",
+   "TotalAmt": 14.2,
+   "Line": [
+    {
+     "Description": "Folding table cover",
+     "Amount": 14.2
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-09T10:30:00"
+   }
+  }
+ ]
+}

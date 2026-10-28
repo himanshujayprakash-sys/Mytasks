@@ -1,0 +1,262 @@
+{
+ "tickets": [
+  {
+   "id": 16701,
+   "subject": "Split branch over the river path",
+   "description": "There is a large split branch on one of the limes over the river path in the riverside park.",
+   "status": "solved",
+   "priority": "urgent",
+   "type": "incident",
+   "requester_id": 1674,
+   "assignee_id": 1665,
+   "organization_id": 1651,
+   "tags": [
+    "trees"
+   ],
+   "created_at": "2026-08-25T08:00:00Z",
+   "updated_at": "2026-08-30T08:45:00Z"
+  },
+  {
+   "id": 16702,
+   "subject": "Slippery leaves on the Saxon Rise footpath",
+   "description": "The leaves on the footpath by Saxon Rise playground are very slippery after the rain.",
+   "status": "open",
+   "priority": "high",
+   "type": "problem",
+   "requester_id": 1667,
+   "assignee_id": 1671,
+   "organization_id": 1651,
+   "tags": [
+    "leaves"
+   ],
+   "created_at": "2026-09-04T12:35:00Z",
+   "updated_at": "2026-09-06T15:28:00Z"
+  },
+  {
+   "id": 16703,
+   "subject": "Fireworks start time",
+   "description": "Your web page says 18:30 but the poster says 19:00. Which is right?",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 1664,
+   "assignee_id": 1680,
+   "organization_id": 1651,
+   "tags": [
+    "events"
+   ],
+   "created_at": "2026-09-11T08:00:00Z",
+   "updated_at": "2026-09-12T11:57:00Z"
+  },
+  {
+   "id": 16704,
+   "subject": "Memorial bench",
+   "description": "I would like to place a bench in memory of my husband near the cemetery lodge. How do I go about it?",
+   "status": "pending",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 1673,
+   "assignee_id": 1672,
+   "organization_id": 1651,
+   "tags": [
+    "benches"
+   ],
+   "created_at": "2026-09-22T11:20:00Z",
+   "updated_at": "2026-09-26T14:48:00Z"
+  },
+  {
+   "id": 16705,
+   "subject": "Broken springer at the playground",
+   "description": "One of the springers at Saxon Rise playground is cracked and wobbles.",
+   "status": "pending",
+   "priority": "high",
+   "type": "incident",
+   "requester_id": 1663,
+   "assignee_id": 1661,
+   "organization_id": 1651,
+   "tags": [
+    "playgrounds"
+   ],
+   "created_at": "2026-09-25T08:35:00Z",
+   "updated_at": "2026-09-25T09:53:00Z"
+  },
+  {
+   "id": 16706,
+   "subject": "Overflowing bins in the market square",
+   "description": "The bins on the north side of the market square were overflowing all weekend.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "problem",
+   "requester_id": 1679,
+   "assignee_id": 1677,
+   "organization_id": 1651,
+   "tags": [
+    "bins"
+   ],
+   "created_at": "2026-10-08T14:15:00Z",
+   "updated_at": "2026-10-14T17:59:00Z"
+  },
+  {
+   "id": 16707,
+   "subject": "Booking the bandstand",
+   "description": "Can a brass band book the bandstand on Sunday afternoons in the spring?",
+   "status": "open",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 1679,
+   "assignee_id": 1669,
+   "organization_id": 1651,
+   "tags": [
+    "events"
+   ],
+   "created_at": "2026-10-15T14:45:00Z",
+   "updated_at": "2026-10-19T17:07:00Z"
+  },
+  {
+   "id": 16708,
+   "subject": "Dog waste bin missing",
+   "description": "The dog waste bin by the Saxon Rise entrance has gone.",
+   "status": "new",
+   "priority": "normal",
+   "type": "task",
+   "requester_id": 1662,
+   "assignee_id": null,
+   "organization_id": 1651,
+   "tags": [
+    "bins"
+   ],
+   "created_at": "2026-10-29T13:15:00Z",
+   "updated_at": "2026-11-01T18:00:00Z"
+  },
+  {
+   "id": 16709,
+   "subject": "Allotment waiting list: how long is the wait?",
+   "description": "Web form enquiry, category Allotments. Customer asks how long the waiting list is for Brook Meadow.",
+   "status": "solved",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 1690,
+   "assignee_id": 1666,
+   "organization_id": 1651,
+   "tags": [
+    "allotments"
+   ],
+   "created_at": "2026-10-06T10:20:00Z",
+   "updated_at": "2026-10-07T09:05:00Z"
+  },
+  {
+   "id": 16710,
+   "subject": "Allotment application: change of details",
+   "description": "Web form enquiry, category Allotments. Customer asks to update their waiting-list application; the details are in the comments below.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "task",
+   "requester_id": 1691,
+   "assignee_id": 1666,
+   "organization_id": 1651,
+   "tags": [
+    "allotments"
+   ],
+   "created_at": "2026-10-22T19:12:00Z",
+   "updated_at": "2026-10-23T08:40:00Z"
+  },
+  {
+   "id": 16711,
+   "subject": "Allotment plot: overgrown path at Hollins Lane",
+   "description": "Web form enquiry, category Allotments. A plot holder reports brambles across the main path by the car park.",
+   "status": "open",
+   "priority": "normal",
+   "type": "problem",
+   "requester_id": 1692,
+   "assignee_id": 1666,
+   "organization_id": 1651,
+   "tags": [
+    "allotments"
+   ],
+   "created_at": "2026-10-26T16:02:00Z",
+   "updated_at": "2026-10-27T10:15:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "id": 16801,
+   "ticket_id": 16701,
+   "author_id": 1665,
+   "body": "Thank you. The path has been taped off and our crew made the tree safe this morning.",
+   "public": true,
+   "created_at": "2026-08-30T08:45:00Z"
+  },
+  {
+   "id": 16802,
+   "ticket_id": 16703,
+   "author_id": 1680,
+   "body": "The display starts at 19:00. We have corrected the web page; sorry for the confusion.",
+   "public": true,
+   "created_at": "2026-09-12T11:57:00Z"
+  },
+  {
+   "id": 16803,
+   "ticket_id": 16704,
+   "author_id": 1672,
+   "body": "I have sent you the bench locations still available and the plaque wording guide.",
+   "public": true,
+   "created_at": "2026-09-26T14:48:00Z"
+  },
+  {
+   "id": 16804,
+   "ticket_id": 16705,
+   "author_id": 1661,
+   "body": "The springer is taped off and a replacement is on order.",
+   "public": true,
+   "created_at": "2026-09-25T09:53:00Z"
+  },
+  {
+   "id": 16805,
+   "ticket_id": 16705,
+   "author_id": 1661,
+   "body": "Riverside Play Equipment delivering Thursday; fit Friday.",
+   "public": false,
+   "created_at": "2026-09-25T09:53:00Z"
+  },
+  {
+   "id": 16806,
+   "ticket_id": 16706,
+   "author_id": 1677,
+   "body": "Downland Waste are replacing those six bins with larger ones next Tuesday.",
+   "public": true,
+   "created_at": "2026-10-14T17:59:00Z"
+  },
+  {
+   "id": 16807,
+   "ticket_id": 16709,
+   "author_id": 1666,
+   "body": "The current wait for Brook Meadow is about four years. The allotments office will write when a plot comes up.",
+   "public": true,
+   "created_at": "2026-10-07T09:05:00Z"
+  },
+  {
+   "id": 16808,
+   "ticket_id": 16710,
+   "author_id": 1691,
+   "body": "This is Agnes Fairley, waiting-list reference W-1001. Please change my standing instructions: from now on I will take a plot at Brook Meadow as well as Hollins Lane. I still need a plot with a water trough.",
+   "public": true,
+   "created_at": "2026-10-22T19:12:00Z"
+  },
+  {
+   "id": 16809,
+   "ticket_id": 16710,
+   "author_id": 1666,
+   "body": "Logged for the allotments office, which reads its own tickets here before each lettings round. Nothing for the contact centre to send.",
+   "public": false,
+   "created_at": "2026-10-23T08:40:00Z"
+  },
+  {
+   "id": 16810,
+   "ticket_id": 16711,
+   "author_id": 1666,
+   "body": "Passed to the parks grounds team for the next site visit.",
+   "public": false,
+   "created_at": "2026-10-27T10:15:00Z"
+  }
+ ]
+}

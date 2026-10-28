@@ -1,0 +1,288 @@
+{
+ "projects": [
+  {
+   "id": "66000",
+   "key": "BIT",
+   "name": "Brennock Museum IT helpdesk",
+   "description": "IT, website and AV faults at the museum.",
+   "lead": "Dev Malhotra",
+   "project_type_key": "service_desk"
+  }
+ ],
+ "users": [
+  {
+   "account_id": "bmg-bc40346edd34",
+   "display_name": "Annika Sorensen",
+   "email": "annika.sorensen@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-04304d57c3a1",
+   "display_name": "Bryony Stell",
+   "email": "bryony.stell@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-b56c045e5cb9",
+   "display_name": "Dev Malhotra",
+   "email": "dev.malhotra@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-d2fb60fd148e",
+   "display_name": "Fenella Brook",
+   "email": "fenella.brook@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-084c231885ec",
+   "display_name": "Ines Carvalho",
+   "email": "ines.carvalho@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-c56803d961e9",
+   "display_name": "Joss Penrith",
+   "email": "joss.penrith@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-ea5f53f13ffd",
+   "display_name": "Lark Simmonds",
+   "email": "lark.simmonds@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-f24deb6f5f06",
+   "display_name": "Maud Ellery",
+   "email": "maud.ellery@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-9ec467d7d086",
+   "display_name": "Mirren Achebe",
+   "email": "mirren.achebe@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-9950f9fafece",
+   "display_name": "Rafe Oduya",
+   "email": "rafe.oduya@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-0db1beca800b",
+   "display_name": "Tobias Grieve",
+   "email": "tobias.grieve@brennock-museums.example",
+   "active": true
+  },
+  {
+   "account_id": "bmg-f3219bb848c0",
+   "display_name": "Wyn Halloran",
+   "email": "wyn.halloran@brennock-museums.example",
+   "active": true
+  }
+ ],
+ "boards": [
+  {
+   "id": 6601,
+   "name": "BIT queue",
+   "project_key": "BIT",
+   "type": "kanban"
+  }
+ ],
+ "issues": [
+  {
+   "id": "66001",
+   "key": "BIT-212",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Front desk till freezes when a gift membership is scanned",
+   "description": "Happens only with the new gift card barcodes. Supplier has the logs.",
+   "status": "In Progress",
+   "priority": "High",
+   "assignee": "Dev Malhotra",
+   "reporter": "Tobias Grieve",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-23T10:20:00Z",
+   "updated": "2026-11-27T14:05:00Z"
+  },
+  {
+   "id": "66002",
+   "key": "BIT-213",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Gallery 4 film screen loses picture each afternoon",
+   "description": "Media player overheating in the plinth; vent cut and a fan fitted.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Dev Malhotra",
+   "reporter": "Wyn Halloran",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-02T11:40:00Z",
+   "updated": "2026-11-05T09:15:00Z"
+  },
+  {
+   "id": "66003",
+   "key": "BIT-214",
+   "project_key": "BIT",
+   "issue_type": "Task",
+   "summary": "Guest Wi-Fi slow in the lecture theatre",
+   "description": "Ahead of the April awards dinner hire; survey the access point first.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Dev Malhotra",
+   "reporter": "Mirren Achebe",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-20T10:30:00Z",
+   "updated": "2026-11-20T10:30:00Z"
+  },
+  {
+   "id": "66004",
+   "key": "BIT-215",
+   "project_key": "BIT",
+   "issue_type": "Task",
+   "summary": "New laptop for the learning officer",
+   "description": "Imaged and handed over on 12 November.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Dev Malhotra",
+   "reporter": "Rafe Oduya",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-04T14:00:00Z",
+   "updated": "2026-11-12T09:45:00Z"
+  },
+  {
+   "id": "66005",
+   "key": "BIT-216",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Staff kitchen TV shows no signal",
+   "description": "Aerial lead loose behind the cupboard. Not urgent.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": null,
+   "reporter": "Fenella Brook",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-25T12:40:00Z",
+   "updated": "2026-11-25T12:40:00Z"
+  },
+  {
+   "id": "66006",
+   "key": "BIT-217",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Collections database: printing catalogue cards fails",
+   "description": "Label template lost after the update; restoring from the September backup.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Dev Malhotra",
+   "reporter": "Maud Ellery",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-18T09:00:00Z",
+   "updated": "2026-11-26T16:30:00Z"
+  },
+  {
+   "id": "66007",
+   "key": "BIT-218",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Website: What's On page shows last month's events",
+   "description": "Cache rule fixed; the page now refreshes hourly.",
+   "status": "Done",
+   "priority": "High",
+   "assignee": "Annika Sorensen",
+   "reporter": "Lark Simmonds",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-09T08:55:00Z",
+   "updated": "2026-11-09T12:20:00Z"
+  },
+  {
+   "id": "66008",
+   "key": "BIT-219",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Audio guide players not charging in dock 2",
+   "description": "Dock 2 power supply light is off. Using dock 1 for all players meanwhile.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": null,
+   "reporter": "Ines Carvalho",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-27T15:35:00Z",
+   "updated": "2026-11-27T15:35:00Z"
+  },
+  {
+   "id": "66009",
+   "key": "BIT-220",
+   "project_key": "BIT",
+   "issue_type": "Task",
+   "summary": "Password reset for the payroll portal",
+   "description": "Reset and two-factor sign-in set up again.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Dev Malhotra",
+   "reporter": "Bryony Stell",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-24T08:05:00Z",
+   "updated": "2026-11-24T08:40:00Z"
+  },
+  {
+   "id": "66010",
+   "key": "BIT-221",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "CCTV recorder disk nearly full",
+   "description": "Retention cut to 31 days until the bigger disk is fitted next week.",
+   "status": "In Progress",
+   "priority": "High",
+   "assignee": "Dev Malhotra",
+   "reporter": "Joss Penrith",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-26T07:50:00Z",
+   "updated": "2026-11-28T13:25:00Z"
+  },
+  {
+   "id": "66011",
+   "key": "BIT-222",
+   "project_key": "BIT",
+   "issue_type": "Bug",
+   "summary": "Shop card reader drops Bluetooth",
+   "description": "Firmware updated; reader re-paired with the till.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Dev Malhotra",
+   "reporter": "Tobias Grieve",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-13T11:15:00Z",
+   "updated": "2026-11-14T10:00:00Z"
+  },
+  {
+   "id": "66012",
+   "key": "BIT-223",
+   "project_key": "BIT",
+   "issue_type": "Task",
+   "summary": "Email signature with the spring season banner",
+   "description": "Banner image to come once the leaflet artwork is signed off.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": "Annika Sorensen",
+   "reporter": "Lark Simmonds",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-24T16:10:00Z",
+   "updated": "2026-11-24T16:10:00Z"
+  }
+ ]
+}

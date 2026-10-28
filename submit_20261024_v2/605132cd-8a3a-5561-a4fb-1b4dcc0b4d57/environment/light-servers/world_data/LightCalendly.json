@@ -1,0 +1,230 @@
+{
+ "scheduled_events": [
+  {
+   "uuid": "sev-wx001",
+   "owner": "Helen Quarrie",
+   "event_type": "et-wx-visit-60",
+   "name": "Event site visit",
+   "status": "active",
+   "start_time": "2026-09-04T14:00:00.000000Z",
+   "end_time": "2026-09-04T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Riverside park, bandstand",
+   "created_at": "2026-08-31T10:20:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx002",
+   "owner": "Helen Quarrie",
+   "event_type": "et-wx-call-30",
+   "name": "Event enquiry",
+   "status": "active",
+   "start_time": "2026-09-07T11:00:00.000000Z",
+   "end_time": "2026-09-07T11:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Zoom details emailed once booked",
+   "created_at": "2026-09-04T15:35:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx003",
+   "owner": "Dominic Penhaligon",
+   "event_type": "et-wx-visit-60",
+   "name": "Tree concern visit",
+   "status": "active",
+   "start_time": "2026-09-14T11:30:00.000000Z",
+   "end_time": "2026-09-14T12:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Riverside park, lime avenue",
+   "created_at": "2026-09-11T14:10:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx004",
+   "owner": "Dominic Penhaligon",
+   "event_type": "et-wx-visit-60",
+   "name": "Tree concern visit",
+   "status": "canceled",
+   "start_time": "2026-09-28T09:30:00.000000Z",
+   "end_time": "2026-09-28T10:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Saxon Rise playground",
+   "created_at": "2026-09-24T13:20:00.000000Z",
+   "canceled_reason": "The branch came down in the wind; crew already cleared it."
+  },
+  {
+   "uuid": "sev-wx005",
+   "owner": "Leanne Trago",
+   "event_type": "et-wx-call-30",
+   "name": "Memorial bench enquiry",
+   "status": "active",
+   "start_time": "2026-10-09T11:00:00.000000Z",
+   "end_time": "2026-10-09T11:30:00.000000Z",
+   "location_type": "google_conference",
+   "location": "Meet details added to the calendar invite",
+   "created_at": "2026-10-06T16:35:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx006",
+   "owner": "Imogen Fiddes",
+   "event_type": "et-wx-call-30",
+   "name": "Volunteer introduction",
+   "status": "active",
+   "start_time": "2026-10-19T09:00:00.000000Z",
+   "end_time": "2026-10-19T09:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Zoom details emailed once booked",
+   "created_at": "2026-10-09T16:20:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx007",
+   "owner": "Adrian Tillotson",
+   "event_type": "et-wx-visit-60",
+   "name": "Contractor walk-round",
+   "status": "active",
+   "start_time": "2026-10-21T14:00:00.000000Z",
+   "end_time": "2026-10-21T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Parks yard, Mill Row depot",
+   "created_at": "2026-10-19T15:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-wx008",
+   "owner": "Kerry Penrose",
+   "event_type": "et-wx-call-30",
+   "name": "Park event booking help",
+   "status": "canceled",
+   "start_time": "2026-10-30T14:00:00.000000Z",
+   "end_time": "2026-10-30T14:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Zoom details emailed once booked",
+   "created_at": "2026-10-23T14:25:00.000000Z",
+   "canceled_reason": "Booked online instead."
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-wx001",
+   "event": "sev-wx001",
+   "name": "Wexcombe Running Club",
+   "email": "secretary@wexcomberunners.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-08-31T10:20:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Tell us about your event.",
+     "answer": "Our winter 10k route through the riverside park."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx002",
+   "event": "sev-wx002",
+   "name": "Abbotsley Scouts",
+   "email": "leader@abbotsleyscouts.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-04T15:35:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Tell us about your event.",
+     "answer": "A campfire evening in the community hall grounds."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx003",
+   "event": "sev-wx003",
+   "name": "Pauline Hext",
+   "email": "pauline.hext@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-11T14:10:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which tree is worrying you?",
+     "answer": "The lime with the split branch over the footpath."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx004",
+   "event": "sev-wx004",
+   "name": "Bev Truscott",
+   "email": "bev.truscott@post.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-24T13:20:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which tree is worrying you?",
+     "answer": "Hanging branch by the playground gate."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx005",
+   "event": "sev-wx005",
+   "name": "Maureen Pike",
+   "email": "maureen.pike@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-06T16:35:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "How can we help?",
+     "answer": "Placing a bench in memory of my husband near the cemetery lodge."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx006",
+   "event": "sev-wx006",
+   "name": "Callum Burt",
+   "email": "callum.burt@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-09T16:20:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which volunteering interests you?",
+     "answer": "Litter picks and the fireworks stewarding."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx007",
+   "event": "sev-wx007",
+   "name": "Jon Pickering",
+   "email": "jon.pickering@wexcombegrounds.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-19T15:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything to look at on the walk-round?",
+     "answer": "Leaf clearance areas for November."
+    }
+   ]
+  },
+  {
+   "uuid": "inv-wx008",
+   "event": "sev-wx008",
+   "name": "Stephen Lavington",
+   "email": "s.lavington@post.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-23T14:25:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "How can we help?",
+     "answer": "Booking the bandstand for a brass band afternoon."
+    }
+   ]
+  }
+ ]
+}

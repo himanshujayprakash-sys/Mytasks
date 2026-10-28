@@ -1,0 +1,253 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 39,
+      "passed": 20,
+      "failed": 19,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.38806,
+      "weighted_percentage": 38.81
+    },
+    "tests": [
+      {
+        "name": "test_handbook_and_policy_read",
+        "status": "passed",
+        "duration": 79,
+        "weight": 1
+      },
+      {
+        "name": "test_renewal_forms_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_portal_read_after_the_first_save",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_families_read_after_the_award",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_safeguarding_results_all_right",
+        "status": "passed",
+        "duration": 6,
+        "weight": 5
+      },
+      {
+        "name": "test_suspension_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_leave_of_absence_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_squad_statuses_all_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_whatsapp_withdrawal_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_duplicate_check_refusal_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_tie_held_in_full",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_u16_limit_from_the_agm",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_u12_players_held_for_the_team",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_invoices_all_right",
+        "status": "failed",
+        "duration": 10,
+        "weight": 5
+      },
+      {
+        "name": "test_sibling_discount",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_hardship_families_not_invoiced",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reminders_all_right",
+        "status": "failed",
+        "duration": 6,
+        "weight": 5
+      },
+      {
+        "name": "test_opted_out_family_emailed",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_headline_all_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_page_status_chart_per_team",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_sorts_and_filters",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_fees_sheet_all_rows_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_dossier_all_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_files_read_back",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_invoice_total",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_registered_per_team",
+        "status": "passed",
+        "duration": 8,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_the_tie",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_invoice_count",
+        "status": "failed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_reminder_counts",
+        "status": "failed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_final_explains_u12",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_claim_coverage_passes_075",
+        "status": "passed",
+        "duration": 44,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_with_the_rows_worked",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_texted_a_family_that_opted_out",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_registration_records_damaged",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 3,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_family_reminded_twice",
+        "status": "passed",
+        "duration": 1,
+        "weight": -1
+      },
+      {
+        "name": "test_guard_family_invoiced_twice",
+        "status": "passed",
+        "duration": 1,
+        "weight": -1
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "status": "failed",
+        "duration": 14,
+        "weight": -3
+      }
+    ]
+  }
+}

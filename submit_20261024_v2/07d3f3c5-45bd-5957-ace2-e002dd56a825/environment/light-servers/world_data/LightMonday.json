@@ -1,0 +1,350 @@
+{
+ "workspaces": [
+  {
+   "workspace_id": "ws-agm-marketing",
+   "name": "Marketing",
+   "kind": "open",
+   "description": "Campaigns and content"
+  }
+ ],
+ "boards": [
+  {
+   "board_id": "board-agm-mkt",
+   "name": "Marketing calendar Q4",
+   "board_kind": "public",
+   "description": "Campaigns, content and events for October to December.",
+   "state": "active",
+   "workspace_id": "ws-agm-marketing"
+  }
+ ],
+ "groups": [
+  {
+   "group_id": "grp-agm-done",
+   "board_id": "board-agm-mkt",
+   "title": "Done",
+   "color": "#00c875",
+   "position": 0
+  },
+  {
+   "group_id": "grp-agm-doing",
+   "board_id": "board-agm-mkt",
+   "title": "Working on it",
+   "color": "#fdab3d",
+   "position": 1
+  },
+  {
+   "group_id": "grp-agm-stuck",
+   "board_id": "board-agm-mkt",
+   "title": "Stuck",
+   "color": "#e2445c",
+   "position": 2
+  },
+  {
+   "group_id": "grp-agm-todo",
+   "board_id": "board-agm-mkt",
+   "title": "Not started",
+   "color": "#c4c4c4",
+   "position": 3
+  }
+ ],
+ "columns": [
+  {
+   "column_id": "status",
+   "board_id": "board-agm-mkt",
+   "title": "Status",
+   "type": "status",
+   "position": 0
+  },
+  {
+   "column_id": "date",
+   "board_id": "board-agm-mkt",
+   "title": "Due",
+   "type": "date",
+   "position": 1
+  },
+  {
+   "column_id": "person",
+   "board_id": "board-agm-mkt",
+   "title": "Owner",
+   "type": "people",
+   "position": 2
+  }
+ ],
+ "users": [
+  {
+   "user_id": "mu-agm-01",
+   "name": "Bronwen Castell",
+   "email": "bronwen.castell@ashgrovemutual.test",
+   "title": "marketing manager",
+   "is_admin": true
+  },
+  {
+   "user_id": "mu-agm-02",
+   "name": "Hamish Tulloch",
+   "email": "hamish.tulloch@ashgrovemutual.test",
+   "title": "broker relations manager",
+   "is_admin": false
+  },
+  {
+   "user_id": "mu-agm-03",
+   "name": "Imelda Grice",
+   "email": "imelda.grice@ashgrovemutual.test",
+   "title": "HR business partner",
+   "is_admin": false
+  }
+ ],
+ "items": [
+  {
+   "item_id": "item-agm-001",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-done",
+   "name": "Home insurance renewal email refresh",
+   "created_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-002",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-done",
+   "name": "Graduate scheme social posts",
+   "created_at": "2026-09-03T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-003",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-done",
+   "name": "Broker breakfast invitations",
+   "created_at": "2026-09-14T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-004",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-doing",
+   "name": "Landlord product web page",
+   "created_at": "2026-09-21T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-005",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-doing",
+   "name": "Broker portal training video",
+   "created_at": "2026-10-05T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-006",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-stuck",
+   "name": "Tenant contents leaflet for Lowther Lettings",
+   "created_at": "2026-10-02T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-007",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-todo",
+   "name": "Christmas card design",
+   "created_at": "2026-10-12T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-008",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-doing",
+   "name": "Website accessibility fixes",
+   "created_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-009",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-todo",
+   "name": "Customer newsletter, winter edition",
+   "created_at": "2026-10-12T09:00:00Z"
+  },
+  {
+   "item_id": "item-agm-010",
+   "board_id": "board-agm-mkt",
+   "group_id": "grp-agm-todo",
+   "name": "Annual review photography",
+   "created_at": "2026-10-19T09:00:00Z"
+  }
+ ],
+ "column_values": [
+  {
+   "item_id": "item-agm-001",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-001",
+   "column_id": "date",
+   "text": "2026-09-25",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-001",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-002",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-002",
+   "column_id": "date",
+   "text": "2026-09-30",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-002",
+   "column_id": "person",
+   "text": "Imelda Grice",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-003",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-003",
+   "column_id": "date",
+   "text": "2026-10-09",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-003",
+   "column_id": "person",
+   "text": "Hamish Tulloch",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-004",
+   "column_id": "status",
+   "text": "Working on it",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-004",
+   "column_id": "date",
+   "text": "2026-11-06",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-004",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-005",
+   "column_id": "status",
+   "text": "Working on it",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-005",
+   "column_id": "date",
+   "text": "2026-11-13",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-005",
+   "column_id": "person",
+   "text": "Hamish Tulloch",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-006",
+   "column_id": "status",
+   "text": "Stuck",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-006",
+   "column_id": "date",
+   "text": "2026-11-20",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-006",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-007",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-007",
+   "column_id": "date",
+   "text": "2026-11-27",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-007",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-008",
+   "column_id": "status",
+   "text": "Working on it",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-008",
+   "column_id": "date",
+   "text": "2026-11-30",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-008",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-009",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-009",
+   "column_id": "date",
+   "text": "2026-12-04",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-009",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-010",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-010",
+   "column_id": "date",
+   "text": "2027-01-22",
+   "value": null
+  },
+  {
+   "item_id": "item-agm-010",
+   "column_id": "person",
+   "text": "Bronwen Castell",
+   "value": null
+  }
+ ]
+}

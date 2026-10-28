@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="55" skipped="0" tests="99" time="3.230" timestamp="2026-10-24T09:48:24.710452+00:00" hostname="f25452db2d3a"><testcase classname="test_outputs" name="test_loading_standard_read" time="0.043" /><testcase classname="test_outputs" name="test_conditions_and_tariff_read" time="0.003" /><testcase classname="test_outputs" name="test_weighbridge_and_declarations_read" time="0.009" /><testcase classname="test_outputs" name="test_deck_plan_and_export_read" time="0.003" /><testcase classname="test_outputs" name="test_all_tables_listed" time="0.002" /><testcase classname="test_outputs" name="test_sailing_bookings_read" time="0.005" /><testcase classname="test_outputs" name="test_mail_read" time="0.001"><failure message="AssertionError: the freight desk, chief engineer or finance mail was not read&#10;assert False&#10; +  where False = _gf_read('LightGmail', ('It is booked as TSF-2290', 'is out of use', 'stands at 175.00'))">def test_mail_read():
+&gt;       assert _gf_read('LightGmail', ('It is booked as TSF-2290', 'is out of use', 'stands at 175.00')), 'the freight desk, chief engineer or finance mail was not read'
+E       AssertionError: the freight desk, chief engineer or finance mail was not read
+E       assert False
+E        +  where False = _gf_read('LightGmail', ('It is booked as TSF-2290', 'is out of use', 'stands at 175.00'))
+
+test_outputs.py:638: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_master_reply_read" time="0.001" /><testcase classname="test_outputs" name="test_ticket_comments_read" time="0.002" /><testcase classname="test_outputs" name="test_dg_adviser_correction_read" time="0.001" /><testcase classname="test_outputs" name="test_freight_line_messages_read" time="0.002" /><testcase classname="test_outputs" name="test_freight_line_box_lorry_read" time="0.001"><failure message="AssertionError: TSF-2208's driver's message about the box lorry, older than the conversation's newest messages, was never read&#10;assert ('box lorry instead' in '{&quot;status&quot;: &quot;ok&quot;, &quot;session_id&quot;: &quot;session_kmfxmAuVkrtfFm9eoWtQbB&quot;, &quot;session_info&quot;: {&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: {}}}\n{&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: [{&quot;conversation_id&quot;: &quot;conv-tsf-2208&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T16:40:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620003&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2201&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620000&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2203&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620001&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2205&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620002&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2211&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620004&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2214&quot;, &quot;last_message_at&quot;: &quot;202...ext&quot;, &quot;text&quot;: &quot;Got the confirmation, thanks&quot;}]}\n{&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: [{&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-2&quot;, &quot;sent_at&quot;: &quot;2026-12-10T18:25:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Is the weighbridge open on Saturday morning?&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-1&quot;, &quot;sent_at&quot;: &quot;2026-12-08T18:05:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Driver confirmed for Saturday.&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-0&quot;, &quot;sent_at&quot;: &quot;2026-12-04T15:45:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Thanks&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-3&quot;, &quot;sent_at&quot;: &quot;2026-12-01T11:45:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;What time does the marshalling area open?&quot;}]}' or False)&#10; +  where '{&quot;status&quot;: &quot;ok&quot;, &quot;session_id&quot;: &quot;session_kmfxmAuVkrtfFm9eoWtQbB&quot;, &quot;session_info&quot;: {&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: {}}}\n{&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: [{&quot;conversation_id&quot;: &quot;conv-tsf-2208&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T16:40:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620003&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2201&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620000&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2203&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620001&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2205&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620002&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2211&quot;, &quot;last_message_at&quot;: &quot;2026-12-11T12:00:00Z&quot;, &quot;origin&quot;: &quot;user_initiated&quot;, &quot;started_at&quot;: &quot;2026-09-01T09:00:00Z&quot;, &quot;wa_id&quot;: &quot;447700620004&quot;, &quot;within_24h_window&quot;: true}, {&quot;conversation_id&quot;: &quot;conv-tsf-2214&quot;, &quot;last_message_at&quot;: &quot;202...ext&quot;, &quot;text&quot;: &quot;Got the confirmation, thanks&quot;}]}\n{&quot;status&quot;: &quot;ok&quot;, &quot;output&quot;: [{&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-2&quot;, &quot;sent_at&quot;: &quot;2026-12-10T18:25:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Is the weighbridge open on Saturday morning?&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-1&quot;, &quot;sent_at&quot;: &quot;2026-12-08T18:05:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Driver confirmed for Saturday.&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-0&quot;, &quot;sent_at&quot;: &quot;2026-12-04T15:45:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;Thanks&quot;}, {&quot;conversation_id&quot;: &quot;conv-tsf-2240&quot;, &quot;direction&quot;: &quot;inbound&quot;, &quot;from_wa_id&quot;: &quot;447700620012&quot;, &quot;message_id&quot;: &quot;wamid-12-3&quot;, &quot;sent_at&quot;: &quot;2026-12-01T11:45:00Z&quot;, &quot;status&quot;: &quot;read&quot;, &quot;template_name&quot;: &quot;&quot;, &quot;to_wa_id&quot;: &quot;447700901600&quot;, &quot;type&quot;: &quot;text&quot;, &quot;text&quot;: &quot;What time does the marshalling area open?&quot;}]}' = _resp_blob('LightWhatsApp')&#10; +  and   False = _gf_wa_buried_logged()">def test_freight_line_box_lorry_read():
+&gt;       assert R['wa_buried']['marker'] in _resp_blob('LightWhatsApp') or _gf_wa_buried_logged(), \
+            "TSF-2208's driver's message about the box lorry, older than the conversation's newest messages, was never read"
+E       AssertionError: TSF-2208's driver's message about the box lorry, older than the conversation's newest messages, was never read
+E       assert ('box lorry instead' in '{"status": "ok", "session_id": "session_kmfxmAuVkrtfFm9eoWtQbB", "session_info": {"status": "ok", "output": {}}}\n{"status": "ok", "output": [{"conversation_id": "conv-tsf-2208", "last_message_at": "2026-12-11T16:40:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620003", "within_24h_window": true}, {"conversation_id": "conv-tsf-2201", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620000", "within_24h_window": true}, {"conversation_id": "conv-tsf-2203", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620001", "within_24h_window": true}, {"conversation_id": "conv-tsf-2205", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620002", "within_24h_window": true}, {"conversation_id": "conv-tsf-2211", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620004", "within_24h_window": true}, {"conversation_id": "conv-tsf-2214", "last_message_at": "202...ext", "text": "Got the confirmation, thanks"}]}\n{"status": "ok", "output": [{"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-2", "sent_at": "2026-12-10T18:25:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Is the weighbridge open on Saturday morning?"}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-1", "sent_at": "2026-12-08T18:05:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Driver confirmed for Saturday."}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-0", "sent_at": "2026-12-04T15:45:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Thanks"}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-3", "sent_at": "2026-12-01T11:45:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "What time does the marshalling area open?"}]}' or False)
+E        +  where '{"status": "ok", "session_id": "session_kmfxmAuVkrtfFm9eoWtQbB", "session_info": {"status": "ok", "output": {}}}\n{"status": "ok", "output": [{"conversation_id": "conv-tsf-2208", "last_message_at": "2026-12-11T16:40:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620003", "within_24h_window": true}, {"conversation_id": "conv-tsf-2201", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620000", "within_24h_window": true}, {"conversation_id": "conv-tsf-2203", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620001", "within_24h_window": true}, {"conversation_id": "conv-tsf-2205", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620002", "within_24h_window": true}, {"conversation_id": "conv-tsf-2211", "last_message_at": "2026-12-11T12:00:00Z", "origin": "user_initiated", "started_at": "2026-09-01T09:00:00Z", "wa_id": "447700620004", "within_24h_window": true}, {"conversation_id": "conv-tsf-2214", "last_message_at": "202...ext", "text": "Got the confirmation, thanks"}]}\n{"status": "ok", "output": [{"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-2", "sent_at": "2026-12-10T18:25:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Is the weighbridge open on Saturday morning?"}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-1", "sent_at": "2026-12-08T18:05:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Driver confirmed for Saturday."}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-0", "sent_at": "2026-12-04T15:45:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "Thanks"}, {"conversation_id": "conv-tsf-2240", "direction": "inbound", "from_wa_id": "447700620012", "message_id": "wamid-12-3", "sent_at": "2026-12-01T11:45:00Z", "status": "read", "template_name": "", "to_wa_id": "447700901600", "type": "text", "text": "What time does the marshalling area open?"}]}' = _resp_blob('LightWhatsApp')
+E        +  and   False = _gf_wa_buried_logged()
+
+test_outputs.py:683: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_account_ticket_read" time="0.000" /><testcase classname="test_outputs" name="test_island_number_read" time="0.006" /><testcase classname="test_outputs" name="test_weighbridge_readings_read" time="0.002" /><testcase classname="test_outputs" name="test_text_history_read" time="0.005" /><testcase classname="test_outputs" name="test_crew_chat_read" time="0.001" /><testcase classname="test_outputs" name="test_plan_read_before_written" time="0.001" /><testcase classname="test_outputs" name="test_each_plan_line_fetched_first" time="0.013" /><testcase classname="test_outputs" name="test_holds_listed_before_changes" time="0.001" /><testcase classname="test_outputs" name="test_texts_after_plan_settled" time="0.001" /><testcase classname="test_outputs" name="test_plan_lines" time="0.001"><failure message="AssertionError: 15 plan lines with the wrong deck, lane, outcome or fare: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225']&#10;assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225', ...]">def test_plan_lines():
+        bad = _refs_bad(R['fix_refs'])
+&gt;       assert not bad, f'{len(bad)} plan lines with the wrong deck, lane, outcome or fare: {bad[:6]}'
+E       AssertionError: 15 plan lines with the wrong deck, lane, outcome or fare: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225']
+E       assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225', ...]
+
+test_outputs.py:767: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_added_line_created" time="0.027"><failure message="AssertionError: x: ['TSF-2201', 'TSF-2204', 'TSF-2224', 'TSF-2233']&#10;assert not ['TSF-2201', 'TSF-2204', 'TSF-2224', 'TSF-2233']">def test_added_line_created():
+        lns = _lines_for(R['added'])
+&gt;       assert len(lns) == 1 and lns[0].startswith('new:') and _focus('no-added-booking', 'x'), f'{R["added"]} did not get exactly one new, correct plan line'
+                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:773: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-added-booking', msg = 'x'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: x: ['TSF-2201', 'TSF-2204', 'TSF-2224', 'TSF-2233']
+E       assert not ['TSF-2201', 'TSF-2204', 'TSF-2224', 'TSF-2233']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_second_2217_line_gone" time="0.005" /><testcase classname="test_outputs" name="test_plan_simulated" time="0.006"><failure message="AssertionError: the plan was not built under DLS-4 second issue and priced under T-26 second issue: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225']&#10;assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225', ...]">def test_plan_simulated():
+&gt;       assert _focus('first-issue', 'the plan was not built under DLS-4 second issue and priced under T-26 second issue')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:823: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'first-issue'
+msg = 'the plan was not built under DLS-4 second issue and priced under T-26 second issue'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the plan was not built under DLS-4 second issue and priced under T-26 second issue: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225']
+E       assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2225', ...]
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_loading_order" time="0.006"><failure message="AssertionError: vehicles were not planned in booking-time order within each group: ['TSF-2225', 'TSF-2226']&#10;assert not ['TSF-2225', 'TSF-2226']">def test_loading_order():
+&gt;       assert _focus('ref-order', 'vehicles were not planned in booking-time order within each group')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:828: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'ref-order'
+msg = 'vehicles were not planned in booking-time order within each group'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: vehicles were not planned in booking-time order within each group: ['TSF-2225', 'TSF-2226']
+E       assert not ['TSF-2225', 'TSF-2226']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_lifeline_first" time="0.011"><failure message="AssertionError: lifeline traffic was not planned first or not given the rebate: ['TSF-2201', 'TSF-2208', 'TSF-2224', 'TSF-2233', 'TSF-2291']&#10;assert not ['TSF-2201', 'TSF-2208', 'TSF-2224', 'TSF-2233', 'TSF-2291']">def test_lifeline_first():
+&gt;       assert _focus('no-lifeline', 'lifeline traffic was not planned first or not given the rebate')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:833: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-lifeline'
+msg = 'lifeline traffic was not planned first or not given the rebate'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: lifeline traffic was not planned first or not given the rebate: ['TSF-2201', 'TSF-2208', 'TSF-2224', 'TSF-2233', 'TSF-2291']
+E       assert not ['TSF-2201', 'TSF-2208', 'TSF-2224', 'TSF-2233', 'TSF-2291']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_spacing_kept" time="0.006"><failure message="AssertionError: the 0.6 m spacing per vehicle was not kept: ['TSF-2204', 'TSF-2209', 'TSF-2224']&#10;assert not ['TSF-2204', 'TSF-2209', 'TSF-2224']">def test_spacing_kept():
+&gt;       assert _focus('no-gap', 'the 0.6 m spacing per vehicle was not kept')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:838: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-gap', msg = 'the 0.6 m spacing per vehicle was not kept'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the 0.6 m spacing per vehicle was not kept: ['TSF-2204', 'TSF-2209', 'TSF-2224']
+E       assert not ['TSF-2204', 'TSF-2209', 'TSF-2224']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_hoistable_clearance" time="0.006"><failure message="AssertionError: a vehicle over 2.10 m went on the hoistable deck: ['TSF-2209']&#10;assert not ['TSF-2209']">def test_hoistable_clearance():
+&gt;       assert _focus('old-upper-height', 'a vehicle over 2.10 m went on the hoistable deck')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:843: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'old-upper-height'
+msg = 'a vehicle over 2.10 m went on the hoistable deck'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a vehicle over 2.10 m went on the hoistable deck: ['TSF-2209']
+E       assert not ['TSF-2209']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_hoistable_weight" time="0.006"><failure message="AssertionError: a vehicle over 3,500 kg went on the hoistable deck: ['TSF-2209', 'TSF-2233']&#10;assert not ['TSF-2209', 'TSF-2233']">def test_hoistable_weight():
+&gt;       assert _focus('no-upper-weight', 'a vehicle over 3,500 kg went on the hoistable deck')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:848: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-upper-weight'
+msg = 'a vehicle over 3,500 kg went on the hoistable deck'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a vehicle over 3,500 kg went on the hoistable deck: ['TSF-2209', 'TSF-2233']
+E       assert not ['TSF-2209', 'TSF-2233']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_weighbridge_weights" time="0.006"><failure message="AssertionError: the weighbridge weights were not used: ['TSF-2209', 'TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2232']&#10;assert not ['TSF-2209', 'TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2232', ...]">def test_weighbridge_weights():
+&gt;       assert _focus('booked-weight', 'the weighbridge weights were not used')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:853: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'booked-weight', msg = 'the weighbridge weights were not used'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the weighbridge weights were not used: ['TSF-2209', 'TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2232']
+E       assert not ['TSF-2209', 'TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2232', ...]
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_deadweight_kept" time="0.007"><failure message="AssertionError: the 290,000 kg vehicle deadweight was not kept: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']&#10;assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]">def test_deadweight_kept():
+&gt;       assert _focus('no-deadweight', 'the 290,000 kg vehicle deadweight was not kept')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:858: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-deadweight', msg = 'the 290,000 kg vehicle deadweight was not kept'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the 290,000 kg vehicle deadweight was not kept: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']
+E       assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dg_lane_only" time="0.007"><failure message="AssertionError: a dangerous goods vehicle went outside lane M1: ['TSF-2204', 'TSF-2233']&#10;assert not ['TSF-2204', 'TSF-2233']">def test_dg_lane_only():
+&gt;       assert _focus('dg-any-lane', 'a dangerous goods vehicle went outside lane M1')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:863: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'dg-any-lane', msg = 'a dangerous goods vehicle went outside lane M1'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a dangerous goods vehicle went outside lane M1: ['TSF-2204', 'TSF-2233']
+E       assert not ['TSF-2204', 'TSF-2233']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dg_class_correction_applied" time="0.007"><failure message="AssertionError: the DG safety adviser's correction of TSF-2211 to class 8 was not applied: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']&#10;assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]">def test_dg_class_correction_applied():
+&gt;       assert _focus('no-dg-fix', "the DG safety adviser's correction of TSF-2211 to class 8 was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:868: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-dg-fix'
+msg = "the DG safety adviser's correction of TSF-2211 to class 8 was not applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the DG safety adviser's correction of TSF-2211 to class 8 was not applied: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']
+E       assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_freight_line_change_applied" time="0.006"><failure message="AssertionError: TSF-2222's change on the freight messaging line (2.45 m high) was not applied: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']&#10;assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']">def test_freight_line_change_applied():
+&gt;       assert _focus('no-wa-amend', "TSF-2222's change on the freight messaging line (2.45 m high) was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:873: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-wa-amend'
+msg = "TSF-2222's change on the freight messaging line (2.45 m high) was not applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2222's change on the freight messaging line (2.45 m high) was not applied: ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']
+E       assert not ['TSF-2201', 'TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_freight_line_late_ignored" time="0.005"><failure message="AssertionError: TSF-2224's change on the freight messaging line after the 18:00 cut-off was applied: ['TSF-2209', 'TSF-2224', 'TSF-2233']&#10;assert not ['TSF-2209', 'TSF-2224', 'TSF-2233']">def test_freight_line_late_ignored():
+&gt;       assert _focus('wa-late-counted', "TSF-2224's change on the freight messaging line after the 18:00 cut-off was applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:878: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'wa-late-counted'
+msg = "TSF-2224's change on the freight messaging line after the 18:00 cut-off was applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2224's change on the freight messaging line after the 18:00 cut-off was applied: ['TSF-2209', 'TSF-2224', 'TSF-2233']
+E       assert not ['TSF-2209', 'TSF-2224', 'TSF-2233']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_box_lorry_applied" time="0.003"><failure message="AssertionError: TSF-2208's change on the freight messaging line (box lorry, 7.2 m, 3.20 m, 6,900 kg) was not applied: ['TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']&#10;assert not ['TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']">def test_box_lorry_applied():
+&gt;       assert _focus('wa-newest-only', "TSF-2208's change on the freight messaging line (box lorry, 7.2 m, 3.20 m, 6,900 kg) was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:883: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'wa-newest-only'
+msg = "TSF-2208's change on the freight messaging line (box lorry, 7.2 m, 3.20 m, 6,900 kg) was not applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2208's change on the freight messaging line (box lorry, 7.2 m, 3.20 m, 6,900 kg) was not applied: ['TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']
+E       assert not ['TSF-2204', 'TSF-2208', 'TSF-2224', 'TSF-2225', 'TSF-2226']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_account_ticket_change_applied" time="0.002" /><testcase classname="test_outputs" name="test_latest_weighbridge_reading" time="0.005"><failure message="AssertionError: TSF-2224's afternoon re-weigh (16,900 kg) on the weighbridge readings table was not used: ['TSF-2225', 'TSF-2229']&#10;assert not ['TSF-2225', 'TSF-2229']">def test_latest_weighbridge_reading():
+&gt;       assert _focus('csv-weights', "TSF-2224's afternoon re-weigh (16,900 kg) on the weighbridge readings table was not used")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:893: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'csv-weights'
+msg = "TSF-2224's afternoon re-weigh (16,900 kg) on the weighbridge readings table was not used"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2224's afternoon re-weigh (16,900 kg) on the weighbridge readings table was not used: ['TSF-2225', 'TSF-2229']
+E       assert not ['TSF-2225', 'TSF-2229']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dg_segregation" time="0.006"><failure message="AssertionError: the sales office's remark put TSF-2211 back to class 5.1 against class 3 in M1: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']&#10;assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]">def test_dg_segregation():
+&gt;       assert _focus('dg-fix-any-sender', "the sales office's remark put TSF-2211 back to class 5.1 against class 3 in M1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:898: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'dg-fix-any-sender'
+msg = "the sales office's remark put TSF-2211 back to class 5.1 against class 3 in M1"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the sales office's remark put TSF-2211 back to class 5.1 against class 3 in M1: ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']
+E       assert not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...]
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_unsigned_declaration" time="0.001" /><testcase classname="test_outputs" name="test_declaration_signer_dates" time="0.001" /><testcase classname="test_outputs" name="test_added_vehicle_in_place" time="0.005"><failure message="AssertionError: TSF-2290 was not planned in its lifeline place: ['TSF-2209']&#10;assert not ['TSF-2209']">def test_added_vehicle_in_place():
+&gt;       assert _focus('added-last', 'TSF-2290 was not planned in its lifeline place')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:915: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'added-last', msg = 'TSF-2290 was not planned in its lifeline place'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2290 was not planned in its lifeline place: ['TSF-2209']
+E       assert not ['TSF-2209']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_outside_limits_refused" time="0.002" /><testcase classname="test_outputs" name="test_ticket_changes_applied" time="0.005"><failure message="AssertionError: the customers' changes and cancellation on their booking tickets were not applied: ['TSF-2204', 'TSF-2209']&#10;assert not ['TSF-2204', 'TSF-2209']">def test_ticket_changes_applied():
+&gt;       assert _focus('no-ticket-amend', "the customers' changes and cancellation on their booking tickets were not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:925: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-ticket-amend'
+msg = "the customers' changes and cancellation on their booking tickets were not applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the customers' changes and cancellation on their booking tickets were not applied: ['TSF-2204', 'TSF-2209']
+E       assert not ['TSF-2204', 'TSF-2209']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_length_change_applied" time="0.003" /><testcase classname="test_outputs" name="test_height_change_applied" time="0.006"><failure message="AssertionError: TSF-2204's roof box (2.35 m high) was not applied: ['TSF-2204', 'TSF-2209']&#10;assert not ['TSF-2204', 'TSF-2209']">def test_height_change_applied():
+&gt;       assert _focus('no-height-amend', "TSF-2204's roof box (2.35 m high) was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:935: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-height-amend'
+msg = "TSF-2204's roof box (2.35 m high) was not applied"
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: TSF-2204's roof box (2.35 m high) was not applied: ['TSF-2204', 'TSF-2209']
+E       assert not ['TSF-2204', 'TSF-2209']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_cancellation_applied" time="0.002" /><testcase classname="test_outputs" name="test_late_change_ignored" time="0.002" /><testcase classname="test_outputs" name="test_lane_notice_latest" time="0.002" /><testcase classname="test_outputs" name="test_charged_length" time="0.008"><failure message="AssertionError: fares were not charged on the length rounded up to the next half metre: ['TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2233', 'TSF-2291']&#10;assert not ['TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2233', 'TSF-2291']">def test_charged_length():
+&gt;       assert _focus('no-roundup', 'fares were not charged on the length rounded up to the next half metre')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:955: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-roundup'
+msg = 'fares were not charged on the length rounded up to the next half metre'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: fares were not charged on the length rounded up to the next half metre: ['TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2233', 'TSF-2291']
+E       assert not ['TSF-2204', 'TSF-2208', 'TSF-2209', 'TSF-2224', 'TSF-2233', 'TSF-2291']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_amendment_held_back" time="0.001" /><testcase classname="test_outputs" name="test_lifeline_rebate" time="0.007"><failure message="AssertionError: the lifeline rebate was not 35%: ['TSF-2208', 'TSF-2291']&#10;assert not ['TSF-2208', 'TSF-2291']">def test_lifeline_rebate():
+&gt;       assert _focus('crib-rebate', 'the lifeline rebate was not 35%')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:965: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1823: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'crib-rebate', msg = 'the lifeline rebate was not 35%'
+
+    def _focus(flag, msg):
+        bad = _refs_bad(R['units'][flag])
+        if bad:
+            name, v = _best_variant(exclude=(flag,))
+            if v is not None:
+                ids = sorted(set(R['units'][flag]) | set(v['units'].get(flag, [])))
+                worked = sum(1 for r in R['fix_refs'] if _ok_vs(r, v['want'].get(r))) * 2 &gt;= len(R['fix_refs'])
+                if worked and all(_ok_vs(r, v['want'].get(r)) for r in ids):
+                    bad = []
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the lifeline rebate was not 35%: ['TSF-2208', 'TSF-2291']
+E       assert not ['TSF-2208', 'TSF-2291']
+
+test_outputs.py:818: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_cured_holds_deleted" time="0.001" /><testcase classname="test_outputs" name="test_excess_restated" time="0.001"><failure message="AssertionError: holds not restated: ['DH-403']&#10;assert not ['DH-403']">def test_excess_restated():
+        hl = _records()[1]
+        bad = [x for x, v in R['restate'].items() if x not in hl or _num(hl[x].get('amount_gbp')) != float(v)]
+&gt;       assert not bad, f'holds not restated: {bad}'
+E       AssertionError: holds not restated: ['DH-403']
+E       assert not ['DH-403']
+
+test_outputs.py:979: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_new_holds_raised" time="0.085"><failure message="AssertionError: raised holds differ: got [('TSF-2219', 'dg declaration not valid'), ('TSF-2236', 'outside vessel limits'), ('TSF-2238', 'dg declaration not valid'), ('TSF-2240', 'overflow - next sailing'), ('TSF-2241', 'overflow - next sailing'), ('TSF-2242', 'overflow - next sailing'), ('TSF-2243', 'overflow - next sailing'), ('TSF-2245', 'overflow - next sailing'), ('TSF-2246', 'overflow - next sailing'), ('TSF-2247', 'overflow - next sailing'), ('TSF-2248', 'overflow - next sailing')]&#10;assert ([('TSF-2219',...ailing'), ...] == [('TSF-2219',...ailing'), ...]&#10;  &#10;  At index 1 diff: ('TSF-2236', 'outside vessel limits') != ('TSF-2225', 'overflow - next sailing')&#10;  Right contains 9 more items, first extra item: ('TSF-2238', 'dg declaration not valid')&#10;  &#10;  Full diff:&#10;    [&#10;        (...&#10;  &#10;  ...Full output truncated (80 lines hidden), use '-vv' to show or [('TSF-2219',...ailing'), ...] == [('TSF-2219',...ailing'), ...]&#10;  &#10;  At index 1 diff: ('TSF-2236', 'outside vessel limits') != ('TSF-2225', 'overflow - next sailing')&#10;  Right contains 9 more items, first extra item: ('TSF-2238', 'dg declaration not valid')&#10;  &#10;  Full diff:&#10;    [&#10;        (...&#10;  &#10;  ...Full output truncated (80 lines hidden), use '-vv' to show)">def test_new_holds_raised():
+        got = sorted((r.upper(), _norm(k)) for _i, r, k in _records()[7])
+        want = sorted((r, _norm(k)) for r, k in R['raise'])
+        # a create made outside the tool channel (the servers' log cuts long arguments short): the end state decides too (D4)
+        end = sorted((str((x.get('fields') or {}).get('booking_ref') or '').upper(), _norm((x.get('fields') or {}).get('kind'))) for x in _gf_end_rows('deck_holds')
+                     if str(x.get('id')) not in R['rec_hold'])
+&gt;       assert got == want or end == want, f'raised holds differ: got {got}'
+E       AssertionError: raised holds differ: got [('TSF-2219', 'dg declaration not valid'), ('TSF-2236', 'outside vessel limits'), ('TSF-2238', 'dg declaration not valid'), ('TSF-2240', 'overflow - next sailing'), ('TSF-2241', 'overflow - next sailing'), ('TSF-2242', 'overflow - next sailing'), ('TSF-2243', 'overflow - next sailing'), ('TSF-2245', 'overflow - next sailing'), ('TSF-2246', 'overflow - next sailing'), ('TSF-2247', 'overflow - next sailing'), ('TSF-2248', 'overflow - next sailing')]
+E       assert ([('TSF-2219',...ailing'), ...] == [('TSF-2219',...ailing'), ...]
+E         
+E         At index 1 diff: ('TSF-2236', 'outside vessel limits') != ('TSF-2225', 'overflow - next sailing')
+E         Right contains 9 more items, first extra item: ('TSF-2238', 'dg declaration not valid')
+E         
+E         Full diff:
+E           [
+E               (...
+E         
+E         ...Full output truncated (80 lines hidden), use '-vv' to show or [('TSF-2219',...ailing'), ...] == [('TSF-2219',...ailing'), ...]
+E         
+E         At index 1 diff: ('TSF-2236', 'outside vessel limits') != ('TSF-2225', 'overflow - next sailing')
+E         Right contains 9 more items, first extra item: ('TSF-2238', 'dg declaration not valid')
+E         
+E         Full diff:
+E           [
+E               (...
+E         
+E         ...Full output truncated (80 lines hidden), use '-vv' to show)
+
+test_outputs.py:989: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_revenue" time="0.002"><failure message="AssertionError: the final answer does not state the revenue 2293.25&#10;assert 2293.25 in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...}&#10; +  where {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...} = _figures('# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is &quot;Overflow - next sailing&quot;, and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n')&#10; +    where '# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is &quot;Overflow - next sailing&quot;, and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n' = &lt;function final at 0xffffa71fe160&gt;()&#10; +      where &lt;function final at 0xffffa71fe160&gt; = L.final">def test_final_states_revenue():
+&gt;       assert R['total'] in _figures(L.final()), f'the final answer does not state the revenue {R["total"]:.2f}'
+E       AssertionError: the final answer does not state the revenue 2293.25
+E       assert 2293.25 in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...}
+E        +  where {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...} = _figures('# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is "Overflow - next sailing", and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n')
+E        +    where '# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is "Overflow - next sailing", and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n' = &lt;function final at 0xffffa71fe160&gt;()
+E        +      where &lt;function final at 0xffffa71fe160&gt; = L.final
+
+test_outputs.py:995: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_loaded" time="0.002"><failure message="AssertionError: the final answer does not say how many vehicles are loaded&#10;assert 29 in {36, 37}&#10; +  where {36, 37} = _stated(('(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:loaded)\\b', '\\b(?:loaded)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:loads?)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', 'loads?\\s+(\\d+)\\s+(?:of\\s+\\d+\\s+)?vehicles'))">def test_final_states_loaded():
+&gt;       assert R['loaded'] in _stated(_LOADED), 'the final answer does not say how many vehicles are loaded'
+E       AssertionError: the final answer does not say how many vehicles are loaded
+E       assert 29 in {36, 37}
+E        +  where {36, 37} = _stated(('(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:loaded)\\b', '\\b(?:loaded)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:loads?)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', 'loads?\\s+(\\d+)\\s+(?:of\\s+\\d+\\s+)?vehicles'))
+
+test_outputs.py:1000: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_moved" time="0.002"><failure message="AssertionError: the final answer does not say how many and which vehicles are moved&#10;assert (17 in {8})&#10; +  where {8} = _stated(('(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:moved(?:[ \\t]+to[ \\t]+the[ \\t]+(?:14:30|afternoon|next[ \\t]+sailing)(?:[ \\t]+sailing)?)?)\\b', '\\b(?:moved(?:[ \\t]+to[ \\t]+the[ \\t]+(?:14:30|afternoon|next[ \\t]+sailing)(?:[ \\t]+sailing)?)?)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:moves?)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', 'moves?\\s+(\\d+)\\s+vehicles'))">def test_final_states_moved():
+        said = str(L.final() or '')
+&gt;       assert R['overflow'] in _stated(_MOVED) and all(r in said for r in R['overflow_refs']), 'the final answer does not say how many and which vehicles are moved'
+E       AssertionError: the final answer does not say how many and which vehicles are moved
+E       assert (17 in {8})
+E        +  where {8} = _stated(('(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:moved(?:[ \\t]+to[ \\t]+the[ \\t]+(?:14:30|afternoon|next[ \\t]+sailing)(?:[ \\t]+sailing)?)?)\\b', '\\b(?:moved(?:[ \\t]+to[ \\t]+the[ \\t]+(?:14:30|afternoon|next[ \\t]+sailing)(?:[ \\t]+sailing)?)?)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:moves?)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', 'moves?\\s+(\\d+)\\s+vehicles'))
+
+test_outputs.py:1006: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_names_refused_and_cancelled" time="0.001" /><testcase classname="test_outputs" name="test_final_states_bridge" time="0.002"><failure message="AssertionError: the final answer does not carry the bridge from the flat rate on every vehicle&#10;assert (2882.35 in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...})">def test_final_states_bridge():
+        f = _figures(L.final())
+&gt;       assert R['gross'] in f and R['counted'] in f, 'the final answer does not carry the bridge from the flat rate on every vehicle'
+E       AssertionError: the final answer does not carry the bridge from the flat rate on every vehicle
+E       assert (2882.35 in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...})
+
+test_outputs.py:1018: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_every_bridge_step" time="0.002"><failure message="AssertionError: the final answer leaves out bridge steps: [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, 2212.65, 2293.25]&#10;assert ([2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...] and not [2882.35, 1865.75, 2465.0, 2212.65, 2293.25])">def test_final_states_every_bridge_step():
+        f = _figures(L.final()); miss = [x for x in R['bridge_all'] if x not in f]
+        off = [x for x in miss if x in R['bridge_all'][1:4]]
+&gt;       assert R['bridge_all'] and not [x for x in miss if x not in off] and _bridge_off_steps(f, off), f'the final answer leaves out bridge steps: {miss}'
+E       AssertionError: the final answer leaves out bridge steps: [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, 2212.65, 2293.25]
+E       assert ([2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...] and not [2882.35, 1865.75, 2465.0, 2212.65, 2293.25])
+
+test_outputs.py:1043: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_lane_split" time="0.001"><failure message="AssertionError: the final answer leaves out the revenue by lane: [402.5, 589.0, 462.2, 48.0, 113.1]&#10;assert ([385.95, 402.5, 589.0, 462.2, 48.0, 148.2, ...] and not [402.5, 589.0, 462.2, 48.0, 113.1])">def test_final_states_lane_split():
+        f = _figures(L.final()); miss = [x for x in R['split_all'] if x not in f]
+&gt;       assert R['split_all'] and not miss, f'the final answer leaves out the revenue by lane: {miss}'
+E       AssertionError: the final answer leaves out the revenue by lane: [402.5, 589.0, 462.2, 48.0, 113.1]
+E       assert ([385.95, 402.5, 589.0, 462.2, 48.0, 148.2, ...] and not [402.5, 589.0, 462.2, 48.0, 113.1])
+
+test_outputs.py:1049: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_names_tightest_lanes" time="0.002"><failure message="AssertionError: the final answer does not name every lane with the least room left and how much&#10;assert (True and False)">def test_final_names_tightest_lanes():
+        said = str(L.final() or ''); tl = R['tightest']
+        lanes = all(re.search(r'\b%s\b' % ln, said) for ln in tl['lanes'])
+        want = float(tl['left'])        # any written form of the same room: 0, 0.0, 0.00 m; for no room also 'none', 'no room', 'full'
+        left = any(abs(float(x) - want) &lt; 1e-9 for x in re.findall(r'(?&lt;![\d.])(\d+(?:\.\d+)?)\s*(?:m\b|metres?|meters?)', said))
+        if not left and want == 0:
+            lanes_re = '|'.join(map(re.escape, tl['lanes']))     # the words must sit next to a named lane, not anywhere in the note
+            left = bool(re.search(r'\b(?:%s)\b[^.;]{0,80}\b(?:no room|none left|nothing left|full|no space)\b' % lanes_re, said, re.I))
+&gt;       assert lanes and left, 'the final answer does not name every lane with the least room left and how much'
+E       AssertionError: the final answer does not name every lane with the least room left and how much
+E       assert (True and False)
+
+test_outputs.py:1061: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_names_record_ids" time="0.001"><failure message="AssertionError: the final answer does not identify every created, deleted or restated record by its id: ['DH-403 (rec62fff18818eb46)']&#10;assert (['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...] and not ['DH-403 (rec62fff18818eb46)'])">def test_final_names_record_ids():
+        said = str(L.final() or ''); made = _records()[9]
+        miss = [r for r in made if r not in said] + [f'{h} ({r})' for r, h in R['rec_named'] if r not in said]
+&gt;       assert made and not miss, f'the final answer does not identify every created, deleted or restated record by its id: {miss[:6]}'
+E       AssertionError: the final answer does not identify every created, deleted or restated record by its id: ['DH-403 (rec62fff18818eb46)']
+E       assert (['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...] and not ['DH-403 (rec62fff18818eb46)'])
+
+test_outputs.py:1068: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_plan_corrections" time="0.003"><failure message="AssertionError: the final answer does not say how many plan lines were corrected&#10;assert False&#10; +  where False = any(&lt;generator object test_final_states_plan_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa7298f40&gt;)">def test_final_states_plan_corrections():
+        said = _gf_plain(L.final()); n = len(R['fix_refs'])
+        pats = (r'(?&lt;![\w.,-])%d(?!\d|[.,]\d)\s+(?:[\w-]+\s+){0,3}lines?\b' % n,) + _gf_count_pats('corrected|fixed|amended|updated|rewritten|put[ \t]+right', verb='corrected|fixed|amended|updated', n=n)
+&gt;       assert any(re.search(p, said, re.I) for p in pats), 'the final answer does not say how many plan lines were corrected'
+E       AssertionError: the final answer does not say how many plan lines were corrected
+E       assert False
+E        +  where False = any(&lt;generator object test_final_states_plan_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa7298f40&gt;)
+
+test_outputs.py:1075: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_texts_exact" time="0.010"><failure message="AssertionError: texts differ: 27 mismatches&#10;assert [('+447700955... 07:30'), ...] == [('+447700955... 07:30'), ...]&#10;  &#10;  At index 1 diff: ('+447700960000', 'tarrow sound ferries: booking tsf-2201 travels on the 08:15 calderwick to ronsay sailing on 12 december 2026 in lane m2. please report to the marshalling area by 07:30') != ('+447700955291', 'tarrow sound ferries: booking tsf-2291 travels on the 08:15 calderwick to ronsay sailing on 12 december 2026 in lane m2. please report to the marshalling area by 07:30')&#10;  Right contains one more item: ('+447700961739', 'tarrow sound ferries: booking tsf-2248 has moved to the 14:30 calderwick to ronsay sailing on 12 december 2026 because the 08:15 i...&#10;  &#10;  ...Full output truncated (344 lines hidden), use '-vv' to show">def test_texts_exact():
+        got = sorted((to, b) for _i, to, _f, b in _sends())
+&gt;       assert got == _want_sends(), f'texts differ: {len(set(got) ^ set(_want_sends()))} mismatches'
+E       AssertionError: texts differ: 27 mismatches
+E       assert [('+447700955... 07:30'), ...] == [('+447700955... 07:30'), ...]
+E         
+E         At index 1 diff: ('+447700960000', 'tarrow sound ferries: booking tsf-2201 travels on the 08:15 calderwick to ronsay sailing on 12 december 2026 in lane m2. please report to the marshalling area by 07:30') != ('+447700955291', 'tarrow sound ferries: booking tsf-2291 travels on the 08:15 calderwick to ronsay sailing on 12 december 2026 in lane m2. please report to the marshalling area by 07:30')
+E         Right contains one more item: ('+447700961739', 'tarrow sound ferries: booking tsf-2248 has moved to the 14:30 calderwick to ronsay sailing on 12 december 2026 because the 08:15 i...
+E         
+E         ...Full output truncated (344 lines hidden), use '-vv' to show
+
+test_outputs.py:1082: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_texts_from_bookings_line" time="0.003" /><testcase classname="test_outputs" name="test_island_stop_honoured" time="0.001" /><testcase classname="test_outputs" name="test_no_text_to_stopped" time="0.002" /><testcase classname="test_outputs" name="test_notice_status_values" time="0.001" /><testcase classname="test_outputs" name="test_ticket_tags" time="0.001"><failure message="AssertionError: ticket tags wrong on ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']&#10;assert ({'TSF-2201': '41001', 'TSF-2202': '41002', 'TSF-2203': '41003', 'TSF-2204': '41004', ...} and not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...])">def test_ticket_tags():
+        cur, _o = _tags()
+        bad = [ref for ref, tid in R['ticket'].items() if sorted(cur.get(tid, [])) != sorted(R['tags'][ref])]
+&gt;       assert R['ticket'] and not bad, f'ticket tags wrong on {bad[:6]}'
+E       AssertionError: ticket tags wrong on ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232']
+E       assert ({'TSF-2201': '41001', 'TSF-2202': '41002', 'TSF-2203': '41003', 'TSF-2204': '41004', ...} and not ['TSF-2225', 'TSF-2226', 'TSF-2228', 'TSF-2229', 'TSF-2231', 'TSF-2232', ...])
+
+test_outputs.py:1115: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_per_outcome" time="0.005"><failure message="AssertionError: no dossier with a section per outcome covering every booking&#10;assert (True and 12 &gt;= 4 and False)&#10; +  where True = _written('dossier')&#10; +  and   False = all(&lt;generator object test_dossier_per_outcome.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa6fff850&gt;)">def test_dossier_per_outcome():
+        src = _delivered('dossier', ('.md', '.txt', '.html', '.htm', '.docx'))
+        secs = max(len(re.findall(r'(?m)^#{1,3} ', src)) + len(re.findall(r'&lt;h[1-3]', src.lower())), _gf_sections(src, r'loaded|overflow|moved|refused|cancel\w*'))
+&gt;       assert _written('dossier') and secs &gt;= 4 and all(r in src for r in R['refs']), 'no dossier with a section per outcome covering every booking'
+E       AssertionError: no dossier with a section per outcome covering every booking
+E       assert (True and 12 &gt;= 4 and False)
+E        +  where True = _written('dossier')
+E        +  and   False = all(&lt;generator object test_dossier_per_outcome.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa6fff850&gt;)
+
+test_outputs.py:1123: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_names_evidence" time="0.002" /><testcase classname="test_outputs" name="test_dossier_box_lorry" time="0.002"><failure message="AssertionError: the dossier does not deal with TSF-2208's change to the box lorry (7.2 m, 6,900 kg)&#10;assert (True and False)&#10; +  where True = _written('dossier')&#10; +  and   False = _says(&quot;DOSSIER - VEHICLE DECK PLAN, TS-0815 CALDERWICK TO RONSAY, SATURDAY 12 DECEMBER 2026\nMV Garrow Heron. Prepared in the Calderwick deck office, Friday 11 December 2026.\n\nStandards applied\n  DLS-4 deck loading standard, second issue (approved 2026-10-26, applies to every sailing on or\n  after 2026-11-09, replaces the first issue in full).\n  T-26 vehicle tariff, second issue (approved 2026-10-26, applies to every sailing on or after\n  2026-11-09). T-26 amendment 1 commences 2027-01-04 and does not touch this sailing.\n  Conditions of carriage for vehicles, 2026 edition.\n\nResult: 37 loaded, 8 moved to the next sailing, 3 refused, 1 cancelled. Revenue 2,521.92 (Two thousand five hundred and twenty-one pounds and ninety-two pence).\nVehicle deadweight used: 288,970 kg of 290,000 kg.\n\n====================================================================================================\nLOADED  (37)\n====================================================================================================\n  TSF-2203  tanker, 10.5 m long, 3.70 m high, 19,500 kg - heating kerosene for Ronsay school and the care home\n    Lifeline traffic (DLS-4 Appendix A).\n    Dangerous goods UN1223...ANE OCCUPANCY AND ROOM LEFT\n====================================================================================================\n  U1  usable  24.0 m   used  20.4 m   left   3.6 m   4 vehicle(s): TSF-2202, TSF-2239, TSF-2207, TSF-2244\n  U2  usable  24.0 m   used  20.0 m   left   4.0 m   4 vehicle(s): TSF-2210, TSF-2213, TSF-2217, TSF-2218\n  U3  usable  24.0 m   used  20.9 m   left   3.1 m   4 vehicle(s): TSF-2220, TSF-2221, TSF-2223, TSF-2225\n  M1  usable  36.0 m   used  34.3 m   left   1.7 m   3 vehicle(s): TSF-2203, TSF-2290, TSF-2211\n  M2  usable  52.0 m   used  50.8 m   left   1.2 m   5 vehicle(s): TSF-2208, TSF-2215, TSF-2222, TSF-2201, TSF-2206\n  M3  usable  52.0 m   used  52.0 m   left   0.0 m   6 vehicle(s): TSF-2205, TSF-2214, TSF-2216, TSF-2224, TSF-2233, TSF-2229\n  M4  usable  41.5 m   used  41.5 m   left   0.0 m   5 vehicle(s): TSF-2227, TSF-2230, TSF-2204, TSF-2209, TSF-2232\n  M5  usable  52.0 m   used  31.3 m   left  20.7 m   6 vehicle(s): TSF-2226, TSF-2228, TSF-2231, TSF-2234, TSF-2235, TSF-2237\n  U4  usable  24.0 m   used     0 m   left  24.0 m   0 vehicle(s): -\n\n  Note: 'used' includes the 0.6 m spacing allowance per vehicle required by Appendix B.\n&quot;, 'TSF-2208', '(?&lt;![\\d.])6,?900(?!\\d)', '(?&lt;![\\d.])7\\.2(?!\\d)')">def test_dossier_box_lorry():
+        src = _delivered('dossier', ('.md', '.txt', '.html', '.htm', '.docx'))
+&gt;       assert _written('dossier') and _says(src, 'TSF-2208', r'(?&lt;![\d.])6,?900(?!\d)', r'(?&lt;![\d.])7\.2(?!\d)'), \
+            "the dossier does not deal with TSF-2208's change to the box lorry (7.2 m, 6,900 kg)"
+E       AssertionError: the dossier does not deal with TSF-2208's change to the box lorry (7.2 m, 6,900 kg)
+E       assert (True and False)
+E        +  where True = _written('dossier')
+E        +  and   False = _says("DOSSIER - VEHICLE DECK PLAN, TS-0815 CALDERWICK TO RONSAY, SATURDAY 12 DECEMBER 2026\nMV Garrow Heron. Prepared in the Calderwick deck office, Friday 11 December 2026.\n\nStandards applied\n  DLS-4 deck loading standard, second issue (approved 2026-10-26, applies to every sailing on or\n  after 2026-11-09, replaces the first issue in full).\n  T-26 vehicle tariff, second issue (approved 2026-10-26, applies to every sailing on or after\n  2026-11-09). T-26 amendment 1 commences 2027-01-04 and does not touch this sailing.\n  Conditions of carriage for vehicles, 2026 edition.\n\nResult: 37 loaded, 8 moved to the next sailing, 3 refused, 1 cancelled. Revenue 2,521.92 (Two thousand five hundred and twenty-one pounds and ninety-two pence).\nVehicle deadweight used: 288,970 kg of 290,000 kg.\n\n====================================================================================================\nLOADED  (37)\n====================================================================================================\n  TSF-2203  tanker, 10.5 m long, 3.70 m high, 19,500 kg - heating kerosene for Ronsay school and the care home\n    Lifeline traffic (DLS-4 Appendix A).\n    Dangerous goods UN1223...ANE OCCUPANCY AND ROOM LEFT\n====================================================================================================\n  U1  usable  24.0 m   used  20.4 m   left   3.6 m   4 vehicle(s): TSF-2202, TSF-2239, TSF-2207, TSF-2244\n  U2  usable  24.0 m   used  20.0 m   left   4.0 m   4 vehicle(s): TSF-2210, TSF-2213, TSF-2217, TSF-2218\n  U3  usable  24.0 m   used  20.9 m   left   3.1 m   4 vehicle(s): TSF-2220, TSF-2221, TSF-2223, TSF-2225\n  M1  usable  36.0 m   used  34.3 m   left   1.7 m   3 vehicle(s): TSF-2203, TSF-2290, TSF-2211\n  M2  usable  52.0 m   used  50.8 m   left   1.2 m   5 vehicle(s): TSF-2208, TSF-2215, TSF-2222, TSF-2201, TSF-2206\n  M3  usable  52.0 m   used  52.0 m   left   0.0 m   6 vehicle(s): TSF-2205, TSF-2214, TSF-2216, TSF-2224, TSF-2233, TSF-2229\n  M4  usable  41.5 m   used  41.5 m   left   0.0 m   5 vehicle(s): TSF-2227, TSF-2230, TSF-2204, TSF-2209, TSF-2232\n  M5  usable  52.0 m   used  31.3 m   left  20.7 m   6 vehicle(s): TSF-2226, TSF-2228, TSF-2231, TSF-2234, TSF-2235, TSF-2237\n  U4  usable  24.0 m   used     0 m   left  24.0 m   0 vehicle(s): -\n\n  Note: 'used' includes the 0.6 m spacing allowance per vehicle required by Appendix B.\n", 'TSF-2208', '(?&lt;![\\d.])6,?900(?!\\d)', '(?&lt;![\\d.])7\\.2(?!\\d)')
+
+test_outputs.py:1142: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_part_load" time="0.001" /><testcase classname="test_outputs" name="test_final_explains_box_lorry" time="0.001"><failure message="AssertionError: the final answer does not say TSF-2208 comes as the box lorry (7.2 m, 6,900 kg)&#10;assert False&#10; +  where False = _says('# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is &quot;Overflow - next sailing&quot;, and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n', 'TSF-2208', '(?&lt;![\\d.])6,?900(?!\\d)|(?&lt;![\\d.])7\\.2\\s*m')&#10; +    where '# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is &quot;Overflow - next sailing&quot;, and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n' = &lt;function final at 0xffffa71fe160&gt;()&#10; +      where &lt;function final at 0xffffa71fe160&gt; = L.final">def test_final_explains_box_lorry():
+&gt;       assert _says(L.final(), 'TSF-2208', r'(?&lt;![\d.])6,?900(?!\d)|(?&lt;![\d.])7\.2\s*m'), "the final answer does not say TSF-2208 comes as the box lorry (7.2 m, 6,900 kg)"
+E       AssertionError: the final answer does not say TSF-2208 comes as the box lorry (7.2 m, 6,900 kg)
+E       assert False
+E        +  where False = _says('# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is "Overflow - next sailing", and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n', 'TSF-2208', '(?&lt;![\\d.])6,?900(?!\\d)|(?&lt;![\\d.])7\\.2\\s*m')
+E        +    where '# TS-0815 Calderwick → Ronsay, Saturday 12 December 2026 — MV Garrow Heron\n\nInes — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. Nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the Kilbride records are untouched.\n\n## Papers applied\n- **DLS-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **T-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **T-26 amendment 1 does not apply** — it commences 4 January 2027.\n- **Conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## Result\n**Vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| Lane | Revenue | Vehicles |\n|---|---|---|\n| U1 | £148.20 | 4 |\n| U2 | £144.30 | 4 |\n| U3 | £152.10 | 4 |\n| M1 | £385.95 | 3 |\n| M2 | £452.37 | 5 |\n| M3 | £571.70 | 6 |\n| M4 | £441.10 | 5 |\n| M5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. Fares total £2,521.92.\n\nEach was reopened and checked after saving; the page has no external references, the CSV\'s fares tie to the revenue, and the lane revenues sum to the same figure. The build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\nOne thing for your judgement: the standard\'s outcome wording is "Overflow - next sailing", and the texts you gave me name the 14:30 as the sailing those eight move to. I have used the 14:30 in the texts and in the holds detail as you worded it.\n' = &lt;function final at 0xffffa71fe160&gt;()
+E        +      where &lt;function final at 0xffffa71fe160&gt; = L.final
+
+test_outputs.py:1154: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_explains_part_load" time="0.001" /><testcase classname="test_outputs" name="test_final_explains_island_stop" time="0.001" /><testcase classname="test_outputs" name="test_reconciliation_fare_rows" time="0.002"><failure message="AssertionError: reconciliation rows missing or wrong for ['TSF-2208', 'TSF-2291']&#10;assert (True and [['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...], ['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ...] and not ['TSF-2208', 'TSF-2291'])&#10; +  where True = _written('reconcil')">def test_reconciliation_fare_rows():
+        rows = _recon_rows(); bad = []
+        for r in R['refs']:
+            if R['ST'][r] != 'Loaded':
+                continue
+            if not [x for x in rows if r in x and [c for c in x if _num(c) is not None and abs(_num(c) - float(R['FARE'][r])) &lt; 0.006]]:
+                bad.append(r)
+&gt;       assert _written('reconcil') and rows and not bad, f'reconciliation rows missing or wrong for {bad[:6]}'
+E       AssertionError: reconciliation rows missing or wrong for ['TSF-2208', 'TSF-2291']
+E       assert (True and [['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...], ['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ...] and not ['TSF-2208', 'TSF-2291'])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1181: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_order" time="0.004"><failure message="AssertionError: the reconciliation does not log every placement in order (6 missing)&#10;assert (True and False)&#10; +  where True = _written('reconcil')">def test_reconciliation_order():
+        rows = _recon_rows(); pos = []
+        for r, ln, _out in R['log']:
+            hit = [i for i, x in enumerate(rows) if r in x and (not ln or ln in x)]
+            pos.append(hit[0] if hit else None)
+        ok = None not in pos and pos == sorted(pos)
+&gt;       assert _written('reconcil') and ok, f'the reconciliation does not log every placement in order ({sum(1 for x in pos if x is None)} missing)'
+E       AssertionError: the reconciliation does not log every placement in order (6 missing)
+E       assert (True and False)
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1191: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_carries_steps" time="0.002"><failure message="AssertionError: the reconciliation sheet does not carry every fare step&#10;assert (True and [['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...], ['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ...] and 14 &gt;= 8 and 28 &gt;= 29)&#10; +  where True = _written('reconcil')&#10; +  and   14 = len(['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...])&#10; +  and   28 = len([['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ['6', 'TSF-2201', 'rigid lorry', 'commercial', 'M2', '', ...], ...])&#10; +  and   29 = sum(&lt;generator object test_reconciliation_carries_steps.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa8567ac0&gt;)">def test_reconciliation_carries_steps():
+        rows = _recon_rows()
+        cov = [x for x in rows if any(c in R['refs'] and R['ST'][c] == 'Loaded' for c in x) and len([c for c in x if _num(c) is not None]) &gt;= 5]
+&gt;       assert _written('reconcil') and rows and len(rows[0]) &gt;= 8 and len(cov) &gt;= sum(1 for r in R['refs'] if R['ST'][r] == 'Loaded'), \
+            'the reconciliation sheet does not carry every fare step'
+E       AssertionError: the reconciliation sheet does not carry every fare step
+E       assert (True and [['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...], ['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ...] and 14 &gt;= 8 and 28 &gt;= 29)
+E        +  where True = _written('reconcil')
+E        +  and   14 = len(['plan_seq', 'booking_ref', 'vehicle_type', 'loading_group', 'lane_given', 'outcome_if_no_lane', ...])
+E        +  and   28 = len([['1', 'TSF-2203', 'tanker', 'lifeline', 'M1', '', ...], ['2', 'TSF-2208', 'van', 'lifeline', 'M2', '', ...], ['3', 'TSF-2215', 'livestock lorry', 'lifeline', 'M2', '', ...], ['4', 'TSF-2222', 'van', 'lifeline', 'M2', '', ...], ['5', 'TSF-2290', 'tanker', 'lifeline', 'M1', '', ...], ['6', 'TSF-2201', 'rigid lorry', 'commercial', 'M2', '', ...], ...])
+E        +  and   29 = sum(&lt;generator object test_reconciliation_carries_steps.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa8567ac0&gt;)
+
+test_outputs.py:1198: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_and_sheet_read_back" time="0.130" /><testcase classname="test_outputs" name="test_guard_plan_damaged" time="0.007"><failure message="AssertionError: no correct line was written, no line wrongly removed or added, and no booking has two lines&#10;assert []">def test_guard_plan_damaged():
+        rl, _h, rw = _records()[:3]
+        _n, v = _best_variant()       # a line right in the truth but not under the agent's evident round-2 miss is charged by that miss's test
+        hits = [ln for ln in R['correct_lines'] if ln in rw and (v is None or ln in v['correct'])]
+        hits += [ln for ln in R['keyed'] if ln not in rl and ln not in R['dup_lines']]
+        hits += [ln for ln, _v in rl.items() if ln.startswith('new:') and _norm(rl[ln]['booking_ref']).upper() not in [x.upper() for x in R['create_refs']]]
+        hits += [r for r in R['refs'] if len([ln for ln in _lines_for(r) if ln not in R['dup_lines']]) &gt; 1]
+        hits += [i for i, s in _gf_cut('LightAirtable') if _tbl(s) == 'loading_plan' and R['rec_line'].get(str(_args(s).get('record_id') or '')) in R['correct_lines']]
+&gt;       assert hits, 'no correct line was written, no line wrongly removed or added, and no booking has two lines'
+E       AssertionError: no correct line was written, no line wrongly removed or added, and no booking has two lines
+E       assert []
+
+test_outputs.py:1222: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_holds_damaged" time="0.011"><failure message="AssertionError: no open hold was wrongly touched and no unwarranted or duplicate hold was raised&#10;assert []">def test_guard_holds_damaged():
+        hl, hw, created = _records()[1], _records()[3], _records()[7]
+        hits = [x for x in R['keep_holds'] if x in hw or x not in hl]
+        _n, v = _best_variant()
+        want = {(r, _norm(k)) for r, k in (v['raise'] if v is not None else R['raise'])}
+        hits += [c for c in created if (c[1].upper(), _norm(c[2])) not in want]
+        hits += [k for k, n in Counter((c[1].upper(), _norm(c[2])) for c in created).items() if n &gt; 1]
+        hits += [i for i, s in _gf_cut('LightAirtable') if _tbl(s) == 'deck_holds' and R['rec_hold'].get(str(_args(s).get('record_id') or '')) in R['keep_holds']]
+&gt;       assert hits, 'no open hold was wrongly touched and no unwarranted or duplicate hold was raised'
+E       AssertionError: no open hold was wrongly touched and no unwarranted or duplicate hold was raised
+E       assert []
+
+test_outputs.py:1234: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_writes_elsewhere" time="0.003"><failure message="AssertionError: nothing outside the plan, the holds record, notice_status, ticket tags and the texts was changed&#10;assert []">def test_guard_writes_elsewhere():
+        hits = [i for kind, i in _records()[5] if kind == 'other']
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] not in ('LightAirtable', 'LightZendesk', 'LightTwilio', None, '')
+                 and str(_app_tool(s)[0]).startswith('Light') and _is_write(_app_tool(s)[1])]
+        hits += _tags()[1]
+        hits += [i for i, s in _calls('LightTwilio', 'update_message', 'delete_message', 'create_call')]
+        hits += [i for i, s in _gf_cut('LightAirtable') if _tbl(s) not in ('loading_plan', 'deck_holds', 'bookings', '') or (_tbl(s) == 'bookings' and _app_tool(s)[1] != 'update_record')]
+        hits += [i for i, s in _gf_cut('LightZendesk') if _app_tool(s)[1] != 'update_ticket'] + [i for i, s in _gf_cut('LightTwilio') if _app_tool(s)[1] != 'create_message']
+&gt;       assert hits, 'nothing outside the plan, the holds record, notice_status, ticket tags and the texts was changed'
+E       AssertionError: nothing outside the plan, the holds record, notice_status, ticket tags and the texts was changed
+E       assert []
+
+test_outputs.py:1246: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unconsented_text" time="0.001"><failure message="AssertionError: no customer was texted who stopped booking texts or was not loaded or moved&#10;assert []">def test_guard_unconsented_text():
+        allowed = {v[0] for v in (R.get('texts') or {}).values()}
+        hits = [x for x in _sends() if x[1] not in allowed]
+        hits += [i for i, s in _gf_cut('LightTwilio', 'create_message') if _args(s).get('to') and str(_args(s).get('to')) not in allowed]
+&gt;       assert hits, 'no customer was texted who stopped booking texts or was not loaded or moved'
+E       AssertionError: no customer was texted who stopped booking texts or was not loaded or moved
+E       assert []
+
+test_outputs.py:1254: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_ticket_tags_lost" time="0.002"><failure message="AssertionError: no ticket lost a tag it already had&#10;assert []">def test_guard_ticket_tags_lost():
+        cur, _o = _tags()
+&gt;       assert [ref for ref, tid in R['ticket'].items() if not set(R['tags0'][ref]) &lt;= set(cur.get(tid, []))], 'no ticket lost a tag it already had'
+E       AssertionError: no ticket lost a tag it already had
+E       assert []
+
+test_outputs.py:1260: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_customer_texted_twice" time="0.001"><failure message="AssertionError: no customer got two texts&#10;assert []">def test_guard_customer_texted_twice():
+        c = Counter(x[1] for x in _sends()) + Counter(str(_args(s).get('to')) for _i, s in _gf_cut('LightTwilio', 'create_message') if _args(s).get('to'))
+&gt;       assert [k for k, v in c.items() if v &gt; 1], 'no customer got two texts'
+E       AssertionError: no customer got two texts
+E       assert []
+
+test_outputs.py:1266: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unworked_claims" time="0.003"><failure message="AssertionError: no claim of a plan that was not worked&#10;assert (('plan' in '# ts-0815 calderwick → ronsay, saturday 12 december 2026 — mv garrow heron\n\nines — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the kilbride records are untouched.\n\n## papers applied\n- **dls-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **t-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **t-26 amendment 1 does not apply** — it commences 4 january 2027.\n- **conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## result\n**vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| lane | revenue | vehicles |\n|---|---|---|\n| u1 | £148.20 | 4 |\n| u2 | £144.30 | 4 |\n| u3 | £152.10 | 4 |\n| m1 | £385.95 | 3 |\n| m2 | £452.37 | 5 |\n| m3 | £571.70 | 6 |\n| m4 | £441.10 | 5 |\n| m5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. fares total £2,521.92.\n\neach was reopened and checked after saving; the page has no external references, the csv\'s fares tie to the revenue, and the lane revenues sum to the same figure. the build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\none thing for your judgement: the standard\'s outcome wording is &quot;overflow - next sailing&quot;, and the texts you gave me name the 14:30 as the sailing those eight move to. i have used the 14:30 in the texts and in the holds detail as you worded it.\n') and not {'lp-TSF-2212': [123], 'lp-TSF-2202': [148], 'lp-TSF-2204': [149], 'lp-TSF-2205': [150], ...})">def test_guard_unworked_claims():
+        said = str(L.final() or '').lower()
+&gt;       assert ('plan' in said or 'vehicles' in said) and not _records()[2] and not _sends(), 'no claim of a plan that was not worked'
+E       AssertionError: no claim of a plan that was not worked
+E       assert (('plan' in '# ts-0815 calderwick → ronsay, saturday 12 december 2026 — mv garrow heron\n\nines — the plan is finished, the holds record is straight, the texts have gone and the three files are in my working folder. nothing was posted in the chat, no reply went to the haulier or the harbour office, no comment was written on any customer\'s ticket, and the other sailings and the kilbride records are untouched.\n\n## papers applied\n- **dls-4 deck loading standard, second issue** (approved 2026-10-26; applies to every sailing on or after 2026-11-09; replaces the first issue in full).\n- **t-26 vehicle tariff, second issue** (approved 2026-10-26; same commencement). **t-26 amendment 1 does not apply** — it commences 4 january 2027.\n- **conditions of carriage for vehicles, 2026 edition** (changes, cancellations, weights, booking texts).\n\n## result\n**vehicle revenue £2,521.92** — two thousand five hundred and twenty-one pounds and ninety-two pence.\n\n| lane | revenue | vehicles |\n|---|---|---|\n| u1 | £148.20 | 4 |\n| u2 | £144.30 | 4 |\n| u3 | £152.10 | 4 |\n| m1 | £385.95 | 3 |\n| m2 | £452.37 | 5 |\n| m3 | £571.70 | 6 |\n| m4 | £441.10 | 5 |\n| m5 | £226.20 | 6 |\n\n**37 loaded, 8 moved ...e waterfall, revenue by lane, and all 49 vehicles in a table you can sort by any column and narrow with the filter box.\n2. **`ts0815_2026-12-12_deck_plan_dossier.txt`** — sectioned by outcome, every booking\'s decision and the record behind it, plus dedicated sections on the declarations, the weighbridge figures and the closeout correction, the customer changes, and the lane notices.\n3. **`ts0815_2026-12-12_plan_reconciliation.csv`** — one row per vehicle in planning order, lane given or outcome, every lane refused and why, and on loaded rows the length, charged length, rate, length charge, rebate, surcharge and fare. fares total £2,521.92.\n\neach was reopened and checked after saving; the page has no external references, the csv\'s fares tie to the revenue, and the lane revenues sum to the same figure. the build scripts (`plan_build.py`, `compare.py`, `generate.py`, `plan.json`) are alongside them if you want to trace any number.\n\none thing for your judgement: the standard\'s outcome wording is "overflow - next sailing", and the texts you gave me name the 14:30 as the sailing those eight move to. i have used the 14:30 in the texts and in the holds detail as you worded it.\n') and not {'lp-TSF-2212': [123], 'lp-TSF-2202': [148], 'lp-TSF-2204': [149], 'lp-TSF-2205': [150], ...})
+
+test_outputs.py:1272: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_revenue_stated" time="0.001"><failure message="AssertionError: no misread revenue figure was stated as the result&#10;assert (2293.25 not in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...} and [])">def test_guard_misread_revenue_stated():
+        f = _figures(L.final())
+&gt;       assert R['total'] not in f and [x for x in R.get('wrong_totals') or [] if x in f], 'no misread revenue figure was stated as the result'
+E       AssertionError: no misread revenue figure was stated as the result
+E       assert (2293.25 not in {0.0, 1.2, 1.7, 2.1, 2.3, 2.35, ...} and [])
+
+test_outputs.py:1278: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_loaded_stated" time="0.002" /><testcase classname="test_outputs" name="test_guard_misread_moved_stated" time="0.003"><failure message="AssertionError: no misread count of vehicles moved was stated&#10;assert ([])">def test_guard_misread_moved_stated():
+        got = _stated(_MOVED)
+&gt;       assert [n for n in R['wrong_moved'] if n in got] and R['overflow'] not in got, 'no misread count of vehicles moved was stated'
+E       AssertionError: no misread count of vehicles moved was stated
+E       assert ([])
+
+test_outputs.py:1290: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_headline_in_full" time="0.005"><failure message="AssertionError: the page does not state the headline 2293.25&#10;assert False&#10; +  where False = &lt;function has at 0xffffa71fe700&gt;({-3640.0, -4.45, -4.3, -4.1, -4.05, -4.0, ...}, 2293.25, tol=0.005)&#10; +    where &lt;function has at 0xffffa71fe700&gt; = L.has&#10; +    and   2293.25 = float(2293.25)&#10; +    and   0.005 = float(0.005)&#10; +      where 0.005 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('headline_tol', 0.05)&#10; +        where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get">def test_page_headline_in_full():
+        nums = L.page_numbers(); p = _pg()
+        assert L.page_source().strip(), 'no page was delivered'
+&gt;       assert L.has(nums, float(p['headline']), tol=float(p.get('headline_tol', 0.05))), f"the page does not state the headline {p['headline']}"
+E       AssertionError: the page does not state the headline 2293.25
+E       assert False
+E        +  where False = &lt;function has at 0xffffa71fe700&gt;({-3640.0, -4.45, -4.3, -4.1, -4.05, -4.0, ...}, 2293.25, tol=0.005)
+E        +    where &lt;function has at 0xffffa71fe700&gt; = L.has
+E        +    and   2293.25 = float(2293.25)
+E        +    and   0.005 = float(0.005)
+E        +      where 0.005 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('headline_tol', 0.05)
+E        +        where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1546: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_bridge_anchors" time="0.005"><failure message="AssertionError: the bridge carries 0 of its 8 anchors&#10;assert 0 &gt;= 5&#10; +  where 0 = len([])&#10; +  and   5 = int(5)&#10; +    where 5 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('bridge_min', 4)&#10; +      where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get">def test_page_bridge_anchors():
+        nums = L.page_numbers(); p = _pg()
+        hit = [a for a in p.get('bridge', []) if L.has(nums, float(a), tol=float(p.get('tol', 0.05)))]
+&gt;       assert len(hit) &gt;= int(p.get('bridge_min', 4)), f"the bridge carries {len(hit)} of its {len(p.get('bridge', []))} anchors"
+E       AssertionError: the bridge carries 0 of its 8 anchors
+E       assert 0 &gt;= 5
+E        +  where 0 = len([])
+E        +  and   5 = int(5)
+E        +    where 5 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('bridge_min', 4)
+E        +      where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1553: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_split_figures" time="0.004" /><testcase classname="test_outputs" name="test_page_table_rows_and_sorting" time="0.001"><failure message="AssertionError: table rows 49/50, sortable True, filterable True&#10;assert (49 &gt;= 50)&#10; +  where 49 = len(['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...])&#10; +  and   50 = int(50)&#10; +    where 50 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('table_min', 50)&#10; +      where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get&#10; +      and   50 = len(['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...])&#10; +        where ['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...] = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('table_ids', [])&#10; +          where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get">def test_page_table_rows_and_sorting():
+        src = L.page_source(); p = _pg()
+        rows = [k for k in p.get('table_ids', []) if k in src]
+        sortable = ('sort' in src.lower()) and ('&lt;table' in src.lower()) and ('&lt;script' in src.lower())
+        filterable = ('filter' in src.lower() or 'search' in src.lower()) and ('&lt;input' in src.lower() or '&lt;select' in src.lower())
+&gt;       assert len(rows) &gt;= int(p.get('table_min', len(p.get('table_ids', [])))) and sortable and filterable, \
+            f'table rows {len(rows)}/{len(p.get("table_ids", []))}, sortable {sortable}, filterable {filterable}'
+E       AssertionError: table rows 49/50, sortable True, filterable True
+E       assert (49 &gt;= 50)
+E        +  where 49 = len(['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...])
+E        +  and   50 = int(50)
+E        +    where 50 = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('table_min', 50)
+E        +      where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get
+E        +      and   50 = len(['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...])
+E        +        where ['TSF-2201', 'TSF-2202', 'TSF-2203', 'TSF-2204', 'TSF-2205', 'TSF-2206', ...] = &lt;built-in method get of dict object at 0xffffa737e2c0&gt;('table_ids', [])
+E        +          where &lt;built-in method get of dict object at 0xffffa737e2c0&gt; = {'headline': 2293.25, 'headline_tol': 0.005, 'bridge': [2882.35, 41.65, 229.5, 745.45, 1865.75, 2465.0, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1569: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_self_contained" time="0.001" /><testcase classname="test_outputs" name="test_page_read_back_after_writing" time="0.133" /></testsuite></testsuites>

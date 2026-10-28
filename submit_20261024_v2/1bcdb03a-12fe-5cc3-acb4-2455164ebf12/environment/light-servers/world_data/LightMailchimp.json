@@ -1,0 +1,360 @@
+{
+ "lists": [
+  {
+   "date_created": "2026-03-01T09:00:00+00:00",
+   "id": "aud-speakers26",
+   "member_count": 4,
+   "name": "Northlight 2026 speaker logistics"
+  },
+  {
+   "date_created": "2024-01-01T09:00:00+00:00",
+   "id": "aud-news",
+   "member_count": 30,
+   "name": "Northlight newsletter"
+  }
+ ],
+ "members": [
+  {
+   "_pk": "aud-speakers26@b10e8bbeecbc18fe59a8f28752c354fd",
+   "email_address": "Chen.ito@corp.example",
+   "full_name": "Chen Ito",
+   "id": "b10e8bbeecbc18fe59a8f28752c354fd",
+   "list_id": "aud-speakers26",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-03-02 09:00:00"
+  },
+  {
+   "_pk": "aud-speakers26@c126f20ca0e84276e0852099d9f5c661",
+   "email_address": "Quin.diaz@lab.example",
+   "full_name": "Quin Diaz",
+   "id": "c126f20ca0e84276e0852099d9f5c661",
+   "list_id": "aud-speakers26",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-03-02 09:00:00"
+  },
+  {
+   "_pk": "aud-speakers26@6e4ea62ef3168f5feae7d43721002063",
+   "email_address": "Yara.ueda@uni.example",
+   "full_name": "Yara Ueda",
+   "id": "6e4ea62ef3168f5feae7d43721002063",
+   "list_id": "aud-speakers26",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-03-02 09:00:00"
+  },
+  {
+   "_pk": "aud-speakers26@d2d727b12e61a38afa37bd30a4d4e079",
+   "email_address": "Nils.costa@uni.example",
+   "full_name": "Nils Costa",
+   "id": "d2d727b12e61a38afa37bd30a4d4e079",
+   "list_id": "aud-speakers26",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-03-02 09:00:00"
+  },
+  {
+   "_pk": "aud-news@d583e3eba465c59ac89c0bfa64baae2f",
+   "email_address": "xin.ortiz@uni.example",
+   "full_name": "Xin Ortiz",
+   "id": "d583e3eba465c59ac89c0bfa64baae2f",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@aa27a501723dee543c80f2a5b41bc8df",
+   "email_address": "hana.pohl@lab.example",
+   "full_name": "Hana Pohl",
+   "id": "aa27a501723dee543c80f2a5b41bc8df",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@e0d631d7b8ad132a8ea535d83986aa0f",
+   "email_address": "wim.rao@uni.example",
+   "full_name": "Wim Rao",
+   "id": "e0d631d7b8ad132a8ea535d83986aa0f",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@2517f0c3105923cb645ea2bfc0118efb",
+   "email_address": "wim.lund@uni.example",
+   "full_name": "Wim Lund",
+   "id": "2517f0c3105923cb645ea2bfc0118efb",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@1601d5cd9f0b6f2f7eb0d7c14f69b757",
+   "email_address": "eli.ortiz@lab.example",
+   "full_name": "Eli Ortiz",
+   "id": "1601d5cd9f0b6f2f7eb0d7c14f69b757",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@0617b8c1e47c102b21b27492fb377d16",
+   "email_address": "hana.ortiz@corp.example",
+   "full_name": "Hana Ortiz",
+   "id": "0617b8c1e47c102b21b27492fb377d16",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@749169798b2fdcdb6ae1186f4021fd44",
+   "email_address": "yara.ito@lab.example",
+   "full_name": "Yara Ito",
+   "id": "749169798b2fdcdb6ae1186f4021fd44",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@788e379394f75744f1080de1d6eb4eaa",
+   "email_address": "hana.lund@lab.example",
+   "full_name": "Hana Lund",
+   "id": "788e379394f75744f1080de1d6eb4eaa",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@eca251d395ddd25d73856a344d4a4147",
+   "email_address": "yara.voss@lab.example",
+   "full_name": "Yara Voss",
+   "id": "eca251d395ddd25d73856a344d4a4147",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@0b4fe8963352993c3d555706864d7c25",
+   "email_address": "dara.rao@lab.example",
+   "full_name": "Dara Rao",
+   "id": "0b4fe8963352993c3d555706864d7c25",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@9b1612a8b3f107c265cf4ff27dd633e1",
+   "email_address": "wim.fox@corp.example",
+   "full_name": "Wim Fox",
+   "id": "9b1612a8b3f107c265cf4ff27dd633e1",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@8accbd235e264d3d12f5499abba856c7",
+   "email_address": "oona.holm@uni.example",
+   "full_name": "Oona Holm",
+   "id": "8accbd235e264d3d12f5499abba856c7",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@af223c047845ea25e2a6b20a1ba0bbd1",
+   "email_address": "hana.ueda@uni.example",
+   "full_name": "Hana Ueda",
+   "id": "af223c047845ea25e2a6b20a1ba0bbd1",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@22c83fdb8e5afaa4fceac96544b7ca60",
+   "email_address": "zeno.pohl@uni.example",
+   "full_name": "Zeno Pohl",
+   "id": "22c83fdb8e5afaa4fceac96544b7ca60",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@dd7a69c6b72d4b38fa931c55b8476244",
+   "email_address": "hana.nkemelu@corp.example",
+   "full_name": "Hana Nkemelu",
+   "id": "dd7a69c6b72d4b38fa931c55b8476244",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@d5b145d12d69c5e35e76a92292fe8c63",
+   "email_address": "kai.costa@lab.example",
+   "full_name": "Kai Costa",
+   "id": "d5b145d12d69c5e35e76a92292fe8c63",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@d8518103879af714675bfbba835b0f3e",
+   "email_address": "wim.nkemelu@corp.example",
+   "full_name": "Wim Nkemelu",
+   "id": "d8518103879af714675bfbba835b0f3e",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@6a6680f25be29ff41e25f0f46681afab",
+   "email_address": "ivo.costa@corp.example",
+   "full_name": "Ivo Costa",
+   "id": "6a6680f25be29ff41e25f0f46681afab",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@fe6c453af053e6b687c9b373e3e66b45",
+   "email_address": "xin.voss@lab.example",
+   "full_name": "Xin Voss",
+   "id": "fe6c453af053e6b687c9b373e3e66b45",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@94b734e5283344a90a1c2c86876caf02",
+   "email_address": "tess.toivonen@uni.example",
+   "full_name": "Tess Toivonen",
+   "id": "94b734e5283344a90a1c2c86876caf02",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@28e4112436b5360077706fd7b2b22ffe",
+   "email_address": "eli.wolfe@uni.example",
+   "full_name": "Eli Wolfe",
+   "id": "28e4112436b5360077706fd7b2b22ffe",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@5bc1ae0f95919aa7d5847e70efb102fc",
+   "email_address": "xin.silva@lab.example",
+   "full_name": "Xin Silva",
+   "id": "5bc1ae0f95919aa7d5847e70efb102fc",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@65e64c1171e3f57c4fbf89022de6411f",
+   "email_address": "femi.quist@corp.example",
+   "full_name": "Femi Quist",
+   "id": "65e64c1171e3f57c4fbf89022de6411f",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@b10e8bbeecbc18fe59a8f28752c354fd",
+   "email_address": "chen.ito@corp.example",
+   "full_name": "Chen Ito",
+   "id": "b10e8bbeecbc18fe59a8f28752c354fd",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@10d56ca4a927b218d9cb5ead863ce85b",
+   "email_address": "femi.rao@corp.example",
+   "full_name": "Femi Rao",
+   "id": "10d56ca4a927b218d9cb5ead863ce85b",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@626df9387079a3e6ebf02939d8785f50",
+   "email_address": "ivo.quist@corp.example",
+   "full_name": "Ivo Quist",
+   "id": "626df9387079a3e6ebf02939d8785f50",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@71ca9fe0c6dec8341c80f9d43ea4bc89",
+   "email_address": "ivo.lund@corp.example",
+   "full_name": "Ivo Lund",
+   "id": "71ca9fe0c6dec8341c80f9d43ea4bc89",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@4999110fb6af565bf58cdfdef2298196",
+   "email_address": "zeno.brandt@uni.example",
+   "full_name": "Zeno Brandt",
+   "id": "4999110fb6af565bf58cdfdef2298196",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@5ffd92c707813a3320b889cf465798f7",
+   "email_address": "nils.ueda@uni.example",
+   "full_name": "Nils Ueda",
+   "id": "5ffd92c707813a3320b889cf465798f7",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  },
+  {
+   "_pk": "aud-news@bd950d741db3fe1d94f99cb1b6f8dff6",
+   "email_address": "wim.toivonen@lab.example",
+   "full_name": "Wim Toivonen",
+   "id": "bd950d741db3fe1d94f99cb1b6f8dff6",
+   "list_id": "aud-news",
+   "member_rating": 1,
+   "status": "subscribed",
+   "timestamp_signup": "2025-06-01 09:00:00"
+  }
+ ],
+ "campaigns": [],
+ "reports": []
+}

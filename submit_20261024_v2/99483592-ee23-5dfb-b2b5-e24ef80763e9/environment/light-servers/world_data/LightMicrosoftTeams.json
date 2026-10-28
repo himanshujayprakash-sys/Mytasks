@@ -1,0 +1,97 @@
+{
+ "teams": [
+  {
+   "id": "team_gwp_accounts",
+   "displayName": "Lamplighter S2 accounts",
+   "description": "Production accounts and the financier's monitor",
+   "membershipType": "standard",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.greyfriarswharf.example/l/team/team_gwp_accounts",
+   "member_ids": [
+    "user-gwp-01",
+    "user-gwp-02",
+    "user-gwp-03"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Accounts chat",
+   "webUrl": "https://teams.greyfriarswharf.example/l/team/team_gwp_accounts/channel/ch_gwp_general",
+   "createdDateTime": "2026-02-12T09:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1796100000300",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-01",
+   "from_display_name": "Lucinda Fairweather",
+   "content": "Week 46 cost report uploaded to Box.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-16T17:10:00Z"
+  },
+  {
+   "id": "1796100000301",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-02",
+   "from_display_name": "Abigail Thorne",
+   "content": "Thanks. Can you flag the generator overage in the notes?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-17T09:05:00Z"
+  },
+  {
+   "id": "1796100000302",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-01",
+   "from_display_name": "Lucinda Fairweather",
+   "content": "Done, it's the replacement unit after the breakdown on day 27.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-17T09:40:00Z"
+  },
+  {
+   "id": "1796100000303",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-03",
+   "from_display_name": "Gethin Pryce",
+   "content": "Cash flow for December looks fine with the second drawdown on the 1st.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-18T12:30:00Z"
+  },
+  {
+   "id": "1796100000304",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-02",
+   "from_display_name": "Abigail Thorne",
+   "content": "Agreed. Drawdown request needs both signatures by the 26th.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-18T14:15:00Z"
+  },
+  {
+   "id": "1796100000305",
+   "channel_id": "ch_gwp_general",
+   "team_id": "team_gwp_accounts",
+   "from_user_id": "user-gwp-01",
+   "from_display_name": "Lucinda Fairweather",
+   "content": "Wrap party deposit went out today.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-05T16:00:00Z"
+  }
+ ]
+}

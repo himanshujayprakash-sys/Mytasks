@@ -1,0 +1,589 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 95,
+      "passed": 60,
+      "failed": 35,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.608059,
+      "weighted_percentage": 60.81
+    },
+    "tests": [
+      {
+        "name": "test_costing_standard_read",
+        "status": "passed",
+        "duration": 20,
+        "weight": 3
+      },
+      {
+        "name": "test_corrigendum_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_journal_pages_read",
+        "status": "passed",
+        "duration": 11,
+        "weight": 3
+      },
+      {
+        "name": "test_ledgers_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_credit_and_frost_scans_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_goods_in_tally_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_bench_plan_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_all_record_tables_opened",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_season_customer_details_read",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_supplier_mail_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_stock_channel_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_helpdesk_notes_read",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_channel_threads_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_consent_state_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_trade_list_members_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_lot_register_read_first",
+        "status": "passed",
+        "duration": 10,
+        "weight": 3
+      },
+      {
+        "name": "test_each_lot_line_read_before_write",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_variances_read_first",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_statements_after_register",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_lot_lines_corrected",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_return_lots_created",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_duplicate_lot_line_removed",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_fifo_depletion",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_cost_not_averaged",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_event_time_order",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_returns_restocked",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_returns_as_new_lots",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_frost_from_named_lots",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_credit_note_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_credit_effective_date",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_approver_register_dates",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_tray_conversion",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_handling_by_receipt_date",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_handling_corrigendum_not_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_cancelled_invoice_ignored",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_sister_nursery_excluded",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_tally_saleable_trays",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_frost_recount_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_frost_mail_correction_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_frost_mail_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_helpdesk_optout_read",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_helpdesk_optout_honoured",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_helpdesk_cancel_read",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_helpdesk_cancel_applied",
+        "status": "failed",
+        "duration": 6,
+        "weight": 5
+      },
+      {
+        "name": "test_supplier_qty_mail_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_supplier_qty_correction_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_chat_correction_from_signer_only",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_credit_reissue_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_return_cost_from_last_lot",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_supplier_return_from_named_lot",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_invoice_correction_applied",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_customer_count_not_used",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_debit_note_correction_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_thread_correction_from_raiser_only",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_goods_in_rejection_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_goods_in_log_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_reissue_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_cured_variance_removed",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_variance_restated",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_variances_raised",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_cogs",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_closing",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_frost",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_bridge",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_split",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_names_record_changes",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_statements_sent",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_stop_and_optin_honoured",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_statement_notice_recorded",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_optout_in_other_words_honoured",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_message_consent_date_honoured",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_trade_list_audience",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_by_decision_class",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_cross_references",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_reconciliation_draws_in_order",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_returns_and_writeoffs",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_reconciliation_unit_costs",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_deliverables_read_back",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_lot_register_misworked",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_variances_misworked",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "passed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_unconsented_message",
+        "status": "passed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_unsubscribed_readded",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_duplicate_statement",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_wrong_cogs_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_wrong_closing_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_wrong_frost_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      }
+    ]
+  }
+}

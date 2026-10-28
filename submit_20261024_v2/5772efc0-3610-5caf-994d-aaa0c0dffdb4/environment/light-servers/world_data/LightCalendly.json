@@ -1,0 +1,252 @@
+{
+ "event_types": [
+  {
+   "uri": "https://api.calendly.com/event_types/et_tn_design45",
+   "slug": "design-consultation",
+   "name": "Garden design consultation",
+   "duration": 45,
+   "kind": "solo",
+   "active": true,
+   "color": "green",
+   "type": "StandardEventType"
+  },
+  {
+   "uri": "https://api.calendly.com/event_types/et_tn_sitevisit",
+   "slug": "site-visit",
+   "name": "Garden site visit",
+   "duration": 60,
+   "kind": "solo",
+   "active": true,
+   "color": "blue",
+   "type": "StandardEventType"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-tn001",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_design45",
+   "name": "Garden design consultation",
+   "status": "active",
+   "start_time": "2027-05-20T10:00:00.000000Z",
+   "end_time": "2027-05-20T10:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Design studio, Thornfield Nurseries",
+   "created_at": "2027-05-01T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn002",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_sitevisit",
+   "name": "Garden site visit",
+   "status": "active",
+   "start_time": "2027-05-27T14:00:00.000000Z",
+   "end_time": "2027-05-27T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Client garden, East Hendred",
+   "created_at": "2027-05-03T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn003",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_design45",
+   "name": "Garden design consultation",
+   "status": "active",
+   "start_time": "2027-06-03T11:00:00.000000Z",
+   "end_time": "2027-06-03T11:45:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2027-05-05T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn004",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_design45",
+   "name": "Garden design consultation",
+   "status": "canceled",
+   "start_time": "2027-06-08T15:30:00.000000Z",
+   "end_time": "2027-06-08T16:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Design studio, Thornfield Nurseries",
+   "created_at": "2027-05-07T08:15:00.000000Z",
+   "canceled_reason": "Client is away that week and will rebook"
+  },
+  {
+   "uuid": "sev-tn005",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_sitevisit",
+   "name": "Garden site visit",
+   "status": "active",
+   "start_time": "2027-06-10T10:30:00.000000Z",
+   "end_time": "2027-06-10T11:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Client garden, Cholsey",
+   "created_at": "2027-05-09T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn006",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_design45",
+   "name": "Garden design consultation",
+   "status": "active",
+   "start_time": "2027-06-15T13:00:00.000000Z",
+   "end_time": "2027-06-15T13:45:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2027-05-11T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn007",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_sitevisit",
+   "name": "Garden site visit",
+   "status": "active",
+   "start_time": "2027-06-22T09:30:00.000000Z",
+   "end_time": "2027-06-22T10:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Client garden, Wallingford",
+   "created_at": "2027-05-13T08:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tn008",
+   "owner": "Hugo Penrose",
+   "event_type": "et_tn_design45",
+   "name": "Garden design consultation",
+   "status": "active",
+   "start_time": "2027-06-29T16:00:00.000000Z",
+   "end_time": "2027-06-29T16:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Design studio, Thornfield Nurseries",
+   "created_at": "2027-05-15T08:15:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-tn001",
+   "event": "sev-tn001",
+   "name": "Philippa Ogden",
+   "email": "p.ogden@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-01T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "A cottage garden for a north-facing plot"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn002",
+   "event": "sev-tn002",
+   "name": "Graham Teale",
+   "email": "graham.teale@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-03T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Terrace planting and a small pond"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn003",
+   "event": "sev-tn003",
+   "name": "Sunita Rao",
+   "email": "sunita.rao@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-05T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Ideas for a front garden that needs little watering"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn004",
+   "event": "sev-tn004",
+   "name": "Dermot Kelly",
+   "email": "dermot.kelly@inbox.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-07T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Screening along a new fence"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn005",
+   "event": "sev-tn005",
+   "name": "Agnes Whitlow",
+   "email": "agnes.whitlow@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-09T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Replanting after an extension was built"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn006",
+   "event": "sev-tn006",
+   "name": "Marcus Fenby",
+   "email": "m.fenby@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-11T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "A wildlife area at the end of a long garden"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn007",
+   "event": "sev-tn007",
+   "name": "Imogen Blake",
+   "email": "imogen.blake@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-13T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Courtyard with raised beds"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tn008",
+   "event": "sev-tn008",
+   "name": "Rafael Duarte",
+   "email": "rafael.duarte@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2027-05-15T08:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like help with?",
+     "answer": "Family garden with space for a trampoline"
+    }
+   ]
+  }
+ ]
+}

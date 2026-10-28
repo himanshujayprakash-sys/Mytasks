@@ -1,0 +1,265 @@
+{
+ "members": [
+  {
+   "id": "f743f39c98a5ba716553229f",
+   "fullName": "Euan Galbraith",
+   "username": "euangalbraith",
+   "email": "euan.galbraith@tarrowsound.example"
+  },
+  {
+   "id": "294be203d042ed9d6ea85939",
+   "fullName": "Fergus Lennox",
+   "username": "ferguslennox",
+   "email": "fergus.lennox@tarrowsound.example"
+  },
+  {
+   "id": "7d3afed91d74303adf0d25ae",
+   "fullName": "Ottilie Strang",
+   "username": "ottiliestrang",
+   "email": "ottilie.strang@tarrowsound.example"
+  },
+  {
+   "id": "368ed1f48e0b4b07ec7b4235",
+   "fullName": "Lachlan Moffat",
+   "username": "lachlanmoffat",
+   "email": "lachlan.moffat@tarrowsound.example"
+  }
+ ],
+ "boards": [
+  {
+   "id": "647bb76a2e023bcff7d55bbe",
+   "name": "Shore office jobs, winter 2026",
+   "desc": "Jobs for the Calderwick and Ronsay shore offices over the winter.",
+   "closed": false,
+   "id_organization": "7d9357c99780865f42fe66ce",
+   "url": "https://trello.com/b/gxeYAVsE/shore-office-jobs-winter-2026",
+   "member_ids": [
+    "5f1a000000000000000000a1",
+    "f743f39c98a5ba716553229f",
+    "294be203d042ed9d6ea85939",
+    "7d3afed91d74303adf0d25ae",
+    "368ed1f48e0b4b07ec7b4235"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "1bde5f233735d1e0db1e4587",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "name": "To do",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "cee8fec601f44d2754af99e4",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "name": "Doing",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "96228911a97544359f411db5",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "cards": [
+  {
+   "id": "52219d786d6c6d676d7881e2",
+   "name": "Ticket office counter refit",
+   "desc": "Accept the Linnhe Joinery quote and agree a start date in January. The counter has to be emptied the Friday before.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "1bde5f233735d1e0db1e4587",
+   "pos": 16384.0,
+   "due": "2026-12-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "f743f39c98a5ba716553229f",
+    "294be203d042ed9d6ea85939"
+   ],
+   "labels": [
+    "buildings"
+   ]
+  },
+  {
+   "id": "11b5784b93e021dd3420ccab",
+   "name": "Ronsay waiting room heater",
+   "desc": "Thermostat replaced by Corran Heating on 2 December; heater holding temperature since.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "96228911a97544359f411db5",
+   "pos": 16384.0,
+   "due": "2026-12-02T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "368ed1f48e0b4b07ec7b4235"
+   ],
+   "labels": [
+    "buildings"
+   ]
+  },
+  {
+   "id": "b3a1f22a89e42ee302250d2f",
+   "name": "Summer 2027 timetable leaflet",
+   "desc": "Proof 2 back from Harbourside Print. One fix to the café hours, then sign off by 11 December for printing in January.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "cee8fec601f44d2754af99e4",
+   "pos": 16384.0,
+   "due": "2026-12-11T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7d3afed91d74303adf0d25ae"
+   ],
+   "labels": [
+    "marketing"
+   ]
+  },
+  {
+   "id": "917af65856a9d007eaa19906",
+   "name": "Staff jacket order",
+   "desc": "All 38 sizes collected. Order to Mull & Sound Workwear by 11 December.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "cee8fec601f44d2754af99e4",
+   "pos": 32768.0,
+   "due": "2026-12-11T12:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "f743f39c98a5ba716553229f"
+   ],
+   "labels": [
+    "uniform"
+   ]
+  },
+  {
+   "id": "16c23de36e5bd4c64e2f5bfb",
+   "name": "Lost property clear-out",
+   "desc": "Take items older than three months to the Ronsay charity shop on 14 December.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "1bde5f233735d1e0db1e4587",
+   "pos": 32768.0,
+   "due": "2026-12-14T12:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "368ed1f48e0b4b07ec7b4235"
+   ],
+   "labels": [
+    "customer service"
+   ]
+  },
+  {
+   "id": "8b73b0547837147fd1bc2532",
+   "name": "Gift voucher artwork",
+   "desc": "Final artwork approved on 20 November and sent to the printer.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "96228911a97544359f411db5",
+   "pos": 32768.0,
+   "due": "2026-11-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7d3afed91d74303adf0d25ae"
+   ],
+   "labels": [
+    "marketing"
+   ]
+  },
+  {
+   "id": "1d8f9ee80289e5260fcf365c",
+   "name": "Gangway handrail paint touch-up",
+   "desc": "Paint is in the Calderwick store. Do it on a dry day with the handrail taped off for two hours.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "cee8fec601f44d2754af99e4",
+   "pos": 49152.0,
+   "due": "2026-12-18T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "294be203d042ed9d6ea85939"
+   ],
+   "labels": [
+    "buildings"
+   ]
+  },
+  {
+   "id": "6790e1f2153afcc2c88bb346",
+   "name": "Waiting room accessibility audit",
+   "desc": "Both waiting rooms audited. Clearer signs and a lowered counter section recommended; signs ordered.",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "id_list": "96228911a97544359f411db5",
+   "pos": 49152.0,
+   "due": "2026-12-03T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "294be203d042ed9d6ea85939",
+    "f743f39c98a5ba716553229f"
+   ],
+   "labels": [
+    "buildings"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_cbba1b2fce",
+   "id_card": "52219d786d6c6d676d7881e2",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "name": "Before the joiner starts",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_7d97ac7b",
+     "id_checklist": "cl_cbba1b2fce",
+     "name": "Quote received",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_baf0056c",
+     "id_checklist": "cl_cbba1b2fce",
+     "name": "Quote approved by finance",
+     "state": "incomplete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_1f26c72b",
+     "id_checklist": "cl_cbba1b2fce",
+     "name": "Counter cleared",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  },
+  {
+   "id": "cl_3e6d634356",
+   "id_card": "6790e1f2153afcc2c88bb346",
+   "id_board": "647bb76a2e023bcff7d55bbe",
+   "name": "Audit actions",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_303636e5",
+     "id_checklist": "cl_3e6d634356",
+     "name": "Calderwick waiting room audited",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_d43b6707",
+     "id_checklist": "cl_3e6d634356",
+     "name": "Ronsay waiting room audited",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_3dcabc01",
+     "id_checklist": "cl_3e6d634356",
+     "name": "New signs ordered",
+     "state": "complete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

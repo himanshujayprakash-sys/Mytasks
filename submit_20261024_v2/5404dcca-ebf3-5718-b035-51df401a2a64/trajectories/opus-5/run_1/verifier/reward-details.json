@@ -1,0 +1,583 @@
+{
+  "pytest": {
+    "score": 0.3986,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3986,
+        "raw": 0.398551,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 123 of 276, charged 13; missed 41: test_register_lines, test_substitute_lines_created, test_allocation_by_class, test_rounding_rule, test_stock_from_delivery_note, test_goods_in_rejects_deducted, test_carry_over_counted, test_other_depot_bays_excluded, test_best_before_against_delivery_day, test_expired_lot_excluded, test_lot_on_hold_excluded, test_credit_stop_lifted, test_desk_reply_applied, test_voicemail_applied, test_crm_consent_applied, test_ledger_credit_note_applied, test_mail_amendment_applied, test_minimum_drop_one_at_a_time, test_minimum_drop_classes, test_substitutes_supplied, test_substitute_consent, test_substitute_price, test_contract_discount, test_variation_applied, test_variation_signatory_dates, test_new_exceptions_raised, test_final_states_invoice_value, test_final_states_not_delivered, test_final_states_bridge, test_final_states_every_bridge_step, test_final_states_class_split, test_final_states_ties, test_final_names_record_ids, test_final_states_register_corrections, test_allocation_messages_exact, test_reconciliation_value_rows, test_reconciliation_allocation_order, test_reconciliation_withdrawals, test_page_headline_in_full, test_page_bridge_anchors, test_page_table_rows_and_sorting; guards tripped: test_guard_register_damaged, test_guard_exception_record_damaged, test_guard_misread_value_stated"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.65,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-says-invoice-value",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says the invoice value after discounts for the Wednesday 9 December delivery is 1900.15 pounds.",
+        "reasoning": "The delivered dossier says \u201cTotals: 1918.58 pounds after discounts,\u201d not \u00a31,900.15 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "2",
+        "name": "j-note-says-22-accounts",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says 22 accounts are being delivered to.",
+        "reasoning": "The dossier explicitly says \u201c22 accounts delivered to\u201d (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "3",
+        "name": "j-note-says-4-accounts",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says 4 accounts are not being delivered to and names them: EF-2401, EF-2404, EF-2405, EF-2406.",
+        "reasoning": "The dossier says \u201c4 not\u201d and names EF-2401, EF-2404, EF-2405, and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "4",
+        "name": "j-note-gives-invoice-value",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note gives the invoice value by contract class: Class A 478.61, Class B 595.34, Class C 707.80, Class D 118.40.",
+        "reasoning": "The dossier gives class A 478.61, class B 613.77, class C 707.80, and class D 118.40; class B is not 595.34 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "5",
+        "name": "j-note-says-order-book",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says the order book as changed before the cut-off comes to 2683.55 pounds at price-list prices.",
+        "reasoning": "The final answer\u2019s bridge explicitly gives \u201cOrder lines at the 06:00 cut-off, at the price list\u201d as 2,683.55 (final_message.md)."
+      },
+      {
+        "id": "6",
+        "name": "j-note-says-75-45",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says 75.45 pounds of orders were held on credit stop.",
+        "reasoning": "The final answer\u2019s bridge explicitly says \u201cLess credit stop (EF-2405) \u221275.45\u201d (final_message.md)."
+      },
+      {
+        "id": "7",
+        "name": "j-note-says-256-50",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says 256.50 pounds of orders belonged to the accounts withdrawn below the minimum drop.",
+        "reasoning": "The final answer gives \u00a3343.95 for orders below minimum drop, not \u00a3256.50 (final_message.md)."
+      },
+      {
+        "id": "8",
+        "name": "j-note-says-615-10",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says 615.10 pounds of orders could not be covered by the stock.",
+        "reasoning": "The final answer gives \u00a3498.85 for cases stock could not cover, not \u00a3615.10 (final_message.md)."
+      },
+      {
+        "id": "9",
+        "name": "j-note-says-1736-50",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note says 1736.50 pounds were allocated at price-list prices.",
+        "reasoning": "Neither the final answer nor dossier explicitly states that \u00a31,736.50 was allocated at price-list prices; the bridge instead reaches \u00a31,765.30 before substitutes (final_message.md)."
+      },
+      {
+        "id": "10",
+        "name": "j-note-says-substitutes-bring",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says the substitutes bring the value to 1955.50 pounds before the contract discounts.",
+        "reasoning": "The final answer says substitutes bring the running value to \u00a31,974.70, not \u00a31,955.50 (final_message.md)."
+      },
+      {
+        "id": "11",
+        "name": "j-note-says-tt-4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says TT-4 third edition governs this delivery.",
+        "reasoning": "The dossier explicitly identifies \u201cTT-4 Allocation terms for short supply, third edition\u201d as governing the delivery (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "12",
+        "name": "j-note-says-pl-12",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says the PL-12 second issue prices this delivery.",
+        "reasoning": "The dossier explicitly identifies \u201cPL-12 Trade price list, second issue\u201d as the applicable price paper (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "13",
+        "name": "j-note-says-corrigendum-1",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says corrigendum 1 commences on 4 January 2027, so this delivery is priced at 13.75 for clementines and 14.40 for vine tomatoes.",
+        "reasoning": "The dossier says corrigendum 1 commences 2027-01-04 and that the second-issue prices \u201c13.75 and 14.40 apply to this delivery\u201d (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-st-brannoc",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says St Brannoc's Care Home (EF-2103), in a reply on its service desk ticket before the cut-off, cut its vine tomatoes to 3 cases and cancelled its clementines.",
+        "reasoning": "The changes table says EF-2103 changed vine tomatoes from 8 to 3 and cancelled clementines via a service-desk ticket reply received before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-fig-fennel",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says Fig and Fennel Deli (EF-2306) changed its vine tomatoes to 7 cases by mail.",
+        "reasoning": "The changes table says EF-2306 changed vine tomatoes from 5 to 7 by mail before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-st-keverne",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says St Keverne Primary School (EF-2204) added 4 cases of leeks by mail.",
+        "reasoning": "The changes table says EF-2204 added a new four-case P-14 leek line by mail (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-harbour-kitchen",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says the Harbour Kitchen's 06:40 request for 2 more cases of leeks came after the 06:00 cut-off and was not applied.",
+        "reasoning": "The refused-changes table says EF-2301 requested two more leek cases at 06:40 and it was refused as after the 06:00 cutoff (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-saltings-brasserie",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says Saltings Brasserie's 07:35 request for 2 more cases of clementines came after the 06:00 cut-off and was not applied.",
+        "reasoning": "The refused-changes table says EF-2305 requested two more clementine cases at 07:35 and it was refused as after cutoff (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-credit-control",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says credit control lifted the stop on EF-2302 Ristorante Valli on 7 December, before the cut-off.",
+        "reasoning": "The credit-stop table says EF-2302\u2019s stop ended through credit-control mail on 7 December at 15:40 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-saltings-brasserie-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says Saltings Brasserie (EF-2305) is class B from 1 December on variation CV-2305, signed by R. Pendry.",
+        "reasoning": "The contract-class table says EF-2305 is class B under CV-2305 effective 1 December and signed by R. Pendry (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "21",
+        "name": "j-note-says-variation-cv",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says variation CV-2404 for Treloar Grocers does not stand because M. Hollis signed it on 12 November 2026 after leaving the signatory register on 30 October 2026.",
+        "reasoning": "The contract-class table says CV-2404 does not count because M. Hollis signed on 12 November after leaving the register on 30 October (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "22",
+        "name": "j-note-says-l-877",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note says L-877 is excluded from stock because its later verified re-quarantine supersedes the printed release; the unsigned draft release has no effect.",
+        "reasoning": "The dossier states the opposite: L-877 was counted because a QC log showed it \u201creleased and verified\u201d; it does not say a later re-quarantine superseded release (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-lot-l",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says lot L-883 is left out because it is still on quality hold.",
+        "reasoning": "The stock-lot table excludes L-883 because it remains on quality hold with the QC inspection pending (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-lot-l-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says lot L-874 (leeks, best before 8 December) is left out because its best-before date is before the 9 December delivery.",
+        "reasoning": "The stock-lot table excludes L-874 because its 8 December best-before date precedes the 9 December delivery (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "25",
+        "name": "j-note-says-lot-l-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says lot L-869 (clementines, best before 5 December) is left out as out of date.",
+        "reasoning": "The stock-lot table excludes L-869 because its 5 December best-before date precedes delivery (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "26",
+        "name": "j-note-says-lots-l",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says lots L-890 and L-891 are Northgate stock in Northgate's bays and are left out.",
+        "reasoning": "The stock-lot table excludes L-890 and L-891 because bays 16 and 17 are Northgate stock (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "27",
+        "name": "j-note-says-stock-comes",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says stock comes from delivery note DN-55812 less the goods-in rejects, not from purchase order PO-7731.",
+        "reasoning": "The final answer says stock is based on the delivery note less goods-in rejects and that \u201cThe purchase order is what we asked for, not stock\u201d (final_message.md)."
+      },
+      {
+        "id": "28",
+        "name": "j-note-says-accounts-withdrawn",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says the accounts withdrawn below the 50.00 minimum drop were EF-2401, EF-2406.",
+        "reasoning": "The dossier says three accounts were withdrawn\u2014EF-2401, EF-2404, and EF-2406\u2014not only EF-2401 and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "29",
+        "name": "j-note-lists-substitutes-supplied",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note lists the substitutes supplied: EF-2201 2 x P-13 for P-12; EF-2301 3 x P-13 for P-12; EF-2301 3 x P-18 for P-11; EF-2303 2 x P-13 for P-12; EF-2304 2 x P-18 for P-11; EF-2306 4 x P-18 for P-11; EF-2309 2 x P-13 for P-12; EF-2309 1 x P-18 for P-11; EF-2403 3 x P-18 for P-11.",
+        "reasoning": "The substitute table differs from the required list, notably giving EF-2201 only 1 \u00d7 P-13 and EF-2403 only 3 \u00d7 P-18, and omitting the specified EF-2301/EF-2303 quantities as stated in the criterion (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "30",
+        "name": "j-note-answers-chat-claim",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note answers the chat claim about rounding to the nearest case by saying shares are rounded down with the spare cases going to the largest fractions.",
+        "reasoning": "The claims table says shares are rounded down and spare cases go to the largest rounded-off fractions (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "31",
+        "name": "j-note-says-sales-director",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says the sales director's ruling that Ristorante Valli get their full six cases does not stand because Valli are class C and share pro rata.",
+        "reasoning": "The claims table rejects the Valli ruling, saying class C sharing applies and EF-2302 receives 2 of 6 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "32",
+        "name": "j-note-answers-chat-claim-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note answers the chat claim that the minimum drop is off this week by saying Appendix B's 50.00 minimum drop applies.",
+        "reasoning": "The claims table rejects the claim that minimum drop is off and says clause 5 and Appendix B are in force; the minimum-drop section explicitly gives \u00a350 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "33",
+        "name": "j-note-answers-chat-claim-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note answers the chat claim that cos goes to anyone short of iceberg by saying substitutes go only to accounts that accept them.",
+        "reasoning": "The claims table says substitutes go only to accounts whose record or governing CRM note accepts them (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "34",
+        "name": "j-note-says-38-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note says 38 register lines were corrected.",
+        "reasoning": "The dossier says \u201c39 lines were corrected,\u201d not 38 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "35",
+        "name": "j-note-says-duplicate-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says the duplicate register line al-QO-40164b was deleted and gives its record id rec63c7698bb93596.",
+        "reasoning": "The dossier says al-QO-40164b was deleted but does not give record ID rec63c7698bb93596 in the note (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "36",
+        "name": "j-note-says-sx-402",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says SX-402 was deleted from the supply exceptions record and gives its record id rec829f6930bc4340; SX-401 remains open for L-877.",
+        "reasoning": "The dossier says SX-402 was removed but gives no record ID and also says SX-401 was removed, rather than remaining open (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "37",
+        "name": "j-note-says-sx-403",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says SX-403 was restated to 96.60 and gives its record id rec3494108f4af30f.",
+        "reasoning": "The dossier states SX-403 was restated to 96.60 but does not give record ID rec3494108f4af30f (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "38",
+        "name": "j-note-says-7-items",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says 7 items were raised in the supply exceptions record.",
+        "reasoning": "The dossier lists eight created exception items, SX-408 through SX-415, rather than seven (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "39",
+        "name": "j-note-says-ef-2307",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says EF-2307 Gull Street Fish Bar asked on its service desk ticket to stop the allocation messages and was sent nothing.",
+        "reasoning": "The messages table says EF-2307 was sent nothing because it asked on service-desk ticket 5123 to stop the messages (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "40",
+        "name": "j-note-says-ef-2308",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says EF-2308 The Lantern Cafe has not opted in to messages and was sent nothing.",
+        "reasoning": "The messages table says EF-2308 was sent nothing because it was not opted in (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "41",
+        "name": "j-note-says-last-week",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says last week's allocation report, the allocation crib sheet and Northgate's allocation sheet decided nothing.",
+        "reasoning": "Neither the final answer nor dossier explicitly says last week\u2019s allocation report, the allocation crib sheet, and Northgate\u2019s allocation sheet decided nothing."
+      },
+      {
+        "id": "42",
+        "name": "j-note-says-brackenmoor-community",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says Brackenmoor Community Hospital kitchen (EF-2101) raised its iceberg lettuce from 4 to 7 cases in a voicemail of 7 December at 18:52 that the night desk transcribed before the cut-off.",
+        "reasoning": "The changes table says EF-2101\u2019s iceberg order changed from 4 to 7 through a night-desk voicemail transcript received 7 December at 18:52 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "43",
+        "name": "j-note-says-county-hall",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says County Hall staff restaurant's (EF-2203) voicemail asking for more cos lettuce was left at 06:25, after the 06:00 cut-off, and was not applied.",
+        "reasoning": "The refused-changes table says EF-2203\u2019s voicemail seeking more cos was left at 06:25 after the 06:00 cutoff and was refused (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "44",
+        "name": "j-note-says-account-manager",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says the account manager's CRM note of 2 December records that Mariner's Rest Inn (EF-2304) now accepts substitutes, so it was offered them although the account record says no.",
+        "reasoning": "The substitutes section says a 2 December account-manager CRM note records that EF-2304 accepts substitutes despite the account record saying no, so it was offered one (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "45",
+        "name": "j-note-says-credit-stop",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says the credit stop on EF-2309 Wrecker's Arms ended because credit note CN-0917 on the accounts ledger cleared invoice INV-31790 in full on 7 December, before the cut-off.",
+        "reasoning": "The credit-stop table says EF-2309\u2019s stop ended because authorised CN-0917 dated 7 December cleared INV-31790\u2019s full \u00a3112.30 before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "46",
+        "name": "j-note-says-credit-stop-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says the credit stop on EF-2405 Corner Basket stands because invoice INV-31744 is still unpaid on the accounts ledger.",
+        "reasoning": "The credit-stop table says EF-2405\u2019s stop stands because INV-31744 still has \u00a3158.40 due and CN-0915 concerns another invoice (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "47",
+        "name": "j-note-sets-out-share",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.025,
+        "description": "[final answer] The note sets out the share the tie rule decided: P-12 class B: QO-40135 and QO-40182 tied on a fraction of 0.5000, and the spare case went to QO-40135, ordered earlier; P-14 class C: QO-40279 and QO-40298 tied on a fraction of 0.5000, and the spare case went to QO-40279, ordered earlier.",
+        "reasoning": "The dossier gives the P-14 class C tie between QO-40279 and QO-40298, but omits the required P-12 class B tie and expressly says no other spare case fell to a tie (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "48",
+        "name": "j-note-says-quayside-day",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.041666666666666664,
+        "description": "[final answer] The note says Quayside Day Nursery (EF-2206) changed its tenderstem broccoli from 2 to 4 cases before the cut-off and that the change was applied.",
+        "reasoning": "The changes table says EF-2206 changed tenderstem broccoli from 2 to 4 before cutoff and lists it under \u201cChanges applied\u201d (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "49",
+        "name": "j-note-says-ef-2104",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.025,
+        "description": "[final answer] The note says EF-2104 Tregellas Lodge Nursing Home asked to stop the allocation messages and was sent nothing.",
+        "reasoning": "The messages table says EF-2104 was sent nothing because it asked the depot to stop these messages (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "50",
+        "name": "j-note-says-sx-400",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.008333333333333333,
+        "description": "[final answer] The note says SX-400 was restated to 64.50 and gives its record id rec88e24a69f64cf8.",
+        "reasoning": "The dossier states SX-400 was restated to 64.50 but does not give record ID rec88e24a69f64cf8 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "51",
+        "name": "n-note-gives-invoice-value",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.041666666666666664,
+        "description": "[final answer] The note gives the invoice value after discounts as a figure other than 1900.15 pounds.",
+        "reasoning": "The dossier explicitly gives an after-discount invoice value other than \u00a31,900.15: \u201c1918.58 pounds\u201d (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "52",
+        "name": "n-note-gives-count-accounts",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note gives a count of accounts delivered other than 22 or a count not delivered other than 4.",
+        "reasoning": "The dossier gives exactly 22 delivered and 4 not delivered, so it does not provide an alternative count (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "53",
+        "name": "n-note-gives-st-brannoc",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note gives St Brannoc's Care Home (EF-2103) an allocation of 8 cases of vine tomatoes.",
+        "reasoning": "The dossier records St Brannoc\u2019s vine-tomato order and allocation as 3 cases, not 8 (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "54",
+        "name": "n-note-lists-ef-2302",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note lists EF-2302 Ristorante Valli among the accounts not delivered to.",
+        "reasoning": "The four accounts listed as not delivered are EF-2401, EF-2404, EF-2405, and EF-2406; EF-2302 is not among them (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "55",
+        "name": "n-note-says-account-withdrawn",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note says no account was withdrawn for the minimum drop.",
+        "reasoning": "The dossier explicitly says three accounts were withdrawn under the minimum-drop rule, not that none were withdrawn (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "56",
+        "name": "n-note-says-ef-2309",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note says EF-2309 Wrecker's Arms is on credit stop or gets nothing because of a credit stop.",
+        "reasoning": "The dossier says EF-2309\u2019s credit stop ended and lists six cases going out, so it does not say the account remained stopped or got nothing (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "57",
+        "name": "n-note-gives-brackenmoor-community",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note gives Brackenmoor Community Hospital kitchen (EF-2101) an order of 4 cases of iceberg lettuce for this delivery.",
+        "reasoning": "The dossier gives EF-2101 seven iceberg cases after the applied change, not four (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      },
+      {
+        "id": "58",
+        "name": "n-note-gives-quayside-day",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.025,
+        "description": "[final answer] The note gives Quayside Day Nursery (EF-2206) 2 cases of tenderstem broccoli for this delivery.",
+        "reasoning": "The dossier gives EF-2206 four tenderstem-broccoli cases after the applied change, not two (workspace/quayside_allocation_dossier_2026-12-09.md)."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-says-invoice-value\":{\"score\":\"no\",\"reasoning\":\"The delivered dossier says \u201cTotals: 1918.58 pounds after discounts,\u201d not \u00a31,900.15 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-22-accounts\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly says \u201c22 accounts delivered to\u201d (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-4-accounts\":{\"score\":\"yes\",\"reasoning\":\"The dossier says \u201c4 not\u201d and names EF-2401, EF-2404, EF-2405, and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-gives-invoice-value\":{\"score\":\"no\",\"reasoning\":\"The dossier gives class A 478.61, class B 613.77, class C 707.80, and class D 118.40; class B is not 595.34 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-order-book\":{\"score\":\"yes\",\"reasoning\":\"The final answer\u2019s bridge explicitly gives \u201cOrder lines at the 06:00 cut-off, at the price list\u201d as 2,683.55 (final_message.md).\"},\"j-note-says-75-45\":{\"score\":\"yes\",\"reasoning\":\"The final answer\u2019s bridge explicitly says \u201cLess credit stop (EF-2405) \u221275.45\u201d (final_message.md).\"},\"j-note-says-256-50\":{\"score\":\"no\",\"reasoning\":\"The final answer gives \u00a3343.95 for orders below minimum drop, not \u00a3256.50 (final_message.md).\"},\"j-note-says-615-10\":{\"score\":\"no\",\"reasoning\":\"The final answer gives \u00a3498.85 for cases stock could not cover, not \u00a3615.10 (final_message.md).\"},\"j-note-says-1736-50\":{\"score\":\"no\",\"reasoning\":\"Neither the final answer nor dossier explicitly states that \u00a31,736.50 was allocated at price-list prices; the bridge instead reaches \u00a31,765.30 before substitutes (final_message.md).\"},\"j-note-says-substitutes-bring\":{\"score\":\"no\",\"reasoning\":\"The final answer says substitutes bring the running value to \u00a31,974.70, not \u00a31,955.50 (final_message.md).\"},\"j-note-says-tt-4\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly identifies \u201cTT-4 Allocation terms for short supply, third edition\u201d as governing the delivery (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-pl-12\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly identifies \u201cPL-12 Trade price list, second issue\u201d as the applicable price paper (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-corrigendum-1\":{\"score\":\"yes\",\"reasoning\":\"The dossier says corrigendum 1 commences 2027-01-04 and that the second-issue prices \u201c13.75 and 14.40 apply to this delivery\u201d (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-st-brannoc\":{\"score\":\"yes\",\"reasoning\":\"The changes table says EF-2103 changed vine tomatoes from 8 to 3 and cancelled clementines via a service-desk ticket reply received before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-fig-fennel\":{\"score\":\"yes\",\"reasoning\":\"The changes table says EF-2306 changed vine tomatoes from 5 to 7 by mail before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-st-keverne\":{\"score\":\"yes\",\"reasoning\":\"The changes table says EF-2204 added a new four-case P-14 leek line by mail (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-harbour-kitchen\":{\"score\":\"yes\",\"reasoning\":\"The refused-changes table says EF-2301 requested two more leek cases at 06:40 and it was refused as after the 06:00 cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-saltings-brasserie\":{\"score\":\"yes\",\"reasoning\":\"The refused-changes table says EF-2305 requested two more clementine cases at 07:35 and it was refused as after cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-credit-control\":{\"score\":\"yes\",\"reasoning\":\"The credit-stop table says EF-2302\u2019s stop ended through credit-control mail on 7 December at 15:40 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-saltings-brasserie-2\":{\"score\":\"yes\",\"reasoning\":\"The contract-class table says EF-2305 is class B under CV-2305 effective 1 December and signed by R. Pendry (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-variation-cv\":{\"score\":\"yes\",\"reasoning\":\"The contract-class table says CV-2404 does not count because M. Hollis signed on 12 November after leaving the register on 30 October (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-l-877\":{\"score\":\"no\",\"reasoning\":\"The dossier states the opposite: L-877 was counted because a QC log showed it \u201creleased and verified\u201d; it does not say a later re-quarantine superseded release (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-lot-l\":{\"score\":\"yes\",\"reasoning\":\"The stock-lot table excludes L-883 because it remains on quality hold with the QC inspection pending (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-lot-l-2\":{\"score\":\"yes\",\"reasoning\":\"The stock-lot table excludes L-874 because its 8 December best-before date precedes the 9 December delivery (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-lot-l-3\":{\"score\":\"yes\",\"reasoning\":\"The stock-lot table excludes L-869 because its 5 December best-before date precedes delivery (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-lots-l\":{\"score\":\"yes\",\"reasoning\":\"The stock-lot table excludes L-890 and L-891 because bays 16 and 17 are Northgate stock (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-stock-comes\":{\"score\":\"yes\",\"reasoning\":\"The final answer says stock is based on the delivery note less goods-in rejects and that \u201cThe purchase order is what we asked for, not stock\u201d (final_message.md).\"},\"j-note-says-accounts-withdrawn\":{\"score\":\"no\",\"reasoning\":\"The dossier says three accounts were withdrawn\u2014EF-2401, EF-2404, and EF-2406\u2014not only EF-2401 and EF-2406 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-lists-substitutes-supplied\":{\"score\":\"no\",\"reasoning\":\"The substitute table differs from the required list, notably giving EF-2201 only 1 \u00d7 P-13 and EF-2403 only 3 \u00d7 P-18, and omitting the specified EF-2301/EF-2303 quantities as stated in the criterion (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-answers-chat-claim\":{\"score\":\"yes\",\"reasoning\":\"The claims table says shares are rounded down and spare cases go to the largest rounded-off fractions (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-sales-director\":{\"score\":\"yes\",\"reasoning\":\"The claims table rejects the Valli ruling, saying class C sharing applies and EF-2302 receives 2 of 6 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-answers-chat-claim-2\":{\"score\":\"yes\",\"reasoning\":\"The claims table rejects the claim that minimum drop is off and says clause 5 and Appendix B are in force; the minimum-drop section explicitly gives \u00a350 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-answers-chat-claim-3\":{\"score\":\"yes\",\"reasoning\":\"The claims table says substitutes go only to accounts whose record or governing CRM note accepts them (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-38-register\":{\"score\":\"no\",\"reasoning\":\"The dossier says \u201c39 lines were corrected,\u201d not 38 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-duplicate-register\":{\"score\":\"no\",\"reasoning\":\"The dossier says al-QO-40164b was deleted but does not give record ID rec63c7698bb93596 in the note (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-sx-402\":{\"score\":\"no\",\"reasoning\":\"The dossier says SX-402 was removed but gives no record ID and also says SX-401 was removed, rather than remaining open (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-sx-403\":{\"score\":\"no\",\"reasoning\":\"The dossier states SX-403 was restated to 96.60 but does not give record ID rec3494108f4af30f (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-7-items\":{\"score\":\"no\",\"reasoning\":\"The dossier lists eight created exception items, SX-408 through SX-415, rather than seven (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-ef-2307\":{\"score\":\"yes\",\"reasoning\":\"The messages table says EF-2307 was sent nothing because it asked on service-desk ticket 5123 to stop the messages (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-ef-2308\":{\"score\":\"yes\",\"reasoning\":\"The messages table says EF-2308 was sent nothing because it was not opted in (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-last-week\":{\"score\":\"no\",\"reasoning\":\"Neither the final answer nor dossier explicitly says last week\u2019s allocation report, the allocation crib sheet, and Northgate\u2019s allocation sheet decided nothing.\"},\"j-note-says-brackenmoor-community\":{\"score\":\"yes\",\"reasoning\":\"The changes table says EF-2101\u2019s iceberg order changed from 4 to 7 through a night-desk voicemail transcript received 7 December at 18:52 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-county-hall\":{\"score\":\"yes\",\"reasoning\":\"The refused-changes table says EF-2203\u2019s voicemail seeking more cos was left at 06:25 after the 06:00 cutoff and was refused (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-account-manager\":{\"score\":\"yes\",\"reasoning\":\"The substitutes section says a 2 December account-manager CRM note records that EF-2304 accepts substitutes despite the account record saying no, so it was offered one (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-credit-stop\":{\"score\":\"yes\",\"reasoning\":\"The credit-stop table says EF-2309\u2019s stop ended because authorised CN-0917 dated 7 December cleared INV-31790\u2019s full \u00a3112.30 before cutoff (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-credit-stop-2\":{\"score\":\"yes\",\"reasoning\":\"The credit-stop table says EF-2405\u2019s stop stands because INV-31744 still has \u00a3158.40 due and CN-0915 concerns another invoice (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-sets-out-share\":{\"score\":\"no\",\"reasoning\":\"The dossier gives the P-14 class C tie between QO-40279 and QO-40298, but omits the required P-12 class B tie and expressly says no other spare case fell to a tie (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-quayside-day\":{\"score\":\"yes\",\"reasoning\":\"The changes table says EF-2206 changed tenderstem broccoli from 2 to 4 before cutoff and lists it under \u201cChanges applied\u201d (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-ef-2104\":{\"score\":\"yes\",\"reasoning\":\"The messages table says EF-2104 was sent nothing because it asked the depot to stop these messages (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"j-note-says-sx-400\":{\"score\":\"no\",\"reasoning\":\"The dossier states SX-400 was restated to 64.50 but does not give record ID rec88e24a69f64cf8 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-gives-invoice-value\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly gives an after-discount invoice value other than \u00a31,900.15: \u201c1918.58 pounds\u201d (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-gives-count-accounts\":{\"score\":\"no\",\"reasoning\":\"The dossier gives exactly 22 delivered and 4 not delivered, so it does not provide an alternative count (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-gives-st-brannoc\":{\"score\":\"no\",\"reasoning\":\"The dossier records St Brannoc\u2019s vine-tomato order and allocation as 3 cases, not 8 (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-lists-ef-2302\":{\"score\":\"no\",\"reasoning\":\"The four accounts listed as not delivered are EF-2401, EF-2404, EF-2405, and EF-2406; EF-2302 is not among them (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-says-account-withdrawn\":{\"score\":\"no\",\"reasoning\":\"The dossier explicitly says three accounts were withdrawn under the minimum-drop rule, not that none were withdrawn (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-says-ef-2309\":{\"score\":\"no\",\"reasoning\":\"The dossier says EF-2309\u2019s credit stop ended and lists six cases going out, so it does not say the account remained stopped or got nothing (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-gives-brackenmoor-community\":{\"score\":\"no\",\"reasoning\":\"The dossier gives EF-2101 seven iceberg cases after the applied change, not four (workspace/quayside_allocation_dossier_2026-12-09.md).\"},\"n-note-gives-quayside-day\":{\"score\":\"no\",\"reasoning\":\"The dossier gives EF-2206 four tenderstem-broccoli cases after the applied change, not two (workspace/quayside_allocation_dossier_2026-12-09.md).\"}}",
+    "usage": {
+      "input_tokens": 113716,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 78336,
+      "output_tokens": 5480,
+      "reasoning_output_tokens": 371,
+      "total_tokens": 119196,
+      "cost_usd": 0.2824544,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 113716,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 78336,
+          "output_tokens": 5480,
+          "reasoning_output_tokens": 371,
+          "total_tokens": 119196,
+          "cost_usd": 0.2824544
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.b45b714bf0b743f8ad2355329827bf99.jsonl"
+    ]
+  }
+}

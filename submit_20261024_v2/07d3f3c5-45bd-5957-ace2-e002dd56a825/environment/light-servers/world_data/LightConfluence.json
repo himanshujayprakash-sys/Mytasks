@@ -1,0 +1,163 @@
+{
+ "spaces": [
+  {
+   "id": 8800,
+   "key": "AGH",
+   "name": "Ashgrove office and IT help",
+   "type": "global",
+   "status": "current",
+   "description": {
+    "plain": {
+     "value": "How-to pages for staff at Ashgrove House.",
+     "representation": "plain"
+    }
+   }
+  }
+ ],
+ "pages": [
+  {
+   "id": "880001",
+   "type": "page",
+   "status": "current",
+   "title": "Office and IT help",
+   "space_key": "AGH",
+   "parent_id": null,
+   "version": 2,
+   "body": "Start here for desk booking, phones, printing, passwords and travel at Ashgrove House.",
+   "created_by": "Saoirse Mullan",
+   "created_at": "2026-09-02T10:00:00Z"
+  },
+  {
+   "id": "880002",
+   "type": "page",
+   "status": "current",
+   "title": "Booking a desk",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 3,
+   "body": "Book up to two weeks ahead in the desk app. Team days hold the team's own zone; desks not claimed by 10:00 are released.",
+   "created_by": "Ottoline Brack",
+   "created_at": "2026-09-03T10:00:00Z"
+  },
+  {
+   "id": "880003",
+   "type": "page",
+   "status": "current",
+   "title": "Resetting your password",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Use the self-service page from any browser. If you are locked out after five tries, ring the service desk on extension 4400.",
+   "created_by": "Saoirse Mullan",
+   "created_at": "2026-09-03T10:00:00Z"
+  },
+  {
+   "id": "880004",
+   "type": "page",
+   "status": "current",
+   "title": "Printing and scanning",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Tap your pass on any printer to release your jobs. Scans arrive in your own mailbox as PDF files.",
+   "created_by": "Saoirse Mullan",
+   "created_at": "2026-09-07T10:00:00Z"
+  },
+  {
+   "id": "880005",
+   "type": "page",
+   "status": "current",
+   "title": "Travel and hotel bookings",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Book rail and hotels through the travel portal. First class needs a director's approval in advance.",
+   "created_by": "Ifeoma Dale",
+   "created_at": "2026-09-09T10:00:00Z"
+  },
+  {
+   "id": "880006",
+   "type": "page",
+   "status": "current",
+   "title": "Submitting expenses",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Photograph each receipt in the expenses app and submit within 30 days. Mileage is paid at the HMRC rate.",
+   "created_by": "Ifeoma Dale",
+   "created_at": "2026-09-09T10:00:00Z"
+  },
+  {
+   "id": "880007",
+   "type": "page",
+   "status": "current",
+   "title": "Setting up a new starter",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Raise the starter form five working days before day one so the laptop, pass and phone are ready.",
+   "created_by": "Imelda Grice",
+   "created_at": "2026-09-15T10:00:00Z"
+  },
+  {
+   "id": "880008",
+   "type": "page",
+   "status": "current",
+   "title": "Transferring a phone call",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Press transfer, dial the extension and introduce the caller before you hang up.",
+   "created_by": "Saoirse Mullan",
+   "created_at": "2026-09-17T10:00:00Z"
+  },
+  {
+   "id": "880009",
+   "type": "page",
+   "status": "current",
+   "title": "Visitors at Ashgrove House",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Visitors sign in at reception and wear a badge. Collect them from reception and walk them back; nobody follows you through the barriers.",
+   "created_by": "Torquil Ashby",
+   "created_at": "2026-09-22T10:00:00Z"
+  },
+  {
+   "id": "880010",
+   "type": "page",
+   "status": "current",
+   "title": "Lost or stolen laptop",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Ring the service desk straight away so the laptop can be locked. Report a theft to the police and keep the crime number.",
+   "created_by": "Saoirse Mullan",
+   "created_at": "2026-09-29T10:00:00Z"
+  },
+  {
+   "id": "880011",
+   "type": "page",
+   "status": "current",
+   "title": "Recycling and confidential waste",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Blue bins for paper, grey for general waste and the locked consoles for anything with personal data on it.",
+   "created_by": "Torquil Ashby",
+   "created_at": "2026-10-06T10:00:00Z"
+  },
+  {
+   "id": "880012",
+   "type": "page",
+   "status": "current",
+   "title": "Workplace adjustments",
+   "space_key": "AGH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Ask HR about screen readers, adjustable desks or a parking space near the door. Requests are kept confidential.",
+   "created_by": "Imelda Grice",
+   "created_at": "2026-10-13T10:00:00Z"
+  }
+ ]
+}

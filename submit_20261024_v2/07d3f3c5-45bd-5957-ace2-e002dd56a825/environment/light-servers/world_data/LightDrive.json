@@ -1,0 +1,357 @@
+{
+ "folders": {
+  "fd_agm_people": {
+   "fdid": "fd_agm_people",
+   "name": "People",
+   "parent_id": "fd_root",
+   "path": "/People",
+   "created_at": "2026-09-01T10:00"
+  },
+  "fd_agm_training": {
+   "fdid": "fd_agm_training",
+   "name": "Training",
+   "parent_id": "fd_root",
+   "path": "/Training",
+   "created_at": "2026-09-01T10:00"
+  },
+  "fd_agm_social": {
+   "fdid": "fd_agm_social",
+   "name": "Social committee",
+   "parent_id": "fd_root",
+   "path": "/Social committee",
+   "created_at": "2026-09-01T10:00"
+  },
+  "fd_agm_brokers": {
+   "fdid": "fd_agm_brokers",
+   "name": "Broker relations",
+   "parent_id": "fd_root",
+   "path": "/Broker relations",
+   "created_at": "2026-09-01T10:00"
+  }
+ },
+ "files": {
+  "fAgm17bc640af6f85a03b0": {
+   "fid": "fAgm17bc640af6f85a03b0",
+   "name": "Annual leave planner 2026-27.xlsx",
+   "folder_id": "fd_agm_people",
+   "path": "/People/Annual leave planner 2026-27.xlsx",
+   "size_bytes": 32040,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-09-07T09:10",
+   "updated_at": "2026-10-16T12:30",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_agmac1549b"
+  },
+  "fAgm864e6d197d8efbca36": {
+   "fid": "fAgm864e6d197d8efbca36",
+   "name": "Flexible working request form.docx",
+   "folder_id": "fd_agm_people",
+   "path": "/People/Flexible working request form.docx",
+   "size_bytes": 44100,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-08T10:00",
+   "updated_at": "2026-09-08T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm15cadc1"
+  },
+  "fAgmcb7016591e05e739bf": {
+   "fid": "fAgmcb7016591e05e739bf",
+   "name": "Christmas cover rota (office).xlsx",
+   "folder_id": "fd_agm_people",
+   "path": "/People/Christmas cover rota (office).xlsx",
+   "size_bytes": 19870,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-12T14:20",
+   "updated_at": "2026-10-12T14:20",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm1bd3069"
+  },
+  "fAgm07e6bce6e0e3ec5c10": {
+   "fid": "fAgm07e6bce6e0e3ec5c10",
+   "name": "Graduate interview score sheet.docx",
+   "folder_id": "fd_agm_people",
+   "path": "/People/Graduate interview score sheet.docx",
+   "size_bytes": 29150,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-10-09T11:05",
+   "updated_at": "2026-10-15T16:40",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm4460e97"
+  },
+  "fAgmc0077b3d33519fc6f2": {
+   "fid": "fAgmc0077b3d33519fc6f2",
+   "name": "Complaints handling refresher.pdf",
+   "folder_id": "fd_agm_training",
+   "path": "/Training/Complaints handling refresher.pdf",
+   "size_bytes": 3164800,
+   "mime_type": "application/pdf",
+   "created_at": "2026-10-08T15:30",
+   "updated_at": "2026-10-19T09:15",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm56cae33"
+  },
+  "fAgm2065ad409dfefce58b": {
+   "fid": "fAgm2065ad409dfefce58b",
+   "name": "Data protection e-learning tracker.xlsx",
+   "folder_id": "fd_agm_training",
+   "path": "/Training/Data protection e-learning tracker.xlsx",
+   "size_bytes": 27960,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-09-28T08:45",
+   "updated_at": "2026-10-19T08:50",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_agmb8951d3"
+  },
+  "fAgm1f927c72db222939f4": {
+   "fid": "fAgm1f927c72db222939f4",
+   "name": "Mental health first aiders.pdf",
+   "folder_id": "fd_agm_training",
+   "path": "/Training/Mental health first aiders.pdf",
+   "size_bytes": 155600,
+   "mime_type": "application/pdf",
+   "created_at": "2026-10-02T13:00",
+   "updated_at": "2026-10-02T13:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm8a71773"
+  },
+  "fAgmb9b70502c0e3db3f23": {
+   "fid": "fAgmb9b70502c0e3db3f23",
+   "name": "Bake sale takings.xlsx",
+   "folder_id": "fd_agm_social",
+   "path": "/Social committee/Bake sale takings.xlsx",
+   "size_bytes": 12100,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-14T16:10",
+   "updated_at": "2026-10-14T16:10",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agmff1c943"
+  },
+  "fAgma8d64e753896f496b1": {
+   "fid": "fAgma8d64e753896f496b1",
+   "name": "Christmas party venue options.docx",
+   "folder_id": "fd_agm_social",
+   "path": "/Social committee/Christmas party venue options.docx",
+   "size_bytes": 26900,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-21T12:00",
+   "updated_at": "2026-10-14T10:05",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agmae7da75"
+  },
+  "fAgm76dd332e0eac12cafa": {
+   "fid": "fAgm76dd332e0eac12cafa",
+   "name": "Fell walk sign-up.xlsx",
+   "folder_id": "fd_agm_social",
+   "path": "/Social committee/Fell walk sign-up.xlsx",
+   "size_bytes": 9800,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-09T12:30",
+   "updated_at": "2026-10-09T12:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm833be14"
+  },
+  "fAgm7a6b39e54ef4b72e6c": {
+   "fid": "fAgm7a6b39e54ef4b72e6c",
+   "name": "Broker breakfast guest list.xlsx",
+   "folder_id": "fd_agm_brokers",
+   "path": "/Broker relations/Broker breakfast guest list.xlsx",
+   "size_bytes": 16700,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-09T09:20",
+   "updated_at": "2026-10-19T17:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm472c399"
+  },
+  "fAgm29de9c313b5e22196b": {
+   "fid": "fAgm29de9c313b5e22196b",
+   "name": "Broker portal training slides.pdf",
+   "folder_id": "fd_agm_brokers",
+   "path": "/Broker relations/Broker portal training slides.pdf",
+   "size_bytes": 2780000,
+   "mime_type": "application/pdf",
+   "created_at": "2026-10-13T14:45",
+   "updated_at": "2026-10-13T14:45",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agm1a1d61b"
+  },
+  "fAgm0731d9287e8c3041bd": {
+   "fid": "fAgm0731d9287e8c3041bd",
+   "name": "Panel review timetable.docx",
+   "folder_id": "fd_agm_brokers",
+   "path": "/Broker relations/Panel review timetable.docx",
+   "size_bytes": 33300,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-30T10:30",
+   "updated_at": "2026-09-30T10:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_agmed909d3"
+  }
+ },
+ "versions": {
+  "v_agmb45b23f": {
+   "vid": "v_agmb45b23f",
+   "file_id": "fAgm17bc640af6f85a03b0",
+   "version_number": 1,
+   "size_bytes": 31220,
+   "created_at": "2026-09-07T09:10",
+   "comment": "Initial upload"
+  },
+  "v_agmac1549b": {
+   "vid": "v_agmac1549b",
+   "file_id": "fAgm17bc640af6f85a03b0",
+   "version_number": 2,
+   "size_bytes": 32040,
+   "created_at": "2026-10-16T12:30",
+   "comment": "Christmas leave added"
+  },
+  "v_agm15cadc1": {
+   "vid": "v_agm15cadc1",
+   "file_id": "fAgm864e6d197d8efbca36",
+   "version_number": 1,
+   "size_bytes": 44100,
+   "created_at": "2026-09-08T10:00",
+   "comment": "Initial upload"
+  },
+  "v_agm1bd3069": {
+   "vid": "v_agm1bd3069",
+   "file_id": "fAgmcb7016591e05e739bf",
+   "version_number": 1,
+   "size_bytes": 19870,
+   "created_at": "2026-10-12T14:20",
+   "comment": "Initial upload"
+  },
+  "v_agmbbb2167": {
+   "vid": "v_agmbbb2167",
+   "file_id": "fAgm07e6bce6e0e3ec5c10",
+   "version_number": 1,
+   "size_bytes": 28400,
+   "created_at": "2026-10-09T11:05",
+   "comment": "Initial upload"
+  },
+  "v_agm4460e97": {
+   "vid": "v_agm4460e97",
+   "file_id": "fAgm07e6bce6e0e3ec5c10",
+   "version_number": 2,
+   "size_bytes": 29150,
+   "created_at": "2026-10-15T16:40",
+   "comment": "Second interviewer column added"
+  },
+  "v_agmc7bf6f0": {
+   "vid": "v_agmc7bf6f0",
+   "file_id": "fAgmc0077b3d33519fc6f2",
+   "version_number": 1,
+   "size_bytes": 3120400,
+   "created_at": "2026-10-08T15:30",
+   "comment": "Initial upload"
+  },
+  "v_agm56cae33": {
+   "vid": "v_agm56cae33",
+   "file_id": "fAgmc0077b3d33519fc6f2",
+   "version_number": 2,
+   "size_bytes": 3164800,
+   "created_at": "2026-10-19T09:15",
+   "comment": "Updated after the dry run"
+  },
+  "v_agm130c9f3": {
+   "vid": "v_agm130c9f3",
+   "file_id": "fAgm2065ad409dfefce58b",
+   "version_number": 1,
+   "size_bytes": 27500,
+   "created_at": "2026-09-28T08:45",
+   "comment": "Initial upload"
+  },
+  "v_agmb8951d3": {
+   "vid": "v_agmb8951d3",
+   "file_id": "fAgm2065ad409dfefce58b",
+   "version_number": 2,
+   "size_bytes": 27960,
+   "created_at": "2026-10-19T08:50",
+   "comment": "Fourteen still to finish"
+  },
+  "v_agm8a71773": {
+   "vid": "v_agm8a71773",
+   "file_id": "fAgm1f927c72db222939f4",
+   "version_number": 1,
+   "size_bytes": 155600,
+   "created_at": "2026-10-02T13:00",
+   "comment": "Initial upload"
+  },
+  "v_agmff1c943": {
+   "vid": "v_agmff1c943",
+   "file_id": "fAgmb9b70502c0e3db3f23",
+   "version_number": 1,
+   "size_bytes": 12100,
+   "created_at": "2026-10-14T16:10",
+   "comment": "Initial upload"
+  },
+  "v_agm3cefa72": {
+   "vid": "v_agm3cefa72",
+   "file_id": "fAgma8d64e753896f496b1",
+   "version_number": 1,
+   "size_bytes": 26300,
+   "created_at": "2026-09-21T12:00",
+   "comment": "Initial upload"
+  },
+  "v_agmae7da75": {
+   "vid": "v_agmae7da75",
+   "file_id": "fAgma8d64e753896f496b1",
+   "version_number": 2,
+   "size_bytes": 26900,
+   "created_at": "2026-10-14T10:05",
+   "comment": "Old Mill Hotel booked"
+  },
+  "v_agm833be14": {
+   "vid": "v_agm833be14",
+   "file_id": "fAgm76dd332e0eac12cafa",
+   "version_number": 1,
+   "size_bytes": 9800,
+   "created_at": "2026-10-09T12:30",
+   "comment": "Initial upload"
+  },
+  "v_agm42234b5": {
+   "vid": "v_agm42234b5",
+   "file_id": "fAgm7a6b39e54ef4b72e6c",
+   "version_number": 1,
+   "size_bytes": 15400,
+   "created_at": "2026-10-09T09:20",
+   "comment": "Initial upload"
+  },
+  "v_agm472c399": {
+   "vid": "v_agm472c399",
+   "file_id": "fAgm7a6b39e54ef4b72e6c",
+   "version_number": 2,
+   "size_bytes": 16700,
+   "created_at": "2026-10-19T17:00",
+   "comment": "Full: 42 guests"
+  },
+  "v_agm1a1d61b": {
+   "vid": "v_agm1a1d61b",
+   "file_id": "fAgm29de9c313b5e22196b",
+   "version_number": 1,
+   "size_bytes": 2780000,
+   "created_at": "2026-10-13T14:45",
+   "comment": "Initial upload"
+  },
+  "v_agmed909d3": {
+   "vid": "v_agmed909d3",
+   "file_id": "fAgm0731d9287e8c3041bd",
+   "version_number": 1,
+   "size_bytes": 33300,
+   "created_at": "2026-09-30T10:30",
+   "comment": "Initial upload"
+  }
+ }
+}

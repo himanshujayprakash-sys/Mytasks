@@ -1,0 +1,232 @@
+{
+ "tables": {
+  "Account": [
+   {
+    "Id": "001Tn17000000AAA01",
+    "Name": "Riverside Hotel Wallingford",
+    "Industry": "Hospitality",
+    "AnnualRevenue": 3100000,
+    "Phone": "01491 830114",
+    "Website": "https://riverside.example",
+    "BillingCity": "Wallingford",
+    "BillingState": "Oxfordshire",
+    "NumberOfEmployees": 60,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001Tn17000000AAA01"
+    }
+   },
+   {
+    "Id": "001Tn17000000AAA02",
+    "Name": "Vale Hospice Friends",
+    "Industry": "Non-Profit",
+    "AnnualRevenue": 0,
+    "Phone": "01235 772210",
+    "Website": "https://vale.example",
+    "BillingCity": "Abingdon",
+    "BillingState": "Oxfordshire",
+    "NumberOfEmployees": 4,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001Tn17000000AAA02"
+    }
+   },
+   {
+    "Id": "001Tn17000000AAA03",
+    "Name": "Oxfordshire Beekeepers",
+    "Industry": "Non-Profit",
+    "AnnualRevenue": 0,
+    "Phone": "01865 448120",
+    "Website": "https://oxfordshire.example",
+    "BillingCity": "Oxford",
+    "BillingState": "Oxfordshire",
+    "NumberOfEmployees": 0,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001Tn17000000AAA03"
+    }
+   },
+   {
+    "Id": "001Tn17000000AAA04",
+    "Name": "Letcombe Primary School PTA",
+    "Industry": "Education",
+    "AnnualRevenue": 0,
+    "Phone": "01235 761195",
+    "Website": "https://letcombe.example",
+    "BillingCity": "Letcombe Regis",
+    "BillingState": "Oxfordshire",
+    "NumberOfEmployees": 0,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001Tn17000000AAA04"
+    }
+   }
+  ],
+  "Contact": [
+   {
+    "Id": "003Tn17000000AAA01",
+    "FirstName": "Joel",
+    "LastName": "Mercer",
+    "Email": "joel.mercer@riverside-wallingford.example",
+    "Phone": "01491 830114",
+    "Title": "General manager",
+    "AccountId": "001Tn17000000AAA01",
+    "MailingCity": "Wallingford",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003Tn17000000AAA01"
+    }
+   },
+   {
+    "Id": "003Tn17000000AAA02",
+    "FirstName": "Rosalind",
+    "LastName": "Hythe",
+    "Email": "events@vale-hospice.example",
+    "Phone": "01235 772210",
+    "Title": "Events volunteer",
+    "AccountId": "001Tn17000000AAA02",
+    "MailingCity": "Abingdon",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003Tn17000000AAA02"
+    }
+   },
+   {
+    "Id": "003Tn17000000AAA03",
+    "FirstName": "Kenneth",
+    "LastName": "Arbury",
+    "Email": "secretary@oxon-beekeepers.example",
+    "Phone": "01865 448120",
+    "Title": "Branch secretary",
+    "AccountId": "001Tn17000000AAA03",
+    "MailingCity": "Oxford",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003Tn17000000AAA03"
+    }
+   },
+   {
+    "Id": "003Tn17000000AAA04",
+    "FirstName": "Megan",
+    "LastName": "Pryor",
+    "Email": "pta@letcombe-primary.example",
+    "Phone": "01235 761195",
+    "Title": "PTA chair",
+    "AccountId": "001Tn17000000AAA04",
+    "MailingCity": "Letcombe Regis",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003Tn17000000AAA04"
+    }
+   }
+  ],
+  "Lead": [
+   {
+    "Id": "00QTn17000000AAA01",
+    "FirstName": "Tara",
+    "LastName": "Quinlan",
+    "Company": "Grove Running Club",
+    "Email": "tara.quinlan@inbox.example",
+    "Phone": "01235 760000",
+    "Status": "Open - Not Contacted",
+    "LeadSource": "Web",
+    "Industry": "Recreation",
+    "Rating": "Warm",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTn17000000AAA01"
+    }
+   },
+   {
+    "Id": "00QTn17000000AAA02",
+    "FirstName": "Owen",
+    "LastName": "Barraclough",
+    "Company": "Wantage Camera Club",
+    "Email": "owen.barraclough@inbox.example",
+    "Phone": "01235 760000",
+    "Status": "Working - Contacted",
+    "LeadSource": "Phone Inquiry",
+    "Industry": "Recreation",
+    "Rating": "Warm",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTn17000000AAA02"
+    }
+   },
+   {
+    "Id": "00QTn17000000AAA03",
+    "FirstName": "Lucia",
+    "LastName": "Ferrante",
+    "Company": "Abingdon Art Society",
+    "Email": "lucia.ferrante@inbox.example",
+    "Phone": "01235 760000",
+    "Status": "Open - Not Contacted",
+    "LeadSource": "Web",
+    "Industry": "Recreation",
+    "Rating": "Warm",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTn17000000AAA03"
+    }
+   }
+  ],
+  "Opportunity": [
+   {
+    "Id": "006Tn17000000AAA01",
+    "Name": "Hotel staff summer garden party",
+    "AccountId": "001Tn17000000AAA01",
+    "StageName": "Proposal/Price Quote",
+    "Amount": 1800,
+    "Probability": 60,
+    "CloseDate": "2027-07-09",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006Tn17000000AAA01"
+    }
+   },
+   {
+    "Id": "006Tn17000000AAA02",
+    "Name": "Hospice fundraiser afternoon tea",
+    "AccountId": "001Tn17000000AAA02",
+    "StageName": "Negotiation/Review",
+    "Amount": 270,
+    "Probability": 75,
+    "CloseDate": "2027-07-17",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006Tn17000000AAA02"
+    }
+   },
+   {
+    "Id": "006Tn17000000AAA03",
+    "Name": "Beekeepers open apiary day",
+    "AccountId": "001Tn17000000AAA03",
+    "StageName": "Prospecting",
+    "Amount": 150,
+    "Probability": 20,
+    "CloseDate": "2027-08-14",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006Tn17000000AAA03"
+    }
+   },
+   {
+    "Id": "006Tn17000000AAA04",
+    "Name": "School leavers' picnic",
+    "AccountId": "001Tn17000000AAA04",
+    "StageName": "Closed Won",
+    "Amount": 320,
+    "Probability": 100,
+    "CloseDate": "2027-07-21",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006Tn17000000AAA04"
+    }
+   }
+  ]
+ }
+}

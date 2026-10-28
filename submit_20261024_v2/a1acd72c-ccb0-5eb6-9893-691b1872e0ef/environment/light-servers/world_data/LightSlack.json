@@ -1,0 +1,724 @@
+{
+ "team": {
+  "id": "T7THBK",
+  "name": "Thornbeck Homes",
+  "domain": "thornbeck"
+ },
+ "users": [
+  {
+   "id": "U1CD521B7",
+   "name": "helen.mortimer",
+   "real_name": "Helen Mortimer",
+   "is_admin": true,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "helen.mortimer@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UAF28B308",
+   "name": "saira.bashir",
+   "real_name": "Saira Bashir",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "saira.bashir@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UBAC2E193",
+   "name": "gavin.holroyd",
+   "real_name": "Gavin Holroyd",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "gavin.holroyd@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U5EDC94BA",
+   "name": "lucy.fairburn",
+   "real_name": "Lucy Fairburn",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "lucy.fairburn@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UACCED160",
+   "name": "neil.speight",
+   "real_name": "Neil Speight",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "neil.speight@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U686DF034",
+   "name": "amina.rashid",
+   "real_name": "Amina Rashid",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "amina.rashid@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UBA0DEEEB",
+   "name": "josh.kendall",
+   "real_name": "Josh Kendall",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "josh.kendall@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U6B3667C9",
+   "name": "rebecca.lund",
+   "real_name": "Rebecca Lund",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "rebecca.lund@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UA4AC0B51",
+   "name": "martin.crowther",
+   "real_name": "Martin Crowther",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "martin.crowther@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U7A0F26B9",
+   "name": "dev.okafor",
+   "real_name": "Dev Okafor",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "dev.okafor@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UF7B18929",
+   "name": "mairi.lindqvist",
+   "real_name": "Mairi Lindqvist",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "mairi.lindqvist@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UD78C55B7",
+   "name": "tomasz.wren",
+   "real_name": "Tomasz Wren",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "tomasz.wren@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U3D05EB60",
+   "name": "shona.petrie",
+   "real_name": "Shona Petrie",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "shona.petrie@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UF3B27FBB",
+   "name": "callum.ashdown",
+   "real_name": "Callum Ashdown",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "callum.ashdown@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U408473B3",
+   "name": "precious.ndlovu",
+   "real_name": "Precious Ndlovu",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "precious.ndlovu@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UE741FD1A",
+   "name": "robbie.hanson",
+   "real_name": "Robbie Hanson",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "robbie.hanson@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U74899456",
+   "name": "kath.ibbotson",
+   "real_name": "Kath Ibbotson",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "kath.ibbotson@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UFF86F434",
+   "name": "philippa.drake",
+   "real_name": "Philippa Drake",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "philippa.drake@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UAD772B36",
+   "name": "omar.siddiq",
+   "real_name": "Omar Siddiq",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "omar.siddiq@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UC0C4A18C",
+   "name": "jenna.whitley",
+   "real_name": "Jenna Whitley",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "jenna.whitley@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UD0DB323E",
+   "name": "stuart.bramley",
+   "real_name": "Stuart Bramley",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "stuart.bramley@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UD7FE2879",
+   "name": "grace.adeyemi",
+   "real_name": "Grace Adeyemi",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "grace.adeyemi@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U998F7BF1",
+   "name": "liam.roebuck",
+   "real_name": "Liam Roebuck",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "liam.roebuck@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U00F4FF6A",
+   "name": "danielle.firth",
+   "real_name": "Danielle Firth",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "danielle.firth@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U4D36E2E9",
+   "name": "patrick.doyle",
+   "real_name": "Patrick Doyle",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "patrick.doyle@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U84EC1696",
+   "name": "ruth.akinola",
+   "real_name": "Ruth Akinola",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "ruth.akinola@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U9DBB3E3A",
+   "name": "ian.sowerby",
+   "real_name": "Ian Sowerby",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "ian.sowerby@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U526050C3",
+   "name": "michelle.garside",
+   "real_name": "Michelle Garside",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "michelle.garside@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U413369F7",
+   "name": "tony.ackroyd",
+   "real_name": "Tony Ackroyd",
+   "is_admin": true,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "tony.ackroyd@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UF2EA99D0",
+   "name": "bernadette.quinn",
+   "real_name": "Bernadette Quinn",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "bernadette.quinn@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U40E67852",
+   "name": "hugh.partington",
+   "real_name": "Hugh Partington",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "hugh.partington@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "UC25FC787",
+   "name": "nasreen.kauser",
+   "real_name": "Nasreen Kauser",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "nasreen.kauser@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U3E33757E",
+   "name": "alfie.baxter",
+   "real_name": "Alfie Baxter",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "alfie.baxter@thornbeck-homes.example"
+   }
+  },
+  {
+   "id": "U59F3040E",
+   "name": "sinead.corrigan",
+   "real_name": "Sinead Corrigan",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "sinead.corrigan@thornbeck-homes.example"
+   }
+  }
+ ],
+ "channels": [
+  {
+   "id": "CA4F53FDD",
+   "name": "repairs-performance",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Monthly repairs figures",
+   "purpose": "Repairs KPIs, compensation runs and contractor performance",
+   "creator": "U1CD521B7",
+   "created": 1704186000,
+   "num_members": 7
+  },
+  {
+   "id": "CD4B61D48",
+   "name": "repairs-planning",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Day-to-day planning",
+   "purpose": "Planners, contact centre and contractors' coordinators",
+   "creator": "UBAC2E193",
+   "created": 1704186000,
+   "num_members": 9
+  },
+  {
+   "id": "CFC9DA21B",
+   "name": "direct-works",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Mill Lane depot",
+   "purpose": "Direct Works team",
+   "creator": "UA4AC0B51",
+   "created": 1704186000,
+   "num_members": 10
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "U1CD521B7"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "UAF28B308"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "UBAC2E193"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "U5EDC94BA"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "UA4AC0B51"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "U526050C3"
+  },
+  {
+   "channel_id": "CA4F53FDD",
+   "user_id": "U40E67852"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "UBAC2E193"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "U5EDC94BA"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "UACCED160"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "U686DF034"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "UBA0DEEEB"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "U6B3667C9"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "UAF28B308"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "UA4AC0B51"
+  },
+  {
+   "channel_id": "CD4B61D48",
+   "user_id": "U4D36E2E9"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UA4AC0B51"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "U7A0F26B9"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UF7B18929"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UD78C55B7"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "U3D05EB60"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UF3B27FBB"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "U408473B3"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UE741FD1A"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "U74899456"
+  },
+  {
+   "channel_id": "CFC9DA21B",
+   "user_id": "UBAC2E193"
+  }
+ ],
+ "messages": [
+  {
+   "ts": "1788340200.000267",
+   "channel_id": "CA4F53FDD",
+   "user_id": "U1CD521B7",
+   "text": "August run is done: 31 awards. Thanks Saira.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1790869200.000287",
+   "channel_id": "CA4F53FDD",
+   "user_id": "UAF28B308",
+   "text": "September run posted. Totals are in the base; contractor recharge emails gone out.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1790935500.000753",
+   "channel_id": "CA4F53FDD",
+   "user_id": "U526050C3",
+   "text": "Thanks - finance has the September figures.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1790940600.000404",
+   "channel_id": "CA4F53FDD",
+   "user_id": "U40E67852",
+   "text": "For the board: please keep naming the worst contractor each month on missed appointments, it's the one number members ask about.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792684920.000671",
+   "channel_id": "CA4F53FDD",
+   "user_id": "UBAC2E193",
+   "text": "Heads up, the SLA dashboard export in the folder is just the planner's view - it uses logged dates.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1793090400.000567",
+   "channel_id": "CA4F53FDD",
+   "user_id": "UA4AC0B51",
+   "text": "DW no-shows don't really count for compensation do they? They're our own lads.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1793091720.000995",
+   "channel_id": "CA4F53FDD",
+   "user_id": "U1CD521B7",
+   "text": "Martin - the standard says what counts. Saira will run it as written.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1791188100.000678",
+   "channel_id": "CD4B61D48",
+   "user_id": "U5EDC94BA",
+   "text": "Morning all, Marrick are short-staffed this week; expect some reshuffles.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1791879600.000885",
+   "channel_id": "CD4B61D48",
+   "user_id": "UACCED160",
+   "text": "Weekend OOH calls all logged. One cancellation for this morning noted on the ticket.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1791985500.000125",
+   "channel_id": "CD4B61D48",
+   "user_id": "U686DF034",
+   "text": "Can someone check the Larch House lift? Two calls about it today.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1791986460.000567",
+   "channel_id": "CD4B61D48",
+   "user_id": "UBAC2E193",
+   "text": "Lift engineer booked for tomorrow 9am.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792402200.000628",
+   "channel_id": "CD4B61D48",
+   "user_id": "UBA0DEEEB",
+   "text": "Kestle say their portal returns post at month end when the run opens, same as always.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792595400.000941",
+   "channel_id": "CD4B61D48",
+   "user_id": "U6B3667C9",
+   "text": "Is anyone covering Spinner Court for gas access letters?",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792754400.000764",
+   "channel_id": "CD4B61D48",
+   "user_id": "U5EDC94BA",
+   "text": "Moved most of Dev's slots for the week of the 12th across to Tomasz and Precious.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1793181600.000362",
+   "channel_id": "CD4B61D48",
+   "user_id": "U4D36E2E9",
+   "text": "Fold Yard asbestos survey clear, kitchens can be planned for January.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1790838300.000880",
+   "channel_id": "CFC9DA21B",
+   "user_id": "UA4AC0B51",
+   "text": "Vans 4 and 7 in for MOT today, double up please.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1791289800.000536",
+   "channel_id": "CFC9DA21B",
+   "user_id": "U74899456",
+   "text": "Stores stocktake Friday afternoon, counter closed from 2.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792082400.000527",
+   "channel_id": "CFC9DA21B",
+   "user_id": "UD78C55B7",
+   "text": "Relaid the path at the Weavers Rise job today, cones collected.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792411800.000610",
+   "channel_id": "CFC9DA21B",
+   "user_id": "UF7B18929",
+   "text": "Ceiling job done this morning - bath waste seal had perished.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792000500.000127",
+   "channel_id": "CFC9DA21B",
+   "user_id": "U3D05EB60",
+   "text": "Fan swapped at the morning job, all working.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1792395000.000522",
+   "channel_id": "CFC9DA21B",
+   "user_id": "UE741FD1A",
+   "text": "At college Mon-Wed this week.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1793372400.000454",
+   "channel_id": "CFC9DA21B",
+   "user_id": "UA4AC0B51",
+   "text": "Christmas rota is on the board - check your days.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  }
+ ]
+}

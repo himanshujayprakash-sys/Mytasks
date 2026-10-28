@@ -1,0 +1,245 @@
+{
+ "contacts": [
+  {
+   "id": "contact-efp-01",
+   "email": "kit.rowe@inbox.example",
+   "first_name": "Kit",
+   "last_name": "Rowe",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-17T10:00:00Z",
+   "updated_at": "2026-12-03T14:00:00Z"
+  },
+  {
+   "id": "contact-efp-02",
+   "email": "saffron.pill@inbox.example",
+   "first_name": "Saffron",
+   "last_name": "Pill",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-18T10:00:00Z",
+   "updated_at": "2026-11-25T12:10:00Z"
+  },
+  {
+   "id": "contact-efp-03",
+   "email": "d.hambly@inbox.example",
+   "first_name": "Davy",
+   "last_name": "Hambly",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-19T10:00:00Z",
+   "updated_at": "2026-11-19T15:02:00Z"
+  },
+  {
+   "id": "contact-efp-04",
+   "email": "lowdy.m@inbox.example",
+   "first_name": "Lowdy",
+   "last_name": "Matthews",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-23T10:00:00Z",
+   "updated_at": "2026-12-04T09:20:00Z"
+  },
+  {
+   "id": "contact-efp-05",
+   "email": "tom.spargo@inbox.example",
+   "first_name": "Tom",
+   "last_name": "Spargo",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-19T10:00:00Z",
+   "updated_at": "2026-11-20T10:30:00Z"
+  },
+  {
+   "id": "contact-efp-06",
+   "email": "jory.keast@inbox.example",
+   "first_name": "Jory",
+   "last_name": "Keast",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-21T10:00:00Z",
+   "updated_at": "2026-11-23T09:15:00Z"
+  },
+  {
+   "id": "contact-efp-07",
+   "email": "pasco.rowe@inbox.example",
+   "first_name": "Pasco",
+   "last_name": "Rowe",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-30T10:00:00Z",
+   "updated_at": "2026-12-01T09:05:00Z"
+  },
+  {
+   "id": "contact-efp-08",
+   "email": "elowen.may@inbox.example",
+   "first_name": "Elowen",
+   "last_name": "May",
+   "country": "GB",
+   "list_ids": [
+    "list-efp-recruit"
+   ],
+   "created_at": "2026-11-20T10:00:00Z",
+   "updated_at": "2026-11-20T14:05:00Z"
+  }
+ ],
+ "sent_log": [
+  {
+   "message_id": "msg-efp-01",
+   "to_email": "kit.rowe@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your interview at Ellisford Fresh Produce",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-11-17T11:12:00Z"
+  },
+  {
+   "message_id": "msg-efp-02",
+   "to_email": "saffron.pill@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your interview at Ellisford Fresh Produce",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-18T09:40:00Z"
+  },
+  {
+   "message_id": "msg-efp-03",
+   "to_email": "d.hambly@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your interview at Ellisford Fresh Produce",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-11-19T15:02:00Z"
+  },
+  {
+   "message_id": "msg-efp-04",
+   "to_email": "tom.spargo@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Thanks for your interest in driving with us",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-20T10:30:00Z"
+  },
+  {
+   "message_id": "msg-efp-05",
+   "to_email": "elowen.may@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Warehouse apprenticeships 2027",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-20T14:05:00Z"
+  },
+  {
+   "message_id": "msg-efp-06",
+   "to_email": "jory.keast@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Thanks for your interest in driving with us",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-23T09:15:00Z"
+  },
+  {
+   "message_id": "msg-efp-07",
+   "to_email": "lowdy.m@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your interview at Ellisford Fresh Produce",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 3,
+   "clicks": 1,
+   "sent_at": "2026-11-23T16:20:00Z"
+  },
+  {
+   "message_id": "msg-efp-08",
+   "to_email": "kit.rowe@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Offer of seasonal work",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 4,
+   "clicks": 2,
+   "sent_at": "2026-11-25T12:00:00Z"
+  },
+  {
+   "message_id": "msg-efp-09",
+   "to_email": "saffron.pill@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Thank you for coming to interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-25T12:10:00Z"
+  },
+  {
+   "message_id": "msg-efp-10",
+   "to_email": "pasco.rowe@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Warehouse apprenticeships 2027",
+   "template_id": null,
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-12-01T09:05:00Z"
+  },
+  {
+   "message_id": "msg-efp-11",
+   "to_email": "lowdy.m@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Offer of seasonal work",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-12-02T10:30:00Z"
+  },
+  {
+   "message_id": "msg-efp-12",
+   "to_email": "kit.rowe@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your first day: what to bring",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 0,
+   "sent_at": "2026-12-03T14:00:00Z"
+  },
+  {
+   "message_id": "msg-efp-13",
+   "to_email": "lowdy.m@inbox.example",
+   "from_email": "recruitment@ellisford-produce.example",
+   "subject": "Your first day: what to bring",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-12-04T09:20:00Z"
+  }
+ ]
+}

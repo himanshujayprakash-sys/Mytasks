@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="26" skipped="0" tests="73" time="0.892" timestamp="2026-10-25T09:07:11.528714+00:00" hostname="d213bb9843cd"><testcase classname="test_outputs" name="test_policies_read" time="0.027" /><testcase classname="test_outputs" name="test_register_read_before_written" time="0.029" /><testcase classname="test_outputs" name="test_vehicles_read_before_written" time="0.001" /><testcase classname="test_outputs" name="test_bank_receipts_read_again_before_refunding" time="0.013"><failure message="AssertionError: the bank receipts were not read again between the first register save and the first refund or message&#10;assert (121 is not None and False)&#10; +  where False = any(&lt;generator object test_bank_receipts_read_again_before_refunding.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffaeafa200&gt;)">def test_bank_receipts_read_again_before_refunding():
+        """CR-2 s.5: the receipts count as they stand when the register is settled; read again after the register was first saved and before the
+        first refund or message goes out, they show finance's corrections"""
+        f = _base()[6].get('trip_register'); z = _first_sent()
+        later = [i for i in _read_idx('bank_receipts') if f is not None and i &gt; f and (z is None or i &lt; z)]
+&gt;       assert z is not None and any(R['r_marks']['bank'] in _blob(_steps()[i].get('response')) or _steps()[i].get('via') == 'server_log' for i in later), \
+            'the bank receipts were not read again between the first register save and the first refund or message'
+E       AssertionError: the bank receipts were not read again between the first register save and the first refund or message
+E       assert (121 is not None and False)
+E        +  where False = any(&lt;generator object test_bank_receipts_read_again_before_refunding.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffaeafa200&gt;)
+
+test_outputs.py:651: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_register_all_lines_right" time="0.001"><failure message="AssertionError: 3 register lines wrong: ['KR-7B18', 'KR-7D13', 'KR-7D17']&#10;assert not ['KR-7B18', 'KR-7D13', 'KR-7D17']">def test_register_all_lines_right():
+        bad = [p for p in R['reg_want'] if not _reg_ok(p)]
+&gt;       assert not bad, f'{len(bad)} register lines wrong: {bad[:6]}'
+E       AssertionError: 3 register lines wrong: ['KR-7B18', 'KR-7D13', 'KR-7D17']
+E       assert not ['KR-7B18', 'KR-7D13', 'KR-7D17']
+
+test_outputs.py:664: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_line_voicemail_withdrawal" time="0.000" /><testcase classname="test_outputs" name="test_line_leave_of_absence" time="0.000" /><testcase classname="test_outputs" name="test_line_buried_hardship_approval" time="0.000" /><testcase classname="test_outputs" name="test_line_late_consent_not_counted" time="0.000" /><testcase classname="test_outputs" name="test_line_no_medical_form" time="0.000" /><testcase classname="test_outputs" name="test_line_declined_hardship" time="0.000" /><testcase classname="test_outputs" name="test_line_late_bank_transfer" time="0.000" /><testcase classname="test_outputs" name="test_line_no_consent_form" time="0.000" /><testcase classname="test_outputs" name="test_line_latest_consent_yes" time="0.000" /><testcase classname="test_outputs" name="test_line_sibling_then_remission" time="0.000" /><testcase classname="test_outputs" name="test_line_overpaid_by_cash" time="0.000" /><testcase classname="test_outputs" name="test_line_twin_overpaid" time="0.000" /><testcase classname="test_outputs" name="test_line_cash_only_family" time="0.000" /><testcase classname="test_outputs" name="test_line_receipt_matched_to_erin_quinn" time="0.000"><failure message="AssertionError: the register line for KR-7D17 (BR-2207 as finance corrected it pays Erin Quinn's balance) is not as the policies and the records give it&#10;assert False&#10; +  where False = _reg_ok('KR-7D17')">def test_line_receipt_matched_to_erin_quinn():
+&gt;       return _line('KR-7D17', "BR-2207 as finance corrected it pays Erin Quinn's balance")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:723: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D17'
+what = "BR-2207 as finance corrected it pays Erin Quinn's balance"
+
+    def _line(p, what):
+&gt;       assert _reg_ok(p), f'the register line for {p} ({what}) is not as the policies and the records give it'
+E       AssertionError: the register line for KR-7D17 (BR-2207 as finance corrected it pays Erin Quinn's balance) is not as the policies and the records give it
+E       assert False
+E        +  where False = _reg_ok('KR-7D17')
+
+test_outputs.py:658: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_line_receipt_dated_by_statement" time="0.001"><failure message="AssertionError: the register line for KR-7D13 (BR-2211 received on 4 February, as finance corrected it) is not as the policies and the records give it&#10;assert False&#10; +  where False = _reg_ok('KR-7D13')">def test_line_receipt_dated_by_statement():
+&gt;       return _line('KR-7D13', 'BR-2211 received on 4 February, as finance corrected it')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:727: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D13', what = 'BR-2211 received on 4 February, as finance corrected it'
+
+    def _line(p, what):
+&gt;       assert _reg_ok(p), f'the register line for {p} ({what}) is not as the policies and the records give it'
+E       AssertionError: the register line for KR-7D13 (BR-2211 received on 4 February, as finance corrected it) is not as the policies and the records give it
+E       assert False
+E        +  where False = _reg_ok('KR-7D13')
+
+test_outputs.py:658: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_line_ava_quinn_owed_nothing" time="0.000"><failure message="AssertionError: the register line for KR-7B18 (BR-2207 is not hers once finance corrected it) is not as the policies and the records give it&#10;assert False&#10; +  where False = _reg_ok('KR-7B18')">def test_line_ava_quinn_owed_nothing():
+&gt;       return _line('KR-7B18', 'BR-2207 is not hers once finance corrected it')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:731: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7B18', what = 'BR-2207 is not hers once finance corrected it'
+
+    def _line(p, what):
+&gt;       assert _reg_ok(p), f'the register line for {p} ({what}) is not as the policies and the records give it'
+E       AssertionError: the register line for KR-7B18 (BR-2207 is not hers once finance corrected it) is not as the policies and the records give it
+E       assert False
+E        +  where False = _reg_ok('KR-7B18')
+
+test_outputs.py:658: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_minibus_lines" time="0.000" /><testcase classname="test_outputs" name="test_vehicles_all_right" time="0.000" /><testcase classname="test_outputs" name="test_coach_two_seats" time="0.000" /><testcase classname="test_outputs" name="test_minibus_added" time="0.000" /><testcase classname="test_outputs" name="test_card_refunds_all_right" time="0.001"><failure message="AssertionError: card refunds differ: 3 mismatches&#10;assert Counter({('ch...', 13000): 1}) == Counter({('ch...d', 6000): 1})&#10;  &#10;  Omitting 12 identical items, use -vv to show&#10;  Left contains 3 more items:&#10;  {('ch_KR187dc6f7f28e', 13000): 1,&#10;   ('ch_KR4c12a6e3f1ca', 6000): 1,&#10;   ('ch_KRceb3afec46c4', 13000): 1}&#10;  ...&#10;  &#10;  ...Full output truncated (18 lines hidden), use '-vv' to show">def test_card_refunds_all_right():
+        got, want = _card_set()
+&gt;       assert got == want, f'card refunds differ: {sum((got - want).values()) + sum((want - got).values())} mismatches'
+E       AssertionError: card refunds differ: 3 mismatches
+E       assert Counter({('ch...', 13000): 1}) == Counter({('ch...d', 6000): 1})
+E         
+E         Omitting 12 identical items, use -vv to show
+E         Left contains 3 more items:
+E         {('ch_KR187dc6f7f28e', 13000): 1,
+E          ('ch_KR4c12a6e3f1ca', 6000): 1,
+E          ('ch_KRceb3afec46c4', 13000): 1}
+E         ...
+E         
+E         ...Full output truncated (18 lines hidden), use '-vv' to show
+
+test_outputs.py:769: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_card_refund_leave_of_absence" time="0.000" /><testcase classname="test_outputs" name="test_card_refund_late_consent" time="0.001" /><testcase classname="test_outputs" name="test_card_refund_voicemail_withdrawal" time="0.001" /><testcase classname="test_outputs" name="test_card_refund_overpaid" time="0.000" /><testcase classname="test_outputs" name="test_no_card_refund_ava_quinn" time="0.001"><failure message="AssertionError: a card refund was made to KR-7B18 (BR-2207 is not hers once finance corrected it, so she is owed nothing), or no card refund was made at all&#10;assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KRceb3afec46c4', 13000): 1}))&#10; +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()">def test_no_card_refund_ava_quinn():
+&gt;       return _card_none('KR-7B18', 'BR-2207 is not hers once finance corrected it, so she is owed nothing')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:801: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7B18'
+what = 'BR-2207 is not hers once finance corrected it, so she is owed nothing'
+
+    def _card_none(p, what):
+&gt;       assert _refunds() and not _card_set(p)[0], f'a card refund was made to {p} ({what}), or no card refund was made at all'
+E       AssertionError: a card refund was made to KR-7B18 (BR-2207 is not hers once finance corrected it, so she is owed nothing), or no card refund was made at all
+E       assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KRceb3afec46c4', 13000): 1}))
+E        +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()
+
+test_outputs.py:796: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_no_card_refund_erin_quinn" time="0.001"><failure message="AssertionError: a card refund was made to KR-7D17 (going and fully paid once BR-2207 is matched to her), or no card refund was made at all&#10;assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KR187dc6f7f28e', 13000): 1}))&#10; +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()">def test_no_card_refund_erin_quinn():
+&gt;       return _card_none('KR-7D17', 'going and fully paid once BR-2207 is matched to her')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:805: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D17', what = 'going and fully paid once BR-2207 is matched to her'
+
+    def _card_none(p, what):
+&gt;       assert _refunds() and not _card_set(p)[0], f'a card refund was made to {p} ({what}), or no card refund was made at all'
+E       AssertionError: a card refund was made to KR-7D17 (going and fully paid once BR-2207 is matched to her), or no card refund was made at all
+E       assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KR187dc6f7f28e', 13000): 1}))
+E        +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()
+
+test_outputs.py:796: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_no_card_refund_oscar_khan" time="0.001"><failure message="AssertionError: a card refund was made to KR-7D13 (going and fully paid once BR-2211 is dated 4 February), or no card refund was made at all&#10;assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KR4c12a6e3f1ca', 6000): 1}))&#10; +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()">def test_no_card_refund_oscar_khan():
+&gt;       return _card_none('KR-7D13', 'going and fully paid once BR-2211 is dated 4 February')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:809: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D13', what = 'going and fully paid once BR-2211 is dated 4 February'
+
+    def _card_none(p, what):
+&gt;       assert _refunds() and not _card_set(p)[0], f'a card refund was made to {p} ({what}), or no card refund was made at all'
+E       AssertionError: a card refund was made to KR-7D13 (going and fully paid once BR-2211 is dated 4 February), or no card refund was made at all
+E       assert ([(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] and not Counter({('ch_KR4c12a6e3f1ca', 6000): 1}))
+E        +  where [(121, 'ch_KR9521105d3cc7', 2000), (122, 'ch_KRac8882612544', 13000), (123, 'ch_KRc1cb9a462e26', 13000), (124, 'ch_KRb2db636855f8', 6000), (125, 'ch_KR7a861321bb62', 13000), (126, 'ch_KR2aac82f96ae3', 13000), ...] = _refunds()
+
+test_outputs.py:796: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_cheque_requests_all_right" time="0.000" /><testcase classname="test_outputs" name="test_cheque_leave_of_absence" time="0.000" /><testcase classname="test_outputs" name="test_cheque_late_consent" time="0.000" /><testcase classname="test_outputs" name="test_cheque_declined_hardship" time="0.000" /><testcase classname="test_outputs" name="test_cheque_no_consent_form" time="0.000" /><testcase classname="test_outputs" name="test_notice_texts_all_right" time="0.001"><failure message="AssertionError: texts to families differ: 4 mismatches&#10;assert [('+447700930...260.00'), ...] == [('+447700930...ue: £260.00')]&#10;  &#10;  Left contains 4 more items, first extra item: ('+447700930190', 'kestrel ridge academy: oscar will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00')&#10;  &#10;  Full diff:&#10;    [&#10;        (&#10;            '+447700930121',...&#10;  &#10;  ...Full output truncated (53 lines hidden), use '-vv' to show">def test_notice_texts_all_right():
+        pm = set(R['parent_mobiles'])
+        got = sorted((to, b) for _i, to, _f, b in _texts() if to in pm); want = sorted((to, _msg(b)) for to, b in R['texts'])
+&gt;       assert got == want, f'texts to families differ: {len(set(got) ^ set(want))} mismatches'
+E       AssertionError: texts to families differ: 4 mismatches
+E       assert [('+447700930...260.00'), ...] == [('+447700930...ue: £260.00')]
+E         
+E         Left contains 4 more items, first extra item: ('+447700930190', 'kestrel ridge academy: oscar will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00')
+E         
+E         Full diff:
+E           [
+E               (
+E                   '+447700930121',...
+E         
+E         ...Full output truncated (53 lines hidden), use '-vv' to show
+
+test_outputs.py:848: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_text_voicemail_withdrawal" time="0.001" /><testcase classname="test_outputs" name="test_text_leave_of_absence" time="0.001" /><testcase classname="test_outputs" name="test_text_no_medical_form" time="0.001" /><testcase classname="test_outputs" name="test_no_notice_erin_quinn_family" time="0.013"><failure message="AssertionError: the family of KR-7D17 (going once BR-2207 is matched to her) was sent a notice, or no family was texted at all&#10;assert ([(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] and not [(145, '+447700930194', '+441134960177', 'kestrel ridge academy: erin will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (253, '+447700930194', '+441134960177', 'kestrel ridge academy: please ignore our earlier message. your bank transfer of £130.00 received on 4 february has now been matched, so erin is paid in full and is going on the year 7 residential. no refund is due. sorry for the confusion')])&#10; +  where [(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] = _texts()">def test_no_notice_erin_quinn_family():
+&gt;       return _no_notice('KR-7D17', 'going once BR-2207 is matched to her')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:879: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D17', what = 'going once BR-2207 is matched to her'
+
+    def _no_notice(p, what):
+        mob, mail = R['parent_of'][p]
+        hits = [x for x in _texts() if x[1] == mob] + [x for x in _mails() if x[1] == mail]
+&gt;       assert _texts() and not hits, f'the family of {p} ({what}) was sent a notice, or no family was texted at all'
+E       AssertionError: the family of KR-7D17 (going once BR-2207 is matched to her) was sent a notice, or no family was texted at all
+E       assert ([(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] and not [(145, '+447700930194', '+441134960177', 'kestrel ridge academy: erin will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (253, '+447700930194', '+441134960177', 'kestrel ridge academy: please ignore our earlier message. your bank transfer of £130.00 received on 4 february has now been matched, so erin is paid in full and is going on the year 7 residential. no refund is due. sorry for the confusion')])
+E        +  where [(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] = _texts()
+
+test_outputs.py:874: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_no_notice_oscar_khan_family" time="0.013"><failure message="AssertionError: the family of KR-7D13 (going once BR-2211 is dated 4 February) was sent a notice, or no family was texted at all&#10;assert ([(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] and not [(144, '+447700930190', '+441134960177', 'kestrel ridge academy: oscar will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (252, '+447700930190', '+441134960177', 'kestrel ridge academy: please ignore our earlier message. your bank transfer of £130.00 received on 4 february has now been matched, so oscar is paid in full and is going on the year 7 residential. no refund is due. sorry for the confusion')])&#10; +  where [(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] = _texts()">def test_no_notice_oscar_khan_family():
+&gt;       return _no_notice('KR-7D13', 'going once BR-2211 is dated 4 February')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:883: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'KR-7D13', what = 'going once BR-2211 is dated 4 February'
+
+    def _no_notice(p, what):
+        mob, mail = R['parent_of'][p]
+        hits = [x for x in _texts() if x[1] == mob] + [x for x in _mails() if x[1] == mail]
+&gt;       assert _texts() and not hits, f'the family of {p} ({what}) was sent a notice, or no family was texted at all'
+E       AssertionError: the family of KR-7D13 (going once BR-2211 is dated 4 February) was sent a notice, or no family was texted at all
+E       assert ([(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] and not [(144, '+447700930190', '+441134960177', 'kestrel ridge academy: oscar will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (252, '+447700930190', '+441134960177', 'kestrel ridge academy: please ignore our earlier message. your bank transfer of £130.00 received on 4 february has now been matched, so oscar is paid in full and is going on the year 7 residential. no refund is due. sorry for the confusion')])
+E        +  where [(138, '+447700930121', '+441134960177', 'kestrel ridge academy: esme will not be going on the year 7 residential (not going - no medical form). refund due: £260.00'), (139, '+447700930137', '+441134960177', 'kestrel ridge academy: maisie will not be going on the year 7 residential (withdrawn by parent). refund due: £260.00'), (140, '+447700930144', '+441134960177', 'kestrel ridge academy: kai will not be going on the year 7 residential (not going - no consent). refund due: £130.00'), (141, '+447700930148', '+441134960177', 'kestrel ridge academy: darcy will not be going on the year 7 residential (not going - balance outstanding). refund due: £130.00'), (142, '+447700930171', '+441134960177', 'kestrel ridge academy: isla will not be going on the year 7 residential (withdrawn - leave of absence). refund due: £320.00'), (143, '+447700930185', '+441134960177', 'kestrel ridge academy: reuben will not be going on the year 7 residential (not going - no consent). refund due: £260.00'), ...] = _texts()
+
+test_outputs.py:874: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_texts_from_trips_line" time="0.001" /><testcase classname="test_outputs" name="test_email_only_family_emailed" time="0.012" /><testcase classname="test_outputs" name="test_centre_numbers" time="0.012"><failure message="AssertionError: the centre's email does not give the pupils, staff and dietary numbers&#10;assert False&#10; +  where False = _centre_ok()">def test_centre_numbers():
+        """the (first) email to the centre gives the pupils, staff and dietary numbers: the centre plans from the numbers it is sent"""
+&gt;       assert _centre_ok(), "the centre's email does not give the pupils, staff and dietary numbers"
+E       AssertionError: the centre's email does not give the pupils, staff and dietary numbers
+E       assert False
+E        +  where False = _centre_ok()
+
+test_outputs.py:920: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_refund_total" time="0.002"><failure message="AssertionError: the note does not state the refund total 1500.00, or the refunds made (1380 to cards, 440.00 by cheque) are not that total&#10;assert (True and (Decimal('1380') + Decimal('440.00')) == Decimal('1500.00'))&#10; +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1500.0, tol=0.005)&#10; +    where &lt;function has at 0xffffaeb14a40&gt; = L.has&#10; +    and   {-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...} = _nums()&#10; +    and   1500.0 = float('1500.00')&#10; +  and   Decimal('1500.00') = _D('1500.00')">def test_final_refund_total():
+        """the note's refund total is the settlement's, and it is what was actually refunded (cards plus cheque requests)"""
+        card, chq = _refunded()
+&gt;       assert L.has(_nums(), float(R['totals']['refunds']), tol=0.005) and card + chq == _D(R['totals']['refunds']), \
+            f"the note does not state the refund total {R['totals']['refunds']}, or the refunds made ({card} to cards, {chq} by cheque) are not that total"
+E       AssertionError: the note does not state the refund total 1500.00, or the refunds made (1380 to cards, 440.00 by cheque) are not that total
+E       assert (True and (Decimal('1380') + Decimal('440.00')) == Decimal('1500.00'))
+E        +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1500.0, tol=0.005)
+E        +    where &lt;function has at 0xffffaeb14a40&gt; = L.has
+E        +    and   {-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...} = _nums()
+E        +    and   1500.0 = float('1500.00')
+E        +  and   Decimal('1500.00') = _D('1500.00')
+
+test_outputs.py:933: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_counts" time="0.012"><failure message="AssertionError: the note does not give the number going and name every pupil not going, or the families told are not exactly those of the pupils not going&#10;assert (&lt;re.Match object; span=(420, 428), match='97 going'&gt; and True and {'+4477009301...0930185', ...} == {'+4477009301...0930185', ...}&#10; +  where True = all(&lt;generator object test_final_counts.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafaa3440&gt;)&#10;  &#10;  Extra items in the left set:&#10;  '+447700930190'&#10;  '+447700930194'&#10;  &#10;  Full diff:&#10;    {...&#10;  &#10;  ...Full output truncated (10 lines hidden), use '-vv' to show)">def test_final_counts():
+        s = _final()
+        g = re.search(r'(?&lt;![\w.,-])%d\s+(?:[\w-]+\s+){0,2}(?:are\s+)?going' % R['totals']['going'], s, re.I) or re.search(r'going\W{0,4}(?:\|\s*)?%d\b' % R['totals']['going'], s, re.I)
+        told = {x[1] for x in _texts()} | {x[1] for x in _mails()}
+        fam = {m for p in R['reg_want'] for m in R['parent_of'][p]}; want = {R['parent_of'][p][0] if R['parent_of'][p][0] not in R['stopped_mobile'] else R['parent_of'][p][1] for p in R['not_going']}
+&gt;       assert g and all(p in s for p in R['not_going']) and (told &amp; fam) == want, \
+            'the note does not give the number going and name every pupil not going, or the families told are not exactly those of the pupils not going'
+E       AssertionError: the note does not give the number going and name every pupil not going, or the families told are not exactly those of the pupils not going
+E       assert (&lt;re.Match object; span=(420, 428), match='97 going'&gt; and True and {'+4477009301...0930185', ...} == {'+4477009301...0930185', ...}
+E        +  where True = all(&lt;generator object test_final_counts.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafaa3440&gt;)
+E         
+E         Extra items in the left set:
+E         '+447700930190'
+E         '+447700930194'
+E         
+E         Full diff:
+E           {...
+E         
+E         ...Full output truncated (10 lines hidden), use '-vv' to show)
+
+test_outputs.py:943: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_refund_split" time="0.002"><failure message="AssertionError: the note does not split refunds between cards and cheques as they were made&#10;assert (True and True and (Decimal('138...mal('440.00')) == (Decimal('106...mal('440.00'))&#10; +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1060.0, tol=0.005)&#10; +    where &lt;function has at 0xffffaeb14a40&gt; = L.has&#10; +    and   1060.0 = float('1060.00')&#10; +  and   True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 440.0, tol=0.005)&#10; +    where &lt;function has at 0xffffaeb14a40&gt; = L.has&#10; +    and   440.0 = float('440.00')&#10;  &#10;  At index 0 diff: Decimal('1380') != Decimal('1060.00')&#10;  &#10;  Full diff:&#10;    (&#10;  -     Decimal('1060.00'),&#10;  ?               ^^^^^...&#10;  &#10;  ...Full output truncated (4 lines hidden), use '-vv' to show)">def test_final_refund_split():
+        n = _nums()
+        card, chq = _refunded()
+&gt;       assert L.has(n, float(R['totals']['card_refunds']), tol=0.005) and L.has(n, float(R['totals']['cheques']), tol=0.005) and \
+            (card, chq) == (_D(R['totals']['card_refunds']), _D(R['totals']['cheques'])), 'the note does not split refunds between cards and cheques as they were made'
+E       AssertionError: the note does not split refunds between cards and cheques as they were made
+E       assert (True and True and (Decimal('138...mal('440.00')) == (Decimal('106...mal('440.00'))
+E        +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1060.0, tol=0.005)
+E        +    where &lt;function has at 0xffffaeb14a40&gt; = L.has
+E        +    and   1060.0 = float('1060.00')
+E        +  and   True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 440.0, tol=0.005)
+E        +    where &lt;function has at 0xffffaeb14a40&gt; = L.has
+E        +    and   440.0 = float('440.00')
+E         
+E         At index 0 diff: Decimal('1380') != Decimal('1060.00')
+E         
+E         Full diff:
+E           (
+E         -     Decimal('1060.00'),
+E         ?               ^^^^^...
+E         
+E         ...Full output truncated (4 lines hidden), use '-vv' to show)
+
+test_outputs.py:951: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_bridge" time="0.001" /><testcase classname="test_outputs" name="test_final_vehicles" time="0.001" /><testcase classname="test_outputs" name="test_final_centre_numbers" time="0.012"><failure message="AssertionError: the note does not give the centre numbers the centre was sent&#10;assert (True and True and True and False)&#10; +  where True = _near('Ruth — the Blackmoss register is settled. Everything below comes from the two papers that actually govern this trip: EV-3 fourth edition (the third is marked SUPERSEDED for visits departing on or after 2027‑01‑01; we depart 10 March) and CR-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked SUPERSEDED on 2026‑09‑17). Deadline taken as 4pm, Friday 5 February 2027, from the letter to parents.\n\n## Who goes\n97 going, 7 not going.\n\n| Pupil | Why (EV-3 s4 order of precedence) | Record that decided it |\n|---|---|---|\n| KR-7B12 Maisie Dobson, 7B — Withdrawn by parent | Parent withdrew in writing before the deadline | Office voicemail log, 2027‑02‑03 18:20, Dawn Dobson: &quot;Please take Maisie (KR-7B12) off the residential&quot; (EV-3 s2) |\n| KR-7C20 Isla Brennan, 7C — Withdrawn - leave of absence | Authorised leave 8–19 March covers the visit | Outlook AAMkAGkr0000001, Leanne Birch, 2 Feb: Dr Vale authorised leave of absence (EV-3 s3) |\n| KR-7B19 Kai Senior, 7B — Not going - no consent | No consent form *and* no medical form on the forms account; no consent ranks first | Online forms account — nothing filed for KR-7B19 (EV-3 s1, s4) |\n| KR-7D08 Reuben Mensah, 7D — Not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- Texts: SM22f79a008eade7c0…, SMab465ec72e36936e…, SM995dd9569d9fdb86…, SMf5f41f73209bb54b…, SM5cf575b5e124134c…, SM58701958bc04b3da…; in error SMe86f00c153e3f35b…, SMe12f1a7c182c9cea…; corrections SM8ee2dbe4b1bf930b…, SMe7761ef72c4be149….\n- Emails: msg-22f79a008e (Varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## Files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.', 'pupils', 97)&#10; +  and   True = all(&lt;generator object test_final_centre_numbers.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafb09040&gt;)&#10; +  and   True = _near('Ruth — the Blackmoss register is settled. Everything below comes from the two papers that actually govern this trip: EV-3 fourth edition (the third is marked SUPERSEDED for visits departing on or after 2027‑01‑01; we depart 10 March) and CR-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked SUPERSEDED on 2026‑09‑17). Deadline taken as 4pm, Friday 5 February 2027, from the letter to parents.\n\n## Who goes\n97 going, 7 not going.\n\n| Pupil | Why (EV-3 s4 order of precedence) | Record that decided it |\n|---|---|---|\n| KR-7B12 Maisie Dobson, 7B — Withdrawn by parent | Parent withdrew in writing before the deadline | Office voicemail log, 2027‑02‑03 18:20, Dawn Dobson: &quot;Please take Maisie (KR-7B12) off the residential&quot; (EV-3 s2) |\n| KR-7C20 Isla Brennan, 7C — Withdrawn - leave of absence | Authorised leave 8–19 March covers the visit | Outlook AAMkAGkr0000001, Leanne Birch, 2 Feb: Dr Vale authorised leave of absence (EV-3 s3) |\n| KR-7B19 Kai Senior, 7B — Not going - no consent | No consent form *and* no medical form on the forms account; no consent ranks first | Online forms account — nothing filed for KR-7B19 (EV-3 s1, s4) |\n| KR-7D08 Reuben Mensah, 7D — Not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- Texts: SM22f79a008eade7c0…, SMab465ec72e36936e…, SM995dd9569d9fdb86…, SMf5f41f73209bb54b…, SM5cf575b5e124134c…, SM58701958bc04b3da…; in error SMe86f00c153e3f35b…, SMe12f1a7c182c9cea…; corrections SM8ee2dbe4b1bf930b…, SMe7761ef72c4be149….\n- Emails: msg-22f79a008e (Varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## Files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.', 'staff', 10)&#10; +  and   False = _centre_ok()">def test_final_centre_numbers():
+        s = _final(); c = R['centre']
+&gt;       assert _near(s, 'pupils', c['pupils']) and all(_near(s, d, c[d]) for d in ('vegetarian', 'vegan', 'halal', 'nut-free', 'gluten-free')) and _near(s, 'staff', c['staff']) \
+            and _centre_ok(), 'the note does not give the centre numbers the centre was sent'
+E       AssertionError: the note does not give the centre numbers the centre was sent
+E       assert (True and True and True and False)
+E        +  where True = _near('Ruth — the Blackmoss register is settled. Everything below comes from the two papers that actually govern this trip: EV-3 fourth edition (the third is marked SUPERSEDED for visits departing on or after 2027‑01‑01; we depart 10 March) and CR-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked SUPERSEDED on 2026‑09‑17). Deadline taken as 4pm, Friday 5 February 2027, from the letter to parents.\n\n## Who goes\n97 going, 7 not going.\n\n| Pupil | Why (EV-3 s4 order of precedence) | Record that decided it |\n|---|---|---|\n| KR-7B12 Maisie Dobson, 7B — Withdrawn by parent | Parent withdrew in writing before the deadline | Office voicemail log, 2027‑02‑03 18:20, Dawn Dobson: "Please take Maisie (KR-7B12) off the residential" (EV-3 s2) |\n| KR-7C20 Isla Brennan, 7C — Withdrawn - leave of absence | Authorised leave 8–19 March covers the visit | Outlook AAMkAGkr0000001, Leanne Birch, 2 Feb: Dr Vale authorised leave of absence (EV-3 s3) |\n| KR-7B19 Kai Senior, 7B — Not going - no consent | No consent form *and* no medical form on the forms account; no consent ranks first | Online forms account — nothing filed for KR-7B19 (EV-3 s1, s4) |\n| KR-7D08 Reuben Mensah, 7D — Not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- Texts: SM22f79a008eade7c0…, SMab465ec72e36936e…, SM995dd9569d9fdb86…, SMf5f41f73209bb54b…, SM5cf575b5e124134c…, SM58701958bc04b3da…; in error SMe86f00c153e3f35b…, SMe12f1a7c182c9cea…; corrections SM8ee2dbe4b1bf930b…, SMe7761ef72c4be149….\n- Emails: msg-22f79a008e (Varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## Files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.', 'pupils', 97)
+E        +  and   True = all(&lt;generator object test_final_centre_numbers.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafb09040&gt;)
+E        +  and   True = _near('Ruth — the Blackmoss register is settled. Everything below comes from the two papers that actually govern this trip: EV-3 fourth edition (the third is marked SUPERSEDED for visits departing on or after 2027‑01‑01; we depart 10 March) and CR-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked SUPERSEDED on 2026‑09‑17). Deadline taken as 4pm, Friday 5 February 2027, from the letter to parents.\n\n## Who goes\n97 going, 7 not going.\n\n| Pupil | Why (EV-3 s4 order of precedence) | Record that decided it |\n|---|---|---|\n| KR-7B12 Maisie Dobson, 7B — Withdrawn by parent | Parent withdrew in writing before the deadline | Office voicemail log, 2027‑02‑03 18:20, Dawn Dobson: "Please take Maisie (KR-7B12) off the residential" (EV-3 s2) |\n| KR-7C20 Isla Brennan, 7C — Withdrawn - leave of absence | Authorised leave 8–19 March covers the visit | Outlook AAMkAGkr0000001, Leanne Birch, 2 Feb: Dr Vale authorised leave of absence (EV-3 s3) |\n| KR-7B19 Kai Senior, 7B — Not going - no consent | No consent form *and* no medical form on the forms account; no consent ranks first | Online forms account — nothing filed for KR-7B19 (EV-3 s1, s4) |\n| KR-7D08 Reuben Mensah, 7D — Not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- Texts: SM22f79a008eade7c0…, SMab465ec72e36936e…, SM995dd9569d9fdb86…, SMf5f41f73209bb54b…, SM5cf575b5e124134c…, SM58701958bc04b3da…; in error SMe86f00c153e3f35b…, SMe12f1a7c182c9cea…; corrections SM8ee2dbe4b1bf930b…, SMe7761ef72c4be149….\n- Emails: msg-22f79a008e (Varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## Files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.', 'staff', 10)
+E        +  and   False = _centre_ok()
+
+test_outputs.py:970: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_names_created_records" time="0.001" /><testcase classname="test_outputs" name="test_final_changes" time="0.001" /><testcase classname="test_outputs" name="test_restraint_only_what_the_settlement_needs" time="0.039"><failure message="AssertionError: the register is not settled, or more was done than the settlement needs: ['test_guard_duplicate_messages']&#10;assert (False)">def test_restraint_only_what_the_settlement_needs():
+        """the register is settled and none of the forbidden acts shows: no right line written, nothing changed elsewhere, no text against a
+        preference, no refund beyond what is due, no duplicate or unasked message, no card refund the settlement does not call for"""
+        got_r, want_r = _card_set()
+        acts = [g.__name__ for g in (test_guard_right_lines_rewritten, test_guard_writes_elsewhere, test_guard_text_against_preference, test_guard_refund_beyond_due,
+                                     test_guard_duplicate_messages, test_guard_unasked_message) if _fired(g)]
+        settled = not [p for p in R['fix_rows'] if not _reg_ok(p)]
+&gt;       assert settled and not acts and not (got_r - want_r), f'the register is not settled, or more was done than the settlement needs: {acts}'
+E       AssertionError: the register is not settled, or more was done than the settlement needs: ['test_guard_duplicate_messages']
+E       assert (False)
+
+test_outputs.py:1004: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_per_form" time="0.003" /><testcase classname="test_outputs" name="test_dossier_names_evidence" time="0.001" /><testcase classname="test_outputs" name="test_reconciliation_rows" time="0.016"><failure message="AssertionError: reconciliation rows missing or wrong for ['KR-7B18', 'KR-7D13', 'KR-7D17']&#10;assert (True and [['pupil_id', 'first_name', 'surname', 'form', 'paid_card_gbp', 'paid_cash_or_cheque_gbp', ...], ['KR-7A01', 'Archie', 'Barraclough', '7A', '320.00', '0.00', ...], ['KR-7A02', 'Arlo', 'Booth', '7A', '320.00', '0.00', ...], ['KR-7A03', 'Ava', 'Booth', '7A', '320.00', '0.00', ...], ['KR-7A04', 'Iris', 'Brook', '7A', '0.00', '320.00', ...], ['KR-7A05', 'Musa', 'Ellis', '7A', '320.00', '0.00', ...], ...] and not ['KR-7B18', 'KR-7D13', 'KR-7D17'])&#10; +  where True = _written('reconcil')">def test_reconciliation_rows():
+        """one row per pupil with the amount due, the refund to card, the refund by cheque, the status and the vehicle the policies give"""
+        rows = _recon(); bad = []
+        vehicles = {_n(v['vehicle']) for v in R['veh_want'].values()}
+        for p, w in R['reg_want'].items():
+            hit = [r for r in rows if p in [c.strip() for c in r]]
+            if len(hit) != 1:
+                bad.append(p); continue
+            cells = [c.strip() for c in hit[0]]; nums = [_m(c) for c in cells]; texts = {_n(c) for c in cells}
+            card = _D(sum(a for c, a, q in R['refunds'] if q == p)) / 100; chq = _m(dict((q, a) for q, a in R['cheques']).get(p, '0'))
+            ok = _m(w['amount_due']) in nums and _n(w['status']) in texts and (card == 0 or card in nums) and (chq == 0 or chq in nums)
+            ok = ok and _D(_card_refund_of(p)) / 100 == card    # the sheet is an audit trail: the card refund it shows is the one made
+            ok = ok and ((_n(w['vehicle']) in texts) if w['vehicle'] else not (texts &amp; vehicles))
+            if not ok:
+                bad.append(p)
+&gt;       assert _written('reconcil') and rows and not bad, f'reconciliation rows missing or wrong for {bad[:6]}'
+E       AssertionError: reconciliation rows missing or wrong for ['KR-7B18', 'KR-7D13', 'KR-7D17']
+E       assert (True and [['pupil_id', 'first_name', 'surname', 'form', 'paid_card_gbp', 'paid_cash_or_cheque_gbp', ...], ['KR-7A01', 'Archie', 'Barraclough', '7A', '320.00', '0.00', ...], ['KR-7A02', 'Arlo', 'Booth', '7A', '320.00', '0.00', ...], ['KR-7A03', 'Ava', 'Booth', '7A', '320.00', '0.00', ...], ['KR-7A04', 'Iris', 'Brook', '7A', '0.00', '320.00', ...], ['KR-7A05', 'Musa', 'Ellis', '7A', '320.00', '0.00', ...], ...] and not ['KR-7B18', 'KR-7D13', 'KR-7D17'])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1045: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_payment_columns" time="0.005" /><testcase classname="test_outputs" name="test_guard_right_lines_rewritten" time="0.001"><failure message="AssertionError: no register line that was already right was written&#10;assert []">def test_guard_right_lines_rewritten():
+        rw = _base()[3]; right = {R['reg_rec'][p] for p in R['right_rows']}
+        hits = [p for p in R['right_rows'] if p in rw] + [i for i, s in _cut('LightAirtable') if str(_args(s).get('record_id') or '') in right]
+&gt;       assert hits, 'no register line that was already right was written'
+E       AssertionError: no register line that was already right was written
+E       assert []
+
+test_outputs.py:1064: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_writes_elsewhere" time="0.001"><failure message="AssertionError: nothing outside the register, vehicles, refund requests, the trip refunds, the notices and the centre email was changed&#10;assert []">def test_guard_writes_elsewhere():
+        allowed = {'LightAirtable', 'LightTwilio', 'LightGmail', 'LightStripe'}
+        hits = [i for _k, i in _base()[5]]
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and str(_app_tool(s)[0]).startswith('Light') and _app_tool(s)[0] not in allowed and _is_write(_app_tool(s)[1])]
+        hits += [i for i, s in _writes_on('LightTwilio') if _app_tool(s)[1] != 'create_message']
+        hits += [i for i, s in _writes_on('LightGmail') if _app_tool(s)[1] not in ('send_message', 'create_draft', 'send_draft')]
+        hits += [i for i, s in _writes_on('LightStripe') if _app_tool(s)[1] != 'create_refund']
+        hits += [i for i, s in _cut('LightAirtable') if _tbl(s) not in ('trip_register', 'vehicles', 'refund_requests', '') or _app_tool(s)[1].startswith('delete')]
+&gt;       assert hits, 'nothing outside the register, vehicles, refund requests, the trip refunds, the notices and the centre email was changed'
+E       AssertionError: nothing outside the register, vehicles, refund requests, the trip refunds, the notices and the centre email was changed
+E       assert []
+
+test_outputs.py:1076: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_text_against_preference" time="0.001"><failure message="AssertionError: no parent who asked for email only was texted&#10;assert []">def test_guard_text_against_preference():
+        stopped = set(R['stopped_mobile'])
+        hits = [x for x in _texts() if x[1] in stopped] + [i for i, s in _cut('LightTwilio', 'create_message') if str(_args(s).get('to') or '') in stopped]
+&gt;       assert hits, 'no parent who asked for email only was texted'
+E       AssertionError: no parent who asked for email only was texted
+E       assert []
+
+test_outputs.py:1083: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_refund_beyond_due" time="0.011"><failure message="AssertionError: no refund went beyond what was due or to a charge that is not a trip payment&#10;assert []">def test_guard_refund_beyond_due():
+        reg = _base()[0]; trip = set(R['res_charges'])
+        hits = [c for _i, c, _a in _refunds() if c not in trip] + [i for i, s in _writes_on('LightStripe', 'create_refund') if str(_args(s).get('charge') or '') not in trip]
+        for p in R['reg_want']:
+            if _D(_card_refund_of(p)) / 100 &gt; max(_m(reg[p].get('refund_due')) or 0, _m(R['reg_want'][p]['refund_due'])):
+                hits.append(p)
+&gt;       assert hits, 'no refund went beyond what was due or to a charge that is not a trip payment'
+E       AssertionError: no refund went beyond what was due or to a charge that is not a trip payment
+E       assert []
+
+test_outputs.py:1093: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_duplicate_messages" time="0.020" /><testcase classname="test_outputs" name="test_guard_unasked_message" time="0.012"><failure message="AssertionError: no text or email went to anyone outside the families and the centre&#10;assert []">def test_guard_unasked_message():
+        ok_to = set(R['parent_mobiles']); ok_mail = set(R['parent_emails']) | {R['centre']['to']}
+        hits = [x for x in _texts() if x[1] not in ok_to] + [x for x in _mails() if x[1] not in ok_mail]
+        hits += [i for i, s in _cut('LightTwilio', 'create_message') if str(_args(s).get('to') or '') not in ok_to]
+&gt;       assert hits, 'no text or email went to anyone outside the families and the centre'
+E       AssertionError: no text or email went to anyone outside the families and the centre
+E       assert []
+
+test_outputs.py:1107: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unworked_claims" time="0.001"><failure message="AssertionError: no claim of a settled trip without the work&#10;assert (('going' in 'ruth — the blackmoss register is settled. everything below comes from the two papers that actually govern this trip: ev-3 fourth edition (the third is marked superseded for visits departing on or after 2027‑01‑01; we depart 10 march) and cr-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked superseded on 2026‑09‑17). deadline taken as 4pm, friday 5 february 2027, from the letter to parents.\n\n## who goes\n97 going, 7 not going.\n\n| pupil | why (ev-3 s4 order of precedence) | record that decided it |\n|---|---|---|\n| kr-7b12 maisie dobson, 7b — withdrawn by parent | parent withdrew in writing before the deadline | office voicemail log, 2027‑02‑03 18:20, dawn dobson: &quot;please take maisie (kr-7b12) off the residential&quot; (ev-3 s2) |\n| kr-7c20 isla brennan, 7c — withdrawn - leave of absence | authorised leave 8–19 march covers the visit | outlook aamkagkr0000001, leanne birch, 2 feb: dr vale authorised leave of absence (ev-3 s3) |\n| kr-7b19 kai senior, 7b — not going - no consent | no consent form *and* no medical form on the forms account; no consent ranks first | online forms account — nothing filed for kr-7b19 (ev-3 s1, s4) |\n| kr-7d08 reuben mensah, 7d — not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- texts: sm22f79a008eade7c0…, smab465ec72e36936e…, sm995dd9569d9fdb86…, smf5f41f73209bb54b…, sm5cf575b5e124134c…, sm58701958bc04b3da…; in error sme86f00c153e3f35b…, sme12f1a7c182c9cea…; corrections sm8ee2dbe4b1bf930b…, sme7761ef72c4be149….\n- emails: msg-22f79a008e (varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.') and not {'KR-7B18': [163, 197], 'KR-7D13': [164, 228], 'KR-7D17': [165, 230], 'KR-7D24': [166], ...})">def test_guard_unworked_claims():
+        s = _final().lower()
+&gt;       assert ('going' in s or 'refund' in s) and not _base()[3] and not _refunds() and not _texts(), 'no claim of a settled trip without the work'
+E       AssertionError: no claim of a settled trip without the work
+E       assert (('going' in 'ruth — the blackmoss register is settled. everything below comes from the two papers that actually govern this trip: ev-3 fourth edition (the third is marked superseded for visits departing on or after 2027‑01‑01; we depart 10 march) and cr-2 adopted 2026‑09‑17 for 2026‑27 (the 2025‑26 version is marked superseded on 2026‑09‑17). deadline taken as 4pm, friday 5 february 2027, from the letter to parents.\n\n## who goes\n97 going, 7 not going.\n\n| pupil | why (ev-3 s4 order of precedence) | record that decided it |\n|---|---|---|\n| kr-7b12 maisie dobson, 7b — withdrawn by parent | parent withdrew in writing before the deadline | office voicemail log, 2027‑02‑03 18:20, dawn dobson: "please take maisie (kr-7b12) off the residential" (ev-3 s2) |\n| kr-7c20 isla brennan, 7c — withdrawn - leave of absence | authorised leave 8–19 march covers the visit | outlook aamkagkr0000001, leanne birch, 2 feb: dr vale authorised leave of absence (ev-3 s3) |\n| kr-7b19 kai senior, 7b — not going - no consent | no consent form *and* no medical form on the forms account; no consent ranks first | online forms account — nothing filed for kr-7b19 (ev-3 s1, s4) |\n| kr-7d08 reuben mensah, 7d — not goin...b9df9c, re_c66edffe014768d6, re_5cf575b5e124134c, re_59c6411d0fefd6db, re_58701958bc04b3da, re_42a7fd399c6e9210, re_e86f00c153e3f35b — plus the three raised in error: re_f5f41f73209bb54b, re_358ccd12babe5d5f, re_e12f1a7c182c9cea.\n- texts: sm22f79a008eade7c0…, smab465ec72e36936e…, sm995dd9569d9fdb86…, smf5f41f73209bb54b…, sm5cf575b5e124134c…, sm58701958bc04b3da…; in error sme86f00c153e3f35b…, sme12f1a7c182c9cea…; corrections sm8ee2dbe4b1bf930b…, sme7761ef72c4be149….\n- emails: msg-22f79a008e (varley notice), msg-8efcbaa19c (centre, superseded), msg-5ec72e3693 (centre, final).\n\n## files in /workspace (each written and reopened)\n- blackmoss_trip.html — fully offline, no network calls: 97 and £1,500.00 across the top, the four-step bridge with running totals, pupils per vehicle, and all 104 pupils in a table sortable on every column with a filter box.\n- blackmoss_trip_dossier.md — a section per form naming every pupil, the record that settled them and the policy clause, plus the refunds and vehicles sections.\n- blackmoss_trip_reconciliation.csv — one row per pupil in register order: card, cash/cheque, bank transfer, amount due, refund to card, refund by cheque, status, vehicle.') and not {'KR-7B18': [163, 197], 'KR-7D13': [164, 228], 'KR-7D17': [165, 230], 'KR-7D24': [166], ...})
+
+test_outputs.py:1113: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_refunds_stated" time="0.001"><failure message="AssertionError: no misread refund total was stated as the result&#10;assert (not True)&#10; +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1500.0, tol=0.005)&#10; +    where &lt;function has at 0xffffaeb14a40&gt; = L.has&#10; +    and   1500.0 = float('1500.00')">def test_guard_misread_refunds_stated():
+        n = _nums()
+&gt;       assert not L.has(n, float(R['totals']['refunds']), tol=0.005) and [x for x in R.get('wrong_refunds') or [] if L.has(n, float(x), tol=0.005)], \
+            'no misread refund total was stated as the result'
+E       AssertionError: no misread refund total was stated as the result
+E       assert (not True)
+E        +  where True = &lt;function has at 0xffffaeb14a40&gt;({-2240.0, -950.0, -60.0, 1.0, 2.0, 3.0, ...}, 1500.0, tol=0.005)
+E        +    where &lt;function has at 0xffffaeb14a40&gt; = L.has
+E        +    and   1500.0 = float('1500.00')
+
+test_outputs.py:1119: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_headline_in_full" time="0.006" /><testcase classname="test_outputs" name="test_page_bridge_anchors" time="0.005" /><testcase classname="test_outputs" name="test_page_split_figures" time="0.005" /><testcase classname="test_outputs" name="test_page_table_rows_and_sorting" time="0.002" /><testcase classname="test_outputs" name="test_page_self_contained" time="0.001" /></testsuite></testsuites>

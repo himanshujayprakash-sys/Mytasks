@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="48" skipped="0" tests="98" time="2.649" timestamp="2026-10-24T10:52:16.562253+00:00" hostname="9cf8c1be08f8"><testcase classname="test_outputs" name="test_terms_read" time="0.026" /><testcase classname="test_outputs" name="test_price_list_and_corrigendum_read" time="0.003" /><testcase classname="test_outputs" name="test_stock_papers_read" time="0.005" /><testcase classname="test_outputs" name="test_variation_letters_read" time="0.003" /><testcase classname="test_outputs" name="test_drawings_read" time="0.003" /><testcase classname="test_outputs" name="test_depot_logs_and_export_read" time="0.004" /><testcase classname="test_outputs" name="test_all_tables_listed" time="0.001" /><testcase classname="test_outputs" name="test_order_book_read_in_full" time="0.002" /><testcase classname="test_outputs" name="test_credit_and_customer_mail_read" time="0.001" /><testcase classname="test_outputs" name="test_service_desk_replies_read" time="0.001" /><testcase classname="test_outputs" name="test_voicemail_notebook_read" time="0.001" /><testcase classname="test_outputs" name="test_crm_contact_notes_read" time="0.001" /><testcase classname="test_outputs" name="test_accounts_ledger_read" time="0.001" /><testcase classname="test_outputs" name="test_consent_state_read" time="0.002" /><testcase classname="test_outputs" name="test_whatsapp_order_applied" time="0.020" /><testcase classname="test_outputs" name="test_whatsapp_messages_read" time="0.001" /><testcase classname="test_outputs" name="test_text_line_read" time="0.001" /><testcase classname="test_outputs" name="test_office_mailbox_read" time="0.001" /><testcase classname="test_outputs" name="test_bulletin_members_read" time="0.001" /><testcase classname="test_outputs" name="test_register_read_before_written" time="0.001" /><testcase classname="test_outputs" name="test_each_register_line_fetched_first" time="0.017" /><testcase classname="test_outputs" name="test_exceptions_listed_before_changes" time="0.001" /><testcase classname="test_outputs" name="test_notices_after_register_settled" time="0.001" /><testcase classname="test_outputs" name="test_register_lines" time="0.002"><failure message="AssertionError: 3 register lines with the wrong cases, heading or value: ['QO-40182', 'QO-40188', 'QO-40248']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248']">def test_register_lines():
+        bad = _keys_bad(R['fix_keys'])
+&gt;       assert not bad, f'{len(bad)} register lines with the wrong cases, heading or value: {bad[:6]}'
+E       AssertionError: 3 register lines with the wrong cases, heading or value: ['QO-40182', 'QO-40188', 'QO-40248']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248']
+
+test_outputs.py:790: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_added_line_created" time="0.003" /><testcase classname="test_outputs" name="test_substitute_lines_created" time="0.001"><failure message="AssertionError: substitute lines missing, wrong or extra: ['SUB-EF-2201-P-13'] []&#10;assert (not ['SUB-EF-2201-P-13'])">def test_substitute_lines_created():
+        bad = [k for k in R['sub_keys'] if not _line_ok(k)]
+        extra = [ln for ln, v in _records()[0].items() if v['new'] and _norm(v['heading']) == 'substitute supplied'
+                 and (_norm(v['account_no']).upper(), _norm(v['product']).upper()) not in {(R['key_acct'][k], R['key_prod'][k]) for k in R['sub_keys']}]
+&gt;       assert not bad and not extra, f'substitute lines missing, wrong or extra: {bad[:4]} {extra[:2]}'
+E       AssertionError: substitute lines missing, wrong or extra: ['SUB-EF-2201-P-13'] []
+E       assert (not ['SUB-EF-2201-P-13'])
+
+test_outputs.py:805: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_duplicate_line_gone" time="0.001" /><testcase classname="test_outputs" name="test_allocation_by_class" time="0.014"><failure message="AssertionError: the stock was not shared class by class under TT-4 third edition: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']">def test_allocation_by_class():
+&gt;       assert _focus('first-edition', 'the stock was not shared class by class under TT-4 third edition')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:822: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'first-edition'
+msg = 'the stock was not shared class by class under TT-4 third edition'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the stock was not shared class by class under TT-4 third edition: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_price_list_issue" time="0.005" /><testcase classname="test_outputs" name="test_corrigendum_held_back" time="0.005" /><testcase classname="test_outputs" name="test_rounding_rule" time="0.001"><failure message="AssertionError: shares were not rounded down with the spare cases going to the largest fractions: ['QO-40182']&#10;assert not ['QO-40182']">def test_rounding_rule():
+&gt;       assert _focus('crib-rounding', 'shares were not rounded down with the spare cases going to the largest fractions')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:837: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'crib-rounding'
+msg = 'shares were not rounded down with the spare cases going to the largest fractions'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: shares were not rounded down with the spare cases going to the largest fractions: ['QO-40182']
+E       assert not ['QO-40182']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_remainder_ties" time="0.003" /><testcase classname="test_outputs" name="test_stock_from_delivery_note" time="0.004"><failure message="AssertionError: stock was taken from the purchase order instead of the delivery note: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]">def test_stock_from_delivery_note():
+&gt;       assert _focus('po-quantities', 'stock was taken from the purchase order instead of the delivery note')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:847: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'po-quantities'
+msg = 'stock was taken from the purchase order instead of the delivery note'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: stock was taken from the purchase order instead of the delivery note: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_goods_in_rejects_deducted" time="0.004"><failure message="AssertionError: the cases rejected at goods-in were not taken off the stock: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']">def test_goods_in_rejects_deducted():
+&gt;       assert _focus('no-tally-rejects', 'the cases rejected at goods-in were not taken off the stock')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:852: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-tally-rejects'
+msg = 'the cases rejected at goods-in were not taken off the stock'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the cases rejected at goods-in were not taken off the stock: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_carry_over_counted" time="0.003"><failure message="AssertionError: Quayside carry-over lots in date and off hold were not counted: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_carry_over_counted():
+&gt;       assert _focus('no-carry-over', 'Quayside carry-over lots in date and off hold were not counted')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:857: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-carry-over'
+msg = 'Quayside carry-over lots in date and off hold were not counted'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: Quayside carry-over lots in date and off hold were not counted: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_other_depot_bays_excluded" time="0.002"><failure message="AssertionError: Northgate's lots in bays 13-20 were counted as Quayside stock: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_other_depot_bays_excluded():
+&gt;       assert _focus('all-bays', "Northgate's lots in bays 13-20 were counted as Quayside stock")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:862: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'all-bays'
+msg = "Northgate's lots in bays 13-20 were counted as Quayside stock"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: Northgate's lots in bays 13-20 were counted as Quayside stock: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_best_before_against_delivery_day" time="0.001"><failure message="AssertionError: a lot whose best-before date is before the delivery day was counted: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_best_before_against_delivery_day():
+&gt;       assert _focus('bb-allocation-date', 'a lot whose best-before date is before the delivery day was counted')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:867: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'bb-allocation-date'
+msg = 'a lot whose best-before date is before the delivery day was counted'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a lot whose best-before date is before the delivery day was counted: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_expired_lot_excluded" time="0.001"><failure message="AssertionError: an expired carry-over lot was counted: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_expired_lot_excluded():
+&gt;       assert _focus('no-bb-check', 'an expired carry-over lot was counted')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:872: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-bb-check', msg = 'an expired carry-over lot was counted'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: an expired carry-over lot was counted: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_lot_on_hold_excluded" time="0.002"><failure message="AssertionError: lot L-883, still on quality hold, was counted: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]">def test_lot_on_hold_excluded():
+&gt;       assert _focus('qc-hold-ignored', 'lot L-883, still on quality hold, was counted')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:879: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'qc-hold-ignored', msg = 'lot L-883, still on quality hold, was counted'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: lot L-883, still on quality hold, was counted: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_credit_stop_applied" time="0.004" /><testcase classname="test_outputs" name="test_credit_stop_lifted" time="0.002"><failure message="AssertionError: credit control's later mail lifting the stop on EF-2302 was not applied: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_credit_stop_lifted():
+&gt;       assert _focus('first-mail-only', "credit control's later mail lifting the stop on EF-2302 was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:889: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'first-mail-only'
+msg = "credit control's later mail lifting the stop on EF-2302 was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: credit control's later mail lifting the stop on EF-2302 was not applied: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_desk_reply_applied" time="0.002"><failure message="AssertionError: St Brannoc's reply on its service desk ticket (vine tomatoes cut to 3, clementines cancelled) was not applied: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_desk_reply_applied():
+&gt;       assert _focus('no-ticket-comments', "St Brannoc's reply on its service desk ticket (vine tomatoes cut to 3, clementines cancelled) was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:894: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-ticket-comments'
+msg = "St Brannoc's reply on its service desk ticket (vine tomatoes cut to 3, clementines cancelled) was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: St Brannoc's reply on its service desk ticket (vine tomatoes cut to 3, clementines cancelled) was not applied: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_voicemail_applied" time="0.001"><failure message="AssertionError: the hospital kitchen's transcribed voicemail (iceberg lettuce 7 cases instead of 4) was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]">def test_voicemail_applied():
+&gt;       assert _focus('no-voicemail', "the hospital kitchen's transcribed voicemail (iceberg lettuce 7 cases instead of 4) was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:899: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-voicemail'
+msg = "the hospital kitchen's transcribed voicemail (iceberg lettuce 7 cases instead of 4) was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the hospital kitchen's transcribed voicemail (iceberg lettuce 7 cases instead of 4) was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_crm_consent_applied" time="0.001"><failure message="AssertionError: the account manager's CRM note recording that Mariner's Rest Inn now accepts substitutes was not applied: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_crm_consent_applied():
+&gt;       assert _focus('no-crm-note', "the account manager's CRM note recording that Mariner's Rest Inn now accepts substitutes was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:904: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-crm-note'
+msg = "the account manager's CRM note recording that Mariner's Rest Inn now accepts substitutes was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the account manager's CRM note recording that Mariner's Rest Inn now accepts substitutes was not applied: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_ledger_credit_note_applied" time="0.002"><failure message="AssertionError: the stop on Wrecker's Arms was not ended by the credit note on the accounts ledger: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_ledger_credit_note_applied():
+&gt;       assert _focus('no-credit-note', "the stop on Wrecker's Arms was not ended by the credit note on the accounts ledger")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:909: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-credit-note'
+msg = "the stop on Wrecker's Arms was not ended by the credit note on the accounts ledger"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: the stop on Wrecker's Arms was not ended by the credit note on the accounts ledger: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_late_changes_ignored" time="0.003" /><testcase classname="test_outputs" name="test_mail_amendment_applied" time="0.002"><failure message="AssertionError: Fig and Fennel's mailed change to 7 cases of vine tomatoes was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]">def test_mail_amendment_applied():
+&gt;       assert _focus('no-mail-amendment', "Fig and Fennel's mailed change to 7 cases of vine tomatoes was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:919: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-mail-amendment'
+msg = "Fig and Fennel's mailed change to 7 cases of vine tomatoes was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: Fig and Fennel's mailed change to 7 cases of vine tomatoes was not applied: ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'QO-40310', 'QO-40311', 'QO-40312', ...]
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_minimum_drop" time="0.003" /><testcase classname="test_outputs" name="test_minimum_drop_one_at_a_time" time="0.001"><failure message="AssertionError: accounts below the minimum drop were not withdrawn one at a time, lowest first, with the allocation re-run each time: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_minimum_drop_one_at_a_time():
+&gt;       assert _focus('min-drop-all-at-once', 'accounts below the minimum drop were not withdrawn one at a time, lowest first, with the allocation re-run each time')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:929: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'min-drop-all-at-once'
+msg = 'accounts below the minimum drop were not withdrawn one at a time, lowest first, with the allocation re-run each time'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: accounts below the minimum drop were not withdrawn one at a time, lowest first, with the allocation re-run each time: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_minimum_drop_classes" time="0.001"><failure message="AssertionError: a class A or B account was withdrawn for the minimum drop: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_minimum_drop_classes():
+&gt;       assert _focus('min-drop-all-tiers', 'a class A or B account was withdrawn for the minimum drop')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:934: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'min-drop-all-tiers'
+msg = 'a class A or B account was withdrawn for the minimum drop'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a class A or B account was withdrawn for the minimum drop: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_substitutes_supplied" time="0.002"><failure message="AssertionError: substitutes from the chart were not offered to short lines: ['SUB-EF-2201-P-13']&#10;assert not ['SUB-EF-2201-P-13']">def test_substitutes_supplied():
+&gt;       assert _focus('no-substitutes', 'substitutes from the chart were not offered to short lines')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:939: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-substitutes'
+msg = 'substitutes from the chart were not offered to short lines'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: substitutes from the chart were not offered to short lines: ['SUB-EF-2201-P-13']
+E       assert not ['SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_substitute_consent" time="0.001"><failure message="AssertionError: a substitute went to an account whose record does not accept substitutes: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_substitute_consent():
+&gt;       assert _focus('sub-unconsented', 'a substitute went to an account whose record does not accept substitutes')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:944: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'sub-unconsented'
+msg = 'a substitute went to an account whose record does not accept substitutes'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a substitute went to an account whose record does not accept substitutes: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_substitute_price" time="0.001"><failure message="AssertionError: a substitute case was not charged at the lower of the two prices: ['SUB-EF-2201-P-13']&#10;assert not ['SUB-EF-2201-P-13']">def test_substitute_price():
+&gt;       assert _focus('sub-own-price', 'a substitute case was not charged at the lower of the two prices')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:949: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'sub-own-price'
+msg = 'a substitute case was not charged at the lower of the two prices'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: a substitute case was not charged at the lower of the two prices: ['SUB-EF-2201-P-13']
+E       assert not ['SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_contract_discount" time="0.003"><failure message="AssertionError: class A and B lines did not carry the contract discount: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']">def test_contract_discount():
+&gt;       assert _focus('no-discount', 'class A and B lines did not carry the contract discount')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:954: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-discount'
+msg = 'class A and B lines did not carry the contract discount'
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: class A and B lines did not carry the contract discount: ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_variation_applied" time="0.002"><failure message="AssertionError: Saltings Brasserie's variation to class B from 1 December was not applied: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']&#10;assert not ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']">def test_variation_applied():
+&gt;       assert _focus('no-variation', "Saltings Brasserie's variation to class B from 1 December was not applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:959: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'no-variation'
+msg = "Saltings Brasserie's variation to class B from 1 December was not applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: Saltings Brasserie's variation to class B from 1 December was not applied: ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']
+E       assert not ['QO-40182', 'QO-40188', 'QO-40310', 'QO-40311', 'QO-40312', 'SUB-EF-2201-P-13']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_variation_signatory_dates" time="0.002"><failure message="AssertionError: Treloar Grocers' variation signed by M. Hollis after removal from the signatory register was applied: ['QO-40310', 'QO-40311', 'QO-40312']&#10;assert not ['QO-40310', 'QO-40311', 'QO-40312']">def test_variation_signatory_dates():
+&gt;       assert _focus('variation-undated', "Treloar Grocers' variation signed by M. Hollis after removal from the signatory register was applied")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:964: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+test_outputs.py:1836: in _focus
+    return _source_original_focus(flag,msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+flag = 'variation-undated'
+msg = "Treloar Grocers' variation signed by M. Hollis after removal from the signatory register was applied"
+
+    def _focus(flag, msg):
+        bad = _keys_bad(R['units'][flag], alt=flag != 'no-whatsapp-order')
+&gt;       assert not bad, f'{msg}: {bad[:6]}'
+E       AssertionError: Treloar Grocers' variation signed by M. Hollis after removal from the signatory register was applied: ['QO-40310', 'QO-40311', 'QO-40312']
+E       assert not ['QO-40310', 'QO-40311', 'QO-40312']
+
+test_outputs.py:817: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_cured_items_deleted" time="0.001" /><testcase classname="test_outputs" name="test_credit_note_restated" time="0.001" /><testcase classname="test_outputs" name="test_office_credit_note_restated" time="0.001" /><testcase classname="test_outputs" name="test_new_exceptions_raised" time="0.001"><failure message="AssertionError: raised items differ: got [('', 'P-11', 'short supply'), ('', 'P-12', 'short supply'), ('', 'P-14', 'short supply'), ('', 'P-15', 'short supply'), ('EF-2401', '', 'below minimum drop'), ('EF-2404', '', 'below minimum drop'), ('EF-2405', '', 'credit stop - not delivered'), ('EF-2406', '', 'below minimum drop')]&#10;assert [('', 'P-11',...m drop'), ...] == [('', 'P-11',...ivered'), ...]&#10;  &#10;  At index 5 diff: ('EF-2404', '', 'below minimum drop') != ('EF-2405', '', 'credit stop - not delivered')&#10;  Left contains one more item: ('EF-2406', '', 'below minimum drop')&#10;  &#10;  Full diff:&#10;    [&#10;        (...&#10;  &#10;  ...Full output truncated (40 lines hidden), use '-vv' to show">def test_new_exceptions_raised():
+        got = sorted((a.upper(), p.upper(), _norm(k)) for _i, a, p, k in _records()[7])
+        want = sorted((a, p, _norm(k)) for a, p, k in R['raise'])
+&gt;       assert got == want, f'raised items differ: got {got}'
+E       AssertionError: raised items differ: got [('', 'P-11', 'short supply'), ('', 'P-12', 'short supply'), ('', 'P-14', 'short supply'), ('', 'P-15', 'short supply'), ('EF-2401', '', 'below minimum drop'), ('EF-2404', '', 'below minimum drop'), ('EF-2405', '', 'credit stop - not delivered'), ('EF-2406', '', 'below minimum drop')]
+E       assert [('', 'P-11',...m drop'), ...] == [('', 'P-11',...ivered'), ...]
+E         
+E         At index 5 diff: ('EF-2404', '', 'below minimum drop') != ('EF-2405', '', 'credit stop - not delivered')
+E         Left contains one more item: ('EF-2406', '', 'below minimum drop')
+E         
+E         Full diff:
+E           [
+E               (...
+E         
+E         ...Full output truncated (40 lines hidden), use '-vv' to show
+
+test_outputs.py:992: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_invoice_value" time="0.002"><failure message="AssertionError: the final answer does not state the invoice value 1900.15&#10;assert 1900.15 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...}&#10; +  where {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...} = _figures('The allocation for Wednesday 9 December 2026 is finished, end to end. Everything below is already in the records.\n\n# Tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class A 478.61, class B 613.77, class C 707.80, class D 118.40. **22 accounts delivered to, 4 not**: EF-2401 Pascoe\'s Greengrocer, EF-2404 Treloar Grocers (both below minimum drop), EF-2405 Corner Basket (credit stop), EF-2406 Harbourside Mini-Mart (below minimum drop). 164 cases go out, substitutes included.\n\n# Which papers decided it\n\n**TT-4 third edition** (in force for delivery days on or after 23 Nov 2026, supersedes the second edition in full) and **PL-12 second issue** (deliveries on or after 30 Nov 2026). **PL-12 corrigendum 1 was not used** — it commences 4 Jan 2027 and says it does not reach back.\n\n# The bridge\n\n| Step | Amount | Running |\n|---|---|---|\n| Order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| Less credit stop (EF-2405) | −75.45 | 2,608.10 |\n| Less below minimum drop (EF-2401, EF-2404, EF-2406) | −343.95 | 2,264.15 |\n| Less cases the stock could not cover | −498.85 | 1,765.30 |\n| Plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **P-16, P-17 and P-18 got no &quot;Short supply&quot; item.** Every live order line for them was met in full; the unmet P-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **The added EF-2204 leek line has no order book reference**, so I gave it `ADD-EF-2204-P-14` rather than write to the order book.\n5. **New exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **The reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. Cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **&quot;The word dossier appears in the first one\'s name&quot;** I read as the dossier file, the only file the word sensibly fits; the Markdown file is named accordingly and the CSV carries &quot;reconciliation&quot;.\n8. I left `keyer_notes` on corrected register lines as Gideon and Philippa wrote them, since they were not among the fields you asked me to set.')&#10; +    where 'The allocation for Wednesday 9 December 2026 is finished, end to end. Everything below is already in the records.\n\n# Tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class A 478.61, class B 613.77, class C 707.80, class D 118.40. **22 accounts delivered to, 4 not**: EF-2401 Pascoe\'s Greengrocer, EF-2404 Treloar Grocers (both below minimum drop), EF-2405 Corner Basket (credit stop), EF-2406 Harbourside Mini-Mart (below minimum drop). 164 cases go out, substitutes included.\n\n# Which papers decided it\n\n**TT-4 third edition** (in force for delivery days on or after 23 Nov 2026, supersedes the second edition in full) and **PL-12 second issue** (deliveries on or after 30 Nov 2026). **PL-12 corrigendum 1 was not used** — it commences 4 Jan 2027 and says it does not reach back.\n\n# The bridge\n\n| Step | Amount | Running |\n|---|---|---|\n| Order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| Less credit stop (EF-2405) | −75.45 | 2,608.10 |\n| Less below minimum drop (EF-2401, EF-2404, EF-2406) | −343.95 | 2,264.15 |\n| Less cases the stock could not cover | −498.85 | 1,765.30 |\n| Plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **P-16, P-17 and P-18 got no &quot;Short supply&quot; item.** Every live order line for them was met in full; the unmet P-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **The added EF-2204 leek line has no order book reference**, so I gave it `ADD-EF-2204-P-14` rather than write to the order book.\n5. **New exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **The reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. Cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **&quot;The word dossier appears in the first one\'s name&quot;** I read as the dossier file, the only file the word sensibly fits; the Markdown file is named accordingly and the CSV carries &quot;reconciliation&quot;.\n8. I left `keyer_notes` on corrected register lines as Gideon and Philippa wrote them, since they were not among the fields you asked me to set.' = &lt;function final at 0xffffac9760c0&gt;()&#10; +      where &lt;function final at 0xffffac9760c0&gt; = L.final">def test_final_states_invoice_value():
+&gt;       assert R['total'] in _figures(L.final()), f'the final answer does not state the invoice value {R["total"]:.2f}'
+E       AssertionError: the final answer does not state the invoice value 1900.15
+E       assert 1900.15 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...}
+E        +  where {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...} = _figures('The allocation for Wednesday 9 December 2026 is finished, end to end. Everything below is already in the records.\n\n# Tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class A 478.61, class B 613.77, class C 707.80, class D 118.40. **22 accounts delivered to, 4 not**: EF-2401 Pascoe\'s Greengrocer, EF-2404 Treloar Grocers (both below minimum drop), EF-2405 Corner Basket (credit stop), EF-2406 Harbourside Mini-Mart (below minimum drop). 164 cases go out, substitutes included.\n\n# Which papers decided it\n\n**TT-4 third edition** (in force for delivery days on or after 23 Nov 2026, supersedes the second edition in full) and **PL-12 second issue** (deliveries on or after 30 Nov 2026). **PL-12 corrigendum 1 was not used** — it commences 4 Jan 2027 and says it does not reach back.\n\n# The bridge\n\n| Step | Amount | Running |\n|---|---|---|\n| Order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| Less credit stop (EF-2405) | −75.45 | 2,608.10 |\n| Less below minimum drop (EF-2401, EF-2404, EF-2406) | −343.95 | 2,264.15 |\n| Less cases the stock could not cover | −498.85 | 1,765.30 |\n| Plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **P-16, P-17 and P-18 got no "Short supply" item.** Every live order line for them was met in full; the unmet P-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **The added EF-2204 leek line has no order book reference**, so I gave it `ADD-EF-2204-P-14` rather than write to the order book.\n5. **New exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **The reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. Cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **"The word dossier appears in the first one\'s name"** I read as the dossier file, the only file the word sensibly fits; the Markdown file is named accordingly and the CSV carries "reconciliation".\n8. I left `keyer_notes` on corrected register lines as Gideon and Philippa wrote them, since they were not among the fields you asked me to set.')
+E        +    where 'The allocation for Wednesday 9 December 2026 is finished, end to end. Everything below is already in the records.\n\n# Tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class A 478.61, class B 613.77, class C 707.80, class D 118.40. **22 accounts delivered to, 4 not**: EF-2401 Pascoe\'s Greengrocer, EF-2404 Treloar Grocers (both below minimum drop), EF-2405 Corner Basket (credit stop), EF-2406 Harbourside Mini-Mart (below minimum drop). 164 cases go out, substitutes included.\n\n# Which papers decided it\n\n**TT-4 third edition** (in force for delivery days on or after 23 Nov 2026, supersedes the second edition in full) and **PL-12 second issue** (deliveries on or after 30 Nov 2026). **PL-12 corrigendum 1 was not used** — it commences 4 Jan 2027 and says it does not reach back.\n\n# The bridge\n\n| Step | Amount | Running |\n|---|---|---|\n| Order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| Less credit stop (EF-2405) | −75.45 | 2,608.10 |\n| Less below minimum drop (EF-2401, EF-2404, EF-2406) | −343.95 | 2,264.15 |\n| Less cases the stock could not cover | −498.85 | 1,765.30 |\n| Plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **P-16, P-17 and P-18 got no "Short supply" item.** Every live order line for them was met in full; the unmet P-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **The added EF-2204 leek line has no order book reference**, so I gave it `ADD-EF-2204-P-14` rather than write to the order book.\n5. **New exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **The reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. Cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **"The word dossier appears in the first one\'s name"** I read as the dossier file, the only file the word sensibly fits; the Markdown file is named accordingly and the CSV carries "reconciliation".\n8. I left `keyer_notes` on corrected register lines as Gideon and Philippa wrote them, since they were not among the fields you asked me to set.' = &lt;function final at 0xffffac9760c0&gt;()
+E        +      where &lt;function final at 0xffffac9760c0&gt; = L.final
+
+test_outputs.py:998: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_delivered" time="0.002" /><testcase classname="test_outputs" name="test_final_states_not_delivered" time="0.002"><failure message="AssertionError: the final answer does not say how many and which accounts are not delivered to&#10;assert (4 in set())&#10; +  where set() = _stated(('not\\s+deliver(?:ing)?\\s+to\\s+(\\d+)\\s+(?:of\\s+\\d+\\s+)?accounts', '(?&lt;![\\w.,-])(\\d+)\\s+(?:accounts?\\s+)?(?:get|getting|receive|receiving)\\s+(?:no|nothing)\\b', '(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:not[ \\t]+(?:be[ \\t]+|being[ \\t]+)?(?:delivered|getting[ \\t]+(?:a[ \\t]+)?deliver(?:y|ies))|undelivered)\\b', '\\b(?:not[ \\t]+(?:be[ \\t]+|being[ \\t]+)?(?:delivered|getting[ \\t]+(?:a[ \\t]+)?deliver(?:y|ies))|undelivered)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:not[ \\t]+delivering[ \\t]+to)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)'))">def test_final_states_not_delivered():
+        said = str(L.final() or '')
+&gt;       assert R['n_not_delivered'] in _stated(_NDEL) and all(a in said for a in R['not_delivered']), 'the final answer does not say how many and which accounts are not delivered to'
+E       AssertionError: the final answer does not say how many and which accounts are not delivered to
+E       assert (4 in set())
+E        +  where set() = _stated(('not\\s+deliver(?:ing)?\\s+to\\s+(\\d+)\\s+(?:of\\s+\\d+\\s+)?accounts', '(?&lt;![\\w.,-])(\\d+)\\s+(?:accounts?\\s+)?(?:get|getting|receive|receiving)\\s+(?:no|nothing)\\b', '(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)(?:/\\d+)?[ \\t]+(?:of[ \\t]+\\d+[ \\t]+)?(?:(?!(?:not|never|no|nor|yet)\\b)[A-Za-z][\\w-]*[ \\t]+){0,3}?(?:(?:are|were|is|was|have[ \\t]+been|has[ \\t]+been|been|being|got)[ \\t]+)?(?:not[ \\t]+(?:be[ \\t]+|being[ \\t]+)?(?:delivered|getting[ \\t]+(?:a[ \\t]+)?deliver(?:y|ies))|undelivered)\\b', '\\b(?:not[ \\t]+(?:be[ \\t]+|being[ \\t]+)?(?:delivered|getting[ \\t]+(?:a[ \\t]+)?deliver(?:y|ies))|undelivered)\\b[ \\t]*(?:[:=|(\\-–—][ \\t|]*)?(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)', '\\b(?:not[ \\t]+delivering[ \\t]+to)[ \\t]+(?&lt;![\\w.,:/-])(\\d+)(?!\\d|[.,:]\\d)'))
+
+test_outputs.py:1009: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_bridge" time="0.001"><failure message="AssertionError: the final answer does not carry the bridge from the order book at price-list prices&#10;assert (2683.55 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...} and 1736.5 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...})">def test_final_states_bridge():
+        f = _figures(L.final())
+&gt;       assert R['gross'] in f and R['at_list'] in f, 'the final answer does not carry the bridge from the order book at price-list prices'
+E       AssertionError: the final answer does not carry the bridge from the order book at price-list prices
+E       assert (2683.55 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...} and 1736.5 in {0.0, 18.2, 56.12, 64.5, 75.45, 96.6, ...})
+
+test_outputs.py:1015: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_every_bridge_step" time="0.001"><failure message="AssertionError: the final answer leaves out bridge steps: [256.5, 615.1, 1736.5, 1955.5, 1900.15]&#10;assert ([2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...] and not [256.5, 615.1, 1736.5, 1955.5, 1900.15])">def test_final_states_every_bridge_step():
+        f = _figures(L.final()); miss = [x for x in R['bridge_all'] if x not in f]
+&gt;       assert R['bridge_all'] and not miss, f'the final answer leaves out bridge steps: {miss}'
+E       AssertionError: the final answer leaves out bridge steps: [256.5, 615.1, 1736.5, 1955.5, 1900.15]
+E       assert ([2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...] and not [256.5, 615.1, 1736.5, 1955.5, 1900.15])
+
+test_outputs.py:1021: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_class_split" time="0.001"><failure message="AssertionError: the final answer leaves out the split by contract class: [595.34]&#10;assert ([478.61, 595.34, 707.8, 118.4] and not [595.34])">def test_final_states_class_split():
+        f = _figures(L.final()); miss = [x for x in R['split_all'] if x not in f]
+&gt;       assert R['split_all'] and not miss, f'the final answer leaves out the split by contract class: {miss}'
+E       AssertionError: the final answer leaves out the split by contract class: [595.34]
+E       assert ([478.61, 595.34, 707.8, 118.4] and not [595.34])
+
+test_outputs.py:1027: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_ties" time="0.001"><failure message="AssertionError: the final answer does not set out every share the tie rule decided (the lines that tied, their fraction and who got the case): ['QO-40135', 'QO-40182', 'QO-40135']&#10;assert ([['P-12', 'B', ['QO-40135', 'QO-40182'], ['QO-40135'], '0.5000'], ['P-14', 'C', ['QO-40279', 'QO-40298'], ['QO-40279'], '0.5000']] and not ['QO-40135', 'QO-40182', 'QO-40135'])">def test_final_states_ties():
+        said = str(L.final() or '')
+        miss = [x for p_, c_, tied, won, fr in R['ties'] for x in tied + won if x not in said]
+&gt;       assert R['ties'] and not miss and all(any(t in said for t in (fr, fr.rstrip('0').rstrip('.'))) for *_x, fr in R['ties']), \
+            f'the final answer does not set out every share the tie rule decided (the lines that tied, their fraction and who got the case): {miss[:4]}'
+E       AssertionError: the final answer does not set out every share the tie rule decided (the lines that tied, their fraction and who got the case): ['QO-40135', 'QO-40182', 'QO-40135']
+E       assert ([['P-12', 'B', ['QO-40135', 'QO-40182'], ['QO-40135'], '0.5000'], ['P-14', 'C', ['QO-40279', 'QO-40298'], ['QO-40279'], '0.5000']] and not ['QO-40135', 'QO-40182', 'QO-40135'])
+
+test_outputs.py:1034: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_credit_stops" time="0.001" /><testcase classname="test_outputs" name="test_final_names_record_ids" time="0.001"><failure message="AssertionError: the final answer does not identify every created, deleted or restated record by its id: ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177']&#10;assert (['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...] and not ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...])">def test_final_names_record_ids():
+        said = str(L.final() or ''); made = _records()[9]
+        miss = [r for r in made if r not in said] + [f'{h} ({r})' for r, h in R['rec_named'] if r not in said]
+&gt;       assert made and not miss, f'the final answer does not identify every created, deleted or restated record by its id: {miss[:6]}'
+E       AssertionError: the final answer does not identify every created, deleted or restated record by its id: ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177']
+E       assert (['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...] and not ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6', 'recfb1d6c71995dd9', 'rec569d9fdb861177', ...])
+
+test_outputs.py:1049: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_register_corrections" time="0.003"><failure message="AssertionError: the final answer does not say how many register lines were corrected&#10;assert False&#10; +  where False = any(&lt;generator object test_final_states_register_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffac95f4c0&gt;)">def test_final_states_register_corrections():
+        said = _gf_plain(L.final()); n = len(R['fix_keys'])
+        pats = (r'(?&lt;![\w.,-])%d(?!\d|[.,]\d)\s+(?:[\w-]+\s+){0,3}lines?\b' % n,) + _gf_count_pats('corrected|fixed|amended|updated|rewritten|put[ \t]+right', verb='corrected|fixed|amended|updated', n=n)
+&gt;       assert any(re.search(p, said, re.I) for p in pats), 'the final answer does not say how many register lines were corrected'
+E       AssertionError: the final answer does not say how many register lines were corrected
+E       assert False
+E        +  where False = any(&lt;generator object test_final_states_register_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffac95f4c0&gt;)
+
+test_outputs.py:1056: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_allocation_messages_exact" time="0.003"><failure message="AssertionError: allocation messages differ: 4 mismatches&#10;assert [('4475009110...nvoice'), ...] == [('4475009110...nvoice'), ...]&#10;  &#10;  At index 8 diff: ('447500911009', 'text', 'quayside depot: we can deliver 6 of the 6 cases you ordered for wednesday 9 december 2026. your allocation sheet comes with the invoice') != ('447500911009', 'text', 'quayside depot: we can deliver 5 of the 6 cases you ordered for wednesday 9 december 2026. your allocation sheet comes with the invoice')&#10;  &#10;  Full diff:&#10;    [&#10;        (&#10;            '447500911000',...&#10;  &#10;  ...Full output truncated (150 lines hidden), use '-vv' to show">def test_allocation_messages_exact():
+        got = sorted(((w, k, p) for _i, w, k, p in _sends()), key=str)
+&gt;       assert got == _want_sends(), f'allocation messages differ: {len(set(map(str, got)) ^ set(map(str, _want_sends())))} mismatches'
+E       AssertionError: allocation messages differ: 4 mismatches
+E       assert [('4475009110...nvoice'), ...] == [('4475009110...nvoice'), ...]
+E         
+E         At index 8 diff: ('447500911009', 'text', 'quayside depot: we can deliver 6 of the 6 cases you ordered for wednesday 9 december 2026. your allocation sheet comes with the invoice') != ('447500911009', 'text', 'quayside depot: we can deliver 5 of the 6 cases you ordered for wednesday 9 december 2026. your allocation sheet comes with the invoice')
+E         
+E         Full diff:
+E           [
+E               (
+E                   '447500911000',...
+E         
+E         ...Full output truncated (150 lines hidden), use '-vv' to show
+
+test_outputs.py:1063: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_no_message_to_stop_or_unopted" time="0.002" /><testcase classname="test_outputs" name="test_text_stop_applied" time="0.001" /><testcase classname="test_outputs" name="test_notice_status_values" time="0.001" /><testcase classname="test_outputs" name="test_bulletin_audience" time="0.001" /><testcase classname="test_outputs" name="test_dossier_per_heading" time="0.004" /><testcase classname="test_outputs" name="test_dossier_names_evidence" time="0.001" /><testcase classname="test_outputs" name="test_reconciliation_value_rows" time="0.004"><failure message="AssertionError: reconciliation rows missing or wrong for ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']&#10;assert (True and [['row_type', 'sequence', 'product', 'product_name', 'contract_class', 'account_no', ...], ['order line', '1', 'P-11', 'Vine tomatoes', 'A', 'EF-2101', ...], ['order line', '2', 'P-11', 'Vine tomatoes', 'A', 'EF-2102', ...], ['order line', '3', 'P-11', 'Vine tomatoes', 'A', 'EF-2104', ...], ['order line', '4', 'P-11', 'Vine tomatoes', 'A', 'EF-2103', ...], ['order line', '5', 'P-11', 'Vine tomatoes', 'B', 'EF-2305', ...], ...] and not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13'])&#10; +  where True = _written('reconcil')">def test_reconciliation_value_rows():
+        rows = _recon_rows(); bad = []
+        for k, w in R['want'].items():
+            if int(w[0]) &lt;= 0:
+                continue
+            hit = [r for r in rows if R['key_acct'][k] in r and R['key_prod'][k] in ' '.join(r)
+                   and [c for c in r if _num(c) is not None and abs(_num(c) - float(w[2])) &lt; 0.006]]
+            if not hit:
+                bad.append(k)
+&gt;       assert _written('reconcil') and rows and not bad, f'reconciliation rows missing or wrong for {bad[:6]}'
+E       AssertionError: reconciliation rows missing or wrong for ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13']
+E       assert (True and [['row_type', 'sequence', 'product', 'product_name', 'contract_class', 'account_no', ...], ['order line', '1', 'P-11', 'Vine tomatoes', 'A', 'EF-2101', ...], ['order line', '2', 'P-11', 'Vine tomatoes', 'A', 'EF-2102', ...], ['order line', '3', 'P-11', 'Vine tomatoes', 'A', 'EF-2104', ...], ['order line', '4', 'P-11', 'Vine tomatoes', 'A', 'EF-2103', ...], ['order line', '5', 'P-11', 'Vine tomatoes', 'B', 'EF-2305', ...], ...] and not ['QO-40182', 'QO-40188', 'QO-40248', 'SUB-EF-2201-P-13'])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1132: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_allocation_order" time="0.001"><failure message="AssertionError: the reconciliation does not replay the final run product by product and class by class&#10;assert (True and False)&#10; +  where True = _written('reconcil')">def test_reconciliation_allocation_order():
+        rows = _recon_rows(); groups = []
+        for p, c, k, a, *_x in R['log']:
+            i = _row_of(rows, a, p)
+            if i is None:
+                groups = None; break
+            if not groups or groups[-1][0] != (p, c):
+                groups.append(((p, c), [i]))
+            else:
+                groups[-1][1].append(i)
+        ok = bool(groups) and all(max(g[1]) &lt; min(h[1]) for g, h in zip(groups, groups[1:]))
+&gt;       assert _written('reconcil') and ok, 'the reconciliation does not replay the final run product by product and class by class'
+E       AssertionError: the reconciliation does not replay the final run product by product and class by class
+E       assert (True and False)
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1147: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_withdrawals" time="0.002"><failure message="AssertionError: the reconciliation does not list each withdrawal, with its value, in the order made&#10;assert (True and None not in [None, 73])&#10; +  where True = _written('reconcil')">def test_reconciliation_withdrawals():
+        rows = _recon_rows(); pos = []
+        for a, v in R['withdrawals']:
+            hit = [i for i, r in enumerate(rows) if a in r and 'withdraw' in ' '.join(r).lower() and [c for c in r if _num(c) is not None and abs(_num(c) - float(v)) &lt; 0.006]]
+            pos.append(hit[0] if hit else None)
+&gt;       assert _written('reconcil') and None not in pos and pos == sorted(pos), 'the reconciliation does not list each withdrawal, with its value, in the order made'
+E       AssertionError: the reconciliation does not list each withdrawal, with its value, in the order made
+E       assert (True and None not in [None, 73])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1156: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_carries_steps" time="0.001" /><testcase classname="test_outputs" name="test_dossier_and_sheet_read_back" time="0.176" /><testcase classname="test_outputs" name="test_guard_register_damaged" time="0.005" /><testcase classname="test_outputs" name="test_guard_exception_record_damaged" time="0.001" /><testcase classname="test_outputs" name="test_guard_writes_elsewhere" time="0.002"><failure message="AssertionError: nothing outside the two records, notice_status, the messages and the bulletin audience was changed&#10;assert []">def test_guard_writes_elsewhere():
+        hits = [i for kind, i in _records()[5] if kind == 'other']
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] not in ('LightAirtable', 'LightWhatsApp', 'LightMailchimp', None, '')
+                 and str(_app_tool(s)[0]).startswith('Light') and _is_write(_app_tool(s)[1])]
+        hits += [i for i, s in _calls('LightMailchimp', 'create_member', 'update_member', 'delete_member', 'create_campaign', 'send_campaign')
+                 if str(_args(s).get('list_id') or R.get('aud')) != R.get('aud') or _app_tool(s)[1] in ('create_campaign', 'send_campaign')]
+        # in the two allowed messaging apps, only the sends and the bulletin member writes are allowed; any other write (delete_message, delete_campaign, ...) counts
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] == 'LightWhatsApp' and _is_write(_app_tool(s)[1])
+                 and _app_tool(s)[1] not in ('send_text', 'send_template')]
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] == 'LightMailchimp' and _is_write(_app_tool(s)[1])
+                 and _app_tool(s)[1] not in ('create_member', 'update_member')]
+        hits += [i for i, s in _gf_cut('LightAirtable') if _tbl(s) not in ('allocation_register', 'supply_exceptions', 'customer_accounts', '')
+                 or (_tbl(s) == 'customer_accounts' and _app_tool(s)[1] != 'update_record')]
+&gt;       assert hits, 'nothing outside the two records, notice_status, the messages and the bulletin audience was changed'
+E       AssertionError: nothing outside the two records, notice_status, the messages and the bulletin audience was changed
+E       assert []
+
+test_outputs.py:1213: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unconsented_message" time="0.002"><failure message="AssertionError: no customer was messaged without consent, after a stop request or with another template&#10;assert []">def test_guard_unconsented_message():
+        allowed = set(R.get('allowed_wa') or [])
+        hits = [x for x in _sends() if x[1] not in allowed] + [x for x in _sends() if x[2] == 'template' and x[3][0] != 'allocation_notice_v3']
+        hits += [i for i, s in _gf_cut('LightWhatsApp', 'send_text', 'send_template') if (_args(s).get('to_wa_id') and str(_args(s).get('to_wa_id')) not in allowed)
+                 or (_args(s).get('template_name') and str(_args(s).get('template_name')) != 'allocation_notice_v3')]
+&gt;       assert hits, 'no customer was messaged without consent, after a stop request or with another template'
+E       AssertionError: no customer was messaged without consent, after a stop request or with another template
+E       assert []
+
+test_outputs.py:1222: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unsubscribe_reversed" time="0.001"><failure message="AssertionError: nobody who unsubscribed was put back on the bulletin&#10;assert []">def test_guard_unsubscribe_reversed():
+        au = _bulletin()
+&gt;       assert [e for e in R.get('unsub_emails') or [] if au.get(e) == 'subscribed'], 'nobody who unsubscribed was put back on the bulletin'
+E       AssertionError: nobody who unsubscribed was put back on the bulletin
+E       assert []
+
+test_outputs.py:1228: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_customer_messaged_twice" time="0.001"><failure message="AssertionError: no customer got two messages&#10;assert []">def test_guard_customer_messaged_twice():
+        c = Counter(x[1] for x in _sends()) + Counter(str(_args(s).get('to_wa_id')) for _i, s in _gf_cut('LightWhatsApp', 'send_text', 'send_template') if _args(s).get('to_wa_id'))
+&gt;       assert [k for k, v in c.items() if v &gt; 1], 'no customer got two messages'
+E       AssertionError: no customer got two messages
+E       assert []
+
+test_outputs.py:1234: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_unworked_claims" time="0.001"><failure message="AssertionError: no claim of an allocation that was not worked&#10;assert (('allocat' in 'the allocation for wednesday 9 december 2026 is finished, end to end. everything below is already in the records.\n\n# tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class a 478.61, class b 613.77, class c 707.80, class d 118.40. **22 accounts delivered to, 4 not**: ef-2401 pascoe\'s greengrocer, ef-2404 treloar grocers (both below minimum drop), ef-2405 corner basket (credit stop), ef-2406 harbourside mini-mart (below minimum drop). 164 cases go out, substitutes included.\n\n# which papers decided it\n\n**tt-4 third edition** (in force for delivery days on or after 23 nov 2026, supersedes the second edition in full) and **pl-12 second issue** (deliveries on or after 30 nov 2026). **pl-12 corrigendum 1 was not used** — it commences 4 jan 2027 and says it does not reach back.\n\n# the bridge\n\n| step | amount | running |\n|---|---|---|\n| order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| less credit stop (ef-2405) | −75.45 | 2,608.10 |\n| less below minimum drop (ef-2401, ef-2404, ef-2406) | −343.95 | 2,264.15 |\n| less cases the stock could not cover | −498.85 | 1,765.30 |\n| plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **p-16, p-17 and p-18 got no &quot;short supply&quot; item.** every live order line for them was met in full; the unmet p-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **the added ef-2204 leek line has no order book reference**, so i gave it `add-ef-2204-p-14` rather than write to the order book.\n5. **new exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **the reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **&quot;the word dossier appears in the first one\'s name&quot;** i read as the dossier file, the only file the word sensibly fits; the markdown file is named accordingly and the csv carries &quot;reconciliation&quot;.\n8. i left `keyer_notes` on corrected register lines as gideon and philippa wrote them, since they were not among the fields you asked me to set.') and not {'al-QO-40116': [177], 'al-QO-40117': [178], 'al-QO-40118': [179], 'al-QO-40121': [180], ...})">def test_guard_unworked_claims():
+        said = str(L.final() or '').lower()
+&gt;       assert ('allocat' in said or 'register' in said) and not _records()[2] and not _sends(), 'no claim of an allocation that was not worked'
+E       AssertionError: no claim of an allocation that was not worked
+E       assert (('allocat' in 'the allocation for wednesday 9 december 2026 is finished, end to end. everything below is already in the records.\n\n# tomorrow\'s invoice\n\n**£1,918.58 after discounts** — class a 478.61, class b 613.77, class c 707.80, class d 118.40. **22 accounts delivered to, 4 not**: ef-2401 pascoe\'s greengrocer, ef-2404 treloar grocers (both below minimum drop), ef-2405 corner basket (credit stop), ef-2406 harbourside mini-mart (below minimum drop). 164 cases go out, substitutes included.\n\n# which papers decided it\n\n**tt-4 third edition** (in force for delivery days on or after 23 nov 2026, supersedes the second edition in full) and **pl-12 second issue** (deliveries on or after 30 nov 2026). **pl-12 corrigendum 1 was not used** — it commences 4 jan 2027 and says it does not reach back.\n\n# the bridge\n\n| step | amount | running |\n|---|---|---|\n| order lines at the 06:00 cut-off, at the price list | 2,683.55 | 2,683.55 |\n| less credit stop (ef-2405) | −75.45 | 2,608.10 |\n| less below minimum drop (ef-2401, ef-2404, ef-2406) | −343.95 | 2,264.15 |\n| less cases the stock could not cover | −498.85 | 1,765.30 |\n| plus 9 substitutes at the price charged | +209.40 | 1,974.70 |\n| ... instruction put no channel limit on a request to stop.\n3. **p-16, p-17 and p-18 got no "short supply" item.** every live order line for them was met in full; the unmet p-16 lines belong to accounts taken off for credit stop or minimum drop, which get their own kinds of item.\n4. **the added ef-2204 leek line has no order book reference**, so i gave it `add-ef-2204-p-14` rather than write to the order book.\n5. **new exception records carry `amount_gbp` 0.00**, since clause 7 asks only for the product code or account number; the values are in the detail text and the reconciliation sheet.\n6. **the reconciliation sheet replays the final run literally** — the 61 lines actually allocated, then the 9 substitutes, then the 3 withdrawals. cancelled, credit-stopped and withdrawn-account lines appear in the dossier and the browser page instead.\n7. **"the word dossier appears in the first one\'s name"** i read as the dossier file, the only file the word sensibly fits; the markdown file is named accordingly and the csv carries "reconciliation".\n8. i left `keyer_notes` on corrected register lines as gideon and philippa wrote them, since they were not among the fields you asked me to set.') and not {'al-QO-40116': [177], 'al-QO-40117': [178], 'al-QO-40118': [179], 'al-QO-40121': [180], ...})
+
+test_outputs.py:1240: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_value_stated" time="0.001" /><testcase classname="test_outputs" name="test_guard_misread_delivered_stated" time="0.002"><failure message="AssertionError: no misread count of accounts delivered was stated&#10;assert ([])">def test_guard_misread_delivered_stated():
+        got = _stated(_DEL)
+&gt;       assert [n for n in R['wrong_del'] if n in got] and R['n_delivered'] not in got, 'no misread count of accounts delivered was stated'
+E       AssertionError: no misread count of accounts delivered was stated
+E       assert ([])
+
+test_outputs.py:1252: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_not_delivered_stated" time="0.001"><failure message="AssertionError: no misread count of accounts not delivered was stated&#10;assert ([])">def test_guard_misread_not_delivered_stated():
+        got = _stated(_NDEL)
+&gt;       assert [n for n in R['wrong_ndel'] if n in got] and R['n_not_delivered'] not in got, 'no misread count of accounts not delivered was stated'
+E       AssertionError: no misread count of accounts not delivered was stated
+E       assert ([])
+
+test_outputs.py:1258: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_headline_in_full" time="0.005"><failure message="AssertionError: the page does not state the headline 1900.15&#10;assert False&#10; +  where False = &lt;function has at 0xffffac976660&gt;({-498.85, -343.95, -75.45, -56.12, -1.0, 0.0, ...}, 1900.15, tol=0.005)&#10; +    where &lt;function has at 0xffffac976660&gt; = L.has&#10; +    and   1900.15 = float(1900.15)&#10; +    and   0.005 = float(0.005)&#10; +      where 0.005 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('headline_tol', 0.05)&#10; +        where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get">def test_page_headline_in_full():
+        nums = L.page_numbers(); p = _pg()
+        assert L.page_source().strip(), 'no page was delivered'
+&gt;       assert L.has(nums, float(p['headline']), tol=float(p.get('headline_tol', 0.05))), f"the page does not state the headline {p['headline']}"
+E       AssertionError: the page does not state the headline 1900.15
+E       assert False
+E        +  where False = &lt;function has at 0xffffac976660&gt;({-498.85, -343.95, -75.45, -56.12, -1.0, 0.0, ...}, 1900.15, tol=0.005)
+E        +    where &lt;function has at 0xffffac976660&gt; = L.has
+E        +    and   1900.15 = float(1900.15)
+E        +    and   0.005 = float(0.005)
+E        +      where 0.005 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('headline_tol', 0.05)
+E        +        where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1540: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_bridge_anchors" time="0.005"><failure message="AssertionError: the bridge carries 2 of its 7 anchors&#10;assert 2 &gt;= 5&#10; +  where 2 = len([2683.55, 75.45])&#10; +  and   5 = int(5)&#10; +    where 5 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('bridge_min', 4)&#10; +      where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get">def test_page_bridge_anchors():
+        nums = L.page_numbers(); p = _pg()
+        hit = [a for a in p.get('bridge', []) if L.has(nums, float(a), tol=float(p.get('tol', 0.05)))]
+&gt;       assert len(hit) &gt;= int(p.get('bridge_min', 4)), f"the bridge carries {len(hit)} of its {len(p.get('bridge', []))} anchors"
+E       AssertionError: the bridge carries 2 of its 7 anchors
+E       assert 2 &gt;= 5
+E        +  where 2 = len([2683.55, 75.45])
+E        +  and   5 = int(5)
+E        +    where 5 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('bridge_min', 4)
+E        +      where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1547: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_split_figures" time="0.006" /><testcase classname="test_outputs" name="test_page_table_rows_and_sorting" time="0.002"><failure message="AssertionError: table rows 2/72, sortable True, filterable True&#10;assert (2 &gt;= 72)&#10; +  where 2 = len(['QO-40258', 'QO-40259'])&#10; +  and   72 = int(72)&#10; +    where 72 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('table_min', 72)&#10; +      where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get&#10; +      and   72 = len(['QO-40116', 'QO-40117', 'QO-40118', 'QO-40120', 'QO-40121', 'QO-40122', ...])&#10; +        where ['QO-40116', 'QO-40117', 'QO-40118', 'QO-40120', 'QO-40121', 'QO-40122', ...] = &lt;built-in method get of dict object at 0xffffacb08700&gt;('table_ids', [])&#10; +          where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get">def test_page_table_rows_and_sorting():
+        src = L.page_source(); p = _pg()
+        rows = [k for k in p.get('table_ids', []) if k in src]
+        sortable = ('sort' in src.lower()) and ('&lt;table' in src.lower()) and ('&lt;script' in src.lower())
+        filterable = ('filter' in src.lower() or 'search' in src.lower()) and ('&lt;input' in src.lower() or '&lt;select' in src.lower())
+&gt;       assert len(rows) &gt;= int(p.get('table_min', len(p.get('table_ids', [])))) and sortable and filterable, \
+            f'table rows {len(rows)}/{len(p.get("table_ids", []))}, sortable {sortable}, filterable {filterable}'
+E       AssertionError: table rows 2/72, sortable True, filterable True
+E       assert (2 &gt;= 72)
+E        +  where 2 = len(['QO-40258', 'QO-40259'])
+E        +  and   72 = int(72)
+E        +    where 72 = &lt;built-in method get of dict object at 0xffffacb08700&gt;('table_min', 72)
+E        +      where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get
+E        +      and   72 = len(['QO-40116', 'QO-40117', 'QO-40118', 'QO-40120', 'QO-40121', 'QO-40122', ...])
+E        +        where ['QO-40116', 'QO-40117', 'QO-40118', 'QO-40120', 'QO-40121', 'QO-40122', ...] = &lt;built-in method get of dict object at 0xffffacb08700&gt;('table_ids', [])
+E        +          where &lt;built-in method get of dict object at 0xffffacb08700&gt; = {'headline': 1900.15, 'headline_tol': 0.005, 'bridge': [2683.55, 75.45, 256.5, 615.1, 1736.5, 1955.5, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1563: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_self_contained" time="0.001" /><testcase classname="test_outputs" name="test_page_read_back_after_writing" time="0.140" /></testsuite></testsuites>

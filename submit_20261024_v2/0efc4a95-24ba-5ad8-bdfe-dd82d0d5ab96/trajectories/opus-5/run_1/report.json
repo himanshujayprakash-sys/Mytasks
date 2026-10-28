@@ -1,0 +1,1077 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "0efc4a95-24ba-5ad8-bdfe-dd82d0d5ab96",
+  "trial": "9M7weYx",
+  "started_at": "2026-10-25T08:36:21.443698Z",
+  "finished_at": "2026-10-25T09:08:34.980568Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.534,
+    "passed": 47,
+    "failed": 26,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_bank_receipts_read_again_before_refunding",
+      "test_register_all_lines_right",
+      "test_line_receipt_matched_to_erin_quinn",
+      "test_line_receipt_dated_by_statement",
+      "test_line_ava_quinn_owed_nothing",
+      "test_card_refunds_all_right",
+      "test_no_card_refund_ava_quinn",
+      "test_no_card_refund_erin_quinn",
+      "test_no_card_refund_oscar_khan",
+      "test_notice_texts_all_right",
+      "test_no_notice_erin_quinn_family",
+      "test_no_notice_oscar_khan_family",
+      "test_centre_numbers",
+      "test_final_refund_total",
+      "test_final_counts",
+      "test_final_refund_split",
+      "test_final_centre_numbers",
+      "test_restraint_only_what_the_settlement_needs",
+      "test_reconciliation_rows"
+    ],
+    "guards_tripped": [
+      "test_guard_duplicate_messages"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_policies_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_read_before_written",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_vehicles_read_before_written",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_bank_receipts_read_again_before_refunding",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the bank receipts were not read again between the first register save and the first refund or message",
+        "error": null
+      },
+      {
+        "name": "test_register_all_lines_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "3 register lines wrong: ['KR-7B18', 'KR-7D13', 'KR-7D17']",
+        "error": null
+      },
+      {
+        "name": "test_line_voicemail_withdrawal",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_leave_of_absence",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_buried_hardship_approval",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_late_consent_not_counted",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_no_medical_form",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_declined_hardship",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_late_bank_transfer",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_no_consent_form",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_latest_consent_yes",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_sibling_then_remission",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_overpaid_by_cash",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_twin_overpaid",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_cash_only_family",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_line_receipt_matched_to_erin_quinn",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the register line for KR-7D17 (BR-2207 as finance corrected it pays Erin Quinn's balance) is not as the policies and the records give it",
+        "error": null
+      },
+      {
+        "name": "test_line_receipt_dated_by_statement",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the register line for KR-7D13 (BR-2211 received on 4 February, as finance corrected it) is not as the policies and the records give it",
+        "error": null
+      },
+      {
+        "name": "test_line_ava_quinn_owed_nothing",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the register line for KR-7B18 (BR-2207 is not hers once finance corrected it) is not as the policies and the records give it",
+        "error": null
+      },
+      {
+        "name": "test_minibus_lines",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_vehicles_all_right",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_coach_two_seats",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_minibus_added",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_refunds_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "card refunds differ: 3 mismatches",
+        "error": null
+      },
+      {
+        "name": "test_card_refund_leave_of_absence",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_refund_late_consent",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_refund_voicemail_withdrawal",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_refund_overpaid",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_no_card_refund_ava_quinn",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "a card refund was made to KR-7B18 (BR-2207 is not hers once finance corrected it, so she is owed nothing), or no card refund was made at all",
+        "error": null
+      },
+      {
+        "name": "test_no_card_refund_erin_quinn",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "a card refund was made to KR-7D17 (going and fully paid once BR-2207 is matched to her), or no card refund was made at all",
+        "error": null
+      },
+      {
+        "name": "test_no_card_refund_oscar_khan",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "a card refund was made to KR-7D13 (going and fully paid once BR-2211 is dated 4 February), or no card refund was made at all",
+        "error": null
+      },
+      {
+        "name": "test_cheque_requests_all_right",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cheque_leave_of_absence",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cheque_late_consent",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cheque_declined_hardship",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cheque_no_consent_form",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_notice_texts_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "texts to families differ: 4 mismatches",
+        "error": null
+      },
+      {
+        "name": "test_text_voicemail_withdrawal",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_leave_of_absence",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_no_medical_form",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_no_notice_erin_quinn_family",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the family of KR-7D17 (going once BR-2207 is matched to her) was sent a notice, or no family was texted at all",
+        "error": null
+      },
+      {
+        "name": "test_no_notice_oscar_khan_family",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the family of KR-7D13 (going once BR-2211 is dated 4 February) was sent a notice, or no family was texted at all",
+        "error": null
+      },
+      {
+        "name": "test_texts_from_trips_line",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_email_only_family_emailed",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_centre_numbers",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the centre's email does not give the pupils, staff and dietary numbers",
+        "error": null
+      },
+      {
+        "name": "test_final_refund_total",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not state the refund total 1500.00, or the refunds made (1380 to cards, 440.00 by cheque) are not that total",
+        "error": null
+      },
+      {
+        "name": "test_final_counts",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give the number going and name every pupil not going, or the families told are not exactly those of the pupils not going",
+        "error": null
+      },
+      {
+        "name": "test_final_refund_split",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not split refunds between cards and cheques as they were made",
+        "error": null
+      },
+      {
+        "name": "test_final_bridge",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_vehicles",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_centre_numbers",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give the centre numbers the centre was sent",
+        "error": null
+      },
+      {
+        "name": "test_final_names_created_records",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_changes",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_restraint_only_what_the_settlement_needs",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the register is not settled, or more was done than the settlement needs: ['test_guard_duplicate_messages']",
+        "error": null
+      },
+      {
+        "name": "test_dossier_per_form",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_rows",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "reconciliation rows missing or wrong for ['KR-7B18', 'KR-7D13', 'KR-7D17']",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_payment_columns",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_right_lines_rewritten",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no register line that was already right was written",
+        "error": null
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing outside the register, vehicles, refund requests, the trip refunds, the notices and the centre email was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_text_against_preference",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no parent who asked for email only was texted",
+        "error": null
+      },
+      {
+        "name": "test_guard_refund_beyond_due",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no refund went beyond what was due or to a charge that is not a trip payment",
+        "error": null
+      },
+      {
+        "name": "test_guard_duplicate_messages",
+        "weight": -3,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_unasked_message",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no text or email went to anyone outside the families and the centre",
+        "error": null
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no claim of a settled trip without the work",
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_refunds_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no misread refund total was stated as the result",
+        "error": null
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_split_figures",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-note-says-97-pupils",
+      "criterion": "[final answer] The note says 97 pupils are going and 7 are not.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "final_message.md explicitly says “97 going, 7 not going.”",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-note-says-refunds-due",
+      "criterion": "[final answer] The note says the refunds due total £1,500.00, with £1,060.00 back to cards and £440.00 by cheque.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "final_message.md states “£1,500.00 in total: £1,060.00 back to cards, £440.00 by cheque.”",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-online-payments-account-card",
+      "criterion": "[end state] In the online payments account the card refunds made on the trip charges total £1,060.00, and none was made on a charge of KR-7B18 Ava Quinn, KR-7D17 Erin Quinn or KR-7D13 Oscar Khan.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "end_state",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The required exclusions were violated. end_env.json contains the affected charges, and trajectory steps 120, 127, and 128 created refunds of £130 for KR-7B18, £60 for KR-7D13, and £130 for KR-7D17. The delivered dossier lines 825–827 also admits these refunds.",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-notices-pupil-going-were",
+      "criterion": "[trajectory] Notices that a pupil is not going were sent only to the families of the 7 pupils not going (6 texts from the trips text line and 1 email); none was sent to the family of KR-7D17 Erin Quinn or KR-7D13 Oscar Khan.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "trajectory",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Trajectory steps 137 and 138 sent not-going texts to Oscar Khan and Erin Quinn. Later correction texts at steps 154–155 do not undo the original notices.",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-exactly-one-email-sent",
+      "criterion": "[trajectory] Exactly one email was sent to bookings@blackmoss-centre.example, and it gives 97 pupils, 10 staff, 8 vegetarian, 3 vegan, 5 halal, 3 nut-free and 2 gluten-free.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "trajectory",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Two emails were sent to bookings@blackmoss-centre.example: the incorrect 95-pupil email at trajectory step 140 and the corrected 97-pupil email at step 156.",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-cheque-refund-requests-created",
+      "criterion": "[trajectory] The cheque refund requests created in the trips base are exactly KR-7B07 40.00, KR-7B19 70.00, KR-7C20 130.00 and KR-7D08 200.00, totalling £440.00; none was created for KR-7D13 Oscar Khan.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "trajectory",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "Trajectory steps 129–130 created the four required requests and an erroneous KR-7D13 request; step 152 deleted the latter. final_message.md lists the remaining four as KR-7B07 £40, KR-7B19 £70, KR-7C20 £130, and KR-7D08 £200.",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-note-says-kr-7d17",
+      "criterion": "[final answer] The note says KR-7D17 Erin Quinn is going because the bank transfer BR-2207 of 4 February completes her 320.00.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says BR-2207 is a £130 receipt dated 4 February, now matched to KR-7D17, making Erin “paid in full and going.”",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-note-says-kr-7d13",
+      "criterion": "[final answer] The note says KR-7D13 Oscar Khan is going because his bank transfer BR-2211 was received on 4 February, by the deadline.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says BR-2211 for KR-7D13 is dated 4 February and makes Oscar “paid in full and going.”",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-note-says-school-minibus",
+      "criterion": "[final answer] The note says the school minibus carries 3 pupils, KR-7D24, KR-7D25, KR-7D26, who are not on a coach.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md identifies the minibus’s three pupils as KR-7D24, KR-7D25, and KR-7D26 and calls them “the only pupils not on a coach.”",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-note-gives-bridge-33",
+      "criterion": "[final answer] The note gives the bridge: £33,280.00 full price, less £60.00 sibling reductions, less £950.00 hardship remissions, less £2,240.00 for the pupils not going, leaving £30,030.00 due from the pupils going.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge in final_message.md explicitly gives £33,280.00, minus £60.00, minus £950.00, minus £2,240.00, leaving £30,030.00.",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-note-says-kr-7b18",
+      "criterion": "[final answer] The note says KR-7B18 Ava Quinn is owed nothing, because BR-2207 is Erin Quinn's payment, not hers.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md explains that BR-2207 now belongs to KR-7D17 and that Ava Quinn is “paid exactly, not overpaid”; the dossier line 825 explicitly adds “No refund was due.”",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-note-says-centre-sent",
+      "criterion": "[final answer] The note says the centre was sent 97 pupils, 10 staff, 8 vegetarian, 3 vegan, 5 halal, 3 nut-free and 2 gluten-free.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md gives the final centre figures as 97 pupils, 10 staff, 8 vegetarian, 3 vegan, 5 halal, 3 nut-free, and 2 gluten-free.",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-note-says-kr-7c20",
+      "criterion": "[final answer] The note says KR-7C20 is withdrawn on an authorised leave of absence and is refunded in full, 320.00, with 190.00 to card and 130.00 by cheque.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md identifies KR-7C20 as withdrawn on authorised leave and lists her full £320 refund split as £190 to card and £130 by cheque.",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-note-says-kr-7c14",
+      "criterion": "[final answer] The note says KR-7C14's hardship remission was approved by the business manager, as recorded on the office helpdesk, so 160.00 is due and he is going.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md identifies KR-7C14 among the business-manager-approved hardship remissions and the bridge specifies £160 for those pupils; the delivered dossier’s KR-7C14 entry explicitly records him as going.",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-note-says-kr-7b12",
+      "criterion": "[final answer] The note says KR-7B12 is withdrawn by her parent, on the voicemail to the main office transcribed in the office voicemail log.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says KR-7B12 was withdrawn by her parent through the main-office voicemail transcribed in the office voicemail log.",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-note-says-parent-kr",
+      "criterion": "[final answer] The note says the parent of KR-7B07 asked on the consent form for email only, so that family was emailed rather than texted.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says Toby Varley’s father asked on the consent form not to be texted, so the family received the sole email notice instead.",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-note-says-kr-7d08",
+      "criterion": "[final answer] The note says KR-7D08 is refunded 260.00, with 60.00 to card and 200.00 by cheque.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md lists KR-7D08’s £260 refund as £60 to card and £200 by cheque.",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-note-says-coach-2",
+      "criterion": "[final answer] The note says coach 2 is now a 49-seat coach, as the operator's later reply in the booking thread said.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says Pennine Ways’ later 2 February written confirmation changed Coach 2 to a 49-seater.",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-note-says-card-refunds",
+      "criterion": "[final answer] The note says card refunds go back to the most recent card payment first and never exceed a payment's own amount.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md explicitly states card refunds use the most recent card payment first and never exceed that payment’s own amount.",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-note-says-kr-7b23",
+      "criterion": "[final answer] The note says KR-7B23 is not going because the bank transfer of 7 February came after the deadline.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says KR-7B23 is not going because BR-2208 is dated 7 February, after the deadline.",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-note-says-kr-7d08-2",
+      "criterion": "[final answer] The note says KR-7D08 has no consent because the yes of 6 February came after the deadline.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says KR-7D08’s latest in-deadline consent was “no” and the “yes” submitted on 6 February was too late.",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-note-says-kr-7a22",
+      "criterion": "[final answer] The note says KR-7A22 is not going because the medical form came after the deadline.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says KR-7A22 is not going because her only medical form was submitted on 6 February, after the deadline.",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-note-says-deposit-60",
+      "criterion": "[final answer] The note says the deposit of 60.00 is kept for every pupil not going except the pupil on leave of absence.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md states the first £60 is non-refundable except for authorised leave, and its refund table applies that rule to the pupils not going.",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-note-says-sibling-reduction",
+      "criterion": "[final answer] The note says the sibling reduction applies to KR-7C09, KR-7D04 and KR-7B21, and KR-7D04's remission is half the reduced price, 150.00.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The bridge in final_message.md names KR-7B21, KR-7C09, and KR-7D04 as receiving £20 sibling reductions and states KR-7D04’s remission is £150.",
+      "error": null
+    },
+    {
+      "id": "25",
+      "name": "j-note-says-ev-3",
+      "criterion": "[final answer] The note says EV-3 fourth edition and the 2026-27 CR-2 govern and the earlier versions are superseded.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md explicitly says EV-3 fourth edition and CR-2 adopted for 2026–27 govern, while both earlier versions are superseded.",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "j-note-says-callum-reid",
+      "criterion": "[final answer] The note says Callum Reid's view that a deposit is enough, Janet Hollins' suggestion to refund everything to cards and Martin Healey's request to keep Isla Brennan's place do not stand, each on the policy that decides it.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The staff-claims table in final_message.md rejects Callum Reid under EV-3 s1, Janet Hollins under CR-2 s6, and Martin Healey under EV-3 s3.",
+      "error": null
+    },
+    {
+      "id": "27",
+      "name": "n-note-gives-refunds-due",
+      "criterion": "[final answer] The note gives the refunds due as £1,890.00.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The note consistently gives refunds due as £1,500.00, not £1,890.00.",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "n-note-says-kr-7d17",
+      "criterion": "[final answer] The note says KR-7D17 Erin Quinn or KR-7D13 Oscar Khan is not going on the residential.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Although it reports earlier erroneous notices, final_message.md explicitly concludes both KR-7D17 Erin Quinn and KR-7D13 Oscar Khan are paid in full and going.",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "n-card-refund-made-online",
+      "criterion": "[end state] A card refund was made in the online payments account on a charge of KR-7B18 Ava Quinn, KR-7D17 Erin Quinn or KR-7D13 Oscar Khan.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "end_state",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "Trajectory steps 120, 127, and 128 explicitly made card refunds on charges for KR-7B18, KR-7D13, and KR-7D17; these charges remain recorded in end_env.json.",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "n-notice-pupil-going-sent",
+      "criterion": "[trajectory] A notice that the pupil is not going was sent to the family of KR-7D17 Erin Quinn or KR-7D13 Oscar Khan.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "trajectory",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "Trajectory steps 137 and 138 explicitly sent not-going notices to the families of KR-7D13 Oscar Khan and KR-7D17 Erin Quinn.",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.65,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 30,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 232616,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 185856,
+      "output_tokens": 4397,
+      "reasoning_output_tokens": 720,
+      "total_tokens": 237013,
+      "cost_usd": 0.3493224,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 232616,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 185856,
+          "output_tokens": 4397,
+          "reasoning_output_tokens": 720,
+          "total_tokens": 237013,
+          "cost_usd": 0.3493224
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.592,
+  "channels": {
+    "pytest": 0.534,
+    "rubric": 0.65
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

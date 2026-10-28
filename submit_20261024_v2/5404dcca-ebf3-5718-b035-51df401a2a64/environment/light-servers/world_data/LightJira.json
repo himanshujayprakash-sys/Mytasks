@@ -1,0 +1,276 @@
+{
+ "projects": [
+  {
+   "id": "58000",
+   "key": "QIT",
+   "name": "Quayside IT helpdesk",
+   "description": "IT and phone faults at the Quayside depot.",
+   "lead": "Tristan Bray",
+   "project_type_key": "service_desk"
+  }
+ ],
+ "users": [
+  {
+   "account_id": "efp-60480e4ca153",
+   "display_name": "Bettany Hoskin",
+   "email": "bettany.hoskin@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-fa39b5f758b2",
+   "display_name": "Caspar Vosper",
+   "email": "caspar.vosper@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-c3dffae49f77",
+   "display_name": "Denzil Prowse",
+   "email": "denzil.prowse@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-6b04fc296d31",
+   "display_name": "Jago Mewton",
+   "email": "jago.mewton@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-176fb1faac28",
+   "display_name": "Kerensa Opie",
+   "email": "kerensa.opie@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-f0b2f5b6cac5",
+   "display_name": "Lowenna Treharne",
+   "email": "lowenna.treharne@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-d0e533b55319",
+   "display_name": "Morven Alcott",
+   "email": "morven.alcott@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-15720bbc3816",
+   "display_name": "Ottilie Carne",
+   "email": "ottilie.carne@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-65af1e2da727",
+   "display_name": "Ruan Polkinghorne",
+   "email": "ruan.polkinghorne@ellisford-produce.example",
+   "active": true
+  },
+  {
+   "account_id": "efp-3803b76b8f9e",
+   "display_name": "Tristan Bray",
+   "email": "tristan.bray@ellisford-produce.example",
+   "active": true
+  }
+ ],
+ "boards": [
+  {
+   "id": 5801,
+   "name": "QIT queue",
+   "project_key": "QIT",
+   "type": "kanban"
+  }
+ ],
+ "issues": [
+  {
+   "id": "58001",
+   "key": "QIT-41",
+   "project_key": "QIT",
+   "issue_type": "Bug",
+   "summary": "Handheld scanner HS-07 will not hold a charge",
+   "description": "Battery is swollen; replacement battery on order.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Tristan Bray",
+   "reporter": "Ruan Polkinghorne",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-30T08:20:00Z",
+   "updated": "2026-12-03T11:05:00Z"
+  },
+  {
+   "id": "58002",
+   "key": "QIT-42",
+   "project_key": "QIT",
+   "issue_type": "Bug",
+   "summary": "Goods-in label printer prints blank labels",
+   "description": "Ribbon had been fitted the wrong way round after a change. Refitted and tested.",
+   "status": "Done",
+   "priority": "High",
+   "assignee": "Tristan Bray",
+   "reporter": "Jago Mewton",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-17T06:40:00Z",
+   "updated": "2026-11-17T09:15:00Z"
+  },
+  {
+   "id": "58003",
+   "key": "QIT-43",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Wi-Fi drops at the far end of the cold store",
+   "description": "Survey the access points before buying another one.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Tristan Bray",
+   "reporter": "Denzil Prowse",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-20T10:30:00Z",
+   "updated": "2026-11-20T10:30:00Z"
+  },
+  {
+   "id": "58004",
+   "key": "QIT-44",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Laptop for the new transport office starter",
+   "description": "Imaged and handed over on 20 November.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Tristan Bray",
+   "reporter": "Kerensa Opie",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-12T14:00:00Z",
+   "updated": "2026-11-20T09:45:00Z"
+  },
+  {
+   "id": "58005",
+   "key": "QIT-45",
+   "project_key": "QIT",
+   "issue_type": "Bug",
+   "summary": "Mess room TV shows no signal",
+   "description": "Aerial lead chewed through behind the cabinet. Not urgent.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": null,
+   "reporter": "Caspar Vosper",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-02T12:40:00Z",
+   "updated": "2026-12-02T12:40:00Z"
+  },
+  {
+   "id": "58006",
+   "key": "QIT-46",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Shared calendar for the Quayside office",
+   "description": "Created and shared with the office staff group.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Tristan Bray",
+   "reporter": "Morven Alcott",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-10T09:00:00Z",
+   "updated": "2026-11-11T16:30:00Z"
+  },
+  {
+   "id": "58007",
+   "key": "QIT-47",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Divert the transport office phone at weekends",
+   "description": "Weekend calls to go to the duty manager's mobile. Waiting on the phone supplier.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Tristan Bray",
+   "reporter": "Kerensa Opie",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-25T15:10:00Z",
+   "updated": "2026-12-01T10:20:00Z"
+  },
+  {
+   "id": "58008",
+   "key": "QIT-48",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Replace two trade desk headsets",
+   "description": "Both crackle on calls; asked for the noise-cancelling model.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": null,
+   "reporter": "Bettany Hoskin",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-03T09:35:00Z",
+   "updated": "2026-12-03T09:35:00Z"
+  },
+  {
+   "id": "58009",
+   "key": "QIT-49",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Payroll portal password reset",
+   "description": "Reset and two-factor sign-in set up again.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Tristan Bray",
+   "reporter": "Lowenna Treharne",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-24T08:05:00Z",
+   "updated": "2026-11-24T08:40:00Z"
+  },
+  {
+   "id": "58010",
+   "key": "QIT-50",
+   "project_key": "QIT",
+   "issue_type": "Bug",
+   "summary": "CCTV recorder disk nearly full",
+   "description": "Retention cut to 30 days until the bigger disk arrives.",
+   "status": "In Progress",
+   "priority": "High",
+   "assignee": "Tristan Bray",
+   "reporter": "Denzil Prowse",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-01T07:50:00Z",
+   "updated": "2026-12-04T13:25:00Z"
+  },
+  {
+   "id": "58011",
+   "key": "QIT-51",
+   "project_key": "QIT",
+   "issue_type": "Bug",
+   "summary": "Accounts office printer jams on envelopes",
+   "description": "Using the manual feed tray in the meantime.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": null,
+   "reporter": "Ottilie Carne",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-27T11:15:00Z",
+   "updated": "2026-11-27T11:15:00Z"
+  },
+  {
+   "id": "58012",
+   "key": "QIT-52",
+   "project_key": "QIT",
+   "issue_type": "Task",
+   "summary": "Laptop swap for the trade desk",
+   "description": "Five laptops swapped on 4 December after the afternoon calls; old ones wiped.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Tristan Bray",
+   "reporter": "Morven Alcott",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-26T10:00:00Z",
+   "updated": "2026-12-04T16:40:00Z"
+  }
+ ]
+}

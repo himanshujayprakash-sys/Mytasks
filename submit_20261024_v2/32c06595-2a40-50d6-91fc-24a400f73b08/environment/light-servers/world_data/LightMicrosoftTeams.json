@@ -1,0 +1,116 @@
+{
+ "teams": [
+  {
+   "description": "Trustees and the senior team",
+   "displayName": "Linnet Lane leadership",
+   "id": "19:team-llh-lead@thread.tacv2",
+   "membershipType": "standard"
+  }
+ ],
+ "channels": [
+  {
+   "description": "Board papers and dates",
+   "displayName": "General",
+   "id": "19:chan-llh-gen@thread.tacv2",
+   "membershipType": "standard",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "description": "Income reporting",
+   "displayName": "Income",
+   "id": "19:chan-llh-inc@thread.tacv2",
+   "membershipType": "standard",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "19:chan-llh-gen@thread.tacv2",
+   "content": "Board papers for 12 November are in the board folder.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-12T09:00:00Z",
+   "from_display_name": "Rowena Castellan",
+   "from_user_id": "user-llh-rowena",
+   "id": "1825000000001",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-gen@thread.tacv2",
+   "content": "Management accounts to the end of October will be ready on the 9th.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-13T09:05:00Z",
+   "from_display_name": "Hywel Brannigan",
+   "from_user_id": "user-llh-hywel",
+   "id": "1825000000002",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-inc@thread.tacv2",
+   "content": "Community income is running ahead of budget; the Kestrel close-out lands mid-November.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-14T09:10:00Z",
+   "from_display_name": "Vanessa Hartigan",
+   "from_user_id": "user-llh-vanessa",
+   "id": "1825000000003",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-inc@thread.tacv2",
+   "content": "Two corporate partners have asked about charity of the year for 2027.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-15T09:15:00Z",
+   "from_display_name": "Joanna Strickland",
+   "from_user_id": "user-llh-joanna",
+   "id": "1825000000004",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-gen@thread.tacv2",
+   "content": "Reminder: mandatory safeguarding refresher by 30 November.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-16T09:20:00Z",
+   "from_display_name": "Grace Ellingham",
+   "from_user_id": "user-llh-grace",
+   "id": "1825000000005",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-inc@thread.tacv2",
+   "content": "Lottery players up 3 per cent on last quarter.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-17T09:25:00Z",
+   "from_display_name": "Imani Osei",
+   "from_user_id": "user-llh-imani",
+   "id": "1825000000006",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-gen@thread.tacv2",
+   "content": "Inpatient unit fully staffed again from next week.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-18T09:30:00Z",
+   "from_display_name": "Benedict Larkham",
+   "from_user_id": "user-llh-benedict",
+   "id": "1825000000007",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  },
+  {
+   "channel_id": "19:chan-llh-inc@thread.tacv2",
+   "content": "Shops had their best October; the Christmas window goes in on the 14th.",
+   "contentType": "html",
+   "createdDateTime": "2026-10-19T09:35:00Z",
+   "from_display_name": "Lorcan Featherstone",
+   "from_user_id": "user-llh-lorcan",
+   "id": "1825000000008",
+   "importance": "normal",
+   "team_id": "19:team-llh-lead@thread.tacv2"
+  }
+ ]
+}

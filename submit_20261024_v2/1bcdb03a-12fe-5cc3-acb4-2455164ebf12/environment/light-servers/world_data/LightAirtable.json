@@ -1,0 +1,5663 @@
+{
+  "bases": [
+    {
+      "id": "appNorthlight2611",
+      "name": "Northlight Summit logistics",
+      "permissionLevel": "create"
+    }
+  ],
+  "tables": [
+    {
+      "baseId": "appNorthlight2611",
+      "id": "tblNlSpeaker01",
+      "name": "speakers",
+      "primaryFieldId": "fldNlSpea000"
+    },
+    {
+      "baseId": "appNorthlight2611",
+      "id": "tblNlHotels002",
+      "name": "hotels",
+      "primaryFieldId": "fldNlHote000"
+    },
+    {
+      "baseId": "appNorthlight2611",
+      "id": "tblNlRooms0003",
+      "name": "hotel_rooms",
+      "primaryFieldId": "fldNlRoom000"
+    },
+    {
+      "baseId": "appNorthlight2611",
+      "id": "tblNlResReg004",
+      "name": "reservation_register",
+      "primaryFieldId": "fldNlResR000"
+    }
+  ],
+  "records": {
+    "tblNlSpeaker01": [
+      {
+        "id": "rec4959fd8ea972cc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-301",
+          "name": "Chen Mori",
+          "email": "chen.mori@uni.example",
+          "status": "declined",
+          "tier": "keynote",
+          "notes": "Signed the recording consent. Prefers aisle seats. Bio updated in October. Speaker tier: keynote. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca29ba413c7c72d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-302",
+          "name": "Ugo Voss",
+          "email": "ugo.voss@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Signed the recording consent. Flies in from the West Coast office. Speaker tier: contributed. Has spoken at two previous summits. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec56428384ed7fd1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-304",
+          "name": "Xin Eng",
+          "email": "xin.eng@uni.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Travels with a camera crew of one (self-funded). Flies in from the West Coast office. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8e50b1dc810aec",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-306",
+          "name": "Dara Nkemelu",
+          "email": "dara.nkemelu@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Has spoken at two previous summits. Bio updated in October. Speaker tier: contributed. Prefers aisle seats. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recf1d6a8c42eae14",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-309",
+          "name": "Xin Quist",
+          "email": "xin.quist@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Travels with a camera crew of one (self-funded). Vegetarian. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recbedb4c278195e0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-310",
+          "name": "Ivo Quist",
+          "email": "ivo.quist@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Signed the recording consent. Flies in from the West Coast office. Speaker tier: contributed. Has spoken at two previous summits. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec838305721091cf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-313",
+          "name": "Pia Nkemelu",
+          "email": "pia.nkemelu@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Signed the recording consent. Asked for the slides template in September. Speaker tier: invited. Bio updated in October. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc13a82cb24a082",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-314",
+          "name": "Nils Jansen",
+          "email": "nils.jansen@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Organiser contact is the programme chair. Flies in from the West Coast office. Has spoken at two previous summits. Speaker tier: invited. Bio updated in October. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec13691ff877f53d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-317",
+          "name": "Ivo Diaz",
+          "email": "ivo.diaz@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Vegetarian. Bio updated in October. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec5efdabc3d73f58",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-319",
+          "name": "Nils Costa",
+          "email": "nils.costa@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Has spoken at two previous summits. Moderating a panel on day two. Speaker tier: invited. Has spoken at two previous summits. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec53d16309fcecd5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-321",
+          "name": "Dara Silva",
+          "email": "dara.silva@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Bio updated in October. Moderating a panel on day two. Speaker tier: contributed. Vegetarian. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8e60c7ea25c01c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-322",
+          "name": "Ivo Lund",
+          "email": "ivo.lund@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Organiser contact is the programme chair. Asked for the slides template in September. Signed the recording consent. Speaker tier: invited. Signed the recording consent. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc79d3819d05659",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-325",
+          "name": "Lena Quist",
+          "email": "lena.quist@lab.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Has spoken at two previous summits. Flies in from the West Coast office. Organiser contact is the programme chair. Speaker tier: keynote. Flies in from the West Coast office. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec6954e87f3d1acf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-326",
+          "name": "Sami Abe",
+          "email": "sami.abe@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Flies in from the West Coast office. Has spoken at two previous summits. Speaker tier: invited. Flies in from the West Coast office. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec32ef5ff764f25a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-329",
+          "name": "Bao Diaz",
+          "email": "bao.diaz@lab.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Organiser contact is the programme chair. Vegetarian. Speaker tier: contributed. Flies in from the West Coast office. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec5880ea4b28bdaf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-331",
+          "name": "Wim Gupta",
+          "email": "wim.gupta@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Organiser contact is the programme chair. Moderating a panel on day two. Flies in from the West Coast office. Speaker tier: invited. Travels with a camera crew of one (self-funded). Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec408d7aadf95c67",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-333",
+          "name": "Yara Ito",
+          "email": "yara.ito@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Asked for the slides template in September. Speaker tier: invited. Asked for the slides template in September. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec67dd7f18c45020",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-335",
+          "name": "Quin Lund",
+          "email": "quin.lund@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Moderating a panel on day two. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca5caf3a896c258",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-337",
+          "name": "Femi Wolfe",
+          "email": "femi.wolfe@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Organiser contact is the programme chair. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3f5c9b477f9cc0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-339",
+          "name": "Tess Costa",
+          "email": "tess.costa@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Signed the recording consent. Travels with a camera crew of one (self-funded). Speaker tier: invited. Flies in from the West Coast office. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recdbc281275b73bb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-340",
+          "name": "Eli Eng",
+          "email": "eli.eng@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Vegetarian. Organiser contact is the programme chair. Has spoken at two previous summits. Speaker tier: keynote. Signed the recording consent. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc88c9ea86ac18e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-343",
+          "name": "Ravi Rao",
+          "email": "ravi.rao@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Travels with a camera crew of one (self-funded). Flies in from the West Coast office. Speaker tier: invited. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec52e66d334f313a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-345",
+          "name": "Dara Wolfe",
+          "email": "dara.wolfe@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Moderating a panel on day two. Speaker tier: contributed. Has spoken at two previous summits. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec9d40ec816a7958",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-346",
+          "name": "Ivo Costa",
+          "email": "ivo.costa@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Travels with a camera crew of one (self-funded). Asked for the slides template in September. Speaker tier: invited. Organiser contact is the programme chair. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca97c4ba2f0ac8e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-349",
+          "name": "Mira Diaz",
+          "email": "mira.diaz@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Travels with a camera crew of one (self-funded). Speaker tier: invited. Signed the recording consent. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec826ba50be839ae",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-351",
+          "name": "Xin Gupta",
+          "email": "xin.gupta@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Travels with a camera crew of one (self-funded). Bio updated in October. Speaker tier: contributed. Flies in from the West Coast office. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0d9ef19a134a3f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-352",
+          "name": "Vera Ueda",
+          "email": "vera.ueda@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Bio updated in October. Asked for the slides template in September. Speaker tier: invited. Asked for the slides template in September. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec66eb1138a3e81c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-355",
+          "name": "Ugo Toivonen",
+          "email": "ugo.toivonen@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Asked for the slides template in September. Has spoken at two previous summits. Speaker tier: invited. Signed the recording consent. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8f6a7ee8734f9c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-356",
+          "name": "Lena Gupta",
+          "email": "lena.gupta@corp.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Travels with a camera crew of one (self-funded). Prefers aisle seats. Bio updated in October. Speaker tier: keynote. Asked for the slides template in September. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec57ac36aeb6a24c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-359",
+          "name": "Jun Holm",
+          "email": "jun.holm@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Flies in from the West Coast office. Signed the recording consent. Bio updated in October. Speaker tier: invited. Signed the recording consent. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "receb541075ea09a3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-361",
+          "name": "Tess Abe",
+          "email": "tess.abe@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Moderating a panel on day two. Bio updated in October. Speaker tier: invited. Bio updated in October. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8d4847f573c071",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-363",
+          "name": "Quin Brandt",
+          "email": "quin.brandt@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Vegetarian. Moderating a panel on day two. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec6d7df3b69f5c68",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-364",
+          "name": "Pia Ortiz",
+          "email": "pia.ortiz@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Flies in from the West Coast office. Vegetarian. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec14d4df591cdae1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-366",
+          "name": "Pia Mori",
+          "email": "pia.mori@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Bio updated in October. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec55bf357b8aee3e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-368",
+          "name": "Oona Diaz",
+          "email": "oona.diaz@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Prefers aisle seats. Moderating a panel on day two. Speaker tier: contributed. Moderating a panel on day two. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec7dabe813190bfa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-370",
+          "name": "Tess Nkemelu",
+          "email": "tess.nkemelu@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Travels with a camera crew of one (self-funded). Organiser contact is the programme chair. Speaker tier: contributed. Flies in from the West Coast office. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec1f3736b0d23680",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-373",
+          "name": "Wim Rao",
+          "email": "wim.rao@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Moderating a panel on day two. Flies in from the West Coast office. Speaker tier: contributed. Organiser contact is the programme chair. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec793c24e65b49b6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-374",
+          "name": "Kai Gupta",
+          "email": "kai.gupta@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Has spoken at two previous summits. Speaker tier: contributed. Asked for the slides template in September. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb07760091a23cf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-377",
+          "name": "Oona Voss",
+          "email": "oona.voss@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Bio updated in October. Organiser contact is the programme chair. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recfe293b71a8f74b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-379",
+          "name": "Quin Silva",
+          "email": "quin.silva@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Signed the recording consent. Bio updated in October. Speaker tier: contributed. Prefers aisle seats. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8d38d59dd98f51",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-381",
+          "name": "Wim Toivonen",
+          "email": "wim.toivonen@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Travels with a camera crew of one (self-funded). Prefers aisle seats. Speaker tier: contributed. Prefers aisle seats. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec56ee463f00371e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-382",
+          "name": "Femi Rao",
+          "email": "femi.rao@corp.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Asked for the slides template in September. Prefers aisle seats. Speaker tier: contributed. Vegetarian. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recdbe9c65ed4a3f3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-384",
+          "name": "Kai Wolfe",
+          "email": "kai.wolfe@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Bio updated in October. Vegetarian. Organiser contact is the programme chair. Speaker tier: invited. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec17d9cc5f2990a2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-387",
+          "name": "Yara Brandt",
+          "email": "yara.brandt@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Has spoken at two previous summits. Travels with a camera crew of one (self-funded). Moderating a panel on day two. Speaker tier: invited. Prefers aisle seats. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0812c88021b71b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-388",
+          "name": "Oona Holm",
+          "email": "oona.holm@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Organiser contact is the programme chair. Travels with a camera crew of one (self-funded). Asked for the slides template in September. Speaker tier: invited. Flies in from the West Coast office. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec546c479ea4077c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-390",
+          "name": "Hana Holm",
+          "email": "hana.holm@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Flies in from the West Coast office. Moderating a panel on day two. Travels with a camera crew of one (self-funded). Speaker tier: keynote. Signed the recording consent. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb54feb2a959fee",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-393",
+          "name": "Femi Brandt",
+          "email": "femi.brandt@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Prefers aisle seats. Has spoken at two previous summits. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec4b4cdb3a551bf6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-395",
+          "name": "Bao Jansen",
+          "email": "bao.jansen@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Moderating a panel on day two. Prefers aisle seats. Speaker tier: contributed. Has spoken at two previous summits. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rececbc1cc7075079",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-396",
+          "name": "Ada Wolfe",
+          "email": "ada.wolfe@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Prefers aisle seats. Organiser contact is the programme chair. Speaker tier: contributed. Flies in from the West Coast office. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec18732290f540e1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-398",
+          "name": "Chen Kim",
+          "email": "chen.kim@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Vegetarian. Prefers aisle seats. Flies in from the West Coast office. Speaker tier: invited. Has spoken at two previous summits. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec44e541236a6549",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-400",
+          "name": "Jun Lund",
+          "email": "jun.lund@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Has spoken at two previous summits. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Travels with a camera crew of one (self-funded). Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recfff857c049d7a7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-402",
+          "name": "Quin Voss",
+          "email": "quin.voss@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Vegetarian. Speaker tier: contributed. Asked for the slides template in September. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rece88340ea7e47ec",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-404",
+          "name": "Wim Nkemelu",
+          "email": "wim.nkemelu@corp.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Has spoken at two previous summits. Bio updated in October. Speaker tier: contributed. Signed the recording consent. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8a22a67fbc1075",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-407",
+          "name": "Hana Pohl",
+          "email": "hana.pohl@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Organiser contact is the programme chair. Bio updated in October. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec255193101a8627",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-408",
+          "name": "Nils Diaz",
+          "email": "nils.diaz@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Travels with a camera crew of one (self-funded). Signed the recording consent. Has spoken at two previous summits. Speaker tier: invited. Travels with a camera crew of one (self-funded). Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0ba324775f26e3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-411",
+          "name": "Ugo Brandt",
+          "email": "ugo.brandt@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Asked for the slides template in September. Prefers aisle seats. Organiser contact is the programme chair. Speaker tier: invited. Organiser contact is the programme chair. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec13d32336c545a5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-413",
+          "name": "Ugo Wolfe",
+          "email": "ugo.wolfe@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Flies in from the West Coast office. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec68332234f4d69d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-414",
+          "name": "Sami Voss",
+          "email": "sami.voss@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Bio updated in October. Prefers aisle seats. Speaker tier: contributed. Flies in from the West Coast office. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca445c97ec27140",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-416",
+          "name": "Zeno Mori",
+          "email": "zeno.mori@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Asked for the slides template in September. Flies in from the West Coast office. Speaker tier: invited. Vegetarian. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec75f0aff28f234c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-419",
+          "name": "Zeno Gupta",
+          "email": "zeno.gupta@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Signed the recording consent. Bio updated in October. Speaker tier: contributed. Vegetarian. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec4fbaa2cfc1289d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-420",
+          "name": "Pia Gupta",
+          "email": "pia.gupta@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Vegetarian. Has spoken at two previous summits. Signed the recording consent. Speaker tier: invited. Moderating a panel on day two. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb4906990ab4246",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-423",
+          "name": "Ravi Kim",
+          "email": "ravi.kim@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Bio updated in October. Speaker tier: contributed. Signed the recording consent. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recafd7305d2ff4f4",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-425",
+          "name": "Dara Ito",
+          "email": "dara.ito@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Travels with a camera crew of one (self-funded). Speaker tier: invited. Flies in from the West Coast office. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recf1b8696e0052e2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-427",
+          "name": "Ugo Quist",
+          "email": "ugo.quist@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Moderating a panel on day two. Has spoken at two previous summits. Speaker tier: contributed. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec147fe416fbf959",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-428",
+          "name": "Dara Brandt",
+          "email": "dara.brandt@uni.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Travels with a camera crew of one (self-funded). Organiser contact is the programme chair. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc2b0b615a5a0e2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-430",
+          "name": "Femi Quist",
+          "email": "femi.quist@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Vegetarian. Has spoken at two previous summits. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc8bd9cbe86a5c5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-433",
+          "name": "Vera Brandt",
+          "email": "vera.brandt@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Prefers aisle seats. Signed the recording consent. Speaker tier: contributed. Asked for the slides template in September. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb7d93b130e0b3a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-435",
+          "name": "Ivo Brandt",
+          "email": "ivo.brandt@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Asked for the slides template in September. Bio updated in October. Speaker tier: contributed. Bio updated in October. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recee56913716f7b6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-437",
+          "name": "Kai Brandt",
+          "email": "kai.brandt@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Bio updated in October. Prefers aisle seats. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec6e9d8f9474f770",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-438",
+          "name": "Zeno Quist",
+          "email": "zeno.quist@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Asked for the slides template in September. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec344842b5a47e01",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-440",
+          "name": "Dara Pohl",
+          "email": "dara.pohl@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Vegetarian. Has spoken at two previous summits. Speaker tier: contributed. Vegetarian. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8d44e75a672a4c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-443",
+          "name": "Gita Kim",
+          "email": "gita.kim@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Travels with a camera crew of one (self-funded). Has spoken at two previous summits. Speaker tier: invited. Bio updated in October. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec7e523ab5c08013",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-445",
+          "name": "Zeno Voss",
+          "email": "zeno.voss@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Flies in from the West Coast office. Signed the recording consent. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec77eac64641f39f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-447",
+          "name": "Ivo Wolfe",
+          "email": "ivo.wolfe@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Vegetarian. Travels with a camera crew of one (self-funded). Moderating a panel on day two. Speaker tier: keynote. Vegetarian. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recf43539bee74231",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-448",
+          "name": "Mira Toivonen",
+          "email": "mira.toivonen@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Has spoken at two previous summits. Organiser contact is the programme chair. Speaker tier: contributed. Has spoken at two previous summits. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rece497497d7bfe78",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-451",
+          "name": "Oona Brandt",
+          "email": "oona.brandt@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Flies in from the West Coast office. Organiser contact is the programme chair. Speaker tier: contributed. Has spoken at two previous summits. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec45a984e565d1b2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-453",
+          "name": "Quin Nkemelu",
+          "email": "quin.nkemelu@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Signed the recording consent. Has spoken at two previous summits. Speaker tier: invited. Asked for the slides template in September. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec29f2c85664e28c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-454",
+          "name": "Pia Abe",
+          "email": "pia.abe@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Travels with a camera crew of one (self-funded). Signed the recording consent. Has spoken at two previous summits. Speaker tier: invited. Moderating a panel on day two. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec86688e41503edc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-457",
+          "name": "Dara Rao",
+          "email": "dara.rao@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Bio updated in October. Signed the recording consent. Speaker tier: keynote (2025 summit). Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec518eb29f9773db",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-459",
+          "name": "Tess Ortiz",
+          "email": "tess.ortiz@corp.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Bio updated in October. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Vegetarian. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recaa257ebf931d8b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-461",
+          "name": "Zeno Brandt",
+          "email": "zeno.brandt@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Vegetarian. Organiser contact is the programme chair. Bio updated in October. Speaker tier: keynote. Travels with a camera crew of one (self-funded). Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc804a374859322",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-462",
+          "name": "Yara Holm",
+          "email": "yara.holm@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Moderating a panel on day two. Vegetarian. Speaker tier: contributed. Asked for the slides template in September. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recbcd2115954f150",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-464",
+          "name": "Jun Fox",
+          "email": "jun.fox@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Moderating a panel on day two. Asked for the slides template in September. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc2f22577804ee8",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-467",
+          "name": "Sami Lund",
+          "email": "sami.lund@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Organiser contact is the programme chair. Bio updated in October. Speaker tier: contributed. Has spoken at two previous summits. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec1d8639ff461392",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-468",
+          "name": "Quin Costa",
+          "email": "quin.costa@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Travels with a camera crew of one (self-funded). Vegetarian. Signed the recording consent. Speaker tier: invited. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec7e56984e86f0fc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-471",
+          "name": "Ravi Diaz",
+          "email": "ravi.diaz@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Has spoken at two previous summits. Organiser contact is the programme chair. Speaker tier: contributed. Organiser contact is the programme chair. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recaea150a11fda3d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-472",
+          "name": "Chen Ito",
+          "email": "chen.ito@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Asked for the slides template in September. Has spoken at two previous summits. Speaker tier: contributed. Moderating a panel on day two. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recdd2bf39f29fdbb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-474",
+          "name": "Wim Silva",
+          "email": "wim.silva@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Moderating a panel on day two. Bio updated in October. Speaker tier: contributed. Signed the recording consent. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recac3e820a335bf6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-477",
+          "name": "Eli Wolfe",
+          "email": "eli.wolfe@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Bio updated in October. Signed the recording consent. Speaker tier: contributed. Flies in from the West Coast office. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec7376a563857a62",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-478",
+          "name": "Xin Kim",
+          "email": "xin.kim@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Prefers aisle seats. Organiser contact is the programme chair. Speaker tier: contributed. Bio updated in October. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec2e20badcde19ce",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-480",
+          "name": "Pia Eng",
+          "email": "pia.eng@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Signed the recording consent. Speaker tier: invited. Has spoken at two previous summits. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec566db08b2c84e1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-483",
+          "name": "Xin Ortiz",
+          "email": "xin.ortiz@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Has spoken at two previous summits. Vegetarian. Speaker tier: invited. Flies in from the West Coast office. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recbdf747445cf909",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-485",
+          "name": "Femi Pohl",
+          "email": "femi.pohl@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Flies in from the West Coast office. Vegetarian. Speaker tier: contributed. Organiser contact is the programme chair. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec1ceaaec019c957",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-487",
+          "name": "Ivo Holm",
+          "email": "ivo.holm@lab.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Has spoken at two previous summits. Vegetarian. Speaker tier: contributed. Prefers aisle seats. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc6dd3b1218ca26",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-489",
+          "name": "Quin Diaz",
+          "email": "quin.diaz@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Bio updated in October. Flies in from the West Coast office. Speaker tier: contributed. Bio updated in October. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec24e7a459ecfe40",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-491",
+          "name": "Xin Costa",
+          "email": "xin.costa@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Organiser contact is the programme chair. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec87c79ea3b3b5ef",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-493",
+          "name": "Kai Toivonen",
+          "email": "kai.toivonen@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Moderating a panel on day two. Has spoken at two previous summits. Speaker tier: contributed. Moderating a panel on day two. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec5241f31988405a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-495",
+          "name": "Hana Lund",
+          "email": "hana.lund@lab.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Vegetarian. Asked for the slides template in September. Speaker tier: contributed. Bio updated in October. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec446763df3461c6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-497",
+          "name": "Chen Costa",
+          "email": "chen.costa@corp.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Flies in from the West Coast office. Bio updated in October. Asked for the slides template in September. Speaker tier: keynote (2025 summit). Signed the recording consent. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0344d27fe15c8f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-499",
+          "name": "Bao Pohl",
+          "email": "bao.pohl@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Flies in from the West Coast office. Signed the recording consent. Speaker tier: contributed. Moderating a panel on day two. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec98201052765fc3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-501",
+          "name": "Wim Lund",
+          "email": "wim.lund@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Bio updated in October. Asked for the slides template in September. Prefers aisle seats. Speaker tier: invited. Organiser contact is the programme chair. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec97684c68a47d51",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-503",
+          "name": "Wim Voss",
+          "email": "wim.voss@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Vegetarian. Moderating a panel on day two. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec6f033db0869e2b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-504",
+          "name": "Ravi Gupta",
+          "email": "ravi.gupta@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Has spoken at two previous summits. Prefers aisle seats. Travels with a camera crew of one (self-funded). Speaker tier: invited. Vegetarian. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3d629b7c853c4b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-506",
+          "name": "Femi Kim",
+          "email": "femi.kim@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Bio updated in October. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Moderating a panel on day two. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc5add38e27741a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-508",
+          "name": "Mira Quist",
+          "email": "mira.quist@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Vegetarian. Bio updated in October. Speaker tier: contributed. Signed the recording consent. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recbca1fff7969671",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-510",
+          "name": "Ada Voss",
+          "email": "ada.voss@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Asked for the slides template in September. Prefers aisle seats. Vegetarian. Speaker tier: invited. Organiser contact is the programme chair. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec667da3ee0fafa3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-512",
+          "name": "Eli Quist",
+          "email": "eli.quist@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Asked for the slides template in September. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Moderating a panel on day two. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec93d25a6223ae61",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-514",
+          "name": "Femi Gupta",
+          "email": "femi.gupta@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Vegetarian. Organiser contact is the programme chair. Speaker tier: contributed. Bio updated in October. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recaa1b3c79c6a676",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-516",
+          "name": "Gita Fox",
+          "email": "gita.fox@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Signed the recording consent. Bio updated in October. Moderating a panel on day two. Speaker tier: keynote. Bio updated in October. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3dfa7a239a8fd5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-519",
+          "name": "Oona Jansen",
+          "email": "oona.jansen@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Travels with a camera crew of one (self-funded). Moderating a panel on day two. Speaker tier: invited. Signed the recording consent. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec1f423e248b1b1a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-521",
+          "name": "Wim Fox",
+          "email": "wim.fox@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Organiser contact is the programme chair. Prefers aisle seats. Speaker tier: contributed. Bio updated in October. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec470e604a044a9c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-523",
+          "name": "Nils Ortiz",
+          "email": "nils.ortiz@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Asked for the slides template in September. Organiser contact is the programme chair. Speaker tier: contributed. Flies in from the West Coast office. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec2a019f4ef59d0f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-524",
+          "name": "Zeno Nkemelu",
+          "email": "zeno.nkemelu@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Flies in from the West Coast office. Organiser contact is the programme chair. Speaker tier: invited. Signed the recording consent. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recdf00e51b6034b1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-527",
+          "name": "Oona Gupta",
+          "email": "oona.gupta@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Flies in from the West Coast office. Signed the recording consent. Prefers aisle seats. Speaker tier: keynote. Bio updated in October. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recddce5e0aacc4aa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-528",
+          "name": "Tess Wolfe",
+          "email": "tess.wolfe@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Asked for the slides template in September. Prefers aisle seats. Speaker tier: invited. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb57064062e9246",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-530",
+          "name": "Yara Voss",
+          "email": "yara.voss@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Moderating a panel on day two. Speaker tier: invited. Asked for the slides template in September. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec97a51c7b959614",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-532",
+          "name": "Hana Ortiz",
+          "email": "hana.ortiz@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Asked for the slides template in September. Vegetarian. Prefers aisle seats. Speaker tier: invited. Travels with a camera crew of one (self-funded). Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec31a02251b021c8",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-535",
+          "name": "Yara Ueda",
+          "email": "yara.ueda@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Has spoken at two previous summits. Travels with a camera crew of one (self-funded). Organiser contact is the programme chair. Speaker tier: invited. Vegetarian. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recae807362af4210",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-536",
+          "name": "Pia Quist",
+          "email": "pia.quist@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Bio updated in October. Vegetarian. Speaker tier: contributed. Moderating a panel on day two. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec9ddbfdde350a9f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-538",
+          "name": "Chen Abe",
+          "email": "chen.abe@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Asked for the slides template in September. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Travels with a camera crew of one (self-funded). Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recf2922b25c5f607",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-540",
+          "name": "Yara Ortiz",
+          "email": "yara.ortiz@uni.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Flies in from the West Coast office. Moderating a panel on day two. Speaker tier: contributed. Signed the recording consent. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3d5fd2e17cda20",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-543",
+          "name": "Hana Fox",
+          "email": "hana.fox@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Signed the recording consent. Bio updated in October. Speaker tier: contributed. Vegetarian. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recde528b94d82cfe",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-545",
+          "name": "Bao Fox",
+          "email": "bao.fox@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Vegetarian. Prefers aisle seats. Speaker tier: contributed. Asked for the slides template in September. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3546317fa101ec",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-546",
+          "name": "Sami Gupta",
+          "email": "sami.gupta@uni.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Signed the recording consent. Moderating a panel on day two. Speaker tier: contributed. Moderating a panel on day two. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec650c88f79089f0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-549",
+          "name": "Ada Eng",
+          "email": "ada.eng@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Bio updated in October. Vegetarian. Speaker tier: invited. Bio updated in October. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reccb12f622ec244b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-550",
+          "name": "Ada Kim",
+          "email": "ada.kim@lab.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Signed the recording consent. Vegetarian. Organiser contact is the programme chair. Speaker tier: keynote. Moderating a panel on day two. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec02c86392ecc5b6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-553",
+          "name": "Gita Ortiz",
+          "email": "gita.ortiz@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Vegetarian. Asked for the slides template in September. Speaker tier: contributed. Flies in from the West Coast office. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec3257e5e6b8b6e9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-554",
+          "name": "Ugo Eng",
+          "email": "ugo.eng@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Travels with a camera crew of one (self-funded). Prefers aisle seats. Speaker tier: contributed. Asked for the slides template in September. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recaaaa04993f7d66",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-557",
+          "name": "Hana Ueda",
+          "email": "hana.ueda@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Has spoken at two previous summits. Asked for the slides template in September. Speaker tier: invited. Signed the recording consent. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec7360fbcec6f28b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-558",
+          "name": "Dara Costa",
+          "email": "dara.costa@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Moderating a panel on day two. Bio updated in October. Asked for the slides template in September. Speaker tier: invited. Organiser contact is the programme chair. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec05b3514ef27d4c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-560",
+          "name": "Lena Costa",
+          "email": "lena.costa@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Travels with a camera crew of one (self-funded). Has spoken at two previous summits. Prefers aisle seats. Speaker tier: keynote. Flies in from the West Coast office. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec221223cf22f64b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-562",
+          "name": "Vera Kim",
+          "email": "vera.kim@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Signed the recording consent. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Signed the recording consent. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reccf9010b034767a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-564",
+          "name": "Zeno Abe",
+          "email": "zeno.abe@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Has spoken at two previous summits. Flies in from the West Coast office. Speaker tier: contributed. Bio updated in October. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec46489b8f3d16e6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-567",
+          "name": "Dara Lund",
+          "email": "dara.lund@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Prefers aisle seats. Asked for the slides template in September. Speaker tier: contributed. Vegetarian. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec29c781fce75fdc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-568",
+          "name": "Femi Toivonen",
+          "email": "femi.toivonen@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Bio updated in October. Vegetarian. Organiser contact is the programme chair. Speaker tier: keynote. Organiser contact is the programme chair. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0b1d7f59cef9e9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-570",
+          "name": "Gita Lund",
+          "email": "gita.lund@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Asked for the slides template in September. Flies in from the West Coast office. Signed the recording consent. Speaker tier: invited. Signed the recording consent. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec610b44cdc9c7d2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-573",
+          "name": "Hana Jansen",
+          "email": "hana.jansen@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Organiser contact is the programme chair. Has spoken at two previous summits. Speaker tier: contributed. Organiser contact is the programme chair. Signed the recording consent.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec444f13b10f4169",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-574",
+          "name": "Ada Ueda",
+          "email": "ada.ueda@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Travels with a camera crew of one (self-funded). Prefers aisle seats. Asked for the slides template in September. Speaker tier: invited. Organiser contact is the programme chair. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec78856bc04bf22f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-577",
+          "name": "Ivo Eng",
+          "email": "ivo.eng@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Organiser contact is the programme chair. Moderating a panel on day two. Speaker tier: contributed. Moderating a panel on day two. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec514e617222ee49",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-579",
+          "name": "Gita Ueda",
+          "email": "gita.ueda@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Vegetarian. Signed the recording consent. Organiser contact is the programme chair. Speaker tier: contributed. Asked for the slides template in September. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8a30ca279e3623",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-581",
+          "name": "Jun Pohl",
+          "email": "jun.pohl@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Vegetarian. Prefers aisle seats. Speaker tier: contributed. Flies in from the West Coast office. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recf28dcf8dd81f3c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-582",
+          "name": "Eli Ortiz",
+          "email": "eli.ortiz@lab.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Travels with a camera crew of one (self-funded). Vegetarian. Organiser contact is the programme chair. Speaker tier: keynote. Flies in from the West Coast office. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec4b6929d5f3d85c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-584",
+          "name": "Oona Ito",
+          "email": "oona.ito@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Asked for the slides template in September. Organiser contact is the programme chair. Speaker tier: contributed. Asked for the slides template in September. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec1166c6ce3b6fe2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-587",
+          "name": "Yara Lund",
+          "email": "yara.lund@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Has spoken at two previous summits. Prefers aisle seats. Organiser contact is the programme chair. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec2529424d4a8e6f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-589",
+          "name": "Ivo Silva",
+          "email": "ivo.silva@uni.example",
+          "status": "declined",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Vegetarian. Prefers aisle seats. Speaker tier: contributed. Flies in from the West Coast office. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0f3aa9191140db",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-591",
+          "name": "Jun Quist",
+          "email": "jun.quist@uni.example",
+          "status": "declined",
+          "tier": "invited",
+          "notes": "Signed the recording consent. Prefers aisle seats. Bio updated in October. Speaker tier: invited. Asked for the slides template in September. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec6431561e7b8f6d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-592",
+          "name": "Tess Pohl",
+          "email": "tess.pohl@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Bio updated in October. Prefers aisle seats. Speaker tier: contributed. Has spoken at two previous summits. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reccd4c4111865282",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-595",
+          "name": "Xin Voss",
+          "email": "xin.voss@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Prefers aisle seats. Flies in from the West Coast office. Speaker tier: contributed. Signed the recording consent. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca1d3a5aad8d2fa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-596",
+          "name": "Eli Jansen",
+          "email": "eli.jansen@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Asked for the slides template in September. Moderating a panel on day two. Speaker tier: contributed. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec04c58c93f44f2b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-599",
+          "name": "Ravi Silva",
+          "email": "ravi.silva@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Prefers aisle seats. Moderating a panel on day two. Speaker tier: contributed. Organiser contact is the programme chair. Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec0789062f1dfd27",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-600",
+          "name": "Ugo Nkemelu",
+          "email": "ugo.nkemelu@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Travels with a camera crew of one (self-funded). Prefers aisle seats. Moderating a panel on day two. Speaker tier: contributed. Signed the recording consent. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recd9128f4eb81b40",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-603",
+          "name": "Dara Jansen",
+          "email": "dara.jansen@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Vegetarian. Speaker tier: contributed. Has spoken at two previous summits. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec93802899f736d5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-605",
+          "name": "Kai Costa",
+          "email": "kai.costa@lab.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Organiser contact is the programme chair. Moderating a panel on day two. Asked for the slides template in September. Speaker tier: keynote. Moderating a panel on day two. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec68018107202059",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-606",
+          "name": "Pia Wolfe",
+          "email": "pia.wolfe@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Has spoken at two previous summits. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Asked for the slides template in September. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec406552a548fe25",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-609",
+          "name": "Oona Pohl",
+          "email": "oona.pohl@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Organiser contact is the programme chair. Bio updated in October. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recbea4f0b61e1b85",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-611",
+          "name": "Ravi Mori",
+          "email": "ravi.mori@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Organiser contact is the programme chair. Travels with a camera crew of one (self-funded). Asked for the slides template in September. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Flies in from the West Coast office.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec4822aee60eb8d0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-612",
+          "name": "Eli Costa",
+          "email": "eli.costa@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Has spoken at two previous summits. Signed the recording consent. Speaker tier: invited. Vegetarian. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec9810930d96d9a5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-614",
+          "name": "Ravi Fox",
+          "email": "ravi.fox@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Flies in from the West Coast office. Prefers aisle seats. Travels with a camera crew of one (self-funded). Speaker tier: contributed. Asked for the slides template in September. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recc714c8cfb8c6de",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-616",
+          "name": "Ravi Pohl",
+          "email": "ravi.pohl@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Flies in from the West Coast office. Vegetarian. Speaker tier: contributed. Organiser contact is the programme chair. Has spoken at two previous summits.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec15d7a6057860bf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-618",
+          "name": "Eli Brandt",
+          "email": "eli.brandt@uni.example",
+          "status": "declined",
+          "tier": "invited",
+          "notes": "Prefers aisle seats. Moderating a panel on day two. Flies in from the West Coast office. Speaker tier: invited. Flies in from the West Coast office. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recff267e33ba4964",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-621",
+          "name": "Zeno Ortiz",
+          "email": "zeno.ortiz@lab.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Flies in from the West Coast office. Travels with a camera crew of one (self-funded). Organiser contact is the programme chair. Speaker tier: invited. Flies in from the West Coast office. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec2c3cf74e9937a7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-622",
+          "name": "Zeno Pohl",
+          "email": "zeno.pohl@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Organiser contact is the programme chair. Moderating a panel on day two. Speaker tier: contributed. Asked for the slides template in September. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb0eeffbecf3948",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-625",
+          "name": "Wim Costa",
+          "email": "wim.costa@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Moderating a panel on day two. Vegetarian. Organiser contact is the programme chair. Speaker tier: contributed. Travels with a camera crew of one (self-funded). Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec02eb157941af76",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-627",
+          "name": "Yara Eng",
+          "email": "yara.eng@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Bio updated in October. Prefers aisle seats. Has spoken at two previous summits. Speaker tier: contributed. Prefers aisle seats. Moderating a panel on day two.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recb88f6f03ec25ca",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-629",
+          "name": "Hana Nkemelu",
+          "email": "hana.nkemelu@corp.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Asked for the slides template in September. Bio updated in October. Prefers aisle seats. Speaker tier: contributed. Moderating a panel on day two. Vegetarian.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recaca236a989e355",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-631",
+          "name": "Nils Wolfe",
+          "email": "nils.wolfe@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Flies in from the West Coast office. Asked for the slides template in September. Organiser contact is the programme chair. Speaker tier: invited. Has spoken at two previous summits. Organiser contact is the programme chair.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "recdf8166c8a44e73",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-632",
+          "name": "Nils Ueda",
+          "email": "nils.ueda@uni.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Signed the recording consent. Organiser contact is the programme chair. Bio updated in October. Speaker tier: contributed. Vegetarian. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reca41086fda15ea3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-635",
+          "name": "Bao Toivonen",
+          "email": "bao.toivonen@corp.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Flies in from the West Coast office. Has spoken at two previous summits. Signed the recording consent. Speaker tier: invited. Prefers aisle seats. Bio updated in October.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec8cc452b49ed73f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-637",
+          "name": "Yara Abe",
+          "email": "yara.abe@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Asked for the slides template in September. Has spoken at two previous summits. Bio updated in October. Speaker tier: invited. Bio updated in October. Asked for the slides template in September.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec28ef0e680ff3ef",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-639",
+          "name": "Zeno Ueda",
+          "email": "zeno.ueda@uni.example",
+          "status": "confirmed",
+          "tier": "keynote",
+          "notes": "Moderating a panel on day two. Has spoken at two previous summits. Prefers aisle seats. Speaker tier: keynote. Has spoken at two previous summits. Travels with a camera crew of one (self-funded).",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "rec61bb054bc11dca",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-641",
+          "name": "Tess Toivonen",
+          "email": "tess.toivonen@uni.example",
+          "status": "confirmed",
+          "tier": "invited",
+          "notes": "Vegetarian. Travels with a camera crew of one (self-funded). Has spoken at two previous summits. Speaker tier: invited. Signed the recording consent. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      },
+      {
+        "id": "reccb9674a5d1b694",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "speaker_id": "SP-643",
+          "name": "Xin Silva",
+          "email": "xin.silva@lab.example",
+          "status": "confirmed",
+          "tier": "contributed",
+          "notes": "Prefers aisle seats. Asked for the slides template in September. Signed the recording consent. Speaker tier: contributed. Organiser contact is the programme chair. Prefers aisle seats.",
+          "logistics_contact": ""
+        }
+      }
+    ],
+    "tblNlHotels002": [
+      {
+        "id": "rec5efa724e0d5103",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "hotel": "Quayside Northlight",
+          "rank": "1"
+        }
+      },
+      {
+        "id": "rec81b4e2b5a42cbc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "hotel": "Harbour Inn",
+          "rank": "2"
+        }
+      },
+      {
+        "id": "recae15dccb67e328",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "hotel": "Corrin Lodge",
+          "rank": "3"
+        }
+      }
+    ],
+    "tblNlRooms0003": [
+      {
+        "id": "recaeb5da9013d35c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4002",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec5775f6891b5cb3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4003",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf3bb652f2ed832",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4006",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec082301eed8e784",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4010",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec3c0e6e4038ded3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4014",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1e7a1471c2455b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4015",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb83d8cc241d97c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4020",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf9ea18ef23261e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4023",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "yes",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec433d3535117edb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4026",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec07c2f33376c131",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4028",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recfe12c103357a33",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4032",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb99a21af07fb1e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4033",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec99f8d6efc52bb5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4037",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6e0a7e249c3121",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4039",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7772b86aca5208",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4042",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8802eed840e16d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4046",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recab3eed3c3ba58b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4048",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7e6bcc7cb733a0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4052",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recaa435bc7a312e1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4056",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf2d1fb31809e09",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4059",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recab2619d567d742",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4062",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece73c4f72be503a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4063",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccec592c979efd5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4067",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6a30341347c776",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4069",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc071552673db5e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4072",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec263ce05e9db8e9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4075",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd26468822e6f40",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4079",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0756d71b710c3e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4081",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec27c7847b72f2a1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4085",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb3d0621cd3e51a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4088",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1107b6e4159afd",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4092",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd6610cefe72a46",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4094",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec65ca98e6770ac9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4097",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec310b19b623c9d9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4100",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6305d151390076",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4102",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca83f133adf5d2a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4105",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc5e0c7ebb79fc9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4108",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd050a078bf18fa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4112",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec3996f0e4c0a218",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4114",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recea52f4218fc84a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4119",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec165ff4fd6e197e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4120",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc1f1fa90fe7369",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4125",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7295dc0bd64613",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4127",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccd87aeb7db3415",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4129",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec91a98f8eae2a1a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4134",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recded601f422d376",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4137",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec476077da89c2a5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4140",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec824488934422dd",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4142",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece65e0500840d59",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4145",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6ef8c13b3b91a6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4148",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8ef35dd30a0347",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4152",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd76b335a2c784c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4155",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec414cb72889284d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4158",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc3975c66ae51c9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4160",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec95a70c883d8888",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4163",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9f69bcb2500ccd",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4166",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec65e37b6a15fef1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4169",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca3b9c763b908b3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4172",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec90ea7fb7233fad",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4176",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recea1d6249501c8c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4179",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec952a97be254086",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4182",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recdb7d4dd7ed38d8",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4184",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece2948f48a91f76",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4188",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec61cf49dc86b4b9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4191",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7145063cff653d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4193",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece701f9705d0828",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4197",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec236aeaf75f8526",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4199",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec19615d62d048ad",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4202",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc8fc0b054cc65e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4206",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb96ee8df5e51cd",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4209",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec91e2a81c22265d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4212",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recced9cbd95efdb8",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4214",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec855d283b13b024",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4218",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1338d16f9b0ac6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4219",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec329b52f7d1a863",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4223",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb08310e6adc664",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4227",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9b7a1520fd3c56",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4228",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9c3e903f049018",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4232",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1ec3b915d18610",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4236",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf6ba588a7868db",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4237",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec5b9141d76dbf08",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4241",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1b3a50658137b7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4243",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccb02fa8f1fa4ee",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4247",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0341f177b33b85",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4250",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recebf0e360df2763",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4254",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca7f1965bd43446",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4257",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec221c61dcc55d18",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4259",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec32df38e26d30d6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4261",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recbd27259a843da9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4266",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recbb8c30c2d25349",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4267",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6b1d2d0883faf1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4271",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec62bdae8aa7b98f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4274",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8f02611d82b4e4",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4278",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca35c90b6cc8552",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4279",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1daedb64beab45",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4282",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec2db217deb1d305",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4287",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec969d27d7882535",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4289",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9cc2d12c86ac7b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4291",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec029e4b1fd6ea61",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4296",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd1140aa439d2f1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4298",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec97d581a0d939f0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4301",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec444e10a890cd4c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4303",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd2057ee47df24e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4306",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7c9cedd0288aaa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4311",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec70d5b1d0c7482e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4313",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec370b2f88203d6f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4315",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca6c10f3ee37c18",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4319",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb168e8876a7fba",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4321",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6485561e0b202f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4326",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec2827654b5dab63",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4328",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc81c19119ee021",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4331",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6033c4bdaea7a9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4335",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec599ab9e3a1dae2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4336",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7f6e3f138c869c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4340",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece3371ab4974370",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4343",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec82e88623d8ace0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4346",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc535a06f1d9168",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4348",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec2454814d5d9654",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4351",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc3661c0b37d4c7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4356",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7d7b7b2f170c29",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4358",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf8c14121afaa41",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4360",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccacfbed04ccd0e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4364",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec624469ed038fbc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4368",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece8b5fbf1c2f6a7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4369",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca6af82aea4a8b5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4373",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec749f244d277674",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4375",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec75444e4b1f8679",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4379",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc2f9bdd57a2298",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4383",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccef9b6546e5d91",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4384",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec51e90a03a0ec14",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4388",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec5e57034a255285",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4391",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb08b000c91062c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4395",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0431399244feb7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4397",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recebd55d534fea9c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4399",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf39432e99d1690",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4402",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8cb634c127b016",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4405",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec032601e81a8045",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4410",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0e0b6047f13353",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4413",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1dcaf7494a0e70",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4416",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec391e7a91cd1d22",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4419",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8381ace2328b56",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4420",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recce5c6cf5ff45f3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4424",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd650fda2b0633a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4426",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0686d4bd900749",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4431",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec4df0f8fab03de1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4434",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recbf63b4d0f3f38f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4435",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf295726c7e702f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4440",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recfb84f7f644cb6c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4442",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec143df326b9b2af",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4445",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec12d368ada36956",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4449",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb8dc5b28975091",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4450",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8a0faa32fdc1b5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4454",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec4cf03a2e447df3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4458",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0e805276bc207a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4460",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece8acd6d263e0f3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4463",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8669b5d30d655c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4465",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece59e98b8a1e71d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4469",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec1d4c26c7522753",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4471",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf3f8584bc46f28",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4476",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recafa21407643092",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4477",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca8a6c5e924fb35",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4480",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec7eacc65ea8ee4f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4483",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recab78305ab4958f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4486",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb3560dcfdc7b4a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4489",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccd1ee652ed4568",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4492",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec99018fe4430fc0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4495",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc68b8eb53cf6a9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4498",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8c4b5ddc0677ea",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4503",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec36253590a454f0",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4504",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "yes",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec09d9f4470202bb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4507",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec11a81d3949a7e5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4510",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8000a2d6e17565",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4515",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recec425d28a08370",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4518",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec427e7c5c348c93",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4520",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reca90b48131e305b",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4522",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recbe60354fa75a22",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4527",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc129347660ddf7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4528",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "reccf1cee12e7edaa",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4532",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd8d46ea9395883",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4536",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recfee0f219b10d60",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4539",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recafef0df8b0d9bf",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4542",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec33c9c28435ff3e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4545",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recea40dd4810b777",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4548",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb8ff5ff817ac43",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4551",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recef4e23f4380e5c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4552",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec447f4f7ee2f9e7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4556",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec88cf3c194046cc",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4558",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec3e316877c71f64",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4562",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recc62bf77ad8fea6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4565",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec92a15ad8c290b5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4569",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recba0ef244ce9299",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4572",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec4edd1cc5e32935",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4575",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec616e45a18bea9e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4576",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9a490a3740c1da",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4580",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recd3a9530a9c7c30",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4583",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec3f3f4aaf5d86c3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4587",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0a3e638774ed0f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4589",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recaf8eb1fc902d12",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4592",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec8b233c06556fda",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4595",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec56840d0ee74184",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4597",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec384d7a19e796c4",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4602",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf607cec9f6aa45",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4605",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec2aee4fcf57d98a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4606",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-25",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec6e5b68a216a462",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4611",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf8a7096239d2a7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4614",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec978a2a9094fda6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4617",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec9aee16d3c190ad",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4619",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rece209400127a1c3",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4621",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec976ef2fbe54a89",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4625",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec81176639edf867",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4629",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "yes",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb78bf0143f67a5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4632",
+          "hotel": "Quayside Northlight",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec03100d2e99b68f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4633",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recf06c3952d52923",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4636",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-26",
+          "accessible": "no",
+          "status": "held",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec0b64c76ecc3c92",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4641",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "recb687b5c57f52d8",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4642",
+          "hotel": "Corrin Lodge",
+          "check_in": "2026-11-23",
+          "check_out": "2026-11-25",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      },
+      {
+        "id": "rec812cf4342bd53c",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "room_id": "RM-4647",
+          "hotel": "Harbour Inn",
+          "check_in": "2026-11-24",
+          "check_out": "2026-11-27",
+          "accessible": "no",
+          "status": "open",
+          "speaker_id": ""
+        }
+      }
+    ],
+    "tblNlResReg004": [
+      {
+        "id": "rec44133e681dec4e",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2601",
+          "reservation": "NL-2601",
+          "hotel": "Quayside Northlight",
+          "page": "11",
+          "heading": "Committed stay",
+          "amount_gbp": "600.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recd075e78ac25521",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2602",
+          "reservation": "NL-2602",
+          "hotel": "Harbour Inn",
+          "page": "11",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec05835c38b2f826",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2603",
+          "reservation": "NL-2603",
+          "hotel": "Corrin Lodge",
+          "page": "11",
+          "heading": "Committed stay",
+          "amount_gbp": "630.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recdf50c5ab1bad89",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2604",
+          "reservation": "NL-2604",
+          "hotel": "Quayside Northlight",
+          "page": "11",
+          "heading": "Committed stay",
+          "amount_gbp": "450.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "reca53a0310434df6",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2605",
+          "reservation": "NL-2605",
+          "hotel": "Harbour Inn",
+          "page": "11",
+          "heading": "Cancelled without charge",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recfd69ef57353dfb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2606",
+          "reservation": "NL-2606",
+          "hotel": "Quayside Northlight",
+          "page": "11",
+          "heading": "Cancelled without charge",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 11 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recd9dd936420c0f7",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2607",
+          "reservation": "NL-2607",
+          "hotel": "Harbour Inn",
+          "page": "12",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec921cdb38dd3db9",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2608",
+          "reservation": "NL-2608",
+          "hotel": "Quayside Northlight",
+          "page": "12",
+          "heading": "Superseded by re-booking",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec2cf4714a83893a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2609",
+          "reservation": "NL-2609",
+          "hotel": "Corrin Lodge",
+          "page": "12",
+          "heading": "Not guaranteed",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec1c1ae528c5dc75",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2610",
+          "reservation": "NL-2610",
+          "hotel": "Harbour Inn",
+          "page": "12",
+          "heading": "Not guaranteed",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recddf25ae5d23abe",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2611",
+          "reservation": "NL-2611",
+          "hotel": "Quayside Northlight",
+          "page": "12",
+          "heading": "Committed stay",
+          "amount_gbp": "450.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec5b565a855ccaca",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2612",
+          "reservation": "NL-2612",
+          "hotel": "Quayside Northlight",
+          "page": "12",
+          "heading": "Committed stay",
+          "amount_gbp": "900.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec924fb624e7c9c1",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2613",
+          "reservation": "NL-2613",
+          "hotel": "Harbour Inn",
+          "page": "13",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec260d4a4fd8e774",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2614",
+          "reservation": "NL-2614",
+          "hotel": "Corrin Lodge",
+          "page": "13",
+          "heading": "Committed stay",
+          "amount_gbp": "210.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "receece7fa3b235f2",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2615",
+          "reservation": "NL-2615",
+          "hotel": "Harbour Inn",
+          "page": "13",
+          "heading": "Not this event's block",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec1eac48a865b3b5",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2616",
+          "reservation": "NL-2616",
+          "hotel": "Quayside Northlight",
+          "page": "13",
+          "heading": "Arrival outside the block window",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recce2a7817f75ab4",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2617",
+          "reservation": "NL-2617",
+          "hotel": "Corrin Lodge",
+          "page": "13",
+          "heading": "Committed stay",
+          "amount_gbp": "420.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec6c2f96aaa83901",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2618",
+          "reservation": "NL-2618",
+          "hotel": "Quayside Northlight",
+          "page": "13",
+          "heading": "Committed stay",
+          "amount_gbp": "450.00",
+          "keyer_notes": "Keyed by Joss from printed page 13 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "reccd9711a023c0ec",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2619",
+          "reservation": "NL-2619",
+          "hotel": "Harbour Inn",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recce429a6dedccbb",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2620",
+          "reservation": "NL-2620",
+          "hotel": "Corrin Lodge",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "420.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recd19086da6b5abe",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2621",
+          "reservation": "NL-2621",
+          "hotel": "Harbour Inn",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec22da6c13be8b65",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2622",
+          "reservation": "NL-2622",
+          "hotel": "Quayside Northlight",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "450.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recc829eeed43e35a",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2623",
+          "reservation": "NL-2623",
+          "hotel": "Corrin Lodge",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "840.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec66c2224160c06f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2624",
+          "reservation": "NL-2624",
+          "hotel": "Harbour Inn",
+          "page": "14",
+          "heading": "Committed stay",
+          "amount_gbp": "390.00",
+          "keyer_notes": "Keyed by Joss from printed page 14 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec92b1efad0fce17",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2625",
+          "reservation": "NL-2625",
+          "hotel": "Quayside Northlight",
+          "page": "15",
+          "heading": "Committed stay",
+          "amount_gbp": "300.00",
+          "keyer_notes": "Keyed by Joss from printed page 15 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "recfa52d7f9871e39",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2626",
+          "reservation": "NL-2626",
+          "hotel": "Corrin Lodge",
+          "page": "15",
+          "heading": "Not guaranteed",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 15 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec5d1413f0e58488",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2627",
+          "reservation": "NL-2627",
+          "hotel": "Quayside Northlight",
+          "page": "15",
+          "heading": "Not this event's block",
+          "amount_gbp": "0.00",
+          "keyer_notes": "Keyed by Joss from printed page 15 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec230e5a3fd7c79f",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2628",
+          "reservation": "NL-2628",
+          "hotel": "Harbour Inn",
+          "page": "15",
+          "heading": "Committed stay",
+          "amount_gbp": "260.00",
+          "keyer_notes": "Keyed by Joss from printed page 15 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      },
+      {
+        "id": "rec1cc5df6f52bf6d",
+        "createdTime": "2026-10-01T09:00:00.000Z",
+        "fields": {
+          "line": "rr-2608R",
+          "reservation": "NL-2608R",
+          "hotel": "Harbour Inn",
+          "page": "12",
+          "heading": "Committed stay",
+          "amount_gbp": "390.00",
+          "keyer_notes": "Keyed by Joss from printed page 12 in print order; status as first seen; amount as nights x the first-edition flat rate."
+        }
+      }
+    ]
+  },
+  "_field_meta": {
+    "tblNlSpeaker01": [
+      {
+        "id": "fldNlSpea000",
+        "name": "speaker_id",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlSpea001",
+        "name": "name",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlSpea002",
+        "name": "email",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlSpea003",
+        "name": "status",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlSpea004",
+        "name": "tier",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlSpea005",
+        "name": "notes",
+        "type": "multilineText"
+      },
+      {
+        "id": "fldNlSpea006",
+        "name": "logistics_contact",
+        "type": "singleLineText"
+      }
+    ],
+    "tblNlHotels002": [
+      {
+        "id": "fldNlHote000",
+        "name": "hotel",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlHote001",
+        "name": "rank",
+        "type": "singleLineText"
+      }
+    ],
+    "tblNlRooms0003": [
+      {
+        "id": "fldNlRoom000",
+        "name": "room_id",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom001",
+        "name": "hotel",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom002",
+        "name": "check_in",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom003",
+        "name": "check_out",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom004",
+        "name": "accessible",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom005",
+        "name": "status",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlRoom006",
+        "name": "speaker_id",
+        "type": "singleLineText"
+      }
+    ],
+    "tblNlResReg004": [
+      {
+        "id": "fldNlResR000",
+        "name": "line",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR001",
+        "name": "reservation",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR002",
+        "name": "hotel",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR003",
+        "name": "page",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR004",
+        "name": "heading",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR005",
+        "name": "amount_gbp",
+        "type": "singleLineText"
+      },
+      {
+        "id": "fldNlResR006",
+        "name": "keyer_notes",
+        "type": "multilineText"
+      }
+    ]
+  },
+  "_field_types": {
+    "tblNlSpeaker01": {
+      "speaker_id": "singleLineText",
+      "name": "singleLineText",
+      "email": "singleLineText",
+      "status": "singleLineText",
+      "tier": "singleLineText",
+      "notes": "multilineText",
+      "logistics_contact": "singleLineText"
+    },
+    "tblNlHotels002": {
+      "hotel": "singleLineText",
+      "rank": "singleLineText"
+    },
+    "tblNlRooms0003": {
+      "room_id": "singleLineText",
+      "hotel": "singleLineText",
+      "check_in": "singleLineText",
+      "check_out": "singleLineText",
+      "accessible": "singleLineText",
+      "status": "singleLineText",
+      "speaker_id": "singleLineText"
+    },
+    "tblNlResReg004": {
+      "line": "singleLineText",
+      "reservation": "singleLineText",
+      "hotel": "singleLineText",
+      "page": "singleLineText",
+      "heading": "singleLineText",
+      "amount_gbp": "singleLineText",
+      "keyer_notes": "multilineText"
+    }
+  },
+  "_task_closeout_events": [
+    {
+      "id": "ROOM-DESK-CLOSE-26",
+      "trigger_table": "reservation_register",
+      "changes": [
+        {
+          "table_id": "tblNlRooms0003",
+          "record_id": "recab2619d567d742",
+          "fields": {
+            "status": "withdrawn"
+          }
+        }
+      ]
+    }
+  ]
+}

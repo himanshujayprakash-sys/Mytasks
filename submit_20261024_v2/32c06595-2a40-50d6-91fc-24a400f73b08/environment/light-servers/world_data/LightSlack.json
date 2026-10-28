@@ -1,0 +1,361 @@
+{
+ "team": {
+  "domain": "linnetlane",
+  "id": "T25LLH",
+  "name": "Linnet Lane Hospice"
+ },
+ "users": [
+  {
+   "id": "U02VAN",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "vanessa.hartigan",
+   "presence": "active",
+   "profile": {
+    "email": "vanessa.hartigan@linnetlane.example"
+   },
+   "real_name": "Vanessa Hartigan"
+  },
+  {
+   "id": "U03OWA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "owain.petheridge",
+   "presence": "active",
+   "profile": {
+    "email": "owain.petheridge@linnetlane.example"
+   },
+   "real_name": "Owain Petheridge"
+  },
+  {
+   "id": "U04BET",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "bethan.coleridge",
+   "presence": "active",
+   "profile": {
+    "email": "bethan.coleridge@linnetlane.example"
+   },
+   "real_name": "Bethan Coleridge"
+  },
+  {
+   "id": "U05SAS",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "saskia.lomond",
+   "presence": "active",
+   "profile": {
+    "email": "saskia.lomond@linnetlane.example"
+   },
+   "real_name": "Saskia Lomond"
+  },
+  {
+   "id": "U06FFI",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ffion.maddox",
+   "presence": "active",
+   "profile": {
+    "email": "ffion.maddox@linnetlane.example"
+   },
+   "real_name": "Ffion Maddox"
+  },
+  {
+   "id": "U07CAL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "callum.treharne",
+   "presence": "active",
+   "profile": {
+    "email": "callum.treharne@linnetlane.example"
+   },
+   "real_name": "Callum Treharne"
+  },
+  {
+   "id": "U08MAR",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "marcus.delacour",
+   "presence": "active",
+   "profile": {
+    "email": "marcus.delacour@linnetlane.example"
+   },
+   "real_name": "Marcus Delacour"
+  },
+  {
+   "id": "U10TOM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tomasz.wieczorek",
+   "presence": "active",
+   "profile": {
+    "email": "tomasz.wieczorek@linnetlane.example"
+   },
+   "real_name": "Tomasz Wieczorek"
+  },
+  {
+   "id": "U11JOA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "joanna.strickland",
+   "presence": "active",
+   "profile": {
+    "email": "joanna.strickland@linnetlane.example"
+   },
+   "real_name": "Joanna Strickland"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1788220800,
+   "creator": "U04BET",
+   "id": "C25CLOSE",
+   "is_archived": false,
+   "is_private": false,
+   "name": "kestrel-close",
+   "num_members": 9,
+   "purpose": "Closing the 2026 charity places",
+   "topic": "Kestrel Coast 2026 close-out"
+  },
+  {
+   "created": 1767225600,
+   "creator": "U03OWA",
+   "id": "C25EVENTS",
+   "is_archived": false,
+   "is_private": false,
+   "name": "events-team",
+   "num_members": 9,
+   "purpose": "Events team chat",
+   "topic": "Events team"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U02VAN"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U03OWA"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U04BET"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U05SAS"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U07CAL"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U08MAR"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U10TOM"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "user_id": "U11JOA"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U02VAN"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U03OWA"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U04BET"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U05SAS"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U07CAL"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U08MAR"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U10TOM"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "user_id": "U11JOA"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C25EVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "What a weekend. Thank you all - 44 of ours started and the tent was rammed.",
+   "thread_ts": null,
+   "ts": "1791189000.000001",
+   "user_id": "U03OWA"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Hollie's out injured, poor thing - I suppose she just loses her place fee?",
+   "thread_ts": null,
+   "ts": "1791189660.000002",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Photos are going up in the archive this week.",
+   "thread_ts": null,
+   "ts": "1791190920.000003",
+   "user_id": "U10TOM"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trustees liked the Kestrel numbers. Full close report after the claim goes in.",
+   "thread_ts": null,
+   "ts": "1792170000.000004",
+   "user_id": "U03OWA"
+  },
+  {
+   "channel_id": "C25EVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signed Ravi's hardship waiver this morning so it's ready for the close.",
+   "thread_ts": null,
+   "ts": "1793613900.000005",
+   "user_id": "U05SAS"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Close sheet keyed from the 09:00 export. Platform's final October file still to come.",
+   "thread_ts": null,
+   "ts": "1793611500.000006",
+   "user_id": "U07CAL"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Gift Aid counts towards the minimum - it always has, it's in the pack.",
+   "thread_ts": null,
+   "ts": "1793612400.000007",
+   "user_id": "U10TOM"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "We claim the Gift Aid on PledgePath gifts ourselves now, don't we?",
+   "thread_ts": null,
+   "ts": "1793613120.000008",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dev's employer is matching, I think, but I don't think anything came in writing.",
+   "thread_ts": null,
+   "ts": "1793614500.000009",
+   "user_id": "U11JOA"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Let's just waive every shortfall under 50 pounds - it's goodwill and not worth the invoices. Bethan, please make it so.",
+   "thread_ts": null,
+   "ts": "1793693400.000010",
+   "user_id": "U02VAN"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Any refunds I've done go on the desk ticket that asked for them, as usual.",
+   "thread_ts": null,
+   "ts": "1793696400.000011",
+   "user_id": "U08MAR"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Darius says he wants to defer too - he missed the start because of his car. Same as the injured ones?",
+   "thread_ts": null,
+   "ts": "1793697600.000012",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shield should go to Ruth, she was top on the leaderboard last time I looked.",
+   "thread_ts": null,
+   "ts": "1793790000.000013",
+   "user_id": "U10TOM"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Round the Gift Aid down to the penny - that's what we did for Tidemouth.",
+   "thread_ts": null,
+   "ts": "1793791800.000014",
+   "user_id": "U07CAL"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Bethan has the close. Policies as written please.",
+   "thread_ts": null,
+   "ts": "1793869200.000015",
+   "user_id": "U03OWA"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shall I just text everyone the close-out on WhatsApp? Quicker.",
+   "thread_ts": null,
+   "ts": "1793887200.000016",
+   "user_id": "U06FFI"
+  },
+  {
+   "channel_id": "C25CLOSE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "And send the shortfall people a Stripe payment link rather than an invoice, it's slicker.",
+   "thread_ts": null,
+   "ts": "1793982600.000017",
+   "user_id": "U02VAN"
+  }
+ ]
+}

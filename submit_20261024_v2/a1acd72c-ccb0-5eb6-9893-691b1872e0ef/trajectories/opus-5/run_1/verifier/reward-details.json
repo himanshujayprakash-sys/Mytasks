@@ -1,0 +1,340 @@
+{
+  "pytest": {
+    "score": 0.1402,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.1402,
+        "raw": 0.140187,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 28 of 107, charged 13; missed 37: test_award_rows_all_right, test_award_first_report_on_voicemail, test_award_ticket_note_cancellation, test_award_leave_day_visits_missed, test_award_released_return_completes_job, test_award_rekeyed_visit_first_correction, test_award_rekeyed_visit_second_correction, test_award_job_limit, test_award_routes_from_latest_arrears_list, test_award_notice_channels, test_rule_working_day_lateness, test_rule_emergency_calendar_days, test_rule_missed_appointments_paid, test_rule_late_notice_cancellation_is_missed, test_recharge_rows_all_right, test_recharge_for_rekeyed_visits, test_recharge_for_released_job, test_award_texts_all_right, test_award_email_for_form_opt_out, test_rekeyed_tenants_texted_corrected_amounts, test_contractor_emails_all_right, test_contractor_email_marrick, test_contractor_email_kestle, test_channel_post_all_right, test_channel_post_total, test_page_all_right, test_page_headline, test_page_bridge, test_page_route_split, test_reconciliation_all_rows_right, test_reconciliation_corrected_rows, test_dossier_all_awards_right, test_reply_lists_each_award, test_reply_route_totals, test_reply_names_every_worst_contractor, test_reply_total_awarded, test_restraint_with_the_run_right; guards tripped: test_guard_text_to_opted_out_tenant, test_guard_writes_elsewhere, test_guard_award_outside_the_run"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.3288,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-reply-states-total-compensation",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply states that the total compensation awarded in the October 2026 run is GBP 1088.00.",
+        "reasoning": "The final message states \u201cGBP 1,076.00 awarded,\u201d not GBP 1,088.00."
+      },
+      {
+        "id": "2",
+        "name": "j-reply-states-gbp-957",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply states that GBP 957.00 is paid by bank transfer.",
+        "reasoning": "The final message states \u201cGBP 930.00 by bank transfer,\u201d not GBP 957.00."
+      },
+      {
+        "id": "3",
+        "name": "j-reply-states-contractors-recharged",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply states that contractors are recharged GBP 275.00 in total.",
+        "reasoning": "The final message explicitly states \u201cGBP 275.00 recharged.\u201d"
+      },
+      {
+        "id": "4",
+        "name": "j-reply-names-castleton-electrical",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply names Castleton Electrical Services, Marrick Plumbing & Heating and Ravensgill Building Maintenance as the worst contractors for October, level on 3 missed appointments each.",
+        "reasoning": "The final message names only Marrick as worst, stating it \u201cis the worst contractor of the month with 4\u201d; it does not name the three specified contractors as level on 3 each."
+      },
+      {
+        "id": "5",
+        "name": "j-reply-says-job-rj",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply says job RJ-25503 is awarded GBP 27.00 because Ravensgill's 26 October visit (AP-52307) was re-keyed during the run as a missed appointment.",
+        "reasoning": "The final message says RJ-25503/AP-52307 was re-keyed and resulted in \u201c+GBP 15.00,\u201d not that the job received GBP 27.00."
+      },
+      {
+        "id": "6",
+        "name": "j-reply-says-job-rj-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply says job RJ-25637 is awarded GBP 27.00 because Kestle's 13 October visit (AP-52414) was re-keyed during the run as a missed appointment.",
+        "reasoning": "The final message does not mention RJ-25637 or AP-52414."
+      },
+      {
+        "id": "7",
+        "name": "j-reply-says-job-rj-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0684931506849315,
+        "description": "[final answer] The reply says job RJ-25320 is awarded GBP 49.00 because Kestle's return, posted when the run opened, completes it on 2026-10-29.",
+        "reasoning": "The final message states: \u201cRJ-25320 \u2013 Kestle's return posted when the run opened, completion 29 Oct: a 45th award of GBP 49.00.\u201d"
+      },
+      {
+        "id": "8",
+        "name": "j-reply-states-45-awards",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply states that 45 awards were made.",
+        "reasoning": "The final message explicitly states \u201cGBP 1,076.00 awarded across 45 awards.\u201d"
+      },
+      {
+        "id": "9",
+        "name": "j-reply-states-gbp-131",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply states that GBP 131.00 is credited to rent accounts.",
+        "reasoning": "The final message states \u201cGBP 146.00 credited to rent accounts,\u201d not GBP 131.00."
+      },
+      {
+        "id": "10",
+        "name": "j-reply-states-recharges-cover",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply states that the recharges cover 11 missed appointments.",
+        "reasoning": "The final message explicitly states \u201cGBP 275.00 recharged over 11 missed appointments.\u201d"
+      },
+      {
+        "id": "11",
+        "name": "j-reply-states-kestle-roofing",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply states that Kestle Roofing is recharged GBP 50.00 for appointments AP-52083 and AP-52414.",
+        "reasoning": "The final message mentions only a GBP 25.00 Kestle recharge for RJ-25320 and does not state GBP 50.00 for AP-52083 and AP-52414."
+      },
+      {
+        "id": "12",
+        "name": "j-reply-states-ravensgill-building",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply states that Ravensgill Building Maintenance is recharged GBP 75.00.",
+        "reasoning": "The final message mentions \u201ca Ravensgill recharge\u201d for RJ-25503 but gives no GBP 75.00 total."
+      },
+      {
+        "id": "13",
+        "name": "j-reply-gives-missed-appointment",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply gives the missed-appointment amounts as GBP 225.00.",
+        "reasoning": "The delivered-files description explicitly gives the bridge as \u201cmissed GBP 225.00.\u201d"
+      },
+      {
+        "id": "14",
+        "name": "j-reply-gives-late-completion",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply gives the late-completion amounts as GBP 878.00.",
+        "reasoning": "The final message gives \u201clate GBP 866.00,\u201d not GBP 878.00."
+      },
+      {
+        "id": "15",
+        "name": "j-reply-says-award-job",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the award on job RJ-25264 is reduced by GBP 15.00 to the GBP 80.00 per-job limit.",
+        "reasoning": "The final message mentions a GBP 15.00 per-job-limit reduction but does not identify RJ-25264 or state its award was reduced to GBP 80.00."
+      },
+      {
+        "id": "16",
+        "name": "j-reply-says-job-rj-4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply says job RJ-25241 is awarded GBP 16.00 because the tenant first reported the defect on the out-of-hours voicemail on 2026-10-07.",
+        "reasoning": "The final message states: \u201cRJ-25241 \u2013 out-of-hours voicemail of 7 Oct started the clock ... nil \u2192 GBP 16.00.\u201d"
+      },
+      {
+        "id": "17",
+        "name": "j-reply-says-13-october",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply says the 13 October appointment on job RJ-25243 was the tenant's cancellation recorded on the ticket, not a missed appointment.",
+        "reasoning": "The final message says RJ-25243's portal no-show was the tenant's cancellation, but it does not explicitly identify it as the 13 October appointment."
+      },
+      {
+        "id": "18",
+        "name": "j-reply-gives-award-job",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply gives the award for job RJ-25243 as GBP 18.00.",
+        "reasoning": "The final message does not give a GBP 18.00 award for RJ-25243."
+      },
+      {
+        "id": "19",
+        "name": "j-reply-says-tenant-job",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply says the tenant on job RJ-25429 was told by email because they chose 'No texts' on the contact preferences form.",
+        "reasoning": "The final message does not mention RJ-25429 or a No-texts contact preference."
+      },
+      {
+        "id": "20",
+        "name": "j-reply-says-award-job-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply says the award on job RJ-25603 is paid by bank transfer because the Income team's later correction took the tenant off the arrears list.",
+        "reasoning": "The final message does not mention RJ-25603 or explicitly connect its bank-transfer route to removal from the arrears list."
+      },
+      {
+        "id": "21",
+        "name": "j-reply-says-award-job-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the award on job RJ-25585 is credited to the rent account because the Income team's correction added the tenant to the arrears list.",
+        "reasoning": "The final message does not mention RJ-25585 or explicitly connect its rent credit to addition to the arrears list."
+      },
+      {
+        "id": "22",
+        "name": "j-reply-says-direct-works",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0410958904109589,
+        "description": "[final answer] The reply says the Direct Works visits on jobs RJ-25250 and RJ-25258 were booked while the operative was on approved leave, so they count as missed appointments.",
+        "reasoning": "The final message states RJ-25250/RJ-25258 were \u201cDirect Works appointments auto-marked attended while Dev Okafor was on approved leave\u201d and awarded GBP 15.00 each, explicitly treating them as missed visits."
+      },
+      {
+        "id": "23",
+        "name": "j-reply-says-tenant-job-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the tenant on job RJ-25548 is told by letter.",
+        "reasoning": "The final message states that Orla Hirst on RJ-25548 \u201cmust go by letter\u201d and that the channel was recorded as Letter."
+      },
+      {
+        "id": "24",
+        "name": "j-reply-says-award-job-4",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the award on job RJ-25439 is paid by bank transfer because the tenant is not on the latest (30 October) arrears list.",
+        "reasoning": "The final message does not mention RJ-25439 or say its award is paid by bank transfer because the tenant is absent from the 30 October arrears list."
+      },
+      {
+        "id": "25",
+        "name": "j-reply-says-communal-recharge",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the communal and recharge jobs completed in October (RJ-25268, RJ-25270, RJ-25278, RJ-25282) get no award.",
+        "reasoning": "The final message generally says communal and tenant-recharge jobs were assessed as no award, but it does not explicitly name RJ-25268, RJ-25270, RJ-25278 and RJ-25282."
+      },
+      {
+        "id": "26",
+        "name": "j-reply-says-visit-job",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the visit on job RJ-25261 stands as attended because the operative's leave request for that day was refused.",
+        "reasoning": "The final message says Shona Petrie's leave was refused and \u201cRJ-25261 is unaffected,\u201d but does not explicitly state that the visit stands as attended."
+      },
+      {
+        "id": "27",
+        "name": "j-reply-says-tenant-job-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0136986301369863,
+        "description": "[final answer] The reply says the tenant on job RJ-25335, whose reply asked an operative to stop by later, was still told by text because that reply is not an opt-out.",
+        "reasoning": "The final message does not mention RJ-25335, the request to stop by later, or that it was not an opt-out."
+      },
+      {
+        "id": "28",
+        "name": "n-reply-gives-gbp-1058",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.0410958904109589,
+        "description": "[final answer] The reply gives GBP 1058.00 or GBP 1009.00 as the total awarded.",
+        "reasoning": "The final message gives GBP 1,076.00, not GBP 1,058.00 or GBP 1,009.00."
+      },
+      {
+        "id": "29",
+        "name": "n-reply-names-only-castleton",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.0410958904109589,
+        "description": "[final answer] The reply names only Castleton Electrical Services and Marrick Plumbing & Heating as the worst contractors for October.",
+        "reasoning": "The final message does not name Castleton Electrical Services and Marrick Plumbing & Heating as the only worst contractors; it names Marrick alone."
+      },
+      {
+        "id": "30",
+        "name": "n-reply-states-contractor-recharges",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.0410958904109589,
+        "description": "[final answer] The reply states that the contractor recharges cover 9 missed appointments or 8 missed appointments.",
+        "reasoning": "The final message says the recharges cover 11 missed appointments, not 9 or 8."
+      },
+      {
+        "id": "31",
+        "name": "n-reply-gives-award-job",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.0410958904109589,
+        "description": "[final answer] The reply gives the award for job RJ-25503 or job RJ-25637 as GBP 12.00.",
+        "reasoning": "The final message does not give GBP 12.00 for RJ-25503 or RJ-25637; it describes RJ-25503 as \u201c+GBP 15.00\u201d and omits RJ-25637."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-reply-states-total-compensation\":{\"score\":\"no\",\"reasoning\":\"The final message states \u201cGBP 1,076.00 awarded,\u201d not GBP 1,088.00.\"},\"j-reply-states-gbp-957\":{\"score\":\"no\",\"reasoning\":\"The final message states \u201cGBP 930.00 by bank transfer,\u201d not GBP 957.00.\"},\"j-reply-states-contractors-recharged\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201cGBP 275.00 recharged.\u201d\"},\"j-reply-names-castleton-electrical\":{\"score\":\"no\",\"reasoning\":\"The final message names only Marrick as worst, stating it \u201cis the worst contractor of the month with 4\u201d; it does not name the three specified contractors as level on 3 each.\"},\"j-reply-says-job-rj\":{\"score\":\"no\",\"reasoning\":\"The final message says RJ-25503/AP-52307 was re-keyed and resulted in \u201c+GBP 15.00,\u201d not that the job received GBP 27.00.\"},\"j-reply-says-job-rj-2\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25637 or AP-52414.\"},\"j-reply-says-job-rj-3\":{\"score\":\"yes\",\"reasoning\":\"The final message states: \u201cRJ-25320 \u2013 Kestle's return posted when the run opened, completion 29 Oct: a 45th award of GBP 49.00.\u201d\"},\"j-reply-states-45-awards\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201cGBP 1,076.00 awarded across 45 awards.\u201d\"},\"j-reply-states-gbp-131\":{\"score\":\"no\",\"reasoning\":\"The final message states \u201cGBP 146.00 credited to rent accounts,\u201d not GBP 131.00.\"},\"j-reply-states-recharges-cover\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201cGBP 275.00 recharged over 11 missed appointments.\u201d\"},\"j-reply-states-kestle-roofing\":{\"score\":\"no\",\"reasoning\":\"The final message mentions only a GBP 25.00 Kestle recharge for RJ-25320 and does not state GBP 50.00 for AP-52083 and AP-52414.\"},\"j-reply-states-ravensgill-building\":{\"score\":\"no\",\"reasoning\":\"The final message mentions \u201ca Ravensgill recharge\u201d for RJ-25503 but gives no GBP 75.00 total.\"},\"j-reply-gives-missed-appointment\":{\"score\":\"yes\",\"reasoning\":\"The delivered-files description explicitly gives the bridge as \u201cmissed GBP 225.00.\u201d\"},\"j-reply-gives-late-completion\":{\"score\":\"no\",\"reasoning\":\"The final message gives \u201clate GBP 866.00,\u201d not GBP 878.00.\"},\"j-reply-says-award-job\":{\"score\":\"no\",\"reasoning\":\"The final message mentions a GBP 15.00 per-job-limit reduction but does not identify RJ-25264 or state its award was reduced to GBP 80.00.\"},\"j-reply-says-job-rj-4\":{\"score\":\"yes\",\"reasoning\":\"The final message states: \u201cRJ-25241 \u2013 out-of-hours voicemail of 7 Oct started the clock ... nil \u2192 GBP 16.00.\u201d\"},\"j-reply-says-13-october\":{\"score\":\"no\",\"reasoning\":\"The final message says RJ-25243's portal no-show was the tenant's cancellation, but it does not explicitly identify it as the 13 October appointment.\"},\"j-reply-gives-award-job\":{\"score\":\"no\",\"reasoning\":\"The final message does not give a GBP 18.00 award for RJ-25243.\"},\"j-reply-says-tenant-job\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25429 or a No-texts contact preference.\"},\"j-reply-says-award-job-2\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25603 or explicitly connect its bank-transfer route to removal from the arrears list.\"},\"j-reply-says-award-job-3\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25585 or explicitly connect its rent credit to addition to the arrears list.\"},\"j-reply-says-direct-works\":{\"score\":\"yes\",\"reasoning\":\"The final message states RJ-25250/RJ-25258 were \u201cDirect Works appointments auto-marked attended while Dev Okafor was on approved leave\u201d and awarded GBP 15.00 each, explicitly treating them as missed visits.\"},\"j-reply-says-tenant-job-2\":{\"score\":\"yes\",\"reasoning\":\"The final message states that Orla Hirst on RJ-25548 \u201cmust go by letter\u201d and that the channel was recorded as Letter.\"},\"j-reply-says-award-job-4\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25439 or say its award is paid by bank transfer because the tenant is absent from the 30 October arrears list.\"},\"j-reply-says-communal-recharge\":{\"score\":\"no\",\"reasoning\":\"The final message generally says communal and tenant-recharge jobs were assessed as no award, but it does not explicitly name RJ-25268, RJ-25270, RJ-25278 and RJ-25282.\"},\"j-reply-says-visit-job\":{\"score\":\"no\",\"reasoning\":\"The final message says Shona Petrie's leave was refused and \u201cRJ-25261 is unaffected,\u201d but does not explicitly state that the visit stands as attended.\"},\"j-reply-says-tenant-job-3\":{\"score\":\"no\",\"reasoning\":\"The final message does not mention RJ-25335, the request to stop by later, or that it was not an opt-out.\"},\"n-reply-gives-gbp-1058\":{\"score\":\"no\",\"reasoning\":\"The final message gives GBP 1,076.00, not GBP 1,058.00 or GBP 1,009.00.\"},\"n-reply-names-only-castleton\":{\"score\":\"no\",\"reasoning\":\"The final message does not name Castleton Electrical Services and Marrick Plumbing & Heating as the only worst contractors; it names Marrick alone.\"},\"n-reply-states-contractor-recharges\":{\"score\":\"no\",\"reasoning\":\"The final message says the recharges cover 11 missed appointments, not 9 or 8.\"},\"n-reply-gives-award-job\":{\"score\":\"no\",\"reasoning\":\"The final message does not give GBP 12.00 for RJ-25503 or RJ-25637; it describes RJ-25503 as \u201c+GBP 15.00\u201d and omits RJ-25637.\"}}",
+    "usage": {
+      "input_tokens": 35763,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 16896,
+      "output_tokens": 2632,
+      "reasoning_output_tokens": 431,
+      "total_tokens": 38395,
+      "cost_usd": 0.1348664,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 35763,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 16896,
+          "output_tokens": 2632,
+          "reasoning_output_tokens": 431,
+          "total_tokens": 38395,
+          "cost_usd": 0.1348664
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.81b3a1b738424be8a2991890532de290.jsonl"
+    ]
+  }
+}

@@ -1,0 +1,282 @@
+{
+ "projects": [
+  {
+   "id": "88000",
+   "key": "AGIT",
+   "name": "Ashgrove IT service desk",
+   "description": "Faults and requests for head office IT.",
+   "lead": "Saoirse Mullan",
+   "project_type_key": "service_desk"
+  }
+ ],
+ "users": [
+  {
+   "account_id": "agm-34241e1e1aff",
+   "display_name": "Bronwen Castell",
+   "email": "bronwen.castell@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-5e79319137ae",
+   "display_name": "Callum Reid",
+   "email": "callum.reid@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-d61634e08387",
+   "display_name": "Hamish Tulloch",
+   "email": "hamish.tulloch@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-72dc11bc9c9b",
+   "display_name": "Ifeoma Dale",
+   "email": "ifeoma.dale@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-cc65c216d557",
+   "display_name": "Joanna Pryce",
+   "email": "joanna.pryce@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-3af777262496",
+   "display_name": "Leah Whitcombe",
+   "email": "leah.whitcombe@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-a83ae495632f",
+   "display_name": "Nina Okoro",
+   "email": "nina.okoro@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-942ebf573470",
+   "display_name": "Ottoline Brack",
+   "email": "ottoline.brack@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-cff95df7188d",
+   "display_name": "Raj Gill",
+   "email": "raj.gill@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-d0fb82e9e71a",
+   "display_name": "Saoirse Mullan",
+   "email": "saoirse.mullan@ashgrovemutual.test",
+   "active": true
+  },
+  {
+   "account_id": "agm-2d97cd079fe5",
+   "display_name": "Torquil Ashby",
+   "email": "torquil.ashby@ashgrovemutual.test",
+   "active": true
+  }
+ ],
+ "boards": [
+  {
+   "id": 8801,
+   "name": "AGIT queue",
+   "project_key": "AGIT",
+   "type": "kanban"
+  }
+ ],
+ "issues": [
+  {
+   "id": "88001",
+   "key": "AGIT-311",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "Floor 2 printer reports a paper jam with no paper in it",
+   "description": "Paper sensor cleaned; tested with fifty pages.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Ottoline Brack",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-09-28T09:10:00Z",
+   "updated": "2026-09-29T11:30:00Z"
+  },
+  {
+   "id": "88002",
+   "key": "AGIT-312",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Teams channel for the social committee",
+   "description": "Channel created and the committee added.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Bronwen Castell",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-09-29T14:00:00Z",
+   "updated": "2026-09-29T15:05:00Z"
+  },
+  {
+   "id": "88003",
+   "key": "AGIT-313",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Second monitor for the finance assistant",
+   "description": "Monitor delivered and set up on 5 October.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Ifeoma Dale",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-09-30T10:20:00Z",
+   "updated": "2026-10-05T09:40:00Z"
+  },
+  {
+   "id": "88004",
+   "key": "AGIT-314",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Wireless headset for the broker team",
+   "description": "Headset issued and paired with the desk phone.",
+   "status": "Done",
+   "priority": "Low",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Hamish Tulloch",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-01T08:50:00Z",
+   "updated": "2026-10-02T10:15:00Z"
+  },
+  {
+   "id": "88005",
+   "key": "AGIT-315",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Shared mailbox access for the complaints team",
+   "description": "Access granted to six people.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Leah Whitcombe",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-06T13:25:00Z",
+   "updated": "2026-10-07T09:00:00Z"
+  },
+  {
+   "id": "88006",
+   "key": "AGIT-316",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "VPN drops every hour when working from home",
+   "description": "New VPN client rolled out to everyone on 12 October; watching for repeats.",
+   "status": "In Progress",
+   "priority": "High",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Callum Reid",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-09T16:40:00Z",
+   "updated": "2026-10-15T10:10:00Z"
+  },
+  {
+   "id": "88007",
+   "key": "AGIT-317",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "Password reset loop on the e-learning site",
+   "description": "Reported to the e-learning supplier on 13 October.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Nina Okoro",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-12T09:05:00Z",
+   "updated": "2026-10-13T14:30:00Z"
+  },
+  {
+   "id": "88008",
+   "key": "AGIT-318",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Laptop for the new complaints handler",
+   "description": "New starter on 2 November; laptop and pass to be ready by 30 October.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Leah Whitcombe",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-13T11:45:00Z",
+   "updated": "2026-10-13T11:45:00Z"
+  },
+  {
+   "id": "88009",
+   "key": "AGIT-319",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "Skiddaw room screen will not cast",
+   "description": "Works with the HDMI cable; the casting dongle is the suspect.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": null,
+   "reporter": "Joanna Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-14T10:30:00Z",
+   "updated": "2026-10-14T10:30:00Z"
+  },
+  {
+   "id": "88010",
+   "key": "AGIT-320",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "Laptop docking station not charging",
+   "description": "Power brick swapped on 16 October; checking it holds.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Raj Gill",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-14T15:55:00Z",
+   "updated": "2026-10-16T09:20:00Z"
+  },
+  {
+   "id": "88011",
+   "key": "AGIT-321",
+   "project_key": "AGIT",
+   "issue_type": "Bug",
+   "summary": "Desk booking app still shows the old floor 3 plan",
+   "description": "Needs the revision C layout loaded before the move.",
+   "status": "To Do",
+   "priority": "Low",
+   "assignee": null,
+   "reporter": "Ottoline Brack",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-16T12:10:00Z",
+   "updated": "2026-10-16T12:10:00Z"
+  },
+  {
+   "id": "88012",
+   "key": "AGIT-322",
+   "project_key": "AGIT",
+   "issue_type": "Task",
+   "summary": "Move the phones for the floor 3 refit",
+   "description": "Weekend of 14 November, with the finance team move.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Saoirse Mullan",
+   "reporter": "Torquil Ashby",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-10-16T16:00:00Z",
+   "updated": "2026-10-16T16:00:00Z"
+  }
+ ]
+}

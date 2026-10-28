@@ -1,0 +1,312 @@
+{
+ "boards": [
+  {
+   "id": "6b2f0000000000000000b001",
+   "name": "Museum shop 2026-27",
+   "desc": "Shop and online shop planning: Christmas range and the spring season.",
+   "closed": false,
+   "id_organization": "6b2f0000000000000000f001",
+   "url": "https://trello.com/b/bmgshop26/museum-shop-2026-27",
+   "member_ids": [
+    "6b2f0000000000000000a001",
+    "6b2f0000000000000000a002",
+    "6b2f0000000000000000a003",
+    "6b2f0000000000000000a004"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "6b2f0000000000000000c001",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Ideas",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6b2f0000000000000000c002",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "To do",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6b2f0000000000000000c003",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Doing",
+   "closed": false,
+   "pos": 3
+  },
+  {
+   "id": "6b2f0000000000000000c004",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Done",
+   "closed": false,
+   "pos": 4
+  }
+ ],
+ "members": [
+  {
+   "id": "6b2f0000000000000000a001",
+   "fullName": "Tobias Grieve",
+   "username": "tobiasgrieve",
+   "email": "tobias.grieve@brennock-museums.example"
+  },
+  {
+   "id": "6b2f0000000000000000a002",
+   "fullName": "Lark Simmonds",
+   "username": "larksimmonds",
+   "email": "lark.simmonds@brennock-museums.example"
+  },
+  {
+   "id": "6b2f0000000000000000a003",
+   "fullName": "Annika Sorensen",
+   "username": "annikasorensen",
+   "email": "annika.sorensen@brennock-museums.example"
+  },
+  {
+   "id": "6b2f0000000000000000a004",
+   "fullName": "Fenella Brook",
+   "username": "fenellabrook",
+   "email": "fenella.brook@brennock-museums.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "6b2f0000000000000000d001",
+   "name": "Shipyard tea towels: reorder",
+   "desc": "Second reorder of 300 placed with the wholesaler on 27 November.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c004",
+   "pos": 16384.0,
+   "due": "2026-11-27T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d002",
+   "name": "Christmas window display",
+   "desc": "Lantern theme to match the late opening; installed on 23 November.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c004",
+   "pos": 32768.0,
+   "due": "2026-11-23T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001",
+    "6b2f0000000000000000a004"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d003",
+   "name": "Gift membership cards in the shop",
+   "desc": "Cards printed; waiting for the till fix before they go on the counter.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c003",
+   "pos": 49152.0,
+   "due": "2026-12-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d004",
+   "name": "Online shop: Christmas last posting dates",
+   "desc": "Banner on the web shop: order by 16 December for delivery before Christmas.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 65536.0,
+   "due": "2026-12-02T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a003"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d005",
+   "name": "Salt and Iron catalogue: half-price in January",
+   "desc": "Clear the remaining stock before the exhibition closes on 31 January.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c001",
+   "pos": 81920.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d006",
+   "name": "Spring season range: postcards and notebooks",
+   "desc": "Brief the designer once the Tidelines poster image is chosen; samples by mid-January.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 98304.0,
+   "due": "2027-01-15T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a002"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d007",
+   "name": "Local makers market in the foyer",
+   "desc": "Eight stalls on 22 November; takings shared with the makers as agreed.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c004",
+   "pos": 114688.0,
+   "due": "2026-11-22T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a004"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d008",
+   "name": "Children's pocket-money table",
+   "desc": "Rubbers, pencils and ship stickers under two pounds by the till.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c003",
+   "pos": 131072.0,
+   "due": "2026-12-05T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d009",
+   "name": "Photograph new stock for the web shop",
+   "desc": "Enamel mugs and the rivet keyrings first.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 147456.0,
+   "due": "2026-12-08T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a003"
+   ],
+   "labels": [
+    "shop"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d010",
+   "name": "Loyalty stamp card for the cafe",
+   "desc": "Tenth coffee free; check with finance before printing.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c001",
+   "pos": 163840.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "shop"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_bmg_01",
+   "id_card": "6b2f0000000000000000d002",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Window",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_bmg_01",
+     "id_checklist": "cl_bmg_01",
+     "name": "Paper lanterns",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_bmg_02",
+     "id_checklist": "cl_bmg_01",
+     "name": "Fairy lights on a timer",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_bmg_03",
+     "id_checklist": "cl_bmg_01",
+     "name": "Price cards",
+     "state": "complete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_bmg_04",
+     "id_checklist": "cl_bmg_01",
+     "name": "Clean the glass",
+     "state": "complete",
+     "pos": 4000
+    }
+   ]
+  },
+  {
+   "id": "cl_bmg_02",
+   "id_card": "6b2f0000000000000000d008",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Pocket-money stock",
+   "pos": 2000,
+   "check_items": [
+    {
+     "id": "ci_bmg_11",
+     "id_checklist": "cl_bmg_02",
+     "name": "Ship stickers",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_bmg_12",
+     "id_checklist": "cl_bmg_02",
+     "name": "Pencils",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_bmg_13",
+     "id_checklist": "cl_bmg_02",
+     "name": "Rubbers",
+     "state": "incomplete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_bmg_14",
+     "id_checklist": "cl_bmg_02",
+     "name": "Bookmarks",
+     "state": "incomplete",
+     "pos": 4000
+    }
+   ]
+  }
+ ]
+}

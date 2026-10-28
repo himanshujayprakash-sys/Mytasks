@@ -1,0 +1,259 @@
+{
+ "boards": [
+  {
+   "id": "6b04000000000000000000b1",
+   "name": "Summit AV 2026",
+   "desc": "Stage, sound, stream and recordings for Northlight Summit 2026.",
+   "closed": false,
+   "id_organization": "6b04000000000000000000f1",
+   "url": "https://trello.com/b/nl04av/summit-av-2026",
+   "member_ids": [
+    "5f1a000000000000000000a1",
+    "6b04000000000000000000a1",
+    "6b04000000000000000000a2",
+    "6b04000000000000000000a3"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "6b04000000000000000000c1",
+   "id_board": "6b04000000000000000000b1",
+   "name": "To Do",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6b04000000000000000000c2",
+   "id_board": "6b04000000000000000000b1",
+   "name": "In Progress",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6b04000000000000000000c3",
+   "id_board": "6b04000000000000000000b1",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "members": [
+  {
+   "id": "6b04000000000000000000a1",
+   "fullName": "Kit Arden",
+   "username": "kitarden",
+   "email": "av@northlightsummit.test"
+  },
+  {
+   "id": "6b04000000000000000000a2",
+   "fullName": "Dev Okonkwo",
+   "username": "devokonkwo",
+   "email": "programme@northlightsummit.test"
+  },
+  {
+   "id": "6b04000000000000000000a3",
+   "fullName": "Fintan Rourke",
+   "username": "fintanrourke",
+   "email": "marketing@northlightsummit.test"
+  }
+ ],
+ "cards": [
+  {
+   "id": "6b0400000000000000000001",
+   "name": "Confidence monitors for the main stage",
+   "desc": "Two 55-inch screens on the stage lip, fed from the vision desk.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c3",
+   "pos": 16384.0,
+   "due": "2026-11-06T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1"
+   ],
+   "labels": [
+    "stage"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000002",
+   "name": "Radio mic frequencies",
+   "desc": "Check the licence covers eight channels at the Exchange Hall. Spare batteries for three days.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c2",
+   "pos": 32768.0,
+   "due": "2026-11-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1"
+   ],
+   "labels": [
+    "audio"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000003",
+   "name": "Livestream encoder test",
+   "desc": "Second test on Thursday evening with the venue's fibre. First test dropped twice.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c2",
+   "pos": 49152.0,
+   "due": "2026-11-13T20:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1",
+    "6b04000000000000000000a3"
+   ],
+   "labels": [
+    "stream"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000004",
+   "name": "Session recordings workflow",
+   "desc": "Record every main stage session; upload to the summit channel within 48 hours.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c1",
+   "pos": 65536.0,
+   "due": "2026-11-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1",
+    "6b04000000000000000000a2"
+   ],
+   "labels": [
+    "stream"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000005",
+   "name": "Clickers and slide laptop",
+   "desc": "One show laptop per stage with every deck loaded the evening before. Clicker spares in the tech box.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c1",
+   "pos": 81920.0,
+   "due": "2026-11-23T12:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1"
+   ],
+   "labels": [
+    "stage"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000006",
+   "name": "Breakout room projectors",
+   "desc": "Venue projectors in rooms B and C are 4:3; bring two 16:9 units.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c2",
+   "pos": 98304.0,
+   "due": "2026-11-16T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1"
+   ],
+   "labels": [
+    "breakout"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000007",
+   "name": "Walk-in music playlist",
+   "desc": "Forty minutes, no lyrics. Fintan to approve.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c3",
+   "pos": 114688.0,
+   "due": "2026-11-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a3"
+   ],
+   "labels": [
+    "audio"
+   ]
+  },
+  {
+   "id": "6b0400000000000000000008",
+   "name": "Lighting state for the closing panel",
+   "desc": "Warm wash and four stools; house lights to half for questions.",
+   "id_board": "6b04000000000000000000b1",
+   "id_list": "6b04000000000000000000c1",
+   "pos": 131072.0,
+   "due": "2026-11-19T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b04000000000000000000a1",
+    "6b04000000000000000000a2"
+   ],
+   "labels": [
+    "stage"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_nl04_01",
+   "id_card": "6b0400000000000000000003",
+   "id_board": "6b04000000000000000000b1",
+   "name": "Stream checks",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_nl04_0001",
+     "id_checklist": "cl_nl04_01",
+     "name": "Upload speed above 20 Mbps",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_nl04_0002",
+     "id_checklist": "cl_nl04_01",
+     "name": "Backup 5G router charged",
+     "state": "incomplete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_nl04_0003",
+     "id_checklist": "cl_nl04_01",
+     "name": "Captions switched on",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  },
+  {
+   "id": "cl_nl04_02",
+   "id_card": "6b0400000000000000000005",
+   "id_board": "6b04000000000000000000b1",
+   "name": "Tech box",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_nl04_0004",
+     "id_checklist": "cl_nl04_02",
+     "name": "HDMI and USB-C adapters",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_nl04_0005",
+     "id_checklist": "cl_nl04_02",
+     "name": "Gaffer tape, two rolls",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_nl04_0006",
+     "id_checklist": "cl_nl04_02",
+     "name": "Spare clicker batteries",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

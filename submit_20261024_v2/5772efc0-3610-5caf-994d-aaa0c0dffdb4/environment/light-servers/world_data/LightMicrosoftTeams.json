@@ -1,0 +1,160 @@
+{
+ "teams": [
+  {
+   "id": "19:team-tn17design@thread.tacv2",
+   "displayName": "Thornfield Garden Design",
+   "description": "Design studio team",
+   "membershipType": "standard"
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Studio chat"
+  },
+  {
+   "id": "19:chan-tn17-visits@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "displayName": "Client visits",
+   "membershipType": "standard",
+   "description": "Site visits and surveys"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1812000000001",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Morning both. Ogden concept went out on Friday and she has already said yes.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-01T09:00:00Z"
+  },
+  {
+   "id": "1812000000002",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-fl",
+   "from_display_name": "Freya Lund",
+   "content": "Great. Shall I start the planting list for her or wait for the deposit?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-01T10:07:00Z"
+  },
+  {
+   "id": "1812000000003",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Wait for the deposit, then start. Xero invoice is out.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-01T11:14:00Z"
+  },
+  {
+   "id": "1812000000004",
+   "channel_id": "19:chan-tn17-visits@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-fl",
+   "from_display_name": "Freya Lund",
+   "content": "Going through the Teale survey photos: the terrace faces west, not south as the brief said.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-02T12:21:00Z"
+  },
+  {
+   "id": "1812000000005",
+   "channel_id": "19:chan-tn17-visits@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Good catch. That changes the shade plants. Can you redo sheet two?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-02T13:28:00Z"
+  },
+  {
+   "id": "1812000000006",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-gt",
+   "from_display_name": "Gerald Thornfield",
+   "content": "Can the studio run an advice desk at the open day? Two hours in the afternoon would do.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-02T14:35:00Z"
+  },
+  {
+   "id": "1812000000007",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Yes, Freya and I will take two till four.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-03T15:42:00Z"
+  },
+  {
+   "id": "1812000000008",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-ib",
+   "from_display_name": "Isla Brennan",
+   "content": "I need three photos of finished gardens for the new website. Anything recent?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-03T16:49:00Z"
+  },
+  {
+   "id": "1812000000009",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-fl",
+   "from_display_name": "Freya Lund",
+   "content": "The Cholsey courtyard from last September photographs well. I'll drop the files in Drive.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-03T09:56:00Z"
+  },
+  {
+   "id": "1812000000010",
+   "channel_id": "19:chan-tn17-visits@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Wallingford courtyard visit moved to 22 June at the client's request.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-04T10:03:00Z"
+  },
+  {
+   "id": "1812000000011",
+   "channel_id": "19:chan-tn17-visits@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-fl",
+   "from_display_name": "Freya Lund",
+   "content": "Noted. I'll bring the laser measure and the soil test kit.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-04T11:10:00Z"
+  },
+  {
+   "id": "1812000000012",
+   "channel_id": "19:chan-tn17-general@thread.tacv2",
+   "team_id": "19:team-tn17design@thread.tacv2",
+   "from_user_id": "user-tn17-hp",
+   "from_display_name": "Hugo Penrose",
+   "content": "Reminder: CAD licence renews in July. Please log out of the second seat when you finish.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-06-04T12:17:00Z"
+  }
+ ]
+}

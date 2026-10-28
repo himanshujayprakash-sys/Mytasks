@@ -1,0 +1,144 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-ts01",
+   "to_email": "torquil.baird@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "First aid course place confirmed, 16 December",
+   "template_id": "d-ts0001course",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-24T10:05:00Z"
+  },
+  {
+   "message_id": "msg-ts02",
+   "to_email": "aileen.carmichael@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "Your leave request has been approved",
+   "template_id": "d-ts0002leave",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 0,
+   "sent_at": "2026-12-09T15:32:00Z"
+  },
+  {
+   "message_id": "msg-ts03",
+   "to_email": "lachlan.moffat@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "First aid course place confirmed, 16 December",
+   "template_id": "d-ts0001course",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-12-03T14:26:00Z"
+  },
+  {
+   "message_id": "msg-ts04",
+   "to_email": "morven.lumsden@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "Reset your staff portal password",
+   "template_id": "d-ts0003pwreset",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-11-26T08:40:00Z"
+  },
+  {
+   "message_id": "msg-ts05",
+   "to_email": "kirsty.moodie@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "Your leave request has been approved",
+   "template_id": "d-ts0002leave",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-12-09T15:33:00Z"
+  },
+  {
+   "message_id": "msg-ts06",
+   "to_email": "former.assistant@tarrowsound.example",
+   "from_email": "noreply@tarrowsound.example",
+   "subject": "Reset your staff portal password",
+   "template_id": "d-ts0003pwreset",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-18T12:00:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-ts01",
+   "email": "euan.galbraith@tarrowsound.example",
+   "first_name": "Euan",
+   "last_name": "Galbraith",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-09T09:00:00Z",
+   "updated_at": "2026-11-09T09:00:00Z"
+  },
+  {
+   "id": "contact-ts02",
+   "email": "ottilie.strang@tarrowsound.example",
+   "first_name": "Ottilie",
+   "last_name": "Strang",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-09T09:00:00Z",
+   "updated_at": "2026-11-09T09:00:00Z"
+  },
+  {
+   "id": "contact-ts03",
+   "email": "aileen.carmichael@tarrowsound.example",
+   "first_name": "Aileen",
+   "last_name": "Carmichael",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-09T09:00:00Z",
+   "updated_at": "2026-12-04T16:25:00Z"
+  },
+  {
+   "id": "contact-ts04",
+   "email": "lachlan.moffat@tarrowsound.example",
+   "first_name": "Lachlan",
+   "last_name": "Moffat",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-09T09:00:00Z",
+   "updated_at": "2026-11-09T09:00:00Z"
+  },
+  {
+   "id": "contact-ts05",
+   "email": "torquil.baird@tarrowsound.example",
+   "first_name": "Torquil",
+   "last_name": "Baird",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-16T10:00:00Z",
+   "updated_at": "2026-11-16T10:00:00Z"
+  },
+  {
+   "id": "contact-ts06",
+   "email": "morven.lumsden@tarrowsound.example",
+   "first_name": "Morven",
+   "last_name": "Lumsden",
+   "country": "GB",
+   "list_ids": [
+    "list-ts-shorenews"
+   ],
+   "created_at": "2026-11-16T10:00:00Z",
+   "updated_at": "2026-11-26T08:41:00Z"
+  }
+ ]
+}

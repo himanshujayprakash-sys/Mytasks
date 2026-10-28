@@ -1,0 +1,340 @@
+{
+  "pytest": {
+    "score": 0.3023,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3023,
+        "raw": 0.302326,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 26 of 86, charged 0; missed 20: test_crew_records_read_after_the_first_save, test_feed_read_after_the_amendment, test_claim_lines_all_right, test_acting_up_lines_paid_at_the_role_on_the_record, test_welfare_referrals_all_right, test_payroll_mail_carries_the_total, test_location_days_all_right, test_suspended_permit_days_not_covered, test_notices_all_right, test_kestrel_hill_residents_not_contacted, test_enquiry_replies_all_right, test_kestrel_hill_replies_say_no_filming, test_page_headline_all_right, test_page_department_split, test_reconciliation_all_rows_right, test_dossier_all_days_right, test_final_states_overtime_total, test_final_states_council_fees, test_final_states_notice_counts, test_final_answer_claim_coverage_passes_075"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.1857,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-states-week-47",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note states the week 47 overtime total payable as 6,622.42 pounds.",
+        "reasoning": "final_message.md states \u201cTotal payable \u00a36,506.17,\u201d not \u00a36,622.42."
+      },
+      {
+        "id": "2",
+        "name": "j-note-says-declan-moriarty",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note says Declan Moriarty is paid at the gaffer's rate for week 47 (420.00 a day, 42.00 an hour) because his crew record shows him as acting gaffer.",
+        "reasoning": "Neither final_message.md nor the delivered files state that Declan Moriarty was paid \u00a3420/day or \u00a342/hour because he was acting gaffer. The CSV instead records an hourly rate of \u00a336.00."
+      },
+      {
+        "id": "3",
+        "name": "j-note-gives-electrical-department",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note gives the Electrical department's overtime payable as 2,061.51 pounds.",
+        "reasoning": "final_message.md gives Electrical as \u00a31,945.26, not \u00a32,061.51."
+      },
+      {
+        "id": "4",
+        "name": "j-note-states-week-48",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note states the week 48 council fee total as 1,610.20 pounds.",
+        "reasoning": "final_message.md states a council fee total of \u00a32,574.20, not \u00a31,610.20."
+      },
+      {
+        "id": "5",
+        "name": "j-note-says-kestrel-hill",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note says Kestrel Hill car park on 26 and 27 November (LD-48-27 and LD-48-28) is not covered because the council's amendment in the permit feed suspended permit RBC-FP-6624 for the gas main works.",
+        "reasoning": "The delivered dossier says LD-48-27 and LD-48-28 were \u201cCleared\u201d under RBC-FP-6624, the opposite of the criterion."
+      },
+      {
+        "id": "6",
+        "name": "j-note-gives-34-texts",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note gives 34 texts and 18 letters for week 48.",
+        "reasoning": "final_message.md reports \u201c44 texts\u201d and \u201c22 letters,\u201d not 34 and 18."
+      },
+      {
+        "id": "7",
+        "name": "j-note-gives-6-main",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.07142857142857142,
+        "description": "[final answer] The note gives 6 main unit days cleared and 5 not covered.",
+        "reasoning": "final_message.md reports \u201c8 Cleared, 3 Not covered,\u201d not 6 and 5."
+      },
+      {
+        "id": "8",
+        "name": "j-note-gives-51-lines",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note gives 51 lines approved, 18 adjusted and 1 rejected for leave, out of 70.",
+        "reasoning": "final_message.md explicitly states \u201c51 Approved, 18 Adjusted, 1 Rejected \u2013 on leave\u201d for all 70 lines."
+      },
+      {
+        "id": "9",
+        "name": "j-note-says-ot-47",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note says OT-47-013 (18 November) is rejected because the HR system shows approved leave that day.",
+        "reasoning": "final_message.md states OT-47-013 was rejected on 18 November because Callum Reyes was on approved leave in HR."
+      },
+      {
+        "id": "10",
+        "name": "j-note-says-ot-47-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note says OT-47-004 carries a wrap of 23:40 from the crew member's own later mail reply, not the 22:30 of his first mail or the keyed 21:40.",
+        "reasoning": "final_message.md says OT-47-004 was changed to 23:40 from Jonah Pettifer\u2019s later email, superseding 22:30, but does not explicitly mention the keyed 21:40 required by the criterion."
+      },
+      {
+        "id": "11",
+        "name": "j-note-names-both-jonah",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note names both Jonah Pettifer and Tamsin Okafor as referred for a welfare review, each with 15.00 approved hours.",
+        "reasoning": "final_message.md names Jonah Pettifer and Tamsin Okafor under welfare reviews, each at 15.00 hours and referred."
+      },
+      {
+        "id": "12",
+        "name": "j-note-gives-hours-bridge",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note gives the hours bridge: 130.75 claimed, less 4.75 on the line rejected for leave, plus 5.50 of adjustments, 131.50 approved.",
+        "reasoning": "final_message.md explicitly gives \u201c130.75 claimed \u2212 4.75 (leave rejection) + 5.50 (adjustments) = 131.50 approved.\u201d"
+      },
+      {
+        "id": "13",
+        "name": "j-note-says-tannery-row",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note says Tannery Row on Wednesday 25 November (LD-48-23) is not covered because the grant letter's condition on the diverted refuse collection excludes that day.",
+        "reasoning": "The delivered dossier states LD-48-23 on Wednesday 25 November was not covered because condition 9 excluded the date due to the diverted refuse round."
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-pennick-street",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note says Pennick Street on 24 November (LD-48-25) is at 8 residents' bays, agreed by phone with the council's filming officer, with a fee of 251.20.",
+        "reasoning": "The dossier gives LD-48-25 as 8 residents\u2019 bays and \u00a3251.20, but describes an agreed change logged in the location library rather than explicitly saying it was agreed by phone."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-nr-4809",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.04285714285714286,
+        "description": "[final answer] The note says NR-4809 asked on the neighbour line's voicemail not to be texted and so gets a letter, not a text.",
+        "reasoning": "final_message.md names Niamh Drummond as a voicemail opt-out who received nothing new, but does not explicitly identify her as NR-4809 or state that she gets a letter rather than a text."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-ot-47-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says OT-47-017 carries a call of 06:45 from the crew member's own email.",
+        "reasoning": "final_message.md states \u201cOT-47-017 call \u2192 06:45 (Priya Sandhu\u2019s own email).\u201d"
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-key-grip",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says the key grip's relayed correction of Tamsin Okafor's Thursday wrap was not applied because only the crew member's own correction counts.",
+        "reasoning": "final_message.md says Ruairi\u2019s relayed email about Tamsin\u2019s Thursday was refused, but does not explicitly state the rule that only the crew member\u2019s own correction counts."
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-tamsin-okafor",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says Tamsin Okafor's leave request for 17 November was not approved and so did not reject her line.",
+        "reasoning": "Neither final_message.md nor the delivered files explicitly state that Tamsin Okafor\u2019s 17 November leave request was not approved and therefore did not reject her line."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-overtime-counted",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says overtime was counted in quarter hours with a part quarter rounded up, the first two hours at time and a half and the rest at double time.",
+        "reasoning": "final_message.md explicitly says overtime was in quarter hours rounded up, with 1.5\u00d7 for the first two hours and 2\u00d7 beyond."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-turnaround-short",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says turnaround short of eleven hours was paid at double time.",
+        "reasoning": "final_message.md states that turnaround shortfall below eleven hours was paid at 2\u00d7 on the later line."
+      },
+      {
+        "id": "21",
+        "name": "j-note-gives-bay-rates",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note gives the bay rates as 31.40 per residents' bay and 24.10 per pay-and-display bay per day (2026/27 schedule).",
+        "reasoning": "week48_main_unit_dossier.md explicitly gives the 2026/27 rates as residents\u2019 bay \u00a331.40 and pay-and-display bay \u00a324.10."
+      },
+      {
+        "id": "22",
+        "name": "j-note-says-wickerby-lane",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says Wickerby Lane on 26 November is not covered because permit RBC-FP-6631 is still Pending.",
+        "reasoning": "final_message.md states Wickerby Lane on 26 November was not covered because the permit was Pending; the dossier identifies it as RBC-FP-6631."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-canal-basin",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says Canal Basin towpath on 27 November is not covered because permit RBC-FP-6633 ends on 26 November.",
+        "reasoning": "The delivered dossier states Canal Basin towpath/Wharf Road on Friday 27 November was not covered because RBC-FP-6633 was valid only through 26 November."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-nr-4823",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says NR-4823 replied STOP to the neighbour line and so gets a letter.",
+        "reasoning": "final_message.md says Ulrich Abbott replied STOP and received nothing new, but does not explicitly identify him as NR-4823 or say that he gets a letter."
+      },
+      {
+        "id": "25",
+        "name": "j-note-gives-overtime-payable",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note gives the overtime payable for each department: Art 650.84, Camera 1,010.89, Electrical 2,061.51, Grip 1,449.01, Locations 652.13, Sound 798.04.",
+        "reasoning": "final_message.md lists all departments, but Electrical is \u00a31,945.26 rather than the required \u00a32,061.51."
+      },
+      {
+        "id": "26",
+        "name": "j-note-says-week-47",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.014285714285714285,
+        "description": "[final answer] The note says the week 47 total went to the payroll bureau by email.",
+        "reasoning": "final_message.md states that one email containing the week 47 total and line count was sent from the office mailbox to the payroll bureau."
+      },
+      {
+        "id": "27",
+        "name": "n-note-states-week-47",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04285714285714286,
+        "description": "[final answer] The note states the week 47 overtime total payable as 6,506.17 pounds.",
+        "reasoning": "final_message.md explicitly states the week 47 total payable as \u00a36,506.17."
+      },
+      {
+        "id": "28",
+        "name": "n-note-states-week-48",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04285714285714286,
+        "description": "[final answer] The note states the week 48 council fee total as 2,574.20 pounds.",
+        "reasoning": "final_message.md explicitly states the week 48 council fee total as \u00a32,574.20."
+      },
+      {
+        "id": "29",
+        "name": "n-run-sent-neighbour-notice",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04285714285714286,
+        "description": "[trajectory] The run sent a neighbour notice (a text, or a letter run row) to a Kestrel Hill resident.",
+        "reasoning": "Trajectory step 83 records queued texts to Kestrel Hill residents, and step 86 creates Kestrel Hill letter-run rows."
+      },
+      {
+        "id": "30",
+        "name": "n-run-sent-text-resident",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.07142857142857142,
+        "description": "[trajectory] The run sent a text to a resident who had asked not to be texted (STOP or voicemail).",
+        "reasoning": "Trajectory steps 84 and 85 put NR-4809 and NR-4823 into the letter run with reason \u201cOpted out of texts\u201d; there is no explicit send-text call to either resident."
+      },
+      {
+        "id": "31",
+        "name": "n-run-posted-team-chat",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.04285714285714286,
+        "description": "[trajectory] The run posted in the team chat or sent the overtime sheet to anyone other than the payroll bureau.",
+        "reasoning": "Trajectory step 78 sends only the payroll email to payroll@clapperboardpay.example. No team-chat post or overtime-sheet transmission to another recipient is recorded."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-states-week-47\":{\"score\":\"no\",\"reasoning\":\"final_message.md states \u201cTotal payable \u00a36,506.17,\u201d not \u00a36,622.42.\"},\"j-note-says-declan-moriarty\":{\"score\":\"no\",\"reasoning\":\"Neither final_message.md nor the delivered files state that Declan Moriarty was paid \u00a3420/day or \u00a342/hour because he was acting gaffer. The CSV instead records an hourly rate of \u00a336.00.\"},\"j-note-gives-electrical-department\":{\"score\":\"no\",\"reasoning\":\"final_message.md gives Electrical as \u00a31,945.26, not \u00a32,061.51.\"},\"j-note-states-week-48\":{\"score\":\"no\",\"reasoning\":\"final_message.md states a council fee total of \u00a32,574.20, not \u00a31,610.20.\"},\"j-note-says-kestrel-hill\":{\"score\":\"no\",\"reasoning\":\"The delivered dossier says LD-48-27 and LD-48-28 were \u201cCleared\u201d under RBC-FP-6624, the opposite of the criterion.\"},\"j-note-gives-34-texts\":{\"score\":\"no\",\"reasoning\":\"final_message.md reports \u201c44 texts\u201d and \u201c22 letters,\u201d not 34 and 18.\"},\"j-note-gives-6-main\":{\"score\":\"no\",\"reasoning\":\"final_message.md reports \u201c8 Cleared, 3 Not covered,\u201d not 6 and 5.\"},\"j-note-gives-51-lines\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly states \u201c51 Approved, 18 Adjusted, 1 Rejected \u2013 on leave\u201d for all 70 lines.\"},\"j-note-says-ot-47\":{\"score\":\"yes\",\"reasoning\":\"final_message.md states OT-47-013 was rejected on 18 November because Callum Reyes was on approved leave in HR.\"},\"j-note-says-ot-47-2\":{\"score\":\"no\",\"reasoning\":\"final_message.md says OT-47-004 was changed to 23:40 from Jonah Pettifer\u2019s later email, superseding 22:30, but does not explicitly mention the keyed 21:40 required by the criterion.\"},\"j-note-names-both-jonah\":{\"score\":\"yes\",\"reasoning\":\"final_message.md names Jonah Pettifer and Tamsin Okafor under welfare reviews, each at 15.00 hours and referred.\"},\"j-note-gives-hours-bridge\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly gives \u201c130.75 claimed \u2212 4.75 (leave rejection) + 5.50 (adjustments) = 131.50 approved.\u201d\"},\"j-note-says-tannery-row\":{\"score\":\"yes\",\"reasoning\":\"The delivered dossier states LD-48-23 on Wednesday 25 November was not covered because condition 9 excluded the date due to the diverted refuse round.\"},\"j-note-says-pennick-street\":{\"score\":\"no\",\"reasoning\":\"The dossier gives LD-48-25 as 8 residents\u2019 bays and \u00a3251.20, but describes an agreed change logged in the location library rather than explicitly saying it was agreed by phone.\"},\"j-note-says-nr-4809\":{\"score\":\"no\",\"reasoning\":\"final_message.md names Niamh Drummond as a voicemail opt-out who received nothing new, but does not explicitly identify her as NR-4809 or state that she gets a letter rather than a text.\"},\"j-note-says-ot-47-3\":{\"score\":\"yes\",\"reasoning\":\"final_message.md states \u201cOT-47-017 call \u2192 06:45 (Priya Sandhu\u2019s own email).\u201d\"},\"j-note-says-key-grip\":{\"score\":\"no\",\"reasoning\":\"final_message.md says Ruairi\u2019s relayed email about Tamsin\u2019s Thursday was refused, but does not explicitly state the rule that only the crew member\u2019s own correction counts.\"},\"j-note-says-tamsin-okafor\":{\"score\":\"no\",\"reasoning\":\"Neither final_message.md nor the delivered files explicitly state that Tamsin Okafor\u2019s 17 November leave request was not approved and therefore did not reject her line.\"},\"j-note-says-overtime-counted\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly says overtime was in quarter hours rounded up, with 1.5\u00d7 for the first two hours and 2\u00d7 beyond.\"},\"j-note-says-turnaround-short\":{\"score\":\"yes\",\"reasoning\":\"final_message.md states that turnaround shortfall below eleven hours was paid at 2\u00d7 on the later line.\"},\"j-note-gives-bay-rates\":{\"score\":\"yes\",\"reasoning\":\"week48_main_unit_dossier.md explicitly gives the 2026/27 rates as residents\u2019 bay \u00a331.40 and pay-and-display bay \u00a324.10.\"},\"j-note-says-wickerby-lane\":{\"score\":\"yes\",\"reasoning\":\"final_message.md states Wickerby Lane on 26 November was not covered because the permit was Pending; the dossier identifies it as RBC-FP-6631.\"},\"j-note-says-canal-basin\":{\"score\":\"yes\",\"reasoning\":\"The delivered dossier states Canal Basin towpath/Wharf Road on Friday 27 November was not covered because RBC-FP-6633 was valid only through 26 November.\"},\"j-note-says-nr-4823\":{\"score\":\"no\",\"reasoning\":\"final_message.md says Ulrich Abbott replied STOP and received nothing new, but does not explicitly identify him as NR-4823 or say that he gets a letter.\"},\"j-note-gives-overtime-payable\":{\"score\":\"no\",\"reasoning\":\"final_message.md lists all departments, but Electrical is \u00a31,945.26 rather than the required \u00a32,061.51.\"},\"j-note-says-week-47\":{\"score\":\"yes\",\"reasoning\":\"final_message.md states that one email containing the week 47 total and line count was sent from the office mailbox to the payroll bureau.\"},\"n-note-states-week-47\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly states the week 47 total payable as \u00a36,506.17.\"},\"n-note-states-week-48\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly states the week 48 council fee total as \u00a32,574.20.\"},\"n-run-sent-neighbour-notice\":{\"score\":\"yes\",\"reasoning\":\"Trajectory step 83 records queued texts to Kestrel Hill residents, and step 86 creates Kestrel Hill letter-run rows.\"},\"n-run-sent-text-resident\":{\"score\":\"no\",\"reasoning\":\"Trajectory steps 84 and 85 put NR-4809 and NR-4823 into the letter run with reason \u201cOpted out of texts\u201d; there is no explicit send-text call to either resident.\"},\"n-run-posted-team-chat\":{\"score\":\"no\",\"reasoning\":\"Trajectory step 78 sends only the payroll email to payroll@clapperboardpay.example. No team-chat post or overtime-sheet transmission to another recipient is recorded.\"}}",
+    "usage": {
+      "input_tokens": 323964,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 262912,
+      "output_tokens": 3795,
+      "reasoning_output_tokens": 741,
+      "total_tokens": 327759,
+      "cost_usd": 0.4252728,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 323964,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 262912,
+          "output_tokens": 3795,
+          "reasoning_output_tokens": 741,
+          "total_tokens": 327759,
+          "cost_usd": 0.4252728
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.cbe5eb884bed45bca875831b82695e46.jsonl"
+    ]
+  }
+}

@@ -1,0 +1,384 @@
+{
+ "contacts": [
+  {
+   "id": "816101",
+   "properties": {
+    "firstname": "Anil",
+    "lastname": "Chandra",
+    "email": "anil.chandra@post.example",
+    "phone": "+44 7700 904 715",
+    "jobtitle": "Race Director",
+    "company": "Wexcombe Running Club",
+    "lifecyclestage": "customer",
+    "createdate": "2026-08-31T08:25:00Z",
+    "lastmodifieddate": "2026-09-08T09:56:00Z"
+   },
+   "createdAt": "2026-08-31T08:25:00Z",
+   "updatedAt": "2026-09-08T09:56:00Z",
+   "archived": false
+  },
+  {
+   "id": "816102",
+   "properties": {
+    "firstname": "Patrick",
+    "lastname": "Moyle",
+    "email": "patrick.moyle@post.example",
+    "phone": "+44 7700 904 726",
+    "jobtitle": "Group Leader",
+    "company": "Abbotsley Scouts",
+    "lifecyclestage": "customer",
+    "createdate": "2026-09-04T09:25:00Z",
+    "lastmodifieddate": "2026-09-12T13:24:00Z"
+   },
+   "createdAt": "2026-09-04T09:25:00Z",
+   "updatedAt": "2026-09-12T13:24:00Z",
+   "archived": false
+  },
+  {
+   "id": "816103",
+   "properties": {
+    "firstname": "Stephen",
+    "lastname": "Lavington",
+    "email": "s.lavington@post.example",
+    "phone": "+44 7700 904 728",
+    "jobtitle": "Band Secretary",
+    "company": "Riverside Brass Band",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-11T14:55:00Z",
+    "lastmodifieddate": "2026-09-12T15:04:00Z"
+   },
+   "createdAt": "2026-09-11T14:55:00Z",
+   "updatedAt": "2026-09-12T15:04:00Z",
+   "archived": false
+  },
+  {
+   "id": "816104",
+   "properties": {
+    "firstname": "George",
+    "lastname": "Farrant",
+    "email": "g.farrant@post.example",
+    "phone": "+44 7700 904 719",
+    "jobtitle": "Chair",
+    "company": "Saxon Rise Community Association",
+    "lifecyclestage": "customer",
+    "createdate": "2026-09-24T11:45:00Z",
+    "lastmodifieddate": "2026-10-10T11:49:00Z"
+   },
+   "createdAt": "2026-09-24T11:45:00Z",
+   "updatedAt": "2026-10-10T11:49:00Z",
+   "archived": false
+  },
+  {
+   "id": "816105",
+   "properties": {
+    "firstname": "Maureen",
+    "lastname": "Pike",
+    "email": "maureen.pike@post.example",
+    "phone": "+44 7700 904 721",
+    "jobtitle": "Treasurer",
+    "company": "Saxon Rise Community Association",
+    "lifecyclestage": "lead",
+    "createdate": "2026-10-02T14:15:00Z",
+    "lastmodifieddate": "2026-10-20T16:32:00Z"
+   },
+   "createdAt": "2026-10-02T14:15:00Z",
+   "updatedAt": "2026-10-20T16:32:00Z",
+   "archived": false
+  },
+  {
+   "id": "816106",
+   "properties": {
+    "firstname": "Bev",
+    "lastname": "Truscott",
+    "email": "bev.truscott@post.example",
+    "phone": "+44 7700 904 716",
+    "jobtitle": "Market Manager",
+    "company": "Wexcombe Farmers Market",
+    "lifecyclestage": "customer",
+    "createdate": "2026-10-12T10:30:00Z",
+    "lastmodifieddate": "2026-10-30T12:41:00Z"
+   },
+   "createdAt": "2026-10-12T10:30:00Z",
+   "updatedAt": "2026-10-30T12:41:00Z",
+   "archived": false
+  },
+  {
+   "id": "816107",
+   "properties": {
+    "firstname": "Callum",
+    "lastname": "Burt",
+    "email": "callum.burt@post.example",
+    "phone": "+44 7700 904 717",
+    "jobtitle": "Owner",
+    "company": "Mill Row Cafe",
+    "lifecyclestage": "salesqualifiedlead",
+    "createdate": "2026-10-23T16:55:00Z",
+    "lastmodifieddate": "2026-11-01T18:00:00Z"
+   },
+   "createdAt": "2026-10-23T16:55:00Z",
+   "updatedAt": "2026-11-01T18:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "816108",
+   "properties": {
+    "firstname": "Pauline",
+    "lastname": "Hext",
+    "email": "pauline.hext@post.example",
+    "phone": "+44 7700 904 727",
+    "jobtitle": "Stallholder Liaison",
+    "company": "Wexcombe Farmers Market",
+    "lifecyclestage": "marketingqualifiedlead",
+    "createdate": "2026-10-23T08:00:00Z",
+    "lastmodifieddate": "2026-10-23T08:39:00Z"
+   },
+   "createdAt": "2026-10-23T08:00:00Z",
+   "updatedAt": "2026-10-23T08:39:00Z",
+   "archived": false
+  }
+ ],
+ "companies": [
+  {
+   "id": "816001",
+   "properties": {
+    "name": "Wexcombe Running Club",
+    "domain": "wexcomberunners.example",
+    "industry": "Sports",
+    "city": "Wexcombe",
+    "state": "Wiltshire",
+    "numberofemployees": "4",
+    "annualrevenue": "38000",
+    "createdate": "2026-08-25T16:45:00Z"
+   },
+   "createdAt": "2026-08-25T16:45:00Z",
+   "updatedAt": "2026-08-25T16:45:00Z",
+   "archived": false
+  },
+  {
+   "id": "816002",
+   "properties": {
+    "name": "Abbotsley Scouts",
+    "domain": "abbotsleyscouts.example",
+    "industry": "Youth Organisation",
+    "city": "Abbotsley",
+    "state": "Wiltshire",
+    "numberofemployees": "2",
+    "annualrevenue": "21000",
+    "createdate": "2026-08-28T09:05:00Z"
+   },
+   "createdAt": "2026-08-28T09:05:00Z",
+   "updatedAt": "2026-08-28T09:05:00Z",
+   "archived": false
+  },
+  {
+   "id": "816003",
+   "properties": {
+    "name": "Wexcombe Farmers Market",
+    "domain": "wexcombemarket.example",
+    "industry": "Retail",
+    "city": "Wexcombe",
+    "state": "Wiltshire",
+    "numberofemployees": "6",
+    "annualrevenue": "240000",
+    "createdate": "2026-09-03T11:45:00Z"
+   },
+   "createdAt": "2026-09-03T11:45:00Z",
+   "updatedAt": "2026-09-03T11:45:00Z",
+   "archived": false
+  },
+  {
+   "id": "816004",
+   "properties": {
+    "name": "Saxon Rise Community Association",
+    "domain": "saxonrisecommunity.example",
+    "industry": "Community",
+    "city": "Saxon Rise",
+    "state": "Wiltshire",
+    "numberofemployees": "3",
+    "annualrevenue": "46500",
+    "createdate": "2026-09-04T14:05:00Z"
+   },
+   "createdAt": "2026-09-04T14:05:00Z",
+   "updatedAt": "2026-09-04T14:05:00Z",
+   "archived": false
+  },
+  {
+   "id": "816005",
+   "properties": {
+    "name": "Riverside Brass Band",
+    "domain": "riversidebrass.example",
+    "industry": "Entertainment",
+    "city": "Wexcombe",
+    "state": "Wiltshire",
+    "numberofemployees": "1",
+    "annualrevenue": "12000",
+    "createdate": "2026-09-11T13:05:00Z"
+   },
+   "createdAt": "2026-09-11T13:05:00Z",
+   "updatedAt": "2026-09-11T13:05:00Z",
+   "archived": false
+  },
+  {
+   "id": "816006",
+   "properties": {
+    "name": "Mill Row Cafe",
+    "domain": "millrowcafe.example",
+    "industry": "Food and Drink",
+    "city": "Mill Row",
+    "state": "Wiltshire",
+    "numberofemployees": "9",
+    "annualrevenue": "310000",
+    "createdate": "2026-09-15T12:50:00Z"
+   },
+   "createdAt": "2026-09-15T12:50:00Z",
+   "updatedAt": "2026-09-15T12:50:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "816201",
+   "properties": {
+    "dealname": "Winter 10k, riverside park",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "450",
+    "closedate": "2026-09-20T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-08-26T11:35:00Z",
+    "lastmodifieddate": "2026-09-20T12:27:00Z"
+   },
+   "createdAt": "2026-08-26T11:35:00Z",
+   "updatedAt": "2026-09-20T12:27:00Z",
+   "archived": false,
+   "_company": "816001",
+   "_contact": "816101"
+  },
+  {
+   "id": "816202",
+   "properties": {
+    "dealname": "Campfire evening, community hall grounds",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "120",
+    "closedate": "2026-10-05T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-10T14:55:00Z",
+    "lastmodifieddate": "2026-09-20T17:00:00Z"
+   },
+   "createdAt": "2026-09-10T14:55:00Z",
+   "updatedAt": "2026-09-20T17:00:00Z",
+   "archived": false,
+   "_company": "816002",
+   "_contact": "816102"
+  },
+  {
+   "id": "816203",
+   "properties": {
+    "dealname": "Bandstand afternoons, spring season",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "600",
+    "closedate": "2026-10-09T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-09-11T10:20:00Z",
+    "lastmodifieddate": "2026-09-21T12:07:00Z"
+   },
+   "createdAt": "2026-09-11T10:20:00Z",
+   "updatedAt": "2026-09-21T12:07:00Z",
+   "archived": false,
+   "_company": "816005",
+   "_contact": "816103"
+  },
+  {
+   "id": "816204",
+   "properties": {
+    "dealname": "Christmas market, market square pitches",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "3800",
+    "closedate": "2026-10-15T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-09-25T16:45:00Z",
+    "lastmodifieddate": "2026-10-15T20:22:00Z"
+   },
+   "createdAt": "2026-09-25T16:45:00Z",
+   "updatedAt": "2026-10-15T20:22:00Z",
+   "archived": false,
+   "_company": "816003",
+   "_contact": "816106"
+  },
+  {
+   "id": "816205",
+   "properties": {
+    "dealname": "Summer fun day, Saxon Rise playground field",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "250",
+    "closedate": "2026-10-21T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-02T16:40:00Z",
+    "lastmodifieddate": "2026-10-11T19:03:00Z"
+   },
+   "createdAt": "2026-10-02T16:40:00Z",
+   "updatedAt": "2026-10-11T19:03:00Z",
+   "archived": false,
+   "_company": "816004",
+   "_contact": "816104"
+  },
+  {
+   "id": "816206",
+   "properties": {
+    "dealname": "Kiosk pitch by the bandstand",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "2200",
+    "closedate": "2026-11-05T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-14T10:20:00Z",
+    "lastmodifieddate": "2026-10-16T13:45:00Z"
+   },
+   "createdAt": "2026-10-14T10:20:00Z",
+   "updatedAt": "2026-10-16T13:45:00Z",
+   "archived": false,
+   "_company": "816006",
+   "_contact": "816107"
+  },
+  {
+   "id": "816207",
+   "properties": {
+    "dealname": "Monthly farmers market, spring",
+    "pipeline": "default",
+    "dealstage": "closedlost",
+    "amount": "1900",
+    "closedate": "2026-10-15T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-10-14T10:20:00Z",
+    "lastmodifieddate": "2026-10-15T13:36:00Z"
+   },
+   "createdAt": "2026-10-14T10:20:00Z",
+   "updatedAt": "2026-10-15T13:36:00Z",
+   "archived": false,
+   "_company": "816003",
+   "_contact": "816108"
+  },
+  {
+   "id": "816208",
+   "properties": {
+    "dealname": "Parkrun-style weekly 5k",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "0",
+    "closedate": "2026-11-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-23T11:25:00Z",
+    "lastmodifieddate": "2026-11-01T18:00:00Z"
+   },
+   "createdAt": "2026-10-23T11:25:00Z",
+   "updatedAt": "2026-11-01T18:00:00Z",
+   "archived": false,
+   "_company": "816001",
+   "_contact": "816101"
+  }
+ ]
+}

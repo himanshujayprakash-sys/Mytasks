@@ -1,0 +1,156 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-nl04-01",
+   "to_email": "rory.tennant@mail.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Your volunteer pass for Northlight Summit 2026",
+   "template_id": "d-6b04000000000001",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-11-02T09:01:00Z"
+  },
+  {
+   "message_id": "msg-nl04-02",
+   "to_email": "aisling.moran@corrinuni.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Your group order: 40 student passes",
+   "template_id": "d-6b04000000000002",
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-15T14:22:00Z"
+  },
+  {
+   "message_id": "msg-nl04-03",
+   "to_email": "bram@corrindevs.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Your community tickets are ready",
+   "template_id": "d-6b04000000000002",
+   "status": "opened",
+   "opens": 3,
+   "clicks": 2,
+   "sent_at": "2026-10-30T10:05:00Z"
+  },
+  {
+   "message_id": "msg-nl04-04",
+   "to_email": "yasmin.darcy@mail.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Reset your ticket shop password",
+   "template_id": "d-6b04000000000003",
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-11-04T20:40:00Z"
+  },
+  {
+   "message_id": "msg-nl04-05",
+   "to_email": "leila.ahmadi@mail.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Welcome to the Northlight volunteer team",
+   "template_id": "d-6b04000000000004",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-08T12:00:00Z"
+  },
+  {
+   "message_id": "msg-nl04-06",
+   "to_email": "piotr.nowicki@mail.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Your badge collection code",
+   "template_id": "d-6b04000000000005",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-09T10:00:00Z"
+  },
+  {
+   "message_id": "msg-nl04-07",
+   "to_email": "femi.adebayo@northdata.example",
+   "from_email": "tickets@northlightsummit.test",
+   "subject": "Northlight Summit 2026 - two weeks to go",
+   "template_id": "d-6b04000000000006",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-10T07:00:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-nl04-01",
+   "email": "rory.tennant@mail.example",
+   "first_name": "Rory",
+   "last_name": "Tennant",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-vol"
+   ],
+   "created_at": "2026-05-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-nl04-02",
+   "email": "yasmin.darcy@mail.example",
+   "first_name": "Yasmin",
+   "last_name": "Darcy",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-vol"
+   ],
+   "created_at": "2026-06-02T10:00:00Z",
+   "updated_at": "2026-11-02T10:00:00Z"
+  },
+  {
+   "id": "contact-nl04-03",
+   "email": "leila.ahmadi@mail.example",
+   "first_name": "Leila",
+   "last_name": "Ahmadi",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-vol"
+   ],
+   "created_at": "2026-07-03T10:00:00Z",
+   "updated_at": "2026-11-03T10:00:00Z"
+  },
+  {
+   "id": "contact-nl04-04",
+   "email": "aisling.moran@corrinuni.example",
+   "first_name": "Aisling",
+   "last_name": "Moran",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-partners"
+   ],
+   "created_at": "2026-08-04T10:00:00Z",
+   "updated_at": "2026-11-04T10:00:00Z"
+  },
+  {
+   "id": "contact-nl04-05",
+   "email": "bram@corrindevs.example",
+   "first_name": "Bram",
+   "last_name": "de Wit",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-partners",
+    "list-nl04-news"
+   ],
+   "created_at": "2026-09-05T10:00:00Z",
+   "updated_at": "2026-11-05T10:00:00Z"
+  },
+  {
+   "id": "contact-nl04-06",
+   "email": "femi.adebayo@northdata.example",
+   "first_name": "Femi",
+   "last_name": "Adebayo",
+   "country": "GB",
+   "list_ids": [
+    "list-nl04-news"
+   ],
+   "created_at": "2026-010-06T10:00:00Z",
+   "updated_at": "2026-11-06T10:00:00Z"
+  }
+ ]
+}

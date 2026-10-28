@@ -1,0 +1,294 @@
+{
+ "workspace": {
+  "gid": "1219400000000001",
+  "name": "Ellisford Fresh Produce"
+ },
+ "users": [
+  {
+   "gid": "1219400000000300",
+   "name": "Morven Alcott",
+   "email": "morven.alcott@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000301",
+   "name": "Gideon Marrack",
+   "email": "gideon.marrack@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000302",
+   "name": "Philippa Venning",
+   "email": "philippa.venning@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000303",
+   "name": "Bettany Hoskin",
+   "email": "bettany.hoskin@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000304",
+   "name": "Ruan Polkinghorne",
+   "email": "ruan.polkinghorne@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000305",
+   "name": "Kerensa Opie",
+   "email": "kerensa.opie@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000306",
+   "name": "Jago Mewton",
+   "email": "jago.mewton@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000307",
+   "name": "Lowenna Treharne",
+   "email": "lowenna.treharne@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000308",
+   "name": "Denzil Prowse",
+   "email": "denzil.prowse@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000309",
+   "name": "Ottilie Carne",
+   "email": "ottilie.carne@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000310",
+   "name": "Tristan Bray",
+   "email": "tristan.bray@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000311",
+   "name": "Morwenna Hext",
+   "email": "morwenna.hext@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000312",
+   "name": "Senara Coad",
+   "email": "senara.coad@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  },
+  {
+   "gid": "1219400000000313",
+   "name": "Caspar Vosper",
+   "email": "caspar.vosper@ellisford-produce.example",
+   "workspace_gid": "1219400000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1219400000000101",
+   "name": "Quayside depot improvements 2026-27",
+   "notes": "Building, yard and safety jobs for the Quayside depot this winter.",
+   "color": "dark-green",
+   "archived": false,
+   "owner_gid": "1219400000000306",
+   "workspace_gid": "1219400000000001",
+   "created_at": "2026-10-28T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1219400000000201",
+   "name": "Next up",
+   "project_gid": "1219400000000101",
+   "created_at": "2026-10-28T09:05:00.000Z"
+  },
+  {
+   "gid": "1219400000000202",
+   "name": "In hand",
+   "project_gid": "1219400000000101",
+   "created_at": "2026-10-28T09:05:00.000Z"
+  },
+  {
+   "gid": "1219400000000203",
+   "name": "Finished",
+   "project_gid": "1219400000000101",
+   "created_at": "2026-10-28T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1219400000000400",
+   "name": "Commission chiller 3 and sign off the handover pack",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000202",
+   "assignee_gid": "1219400000000306",
+   "completed": false,
+   "due_on": "2026-12-18",
+   "notes": "Installer back on 16 December for the pressure test. Keep the old unit wired until the sign-off sheet is countersigned.",
+   "created_at": "2026-10-29T09:10:00.000Z",
+   "modified_at": "2026-11-27T15:20:00.000Z"
+  },
+  {
+   "gid": "1219400000000401",
+   "name": "Replace the strip lights in goods-in with LED panels",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000306",
+   "completed": true,
+   "due_on": "2026-11-27",
+   "notes": "Fitted over the nights of 24 and 25 November; old tubes went in the WEEE cage.",
+   "created_at": "2026-10-29T09:11:00.000Z",
+   "modified_at": "2026-11-26T15:21:00.000Z"
+  },
+  {
+   "gid": "1219400000000402",
+   "name": "Forklift operator refresher for the early shift",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000201",
+   "assignee_gid": "1219400000000308",
+   "completed": false,
+   "due_on": "2027-01-15",
+   "notes": "Six operators due. The trainer can only do Tuesdays, so it is booked for 12 January.",
+   "created_at": "2026-11-02T09:12:00.000Z",
+   "modified_at": "2026-11-18T15:22:00.000Z"
+  },
+  {
+   "gid": "1219400000000403",
+   "name": "Pallet racking inspection, aisles A to F",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000308",
+   "completed": true,
+   "due_on": "2026-11-20",
+   "notes": "Two uprights in aisle D tagged red and replaced the next morning. Report filed in Box.",
+   "created_at": "2026-10-30T09:13:00.000Z",
+   "modified_at": "2026-11-20T15:23:00.000Z"
+  },
+  {
+   "gid": "1219400000000404",
+   "name": "Fire extinguisher annual service",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000308",
+   "completed": true,
+   "due_on": "2026-11-25",
+   "notes": "All 31 extinguishers passed; the CO2 unit by the battery charger was swapped for a new one.",
+   "created_at": "2026-10-30T09:14:00.000Z",
+   "modified_at": "2026-11-25T15:24:00.000Z"
+  },
+  {
+   "gid": "1219400000000405",
+   "name": "Fix the sticking roller door at the north loading dock",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000202",
+   "assignee_gid": "1219400000000306",
+   "completed": false,
+   "due_on": "2026-12-11",
+   "notes": "Motor is fine, the guide rail is bent. Replacement rail ordered on 1 December.",
+   "created_at": "2026-11-23T09:15:00.000Z",
+   "modified_at": "2026-12-01T15:25:00.000Z"
+  },
+  {
+   "gid": "1219400000000406",
+   "name": "Order winter hi-vis jackets",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000305",
+   "completed": true,
+   "due_on": "2026-11-30",
+   "notes": "Sizes taken from the sheet in the mess room; 28 jackets arrived on 27 November.",
+   "created_at": "2026-11-03T09:16:00.000Z",
+   "modified_at": "2026-11-27T15:26:00.000Z"
+  },
+  {
+   "gid": "1219400000000407",
+   "name": "Renew the general waste and cardboard contract",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000201",
+   "assignee_gid": "1219400000000309",
+   "completed": false,
+   "due_on": "2027-01-31",
+   "notes": "The current contract with Fal Valley Waste ends on 31 January. Three quotes wanted by 15 January.",
+   "created_at": "2026-11-16T09:17:00.000Z",
+   "modified_at": "2026-11-16T15:27:00.000Z"
+  },
+  {
+   "gid": "1219400000000408",
+   "name": "New staff lockers for the changing room",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000201",
+   "assignee_gid": "1219400000000307",
+   "completed": false,
+   "due_on": "2027-02-26",
+   "notes": "Budget agreed in principle at the November managers' meeting; choose a supplier after Christmas.",
+   "created_at": "2026-11-19T09:18:00.000Z",
+   "modified_at": "2026-11-19T15:28:00.000Z"
+  },
+  {
+   "gid": "1219400000000409",
+   "name": "Paint the one-way arrows and pedestrian crossing in the yard",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000202",
+   "assignee_gid": "1219400000000308",
+   "completed": false,
+   "due_on": "2026-12-21",
+   "notes": "Needs two dry days in a row. Temporary cones and signs are out until then.",
+   "created_at": "2026-11-10T09:19:00.000Z",
+   "modified_at": "2026-12-04T15:29:00.000Z"
+  },
+  {
+   "gid": "1219400000000410",
+   "name": "CCTV camera for the back gate",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000201",
+   "assignee_gid": "1219400000000310",
+   "completed": false,
+   "due_on": "2027-01-22",
+   "notes": "Needs a network point run from the transport office first; electrician to quote.",
+   "created_at": "2026-11-24T09:20:00.000Z",
+   "modified_at": "2026-11-24T15:30:00.000Z"
+  },
+  {
+   "gid": "1219400000000411",
+   "name": "Restock the first-aid kits",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000308",
+   "completed": true,
+   "due_on": "2026-11-18",
+   "notes": "Eye wash bottles in the goods-in kit were out of date; all six kits now checked and signed.",
+   "created_at": "2026-11-09T09:21:00.000Z",
+   "modified_at": "2026-11-17T15:31:00.000Z"
+  },
+  {
+   "gid": "1219400000000412",
+   "name": "Draft the food safety audit checklist",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000201",
+   "assignee_gid": "1219400000000308",
+   "completed": false,
+   "due_on": "2027-01-08",
+   "notes": "Audit is on 12 January. Start from last year's findings on probe calibration and goods-in records.",
+   "created_at": "2026-12-01T09:22:00.000Z",
+   "modified_at": "2026-12-01T15:32:00.000Z"
+  },
+  {
+   "gid": "1219400000000413",
+   "name": "Top up the grit and salt bins for the winter",
+   "project_gid": "1219400000000101",
+   "section_gid": "1219400000000203",
+   "assignee_gid": "1219400000000305",
+   "completed": true,
+   "due_on": "2026-11-23",
+   "notes": "Two tonnes delivered on 20 November; spare bags stacked by the weighbridge.",
+   "created_at": "2026-11-11T09:23:00.000Z",
+   "modified_at": "2026-11-20T15:33:00.000Z"
+  }
+ ]
+}

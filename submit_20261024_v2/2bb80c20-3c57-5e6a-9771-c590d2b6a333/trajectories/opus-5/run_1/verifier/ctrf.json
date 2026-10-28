@@ -1,0 +1,403 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 64,
+      "passed": 52,
+      "failed": 12,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.8125,
+      "weighted_percentage": 81.25
+    },
+    "tests": [
+      {
+        "name": "test_procedures_read",
+        "status": "passed",
+        "duration": 19,
+        "weight": 1
+      },
+      {
+        "name": "test_register_read_before_written",
+        "status": "passed",
+        "duration": 34,
+        "weight": 1
+      },
+      {
+        "name": "test_trips_read_before_written",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_confirmations_read_again_after_first_save",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_register_all_rows_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_row_withdrawn_in_thread_reply",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_declined_on_condition",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_rows_unsigned_agreement",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_value_revised_on_whatsapp",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_late_revision_ignored",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_half_pound_rounded_up",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_agreement_rate",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_not_on_gis_schedule",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_air_loading_new_york",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_amsterdam_air_freight",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_row_amsterdam_further_vehicle",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_records_all_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_trip_amsterdam_further_vehicle",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_strandhuis_slot",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_carrow_further_vehicle",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_lenders_own_courier",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_cancelled_consignment",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_trip_requested_leave_not_counted",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_courier_texts_all_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_courier_text_first_collection",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_courier_text_carrow_further_vehicle",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_courier_text_amsterdam",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_lender_confirmations_all_right",
+        "status": "failed",
+        "duration": 23,
+        "weight": 5
+      },
+      {
+        "name": "test_stop_lender_emailed",
+        "status": "passed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_lender_text_withdrawal",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_lender_text_carrow",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_lender_text_amsterdam",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_arrival_events_all_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_arrival_carrow_further_vehicle",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_arrival_strandhuis",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_broker_schedule",
+        "status": "passed",
+        "duration": 11,
+        "weight": 5
+      },
+      {
+        "name": "test_page_table_values",
+        "status": "passed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_final_premium",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_final_total_insured",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_cover_split",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_objects_counted",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_bridge",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_vehicles",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_couriers",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_created_trips",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_lender_changes",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_only_what_the_close_needs",
+        "status": "failed",
+        "duration": 24,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_per_lender",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_rows_right",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_vehicle_rows",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_right_rows_rewritten",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_text_after_stop",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_vehicle_over_limit",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_duplicate_messages",
+        "status": "passed",
+        "duration": 12,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unasked_message",
+        "status": "failed",
+        "duration": 12,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      }
+    ]
+  }
+}

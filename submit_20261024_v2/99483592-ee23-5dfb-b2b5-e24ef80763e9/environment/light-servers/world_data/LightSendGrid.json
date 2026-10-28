@@ -1,0 +1,144 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-gwp01",
+   "to_email": "isla.fenwick@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Your crew start form is complete",
+   "template_id": "d-gwp8a93b2a6",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-02T10:00:00Z"
+  },
+  {
+   "message_id": "msg-gwp02",
+   "to_email": "jasper.whitcombe@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Reminder: bank details for payroll",
+   "template_id": "d-gwpe3b60a58",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-05T09:00:00Z"
+  },
+  {
+   "message_id": "msg-gwp03",
+   "to_email": "talulah.brookes@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Your crew start form is complete",
+   "template_id": "d-gwp8a93b2a6",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-12T10:00:00Z"
+  },
+  {
+   "message_id": "msg-gwp04",
+   "to_email": "wilf.hargreaves@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Driving licence check due",
+   "template_id": "d-gwp3408ab0b",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-02T09:30:00Z"
+  },
+  {
+   "message_id": "msg-gwp05",
+   "to_email": "grace.adebayo@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Driving licence check due",
+   "template_id": "d-gwp3408ab0b",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-02T09:31:00Z"
+  },
+  {
+   "message_id": "msg-gwp06",
+   "to_email": "nnamdi.eze@crew.greyfriarswharf.example",
+   "from_email": "noreply@greyfriarswharf.example",
+   "subject": "Driving licence check due",
+   "template_id": "d-gwp3408ab0b",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-02T09:32:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-gwp00",
+   "email": "isla.fenwick@crew.greyfriarswharf.example",
+   "first_name": "Isla",
+   "last_name": "Fenwick",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "id": "contact-gwp01",
+   "email": "jasper.whitcombe@crew.greyfriarswharf.example",
+   "first_name": "Jasper",
+   "last_name": "Whitcombe",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "id": "contact-gwp02",
+   "email": "talulah.brookes@crew.greyfriarswharf.example",
+   "first_name": "Talulah",
+   "last_name": "Brookes",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "id": "contact-gwp03",
+   "email": "wilf.hargreaves@crew.greyfriarswharf.example",
+   "first_name": "Wilf",
+   "last_name": "Hargreaves",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "id": "contact-gwp04",
+   "email": "grace.adebayo@crew.greyfriarswharf.example",
+   "first_name": "Grace",
+   "last_name": "Adebayo",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  },
+  {
+   "id": "contact-gwp05",
+   "email": "nnamdi.eze@crew.greyfriarswharf.example",
+   "first_name": "Nnamdi",
+   "last_name": "Eze",
+   "country": "GB",
+   "list_ids": [
+    "list-gwp-crewadmin"
+   ],
+   "created_at": "2026-09-28T09:00:00Z",
+   "updated_at": "2026-09-28T09:00:00Z"
+  }
+ ]
+}

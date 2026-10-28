@@ -1,0 +1,166 @@
+{
+ "teams": [
+  {
+   "id": "19:team-kra-staff01@thread.tacv2",
+   "displayName": "Kestrel Ridge staff",
+   "description": "All staff at Kestrel Ridge Academy",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.microsoft.com/l/team/19%3ateam-kra-staff01%40thread.tacv2",
+   "member_ids": [
+    "user-kra-01",
+    "user-kra-02",
+    "user-kra-03",
+    "user-kra-04",
+    "user-kra-05",
+    "user-kra-06",
+    "user-kra-07",
+    "user-kra-08",
+    "user-kra-09",
+    "user-kra-10",
+    "user-kra-11",
+    "user-kra-12",
+    "user-kra-13",
+    "user-kra-14",
+    "user-kra-15",
+    "user-kra-16",
+    "user-kra-17",
+    "user-kra-18",
+    "user-kra-19",
+    "user-kra-20"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "displayName": "General",
+   "description": "Notices for everyone",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-kra-gen01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T07:30:00Z"
+  },
+  {
+   "id": "19:chan-kra-y701@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "displayName": "Year 7 team",
+   "description": "Year 7 tutors, the head of year and support staff",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-kra-y701%40thread.tacv2",
+   "createdDateTime": "2026-09-01T07:30:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1802400000001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-04",
+   "from_display_name": "Harriet Vale",
+   "content": "Welcome back. Briefing at 08:20 in the staff room, then straight to form time.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-04T08:00:00Z"
+  },
+  {
+   "id": "1802400007001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-14",
+   "from_display_name": "Ben Ashworth",
+   "content": "Top car park gritted. The path by block C is still icy, please use the main entrance.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-11T07:05:00Z"
+  },
+  {
+   "id": "1802400014001",
+   "channel_id": "19:chan-kra-y701@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-05",
+   "from_display_name": "Callum Reid",
+   "content": "Year 7 reports go home on 29 January. Comments to me by the 22nd please.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-13T15:40:00Z"
+  },
+  {
+   "id": "1802400021001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-18",
+   "from_display_name": "Daniel Frost",
+   "content": "Staff Wi-Fi restarts at 12:45 today for five minutes.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-18T12:30:00Z"
+  },
+  {
+   "id": "1802400028001",
+   "channel_id": "19:chan-kra-y701@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-06",
+   "from_display_name": "Priya Nandakumar",
+   "content": "7A's assembly on kindness is on Friday 5 February; parents can watch from the back.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-20T16:10:00Z"
+  },
+  {
+   "id": "1802400035001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-17",
+   "from_display_name": "Kirsty Lund",
+   "content": "Options evening sign-up for staff volunteers is on the noticeboard by reception.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-25T09:00:00Z"
+  },
+  {
+   "id": "1802400042001",
+   "channel_id": "19:chan-kra-y701@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-15",
+   "from_display_name": "Grace Ogunleye",
+   "content": "Updated pupil passports for 7C are in the SEN folder; please read before Monday.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-01-27T13:15:00Z"
+  },
+  {
+   "id": "1802400049001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-19",
+   "from_display_name": "Hannah Clegg",
+   "content": "Pancake day lunch on 9 February: lemon and sugar or chocolate, served from 12:10.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-02-01T10:45:00Z"
+  },
+  {
+   "id": "1802400056001",
+   "channel_id": "19:chan-kra-y701@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-07",
+   "from_display_name": "Owen Batty",
+   "content": "7B's reading challenge has passed 200 books. Certificates in Friday's assembly.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-02-03T15:30:00Z"
+  },
+  {
+   "id": "1802400063001",
+   "channel_id": "19:chan-kra-gen01@thread.tacv2",
+   "team_id": "19:team-kra-staff01@thread.tacv2",
+   "from_user_id": "user-kra-16",
+   "from_display_name": "Martin Healey",
+   "content": "Cover for Monday is on the board; thanks to everyone who swapped duties this week.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2027-02-05T16:20:00Z"
+  }
+ ]
+}

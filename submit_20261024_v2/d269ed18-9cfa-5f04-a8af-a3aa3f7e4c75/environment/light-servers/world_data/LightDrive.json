@@ -1,0 +1,197 @@
+{
+ "folders": {
+  "fd_fh_mkt": {
+   "fdid": "fd_fh_mkt",
+   "name": "Marketing",
+   "parent_id": "fd_root",
+   "path": "/Marketing",
+   "created_at": "2026-01-10T10:00"
+  },
+  "fd_fh_hs": {
+   "fdid": "fd_fh_hs",
+   "name": "Health and safety",
+   "parent_id": "fd_root",
+   "path": "/Health and safety",
+   "created_at": "2026-01-10T10:00"
+  },
+  "fd_fh_ops": {
+   "fdid": "fd_fh_ops",
+   "name": "Operations",
+   "parent_id": "fd_root",
+   "path": "/Operations",
+   "created_at": "2026-01-10T10:00"
+  }
+ },
+ "files": {
+  "fFha0e2b3c3d4cc9ce292": {
+   "fid": "fFha0e2b3c3d4cc9ce292",
+   "name": "Brochure 2027 draft.docx",
+   "folder_id": "fd_fh_mkt",
+   "path": "/Marketing/Brochure 2027 draft.docx",
+   "size_bytes": 120440,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-11-20T10:00",
+   "updated_at": "2026-11-20T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fh884951a5"
+  },
+  "fFh31b64dc35bfd1c1920": {
+   "fid": "fFh31b64dc35bfd1c1920",
+   "name": "Photo permissions log.xlsx",
+   "folder_id": "fd_fh_mkt",
+   "path": "/Marketing/Photo permissions log.xlsx",
+   "size_bytes": 22010,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-02T09:00",
+   "updated_at": "2026-10-02T09:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fh29394e41"
+  },
+  "fFh799785a0745a335b3e": {
+   "fid": "fFh799785a0745a335b3e",
+   "name": "Barn fire risk assessment 2026.docx",
+   "folder_id": "fd_fh_hs",
+   "path": "/Health and safety/Barn fire risk assessment 2026.docx",
+   "size_bytes": 88120,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-03-01T09:00",
+   "updated_at": "2026-03-01T09:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fhe2fede8c"
+  },
+  "fFhc63838ba0bad256575": {
+   "fid": "fFhc63838ba0bad256575",
+   "name": "First aid kit checks.xlsx",
+   "folder_id": "fd_fh_hs",
+   "path": "/Health and safety/First aid kit checks.xlsx",
+   "size_bytes": 15010,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-12-01T09:00",
+   "updated_at": "2026-12-01T09:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fhc4d68567"
+  },
+  "fFh1540fc2870ff18ae9f": {
+   "fid": "fFh1540fc2870ff18ae9f",
+   "name": "Supplier insurance certificates.docx",
+   "folder_id": "fd_fh_ops",
+   "path": "/Operations/Supplier insurance certificates.docx",
+   "size_bytes": 40220,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-02-14T10:00",
+   "updated_at": "2026-02-14T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fhc2ae3496"
+  },
+  "fFh2962c357fe05ca84ca": {
+   "fid": "fFh2962c357fe05ca84ca",
+   "name": "Opening and closing checklist.docx",
+   "folder_id": "fd_fh_ops",
+   "path": "/Operations/Opening and closing checklist.docx",
+   "size_bytes": 30110,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-01-12T10:00",
+   "updated_at": "2026-01-12T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fh2dd94dda"
+  },
+  "fFhce4f3f26b164c046e9": {
+   "fid": "fFhce4f3f26b164c046e9",
+   "name": "Linen order template.xlsx",
+   "folder_id": "fd_fh_ops",
+   "path": "/Operations/Linen order template.xlsx",
+   "size_bytes": 12030,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-05-05T10:00",
+   "updated_at": "2026-05-05T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fhd03cabe3"
+  },
+  "fFhb38ffafe1af81fa981": {
+   "fid": "fFhb38ffafe1af81fa981",
+   "name": "Wedding fair stand plan.docx",
+   "folder_id": "fd_fh_mkt",
+   "path": "/Marketing/Wedding fair stand plan.docx",
+   "size_bytes": 25060,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-12-08T15:00",
+   "updated_at": "2026-12-08T15:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_fhe7b80eb7"
+  }
+ },
+ "versions": {
+  "v_fh884951a5": {
+   "vid": "v_fh884951a5",
+   "file_id": "fFha0e2b3c3d4cc9ce292",
+   "version_number": 1,
+   "size_bytes": 120440,
+   "created_at": "2026-11-20T10:00",
+   "comment": "Initial upload"
+  },
+  "v_fh29394e41": {
+   "vid": "v_fh29394e41",
+   "file_id": "fFh31b64dc35bfd1c1920",
+   "version_number": 1,
+   "size_bytes": 22010,
+   "created_at": "2026-10-02T09:00",
+   "comment": "Initial upload"
+  },
+  "v_fhe2fede8c": {
+   "vid": "v_fhe2fede8c",
+   "file_id": "fFh799785a0745a335b3e",
+   "version_number": 1,
+   "size_bytes": 88120,
+   "created_at": "2026-03-01T09:00",
+   "comment": "Initial upload"
+  },
+  "v_fhc4d68567": {
+   "vid": "v_fhc4d68567",
+   "file_id": "fFhc63838ba0bad256575",
+   "version_number": 1,
+   "size_bytes": 15010,
+   "created_at": "2026-12-01T09:00",
+   "comment": "Initial upload"
+  },
+  "v_fhc2ae3496": {
+   "vid": "v_fhc2ae3496",
+   "file_id": "fFh1540fc2870ff18ae9f",
+   "version_number": 1,
+   "size_bytes": 40220,
+   "created_at": "2026-02-14T10:00",
+   "comment": "Initial upload"
+  },
+  "v_fh2dd94dda": {
+   "vid": "v_fh2dd94dda",
+   "file_id": "fFh2962c357fe05ca84ca",
+   "version_number": 1,
+   "size_bytes": 30110,
+   "created_at": "2026-01-12T10:00",
+   "comment": "Initial upload"
+  },
+  "v_fhd03cabe3": {
+   "vid": "v_fhd03cabe3",
+   "file_id": "fFhce4f3f26b164c046e9",
+   "version_number": 1,
+   "size_bytes": 12030,
+   "created_at": "2026-05-05T10:00",
+   "comment": "Initial upload"
+  },
+  "v_fhe7b80eb7": {
+   "vid": "v_fhe7b80eb7",
+   "file_id": "fFhb38ffafe1af81fa981",
+   "version_number": 1,
+   "size_bytes": 25060,
+   "created_at": "2026-12-08T15:00",
+   "comment": "Initial upload"
+  }
+ }
+}

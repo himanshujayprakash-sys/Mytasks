@@ -1,0 +1,219 @@
+{
+ "folders": {
+  "fd_pm_outreach": {
+   "fdid": "fd_pm_outreach",
+   "name": "Community outreach",
+   "parent_id": "fd_root",
+   "path": "/Community outreach",
+   "created_at": "2026-06-01T09:00"
+  },
+  "fd_pm_mock": {
+   "fdid": "fd_pm_mock",
+   "name": "Mock trial packs",
+   "parent_id": "fd_pm_outreach",
+   "path": "/Community outreach/Mock trial packs",
+   "created_at": "2026-09-07T09:00"
+  }
+ },
+ "files": {
+  "pm19file01kWzT": {
+   "fid": "pm19file01kWzT",
+   "name": "Becoming a magistrate - leaflet 2026.pdf",
+   "folder_id": "fd_pm_outreach",
+   "path": "/Community outreach/Becoming a magistrate - leaflet 2026.pdf",
+   "size_bytes": 1405112,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-03T11:05",
+   "updated_at": "2026-10-06T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1901a"
+  },
+  "pm19file02kWzT": {
+   "fid": "pm19file02kWzT",
+   "name": "Open evening 2 December - running order.docx",
+   "folder_id": "fd_pm_outreach",
+   "path": "/Community outreach/Open evening 2 December - running order.docx",
+   "size_bytes": 33021,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-06T11:05",
+   "updated_at": "2026-10-09T15:30",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_pm1902a"
+  },
+  "pm19file03kWzT": {
+   "fid": "pm19file03kWzT",
+   "name": "Open evening - slides.pptx",
+   "folder_id": "fd_pm_outreach",
+   "path": "/Community outreach/Open evening - slides.pptx",
+   "size_bytes": 6120448,
+   "mime_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+   "created_at": "2026-09-09T11:05",
+   "updated_at": "2026-10-12T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1903a"
+  },
+  "pm19file04kWzT": {
+   "fid": "pm19file04kWzT",
+   "name": "Mock trial - the stolen bicycle (teacher notes).pdf",
+   "folder_id": "fd_pm_mock",
+   "path": "/Community outreach/Mock trial packs/Mock trial - the stolen bicycle (teacher notes).pdf",
+   "size_bytes": 902231,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-12T11:05",
+   "updated_at": "2026-10-15T15:30",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_pm1904a"
+  },
+  "pm19file05kWzT": {
+   "fid": "pm19file05kWzT",
+   "name": "Mock trial - the stolen bicycle (role cards).pdf",
+   "folder_id": "fd_pm_mock",
+   "path": "/Community outreach/Mock trial packs/Mock trial - the stolen bicycle (role cards).pdf",
+   "size_bytes": 611845,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-15T11:05",
+   "updated_at": "2026-10-18T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1905a"
+  },
+  "pm19file06kWzT": {
+   "fid": "pm19file06kWzT",
+   "name": "Mock trial - the noisy neighbour (teacher notes).pdf",
+   "folder_id": "fd_pm_mock",
+   "path": "/Community outreach/Mock trial packs/Mock trial - the noisy neighbour (teacher notes).pdf",
+   "size_bytes": 874110,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-18T11:05",
+   "updated_at": "2026-10-21T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1906a"
+  },
+  "pm19file07kWzT": {
+   "fid": "pm19file07kWzT",
+   "name": "School visit feedback 2026.xlsx",
+   "folder_id": "fd_pm_outreach",
+   "path": "/Community outreach/School visit feedback 2026.xlsx",
+   "size_bytes": 19456,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-09-21T11:05",
+   "updated_at": "2026-10-24T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1907a"
+  },
+  "pm19file08kWzT": {
+   "fid": "pm19file08kWzT",
+   "name": "Outreach photos consent form.docx",
+   "folder_id": "fd_pm_outreach",
+   "path": "/Community outreach/Outreach photos consent form.docx",
+   "size_bytes": 28672,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-24T11:05",
+   "updated_at": "2026-10-27T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_pm1908a"
+  }
+ },
+ "versions": {
+  "v_pm1901a": {
+   "vid": "v_pm1901a",
+   "file_id": "pm19file01kWzT",
+   "version_number": 1,
+   "size_bytes": 1405112,
+   "created_at": "2026-09-03T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1902a": {
+   "vid": "v_pm1902a",
+   "file_id": "pm19file02kWzT",
+   "version_number": 1,
+   "size_bytes": 33021,
+   "created_at": "2026-09-06T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1903a": {
+   "vid": "v_pm1903a",
+   "file_id": "pm19file03kWzT",
+   "version_number": 1,
+   "size_bytes": 6120448,
+   "created_at": "2026-09-09T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1904a": {
+   "vid": "v_pm1904a",
+   "file_id": "pm19file04kWzT",
+   "version_number": 1,
+   "size_bytes": 902231,
+   "created_at": "2026-09-12T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1905a": {
+   "vid": "v_pm1905a",
+   "file_id": "pm19file05kWzT",
+   "version_number": 1,
+   "size_bytes": 611845,
+   "created_at": "2026-09-15T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1906a": {
+   "vid": "v_pm1906a",
+   "file_id": "pm19file06kWzT",
+   "version_number": 1,
+   "size_bytes": 874110,
+   "created_at": "2026-09-18T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1907a": {
+   "vid": "v_pm1907a",
+   "file_id": "pm19file07kWzT",
+   "version_number": 1,
+   "size_bytes": 19456,
+   "created_at": "2026-09-21T11:05",
+   "comment": "Uploaded by Ruby"
+  },
+  "v_pm1908a": {
+   "vid": "v_pm1908a",
+   "file_id": "pm19file08kWzT",
+   "version_number": 1,
+   "size_bytes": 28672,
+   "created_at": "2026-09-24T11:05",
+   "comment": "Uploaded by Ruby"
+  }
+ },
+ "share_links": {
+  "sl_pm190": {
+   "slid": "sl_pm190",
+   "target_kind": "file",
+   "target_id": "pm19file01kWzT",
+   "url": "https://drive.example.com/s/pm19out0",
+   "can_edit": false,
+   "expires_at": "2027-03-31T23:59",
+   "view_count": 6
+  },
+  "sl_pm193": {
+   "slid": "sl_pm193",
+   "target_kind": "file",
+   "target_id": "pm19file04kWzT",
+   "url": "https://drive.example.com/s/pm19out3",
+   "can_edit": false,
+   "expires_at": "2027-03-31T23:59",
+   "view_count": 9
+  },
+  "sl_pm194": {
+   "slid": "sl_pm194",
+   "target_kind": "file",
+   "target_id": "pm19file05kWzT",
+   "url": "https://drive.example.com/s/pm19out4",
+   "can_edit": false,
+   "expires_at": "2027-03-31T23:59",
+   "view_count": 10
+  }
+ }
+}

@@ -1,0 +1,538 @@
+{
+ "users": [
+  {
+   "id": 71001,
+   "name": "Ifeoma Adekunle",
+   "email": "ifeoma.adekunle@thornwickjuniors.example",
+   "role": "agent",
+   "organization_id": 72001,
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  },
+  {
+   "id": 71002,
+   "name": "Registration desk",
+   "email": "registrations@thornwickjuniors.example",
+   "role": "agent",
+   "organization_id": 72001,
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  },
+  {
+   "id": 73001,
+   "name": "Gareth Pemberton",
+   "email": "gareth.pemberton@volunteers.thornwickjuniors.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73002,
+   "name": "Leanne Shotton",
+   "email": "leanne.shotton@volunteers.thornwickjuniors.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73003,
+   "name": "Tom Ackroyd",
+   "email": "tom.ackroyd@volunteers.thornwickjuniors.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73004,
+   "name": "Colin Rudge",
+   "email": "colin.rudge@volunteers.thornwickjuniors.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73005,
+   "name": "Claire Beckett",
+   "email": "claire.beckett@mailbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73006,
+   "name": "Andrew Hadley",
+   "email": "andrew.hadley@inbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73007,
+   "name": "Kerry Beckett",
+   "email": "kerry.beckett@homemail.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73008,
+   "name": "Craig Lomax",
+   "email": "craig.lomax@mailbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73009,
+   "name": "Amanda Ashby",
+   "email": "amanda.ashby@inbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73010,
+   "name": "Dean Holt",
+   "email": "dean.holt@homemail.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73011,
+   "name": "Claire Tattersall",
+   "email": "claire.tattersall@mailbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  },
+  {
+   "id": 73012,
+   "name": "Andrew Shackleton",
+   "email": "andrew.shackleton@inbox.example",
+   "role": "end-user",
+   "organization_id": 72001,
+   "created_at": "2026-09-01T09:00:00Z",
+   "updated_at": "2026-09-01T09:00:00Z"
+  }
+ ],
+ "organizations": [
+  {
+   "id": 72001,
+   "name": "Thornwick Juniors FC",
+   "shared_tickets": false,
+   "tags": [
+    "club"
+   ],
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  }
+ ],
+ "tickets": [
+  {
+   "id": 5201,
+   "subject": "Volunteer record: Gareth Pemberton",
+   "description": "Updating my volunteer details for the season: still assisting with the U12s on Saturdays.",
+   "status": "pending",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73001,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "volunteers"
+   ],
+   "created_at": "2026-09-04T19:00:00Z",
+   "updated_at": "2026-11-21T10:25:00Z"
+  },
+  {
+   "id": 5202,
+   "subject": "Volunteer record: Leanne Shotton",
+   "description": "New mobile number for the U9s.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73002,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "volunteers"
+   ],
+   "created_at": "2026-10-28T19:00:00Z",
+   "updated_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 5203,
+   "subject": "Volunteer record: Tom Ackroyd",
+   "description": "DBS certificate number added.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73003,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "volunteers"
+   ],
+   "created_at": "2026-10-04T19:00:00Z",
+   "updated_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 5204,
+   "subject": "Volunteer record: Colin Rudge",
+   "description": "I'll be taking a few months out from November; see the volunteer system.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73004,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "volunteers"
+   ],
+   "created_at": "2026-10-14T19:00:00Z",
+   "updated_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 5205,
+   "subject": "Lost hoodie",
+   "description": "My son lost a navy hoodie at training.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73005,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-03T18:30:00Z",
+   "updated_at": "2026-11-04T09:00:00Z"
+  },
+  {
+   "id": 5206,
+   "subject": "Tournament refund",
+   "description": "Can we get a refund for the cancelled tournament?",
+   "status": "open",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73006,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-05T18:30:00Z",
+   "updated_at": "2026-11-06T09:00:00Z"
+  },
+  {
+   "id": 5207,
+   "subject": "Photo consent",
+   "description": "Can I change my photo consent?",
+   "status": "pending",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73007,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-07T18:30:00Z",
+   "updated_at": "2026-11-08T09:00:00Z"
+  },
+  {
+   "id": 5208,
+   "subject": "Training times",
+   "description": "Are U16 training times changing in December?",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73008,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-09T18:30:00Z",
+   "updated_at": "2026-11-10T09:00:00Z"
+  },
+  {
+   "id": 5209,
+   "subject": "Kit size",
+   "description": "Can we swap a medium shirt for a large?",
+   "status": "open",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73009,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-11T18:30:00Z",
+   "updated_at": "2026-11-12T09:00:00Z"
+  },
+  {
+   "id": 5210,
+   "subject": "Payment plan",
+   "description": "Can we pay the balance in two instalments?",
+   "status": "pending",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73010,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-13T18:30:00Z",
+   "updated_at": "2026-11-14T09:00:00Z"
+  },
+  {
+   "id": 5211,
+   "subject": "Disabled parking",
+   "description": "Is there disabled parking at the 3G?",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73011,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-15T18:30:00Z",
+   "updated_at": "2026-11-16T09:00:00Z"
+  },
+  {
+   "id": 5212,
+   "subject": "Christmas party",
+   "description": "What date is the Christmas party?",
+   "status": "open",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 73012,
+   "assignee_id": 71002,
+   "organization_id": 72001,
+   "tags": [
+    "parents"
+   ],
+   "created_at": "2026-11-17T18:30:00Z",
+   "updated_at": "2026-11-18T09:00:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "id": 8301,
+   "ticket_id": 5201,
+   "author_id": 73001,
+   "body": "Updating my volunteer details for the season: still assisting with the U12s on Saturdays.",
+   "public": true,
+   "created_at": "2026-09-04T19:00:00Z"
+  },
+  {
+   "id": 8302,
+   "ticket_id": 5201,
+   "author_id": 71002,
+   "body": "Thanks Gareth, record updated.",
+   "public": true,
+   "created_at": "2026-09-05T09:10:00Z"
+  },
+  {
+   "id": 8303,
+   "ticket_id": 5201,
+   "author_id": 71001,
+   "body": "Internal note (welfare officer): following a concern raised on 19 November, Gareth Pemberton is suspended from all coaching and volunteering with immediate effect while the county safeguarding review takes place. He must not be named as a coach for any team until I lift this in writing. Recorded here under the safeguarding policy, section 6.",
+   "public": false,
+   "created_at": "2026-11-21T10:25:00Z"
+  },
+  {
+   "id": 8304,
+   "ticket_id": 5202,
+   "author_id": 73002,
+   "body": "New mobile number for the U9s.",
+   "public": true,
+   "created_at": "2026-10-28T19:00:00Z"
+  },
+  {
+   "id": 8305,
+   "ticket_id": 5202,
+   "author_id": 71002,
+   "body": "Thanks, noted.",
+   "public": true,
+   "created_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 8306,
+   "ticket_id": 5203,
+   "author_id": 73003,
+   "body": "DBS certificate number added.",
+   "public": true,
+   "created_at": "2026-10-04T19:00:00Z"
+  },
+  {
+   "id": 8307,
+   "ticket_id": 5203,
+   "author_id": 71002,
+   "body": "Thanks, noted.",
+   "public": true,
+   "created_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 8308,
+   "ticket_id": 5204,
+   "author_id": 73004,
+   "body": "I'll be taking a few months out from November; see the volunteer system.",
+   "public": true,
+   "created_at": "2026-10-14T19:00:00Z"
+  },
+  {
+   "id": 8309,
+   "ticket_id": 5204,
+   "author_id": 71002,
+   "body": "Thanks, noted.",
+   "public": true,
+   "created_at": "2026-10-29T09:00:00Z"
+  },
+  {
+   "id": 8310,
+   "ticket_id": 5205,
+   "author_id": 73005,
+   "body": "My son lost a navy hoodie at training.",
+   "public": true,
+   "created_at": "2026-11-03T18:30:00Z"
+  },
+  {
+   "id": 8311,
+   "ticket_id": 5205,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-04T09:00:00Z"
+  },
+  {
+   "id": 8312,
+   "ticket_id": 5206,
+   "author_id": 73006,
+   "body": "Can we get a refund for the cancelled tournament?",
+   "public": true,
+   "created_at": "2026-11-05T18:30:00Z"
+  },
+  {
+   "id": 8313,
+   "ticket_id": 5206,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-06T09:00:00Z"
+  },
+  {
+   "id": 8314,
+   "ticket_id": 5207,
+   "author_id": 73007,
+   "body": "Can I change my photo consent?",
+   "public": true,
+   "created_at": "2026-11-07T18:30:00Z"
+  },
+  {
+   "id": 8315,
+   "ticket_id": 5207,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-08T09:00:00Z"
+  },
+  {
+   "id": 8316,
+   "ticket_id": 5208,
+   "author_id": 73008,
+   "body": "Are U16 training times changing in December?",
+   "public": true,
+   "created_at": "2026-11-09T18:30:00Z"
+  },
+  {
+   "id": 8317,
+   "ticket_id": 5208,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-10T09:00:00Z"
+  },
+  {
+   "id": 8318,
+   "ticket_id": 5209,
+   "author_id": 73009,
+   "body": "Can we swap a medium shirt for a large?",
+   "public": true,
+   "created_at": "2026-11-11T18:30:00Z"
+  },
+  {
+   "id": 8319,
+   "ticket_id": 5209,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-12T09:00:00Z"
+  },
+  {
+   "id": 8320,
+   "ticket_id": 5210,
+   "author_id": 73010,
+   "body": "Can we pay the balance in two instalments?",
+   "public": true,
+   "created_at": "2026-11-13T18:30:00Z"
+  },
+  {
+   "id": 8321,
+   "ticket_id": 5210,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-14T09:00:00Z"
+  },
+  {
+   "id": 8322,
+   "ticket_id": 5211,
+   "author_id": 73011,
+   "body": "Is there disabled parking at the 3G?",
+   "public": true,
+   "created_at": "2026-11-15T18:30:00Z"
+  },
+  {
+   "id": 8323,
+   "ticket_id": 5211,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-16T09:00:00Z"
+  },
+  {
+   "id": 8324,
+   "ticket_id": 5212,
+   "author_id": 73012,
+   "body": "What date is the Christmas party?",
+   "public": true,
+   "created_at": "2026-11-17T18:30:00Z"
+  },
+  {
+   "id": 8325,
+   "ticket_id": 5212,
+   "author_id": 71002,
+   "body": "Thanks for getting in touch, we'll come back to you shortly.",
+   "public": true,
+   "created_at": "2026-11-18T09:00:00Z"
+  }
+ ]
+}

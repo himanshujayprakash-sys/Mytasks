@@ -1,0 +1,911 @@
+{
+ "business": {
+  "display_name": "Thornfield Nurseries",
+  "messaging_limit": "TIER_1K",
+  "phone_number_id": "PNI-447900900717",
+  "quality_rating": "GREEN",
+  "verified_name": "Thornfield Nurseries Ltd"
+ },
+ "contacts": [
+  {
+   "name": "Ashcombe Garden Centre (C-401)",
+   "opted_in": true,
+   "wa_id": "447900980000"
+  },
+  {
+   "name": "Bramley Landscapes (C-402)",
+   "opted_in": true,
+   "wa_id": "447900980001"
+  },
+  {
+   "name": "Coldharbour Plant Centre (C-403)",
+   "opted_in": true,
+   "wa_id": "447900980002"
+  },
+  {
+   "name": "Dunmere Estates (C-404)",
+   "opted_in": true,
+   "wa_id": "447900980003"
+  },
+  {
+   "name": "Elmstead Garden Design (C-405)",
+   "opted_in": true,
+   "wa_id": "447900980004"
+  },
+  {
+   "name": "Foxley Nurseries Retail (C-406)",
+   "opted_in": true,
+   "wa_id": "447900980005"
+  },
+  {
+   "name": "Greystone Parks Trust (C-407)",
+   "opted_in": true,
+   "wa_id": "447900980006"
+  },
+  {
+   "name": "Hallbrook Gardens (C-408)",
+   "opted_in": false,
+   "wa_id": "447900980007"
+  },
+  {
+   "name": "Ivybridge Garden Centre (C-409)",
+   "opted_in": true,
+   "wa_id": "447900980008"
+  },
+  {
+   "name": "Juniper Landscaping (C-410)",
+   "opted_in": true,
+   "wa_id": "447900980009"
+  },
+  {
+   "name": "Kingsmead Hotel Gardens (C-411)",
+   "opted_in": true,
+   "wa_id": "447900980010"
+  },
+  {
+   "name": "Larchfield Homes (C-412)",
+   "opted_in": true,
+   "wa_id": "447900980011"
+  },
+  {
+   "name": "Millbrook Community Garden (C-413)",
+   "opted_in": true,
+   "wa_id": "447900980012"
+  },
+  {
+   "name": "Northgate Florists (C-414)",
+   "opted_in": true,
+   "wa_id": "447900980013"
+  },
+  {
+   "name": "Oakhurst School Grounds (C-415)",
+   "opted_in": false,
+   "wa_id": "447900980014"
+  },
+  {
+   "name": "Penwood Golf Club (C-416)",
+   "opted_in": true,
+   "wa_id": "447900980015"
+  }
+ ],
+ "conversations": [
+  {
+   "conversation_id": "conv-c-401",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980000",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-402",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980001",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-403",
+   "last_message_at": "2027-05-12T09:00:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980002",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-c-404",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980003",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-405",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980004",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-406",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980005",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-407",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980006",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980007",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-409",
+   "last_message_at": "2027-05-12T09:00:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980008",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-c-410",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980009",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980010",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-412",
+   "last_message_at": "2027-05-12T09:00:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980011",
+   "within_24h_window": false
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980012",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-414",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980013",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "last_message_at": "2027-06-06T17:20:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980014",
+   "within_24h_window": true
+  },
+  {
+   "conversation_id": "conv-c-416",
+   "last_message_at": "2027-05-12T09:00:00Z",
+   "origin": "user_initiated",
+   "started_at": "2027-02-01T09:00:00Z",
+   "wa_id": "447900980015",
+   "within_24h_window": false
+  }
+ ],
+ "messages": [
+  {
+   "conversation_id": "conv-c-401",
+   "direction": "inbound",
+   "from_wa_id": "447900980000",
+   "message_id": "wamid-0-0",
+   "sent_at": "2027-05-12T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-401",
+   "direction": "inbound",
+   "from_wa_id": "447900980000",
+   "message_id": "wamid-0-1",
+   "sent_at": "2027-05-22T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-401",
+   "direction": "inbound",
+   "from_wa_id": "447900980000",
+   "message_id": "wamid-0-2",
+   "sent_at": "2027-05-26T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-401",
+   "direction": "inbound",
+   "from_wa_id": "447900980000",
+   "message_id": "wamid-0-3",
+   "sent_at": "2027-05-31T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-402",
+   "direction": "inbound",
+   "from_wa_id": "447900980001",
+   "message_id": "wamid-1-0",
+   "sent_at": "2027-05-31T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-402",
+   "direction": "inbound",
+   "from_wa_id": "447900980001",
+   "message_id": "wamid-1-1",
+   "sent_at": "2027-05-12T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-403",
+   "direction": "inbound",
+   "from_wa_id": "447900980002",
+   "message_id": "wamid-2-0",
+   "sent_at": "2027-05-22T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-403",
+   "direction": "inbound",
+   "from_wa_id": "447900980002",
+   "message_id": "wamid-2-1",
+   "sent_at": "2027-05-18T09:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-403",
+   "direction": "inbound",
+   "from_wa_id": "447900980002",
+   "message_id": "wamid-2-2",
+   "sent_at": "2027-05-23T09:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-404",
+   "direction": "inbound",
+   "from_wa_id": "447900980003",
+   "message_id": "wamid-3-0",
+   "sent_at": "2027-05-11T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-404",
+   "direction": "inbound",
+   "from_wa_id": "447900980003",
+   "message_id": "wamid-3-1",
+   "sent_at": "2027-05-26T15:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-405",
+   "direction": "inbound",
+   "from_wa_id": "447900980004",
+   "message_id": "wamid-4-0",
+   "sent_at": "2027-05-29T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-405",
+   "direction": "inbound",
+   "from_wa_id": "447900980004",
+   "message_id": "wamid-4-1",
+   "sent_at": "2027-05-27T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-406",
+   "direction": "inbound",
+   "from_wa_id": "447900980005",
+   "message_id": "wamid-5-0",
+   "sent_at": "2027-05-24T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-406",
+   "direction": "inbound",
+   "from_wa_id": "447900980005",
+   "message_id": "wamid-5-1",
+   "sent_at": "2027-05-15T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-407",
+   "direction": "inbound",
+   "from_wa_id": "447900980006",
+   "message_id": "wamid-6-0",
+   "sent_at": "2027-05-26T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-407",
+   "direction": "inbound",
+   "from_wa_id": "447900980006",
+   "message_id": "wamid-6-1",
+   "sent_at": "2027-05-28T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-407",
+   "direction": "inbound",
+   "from_wa_id": "447900980006",
+   "message_id": "wamid-6-2",
+   "sent_at": "2027-05-10T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-407",
+   "direction": "inbound",
+   "from_wa_id": "447900980006",
+   "message_id": "wamid-6-3",
+   "sent_at": "2027-05-24T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "direction": "inbound",
+   "from_wa_id": "447900980007",
+   "message_id": "wamid-7-0",
+   "sent_at": "2027-05-18T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "direction": "inbound",
+   "from_wa_id": "447900980007",
+   "message_id": "wamid-7-1",
+   "sent_at": "2027-05-14T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "direction": "inbound",
+   "from_wa_id": "447900980007",
+   "message_id": "wamid-7-2",
+   "sent_at": "2027-05-21T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "direction": "inbound",
+   "from_wa_id": "447900980007",
+   "message_id": "wamid-7-3",
+   "sent_at": "2027-05-13T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-408",
+   "direction": "inbound",
+   "from_wa_id": "447900980007",
+   "message_id": "wamid-7-4",
+   "sent_at": "2027-05-20T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-409",
+   "direction": "inbound",
+   "from_wa_id": "447900980008",
+   "message_id": "wamid-8-0",
+   "sent_at": "2027-05-11T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-409",
+   "direction": "inbound",
+   "from_wa_id": "447900980008",
+   "message_id": "wamid-8-1",
+   "sent_at": "2027-05-28T09:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-409",
+   "direction": "inbound",
+   "from_wa_id": "447900980008",
+   "message_id": "wamid-8-2",
+   "sent_at": "2027-05-22T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-409",
+   "direction": "inbound",
+   "from_wa_id": "447900980008",
+   "message_id": "wamid-8-3",
+   "sent_at": "2027-05-15T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-410",
+   "direction": "inbound",
+   "from_wa_id": "447900980009",
+   "message_id": "wamid-9-0",
+   "sent_at": "2027-05-13T17:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-410",
+   "direction": "inbound",
+   "from_wa_id": "447900980009",
+   "message_id": "wamid-9-1",
+   "sent_at": "2027-05-15T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-410",
+   "direction": "inbound",
+   "from_wa_id": "447900980009",
+   "message_id": "wamid-9-2",
+   "sent_at": "2027-05-20T15:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "direction": "inbound",
+   "from_wa_id": "447900980010",
+   "message_id": "wamid-10-0",
+   "sent_at": "2027-05-17T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "direction": "inbound",
+   "from_wa_id": "447900980010",
+   "message_id": "wamid-10-1",
+   "sent_at": "2027-05-28T08:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "direction": "inbound",
+   "from_wa_id": "447900980010",
+   "message_id": "wamid-10-2",
+   "sent_at": "2027-05-21T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "direction": "inbound",
+   "from_wa_id": "447900980010",
+   "message_id": "wamid-10-3",
+   "sent_at": "2027-05-23T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-411",
+   "direction": "inbound",
+   "from_wa_id": "447900980010",
+   "message_id": "wamid-10-4",
+   "sent_at": "2027-05-18T09:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-412",
+   "direction": "inbound",
+   "from_wa_id": "447900980011",
+   "message_id": "wamid-11-0",
+   "sent_at": "2027-05-27T17:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-412",
+   "direction": "inbound",
+   "from_wa_id": "447900980011",
+   "message_id": "wamid-11-1",
+   "sent_at": "2027-05-14T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-412",
+   "direction": "inbound",
+   "from_wa_id": "447900980011",
+   "message_id": "wamid-11-2",
+   "sent_at": "2027-05-15T16:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-12-0",
+   "sent_at": "2027-05-30T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-12-1",
+   "sent_at": "2027-05-18T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-12-2",
+   "sent_at": "2027-05-22T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-12-3",
+   "sent_at": "2027-05-23T09:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-12-4",
+   "sent_at": "2027-05-29T10:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-414",
+   "direction": "inbound",
+   "from_wa_id": "447900980013",
+   "message_id": "wamid-13-0",
+   "sent_at": "2027-05-29T16:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Any acers left?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-414",
+   "direction": "inbound",
+   "from_wa_id": "447900980013",
+   "message_id": "wamid-13-1",
+   "sent_at": "2027-05-27T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "direction": "inbound",
+   "from_wa_id": "447900980014",
+   "message_id": "wamid-14-0",
+   "sent_at": "2027-05-26T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "direction": "inbound",
+   "from_wa_id": "447900980014",
+   "message_id": "wamid-14-1",
+   "sent_at": "2027-05-20T18:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "direction": "inbound",
+   "from_wa_id": "447900980014",
+   "message_id": "wamid-14-2",
+   "sent_at": "2027-05-13T17:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "direction": "inbound",
+   "from_wa_id": "447900980014",
+   "message_id": "wamid-14-3",
+   "sent_at": "2027-05-24T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-415",
+   "direction": "inbound",
+   "from_wa_id": "447900980014",
+   "message_id": "wamid-14-4",
+   "sent_at": "2027-05-19T11:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Can we add six lavender to Friday's load?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-416",
+   "direction": "inbound",
+   "from_wa_id": "447900980015",
+   "message_id": "wamid-15-0",
+   "sent_at": "2027-05-13T17:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Thanks, delivery received",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-416",
+   "direction": "inbound",
+   "from_wa_id": "447900980015",
+   "message_id": "wamid-15-1",
+   "sent_at": "2027-05-11T13:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Received with thanks",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-416",
+   "direction": "inbound",
+   "from_wa_id": "447900980015",
+   "message_id": "wamid-15-2",
+   "sent_at": "2027-05-14T12:00:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Is the bamboo back in stock?",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-410",
+   "direction": "inbound",
+   "from_wa_id": "447900980009",
+   "message_id": "wamid-stop-410",
+   "sent_at": "2027-06-03T19:05:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "Please stop messaging this number. Statements and anything else to our accounts email only from now on.",
+   "type": "text"
+  },
+  {
+   "conversation_id": "conv-c-413",
+   "direction": "inbound",
+   "from_wa_id": "447900980012",
+   "message_id": "wamid-optout-413",
+   "sent_at": "2027-06-01T08:10:00Z",
+   "status": "read",
+   "template_name": "",
+   "to_wa_id": "447900900717",
+   "text": "This was the garden's shared phone and it is being handed back. Please don't send anything to this number any more; the new coordinator will be in touch by email.",
+   "type": "text"
+  }
+ ],
+ "templates": [
+  {
+   "body": "Thornfield Nurseries: your spring 2027 statement for account {{1}} shows {{2}} plants supplied after returns. The autumn availability list opens on 2 August.",
+   "category": "UTILITY",
+   "language": "en_GB",
+   "name": "season_statement_v2",
+   "status": "APPROVED"
+  },
+  {
+   "body": "Thornfield Nurseries: your statement is ready.",
+   "category": "UTILITY",
+   "language": "en_GB",
+   "name": "season_statement_v1",
+   "status": "PAUSED"
+  }
+ ]
+}

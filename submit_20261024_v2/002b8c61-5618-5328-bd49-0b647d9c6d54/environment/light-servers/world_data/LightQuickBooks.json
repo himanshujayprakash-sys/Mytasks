@@ -1,0 +1,404 @@
+{
+ "customers": [
+  {
+   "Id": "8101",
+   "DisplayName": "Social club members",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Monthly subs collected through payroll"
+  },
+  {
+   "Id": "8102",
+   "DisplayName": "Christmas quiz night",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Quiz night takings, 5 December"
+  },
+  {
+   "Id": "8103",
+   "DisplayName": "Calderwick Hotel",
+   "PrimaryEmailAddr": {
+    "Address": "accounts@calderwickhotel.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Raffle prize donor"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "8201",
+   "DisplayName": "Calderwick Hotel",
+   "PrimaryEmailAddr": {
+    "Address": "accounts@calderwickhotel.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632960611"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Function room for the staff night out"
+  },
+  {
+   "Id": "8202",
+   "DisplayName": "Harbour Bakery",
+   "PrimaryEmailAddr": {
+    "Address": "orders@harbourbakery.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632960621"
+   },
+   "Balance": 42.0,
+   "Active": true,
+   "Notes": "Sandwiches for quiz night"
+  },
+  {
+   "Id": "8203",
+   "DisplayName": "Calderwick Coaches",
+   "PrimaryEmailAddr": {
+    "Address": "hire@calderwickcoaches.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632960622"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Minibus for the staff night out"
+  }
+ ],
+ "items": [
+  {
+   "Id": "8301",
+   "Name": "Monthly subs",
+   "Description": "Social club subscription, per member per month",
+   "Type": "Service",
+   "UnitPrice": 3.0,
+   "IncomeAccountRef": {
+    "value": "81",
+    "name": "Subscriptions"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-11-09 09:00:00",
+    "LastUpdatedTime": "2026-11-09 09:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "8302",
+   "Name": "Event tickets",
+   "Description": "Tickets for social club events",
+   "Type": "Service",
+   "UnitPrice": 0.0,
+   "IncomeAccountRef": {
+    "value": "82",
+    "name": "Event income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-11-09 09:00:00",
+    "LastUpdatedTime": "2026-11-09 09:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "8303",
+   "Name": "Raffle",
+   "Description": "Raffle ticket sales",
+   "Type": "Service",
+   "UnitPrice": 1.0,
+   "IncomeAccountRef": {
+    "value": "83",
+    "name": "Raffle income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-11-09 09:00:00",
+    "LastUpdatedTime": "2026-11-09 09:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "8501",
+   "DocNumber": "SC-2026-041",
+   "TxnDate": "2026-11-30",
+   "DueDate": "2026-11-30",
+   "CustomerRef": {
+    "value": "8101",
+    "name": "Social club members"
+   },
+   "Line": [
+    {
+     "Amount": 186.0,
+     "Description": "November subs, 62 members",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Monthly subs"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 186.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "8502",
+   "DocNumber": "SC-2026-042",
+   "TxnDate": "2026-12-07",
+   "DueDate": "2026-12-07",
+   "CustomerRef": {
+    "value": "8102",
+    "name": "Christmas quiz night"
+   },
+   "Line": [
+    {
+     "Amount": 245.0,
+     "Description": "Quiz night entry and raffle, 5 December",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Event tickets"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 245.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "8503",
+   "DocNumber": "SC-2026-043",
+   "TxnDate": "2026-12-10",
+   "DueDate": "2026-12-31",
+   "CustomerRef": {
+    "value": "8101",
+    "name": "Social club members"
+   },
+   "Line": [
+    {
+     "Amount": 186.0,
+     "Description": "December subs, 62 members",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Monthly subs"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 186.0,
+   "Balance": 186.0,
+   "Status": "Open"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "8601",
+   "DocNumber": "CH-F-2207",
+   "VendorRef": {
+    "value": "8201",
+    "name": "Calderwick Hotel"
+   },
+   "TxnDate": "2026-11-25",
+   "DueDate": "2026-12-18",
+   "Line": [
+    {
+     "Amount": 300.0,
+     "Description": "Function room deposit, staff night out 18 December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "84"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 300.0,
+   "Balance": 0,
+   "PrivateNote": "Deposit paid by transfer."
+  },
+  {
+   "Id": "8602",
+   "DocNumber": "HB-3391",
+   "VendorRef": {
+    "value": "8202",
+    "name": "Harbour Bakery"
+   },
+   "TxnDate": "2026-12-05",
+   "DueDate": "2026-12-19",
+   "Line": [
+    {
+     "Amount": 42.0,
+     "Description": "Sandwich platters, quiz night",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "84"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 42.0,
+   "Balance": 42.0,
+   "PrivateNote": "Pay with the December run."
+  },
+  {
+   "Id": "8603",
+   "DocNumber": "CC-7781",
+   "VendorRef": {
+    "value": "8203",
+    "name": "Calderwick Coaches"
+   },
+   "TxnDate": "2026-12-08",
+   "DueDate": "2026-12-18",
+   "Line": [
+    {
+     "Amount": 135.0,
+     "Description": "Minibus, staff night out",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "84"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 135.0,
+   "Balance": 0,
+   "PrivateNote": "Paid when ordered."
+  }
+ ],
+ "payments": [
+  {
+   "Id": "8701",
+   "TxnDate": "2026-11-30",
+   "CustomerRef": {
+    "value": "8101",
+    "name": "Social club members"
+   },
+   "TotalAmt": 186.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "8501",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 186.0
+    }
+   ],
+   "PrivateNote": "Collected through November payroll"
+  },
+  {
+   "Id": "8702",
+   "TxnDate": "2026-12-07",
+   "CustomerRef": {
+    "value": "8102",
+    "name": "Christmas quiz night"
+   },
+   "TotalAmt": 245.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "8502",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 245.0
+    }
+   ],
+   "PrivateNote": "Cash banked on Monday"
+  }
+ ],
+ "estimates": [
+  {
+   "Id": "8801",
+   "DocNumber": "SC-E-2026-002",
+   "TxnDate": "2026-11-26",
+   "ExpirationDate": "2026-12-18",
+   "CustomerRef": {
+    "value": "8101",
+    "name": "Social club members"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 550.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Staff night out tickets, 22 at £25",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "8302",
+       "name": "Event tickets"
+      },
+      "UnitPrice": 25.0,
+      "Qty": 22
+     }
+    }
+   ],
+   "TotalAmt": 550.0,
+   "TxnStatus": "Accepted",
+   "AcceptedDate": "2026-12-01",
+   "MetaData": {
+    "CreateTime": "2026-11-26 10:30:00",
+    "LastUpdatedTime": "2026-12-01 09:00:00"
+   },
+   "SyncToken": "1",
+   "LinkedTxn": []
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "8901",
+   "TxnDate": "2026-11-28",
+   "TotalAmt": 18.5,
+   "Line": [
+    {
+     "Description": "Raffle tickets and envelopes",
+     "Amount": 18.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-28T10:00:00"
+   }
+  },
+  {
+   "Id": "8902",
+   "TxnDate": "2026-12-04",
+   "TotalAmt": 26.0,
+   "Line": [
+    {
+     "Description": "Quiz night prizes",
+     "Amount": 26.0
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-12-04T10:00:00"
+   }
+  },
+  {
+   "Id": "8903",
+   "TxnDate": "2026-12-09",
+   "TotalAmt": 12.75,
+   "Line": [
+    {
+     "Description": "Decorations for the crew mess",
+     "Amount": 12.75
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-12-09T10:00:00"
+   }
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "calendars": [
+  {
+   "id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "Thornwick Juniors fixtures",
+   "primary": false
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-tj-001",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "Committee meeting",
+   "description": "Monthly committee.",
+   "location": "Clubhouse",
+   "start": "2026-12-02T19:30:00+00:00",
+   "end": "2026-12-02T21:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": []
+  },
+  {
+   "id": "evt-tj-002",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "Committee meeting",
+   "description": "Monthly committee.",
+   "location": "Clubhouse",
+   "start": "2026-11-04T19:30:00+00:00",
+   "end": "2026-11-04T21:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": []
+  },
+  {
+   "id": "evt-tj-003",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "Christmas tournament",
+   "description": "All age groups.",
+   "location": "Thornwick Recreation Ground",
+   "start": "2026-12-19T09:00:00+00:00",
+   "end": "2026-12-19T13:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": []
+  },
+  {
+   "id": "evt-tj-004",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "League fixtures meeting",
+   "description": "December fixtures with the league.",
+   "location": "Merrow Town FC clubhouse",
+   "start": "2026-11-26T19:00:00+00:00",
+   "end": "2026-11-26T20:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": []
+  },
+  {
+   "id": "evt-tj-005",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "Referees' evening",
+   "description": "Thank-you evening for match officials.",
+   "location": "Clubhouse",
+   "start": "2026-12-09T19:00:00+00:00",
+   "end": "2026-12-09T21:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": []
+  },
+  {
+   "id": "evt-tj-coach-u12",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "U12 Saturday coaching: MDYL winter league",
+   "description": "Season coaching invitation for the U12 coaches (lead, assistant and reserve), every Saturday from 28 November until the end of the winter league. Please answer the invitation.",
+   "location": "Thornwick Recreation Ground",
+   "start": "2026-11-28T09:30:00+00:00",
+   "end": "2026-11-28T11:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20270327T000000Z"
+   ]
+  },
+  {
+   "id": "evt-tj-coach-u14",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "U14 Saturday coaching: MDYL winter league",
+   "description": "Season coaching invitation for the U14 coaches (lead, assistant and reserve), every Saturday from 28 November until the end of the winter league. Please answer the invitation.",
+   "location": "Thornwick Recreation Ground",
+   "start": "2026-11-28T10:00:00+00:00",
+   "end": "2026-11-28T12:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20270327T000000Z"
+   ]
+  },
+  {
+   "id": "evt-tj-coach-u16",
+   "calendar_id": "marcus.oyelowo@thornwickjuniors.example",
+   "summary": "U16 Saturday coaching: MDYL winter league",
+   "description": "Season coaching invitation for the U16 coaches (lead, assistant and reserve), every Saturday from 28 November until the end of the winter league. Please answer the invitation.",
+   "location": "Thornwick Recreation Ground",
+   "start": "2026-11-28T11:00:00+00:00",
+   "end": "2026-11-28T13:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "marcus.oyelowo@thornwickjuniors.example",
+   "organizer": "marcus.oyelowo@thornwickjuniors.example",
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=SA;UNTIL=20270327T000000Z"
+   ]
+  }
+ ],
+ "attendees": {
+  "evt-tj-coach-u12": [
+   {
+    "email": "dylan.marsh@volunteers.thornwickjuniors.example",
+    "displayName": "Dylan Marsh",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "gareth.pemberton@volunteers.thornwickjuniors.example",
+    "displayName": "Gareth Pemberton",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "sunita.varma@volunteers.thornwickjuniors.example",
+    "displayName": "Sunita Varma",
+    "responseStatus": "accepted",
+    "optional": true,
+    "organizer": false
+   }
+  ],
+  "evt-tj-coach-u14": [
+   {
+    "email": "moira.fennell@volunteers.thornwickjuniors.example",
+    "displayName": "Moira Fennell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tom.ackroyd@volunteers.thornwickjuniors.example",
+    "displayName": "Tom Ackroyd",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "rhys.dando@volunteers.thornwickjuniors.example",
+    "displayName": "Rhys Dando",
+    "responseStatus": "tentative",
+    "optional": true,
+    "organizer": false,
+    "comment": "Depends on shifts."
+   }
+  ],
+  "evt-tj-coach-u16": [
+   {
+    "email": "colin.rudge@volunteers.thornwickjuniors.example",
+    "displayName": "Colin Rudge",
+    "responseStatus": "declined",
+    "optional": false,
+    "organizer": false,
+    "comment": "Sorry Marcus, I'm taking a leave of absence from coaching from 1 November to 31 January for family reasons. Ewan knows."
+   },
+   {
+    "email": "priyanka.lal@volunteers.thornwickjuniors.example",
+    "displayName": "Priyanka Lal",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "ewan.kettle@volunteers.thornwickjuniors.example",
+    "displayName": "Ewan Kettle",
+    "responseStatus": "accepted",
+    "optional": true,
+    "organizer": false
+   }
+  ]
+ }
+}

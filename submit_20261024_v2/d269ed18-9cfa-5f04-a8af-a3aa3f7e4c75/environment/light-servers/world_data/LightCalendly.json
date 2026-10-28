@@ -1,0 +1,189 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-fh-viewing-45",
+   "owner": "Petra Noakes",
+   "name": "Barn viewing",
+   "slug": "barn-viewing",
+   "duration": 45,
+   "kind": "solo",
+   "color": "#6D4C41",
+   "active": true,
+   "description": "A 45-minute tour of the barn and grounds.",
+   "scheduling_url": "https://calendly.com/fernhill-barn/barn-viewing",
+   "created_at": "2026-01-10T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-fh-01",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Hollie and Dan",
+   "status": "active",
+   "start_time": "2026-12-12T14:00:00.000000Z",
+   "end_time": "2026-12-12T14:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-01T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-fh-02",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Sian and Marc",
+   "status": "active",
+   "start_time": "2026-12-16T11:00:00.000000Z",
+   "end_time": "2026-12-16T11:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-02T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-fh-03",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Kemi and Joe",
+   "status": "active",
+   "start_time": "2026-12-17T15:00:00.000000Z",
+   "end_time": "2026-12-17T15:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-03T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-fh-04",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Rosa and Ian",
+   "status": "active",
+   "start_time": "2027-01-08T11:00:00.000000Z",
+   "end_time": "2027-01-08T11:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-04T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-fh-05",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Ola and Ben",
+   "status": "active",
+   "start_time": "2027-01-10T14:00:00.000000Z",
+   "end_time": "2027-01-10T14:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-05T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-fh-06",
+   "owner": "Petra Noakes",
+   "event_type": "et-fh-viewing-45",
+   "name": "Barn viewing - Isla and Kit",
+   "status": "active",
+   "start_time": "2027-01-15T11:00:00.000000Z",
+   "end_time": "2027-01-15T11:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Fernhill Tithe Barn",
+   "created_at": "2026-12-06T09:00:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-fh-01",
+   "event": "sev-fh-01",
+   "name": "Hollie and Dan",
+   "email": "hollie@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-01T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-fh-02",
+   "event": "sev-fh-02",
+   "name": "Sian and Marc",
+   "email": "sian@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-02T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-fh-03",
+   "event": "sev-fh-03",
+   "name": "Kemi and Joe",
+   "email": "kemi@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-03T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-fh-04",
+   "event": "sev-fh-04",
+   "name": "Rosa and Ian",
+   "email": "rosa@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-04T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-fh-05",
+   "event": "sev-fh-05",
+   "name": "Ola and Ben",
+   "email": "ola@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-05T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-fh-06",
+   "event": "sev-fh-06",
+   "name": "Isla and Kit",
+   "email": "isla@weddingplans.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-06T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Preferred date?",
+     "answer": "Summer 2027"
+    }
+   ]
+  }
+ ]
+}

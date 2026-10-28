@@ -1,0 +1,193 @@
+{
+ "lists": [
+  {
+   "id": "list-gwp-community",
+   "name": "Lamplighter community newsletter",
+   "stats": {
+    "member_count": 12,
+    "unsubscribe_count": 1,
+    "open_rate": 0.48,
+    "click_rate": 0.09
+   },
+   "date_created": "2026-03-05T09:00:00+00:00"
+  }
+ ],
+ "members": [
+  {
+   "id": "2d764564d432e17987945d276e181d31",
+   "list_id": "list-gwp-community",
+   "email_address": "a.brierley@mail.example",
+   "full_name": "Agatha Brierley",
+   "status": "subscribed",
+   "timestamp_signup": "2026-03-10T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@2d764564d432e17987945d276e181d31"
+  },
+  {
+   "id": "233731a311844f3c8d899ccd9d7e0c9c",
+   "list_id": "list-gwp-community",
+   "email_address": "colm.f@mail.example",
+   "full_name": "Colm Fitzpatrick",
+   "status": "subscribed",
+   "timestamp_signup": "2026-04-11T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@233731a311844f3c8d899ccd9d7e0c9c"
+  },
+  {
+   "id": "33275352914d404b62afec39bd1b6207",
+   "list_id": "list-gwp-community",
+   "email_address": "dinahw@mail.example",
+   "full_name": "Dinah Wolstenholme",
+   "status": "subscribed",
+   "timestamp_signup": "2026-05-12T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@33275352914d404b62afec39bd1b6207"
+  },
+  {
+   "id": "a9099c24331a2f36d4f1b23ac70906aa",
+   "list_id": "list-gwp-community",
+   "email_address": "errol.baptiste@mail.example",
+   "full_name": "Errol Baptiste",
+   "status": "subscribed",
+   "timestamp_signup": "2026-06-13T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@a9099c24331a2f36d4f1b23ac70906aa"
+  },
+  {
+   "id": "c2d53079cd58aab1345065933ea31bb3",
+   "list_id": "list-gwp-community",
+   "email_address": "frieda.l@mail.example",
+   "full_name": "Frieda Lindgren",
+   "status": "subscribed",
+   "timestamp_signup": "2026-07-14T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@c2d53079cd58aab1345065933ea31bb3"
+  },
+  {
+   "id": "c95abf5b76298fc5a238b182caceae19",
+   "list_id": "list-gwp-community",
+   "email_address": "gus.mahoney@mail.example",
+   "full_name": "Gus Mahoney",
+   "status": "unsubscribed",
+   "timestamp_signup": "2026-08-15T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@c95abf5b76298fc5a238b182caceae19"
+  },
+  {
+   "id": "7f706512ce2d5cf49c91b9037338cfb1",
+   "list_id": "list-gwp-community",
+   "email_address": "hettie.c@mail.example",
+   "full_name": "Hettie Crowther",
+   "status": "subscribed",
+   "timestamp_signup": "2026-03-16T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@7f706512ce2d5cf49c91b9037338cfb1"
+  },
+  {
+   "id": "89c163c9054815f26af7fc3ed00c2d7d",
+   "list_id": "list-gwp-community",
+   "email_address": "ivor.penrose@mail.example",
+   "full_name": "Ivor Penrose",
+   "status": "subscribed",
+   "timestamp_signup": "2026-04-17T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@89c163c9054815f26af7fc3ed00c2d7d"
+  },
+  {
+   "id": "6c9a91bef250053ba34172e7054379fe",
+   "list_id": "list-gwp-community",
+   "email_address": "jocasta.reeve@mail.example",
+   "full_name": "Jocasta Reeve",
+   "status": "subscribed",
+   "timestamp_signup": "2026-05-18T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@6c9a91bef250053ba34172e7054379fe"
+  },
+  {
+   "id": "c773f83ca1638435233bf2be26f1427b",
+   "list_id": "list-gwp-community",
+   "email_address": "kenji.t@mail.example",
+   "full_name": "Kenji Tanaka",
+   "status": "subscribed",
+   "timestamp_signup": "2026-06-10T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@c773f83ca1638435233bf2be26f1427b"
+  },
+  {
+   "id": "c38567892253f3dba41390e804924d2b",
+   "list_id": "list-gwp-community",
+   "email_address": "leonie.d@mail.example",
+   "full_name": "Leonie Dufresne",
+   "status": "subscribed",
+   "timestamp_signup": "2026-07-11T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@c38567892253f3dba41390e804924d2b"
+  },
+  {
+   "id": "6cdceba7e8d7ebbc805526ac0c990319",
+   "list_id": "list-gwp-community",
+   "email_address": "mungo.s@mail.example",
+   "full_name": "Mungo Steadman",
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-12T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-gwp-community@6cdceba7e8d7ebbc805526ac0c990319"
+  }
+ ],
+ "campaigns": [
+  {
+   "id": "camp-gwp-09",
+   "list_id": "list-gwp-community",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 11,
+   "send_time": "2026-09-01T10:00:00.000Z",
+   "create_time": "2026-08-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-gwp-community"
+   },
+   "settings": {
+    "subject_line": "Lamplighter community news: September",
+    "from_name": "Greyfriars Wharf Productions",
+    "reply_to": "saoirse.kavanagh@greyfriarswharf.example",
+    "title": "Community news September 2026"
+   }
+  },
+  {
+   "id": "camp-gwp-10",
+   "list_id": "list-gwp-community",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 11,
+   "send_time": "2026-10-01T10:00:00.000Z",
+   "create_time": "2026-09-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-gwp-community"
+   },
+   "settings": {
+    "subject_line": "Lamplighter community news: October",
+    "from_name": "Greyfriars Wharf Productions",
+    "reply_to": "saoirse.kavanagh@greyfriarswharf.example",
+    "title": "Community news October 2026"
+   }
+  },
+  {
+   "id": "camp-gwp-11",
+   "list_id": "list-gwp-community",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 11,
+   "send_time": "2026-11-01T10:00:00.000Z",
+   "create_time": "2026-10-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-gwp-community"
+   },
+   "settings": {
+    "subject_line": "Lamplighter community news: November",
+    "from_name": "Greyfriars Wharf Productions",
+    "reply_to": "saoirse.kavanagh@greyfriarswharf.example",
+    "title": "Community news November 2026"
+   }
+  }
+ ]
+}

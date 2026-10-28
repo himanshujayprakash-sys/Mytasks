@@ -1,0 +1,32 @@
+row_type,offer_seq,plot_ref,site,applicant_ref,applicant_name,outcome,sent_down_the_list,area_m2,rate_per_m2,plot_rent_gbp,concession_gbp,water_charge_gbp,rent_2027_gbp,heading,rule_or_reason
+offer,1,HL-04,Hollins Lane,W-1004,Desmond Achterberg,accepted,no,210.0,0.36,75.60,0.00,16.00,91.60,Let for 2027,cl.2 band A ranks first; cl.3 site accepted; charges s.1 area x rate + water
+offer,2,BM-11,Brook Meadow,W-1001,,declined,yes,,,,,,,,"declined: needs water on standing instructions; BM-11 has no trough; first decline, passed to the next applicant"
+offer,3,BM-11,Brook Meadow,W-1002,Bernard Ocampo,accepted,no,180.0,0.42,75.60,30.24,0.00,45.36,Let for 2027,"cl.3 W-1001 declined (needs water, no trough); next in band B; charges s.1 with 40% concession"
+offer,4,QF-07,Quarry Field,W-1003,Cecily Marsh,accepted,no,178.7,0.28,50.04,0.00,0.00,50.04,Let for 2027,cl.3 first in order accepting Quarry Field; charges s.1 area from measure tally QF-07 (let beds only)
+offer,5,HL-21,Hollins Lane,W-1001,,declined,yes,,,,,,,,"declined: needs water; HL-21 has no trough; second decline, moved to the bottom of band B for the rest of the round"
+offer,6,HL-21,Hollins Lane,W-1049,Leander Moss,accepted,no,250.0,0.36,90.00,0.00,0.00,90.00,Let for 2027,cl.3 W-1001 declined a second time (needs water); cl.1 parish transfer keeps list date 2019-06-01
+offer,7,HL-33,Hollins Lane,W-1005,Eilidh Pratchett,accepted,no,160.0,0.36,57.60,0.00,16.00,73.60,Let for 2027,cl.3 next in band B accepting Hollins Lane; charges s.1 area x rate + water
+offer,8,QF-15,Quarry Field,W-1013,Matthias Grebe,accepted,no,227.6,0.28,63.73,0.00,0.00,63.73,Let for 2027,cl.3 first in order accepting Quarry Field; charges s.1 9 poles x 25.29 = 227.6 m2
+offer,9,HL-17,Hollins Lane,W-1008,Hester Quinlan,accepted,no,230.0,0.36,82.80,0.00,16.00,98.80,Let for 2027,"cl.2 band B (EV-3108 unsigned, not band A); cl.3 trough C installed 2026-10-06 so the water charge applies"
+offer,10,BM-33,Brook Meadow,W-1009,Ivo Szabo,accepted,no,140.0,0.42,58.80,0.00,16.00,74.80,Let for 2027,cl.3 W-1006 fails App.C limit (H-306 held 190 m2 on 2026-09-25); concession EV-3202 expired 2026-12-15
+offer,11,HL-09,Hollins Lane,W-1014,,declined,yes,,,,,,,,"declined: needs water; trough removed 2026-10-20; first decline, passed to the next applicant"
+offer,12,HL-09,Hollins Lane,W-1019,Sanjeev Mallory,accepted,no,200.0,0.36,72.00,0.00,0.00,72.00,Let for 2027,"cl.3 trough removed 2026-10-20 (estates, in writing), so W-1014 declined and no water charge"
+offer,13,BM-41,Brook Meadow,W-1014,,declined,yes,,,,,,,,"declined: needs water; BM-41 has no trough; second decline, moved to the bottom of band B for the rest of the round"
+offer,14,BM-41,Brook Meadow,W-1016,Piers Hallam,accepted,no,260.0,0.42,109.20,0.00,0.00,109.20,Let for 2027,cl.3 W-1006 fails App.C limit; W-1014 declined a second time; W-1016 holds the H-412 place (cl.1)
+offer,15,BM-19,Brook Meadow,W-1018,Rosalind Ebdon,accepted,no,190.0,0.42,79.80,31.92,0.00,47.88,Let for 2027,"cl.3 late vacancy by notice to quit, placed by vacated date; concession EV-3203 valid to 2027-09-30"
+offer,16,BM-27,Brook Meadow,W-1020,,declined,yes,,,,,,,,"declined: needs water; BM-27 has no trough; first decline, passed to the next applicant"
+offer,17,BM-27,Brook Meadow,W-1022,Verity Coombe,accepted,no,220.0,0.42,92.40,36.96,0.00,55.44,Let for 2027,cl.3 W-1006 fails App.C limit; W-1020 declined (needs water); concession EV-3204 valid to 2027-03-31
+offer,18,BM-30,Brook Meadow,W-1006,Farouk Benbow,accepted,no,190.0,0.42,79.80,0.00,16.00,95.80,Let for 2027,"cl.3 late vacancy by written surrender dated 2026-10-16; from that date H-306 holds nothing, so App.C is met"
+offer,19,HL-38,Hollins Lane,W-1021,Ulrich Penhale,accepted,no,150.0,0.36,54.00,0.00,16.00,70.00,Let for 2027,cl.2 band B on the 2026-10-20 address change to WX4 3BD; charges s.1 area x rate + water
+offer,20,BM-08,Brook Meadow,W-1020,Tamsin Ogundipe,accepted,no,170.0,0.42,71.40,0.00,16.00,87.40,Let for 2027,"cl.3 W-1020 needs water and BM-08 is on trough 1, so the offer was accepted; charges s.1 + water"
+offer,21,HL-50,Hollins Lane,W-1023,,declined,yes,,,,,,,,"declined: needs water; HL-50 has no trough; first decline, passed to the next applicant"
+offer,22,HL-50,Hollins Lane,W-1024,Xanthe Kirwan,accepted,no,190.0,0.36,68.40,0.00,0.00,68.40,Let for 2027,"cl.3 W-1023 declined (needs water, no trough); next in band B accepting Hollins Lane"
+not_let,,BM-02,Brook Meadow,,,not let,no,40.0,0.42,0.00,0.00,0.00,0.00,Held for accessible letting,"cl.3 raised-bed plot: band A only, and the only band A applicant (W-1004) was already let a plot"
+not_let,,HL-45,Hollins Lane,,,not let,no,40.0,0.36,0.00,0.00,0.00,0.00,Held for accessible letting,"cl.3 raised-bed plot: band A only, and the only band A applicant (W-1004) was already let a plot"
+not_let,,QF-22,Quarry Field,,,not let,no,303.5,0.28,0.00,0.00,0.00,0.00,Vacant - no taker,cl.3 no applicant still waiting accepts Quarry Field on their standing instructions
+not_let,,QF-31,Quarry Field,,,not let,no,151.7,0.28,0.00,0.00,0.00,0.00,Vacant - no taker,cl.3 no applicant still waiting accepts Quarry Field on their standing instructions
+not_let,,QF-36,Quarry Field,,,not let,no,202.3,0.28,0.00,0.00,0.00,0.00,Vacant - no taker,cl.3 no applicant still waiting accepts Quarry Field on their standing instructions
+not_let,,BM-46,Brook Meadow,,,not let,no,40.0,0.42,0.00,0.00,0.00,0.00,Held for accessible letting,"cl.3 raised-bed plot: band A only, and the only band A applicant (W-1004) was already let a plot"
+not_let,,HL-26,Hollins Lane,,,not let,no,190.0,0.36,0.00,0.00,0.00,0.00,Withdrawn from letting,cl.3 environmental notice on the Hollins Lane site plan and a failed handback inspection (2026-10-26)
+not_let,,QF-12,Quarry Field,,,not let,no,252.9,0.28,0.00,0.00,0.00,0.00,Vacant - no taker,cl.3 no applicant still waiting accepts Quarry Field on their standing instructions
+total,,,,,,,,,,1181.17,99.12,112.00,1194.05,16 plots let,2027 rent invoiced; 212 applicants still waiting

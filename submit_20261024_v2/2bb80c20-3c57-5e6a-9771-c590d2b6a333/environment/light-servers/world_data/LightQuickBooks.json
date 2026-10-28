@@ -1,0 +1,412 @@
+{
+ "vendors": [
+  {
+   "Id": "381",
+   "DisplayName": "Wearside Gift Wholesale",
+   "PrimaryEmailAddr": {
+    "Address": "accounts@wearsidegifts.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0611"
+   },
+   "Balance": 742.15,
+   "Active": true,
+   "Notes": "Cards, tea towels and shipyard-themed gifts for the shop."
+  },
+  {
+   "Id": "382",
+   "DisplayName": "Coastline Coffee Roasters",
+   "PrimaryEmailAddr": {
+    "Address": "orders@coastlinecoffee.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0622"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Coffee beans and tea for the cafe."
+  },
+  {
+   "Id": "383",
+   "DisplayName": "Tyneside Print",
+   "PrimaryEmailAddr": {
+    "Address": "studio@tynesideprint.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0633"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Leaflets, posters and the exhibition catalogue."
+  },
+  {
+   "Id": "384",
+   "DisplayName": "Harbour Bakery",
+   "PrimaryEmailAddr": {
+    "Address": "hello@harbourbakery.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0644"
+   },
+   "Balance": 611.3,
+   "Active": true,
+   "Notes": "Daily cakes, scones and sandwich bread for the cafe."
+  },
+  {
+   "Id": "385",
+   "DisplayName": "North East Card Payments",
+   "PrimaryEmailAddr": {
+    "Address": "billing@necardpay.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0655"
+   },
+   "Balance": 96.8,
+   "Active": true,
+   "Notes": "Card terminal rental and transaction fees."
+  },
+  {
+   "Id": "386",
+   "DisplayName": "Seaham Linen Services",
+   "PrimaryEmailAddr": {
+    "Address": "invoices@seahamlinen.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0191 498 0666"
+   },
+   "Balance": 134.2,
+   "Active": true,
+   "Notes": "Cafe tablecloths and aprons, washed weekly."
+  }
+ ],
+ "bills": [
+  {
+   "Id": "3901",
+   "DocNumber": "WGW-55102",
+   "VendorRef": {
+    "value": "381",
+    "name": "Wearside Gift Wholesale"
+   },
+   "TxnDate": "2026-10-30",
+   "DueDate": "2026-11-29",
+   "Line": [
+    {
+     "Amount": 1286.4,
+     "Description": "Christmas cards and shipyard tea towels",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Shop stock",
+       "value": "71"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1286.4,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-20."
+  },
+  {
+   "Id": "3902",
+   "DocNumber": "CCR-3381",
+   "VendorRef": {
+    "value": "382",
+    "name": "Coastline Coffee Roasters"
+   },
+   "TxnDate": "2026-11-02",
+   "DueDate": "2026-12-02",
+   "Line": [
+    {
+     "Amount": 412.0,
+     "Description": "Coffee beans and tea, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe supplies",
+       "value": "72"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 412.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-20."
+  },
+  {
+   "Id": "3903",
+   "DocNumber": "TP-9024",
+   "VendorRef": {
+    "value": "383",
+    "name": "Tyneside Print"
+   },
+   "TxnDate": "2026-11-06",
+   "DueDate": "2026-12-06",
+   "Line": [
+    {
+     "Amount": 2340.0,
+     "Description": "Spring season leaflet: first print run deposit",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Printing",
+       "value": "73"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2340.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-25."
+  },
+  {
+   "Id": "3904",
+   "DocNumber": "HB-1177",
+   "VendorRef": {
+    "value": "384",
+    "name": "Harbour Bakery"
+   },
+   "TxnDate": "2026-11-13",
+   "DueDate": "2026-12-13",
+   "Line": [
+    {
+     "Amount": 588.75,
+     "Description": "Cakes and bread, first half of November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe supplies",
+       "value": "72"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 588.75,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-27."
+  },
+  {
+   "Id": "3905",
+   "DocNumber": "NECP-NOV26",
+   "VendorRef": {
+    "value": "385",
+    "name": "North East Card Payments"
+   },
+   "TxnDate": "2026-11-16",
+   "DueDate": "2026-12-16",
+   "Line": [
+    {
+     "Amount": 96.8,
+     "Description": "Card terminals and fees, October",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Bank charges",
+       "value": "74"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 96.8,
+   "Balance": 96.8,
+   "PrivateNote": "Awaiting the next payment run."
+  },
+  {
+   "Id": "3906",
+   "DocNumber": "SLS-4410",
+   "VendorRef": {
+    "value": "386",
+    "name": "Seaham Linen Services"
+   },
+   "TxnDate": "2026-11-20",
+   "DueDate": "2026-12-20",
+   "Line": [
+    {
+     "Amount": 134.2,
+     "Description": "Linen service, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe supplies",
+       "value": "72"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 134.2,
+   "Balance": 134.2,
+   "PrivateNote": "Awaiting the next payment run."
+  },
+  {
+   "Id": "3907",
+   "DocNumber": "HB-1203",
+   "VendorRef": {
+    "value": "384",
+    "name": "Harbour Bakery"
+   },
+   "TxnDate": "2026-11-27",
+   "DueDate": "2026-12-27",
+   "Line": [
+    {
+     "Amount": 611.3,
+     "Description": "Cakes and bread, second half of November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe supplies",
+       "value": "72"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 611.3,
+   "Balance": 611.3,
+   "PrivateNote": "Awaiting the next payment run."
+  },
+  {
+   "Id": "3908",
+   "DocNumber": "WGW-55188",
+   "VendorRef": {
+    "value": "381",
+    "name": "Wearside Gift Wholesale"
+   },
+   "TxnDate": "2026-11-27",
+   "DueDate": "2026-12-27",
+   "Line": [
+    {
+     "Amount": 742.15,
+     "Description": "Reorder: shipyard tea towels and enamel mugs",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Shop stock",
+       "value": "71"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 742.15,
+   "Balance": 742.15,
+   "PrivateNote": "Awaiting the next payment run."
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "3951",
+   "TxnDate": "2026-11-10",
+   "TotalAmt": 18.4,
+   "Line": [
+    {
+     "Description": "Milk for the cafe, emergency top-up",
+     "Amount": 18.4
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-10T10:00:00"
+   }
+  },
+  {
+   "Id": "3952",
+   "TxnDate": "2026-11-18",
+   "TotalAmt": 42.6,
+   "Line": [
+    {
+     "Description": "Greenery and wire for the wreath workshop",
+     "Amount": 42.6
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-18T10:00:00"
+   }
+  },
+  {
+   "Id": "3953",
+   "TxnDate": "2026-11-21",
+   "TotalAmt": 29.99,
+   "Line": [
+    {
+     "Description": "Replacement kettle for the staff kitchen",
+     "Amount": 29.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-21T10:00:00"
+   }
+  },
+  {
+   "Id": "3954",
+   "TxnDate": "2026-11-26",
+   "TotalAmt": 64.0,
+   "Line": [
+    {
+     "Description": "Tea lights and paper for Lantern night",
+     "Amount": 64.0
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-26T10:00:00"
+   }
+  }
+ ],
+ "bill_payments": [
+  {
+   "Id": "BP-BMG-01",
+   "PayType": "Check",
+   "DocNumber": "BACS-52210",
+   "TxnDate": "2026-11-20",
+   "TotalAmt": 1286.4,
+   "VendorRef": {
+    "value": "381",
+    "name": "Wearside Gift Wholesale"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1401",
+     "name": "Brennock Museum Trading current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-BMG-02",
+   "PayType": "Check",
+   "DocNumber": "BACS-52211",
+   "TxnDate": "2026-11-20",
+   "TotalAmt": 412.0,
+   "VendorRef": {
+    "value": "382",
+    "name": "Coastline Coffee Roasters"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1401",
+     "name": "Brennock Museum Trading current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-BMG-03",
+   "PayType": "Check",
+   "DocNumber": "BACS-52212",
+   "TxnDate": "2026-11-25",
+   "TotalAmt": 2340.0,
+   "VendorRef": {
+    "value": "383",
+    "name": "Tyneside Print"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1401",
+     "name": "Brennock Museum Trading current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-BMG-04",
+   "PayType": "Check",
+   "DocNumber": "BACS-52213",
+   "TxnDate": "2026-11-27",
+   "TotalAmt": 588.75,
+   "VendorRef": {
+    "value": "384",
+    "name": "Harbour Bakery"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1401",
+     "name": "Brennock Museum Trading current account"
+    }
+   }
+  }
+ ]
+}

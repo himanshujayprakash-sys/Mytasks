@@ -1,0 +1,1355 @@
+{
+ "team": {
+  "domain": "thornfield",
+  "id": "T8THORN",
+  "name": "Thornfield Nurseries"
+ },
+ "users": [
+  {
+   "id": "U8OWAIN",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "owain.pritchard",
+   "presence": "away",
+   "profile": {
+    "email": "owain.pritchard@thornfield-nurseries.example"
+   },
+   "real_name": "Owain Pritchard"
+  },
+  {
+   "id": "U8BEA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "bea.lindqvist",
+   "presence": "away",
+   "profile": {
+    "email": "bea.lindqvist@thornfield-nurseries.example"
+   },
+   "real_name": "Bea Lindqvist"
+  },
+  {
+   "id": "U8TOM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tomas.haig",
+   "presence": "away",
+   "profile": {
+    "email": "tomas.haig@thornfield-nurseries.example"
+   },
+   "real_name": "Tomas Haig"
+  },
+  {
+   "id": "U8MD",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "gerald.thornfield",
+   "presence": "away",
+   "profile": {
+    "email": "gerald.thornfield@thornfield-nurseries.example"
+   },
+   "real_name": "Gerald Thornfield"
+  },
+  {
+   "id": "U8RUTH",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ruth.calloway",
+   "presence": "away",
+   "profile": {
+    "email": "ruth.calloway@thornfield-nurseries.example"
+   },
+   "real_name": "Ruth Calloway"
+  },
+  {
+   "id": "U8MIRA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "mira.okafor",
+   "presence": "away",
+   "profile": {
+    "email": "mira.okafor@thornfield-nurseries.example"
+   },
+   "real_name": "Mira Okafor"
+  },
+  {
+   "id": "U8LENA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "lena.marsh",
+   "presence": "away",
+   "profile": {
+    "email": "lena.marsh@thornfield-nurseries.example"
+   },
+   "real_name": "Lena Marsh"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1798761600,
+   "creator": "U8RUTH",
+   "id": "C8STOCK",
+   "is_archived": false,
+   "is_private": false,
+   "name": "stock-and-sales",
+   "num_members": 5,
+   "purpose": "Stock and sales",
+   "topic": "Stock and sales"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8MD"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8RUTH"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8MIRA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "user_id": "U8LENA"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Register's keyed from the journal pages. I went down them in print order, should be fine.",
+   "thread_ts": null,
+   "ts": "1812000000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruling from me: just use average cost for the spring close, the auditors never look at lots. Post the stock number here when you have it.",
+   "thread_ts": null,
+   "ts": "1812000900.000000",
+   "user_id": "U8MD"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Frost always comes off the oldest stock, that's how we've always done it.",
+   "thread_ts": null,
+   "ts": "1812001800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Declan signed the Harrow Herbs credit, so take the lavender at 1.95.",
+   "thread_ts": null,
+   "ts": "1812002700.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Returned plants just go back into the lot they came out of.",
+   "thread_ts": null,
+   "ts": "1812003600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The handling charge went up to 0.55, use that for the whole spring.",
+   "thread_ts": null,
+   "ts": "1812004500.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Box comes in trays of 15, I think.",
+   "thread_ts": null,
+   "ts": "1812005400.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ashby Grange's stock sheet is in the journal folder, it's the same group so count their lots too.",
+   "thread_ts": null,
+   "ts": "1812006300.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 2 is booked for the Kingsmead delivery on Thursday.",
+   "thread_ts": null,
+   "ts": "1812007200.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Pretty sure B9 was only 8 bamboo dead, not 12. FR-07 has it wrong, I'd go with 8.",
+   "thread_ts": null,
+   "ts": "1812008100.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Potting shed rota for June is on the board.",
+   "thread_ts": null,
+   "ts": "1812009000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "FR-07 correction from me, as the one who signed it: once the fleece came off, 8 of the lavender on bench B8 recovered and went back on sale. Bench B8 is 22 plants killed, not 30. B7 and B9 stand as reported.",
+   "thread_ts": null,
+   "ts": "1812009900.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trade counter closes early on Friday for the stock count.",
+   "thread_ts": null,
+   "ts": "1812010800.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Bank wants the stock number by Wednesday.",
+   "thread_ts": null,
+   "ts": "1812011700.000000",
+   "user_id": "U8MD"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't reply in here about the close, I'll pick it up.",
+   "thread_ts": null,
+   "ts": "1812012600.000000",
+   "user_id": "U8RUTH"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806000000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806003600.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806007200.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806010800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806014400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806018000.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806021600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806025200.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806028800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806032400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806036000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806039600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806043200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806046800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806050400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806054000.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806057600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806061200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806064800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806068400.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806072000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806075600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806079200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806082800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806086400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806090000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806093600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806097200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806100800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806104400.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806108000.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806111600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806115200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806118800.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806122400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806126000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806129600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806133200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806136800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806140400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806144000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806147600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806151200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806154800.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806158400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806162000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806165600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806169200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806172800.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806176400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806180000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806183600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806187200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806190800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806194400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806198000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806201600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806205200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806208800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806212400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806216000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806219600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806223200.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806226800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806230400.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806234000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806237600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806241200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806244800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806248400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806252000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806255600.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806259200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806262800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806266400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806270000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806273600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806277200.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806280800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806284400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806288000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806291600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806295200.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806298800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Van 1 back from Kingsmead.",
+   "thread_ts": null,
+   "ts": "1806302400.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806306000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806309600.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806313200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806316800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806320400.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806324000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806327600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806331200.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806334800.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806338400.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806342000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806345600.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806349200.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Delft delivery due at 8.",
+   "thread_ts": null,
+   "ts": "1806352800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806356400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Watering done in T2.",
+   "thread_ts": null,
+   "ts": "1806360000.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Order for Penwood picked.",
+   "thread_ts": null,
+   "ts": "1806363600.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Tea's on.",
+   "thread_ts": null,
+   "ts": "1806367200.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Trolleys stacked by the gate.",
+   "thread_ts": null,
+   "ts": "1806370800.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806374400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806378000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the potting shed?",
+   "thread_ts": null,
+   "ts": "1806381600.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1806385200.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Labels printer is jammed again.",
+   "thread_ts": null,
+   "ts": "1806388800.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning all.",
+   "thread_ts": null,
+   "ts": "1806392400.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "DN-118 went back to Kestrel with Friday's van.",
+   "thread_ts": null,
+   "ts": "1810400000.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I reckon Kestrel only took 30 of them in the end, the rest looked fine to me.",
+   "thread_ts": "1810400000.000000",
+   "ts": "1810400060.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "DN-118 correction from me, as the one who raised it: Kestrel took back 40 plants from lot PL-2709, not 46. Six were clean when the pots were tipped out and stayed on the bench.",
+   "thread_ts": "1810400000.000000",
+   "ts": "1810400120.000000",
+   "user_id": "U8MIRA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "Kingsmead want their roses on Thursday, not Wednesday.",
+   "thread_ts": null,
+   "ts": "1810500000.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Fine, van 2 is free Thursday.",
+   "thread_ts": "1810500000.000000",
+   "ts": "1810500060.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks, booked.",
+   "thread_ts": "1810500000.000000",
+   "ts": "1810500120.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "Reminder: invoice corrections go through the helpdesk tickets, not here.",
+   "thread_ts": null,
+   "ts": "1810600000.000000",
+   "user_id": "U8LENA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Noted.",
+   "thread_ts": "1810600000.000000",
+   "ts": "1810600060.000000",
+   "user_id": "U8BEA"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Got it.",
+   "thread_ts": "1810600000.000000",
+   "ts": "1810600120.000000",
+   "user_id": "U8OWAIN"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 1,
+   "text": "Vine weevil nematodes going on in T2 tonight.",
+   "thread_ts": null,
+   "ts": "1810700000.000000",
+   "user_id": "U8TOM"
+  },
+  {
+   "channel_id": "C8STOCK",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Leave the doors shut then.",
+   "thread_ts": "1810700000.000000",
+   "ts": "1810700060.000000",
+   "user_id": "U8BEA"
+  }
+ ]
+}

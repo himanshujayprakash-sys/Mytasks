@@ -1,0 +1,193 @@
+{
+ "teams": [
+  {
+   "id": "19:team-agm-hq01@thread.tacv2",
+   "displayName": "Ashgrove House",
+   "description": "Everyone at head office",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.microsoft.com/l/team/19%3ateam-agm-hq01%40thread.tacv2",
+   "member_ids": [
+    "user-agm-01",
+    "user-agm-02",
+    "user-agm-03",
+    "user-agm-04",
+    "user-agm-05",
+    "user-agm-06",
+    "user-agm-07",
+    "user-agm-08",
+    "user-agm-09",
+    "user-agm-10",
+    "user-agm-11",
+    "user-agm-12",
+    "user-agm-13",
+    "user-agm-14"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "displayName": "General",
+   "description": "Notices for everyone at Ashgrove House",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-agm-gen01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  },
+  {
+   "id": "19:chan-agm-soc01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "displayName": "Social",
+   "description": "Social committee events and fundraising",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-agm-soc01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1791000000001",
+   "channel_id": "19:chan-agm-soc01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-14",
+   "from_display_name": "Ottoline Brack",
+   "content": "Save the date: Christmas party at The Old Mill Hotel on Friday 11 December.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-02T12:10:00Z"
+  },
+  {
+   "id": "1791000007001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-06",
+   "from_display_name": "Imelda Grice",
+   "content": "Flexible working requests for next year to me by 31 October please.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-05T09:00:00Z"
+  },
+  {
+   "id": "1791000014001",
+   "channel_id": "19:chan-agm-soc01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-06",
+   "from_display_name": "Imelda Grice",
+   "content": "Our mental health first aiders now wear green lanyards. Come and chat any time.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-07T13:20:00Z"
+  },
+  {
+   "id": "1791000021001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-08",
+   "from_display_name": "Saoirse Mullan",
+   "content": "A new VPN client installs on Monday morning. Restart when it asks you to.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-08T16:45:00Z"
+  },
+  {
+   "id": "1791000028001",
+   "channel_id": "19:chan-agm-soc01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-05",
+   "from_display_name": "Gareth Lowe",
+   "content": "Fell walk on Saturday 28 November, about five miles. Boots essential, flask optional. Sign-up sheet is in the Social committee folder.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-09T12:35:00Z"
+  },
+  {
+   "id": "1791000035001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-13",
+   "from_display_name": "Leah Whitcombe",
+   "content": "Complaints refresher is on 22 October; the slides will go in the Training folder afterwards.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-12T10:00:00Z"
+  },
+  {
+   "id": "1791000042001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-07",
+   "from_display_name": "Torquil Ashby",
+   "content": "Fire alarm test at 10:00 on Thursday. No need to leave the building.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-13T08:30:00Z"
+  },
+  {
+   "id": "1791000049001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-08",
+   "from_display_name": "Saoirse Mullan",
+   "content": "If the Skiddaw screen won't cast, use the HDMI cable in the drawer for now. I've logged it with IT.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-14T11:00:00Z"
+  },
+  {
+   "id": "1791000056001",
+   "channel_id": "19:chan-agm-soc01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-10",
+   "from_display_name": "Bronwen Castell",
+   "content": "The bake sale raised 386 pounds for the mountain rescue team. Thank you, bakers!",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-15T09:15:00Z"
+  },
+  {
+   "id": "1791000063001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-14",
+   "from_display_name": "Ottoline Brack",
+   "content": "Floor 3 crates arrive on Wednesday 11 November. Label them with your name and new desk number.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-16T14:00:00Z"
+  },
+  {
+   "id": "1791000070001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-12",
+   "from_display_name": "Dominic Farrant",
+   "content": "Data protection e-learning is due by 30 October; fourteen people still to finish.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-19T08:55:00Z"
+  },
+  {
+   "id": "1791000077001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-09",
+   "from_display_name": "Hamish Tulloch",
+   "content": "The broker breakfast on 19 November is full: 42 guests confirmed.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-19T17:05:00Z"
+  },
+  {
+   "id": "1791000084001",
+   "channel_id": "19:chan-agm-gen01@thread.tacv2",
+   "team_id": "19:team-agm-hq01@thread.tacv2",
+   "from_user_id": "user-agm-07",
+   "from_display_name": "Torquil Ashby",
+   "content": "The car park barrier is stuck open this morning; the engineer is due at 11:00.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-20T07:50:00Z"
+  }
+ ]
+}

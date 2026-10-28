@@ -1,0 +1,427 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 68,
+      "passed": 27,
+      "failed": 41,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.140187,
+      "weighted_percentage": 14.02
+    },
+    "tests": [
+      {
+        "name": "test_standard_in_force_read",
+        "status": "passed",
+        "duration": 26,
+        "weight": 1
+      },
+      {
+        "name": "test_appointments_read_in_full",
+        "status": "passed",
+        "duration": 55,
+        "weight": 1
+      },
+      {
+        "name": "test_ticket_notes_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_voicemail_transcripts_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_returns_read_after_first_award",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_appointments_read_after_first_award",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_register_statuses",
+        "status": "passed",
+        "duration": 27,
+        "weight": 5
+      },
+      {
+        "name": "test_register_released_job_awarded",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_award_rows_all_right",
+        "status": "failed",
+        "duration": 21,
+        "weight": 5
+      },
+      {
+        "name": "test_award_first_report_on_voicemail",
+        "status": "failed",
+        "duration": 7,
+        "weight": 1
+      },
+      {
+        "name": "test_award_ticket_note_cancellation",
+        "status": "failed",
+        "duration": 8,
+        "weight": 1
+      },
+      {
+        "name": "test_award_leave_day_visits_missed",
+        "status": "failed",
+        "duration": 14,
+        "weight": 1
+      },
+      {
+        "name": "test_award_released_return_completes_job",
+        "status": "failed",
+        "duration": 7,
+        "weight": 1
+      },
+      {
+        "name": "test_award_rekeyed_visit_first_correction",
+        "status": "failed",
+        "duration": 11,
+        "weight": 1
+      },
+      {
+        "name": "test_award_rekeyed_visit_second_correction",
+        "status": "failed",
+        "duration": 7,
+        "weight": 1
+      },
+      {
+        "name": "test_award_job_limit",
+        "status": "failed",
+        "duration": 8,
+        "weight": 1
+      },
+      {
+        "name": "test_award_routes_from_latest_arrears_list",
+        "status": "failed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_award_notice_channels",
+        "status": "failed",
+        "duration": 7,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_working_day_lateness",
+        "status": "failed",
+        "duration": 145,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_emergency_calendar_days",
+        "status": "failed",
+        "duration": 113,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_tenant_caused_delay_moves_target",
+        "status": "passed",
+        "duration": 201,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_missed_appointments_paid",
+        "status": "failed",
+        "duration": 79,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_late_notice_cancellation_is_missed",
+        "status": "failed",
+        "duration": 26,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_communal_and_recharge_jobs",
+        "status": "passed",
+        "duration": 53,
+        "weight": 1
+      },
+      {
+        "name": "test_rule_refused_leave_not_counted",
+        "status": "passed",
+        "duration": 24,
+        "weight": 1
+      },
+      {
+        "name": "test_recharge_rows_all_right",
+        "status": "failed",
+        "duration": 6,
+        "weight": 5
+      },
+      {
+        "name": "test_recharge_not_for_tenant_cancellation",
+        "status": "passed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_recharge_for_rekeyed_visits",
+        "status": "failed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_recharge_for_released_job",
+        "status": "failed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_no_recharge_to_direct_works",
+        "status": "passed",
+        "duration": 7,
+        "weight": 1
+      },
+      {
+        "name": "test_award_texts_all_right",
+        "status": "failed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_award_email_for_form_opt_out",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_letter_case_not_texted_or_emailed",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_ordinary_reply_still_texted",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_rekeyed_tenants_texted_corrected_amounts",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_contractor_emails_all_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_contractor_email_marrick",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_contractor_email_castleton",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_contractor_email_ravensgill",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_contractor_email_kestle",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_channel_post_all_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_channel_post_total",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_channel_post_names_every_worst_contractor",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_all_right",
+        "status": "failed",
+        "duration": 14,
+        "weight": 5
+      },
+      {
+        "name": "test_page_headline",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_bridge",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_route_split",
+        "status": "failed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_page_award_table_sortable_filterable",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_all_rows_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_clock_and_target_dates",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_corrected_rows",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_all_awards_right",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_dossier_cites_the_deciding_evidence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reply_total_awarded",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_reply_lists_each_award",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_reply_award_count",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reply_route_totals",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reply_recharge_total",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reply_names_every_worst_contractor",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_with_the_run_right",
+        "status": "failed",
+        "duration": 7,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_text_to_opted_out_tenant",
+        "status": "passed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "passed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_records_damaged",
+        "status": "failed",
+        "duration": 9,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_tenant_notified_twice",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_award_outside_the_run",
+        "status": "passed",
+        "duration": 7,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "status": "failed",
+        "duration": 34,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "status": "failed",
+        "duration": 2,
+        "weight": -3
+      }
+    ]
+  }
+}

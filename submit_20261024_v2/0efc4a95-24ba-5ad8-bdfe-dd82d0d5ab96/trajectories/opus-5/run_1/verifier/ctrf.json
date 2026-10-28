@@ -1,0 +1,457 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 73,
+      "passed": 47,
+      "failed": 26,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.533981,
+      "weighted_percentage": 53.4
+    },
+    "tests": [
+      {
+        "name": "test_policies_read",
+        "status": "passed",
+        "duration": 26,
+        "weight": 1
+      },
+      {
+        "name": "test_register_read_before_written",
+        "status": "passed",
+        "duration": 28,
+        "weight": 1
+      },
+      {
+        "name": "test_vehicles_read_before_written",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_bank_receipts_read_again_before_refunding",
+        "status": "failed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_register_all_lines_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_line_voicemail_withdrawal",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_leave_of_absence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_buried_hardship_approval",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_late_consent_not_counted",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_no_medical_form",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_declined_hardship",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_late_bank_transfer",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_no_consent_form",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_latest_consent_yes",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_sibling_then_remission",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_overpaid_by_cash",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_twin_overpaid",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_cash_only_family",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_receipt_matched_to_erin_quinn",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_receipt_dated_by_statement",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_line_ava_quinn_owed_nothing",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_minibus_lines",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_vehicles_all_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_coach_two_seats",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_minibus_added",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_card_refunds_all_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_card_refund_leave_of_absence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_card_refund_late_consent",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_card_refund_voicemail_withdrawal",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_card_refund_overpaid",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_no_card_refund_ava_quinn",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_no_card_refund_erin_quinn",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_no_card_refund_oscar_khan",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_cheque_requests_all_right",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_cheque_leave_of_absence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_cheque_late_consent",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_cheque_declined_hardship",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_cheque_no_consent_form",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_notice_texts_all_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_text_voicemail_withdrawal",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_text_leave_of_absence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_text_no_medical_form",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_no_notice_erin_quinn_family",
+        "status": "failed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_no_notice_oscar_khan_family",
+        "status": "failed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_texts_from_trips_line",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_email_only_family_emailed",
+        "status": "passed",
+        "duration": 11,
+        "weight": 1
+      },
+      {
+        "name": "test_centre_numbers",
+        "status": "failed",
+        "duration": 11,
+        "weight": 5
+      },
+      {
+        "name": "test_final_refund_total",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_final_counts",
+        "status": "failed",
+        "duration": 11,
+        "weight": 1
+      },
+      {
+        "name": "test_final_refund_split",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_bridge",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_vehicles",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_centre_numbers",
+        "status": "failed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_created_records",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_changes",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_only_what_the_settlement_needs",
+        "status": "failed",
+        "duration": 38,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_per_form",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_rows",
+        "status": "failed",
+        "duration": 16,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_payment_columns",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_right_lines_rewritten",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_text_against_preference",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_refund_beyond_due",
+        "status": "failed",
+        "duration": 11,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_duplicate_messages",
+        "status": "passed",
+        "duration": 20,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unasked_message",
+        "status": "failed",
+        "duration": 11,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_misread_refunds_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "passed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      }
+    ]
+  }
+}

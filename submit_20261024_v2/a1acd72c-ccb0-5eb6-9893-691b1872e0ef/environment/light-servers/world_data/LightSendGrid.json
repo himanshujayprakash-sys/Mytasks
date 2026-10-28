@@ -1,0 +1,166 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-tbh01",
+   "to_email": "agnes.fawcett@wynmail.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Welcome to your Thornbeck tenant portal",
+   "template_id": "d-tbh5a6115",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-06T10:42:00Z"
+  },
+  {
+   "message_id": "msg-tbh02",
+   "to_email": "kofi.mensah@pennine-net.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Welcome to your Thornbeck tenant portal",
+   "template_id": "d-tbh5a6115",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-13T14:55:00Z"
+  },
+  {
+   "message_id": "msg-tbh03",
+   "to_email": "leanne.booth@moorpost.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Welcome to your Thornbeck tenant portal",
+   "template_id": "d-tbh5a6115",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 0,
+   "sent_at": "2026-10-27T11:20:00Z"
+  },
+  {
+   "message_id": "msg-tbh04",
+   "to_email": "hollie.exley@freemail-uk.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Your mutual exchange application has been received",
+   "template_id": "d-tbhff9b24",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-21T09:05:00Z"
+  },
+  {
+   "message_id": "msg-tbh05",
+   "to_email": "brendan.lumb@calderlink.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Your sign-up appointment is confirmed",
+   "template_id": "d-tbhdde821",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-30T13:50:00Z"
+  },
+  {
+   "message_id": "msg-tbh06",
+   "to_email": "reece.kilner@wynmail.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Your sign-up appointment has been cancelled",
+   "template_id": "d-tbh5c0310",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-09-30T16:10:00Z"
+  },
+  {
+   "message_id": "msg-tbh07",
+   "to_email": "agnes.fawcett@wynmail.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Your settling-in visit is booked",
+   "template_id": "d-tbh7d7be7",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-14T09:00:00Z"
+  },
+  {
+   "message_id": "msg-tbh08",
+   "to_email": "kofi.mensah@pennine-net.example",
+   "from_email": "portal@thornbeck-homes.example",
+   "subject": "Your settling-in visit is booked",
+   "template_id": "d-tbh7d7be7",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-29T08:45:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-tbh01",
+   "email": "agnes.fawcett@wynmail.example",
+   "first_name": "Agnes",
+   "last_name": "Fawcett",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "id": "contact-tbh02",
+   "email": "brendan.lumb@calderlink.example",
+   "first_name": "Brendan",
+   "last_name": "Lumb",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "id": "contact-tbh03",
+   "email": "hollie.exley@freemail-uk.example",
+   "first_name": "Hollie",
+   "last_name": "Exley",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "id": "contact-tbh04",
+   "email": "kofi.mensah@pennine-net.example",
+   "first_name": "Kofi",
+   "last_name": "Mensah",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "id": "contact-tbh05",
+   "email": "leanne.booth@moorpost.example",
+   "first_name": "Leanne",
+   "last_name": "Booth",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "id": "contact-tbh06",
+   "email": "reece.kilner@wynmail.example",
+   "first_name": "Reece",
+   "last_name": "Kilner",
+   "country": "GB",
+   "list_ids": [
+    "list-tbh-portal"
+   ],
+   "created_at": "2026-09-30T09:00:00Z",
+   "updated_at": "2026-10-30T09:00:00Z"
+  }
+ ]
+}

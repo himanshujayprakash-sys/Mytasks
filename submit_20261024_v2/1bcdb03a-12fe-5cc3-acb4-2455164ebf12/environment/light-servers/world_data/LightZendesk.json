@@ -1,0 +1,345 @@
+{
+ "organizations": [
+  {
+   "id": 64001,
+   "name": "Northlight Summit 2026",
+   "shared_tickets": false,
+   "tags": [
+    "summit"
+   ],
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  }
+ ],
+ "users": [
+  {
+   "id": 640001,
+   "name": "Lewis Achterberg",
+   "email": "registration@northlightsummit.test",
+   "role": "agent",
+   "organization_id": 64001,
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  },
+  {
+   "id": 640002,
+   "name": "Greta Marchetti",
+   "email": "catering@northlightsummit.test",
+   "role": "agent",
+   "organization_id": 64001,
+   "created_at": "2026-08-01T09:00:00Z",
+   "updated_at": "2026-08-01T09:00:00Z"
+  },
+  {
+   "id": 640101,
+   "name": "Attendee 1",
+   "email": "attendee1@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-02T10:12:00Z",
+   "updated_at": "2026-11-02T10:12:00Z"
+  },
+  {
+   "id": 640102,
+   "name": "Attendee 2",
+   "email": "attendee2@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-03T08:30:00Z",
+   "updated_at": "2026-11-03T08:30:00Z"
+  },
+  {
+   "id": 640103,
+   "name": "Attendee 3",
+   "email": "attendee3@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-06T16:20:00Z",
+   "updated_at": "2026-11-06T16:20:00Z"
+  },
+  {
+   "id": 640104,
+   "name": "Attendee 4",
+   "email": "attendee4@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-07T12:00:00Z",
+   "updated_at": "2026-11-07T12:00:00Z"
+  },
+  {
+   "id": 640105,
+   "name": "Attendee 5",
+   "email": "attendee5@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-09T14:45:00Z",
+   "updated_at": "2026-11-09T14:45:00Z"
+  },
+  {
+   "id": 640106,
+   "name": "Attendee 6",
+   "email": "attendee6@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-10T09:20:00Z",
+   "updated_at": "2026-11-10T09:20:00Z"
+  },
+  {
+   "id": 640107,
+   "name": "Attendee 7",
+   "email": "attendee7@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-10T17:05:00Z",
+   "updated_at": "2026-11-10T17:05:00Z"
+  },
+  {
+   "id": 640108,
+   "name": "Attendee 8",
+   "email": "attendee8@mail.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-11T20:40:00Z",
+   "updated_at": "2026-11-11T20:40:00Z"
+  },
+  {
+   "id": 640109,
+   "name": "Hana Nkemelu",
+   "email": "hana.nkemelu@corp.example",
+   "role": "end-user",
+   "organization_id": 64001,
+   "created_at": "2026-11-11T21:30:00Z",
+   "updated_at": "2026-11-11T21:30:00Z"
+  }
+ ],
+ "tickets": [
+  {
+   "id": 64101,
+   "subject": "Change the name on my badge",
+   "description": "I registered as Sam but my badge should read Samira Okafor-Bell.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "task",
+   "requester_id": 640101,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "badge"
+   ],
+   "created_at": "2026-11-02T10:12:00Z",
+   "updated_at": "2026-11-02T15:40:00Z"
+  },
+  {
+   "id": 64102,
+   "subject": "Vegan lunch on all three days",
+   "description": "Please mark my registration as vegan.",
+   "status": "solved",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 640102,
+   "assignee_id": 640002,
+   "organization_id": 64001,
+   "tags": [
+    "catering"
+   ],
+   "created_at": "2026-11-03T08:30:00Z",
+   "updated_at": "2026-11-03T11:05:00Z"
+  },
+  {
+   "id": 64103,
+   "subject": "Transfer my ticket to a colleague",
+   "description": "I can no longer attend. Can my colleague Morven Tait use my ticket?",
+   "status": "pending",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 640103,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "tickets"
+   ],
+   "created_at": "2026-11-06T16:20:00Z",
+   "updated_at": "2026-11-09T09:10:00Z"
+  },
+  {
+   "id": 64104,
+   "subject": "Wi-Fi details",
+   "description": "Will there be Wi-Fi at the Exchange Hall?",
+   "status": "solved",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 640104,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "venue"
+   ],
+   "created_at": "2026-11-07T12:00:00Z",
+   "updated_at": "2026-11-07T12:30:00Z"
+  },
+  {
+   "id": 64105,
+   "subject": "Receipt for my registration",
+   "description": "My finance team needs a receipt with our company address.",
+   "status": "open",
+   "priority": "normal",
+   "type": "task",
+   "requester_id": 640105,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "tickets",
+    "receipt"
+   ],
+   "created_at": "2026-11-09T14:45:00Z",
+   "updated_at": "2026-11-10T10:00:00Z"
+  },
+  {
+   "id": 64106,
+   "subject": "Nut allergy",
+   "description": "I have a severe nut allergy. How are lunches labelled?",
+   "status": "open",
+   "priority": "high",
+   "type": "question",
+   "requester_id": 640106,
+   "assignee_id": 640002,
+   "organization_id": 64001,
+   "tags": [
+    "catering"
+   ],
+   "created_at": "2026-11-10T09:20:00Z",
+   "updated_at": "2026-11-10T13:55:00Z"
+  },
+  {
+   "id": 64107,
+   "subject": "Session recordings",
+   "description": "Will the breakout sessions be recorded?",
+   "status": "solved",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 640107,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "programme"
+   ],
+   "created_at": "2026-11-10T17:05:00Z",
+   "updated_at": "2026-11-11T09:00:00Z"
+  },
+  {
+   "id": 64108,
+   "subject": "Student discount",
+   "description": "Is there a student rate?",
+   "status": "new",
+   "priority": "low",
+   "type": "question",
+   "requester_id": 640108,
+   "assignee_id": null,
+   "organization_id": 64001,
+   "tags": [
+    "tickets"
+   ],
+   "created_at": "2026-11-11T20:40:00Z",
+   "updated_at": "2026-11-11T20:40:00Z"
+  },
+  {
+   "id": 64109,
+   "subject": "Question about my summit hotel",
+   "description": "Hello, I am speaking on day two. Who should I talk to about my room at the summit hotel?",
+   "status": "solved",
+   "priority": "normal",
+   "type": "question",
+   "requester_id": 640109,
+   "assignee_id": 640001,
+   "organization_id": 64001,
+   "tags": [
+    "speaker",
+    "hotel"
+   ],
+   "created_at": "2026-11-11T21:30:00Z",
+   "updated_at": "2026-11-12T08:40:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "id": 64802,
+   "ticket_id": 64101,
+   "author_id": 640101,
+   "body": "Thanks, could you also add my pronouns?",
+   "public": true,
+   "created_at": "2026-11-02T15:40:00Z"
+  },
+  {
+   "id": 64803,
+   "ticket_id": 64101,
+   "author_id": 640001,
+   "body": "Done - your badge now reads Samira Okafor-Bell (she/her).",
+   "public": true,
+   "created_at": "2026-11-02T15:40:00Z"
+  },
+  {
+   "id": 64804,
+   "ticket_id": 64102,
+   "author_id": 640002,
+   "body": "Added to the dietary list for all three days.",
+   "public": true,
+   "created_at": "2026-11-03T11:05:00Z"
+  },
+  {
+   "id": 64805,
+   "ticket_id": 64103,
+   "author_id": 640001,
+   "body": "Yes - please send Morven's email address and we will reissue the ticket.",
+   "public": true,
+   "created_at": "2026-11-09T09:10:00Z"
+  },
+  {
+   "id": 64806,
+   "ticket_id": 64104,
+   "author_id": 640001,
+   "body": "Yes, the network name and password will be printed on the back of your badge.",
+   "public": true,
+   "created_at": "2026-11-07T12:30:00Z"
+  },
+  {
+   "id": 64807,
+   "ticket_id": 64105,
+   "author_id": 640001,
+   "body": "Passed to the registration team; receipts are issued from the ticket shop.",
+   "public": false,
+   "created_at": "2026-11-10T10:00:00Z"
+  },
+  {
+   "id": 64808,
+   "ticket_id": 64106,
+   "author_id": 640002,
+   "body": "Every dish is labelled with the fourteen allergens and the caterer's lead will be at the lunch counter.",
+   "public": true,
+   "created_at": "2026-11-10T13:55:00Z"
+  },
+  {
+   "id": 64809,
+   "ticket_id": 64107,
+   "author_id": 640001,
+   "body": "Main stage sessions are recorded. Breakouts are not, but slides will be shared.",
+   "public": true,
+   "created_at": "2026-11-11T09:00:00Z"
+  },
+  {
+   "id": 64810,
+   "ticket_id": 64109,
+   "author_id": 640001,
+   "body": "Hi Hana, the speaker desk looks after speaker rooms, so I have passed your details to them.",
+   "public": true,
+   "created_at": "2026-11-12T08:40:00Z"
+  },
+  {
+   "id": 64811,
+   "ticket_id": 64109,
+   "author_id": 640001,
+   "body": "For the speaker desk: SP-629 (Hana Nkemelu) signed our accessibility request form at the registration desk on 6 November (step-free shower needed in the summit hotel room). The signed original is in the registration desk folder; it was never scanned across to you.",
+   "public": false,
+   "created_at": "2026-11-12T08:40:00Z"
+  }
+ ]
+}

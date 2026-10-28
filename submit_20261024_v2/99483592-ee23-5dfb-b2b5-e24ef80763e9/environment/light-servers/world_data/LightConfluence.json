@@ -1,0 +1,127 @@
+{
+ "spaces": [
+  {
+   "id": 8310,
+   "key": "LS2",
+   "name": "Lamplighter S2 production handbook",
+   "type": "global",
+   "status": "current",
+   "description": {
+    "plain": {
+     "value": "How the series 2 production office and base work.",
+     "representation": "plain"
+    }
+   }
+  }
+ ],
+ "pages": [
+  {
+   "id": "830001",
+   "type": "page",
+   "status": "current",
+   "title": "Lamplighter S2 production handbook",
+   "space_key": "LS2",
+   "parent_id": null,
+   "version": 4,
+   "body": "Start here: who is who, where base is and how the office runs.",
+   "created_by": "Marisol Echeverria",
+   "created_at": "2026-02-16T10:00:00Z"
+  },
+  {
+   "id": "830002",
+   "type": "page",
+   "status": "current",
+   "title": "Crew induction",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 2,
+   "body": "Every new starter reads the base safety briefing and signs the induction sheet before their first call.",
+   "created_by": "Delphine Marchetti",
+   "created_at": "2026-02-18T10:00:00Z"
+  },
+  {
+   "id": "830003",
+   "type": "page",
+   "status": "current",
+   "title": "Unit base rules",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 3,
+   "body": "Speed limit 5 mph at base. Smoking only at the marked point behind the catering truck.",
+   "created_by": "Delphine Marchetti",
+   "created_at": "2026-02-20T10:00:00Z"
+  },
+  {
+   "id": "830004",
+   "type": "page",
+   "status": "current",
+   "title": "Radio etiquette",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 1,
+   "body": "Channel 1 production, 2 camera and sound, 3 sparks and grips, 4 art. Keep traffic short.",
+   "created_by": "Delphine Marchetti",
+   "created_at": "2026-02-25T10:00:00Z"
+  },
+  {
+   "id": "830005",
+   "type": "page",
+   "status": "current",
+   "title": "Expenses and petty cash",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 2,
+   "body": "Receipts in the envelope with your name; floats reconciled every Thursday.",
+   "created_by": "Lucinda Fairweather",
+   "created_at": "2026-03-02T10:00:00Z"
+  },
+  {
+   "id": "830006",
+   "type": "page",
+   "status": "current",
+   "title": "Script revision colours",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 1,
+   "body": "White, blue, pink, yellow, green, goldenrod, buff, salmon, cherry.",
+   "created_by": "Nell Ashdown",
+   "created_at": "2026-03-09T10:00:00Z"
+  },
+  {
+   "id": "830007",
+   "type": "page",
+   "status": "current",
+   "title": "Lost property",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 1,
+   "body": "Lost property lives in the office cabin; anything unclaimed after a month goes to charity.",
+   "created_by": "Nell Ashdown",
+   "created_at": "2026-03-16T10:00:00Z"
+  },
+  {
+   "id": "830008",
+   "type": "page",
+   "status": "current",
+   "title": "Press and social media",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 2,
+   "body": "No photos of cast, set or scripts on personal social media. Press enquiries go to the publicist.",
+   "created_by": "Gethin Pryce",
+   "created_at": "2026-04-06T10:00:00Z"
+  },
+  {
+   "id": "830009",
+   "type": "page",
+   "status": "current",
+   "title": "Wrap party 2026",
+   "space_key": "LS2",
+   "parent_id": "830001",
+   "version": 1,
+   "body": "Saturday 12 December at the Assembly Rooms, from 19:30. Plus-ones welcome, names to Marisol by 1 December.",
+   "created_by": "Marisol Echeverria",
+   "created_at": "2026-11-05T10:00:00Z"
+  }
+ ]
+}

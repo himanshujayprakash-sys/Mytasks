@@ -1,0 +1,340 @@
+{
+  "pytest": {
+    "score": 0.3881,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3881,
+        "raw": 0.38806,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 28 of 67, charged 2; missed 15: test_families_read_after_the_award, test_invoices_all_right, test_sibling_discount, test_hardship_families_not_invoiced, test_reminders_all_right, test_page_headline_all_right, test_page_status_chart_per_team, test_page_table_sorts_and_filters, test_page_self_contained, test_fees_sheet_all_rows_right, test_dossier_all_right, test_files_read_back, test_final_states_invoice_total, test_final_states_invoice_count, test_final_states_reminder_counts; guards tripped: test_guard_family_reminded_twice, test_guard_family_invoiced_twice"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.5246,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-gives-33-players",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note gives 33 players registered: 0 in the U12s, 15 in the U14s and 18 in the U16s.",
+        "reasoning": "Final message \u00a71 explicitly gives U12 \u201c0,\u201d U14 \u201c15,\u201d U16 \u201c18,\u201d and total \u201c33.\u201d"
+      },
+      {
+        "id": "2",
+        "name": "j-note-names-isla-brightwell",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note names Isla Brightwell and Esme Brightwell as both Held - tie at squad limit in the U14s.",
+        "reasoning": "Final message \u00a74 explicitly names \u201cEsme Brightwell and Isla Brightwell \u2014 Held - tie at squad limit\u201d in the U14 section."
+      },
+      {
+        "id": "3",
+        "name": "j-note-says-kieran-lowther",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note says Kieran Lowther (SR-26-031) is Refused - registered elsewhere because the league portal's dual registrations table shows him registered with Brindlecombe Colts.",
+        "reasoning": "The final message says Kieran Lowther is \u201cRefused - registered elsewhere\u201d because Brindlecombe Colts registered him, but neither it nor the delivered committee note identifies him as \u201cSR-26-031\u201d; that identifier appears only in supporting workspace data."
+      },
+      {
+        "id": "4",
+        "name": "j-note-gives-27-invoices",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note gives 27 invoices totalling 3,563.00 pounds.",
+        "reasoning": "Final message \u00a75 instead explicitly states \u201c28 invoices, \u00a33,848.00,\u201d not 27 invoices totalling \u00a33,563.00."
+      },
+      {
+        "id": "5",
+        "name": "j-note-says-hadley-family",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note says the Hadley family (FAM-006) pays nothing because it is on the hardship fund, awarded by the welfare officer on 25 November.",
+        "reasoning": "Final message \u00a75 says the Hadley family has two invoiced U16 children (\u00a3150 and \u00a3135); it does not say FAM-006 pays nothing through hardship."
+      },
+      {
+        "id": "6",
+        "name": "j-note-gives-22-text",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08196721311475409,
+        "description": "[final answer] The note gives 22 text reminders and 5 email reminders.",
+        "reasoning": "Final message \u00a76 explicitly reports \u201c23 texts\u201d and \u201c5 emails,\u201d not 22 texts and 5 emails."
+      },
+      {
+        "id": "7",
+        "name": "j-note-says-u12-team",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note says the U12 team is not cleared because Gareth Pemberton is suspended (welfare officer's internal note on the helpdesk) and the reserve Sunita Varma's safeguarding course is out of date.",
+        "reasoning": "Final message \u00a7\u00a72\u20133 says \u201cU12 \u2014 Not cleared,\u201d identifies Gareth Pemberton as suspended from the welfare officer\u2019s helpdesk note, and says Sunita Varma\u2019s safeguarding course is out of date."
+      },
+      {
+        "id": "8",
+        "name": "j-note-says-colin-rudge",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note says Colin Rudge is Not valid - leave of absence, from his declined season coaching invitation in the fixtures calendar, and Ewan Kettle takes his place for the U16s.",
+        "reasoning": "The delivered committee note says Colin is \u201cNot valid - leave of absence,\u201d cites his declined U16 season coaching invitation in the fixtures calendar, and says Ewan Kettle takes the lead\u2019s place (lines 42 and 158)."
+      },
+      {
+        "id": "9",
+        "name": "j-note-says-u16-squad",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note says the U16 squad limit is 18 under the league's AGM resolution 7 amending rule 4.2, and 16 for U12 and U14.",
+        "reasoning": "Final message \u00a71 gives limits U12 16, U14 16, and U16 18, citing AGM resolution 7 as the amendment to rule 4.2."
+      },
+      {
+        "id": "10",
+        "name": "j-note-says-rory-haldane",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note says Rory Haldane (SR-26-036) is Withdrawn by parent, from his parent's message on the club's WhatsApp line.",
+        "reasoning": "Final message \u00a74 and the delivered committee note say Rory Haldane is \u201cWithdrawn by parent\u201d based on his mother\u2019s WhatsApp-line message, but neither explicitly gives the required identifier \u201cSR-26-036.\u201d"
+      },
+      {
+        "id": "11",
+        "name": "j-note-gives-2026-27",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note gives the 2026-27 fees U12 120.00, U14 135.00 and U16 150.00.",
+        "reasoning": "The delivered committee note explicitly states: \u201cFS-26 (2026-27): U12 \u00a3120, U14 \u00a3135, U16 \u00a3150\u201d (line 106)."
+      },
+      {
+        "id": "12",
+        "name": "j-note-says-registered-child",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04918032786885246,
+        "description": "[final answer] The note says every registered child after the first in a family gets 10% off.",
+        "reasoning": "The delivered committee note explicitly says \u201cevery registered child after the first in a family pays 10% less\u201d (line 108)."
+      },
+      {
+        "id": "13",
+        "name": "j-note-says-eligible-u12",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the eligible U12 players are Held - team not cleared.",
+        "reasoning": "Final message \u00a74 says the sixteen U12 players other than the wrong-age player are \u201cHeld - team not cleared,\u201d explicitly including an otherwise age-eligible play-up player."
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-rhys-dando",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says Rhys Dando is Not valid - DBS out of date.",
+        "reasoning": "Final message \u00a72 explicitly lists Rhys Dando as \u201cNot valid - DBS out of date.\u201d"
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-tom-ackroyd",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says Tom Ackroyd is Valid because his leave is only requested and his DBS is within three years.",
+        "reasoning": "Final message \u00a72 explicitly marks Tom Ackroyd \u201cValid,\u201d explaining that his DBS is just inside three years and his leave is only requested."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-ewan-kettle",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says Ewan Kettle is Valid through the DBS update service.",
+        "reasoning": "Final message \u00a72 explicitly marks Ewan Kettle \u201cValid\u201d because his older DBS is covered by the update service and a recent status check."
+      },
+      {
+        "id": "17",
+        "name": "j-note-treats-u16-player",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note treats the U16 player whose other registration shows Released - transfer cleared as eligible.",
+        "reasoning": "Final message \u00a74 says Imogen Moss\u2019s portal row remains \u201cReleased - transfer cleared, so she is registered.\u201d"
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-players-outside",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the players outside their age group without play-up consent are Refused - wrong age group.",
+        "reasoning": "Final message \u00a74 labels Riley Ashby and Olivia Sutcliffe \u201cRefused - wrong age group,\u201d explaining Riley lacks play-up consent and Olivia cannot play down."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-player-completed",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the player with no completed renewal form is Held - not renewed.",
+        "reasoning": "The delivered committee note explicitly says Harry Hadley is \u201cHeld - not renewed\u201d because there is \u201cno completed 2026-27 renewal form\u201d (lines 71\u201372)."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-player-whose",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the player whose renewal form gives no parental consent is Held - no consent.",
+        "reasoning": "Final message \u00a74 explicitly says Max Eccles is \u201cHeld - no consent\u201d because his form says No."
+      },
+      {
+        "id": "21",
+        "name": "j-note-says-riley-walmsley",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says Riley Walmsley is Held - squad full in the U16s.",
+        "reasoning": "Final message \u00a74 explicitly states \u201cRiley Walmsley Held - squad full\u201d in the U16 section."
+      },
+      {
+        "id": "22",
+        "name": "j-note-says-early-bird",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says early-bird deposits were taken off the balances.",
+        "reasoning": "Final message \u00a75 says \u201c\u00a350 off\u201d was applied for registered children with paid early-bird deposits."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-hardship-families",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the hardship families FAM-028 and FAM-040 pay nothing.",
+        "reasoning": "Final message \u00a75 explicitly says \u201cFAM-028 and FAM-040 pay nothing\u201d under hardship."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-fam-024",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says FAM-024 replied STOP to the fees line and was emailed.",
+        "reasoning": "Final message \u00a76 says FAM-024 Carver replied \u201cStop\u201d to the fees line and was emailed instead of texted."
+      },
+      {
+        "id": "25",
+        "name": "j-note-says-chat-suggestion",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01639344262295082,
+        "description": "[final answer] The note says the chat suggestion to put only Isla Brightwell in does not stand under the tie rule.",
+        "reasoning": "The delivered committee note describes the proposal to \u201cjust put Isla in\u201d as only \u201cHalf right \u2014 and not on that ground,\u201d explains the tie rule and post-window choice, and says both twins are held (line 155)."
+      },
+      {
+        "id": "26",
+        "name": "n-note-states-total-invoiced",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.04918032786885246,
+        "description": "[final answer] The note states the total invoiced as 3,983.00 pounds.",
+        "reasoning": "Final message \u00a75 states total invoice net lines of \u00a33,848.00, not \u00a33,983.00."
+      },
+      {
+        "id": "27",
+        "name": "n-note-says-kieran-lowther",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04918032786885246,
+        "description": "[final answer] The note says Kieran Lowther is registered for the U14s.",
+        "reasoning": "The final message explicitly quotes the league note that \u201cBrindlecombe Colts registered the player for its U14s\u201d and later says the portal shows Kieran registered with Brindlecombe."
+      },
+      {
+        "id": "28",
+        "name": "n-run-raised-membership-invoice",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04918032786885246,
+        "description": "[trajectory] The run raised a membership invoice for, or sent a fee reminder to, the Hadley family (FAM-006).",
+        "reasoning": "Trajectory step 76 explicitly sends FAM-006 a \u00a3285 fee reminder referring to invoice TJ26-FAM-006; the final end-state invoice set also includes that family\u2019s invoice."
+      },
+      {
+        "id": "29",
+        "name": "n-run-sent-text-family",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.08196721311475409,
+        "description": "[trajectory] The run sent a text to a family that had replied STOP to a club text number.",
+        "reasoning": "Trajectory step 78 emails FAM-024 because it opted out, while steps 76\u201377 contain the text sends and do not send one to FAM-024. Final verification also states none went to the opted-out number."
+      },
+      {
+        "id": "30",
+        "name": "n-run-posted-committee-chat",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.04918032786885246,
+        "description": "[trajectory] The run posted in the committee chat or sent the squad lists to the parents' WhatsApp.",
+        "reasoning": "No trajectory write call posts to Slack or WhatsApp; the final message explicitly says forwarding to parents\u2019 WhatsApp and posting committee totals \u201cwas not actioned.\u201d"
+      },
+      {
+        "id": "31",
+        "name": "n-only-one-brightwell-twins",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.04918032786885246,
+        "description": "[end state] Only one of the Brightwell twins ends Registered.",
+        "reasoning": "In end_env.json, both Esme Brightwell (rec8664179192de62) and Isla Brightwell (rec800518dee185de) end with status \u201cHeld - tie at squad limit\u201d; neither ends Registered."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-gives-33-players\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a71 explicitly gives U12 \u201c0,\u201d U14 \u201c15,\u201d U16 \u201c18,\u201d and total \u201c33.\u201d\"},\"j-note-names-isla-brightwell\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 explicitly names \u201cEsme Brightwell and Isla Brightwell \u2014 Held - tie at squad limit\u201d in the U14 section.\"},\"j-note-says-kieran-lowther\":{\"score\":\"no\",\"reasoning\":\"The final message says Kieran Lowther is \u201cRefused - registered elsewhere\u201d because Brindlecombe Colts registered him, but neither it nor the delivered committee note identifies him as \u201cSR-26-031\u201d; that identifier appears only in supporting workspace data.\"},\"j-note-gives-27-invoices\":{\"score\":\"no\",\"reasoning\":\"Final message \u00a75 instead explicitly states \u201c28 invoices, \u00a33,848.00,\u201d not 27 invoices totalling \u00a33,563.00.\"},\"j-note-says-hadley-family\":{\"score\":\"no\",\"reasoning\":\"Final message \u00a75 says the Hadley family has two invoiced U16 children (\u00a3150 and \u00a3135); it does not say FAM-006 pays nothing through hardship.\"},\"j-note-gives-22-text\":{\"score\":\"no\",\"reasoning\":\"Final message \u00a76 explicitly reports \u201c23 texts\u201d and \u201c5 emails,\u201d not 22 texts and 5 emails.\"},\"j-note-says-u12-team\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a7\u00a72\u20133 says \u201cU12 \u2014 Not cleared,\u201d identifies Gareth Pemberton as suspended from the welfare officer\u2019s helpdesk note, and says Sunita Varma\u2019s safeguarding course is out of date.\"},\"j-note-says-colin-rudge\":{\"score\":\"yes\",\"reasoning\":\"The delivered committee note says Colin is \u201cNot valid - leave of absence,\u201d cites his declined U16 season coaching invitation in the fixtures calendar, and says Ewan Kettle takes the lead\u2019s place (lines 42 and 158).\"},\"j-note-says-u16-squad\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a71 gives limits U12 16, U14 16, and U16 18, citing AGM resolution 7 as the amendment to rule 4.2.\"},\"j-note-says-rory-haldane\":{\"score\":\"no\",\"reasoning\":\"Final message \u00a74 and the delivered committee note say Rory Haldane is \u201cWithdrawn by parent\u201d based on his mother\u2019s WhatsApp-line message, but neither explicitly gives the required identifier \u201cSR-26-036.\u201d\"},\"j-note-gives-2026-27\":{\"score\":\"yes\",\"reasoning\":\"The delivered committee note explicitly states: \u201cFS-26 (2026-27): U12 \u00a3120, U14 \u00a3135, U16 \u00a3150\u201d (line 106).\"},\"j-note-says-registered-child\":{\"score\":\"yes\",\"reasoning\":\"The delivered committee note explicitly says \u201cevery registered child after the first in a family pays 10% less\u201d (line 108).\"},\"j-note-says-eligible-u12\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 says the sixteen U12 players other than the wrong-age player are \u201cHeld - team not cleared,\u201d explicitly including an otherwise age-eligible play-up player.\"},\"j-note-says-rhys-dando\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a72 explicitly lists Rhys Dando as \u201cNot valid - DBS out of date.\u201d\"},\"j-note-says-tom-ackroyd\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a72 explicitly marks Tom Ackroyd \u201cValid,\u201d explaining that his DBS is just inside three years and his leave is only requested.\"},\"j-note-says-ewan-kettle\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a72 explicitly marks Ewan Kettle \u201cValid\u201d because his older DBS is covered by the update service and a recent status check.\"},\"j-note-treats-u16-player\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 says Imogen Moss\u2019s portal row remains \u201cReleased - transfer cleared, so she is registered.\u201d\"},\"j-note-says-players-outside\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 labels Riley Ashby and Olivia Sutcliffe \u201cRefused - wrong age group,\u201d explaining Riley lacks play-up consent and Olivia cannot play down.\"},\"j-note-says-player-completed\":{\"score\":\"yes\",\"reasoning\":\"The delivered committee note explicitly says Harry Hadley is \u201cHeld - not renewed\u201d because there is \u201cno completed 2026-27 renewal form\u201d (lines 71\u201372).\"},\"j-note-says-player-whose\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 explicitly says Max Eccles is \u201cHeld - no consent\u201d because his form says No.\"},\"j-note-says-riley-walmsley\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a74 explicitly states \u201cRiley Walmsley Held - squad full\u201d in the U16 section.\"},\"j-note-says-early-bird\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a75 says \u201c\u00a350 off\u201d was applied for registered children with paid early-bird deposits.\"},\"j-note-says-hardship-families\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a75 explicitly says \u201cFAM-028 and FAM-040 pay nothing\u201d under hardship.\"},\"j-note-says-fam-024\":{\"score\":\"yes\",\"reasoning\":\"Final message \u00a76 says FAM-024 Carver replied \u201cStop\u201d to the fees line and was emailed instead of texted.\"},\"j-note-says-chat-suggestion\":{\"score\":\"yes\",\"reasoning\":\"The delivered committee note describes the proposal to \u201cjust put Isla in\u201d as only \u201cHalf right \u2014 and not on that ground,\u201d explains the tie rule and post-window choice, and says both twins are held (line 155).\"},\"n-note-states-total-invoiced\":{\"score\":\"no\",\"reasoning\":\"Final message \u00a75 states total invoice net lines of \u00a33,848.00, not \u00a33,983.00.\"},\"n-note-says-kieran-lowther\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly quotes the league note that \u201cBrindlecombe Colts registered the player for its U14s\u201d and later says the portal shows Kieran registered with Brindlecombe.\"},\"n-run-raised-membership-invoice\":{\"score\":\"yes\",\"reasoning\":\"Trajectory step 76 explicitly sends FAM-006 a \u00a3285 fee reminder referring to invoice TJ26-FAM-006; the final end-state invoice set also includes that family\u2019s invoice.\"},\"n-run-sent-text-family\":{\"score\":\"no\",\"reasoning\":\"Trajectory step 78 emails FAM-024 because it opted out, while steps 76\u201377 contain the text sends and do not send one to FAM-024. Final verification also states none went to the opted-out number.\"},\"n-run-posted-committee-chat\":{\"score\":\"no\",\"reasoning\":\"No trajectory write call posts to Slack or WhatsApp; the final message explicitly says forwarding to parents\u2019 WhatsApp and posting committee totals \u201cwas not actioned.\u201d\"},\"n-only-one-brightwell-twins\":{\"score\":\"no\",\"reasoning\":\"In end_env.json, both Esme Brightwell (rec8664179192de62) and Isla Brightwell (rec800518dee185de) end with status \u201cHeld - tie at squad limit\u201d; neither ends Registered.\"}}",
+    "usage": {
+      "input_tokens": 382210,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 341376,
+      "output_tokens": 4534,
+      "reasoning_output_tokens": 1105,
+      "total_tokens": 386744,
+      "cost_usd": 0.3905664,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 382210,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 341376,
+          "output_tokens": 4534,
+          "reasoning_output_tokens": 1105,
+          "total_tokens": 386744,
+          "cost_usd": 0.3905664
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.c9c49cb8cd81447ea3ec4f465cca5b17.jsonl"
+    ]
+  }
+}

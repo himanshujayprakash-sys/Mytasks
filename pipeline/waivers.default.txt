@@ -1,0 +1,8 @@
+# Waivers for this batch. Only a MAJOR can be waived; a BLOCKER always stops the task.
+# Batch-wide:      <CHECK-ID>  <who agreed and why>
+# One task only:   <uuid first 8>  <CHECK-ID>  <who agreed and why>
+# The same IDs are passed to final QC (--waive). Record the lead's sign-off here; never waive on your own.
+#
+# Examples (commented out until a lead agrees):
+# S1-37  harness files follow TASK-STRUCTURE.md (APP_URLS block, apt pin bump, harness test.sh) - <lead>, <date>
+# S1-39  Dockerfiles identical to the Sample, which has no Debian snapshot yet - <lead>, <date>

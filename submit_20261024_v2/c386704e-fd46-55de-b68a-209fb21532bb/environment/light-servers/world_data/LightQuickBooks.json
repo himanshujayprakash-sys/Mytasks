@@ -1,0 +1,151 @@
+{
+ "customers": [
+  {
+   "Id": "9811",
+   "DisplayName": "Tea bar cash sales",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Matchday takings"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "9821",
+   "DisplayName": "Cash and Carry Merrow",
+   "PrimaryEmailAddr": {
+    "Address": "trade@merrowcashandcarry.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+441632961200"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Tea bar stock"
+  }
+ ],
+ "items": [
+  {
+   "Id": "9831",
+   "Name": "Tea and coffee",
+   "Description": "Hot drinks",
+   "Type": "Service",
+   "UnitPrice": 1.0,
+   "IncomeAccountRef": {
+    "value": "98",
+    "name": "Tea bar"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2025-09-01 09:00:00",
+    "LastUpdatedTime": "2025-09-01 09:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "9841",
+   "DocNumber": "TB-2026-30",
+   "TxnDate": "2026-11-07",
+   "DueDate": "2026-11-07",
+   "CustomerRef": {
+    "value": "9811",
+    "name": "Tea bar cash sales"
+   },
+   "Line": [
+    {
+     "Amount": 86.5,
+     "Description": "Matchday takings 2026-11-07",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Tea and coffee"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 86.5,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "9842",
+   "DocNumber": "TB-2026-31",
+   "TxnDate": "2026-11-14",
+   "DueDate": "2026-11-14",
+   "CustomerRef": {
+    "value": "9811",
+    "name": "Tea bar cash sales"
+   },
+   "Line": [
+    {
+     "Amount": 92.0,
+     "Description": "Matchday takings 2026-11-14",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Tea and coffee"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 92.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "9843",
+   "DocNumber": "TB-2026-32",
+   "TxnDate": "2026-11-21",
+   "DueDate": "2026-11-21",
+   "CustomerRef": {
+    "value": "9811",
+    "name": "Tea bar cash sales"
+   },
+   "Line": [
+    {
+     "Amount": 77.5,
+     "Description": "Matchday takings 2026-11-21",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Tea and coffee"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 77.5,
+   "Balance": 0,
+   "Status": "Paid"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "9861",
+   "DocNumber": "CC-55120",
+   "VendorRef": {
+    "value": "9821",
+    "name": "Cash and Carry Merrow"
+   },
+   "TxnDate": "2026-11-05",
+   "DueDate": "2026-11-05",
+   "Line": [
+    {
+     "Amount": 64.2,
+     "Description": "Tea, coffee, biscuits",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Tea bar stock",
+       "value": "99"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 64.2,
+   "Balance": 0,
+   "PrivateNote": "Paid by card."
+  }
+ ],
+ "payments": [],
+ "estimates": [],
+ "expenses": []
+}

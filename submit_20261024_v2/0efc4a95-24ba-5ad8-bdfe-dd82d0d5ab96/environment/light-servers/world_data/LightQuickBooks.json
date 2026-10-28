@@ -1,0 +1,444 @@
+{
+ "vendors": [
+  {
+   "Id": "511",
+   "DisplayName": "Aire Valley Stationers",
+   "PrimaryEmailAddr": {
+    "Address": "orders@airevalleystationers.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0113 496 0711"
+   },
+   "Balance": 742.95,
+   "Active": true,
+   "Notes": "Exercise books, pens and art paper."
+  },
+  {
+   "Id": "512",
+   "DisplayName": "Holmbrook Fresh Foods",
+   "PrimaryEmailAddr": {
+    "Address": "accounts@holmbrookfresh.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0113 496 0722"
+   },
+   "Balance": 2102.1,
+   "Active": true,
+   "Notes": "Fruit, vegetables and dairy for the canteen."
+  },
+  {
+   "Id": "513",
+   "DisplayName": "Wharfedale Copier Leasing",
+   "PrimaryEmailAddr": {
+    "Address": "billing@wharfedalecopiers.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0113 496 0733"
+   },
+   "Balance": 960.0,
+   "Active": true,
+   "Notes": "Lease and click charges for the six copiers."
+  },
+  {
+   "Id": "514",
+   "DisplayName": "Calder Grounds Maintenance",
+   "PrimaryEmailAddr": {
+    "Address": "invoices@caldergrounds.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0113 496 0744"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Grass cutting and tree work on the school field."
+  },
+  {
+   "Id": "515",
+   "DisplayName": "Brightside Science Supplies",
+   "PrimaryEmailAddr": {
+    "Address": "sales@brightsidescience.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "0113 496 0755"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Chemicals, glassware and microscope slides."
+  }
+ ],
+ "bills": [
+  {
+   "Id": "5101",
+   "DocNumber": "AVS-20811",
+   "VendorRef": {
+    "value": "511",
+    "name": "Aire Valley Stationers"
+   },
+   "TxnDate": "2026-09-04",
+   "DueDate": "2026-10-04",
+   "Line": [
+    {
+     "Amount": 1487.2,
+     "Description": "Autumn exercise books and art paper",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Teaching resources",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1487.2,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2026-09-30."
+  },
+  {
+   "Id": "5102",
+   "DocNumber": "HFF-9031",
+   "VendorRef": {
+    "value": "512",
+    "name": "Holmbrook Fresh Foods"
+   },
+   "TxnDate": "2026-10-30",
+   "DueDate": "2026-11-29",
+   "Line": [
+    {
+     "Amount": 2214.65,
+     "Description": "Canteen produce, October",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Catering",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2214.65,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2026-11-27."
+  },
+  {
+   "Id": "5103",
+   "DocNumber": "PCL-5512",
+   "VendorRef": {
+    "value": "513",
+    "name": "Wharfedale Copier Leasing"
+   },
+   "TxnDate": "2026-10-01",
+   "DueDate": "2026-10-31",
+   "Line": [
+    {
+     "Amount": 960.0,
+     "Description": "Copier lease and clicks, quarter to December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Premises",
+       "value": "63"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 960.0,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2026-10-29."
+  },
+  {
+   "Id": "5104",
+   "DocNumber": "CGM-0445",
+   "VendorRef": {
+    "value": "514",
+    "name": "Calder Grounds Maintenance"
+   },
+   "TxnDate": "2026-11-12",
+   "DueDate": "2026-12-12",
+   "Line": [
+    {
+     "Amount": 640.0,
+     "Description": "Leaf clearance and pruning of the field boundary",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Premises",
+       "value": "63"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 640.0,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2026-12-10."
+  },
+  {
+   "Id": "5105",
+   "DocNumber": "BSS-7720",
+   "VendorRef": {
+    "value": "515",
+    "name": "Brightside Science Supplies"
+   },
+   "TxnDate": "2026-11-19",
+   "DueDate": "2026-12-19",
+   "Line": [
+    {
+     "Amount": 388.4,
+     "Description": "Microscope slides and copper sulfate",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Teaching resources",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 388.4,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2026-12-17."
+  },
+  {
+   "Id": "5106",
+   "DocNumber": "HFF-9107",
+   "VendorRef": {
+    "value": "512",
+    "name": "Holmbrook Fresh Foods"
+   },
+   "TxnDate": "2026-12-18",
+   "DueDate": "2027-01-17",
+   "Line": [
+    {
+     "Amount": 1879.3,
+     "Description": "Canteen produce, December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Catering",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1879.3,
+   "Balance": 0,
+   "PrivateNote": "Paid in the BACS run of 2027-01-22."
+  },
+  {
+   "Id": "5107",
+   "DocNumber": "AVS-21033",
+   "VendorRef": {
+    "value": "511",
+    "name": "Aire Valley Stationers"
+   },
+   "TxnDate": "2027-01-08",
+   "DueDate": "2027-02-07",
+   "Line": [
+    {
+     "Amount": 742.95,
+     "Description": "Spring term pens, glue sticks and A3 card",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Teaching resources",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 742.95,
+   "Balance": 742.95,
+   "PrivateNote": "Due in the next BACS run."
+  },
+  {
+   "Id": "5108",
+   "DocNumber": "HFF-9188",
+   "VendorRef": {
+    "value": "512",
+    "name": "Holmbrook Fresh Foods"
+   },
+   "TxnDate": "2027-01-29",
+   "DueDate": "2027-02-28",
+   "Line": [
+    {
+     "Amount": 2102.1,
+     "Description": "Canteen produce, January",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Catering",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2102.1,
+   "Balance": 2102.1,
+   "PrivateNote": "Due in the next BACS run."
+  },
+  {
+   "Id": "5109",
+   "DocNumber": "PCL-5604",
+   "VendorRef": {
+    "value": "513",
+    "name": "Wharfedale Copier Leasing"
+   },
+   "TxnDate": "2027-01-04",
+   "DueDate": "2027-02-03",
+   "Line": [
+    {
+     "Amount": 960.0,
+     "Description": "Copier lease and clicks, quarter to March",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Premises",
+       "value": "63"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 960.0,
+   "Balance": 960.0,
+   "PrivateNote": "Due in the next BACS run."
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "5151",
+   "TxnDate": "2026-10-07",
+   "TotalAmt": 23.5,
+   "Line": [
+    {
+     "Description": "Batteries for the sports hall clocks",
+     "Amount": 23.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-07T11:00:00"
+   }
+  },
+  {
+   "Id": "5152",
+   "TxnDate": "2026-12-03",
+   "TotalAmt": 36.8,
+   "Line": [
+    {
+     "Description": "Mince pies for the volunteers' thank-you",
+     "Amount": 36.8
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-12-03T11:00:00"
+   }
+  },
+  {
+   "Id": "5153",
+   "TxnDate": "2027-01-26",
+   "TotalAmt": 54.99,
+   "Line": [
+    {
+     "Description": "Replacement kettle, staff room",
+     "Amount": 54.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2027-01-26T11:00:00"
+   }
+  }
+ ],
+ "bill_payments": [
+  {
+   "Id": "BP-KRA-01",
+   "PayType": "Check",
+   "DocNumber": "BACS-71230",
+   "TxnDate": "2026-09-30",
+   "TotalAmt": 1487.2,
+   "VendorRef": {
+    "value": "511",
+    "name": "Aire Valley Stationers"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  },
+  {
+   "Id": "BP-KRA-02",
+   "PayType": "Check",
+   "DocNumber": "BACS-71231",
+   "TxnDate": "2026-11-27",
+   "TotalAmt": 2214.65,
+   "VendorRef": {
+    "value": "512",
+    "name": "Holmbrook Fresh Foods"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  },
+  {
+   "Id": "BP-KRA-03",
+   "PayType": "Check",
+   "DocNumber": "BACS-71232",
+   "TxnDate": "2026-10-29",
+   "TotalAmt": 960.0,
+   "VendorRef": {
+    "value": "513",
+    "name": "Wharfedale Copier Leasing"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  },
+  {
+   "Id": "BP-KRA-04",
+   "PayType": "Check",
+   "DocNumber": "BACS-71233",
+   "TxnDate": "2026-12-10",
+   "TotalAmt": 640.0,
+   "VendorRef": {
+    "value": "514",
+    "name": "Calder Grounds Maintenance"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  },
+  {
+   "Id": "BP-KRA-05",
+   "PayType": "Check",
+   "DocNumber": "BACS-71234",
+   "TxnDate": "2026-12-17",
+   "TotalAmt": 388.4,
+   "VendorRef": {
+    "value": "515",
+    "name": "Brightside Science Supplies"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  },
+  {
+   "Id": "BP-KRA-06",
+   "PayType": "Check",
+   "DocNumber": "BACS-71235",
+   "TxnDate": "2027-01-22",
+   "TotalAmt": 1879.3,
+   "VendorRef": {
+    "value": "512",
+    "name": "Holmbrook Fresh Foods"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2101",
+     "name": "Kestrel Ridge Academy main account"
+    }
+   }
+  }
+ ]
+}

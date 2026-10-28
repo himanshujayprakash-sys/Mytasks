@@ -1,0 +1,2953 @@
+{
+ "order": [
+  "TSF-2203",
+  "TSF-2208",
+  "TSF-2215",
+  "TSF-2222",
+  "TSF-2290",
+  "TSF-2201",
+  "TSF-2205",
+  "TSF-2206",
+  "TSF-2211",
+  "TSF-2214",
+  "TSF-2216",
+  "TSF-2219",
+  "TSF-2224",
+  "TSF-2227",
+  "TSF-2230",
+  "TSF-2233",
+  "TSF-2236",
+  "TSF-2238",
+  "TSF-2240",
+  "TSF-2202",
+  "TSF-2204",
+  "TSF-2239",
+  "TSF-2207",
+  "TSF-2209",
+  "TSF-2244",
+  "TSF-2210",
+  "TSF-2212",
+  "TSF-2213",
+  "TSF-2217",
+  "TSF-2218",
+  "TSF-2220",
+  "TSF-2221",
+  "TSF-2223",
+  "TSF-2225",
+  "TSF-2226",
+  "TSF-2228",
+  "TSF-2229",
+  "TSF-2231",
+  "TSF-2232",
+  "TSF-2234",
+  "TSF-2235",
+  "TSF-2237",
+  "TSF-2241",
+  "TSF-2242",
+  "TSF-2243",
+  "TSF-2245",
+  "TSF-2246",
+  "TSF-2247",
+  "TSF-2248"
+ ],
+ "result": {
+  "TSF-2203": {
+   "status": "Loaded",
+   "lane": "M1",
+   "deck": "Main",
+   "fare": "110.67",
+   "calc": {
+    "charged_length": "10.5",
+    "rate": "12.40",
+    "length_charge": "130.20",
+    "rebate": "45.57",
+    "surcharge": "26.04",
+    "fare": "110.67",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2208": {
+   "status": "Loaded",
+   "lane": "M2",
+   "deck": "Main",
+   "fare": "34.32",
+   "calc": {
+    "charged_length": "5.5",
+    "rate": "9.60",
+    "length_charge": "52.80",
+    "rebate": "18.48",
+    "surcharge": "0.00",
+    "fare": "34.32",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2215": {
+   "status": "Loaded",
+   "lane": "M2",
+   "deck": "Main",
+   "fare": "108.81",
+   "calc": {
+    "charged_length": "13.5",
+    "rate": "12.40",
+    "length_charge": "167.40",
+    "rebate": "58.59",
+    "surcharge": "0.00",
+    "fare": "108.81",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2222": {
+   "status": "Loaded",
+   "lane": "M2",
+   "deck": "Main",
+   "fare": "37.44",
+   "calc": {
+    "charged_length": "6.0",
+    "rate": "9.60",
+    "length_charge": "57.60",
+    "rebate": "20.16",
+    "surcharge": "0.00",
+    "fare": "37.44",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2290": {
+   "status": "Loaded",
+   "lane": "M1",
+   "deck": "Main",
+   "fare": "126.48",
+   "calc": {
+    "charged_length": "12.0",
+    "rate": "12.40",
+    "length_charge": "148.80",
+    "rebate": "52.08",
+    "surcharge": "29.76",
+    "fare": "126.48",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2201": {
+   "status": "Loaded",
+   "lane": "M2",
+   "deck": "Main",
+   "fare": "204.60",
+   "calc": {
+    "charged_length": "16.5",
+    "rate": "12.40",
+    "length_charge": "204.60",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "204.60",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2205": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "173.60",
+   "calc": {
+    "charged_length": "14.0",
+    "rate": "12.40",
+    "length_charge": "173.60",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "173.60",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2206": {
+   "status": "Loaded",
+   "lane": "M2",
+   "deck": "Main",
+   "fare": "67.20",
+   "calc": {
+    "charged_length": "7.0",
+    "rate": "9.60",
+    "length_charge": "67.20",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "67.20",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2211": {
+   "status": "Loaded",
+   "lane": "M1",
+   "deck": "Main",
+   "fare": "148.80",
+   "calc": {
+    "charged_length": "10.0",
+    "rate": "12.40",
+    "length_charge": "124.00",
+    "rebate": "0.00",
+    "surcharge": "24.80",
+    "fare": "148.80",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2214": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "117.80",
+   "calc": {
+    "charged_length": "9.5",
+    "rate": "12.40",
+    "length_charge": "117.80",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "117.80",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2216": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "93.00",
+   "calc": {
+    "charged_length": "7.5",
+    "rate": "12.40",
+    "length_charge": "93.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "93.00",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2219": {
+   "status": "Refused - DG declaration not valid",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "9.0",
+    "rate": "12.40",
+    "length_charge": "111.60",
+    "rebate": "0.00",
+    "surcharge": "22.32",
+    "fare": "133.92",
+    "band": "over 3.00 m"
+   },
+   "why": "declaration signed by R. Fennimore on 2026-12-04, struck off the Appendix D register on 2026-11-30"
+  },
+  "TSF-2224": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "105.40",
+   "calc": {
+    "charged_length": "8.5",
+    "rate": "12.40",
+    "length_charge": "105.40",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "105.40",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2227": {
+   "status": "Loaded",
+   "lane": "M4",
+   "deck": "Main",
+   "fare": "173.60",
+   "calc": {
+    "charged_length": "14.0",
+    "rate": "12.40",
+    "length_charge": "173.60",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "173.60",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2230": {
+   "status": "Loaded",
+   "lane": "M4",
+   "deck": "Main",
+   "fare": "136.40",
+   "calc": {
+    "charged_length": "11.0",
+    "rate": "12.40",
+    "length_charge": "136.40",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "136.40",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2233": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "46.80",
+   "calc": {
+    "charged_length": "6.0",
+    "rate": "7.80",
+    "length_charge": "46.80",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "46.80",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2236": {
+   "status": "Refused - outside vessel limits",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "12.0",
+    "rate": "12.40",
+    "length_charge": "148.80",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "148.80",
+    "band": "over 3.00 m"
+   },
+   "why": "height 4.95 m exceeds every lane's clearance"
+  },
+  "TSF-2238": {
+   "status": "Refused - DG declaration not valid",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "6.5",
+    "rate": "9.60",
+    "length_charge": "62.40",
+    "rebate": "0.00",
+    "surcharge": "12.48",
+    "fare": "74.88",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": "declaration scan carries no signature and no date of signing"
+  },
+  "TSF-2240": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "14.5",
+    "rate": "12.40",
+    "length_charge": "179.80",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "179.80",
+    "band": "over 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2202": {
+   "status": "Loaded",
+   "lane": "U1",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2204": {
+   "status": "Loaded",
+   "lane": "M4",
+   "deck": "Main",
+   "fare": "48.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "9.60",
+    "length_charge": "48.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "48.00",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2239": {
+   "status": "Loaded",
+   "lane": "U1",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2207": {
+   "status": "Loaded",
+   "lane": "U1",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2209": {
+   "status": "Loaded",
+   "lane": "M4",
+   "deck": "Main",
+   "fare": "48.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "9.60",
+    "length_charge": "48.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "48.00",
+    "band": "over 2.10 m up to 3.00 m"
+   },
+   "why": ""
+  },
+  "TSF-2244": {
+   "status": "Loaded",
+   "lane": "U1",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2210": {
+   "status": "Loaded",
+   "lane": "U2",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2212": {
+   "status": "Cancelled by customer",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2213": {
+   "status": "Loaded",
+   "lane": "U2",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2217": {
+   "status": "Loaded",
+   "lane": "U2",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2218": {
+   "status": "Loaded",
+   "lane": "U2",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2220": {
+   "status": "Loaded",
+   "lane": "U3",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2221": {
+   "status": "Loaded",
+   "lane": "U3",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2223": {
+   "status": "Loaded",
+   "lane": "U3",
+   "deck": "Upper",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2225": {
+   "status": "Loaded",
+   "lane": "U3",
+   "deck": "Upper",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2226": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2228": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2229": {
+   "status": "Loaded",
+   "lane": "M3",
+   "deck": "Main",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2231": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2232": {
+   "status": "Loaded",
+   "lane": "M4",
+   "deck": "Main",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2234": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2235": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "35.10",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2237": {
+   "status": "Loaded",
+   "lane": "M5",
+   "deck": "Main",
+   "fare": "39.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2241": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2242": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2243": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2245": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2246": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2247": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "4.5",
+    "rate": "7.80",
+    "length_charge": "35.10",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "35.10",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  },
+  "TSF-2248": {
+   "status": "Overflow - next sailing",
+   "lane": null,
+   "deck": null,
+   "fare": "0.00",
+   "calc": {
+    "charged_length": "5.0",
+    "rate": "7.80",
+    "length_charge": "39.00",
+    "rebate": "0.00",
+    "surcharge": "0.00",
+    "fare": "39.00",
+    "band": "up to 2.10 m"
+   },
+   "why": ""
+  }
+ },
+ "trace": [
+  {
+   "ref": "TSF-2203",
+   "outcome": "Loaded",
+   "lane": "M1",
+   "rejects": [
+    [
+     "U1",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U2",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U3",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U4",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2208",
+   "outcome": "Loaded",
+   "lane": "M2",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 2.40 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 2.40 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 2.40 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2215",
+   "outcome": "Loaded",
+   "lane": "M2",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 4.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 4.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 4.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2222",
+   "outcome": "Loaded",
+   "lane": "M2",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 2.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 2.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 2.45 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2290",
+   "outcome": "Loaded",
+   "lane": "M1",
+   "rejects": [
+    [
+     "U1",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U2",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U3",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U4",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2201",
+   "outcome": "Loaded",
+   "lane": "M2",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 4.30 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 4.30 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 4.30 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2205",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 4.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 4.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 4.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 57.6 m of 52.0 m usable; 43.4 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2206",
+   "outcome": "Loaded",
+   "lane": "M2",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 2.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 2.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 2.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2211",
+   "outcome": "Loaded",
+   "lane": "M1",
+   "rejects": [
+    [
+     "U1",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U2",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U3",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ],
+    [
+     "U4",
+     "DLS-4 s3: a vehicle carrying dangerous goods goes only in lane M1"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2214",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 3.60 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 3.60 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 3.60 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 60.9 m of 52.0 m usable; 50.8 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2216",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 3.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 3.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 3.05 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 58.6 m of 52.0 m usable; 50.8 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2219",
+   "outcome": "Refused - DG declaration not valid",
+   "lane": null,
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2224",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 3.50 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 3.50 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 3.50 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 59.6 m of 52.0 m usable; 50.8 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2227",
+   "outcome": "Loaded",
+   "lane": "M4",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 4.00 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 4.00 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 4.00 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 65.0 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 55.1 m of 52.0 m usable; 40.9 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2230",
+   "outcome": "Loaded",
+   "lane": "M4",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 4.10 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 4.10 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 4.10 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 62.4 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 52.5 m of 52.0 m usable; 40.9 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2233",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 3640 kg is over the 3500 kg hoistable deck weight limit"
+    ],
+    [
+     "U2",
+     "vehicle 3640 kg is over the 3500 kg hoistable deck weight limit"
+    ],
+    [
+     "U3",
+     "vehicle 3640 kg is over the 3500 kg hoistable deck weight limit"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 57.0 m of 52.0 m usable; 50.8 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2236",
+   "outcome": "Refused - outside vessel limits",
+   "lane": null,
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2238",
+   "outcome": "Refused - DG declaration not valid",
+   "lane": null,
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2240",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "vehicle 3.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 3.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 3.90 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 65.9 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 62.2 m of 52.0 m usable; 47.1 m already used"
+    ],
+    [
+     "M4",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2202",
+   "outcome": "Loaded",
+   "lane": "U1",
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2204",
+   "outcome": "Loaded",
+   "lane": "M4",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 2.35 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 2.35 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 2.35 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.1 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 52.4 m of 52.0 m usable; 47.1 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2239",
+   "outcome": "Loaded",
+   "lane": "U1",
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2207",
+   "outcome": "Loaded",
+   "lane": "U1",
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2209",
+   "outcome": "Loaded",
+   "lane": "M4",
+   "rejects": [
+    [
+     "U1",
+     "vehicle 2.25 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U2",
+     "vehicle 2.25 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U3",
+     "vehicle 2.25 m is over the 2.10 m hoistable deck clearance"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.2 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 52.5 m of 52.0 m usable; 47.1 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2244",
+   "outcome": "Loaded",
+   "lane": "U1",
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2210",
+   "outcome": "Loaded",
+   "lane": "U2",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.3 m of 24.0 m usable; 20.4 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2212",
+   "outcome": "Cancelled by customer",
+   "lane": null,
+   "rejects": []
+  },
+  {
+   "ref": "TSF-2213",
+   "outcome": "Loaded",
+   "lane": "U2",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.5 m of 24.0 m usable; 20.4 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2217",
+   "outcome": "Loaded",
+   "lane": "U2",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.2 m of 24.0 m usable; 20.4 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2218",
+   "outcome": "Loaded",
+   "lane": "U2",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2220",
+   "outcome": "Loaded",
+   "lane": "U3",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.7 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.3 m of 24.0 m usable; 20.0 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2221",
+   "outcome": "Loaded",
+   "lane": "U3",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.2 m of 24.0 m usable; 20.0 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2223",
+   "outcome": "Loaded",
+   "lane": "U3",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.4 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.0 m of 24.0 m usable; 20.0 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2225",
+   "outcome": "Loaded",
+   "lane": "U3",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.8 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.4 m of 24.0 m usable; 20.0 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2226",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.5 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.1 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.0 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.9 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 52.2 m of 52.0 m usable; 47.1 m already used"
+    ],
+    [
+     "M4",
+     "needs 41.6 m of 41.5 m usable; 36.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2228",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.2 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.1 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.0 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 52.3 m of 52.0 m usable; 47.1 m already used"
+    ],
+    [
+     "M4",
+     "needs 41.7 m of 41.5 m usable; 36.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2229",
+   "outcome": "Loaded",
+   "lane": "M3",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.3 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 24.9 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 25.8 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.7 m of 52.0 m usable; 50.8 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2231",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.7 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.3 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.2 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.1 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.3 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 41.8 m of 41.5 m usable; 36.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2232",
+   "outcome": "Loaded",
+   "lane": "M4",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.4 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.0 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 25.9 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.8 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.0 m of 52.0 m usable; 52.0 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2234",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.2 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.1 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.0 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.2 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.7 m of 41.5 m usable; 41.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2235",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.5 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.1 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.0 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.9 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.1 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.6 m of 41.5 m usable; 41.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2237",
+   "outcome": "Loaded",
+   "lane": "M5",
+   "rejects": [
+    [
+     "U1",
+     "needs 25.8 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.4 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.3 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.2 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.4 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.9 m of 41.5 m usable; 41.5 m already used"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2241",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.2 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.1 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.0 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.2 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.7 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2242",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.7 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.3 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.2 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.1 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.3 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.8 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2243",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.5 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.1 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.0 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.9 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.1 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.6 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2245",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.5 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.1 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.0 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.9 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.1 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.6 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2246",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.7 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.3 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.2 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.1 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.3 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.8 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2247",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.4 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.0 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 25.9 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 55.8 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.0 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.5 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  },
+  {
+   "ref": "TSF-2248",
+   "outcome": "Overflow - next sailing",
+   "lane": null,
+   "rejects": [
+    [
+     "U1",
+     "needs 25.6 m of 24.0 m usable; 20.4 m already used"
+    ],
+    [
+     "U2",
+     "needs 25.2 m of 24.0 m usable; 20.0 m already used"
+    ],
+    [
+     "U3",
+     "needs 26.1 m of 24.0 m usable; 20.9 m already used"
+    ],
+    [
+     "U4",
+     "lane out of use - chief engineer's notice 2026-12-09 (hoist section 4 failed its check)"
+    ],
+    [
+     "M1",
+     "lane M1 is the dangerous goods lane and takes nothing else"
+    ],
+    [
+     "M2",
+     "needs 56.0 m of 52.0 m usable; 50.8 m already used"
+    ],
+    [
+     "M3",
+     "needs 57.2 m of 52.0 m usable; 52.0 m already used"
+    ],
+    [
+     "M4",
+     "needs 46.7 m of 41.5 m usable; 41.5 m already used"
+    ],
+    [
+     "M5",
+     "would take the deck past the 290000 kg vehicle deadweight"
+    ]
+   ]
+  }
+ ],
+ "lane_used": {
+  "U1": "20.4",
+  "U2": "20.0",
+  "U3": "20.9",
+  "U4": "0",
+  "M1": "34.3",
+  "M2": "50.8",
+  "M3": "52.0",
+  "M4": "41.5",
+  "M5": "31.3"
+ },
+ "lane_left": {
+  "U1": "3.6",
+  "U2": "4.0",
+  "U3": "3.1",
+  "U4": "24.0",
+  "M1": "1.7",
+  "M2": "1.2",
+  "M3": "0.0",
+  "M4": "0.0",
+  "M5": "20.7"
+ },
+ "lane_contents": {
+  "U1": [
+   "TSF-2202",
+   "TSF-2239",
+   "TSF-2207",
+   "TSF-2244"
+  ],
+  "U2": [
+   "TSF-2210",
+   "TSF-2213",
+   "TSF-2217",
+   "TSF-2218"
+  ],
+  "U3": [
+   "TSF-2220",
+   "TSF-2221",
+   "TSF-2223",
+   "TSF-2225"
+  ],
+  "U4": [],
+  "M1": [
+   "TSF-2203",
+   "TSF-2290",
+   "TSF-2211"
+  ],
+  "M2": [
+   "TSF-2208",
+   "TSF-2215",
+   "TSF-2222",
+   "TSF-2201",
+   "TSF-2206"
+  ],
+  "M3": [
+   "TSF-2205",
+   "TSF-2214",
+   "TSF-2216",
+   "TSF-2224",
+   "TSF-2233",
+   "TSF-2229"
+  ],
+  "M4": [
+   "TSF-2227",
+   "TSF-2230",
+   "TSF-2204",
+   "TSF-2209",
+   "TSF-2232"
+  ],
+  "M5": [
+   "TSF-2226",
+   "TSF-2228",
+   "TSF-2231",
+   "TSF-2234",
+   "TSF-2235",
+   "TSF-2237"
+  ]
+ },
+ "placed_weight": 288970,
+ "vehicles": {
+  "TSF-2203": {
+   "kind": "tanker",
+   "length": "10.5",
+   "height": "3.70",
+   "weight": 19500,
+   "cargo": "heating kerosene for Ronsay school and the care home",
+   "dg": {
+    "un": "UN1223",
+    "cls": "3"
+   },
+   "booked": "2026-10-08T08:30",
+   "mobile": "+447700960074",
+   "ticket": "41003",
+   "lifeline": true,
+   "amend": [
+    "weight 26,000 -> 19,500 kg (account customer wrote on freight account ticket 43002, 2026-12-10 14:35, CoC 4.2)"
+   ],
+   "group": 0
+  },
+  "TSF-2208": {
+   "kind": "van",
+   "length": "5.4",
+   "height": "2.40",
+   "weight": 3200,
+   "cargo": "medical supplies and pharmacy order for the health centre",
+   "dg": null,
+   "booked": "2026-10-15T11:20",
+   "mobile": "+447700960259",
+   "ticket": "41008",
+   "lifeline": true,
+   "amend": [],
+   "group": 0
+  },
+  "TSF-2215": {
+   "kind": "livestock lorry",
+   "length": "13.2",
+   "height": "4.45",
+   "weight": 24000,
+   "cargo": "sheep returning to the island farms",
+   "dg": null,
+   "booked": "2026-10-26T06:50",
+   "mobile": "+447700960518",
+   "ticket": "41015",
+   "lifeline": true,
+   "amend": [],
+   "group": 0
+  },
+  "TSF-2222": {
+   "kind": "van",
+   "length": "5.9",
+   "height": "2.45",
+   "weight": 3300,
+   "cargo": "island mail and parcels",
+   "dg": null,
+   "booked": "2026-11-04T07:15",
+   "mobile": "+447700960777",
+   "ticket": "41022",
+   "lifeline": true,
+   "amend": [
+    "height 2.05 -> 2.45 m (account driver, freight messaging line, 2026-12-10 17:05, CoC 4.2)"
+   ],
+   "group": 0
+  },
+  "TSF-2290": {
+   "kind": "tanker",
+   "length": "12.0",
+   "height": "3.80",
+   "weight": 31600,
+   "cargo": "diesel for the island power station",
+   "dg": {
+    "un": "UN1202",
+    "cls": "3"
+   },
+   "booked": "2026-12-10T16:40",
+   "mobile": "+447700955290",
+   "ticket": "",
+   "lifeline": true,
+   "amend": [
+    "late freight-desk booking by mail (msg-f62b5ced17); booking time = time of mail",
+    "weight 32,000 -> 31,600 kg (weighbridge reading WR-80206)"
+   ],
+   "group": 0
+  },
+  "TSF-2201": {
+   "kind": "rigid lorry",
+   "length": "16.5",
+   "height": "4.30",
+   "weight": 43900,
+   "cargo": "groceries and chilled goods for Ronsay Stores",
+   "dg": null,
+   "booked": "2026-10-05T09:12",
+   "mobile": "+447700960000",
+   "ticket": "41001",
+   "lifeline": false,
+   "amend": [
+    "weight 36,000 -> 43,900 kg (reading WR-80195 as restated by the signed weighbridge closeout correction, 2026-12-11 17:55; the morning log export and the pre-closeout table both showed 36,400 kg)"
+   ],
+   "group": 1
+  },
+  "TSF-2205": {
+   "kind": "articulated lorry",
+   "length": "13.6",
+   "height": "4.05",
+   "weight": 30200,
+   "cargo": "timber and blockwork",
+   "dg": null,
+   "booked": "2026-10-12T10:05",
+   "mobile": "+447700960148",
+   "ticket": "41005",
+   "lifeline": false,
+   "amend": [
+    "weight 30,500 -> 30,200 kg (weighbridge reading WR-80204)"
+   ],
+   "group": 1
+  },
+  "TSF-2206": {
+   "kind": "campervan",
+   "length": "6.8",
+   "height": "2.90",
+   "weight": 3650,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-13T12:44",
+   "mobile": "+447700960185",
+   "ticket": "41006",
+   "lifeline": false,
+   "amend": [],
+   "group": 1
+  },
+  "TSF-2211": {
+   "kind": "rigid lorry",
+   "length": "10.0",
+   "height": "3.90",
+   "weight": 11200,
+   "cargo": "swimming pool chemicals",
+   "dg": {
+    "un": "UN1791",
+    "cls": "8"
+   },
+   "booked": "2026-10-20T09:45",
+   "mobile": "+447700960370",
+   "ticket": "41011",
+   "lifeline": false,
+   "amend": [
+    "DG UN1748 class 5.1 -> UN1791 class 8 (named DG safety adviser K. Ferrier in writing, 2026-12-04 10:20, DLS-4 s4)"
+   ],
+   "group": 1
+  },
+  "TSF-2214": {
+   "kind": "rigid lorry",
+   "length": "9.5",
+   "height": "3.60",
+   "weight": 15200,
+   "cargo": "fish feed in bags",
+   "dg": null,
+   "booked": "2026-10-23T14:00",
+   "mobile": "+447700960481",
+   "ticket": "41014",
+   "lifeline": false,
+   "amend": [
+    "weight 15,000 -> 15,200 kg (weighbridge reading WR-80212)"
+   ],
+   "group": 1
+  },
+  "TSF-2216": {
+   "kind": "campervan",
+   "length": "7.2",
+   "height": "3.05",
+   "weight": 3790,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-27T17:35",
+   "mobile": "+447700960555",
+   "ticket": "41016",
+   "lifeline": false,
+   "amend": [
+    "weight 3,800 -> 3,790 kg (weighbridge reading WR-80220)"
+   ],
+   "group": 1
+  },
+  "TSF-2219": {
+   "kind": "rigid lorry",
+   "length": "8.6",
+   "height": "3.40",
+   "weight": 14000,
+   "cargo": "cleaning acids in drums",
+   "dg": {
+    "un": "UN1760",
+    "cls": "8"
+   },
+   "booked": "2026-10-30T10:30",
+   "mobile": "+447700960666",
+   "ticket": "41019",
+   "lifeline": false,
+   "amend": [],
+   "group": 1
+  },
+  "TSF-2224": {
+   "kind": "skip lorry",
+   "length": "8.2",
+   "height": "3.50",
+   "weight": 16900,
+   "cargo": "empty skips",
+   "dg": null,
+   "booked": "2026-11-06T08:40",
+   "mobile": "+447700960851",
+   "ticket": "41024",
+   "lifeline": false,
+   "amend": [
+    "weight 21,000 -> 16,900 kg (latest weighbridge reading WR-80241, 2026-12-11 16:35; not on the morning log export)",
+    "length change to 9.4 m DISREGARDED (freight line 2026-12-11 19:10, after the 18:00 deadline, CoC 4.2)"
+   ],
+   "group": 1
+  },
+  "TSF-2227": {
+   "kind": "tipper",
+   "length": "13.6",
+   "height": "4.00",
+   "weight": 28600,
+   "cargo": "crushed stone for the pier road",
+   "dg": null,
+   "booked": "2026-11-11T09:30",
+   "mobile": "+447700960962",
+   "ticket": "41027",
+   "lifeline": false,
+   "amend": [
+    "length 10.0 -> 13.6 m (customer wrote on ticket 41027, 2026-12-10 15:20, CoC 4.2)",
+    "weight 28,000 -> 28,600 kg (weighbridge reading WR-80205)"
+   ],
+   "group": 1
+  },
+  "TSF-2230": {
+   "kind": "removal lorry",
+   "length": "11.0",
+   "height": "4.10",
+   "weight": 15800,
+   "cargo": "household furniture",
+   "dg": null,
+   "booked": "2026-11-16T09:00",
+   "mobile": "+447700961073",
+   "ticket": "41030",
+   "lifeline": false,
+   "amend": [
+    "weight 16,000 -> 15,800 kg (weighbridge reading WR-80214)"
+   ],
+   "group": 1
+  },
+  "TSF-2233": {
+   "kind": "van",
+   "length": "5.6",
+   "height": "2.05",
+   "weight": 3640,
+   "cargo": "joinery tools and kitchen units",
+   "dg": null,
+   "booked": "2026-11-19T13:20",
+   "mobile": "+447700961184",
+   "ticket": "41033",
+   "lifeline": false,
+   "amend": [
+    "weight 3,400 -> 3,640 kg (weighbridge reading WR-80165)"
+   ],
+   "group": 1
+  },
+  "TSF-2236": {
+   "kind": "lorry with boat",
+   "length": "12.0",
+   "height": "4.95",
+   "weight": 17000,
+   "cargo": "fishing boat on a cradle",
+   "dg": null,
+   "booked": "2026-11-24T10:15",
+   "mobile": "+447700961295",
+   "ticket": "41036",
+   "lifeline": false,
+   "amend": [],
+   "group": 1
+  },
+  "TSF-2238": {
+   "kind": "van",
+   "length": "6.4",
+   "height": "2.60",
+   "weight": 3480,
+   "cargo": "lithium batteries for the wind farm",
+   "dg": {
+    "un": "UN3480",
+    "cls": "9"
+   },
+   "booked": "2026-11-26T08:55",
+   "mobile": "+447700961369",
+   "ticket": "41038",
+   "lifeline": false,
+   "amend": [],
+   "group": 1
+  },
+  "TSF-2240": {
+   "kind": "low loader",
+   "length": "14.5",
+   "height": "3.90",
+   "weight": 44600,
+   "cargo": "tracked excavator for the pier works",
+   "dg": null,
+   "booked": "2026-11-30T07:40",
+   "mobile": "+447700961443",
+   "ticket": "41040",
+   "lifeline": false,
+   "amend": [
+    "weight 44,000 -> 44,600 kg (weighbridge reading WR-80198)"
+   ],
+   "group": 1
+  },
+  "TSF-2202": {
+   "kind": "car",
+   "length": "4.4",
+   "height": "1.52",
+   "weight": 1480,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-06T19:40",
+   "mobile": "+447700960037",
+   "ticket": "41002",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2204": {
+   "kind": "car",
+   "length": "4.7",
+   "height": "2.35",
+   "weight": 1620,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-09T21:15",
+   "mobile": "+447700960111",
+   "ticket": "41004",
+   "lifeline": false,
+   "amend": [
+    "height 1.49 -> 2.35 m, roof box (customer wrote on ticket 41004, 2026-12-09 12:30, CoC 4.2)"
+   ],
+   "group": 2
+  },
+  "TSF-2207": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.55",
+   "weight": 1550,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-14T07:58",
+   "mobile": "+447700960222",
+   "ticket": "41007",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2209": {
+   "kind": "car",
+   "length": "4.8",
+   "height": "2.25",
+   "weight": 1900,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-16T18:02",
+   "mobile": "+447700960296",
+   "ticket": "41009",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2210": {
+   "kind": "car",
+   "length": "4.3",
+   "height": "1.48",
+   "weight": 1390,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-19T20:30",
+   "mobile": "+447700960333",
+   "ticket": "41010",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2213": {
+   "kind": "car",
+   "length": "4.5",
+   "height": "1.51",
+   "weight": 1500,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-22T08:25",
+   "mobile": "+447700960444",
+   "ticket": "41013",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2217": {
+   "kind": "car",
+   "length": "4.2",
+   "height": "1.45",
+   "weight": 1350,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-28T09:05",
+   "mobile": "+447700960592",
+   "ticket": "41017",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2218": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.56",
+   "weight": 1600,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-29T22:14",
+   "mobile": "+447700960629",
+   "ticket": "41018",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2220": {
+   "kind": "car",
+   "length": "4.7",
+   "height": "1.50",
+   "weight": 1700,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-02T12:00",
+   "mobile": "+447700960703",
+   "ticket": "41020",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2221": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.54",
+   "weight": 1580,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-03T16:45",
+   "mobile": "+447700960740",
+   "ticket": "41021",
+   "lifeline": false,
+   "amend": [
+    "length change to 7.6 m DISREGARDED (ticket 41021, 2026-12-11 19:20, after the 18:00 deadline, CoC 4.2)"
+   ],
+   "group": 2
+  },
+  "TSF-2223": {
+   "kind": "car",
+   "length": "4.4",
+   "height": "1.47",
+   "weight": 1450,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-05T19:25",
+   "mobile": "+447700960814",
+   "ticket": "41023",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2225": {
+   "kind": "car",
+   "length": "4.8",
+   "height": "1.58",
+   "weight": 1760,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-09T10:10",
+   "mobile": "+447700960888",
+   "ticket": "41025",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2226": {
+   "kind": "car",
+   "length": "4.5",
+   "height": "1.53",
+   "weight": 1520,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-10T15:55",
+   "mobile": "+447700960925",
+   "ticket": "41026",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2228": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.49",
+   "weight": 1610,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-12T20:40",
+   "mobile": "+447700960999",
+   "ticket": "41028",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2229": {
+   "kind": "car",
+   "length": "4.3",
+   "height": "1.50",
+   "weight": 1420,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-13T11:05",
+   "mobile": "+447700961036",
+   "ticket": "41029",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2231": {
+   "kind": "car",
+   "length": "4.7",
+   "height": "1.55",
+   "weight": 1690,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-17T18:30",
+   "mobile": "+447700961110",
+   "ticket": "41031",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2232": {
+   "kind": "car",
+   "length": "4.4",
+   "height": "1.52",
+   "weight": 1470,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-18T08:05",
+   "mobile": "+447700961147",
+   "ticket": "41032",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2234": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.51",
+   "weight": 1560,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-20T21:05",
+   "mobile": "+447700961221",
+   "ticket": "41034",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2235": {
+   "kind": "car",
+   "length": "4.5",
+   "height": "1.54",
+   "weight": 1500,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-23T09:50",
+   "mobile": "+447700961258",
+   "ticket": "41035",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2237": {
+   "kind": "car",
+   "length": "4.8",
+   "height": "1.57",
+   "weight": 1780,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-11-25T14:30",
+   "mobile": "+447700961332",
+   "ticket": "41037",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2239": {
+   "kind": "car",
+   "length": "4.4",
+   "height": "1.48",
+   "weight": 1440,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-11T19:00",
+   "mobile": "+447700961406",
+   "ticket": "41039",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2241": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.50",
+   "weight": 1590,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-01T12:25",
+   "mobile": "+447700961480",
+   "ticket": "41041",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2242": {
+   "kind": "car",
+   "length": "4.7",
+   "height": "1.56",
+   "weight": 1700,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-02T17:10",
+   "mobile": "+447700961517",
+   "ticket": "41042",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2243": {
+   "kind": "car",
+   "length": "4.5",
+   "height": "1.49",
+   "weight": 1510,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-03T09:35",
+   "mobile": "+447700961554",
+   "ticket": "41043",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2244": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.53",
+   "weight": 1620,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-18T08:00",
+   "mobile": "+447700961591",
+   "ticket": "41044",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2245": {
+   "kind": "car",
+   "length": "4.5",
+   "height": "1.50",
+   "weight": 1530,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-05T10:20",
+   "mobile": "+447700961628",
+   "ticket": "41045",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2246": {
+   "kind": "car",
+   "length": "4.7",
+   "height": "1.55",
+   "weight": 1660,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-06T18:45",
+   "mobile": "+447700961665",
+   "ticket": "41046",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2247": {
+   "kind": "car",
+   "length": "4.4",
+   "height": "1.47",
+   "weight": 1460,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-07T09:15",
+   "mobile": "+447700961702",
+   "ticket": "41047",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2248": {
+   "kind": "car",
+   "length": "4.6",
+   "height": "1.52",
+   "weight": 1570,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-12-08T13:30",
+   "mobile": "+447700961739",
+   "ticket": "41048",
+   "lifeline": false,
+   "amend": [],
+   "group": 2
+  },
+  "TSF-2212": {
+   "kind": "car",
+   "length": "4.9",
+   "height": "1.60",
+   "weight": 1840,
+   "cargo": "",
+   "dg": null,
+   "booked": "2026-10-21T13:10",
+   "mobile": "+447700960407",
+   "ticket": "41012",
+   "lifeline": false,
+   "amend": [
+    "cancelled by the customer on ticket 41012, 2026-12-11 09:05, before the 18:00 deadline (CoC 4.2)"
+   ],
+   "group": 2
+  }
+ }
+}

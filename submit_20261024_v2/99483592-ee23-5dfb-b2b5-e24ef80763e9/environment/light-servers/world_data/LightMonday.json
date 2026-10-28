@@ -1,0 +1,243 @@
+{
+ "workspaces": [
+  {
+   "workspace_id": "ws-gwp-art",
+   "name": "Art department",
+   "kind": "open",
+   "description": "Builds and dressing"
+  }
+ ],
+ "boards": [
+  {
+   "board_id": "board-gwp-builds",
+   "name": "Block 6 builds",
+   "board_kind": "public",
+   "description": "Set builds and dressing for block 6.",
+   "state": "active",
+   "workspace_id": "ws-gwp-art"
+  }
+ ],
+ "groups": [
+  {
+   "group_id": "grp-gwp-done",
+   "board_id": "board-gwp-builds",
+   "title": "Done",
+   "color": "#00c875",
+   "position": 0
+  },
+  {
+   "group_id": "grp-gwp-build",
+   "board_id": "board-gwp-builds",
+   "title": "Building",
+   "color": "#fdab3d",
+   "position": 1
+  },
+  {
+   "group_id": "grp-gwp-next",
+   "board_id": "board-gwp-builds",
+   "title": "Next",
+   "color": "#579bfc",
+   "position": 2
+  }
+ ],
+ "columns": [
+  {
+   "column_id": "status",
+   "board_id": "board-gwp-builds",
+   "title": "Status",
+   "type": "status",
+   "position": 0
+  },
+  {
+   "column_id": "person",
+   "board_id": "board-gwp-builds",
+   "title": "Owner",
+   "type": "people",
+   "position": 1
+  },
+  {
+   "column_id": "date",
+   "board_id": "board-gwp-builds",
+   "title": "Due",
+   "type": "date",
+   "position": 2
+  }
+ ],
+ "users": [
+  {
+   "user_id": "mu-gwp-01",
+   "name": "Esme Farquharson",
+   "email": "esme.farquharson@crew.greyfriarswharf.example",
+   "title": "Art director",
+   "is_admin": true
+  },
+  {
+   "user_id": "mu-gwp-02",
+   "name": "Vivienne Lacroix",
+   "email": "vivienne.lacroix@crew.greyfriarswharf.example",
+   "title": "Props buyer",
+   "is_admin": false
+  },
+  {
+   "user_id": "mu-gwp-03",
+   "name": "Teodor Lisowski",
+   "email": "teodor.lisowski@crew.greyfriarswharf.example",
+   "title": "Dressing props",
+   "is_admin": false
+  }
+ ],
+ "items": [
+  {
+   "item_id": "item-gwp-001",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-done",
+   "name": "Apothecary shop front",
+   "created_at": "2026-10-20T09:00:00Z"
+  },
+  {
+   "item_id": "item-gwp-002",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-build",
+   "name": "Lamplighter's hut interior",
+   "created_at": "2026-10-27T09:00:00Z"
+  },
+  {
+   "item_id": "item-gwp-003",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-build",
+   "name": "Victorian gas lamps x6 (practical)",
+   "created_at": "2026-11-02T09:00:00Z"
+  },
+  {
+   "item_id": "item-gwp-004",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-next",
+   "name": "Market stalls for the square",
+   "created_at": "2026-11-09T09:00:00Z"
+  },
+  {
+   "item_id": "item-gwp-005",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-done",
+   "name": "Period shop signs, Tannery Row",
+   "created_at": "2026-10-30T09:00:00Z"
+  },
+  {
+   "item_id": "item-gwp-006",
+   "board_id": "board-gwp-builds",
+   "group_id": "grp-gwp-next",
+   "name": "Coal merchant's cart",
+   "created_at": "2026-11-16T09:00:00Z"
+  }
+ ],
+ "column_values": [
+  {
+   "item_id": "item-gwp-001",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-001",
+   "column_id": "person",
+   "text": "Esme Farquharson",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-001",
+   "column_id": "date",
+   "text": "2026-11-06",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-002",
+   "column_id": "status",
+   "text": "Working on it",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-002",
+   "column_id": "person",
+   "text": "Teodor Lisowski",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-002",
+   "column_id": "date",
+   "text": "2026-11-27",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-003",
+   "column_id": "status",
+   "text": "Working on it",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-003",
+   "column_id": "person",
+   "text": "Vivienne Lacroix",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-003",
+   "column_id": "date",
+   "text": "2026-11-24",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-004",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-004",
+   "column_id": "person",
+   "text": "Teodor Lisowski",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-004",
+   "column_id": "date",
+   "text": "2026-12-04",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-005",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-005",
+   "column_id": "person",
+   "text": "Teodor Lisowski",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-005",
+   "column_id": "date",
+   "text": "2026-11-13",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-006",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-006",
+   "column_id": "person",
+   "text": "Vivienne Lacroix",
+   "value": null
+  },
+  {
+   "item_id": "item-gwp-006",
+   "column_id": "date",
+   "text": "2026-12-08",
+   "value": null
+  }
+ ]
+}

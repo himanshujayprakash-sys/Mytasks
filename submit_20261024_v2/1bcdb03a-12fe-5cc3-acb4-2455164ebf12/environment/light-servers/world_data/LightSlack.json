@@ -1,0 +1,1608 @@
+{
+ "team": {
+  "domain": "northlightsummit",
+  "id": "T9NLS",
+  "name": "Northlight Summit"
+ },
+ "users": [
+  {
+   "id": "U9CHAIR",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "imogen.vale",
+   "presence": "away",
+   "profile": {
+    "email": "chair@northlightsummit.test"
+   },
+   "real_name": "Imogen Vale"
+  },
+  {
+   "id": "U9PROG",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "dev.okonkwo",
+   "presence": "away",
+   "profile": {
+    "email": "programme@northlightsummit.test"
+   },
+   "real_name": "Dev Okonkwo"
+  },
+  {
+   "id": "U9HOTEL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "rosa.lind",
+   "presence": "away",
+   "profile": {
+    "email": "hotels@northlightsummit.test"
+   },
+   "real_name": "Rosa Lind"
+  },
+  {
+   "id": "U9TOM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tomasz.kerr",
+   "presence": "away",
+   "profile": {
+    "email": "finance@northlightsummit.test"
+   },
+   "real_name": "Tomasz Kerr"
+  },
+  {
+   "id": "U9AV",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "kit.arden",
+   "presence": "away",
+   "profile": {
+    "email": "av@northlightsummit.test"
+   },
+   "real_name": "Kit Arden"
+  },
+  {
+   "id": "U9VOL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "sunniva.holt",
+   "presence": "away",
+   "profile": {
+    "email": "volunteers@northlightsummit.test"
+   },
+   "real_name": "Sunniva Holt"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1788000000,
+   "creator": "U9PROG",
+   "id": "C9PROG",
+   "is_archived": false,
+   "is_private": false,
+   "name": "programme",
+   "num_members": 6,
+   "purpose": "Programme changes for Northlight Summit 2026",
+   "topic": "Programme changes for Northlight Summit 2026"
+  },
+  {
+   "created": 1788000000,
+   "creator": "U9PROG",
+   "id": "C9LOGI",
+   "is_archived": false,
+   "is_private": false,
+   "name": "logistics",
+   "num_members": 6,
+   "purpose": "Venue, AV and travel",
+   "topic": "Venue, AV and travel"
+  },
+  {
+   "created": 1788000000,
+   "creator": "U9PROG",
+   "id": "C9RAND",
+   "is_archived": false,
+   "is_private": false,
+   "name": "random",
+   "num_members": 6,
+   "purpose": "Anything else",
+   "topic": "Anything else"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9RAND",
+   "user_id": "U9VOL"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793600680.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793602296.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793603759.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793605603.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793607256.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793609084.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793610453.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793612486.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793614430.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793616147.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793617592.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793619047.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793620810.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793622745.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793624107.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793626375.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793627691.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793629183.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793631038.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793632491.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793634803.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793636513.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793637992.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793639605.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793641575.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793643238.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793644264.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793646293.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793648469.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793649606.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793651772.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793653237.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793654606.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793656650.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793658066.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793659677.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793661629.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793663303.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793665107.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793667168.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793668097.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793670176.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793672163.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793673217.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793675632.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793677348.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793678369.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793679971.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793682371.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793683608.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793685336.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793686807.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793688807.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793690366.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793692166.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793693808.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793695960.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793697491.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793698626.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793700720.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793702576.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793704531.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793705422.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793707602.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793709065.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793711124.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793712432.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793714566.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793716068.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793717986.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793719345.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793720737.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793722414.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793724290.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793726320.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793728035.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793729301.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793731687.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793733079.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793734633.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793736721.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793738119.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793740120.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793741258.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793743484.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793745246.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793747089.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793748675.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793749978.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793751591.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793753077.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793755266.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793756998.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793758303.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793760676.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793762150.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793763926.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793765656.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793767183.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793769175.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793770565.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793772580.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793774079.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793775856.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793777614.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793779262.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793780553.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793782761.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793783994.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793785608.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793787317.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793789344.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793790815.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793792869.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793794222.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793795502.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793797794.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793799324.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793801279.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793803137.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793804629.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793806074.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the keys for the storage cage?",
+   "thread_ts": null,
+   "ts": "1793807767.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793809561.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793811029.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793813178.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793814942.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793816648.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793818135.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Signage proofs attached for review.",
+   "thread_ts": null,
+   "ts": "1793819336.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793821456.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793822716.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Coffee order confirmed for all three days.",
+   "thread_ts": null,
+   "ts": "1793825082.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793826577.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793828556.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shuttle timetable is in the logistics folder.",
+   "thread_ts": null,
+   "ts": "1793829906.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793831859.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793833154.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793834732.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Volunteer briefing at 9 on the 23rd.",
+   "thread_ts": null,
+   "ts": "1793837198.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793838305.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793839740.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Wifi codes go in the welcome pack.",
+   "thread_ts": null,
+   "ts": "1793841623.000000",
+   "user_id": "U9HOTEL"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Room 2 projector is fixed.",
+   "thread_ts": null,
+   "ts": "1793843543.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793845028.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1793846893.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9RAND",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Speaker ready room moved to level 1.",
+   "thread_ts": null,
+   "ts": "1793848219.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lanyards arrive Friday.",
+   "thread_ts": null,
+   "ts": "1793850296.000000",
+   "user_id": "U9TOM"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Badge printing test went fine.",
+   "thread_ts": null,
+   "ts": "1793851730.000000",
+   "user_id": "U9VOL"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone check the stage plan for day two?",
+   "thread_ts": null,
+   "ts": "1793853431.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 3,
+   "text": "Keynote line-up check before we print the programme: reply in this thread with any change to a keynote slot.",
+   "thread_ts": null,
+   "ts": "1793855300.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Keynote 2 needs a lapel mic, noted on the AV sheet.",
+   "thread_ts": "1793855300.000000",
+   "ts": "1793855900.000000",
+   "user_id": "U9AV"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "SP-560 (Lena Costa) has withdrawn from the summit after a family emergency. Please take them out of the programme and do not house them.",
+   "thread_ts": "1793855300.000000",
+   "ts": "1793859500.000000",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Understood, programme updated.",
+   "thread_ts": "1793855300.000000",
+   "ts": "1793860400.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "Programme committee update for the speakers desk, details in the thread.",
+   "thread_ts": null,
+   "ts": "1794422280.000000",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "SP-609 (Oona Pohl) has withdrawn from the summit: please take them out of the programme and do not house them.",
+   "thread_ts": "1794422280.000000",
+   "ts": "1794422400.000000",
+   "user_id": "U9CHAIR"
+  },
+  {
+   "channel_id": "C9PROG",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Noted, I'll update the app tonight.",
+   "thread_ts": "1794422280.000000",
+   "ts": "1794423720.000000",
+   "user_id": "U9PROG"
+  },
+  {
+   "channel_id": "C9LOGI",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Heard on the grapevine that SP-582 might not make it, anyone know?",
+   "thread_ts": null,
+   "ts": "1793862300.000000",
+   "user_id": "U9HOTEL"
+  }
+ ]
+}

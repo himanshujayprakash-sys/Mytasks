@@ -1,0 +1,325 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 51,
+      "passed": 24,
+      "failed": 27,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.302326,
+      "weighted_percentage": 30.23
+    },
+    "tests": [
+      {
+        "name": "test_procedures_read",
+        "status": "passed",
+        "duration": 22,
+        "weight": 1
+      },
+      {
+        "name": "test_claims_table_read_in_full",
+        "status": "passed",
+        "duration": 39,
+        "weight": 1
+      },
+      {
+        "name": "test_crew_records_read_after_the_first_save",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_feed_read_after_the_amendment",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_claim_lines_all_right",
+        "status": "failed",
+        "duration": 12,
+        "weight": 5
+      },
+      {
+        "name": "test_leave_line_rejected",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_turnaround_after_the_leave_day",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_latest_own_correction_on_the_line",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_corrected_wrap_carries_into_turnaround",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_mailed_correction_on_the_line",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_acting_up_lines_paid_at_the_role_on_the_record",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_relayed_and_chat_times_not_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_requested_leave_line_stands",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_welfare_referrals_all_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_payroll_mail_carries_the_total",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_location_days_all_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_grant_letter_day_not_covered",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_phone_agreed_bays_on_the_row",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_suspended_permit_days_not_covered",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_pending_permit_day_not_covered",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_day_outside_permit_dates_not_covered",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_notices_all_right",
+        "status": "failed",
+        "duration": 3,
+        "weight": 5
+      },
+      {
+        "name": "test_kestrel_hill_residents_not_contacted",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_tannery_row_texts_give_the_cleared_dates",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_opted_out_resident_gets_a_letter",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_enquiry_replies_all_right",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_kestrel_hill_replies_say_no_filming",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_tannery_row_replies_follow_the_grant_letter",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_headline_all_right",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_all_rows_right",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_dossier_all_days_right",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_page_hours_bridge",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_page_department_split",
+        "status": "failed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_sorts_and_filters",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_files_read_back",
+        "status": "passed",
+        "duration": 19,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_overtime_total",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_council_fees",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_line_counts",
+        "status": "passed",
+        "duration": 5,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_notice_counts",
+        "status": "failed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_the_welfare_tie",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_hours_bridge",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_claim_coverage_passes_075",
+        "status": "failed",
+        "duration": 25,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_with_the_rows_worked",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_texted_someone_who_opted_out",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_crew_call_line_used_for_notices",
+        "status": "failed",
+        "duration": 2,
+        "weight": -1
+      },
+      {
+        "name": "test_guard_claims_record_damaged",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_location_record_damaged",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_resident_notified_twice",
+        "status": "failed",
+        "duration": 0,
+        "weight": -1
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "status": "failed",
+        "duration": 4,
+        "weight": -3
+      }
+    ]
+  }
+}

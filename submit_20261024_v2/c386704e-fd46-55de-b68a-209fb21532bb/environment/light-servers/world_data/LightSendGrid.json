@@ -1,0 +1,121 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-tj01",
+   "to_email": "jade.penketh@mailbox.example",
+   "from_email": "noreply@thornwickjuniors.example",
+   "subject": "Your taster session is booked",
+   "template_id": "d-tjd18050ca",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-08T10:00:00Z"
+  },
+  {
+   "message_id": "msg-tj02",
+   "to_email": "tunde.okonedo@homemail.example",
+   "from_email": "noreply@thornwickjuniors.example",
+   "subject": "Your taster session is booked",
+   "template_id": "d-tjd18050ca",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-09T11:00:00Z"
+  },
+  {
+   "message_id": "msg-tj03",
+   "to_email": "kim.gaskell@inbox.example",
+   "from_email": "noreply@thornwickjuniors.example",
+   "subject": "Your taster session is booked",
+   "template_id": "d-tjd18050ca",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-15T09:30:00Z"
+  },
+  {
+   "message_id": "msg-tj04",
+   "to_email": "laura.prest@mailbox.example",
+   "from_email": "noreply@thornwickjuniors.example",
+   "subject": "Your taster session is booked",
+   "template_id": "d-tjd18050ca",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-20T18:10:00Z"
+  },
+  {
+   "message_id": "msg-tj05",
+   "to_email": "ciara.byrne@inbox.example",
+   "from_email": "noreply@thornwickjuniors.example",
+   "subject": "Your taster session is booked",
+   "template_id": "d-tjd18050ca",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-23T20:00:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-tj00",
+   "email": "jade.penketh@mailbox.example",
+   "first_name": "Jade",
+   "last_name": "Penketh",
+   "country": "GB",
+   "list_ids": [
+    "list-tj-tasters"
+   ],
+   "created_at": "2026-11-08T10:00:00Z",
+   "updated_at": "2026-11-08T10:00:00Z"
+  },
+  {
+   "id": "contact-tj01",
+   "email": "tunde.okonedo@homemail.example",
+   "first_name": "Tunde",
+   "last_name": "Okonedo",
+   "country": "GB",
+   "list_ids": [
+    "list-tj-tasters"
+   ],
+   "created_at": "2026-11-09T11:00:00Z",
+   "updated_at": "2026-11-09T11:00:00Z"
+  },
+  {
+   "id": "contact-tj02",
+   "email": "kim.gaskell@inbox.example",
+   "first_name": "Kim",
+   "last_name": "Gaskell",
+   "country": "GB",
+   "list_ids": [
+    "list-tj-tasters"
+   ],
+   "created_at": "2026-11-15T09:30:00Z",
+   "updated_at": "2026-11-15T09:30:00Z"
+  },
+  {
+   "id": "contact-tj03",
+   "email": "laura.prest@mailbox.example",
+   "first_name": "Laura",
+   "last_name": "Prest",
+   "country": "GB",
+   "list_ids": [
+    "list-tj-tasters"
+   ],
+   "created_at": "2026-11-20T18:10:00Z",
+   "updated_at": "2026-11-20T18:10:00Z"
+  },
+  {
+   "id": "contact-tj04",
+   "email": "ciara.byrne@inbox.example",
+   "first_name": "Ciara",
+   "last_name": "Byrne",
+   "country": "GB",
+   "list_ids": [
+    "list-tj-tasters"
+   ],
+   "created_at": "2026-11-23T20:00:00Z",
+   "updated_at": "2026-11-23T20:00:00Z"
+  }
+ ]
+}

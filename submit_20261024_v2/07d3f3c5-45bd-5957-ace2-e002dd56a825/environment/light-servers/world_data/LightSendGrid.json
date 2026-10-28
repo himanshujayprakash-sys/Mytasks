@@ -1,0 +1,267 @@
+{
+ "contacts": [
+  {
+   "id": "contact-agm-01",
+   "email": "ruby.ellwood@student.example",
+   "first_name": "Ruby",
+   "last_name": "Ellwood",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-21T10:00:00Z",
+   "updated_at": "2026-10-12T09:30:00Z"
+  },
+  {
+   "id": "contact-agm-02",
+   "email": "k.asante@student.example",
+   "first_name": "Kwame",
+   "last_name": "Asante",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-22T10:00:00Z",
+   "updated_at": "2026-10-12T09:31:00Z"
+  },
+  {
+   "id": "contact-agm-03",
+   "email": "lorcan.breen@student.example",
+   "first_name": "Lorcan",
+   "last_name": "Breen",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-24T10:00:00Z",
+   "updated_at": "2026-10-12T09:32:00Z"
+  },
+  {
+   "id": "contact-agm-04",
+   "email": "tilly.m@student.example",
+   "first_name": "Tilly",
+   "last_name": "Marsden",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-25T10:00:00Z",
+   "updated_at": "2026-10-12T09:33:00Z"
+  },
+  {
+   "id": "contact-agm-05",
+   "email": "farah.siddiq@student.example",
+   "first_name": "Farah",
+   "last_name": "Siddiq",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-28T10:00:00Z",
+   "updated_at": "2026-10-12T09:34:00Z"
+  },
+  {
+   "id": "contact-agm-06",
+   "email": "jem.oyelaran@student.example",
+   "first_name": "Jem",
+   "last_name": "Oyelaran",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-29T10:00:00Z",
+   "updated_at": "2026-09-29T10:00:00Z"
+  },
+  {
+   "id": "contact-agm-07",
+   "email": "hattie.crook@student.example",
+   "first_name": "Hattie",
+   "last_name": "Crook",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-09-30T10:00:00Z",
+   "updated_at": "2026-10-16T15:00:00Z"
+  },
+  {
+   "id": "contact-agm-08",
+   "email": "idris.mcvey@student.example",
+   "first_name": "Idris",
+   "last_name": "McVey",
+   "country": "GB",
+   "list_ids": [
+    "list-agm-grads27"
+   ],
+   "created_at": "2026-10-01T10:00:00Z",
+   "updated_at": "2026-10-16T15:01:00Z"
+  }
+ ],
+ "sent_log": [
+  {
+   "message_id": "msg-agm-01",
+   "to_email": "ruby.ellwood@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-09-21T10:12:00Z"
+  },
+  {
+   "message_id": "msg-agm-02",
+   "to_email": "k.asante@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-09-22T14:30:00Z"
+  },
+  {
+   "message_id": "msg-agm-03",
+   "to_email": "lorcan.breen@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 3,
+   "clicks": 1,
+   "sent_at": "2026-09-24T09:05:00Z"
+  },
+  {
+   "message_id": "msg-agm-04",
+   "to_email": "tilly.m@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-09-25T16:40:00Z"
+  },
+  {
+   "message_id": "msg-agm-05",
+   "to_email": "farah.siddiq@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-09-28T11:20:00Z"
+  },
+  {
+   "message_id": "msg-agm-06",
+   "to_email": "jem.oyelaran@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-09-29T08:55:00Z"
+  },
+  {
+   "message_id": "msg-agm-07",
+   "to_email": "hattie.crook@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-09-30T13:15:00Z"
+  },
+  {
+   "message_id": "msg-agm-08",
+   "to_email": "idris.mcvey@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "We have your graduate scheme application",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "message_id": "msg-agm-09",
+   "to_email": "ruby.ellwood@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Invitation to a first interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 3,
+   "clicks": 2,
+   "sent_at": "2026-10-12T09:30:00Z"
+  },
+  {
+   "message_id": "msg-agm-10",
+   "to_email": "k.asante@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Invitation to a first interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-10-12T09:31:00Z"
+  },
+  {
+   "message_id": "msg-agm-11",
+   "to_email": "lorcan.breen@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Invitation to a first interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-10-12T09:32:00Z"
+  },
+  {
+   "message_id": "msg-agm-12",
+   "to_email": "tilly.m@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Invitation to a first interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-10-12T09:33:00Z"
+  },
+  {
+   "message_id": "msg-agm-13",
+   "to_email": "farah.siddiq@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Invitation to a first interview",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-10-12T09:34:00Z"
+  },
+  {
+   "message_id": "msg-agm-14",
+   "to_email": "hattie.crook@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Thank you for applying",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-16T15:00:00Z"
+  },
+  {
+   "message_id": "msg-agm-15",
+   "to_email": "idris.mcvey@student.example",
+   "from_email": "careers@ashgrovemutual.test",
+   "subject": "Thank you for applying",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-16T15:01:00Z"
+  }
+ ]
+}

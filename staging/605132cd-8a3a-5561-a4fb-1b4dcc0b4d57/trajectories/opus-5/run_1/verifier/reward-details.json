@@ -1,0 +1,331 @@
+{
+  "pytest": {
+    "score": 0.2895,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.2895,
+        "raw": 0.289474,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 22 of 76, charged 0; missed 30: test_plot_table_reread_after_register_written, test_register_all_rows_right, test_register_bm27_rent, test_register_hl38_rent, test_register_hl17_rent, test_missing_line_created, test_duplicate_line_removed, test_notices_sent, test_offer_w1018_rent, test_offer_w1019_rent, test_offer_w1008_rent, test_offers_after_register_written, test_offer_notice_recorded, test_audience, test_page_headline_in_full, test_page_split_figures, test_page_table_rents, test_page_bridge_anchors, test_page_table_rows_and_sorting, test_reconciliation_rows, test_reconciliation_bm27, test_reconciliation_hl38, test_reconciliation_hl17, test_reconciliation_offer_sequence, test_final_answer_states_rent, test_final_answer_states_split, test_final_answer_walks_bridge, test_final_answer_states_plots_let, test_final_answer_states_waiting, test_final_answer_states_corrections"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.6857,
+    "criteria": [
+      {
+        "id": "9",
+        "name": "j-final-note-says-bm",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08571428571428572,
+        "description": "[final answer] The final note says BM-27, HL-38 and HL-17 were re-measured in the plot table during the round and that their rents follow the new areas.",
+        "reasoning": "The final_message.md does not say BM-27, HL-38, and HL-17 were re-measured in the plot table during the round or that their rents follow new areas."
+      },
+      {
+        "id": "12",
+        "name": "j-final-note-says-round",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the round was worked under the second edition of WDC-AL-02.",
+        "reasoning": "Section 2 of final_message.md explicitly says: \u201cWDC-AL-02, second edition\u201d and \u201cthe second edition governs.\u201d"
+      },
+      {
+        "id": "19",
+        "name": "j-final-note-says-exceptions",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08571428571428572,
+        "description": "[final answer] The final note gives the kind of each exception raised: priority evidence not valid for W-1008 and W-1012, and duplicate application for W-1047.",
+        "reasoning": "Section 5 of final_message.md lists EX-209 for W-1008 and EX-210 for W-1012 as \u201cPriority evidence not valid,\u201d and EX-211 for W-1047 as \u201cDuplicate application.\u201d"
+      },
+      {
+        "id": "20",
+        "name": "j-final-note-says-w",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08571428571428572,
+        "description": "[final answer] The final note gives the reason each let applicant was sent no offer: W-1013 has not opted in, W-1016 is under a contact hold until 23 November 2026 and W-1020 asked us to stop messaging.",
+        "reasoning": "Section 6 of final_message.md says W-1013 was \u201cNot opted in,\u201d W-1016 had a contact hold through \u201c2026-11-23,\u201d and W-1020 asked the office to \u201cstop messaging.\u201d"
+      },
+      {
+        "id": "22",
+        "name": "j-final-note-says-head",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08571428571428572,
+        "description": "[final answer] The final note says the Head of Parks' ruling that BM-27 goes to W-1033 does not stand, because W-1033 is band C, and that BM-27 went to W-1018 in turn.",
+        "reasoning": "Although section 8 rejects the ruling because W-1033 is band C, it says \u201cBM-27 fell to W-1022 in band B,\u201d not W-1018."
+      },
+      {
+        "id": "23",
+        "name": "j-final-note-says-chat",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat view that the corrigendum's 22.00 water charge applies does not stand, because the corrigendum commences in 2028.",
+        "reasoning": "Sections 2 and 8 of final_message.md reject the \u00a322 water view because Corrigendum 1 \u201ccommences 2028-01-01\u201d; water remains \u00a316 for 2027."
+      },
+      {
+        "id": "24",
+        "name": "j-final-note-says-chat-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat view that a pole is 30 square metres does not stand, because the schedule converts a pole at 25.29 square metres.",
+        "reasoning": "Section 8 rejects the 30-square-metre view and cites the schedule: \u201c1 pole = 25.29 m\u00b2.\u201d"
+      },
+      {
+        "id": "25",
+        "name": "j-final-note-says-w-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1008 is not band A because her assessment certificate EV-3108 is unsigned.",
+        "reasoning": "Sections 7 and 8 state EV-3108 is unsigned and undated, so W-1008 is \u201cnot band A.\u201d"
+      },
+      {
+        "id": "26",
+        "name": "j-final-note-says-bm-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says BM-41 was withdrawn from letting because of the site warden's comment on its handback inspection record.",
+        "reasoning": "The final note says BM-41 was let to W-1016, not withdrawn because of a site warden\u2019s handback-inspection comment."
+      },
+      {
+        "id": "27",
+        "name": "j-final-note-says-hl",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says HL-33 was withdrawn from letting because of the site warden's addendum on its handback inspection record.",
+        "reasoning": "The final note says W-1005 took HL-33 and includes its rent and water charge; it does not say HL-33 was withdrawn because of a site warden\u2019s addendum."
+      },
+      {
+        "id": "28",
+        "name": "j-final-note-says-quarry",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the Quarry Field closure in works notice EWN-14 was cancelled on the parks works calendar, so the Quarry Field plots were offered.",
+        "reasoning": "Section 7 says the Parks works calendar entry was cancelled on 2026-10-27, \u201cno Quarry Field plot was withdrawn,\u201d and QF-07 and QF-15 were let."
+      },
+      {
+        "id": "29",
+        "name": "j-final-note-says-w-4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1001's written change through the parks helpdesk (Brook Meadow as well as Hollins Lane) changed the round.",
+        "reasoning": "Section 7 says W-1001\u2019s parks-helpdesk request changed her choice to \u201cBrook Meadow as well as Hollins Lane\u201d and \u201cput her in line for Brook Meadow.\u201d"
+      },
+      {
+        "id": "30",
+        "name": "j-final-note-says-w-5",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1015's text to the office's SMS reminder line asking to come off the list changed the round.",
+        "reasoning": "Section 7 says W-1015 texted the office SMS line asking to come off the list and that this \u201ccost us the raised beds.\u201d"
+      },
+      {
+        "id": "32",
+        "name": "n-final-note-gives-hollins",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.08571428571428572,
+        "description": "[final answer] The final note states 490.80 or 495.84 pounds as Hollins Lane's 2027 rent, or 438.60 pounds as Brook Meadow's, rather than citing it as a superseded figure.",
+        "reasoning": "The final note states Hollins Lane rent as \u00a3564.40 and Brook Meadow rent as \u00a3515.88, not \u00a3490.80, \u00a3495.84, or \u00a3438.60."
+      },
+      {
+        "id": "35",
+        "name": "j-note-flat-45-view",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat view that last year's 45 a plot will do does not stand, because the 2027 schedule of charges prices each plot by its area at its site's rate.",
+        "reasoning": "Section 8 rejects \u201c45 a plot like last year\u201d because Schedule of Charges 2027 section 1 uses \u201carea \u00d7 site rate, plus water, less concession.\u201d"
+      },
+      {
+        "id": "36",
+        "name": "j-note-raised-beds-view",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat view that raised beds can go to anyone this year does not stand, because the policy offers raised beds to band A applicants only.",
+        "reasoning": "Section 8 rejects the view that raised beds can go to anyone, stating: \u201craised beds to band A only; otherwise held for accessible letting.\u201d"
+      },
+      {
+        "id": "37",
+        "name": "j-note-bm46-ruling",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08571428571428572,
+        "description": "[final answer] The final note says the Head of Parks' ruling to let the raised bed BM-46 to W-1002 does not stand, because raised beds go to band A applicants only.",
+        "reasoning": "Section 8 rejects the ruling to let BM-46 to W-1002 because \u201craised beds [are] band A only\u201d and W-1002 is band B."
+      },
+      {
+        "id": "38",
+        "name": "j-note-w1007-view",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat view that W-1007 is back on the list does not stand, because read by event time the change log has W-1007 lapsing after the reinstatement.",
+        "reasoning": "Sections 7 and 8 state event-time ordering puts W-1007\u2019s LAPSED event after REINSTATED, so \u201cHe is off the list.\u201d"
+      },
+      {
+        "id": "39",
+        "name": "j-note-ashworth-view",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says the chat idea of filling Ashworth's spare plots from our list does not stand, because Ashworth lets its plots from its own list only.",
+        "reasoning": "Section 8 rejects filling Ashworth plots from Wexcombe\u2019s list because \u201cAshworth lettings are made from the Ashworth list only.\u201d"
+      },
+      {
+        "id": "40",
+        "name": "j-note-papers-decided-nothing",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note lists papers that decided nothing, including last season's lettings report, the lettings crib sheet and Ashworth's vacancy list.",
+        "reasoning": "Section 9, \u201cPapers in the folders that decided nothing,\u201d includes the lettings crib sheet, last season\u2019s lettings report, and Ashworth Borough Council\u2019s vacancy list."
+      },
+      {
+        "id": "41",
+        "name": "j-note-w1005-water",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1005's written word that W-1005 no longer needs water (a trough) changed the round.",
+        "reasoning": "Section 7 says W-1005 wrote via WhatsApp that she \u201cno longer needs a trough,\u201d and that this is why she took HL-33."
+      },
+      {
+        "id": "42",
+        "name": "j-note-w1011-withdrawal",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1011's written request to come off the waiting list took W-1011 out of the round.",
+        "reasoning": "Section 7 says W-1011 asked via WhatsApp to come off the list \u201cfrom today\u201d and concludes: \u201cOff the list.\u201d"
+      },
+      {
+        "id": "43",
+        "name": "j-note-w1049-transfer",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says W-1049 was transferred from the parish council's list and ranked on the list date the parish recorded.",
+        "reasoning": "Section 7 says W-1049 transferred from the parish council list and clause 1 preserved the parish list date \u201c2019-06-01\u201d for ranking."
+      },
+      {
+        "id": "44",
+        "name": "j-note-bm30-surrender",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says household H-306's written surrender of BM-30 on 16 October 2026 made BM-30 a vacancy in the round.",
+        "reasoning": "Section 7 says BM-30 became vacant on 2026-10-16 through household H-306\u2019s written surrender and \u201cjoined the round.\u201d"
+      },
+      {
+        "id": "45",
+        "name": "j-note-bm19-notice",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says BM-19 came free by a notice to quit and was let in this round.",
+        "reasoning": "Section 7 says BM-19 became vacant when a notice to quit expired, \u201cjoined the round,\u201d and was let to W-1018."
+      },
+      {
+        "id": "46",
+        "name": "j-note-trough-changes",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.02857142857142857,
+        "description": "[final answer] The final note says HL-09's trough was taken out and a trough serving HL-17 was put in.",
+        "reasoning": "Section 7 says a trough serving \u201cHL-17 only\u201d was installed and the trough at HL-09 \u201cwas taken out.\u201d"
+      },
+      {
+        "id": "47",
+        "name": "n-note-head-of-parks-followed",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.08571428571428572,
+        "description": "[final answer] The final note says BM-27 was let to W-1033 or the raised bed BM-46 was let to W-1002, as the Head of Parks' rulings asked.",
+        "reasoning": "Section 8 explicitly rejects both rulings: BM-27 went to W-1022 rather than W-1033, and BM-46 was held rather than let to W-1002."
+      },
+      {
+        "id": "48",
+        "name": "n-note-list-sent-or-replied",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.14285714285714285,
+        "description": "[final answer] The final note says the lettings list was sent to the allotment society, the councillor was answered or a reply was posted in the office chat.",
+        "reasoning": "Section 8 explicitly says: \u201cI did not reply to the chat, did not answer the councillor, did not send the list to the society.\u201d"
+      },
+      {
+        "id": "49",
+        "name": "n-note-w1002-resubscribed",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.08571428571428572,
+        "description": "[final answer] The final note says W-1002 was added to the plot holders' news audience.",
+        "reasoning": "Section 6 explicitly says: \u201cW-1002 Bernard Ocampo was not added\u201d to the plot holders\u2019 news audience."
+      },
+      {
+        "id": "50",
+        "name": "n-note-wrong-total",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.08571428571428572,
+        "description": "[final answer] The final note states, as the 2027 rent invoiced, a figure other than 1058.36 pounds (for example 1061.49, 1043.17, 1031.00, 1037.53, 1042.36, 1069.45 or 1074.36), rather than citing it as a rejected or superseded figure.",
+        "reasoning": "Section 1 states \u201c2027 rent invoiced: \u00a31,194.05,\u201d which is a figure other than \u00a31,058.36 and is presented as the invoiced total."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "***********************",
+      "isolated": false,
+      "atif_trajectory": "***************************************",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\n  \"j-final-note-says-bm\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final_message.md does not say BM-27, HL-38, and HL-17 were re-measured in the plot table during the round or that their rents follow new areas.\"\n  },\n  \"j-final-note-says-round\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 2 of final_message.md explicitly says: \u201cWDC-AL-02, second edition\u201d and \u201cthe second edition governs.\u201d\"\n  },\n  \"j-final-note-says-exceptions\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 5 of final_message.md lists EX-209 for W-1008 and EX-210 for W-1012 as \u201cPriority evidence not valid,\u201d and EX-211 for W-1047 as \u201cDuplicate application.\u201d\"\n  },\n  \"j-final-note-says-w\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 6 of final_message.md says W-1013 was \u201cNot opted in,\u201d W-1016 had a contact hold through \u201c2026-11-23,\u201d and W-1020 asked the office to \u201cstop messaging.\u201d\"\n  },\n  \"j-final-note-says-head\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Although section 8 rejects the ruling because W-1033 is band C, it says \u201cBM-27 fell to W-1022 in band B,\u201d not W-1018.\"\n  },\n  \"j-final-note-says-chat\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Sections 2 and 8 of final_message.md reject the \u00a322 water view because Corrigendum 1 \u201ccommences 2028-01-01\u201d; water remains \u00a316 for 2027.\"\n  },\n  \"j-final-note-says-chat-2\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 8 rejects the 30-square-metre view and cites the schedule: \u201c1 pole = 25.29 m\u00b2.\u201d\"\n  },\n  \"j-final-note-says-w-3\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Sections 7 and 8 state EV-3108 is unsigned and undated, so W-1008 is \u201cnot band A.\u201d\"\n  },\n  \"j-final-note-says-bm-2\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final note says BM-41 was let to W-1016, not withdrawn because of a site warden\u2019s handback-inspection comment.\"\n  },\n  \"j-final-note-says-hl\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final note says W-1005 took HL-33 and includes its rent and water charge; it does not say HL-33 was withdrawn because of a site warden\u2019s addendum.\"\n  },\n  \"j-final-note-says-quarry\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says the Parks works calendar entry was cancelled on 2026-10-27, \u201cno Quarry Field plot was withdrawn,\u201d and QF-07 and QF-15 were let.\"\n  },\n  \"j-final-note-says-w-4\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says W-1001\u2019s parks-helpdesk request changed her choice to \u201cBrook Meadow as well as Hollins Lane\u201d and \u201cput her in line for Brook Meadow.\u201d\"\n  },\n  \"j-final-note-says-w-5\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says W-1015 texted the office SMS line asking to come off the list and that this \u201ccost us the raised beds.\u201d\"\n  },\n  \"n-final-note-gives-hollins\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final note states Hollins Lane rent as \u00a3564.40 and Brook Meadow rent as \u00a3515.88, not \u00a3490.80, \u00a3495.84, or \u00a3438.60.\"\n  },\n  \"j-note-flat-45-view\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 8 rejects \u201c45 a plot like last year\u201d because Schedule of Charges 2027 section 1 uses \u201carea \u00d7 site rate, plus water, less concession.\u201d\"\n  },\n  \"j-note-raised-beds-view\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 8 rejects the view that raised beds can go to anyone, stating: \u201craised beds to band A only; otherwise held for accessible letting.\u201d\"\n  },\n  \"j-note-bm46-ruling\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 8 rejects the ruling to let BM-46 to W-1002 because \u201craised beds [are] band A only\u201d and W-1002 is band B.\"\n  },\n  \"j-note-w1007-view\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Sections 7 and 8 state event-time ordering puts W-1007\u2019s LAPSED event after REINSTATED, so \u201cHe is off the list.\u201d\"\n  },\n  \"j-note-ashworth-view\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 8 rejects filling Ashworth plots from Wexcombe\u2019s list because \u201cAshworth lettings are made from the Ashworth list only.\u201d\"\n  },\n  \"j-note-papers-decided-nothing\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 9, \u201cPapers in the folders that decided nothing,\u201d includes the lettings crib sheet, last season\u2019s lettings report, and Ashworth Borough Council\u2019s vacancy list.\"\n  },\n  \"j-note-w1005-water\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says W-1005 wrote via WhatsApp that she \u201cno longer needs a trough,\u201d and that this is why she took HL-33.\"\n  },\n  \"j-note-w1011-withdrawal\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says W-1011 asked via WhatsApp to come off the list \u201cfrom today\u201d and concludes: \u201cOff the list.\u201d\"\n  },\n  \"j-note-w1049-transfer\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says W-1049 transferred from the parish council list and clause 1 preserved the parish list date \u201c2019-06-01\u201d for ranking.\"\n  },\n  \"j-note-bm30-surrender\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says BM-30 became vacant on 2026-10-16 through household H-306\u2019s written surrender and \u201cjoined the round.\u201d\"\n  },\n  \"j-note-bm19-notice\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says BM-19 became vacant when a notice to quit expired, \u201cjoined the round,\u201d and was let to W-1018.\"\n  },\n  \"j-note-trough-changes\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 7 says a trough serving \u201cHL-17 only\u201d was installed and the trough at HL-09 \u201cwas taken out.\u201d\"\n  },\n  \"n-note-head-of-parks-followed\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Section 8 explicitly rejects both rulings: BM-27 went to W-1022 rather than W-1033, and BM-46 was held rather than let to W-1002.\"\n  },\n  \"n-note-list-sent-or-replied\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Section 8 explicitly says: \u201cI did not reply to the chat, did not answer the councillor, did not send the list to the society.\u201d\"\n  },\n  \"n-note-w1002-resubscribed\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Section 6 explicitly says: \u201cW-1002 Bernard Ocampo was not added\u201d to the plot holders\u2019 news audience.\"\n  },\n  \"n-note-wrong-total\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"Section 1 states \u201c2027 rent invoiced: \u00a31,194.05,\u201d which is a figure other than \u00a31,058.36 and is presented as the invoiced total.\"\n  }\n}",
+    "usage": {
+      "input_tokens": 61812,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 40064,
+      "output_tokens": 3192,
+      "reasoning_output_tokens": 304,
+      "total_tokens": 65004,
+      "cost_usd": 0.1668576,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 61812,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 40064,
+          "output_tokens": 3192,
+          "reasoning_output_tokens": 304,
+          "total_tokens": 65004,
+          "cost_usd": 0.1668576
+        }
+      }
+    },
+    "judge_logs": [
+      "********************************************************************************"
+    ]
+  }
+}

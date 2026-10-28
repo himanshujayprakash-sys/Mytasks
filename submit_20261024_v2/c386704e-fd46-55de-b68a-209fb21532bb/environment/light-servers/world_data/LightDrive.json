@@ -1,0 +1,188 @@
+{
+ "folders": {
+  "fd_tj_comm": {
+   "fdid": "fd_tj_comm",
+   "name": "Committee",
+   "parent_id": "fd_root",
+   "path": "/Committee",
+   "created_at": "2025-09-01T10:00"
+  },
+  "fd_tj_events": {
+   "fdid": "fd_tj_events",
+   "name": "Events",
+   "parent_id": "fd_root",
+   "path": "/Events",
+   "created_at": "2025-09-01T10:05"
+  }
+ },
+ "files": {
+  "fTje3c0b7e70c43d34022": {
+   "fid": "fTje3c0b7e70c43d34022",
+   "name": "Committee agenda November.docx",
+   "folder_id": "fd_tj_comm",
+   "path": "/Committee/Committee agenda November.docx",
+   "size_bytes": 22114,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-10-28T19:00",
+   "updated_at": "2026-11-03T21:10",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tj636491"
+  },
+  "fTjd3647145bb15a1c533": {
+   "fid": "fTjd3647145bb15a1c533",
+   "name": "Volunteer thank-you ideas.docx",
+   "folder_id": "fd_tj_comm",
+   "path": "/Committee/Volunteer thank-you ideas.docx",
+   "size_bytes": 15330,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-11-08T10:00",
+   "updated_at": "2026-11-08T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tj4b3531"
+  },
+  "fTj4788ca3d2a469a4d71": {
+   "fid": "fTj4788ca3d2a469a4d71",
+   "name": "Christmas tournament draw.xlsx",
+   "folder_id": "fd_tj_events",
+   "path": "/Events/Christmas tournament draw.xlsx",
+   "size_bytes": 18440,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-11-15T12:00",
+   "updated_at": "2026-11-22T17:45",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_tj00899e"
+  },
+  "fTj69e60ed32145000378": {
+   "fid": "fTj69e60ed32145000378",
+   "name": "Quiz night takings.xlsx",
+   "folder_id": "fd_tj_events",
+   "path": "/Events/Quiz night takings.xlsx",
+   "size_bytes": 11200,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-17T23:10",
+   "updated_at": "2026-10-18T10:20",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tj2bbacd"
+  },
+  "fTjca9f5b64e4a52db7de": {
+   "fid": "fTjca9f5b64e4a52db7de",
+   "name": "Presentation evening 2026 photos.pdf",
+   "folder_id": "fd_tj_events",
+   "path": "/Events/Presentation evening 2026 photos.pdf",
+   "size_bytes": 3302114,
+   "mime_type": "application/pdf",
+   "created_at": "2026-06-02T09:00",
+   "updated_at": "2026-06-02T09:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tj7a9f11"
+  },
+  "fTjf661bf934cac49477c": {
+   "fid": "fTjf661bf934cac49477c",
+   "name": "Tea bar price list.docx",
+   "folder_id": "fd_tj_events",
+   "path": "/Events/Tea bar price list.docx",
+   "size_bytes": 9800,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-04T18:00",
+   "updated_at": "2026-11-10T19:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tj1cceca"
+  }
+ },
+ "versions": {
+  "v_tj78ebe2": {
+   "vid": "v_tj78ebe2",
+   "file_id": "fTje3c0b7e70c43d34022",
+   "version_number": 1,
+   "size_bytes": 21814,
+   "created_at": "2026-10-28T19:00",
+   "comment": "Initial upload"
+  },
+  "v_tj636491": {
+   "vid": "v_tj636491",
+   "file_id": "fTje3c0b7e70c43d34022",
+   "version_number": 2,
+   "size_bytes": 22114,
+   "created_at": "2026-11-03T21:10",
+   "comment": "Edited by the committee"
+  },
+  "v_tj4b3531": {
+   "vid": "v_tj4b3531",
+   "file_id": "fTjd3647145bb15a1c533",
+   "version_number": 1,
+   "size_bytes": 15330,
+   "created_at": "2026-11-08T10:00",
+   "comment": "Initial upload"
+  },
+  "v_tj514b10": {
+   "vid": "v_tj514b10",
+   "file_id": "fTj4788ca3d2a469a4d71",
+   "version_number": 1,
+   "size_bytes": 17840,
+   "created_at": "2026-11-15T12:00",
+   "comment": "Initial upload"
+  },
+  "v_tj998c25": {
+   "vid": "v_tj998c25",
+   "file_id": "fTj4788ca3d2a469a4d71",
+   "version_number": 2,
+   "size_bytes": 18140,
+   "created_at": "2026-11-22T17:45",
+   "comment": "Edited by the committee"
+  },
+  "v_tj00899e": {
+   "vid": "v_tj00899e",
+   "file_id": "fTj4788ca3d2a469a4d71",
+   "version_number": 3,
+   "size_bytes": 18440,
+   "created_at": "2026-11-22T17:45",
+   "comment": "Edited by the committee"
+  },
+  "v_tj36c684": {
+   "vid": "v_tj36c684",
+   "file_id": "fTj69e60ed32145000378",
+   "version_number": 1,
+   "size_bytes": 10900,
+   "created_at": "2026-10-17T23:10",
+   "comment": "Initial upload"
+  },
+  "v_tj2bbacd": {
+   "vid": "v_tj2bbacd",
+   "file_id": "fTj69e60ed32145000378",
+   "version_number": 2,
+   "size_bytes": 11200,
+   "created_at": "2026-10-18T10:20",
+   "comment": "Edited by the committee"
+  },
+  "v_tj7a9f11": {
+   "vid": "v_tj7a9f11",
+   "file_id": "fTjca9f5b64e4a52db7de",
+   "version_number": 1,
+   "size_bytes": 3302114,
+   "created_at": "2026-06-02T09:00",
+   "comment": "Initial upload"
+  },
+  "v_tje50a77": {
+   "vid": "v_tje50a77",
+   "file_id": "fTjf661bf934cac49477c",
+   "version_number": 1,
+   "size_bytes": 9500,
+   "created_at": "2026-09-04T18:00",
+   "comment": "Initial upload"
+  },
+  "v_tj1cceca": {
+   "vid": "v_tj1cceca",
+   "file_id": "fTjf661bf934cac49477c",
+   "version_number": 2,
+   "size_bytes": 9800,
+   "created_at": "2026-11-10T19:30",
+   "comment": "Edited by the committee"
+  }
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "companies": [
+  {
+   "id": "9190301",
+   "properties": {
+    "name": "Pellbridge Academy",
+    "domain": "pellbridge-academy.example",
+    "industry": "Education Management",
+    "city": "Pellbridge",
+    "state": "Pellshire",
+    "numberofemployees": "140",
+    "annualrevenue": "0",
+    "createdate": "2026-06-10T09:30:00Z"
+   },
+   "createdAt": "2026-06-10T09:30:00Z",
+   "updatedAt": "2026-10-20T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190302",
+   "properties": {
+    "name": "St Aldhelm's College",
+    "domain": "st-aldhelms.example",
+    "industry": "Education Management",
+    "city": "Pellbridge",
+    "state": "Pellshire",
+    "numberofemployees": "95",
+    "annualrevenue": "0",
+    "createdate": "2026-06-10T09:30:00Z"
+   },
+   "createdAt": "2026-06-10T09:30:00Z",
+   "updatedAt": "2026-10-20T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190303",
+   "properties": {
+    "name": "Brookfield School",
+    "domain": "brookfield-school.example",
+    "industry": "Primary/Secondary Education",
+    "city": "Marlow Cross",
+    "state": "Pellshire",
+    "numberofemployees": "60",
+    "annualrevenue": "0",
+    "createdate": "2026-06-10T09:30:00Z"
+   },
+   "createdAt": "2026-06-10T09:30:00Z",
+   "updatedAt": "2026-10-20T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190304",
+   "properties": {
+    "name": "Pellbridge Rotary Club",
+    "domain": "pellbridge-rotary.example",
+    "industry": "Civic & Social Organization",
+    "city": "Pellbridge",
+    "state": "Pellshire",
+    "numberofemployees": "0",
+    "annualrevenue": "0",
+    "createdate": "2026-06-10T09:30:00Z"
+   },
+   "createdAt": "2026-06-10T09:30:00Z",
+   "updatedAt": "2026-10-20T12:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "9190201",
+   "properties": {
+    "firstname": "Samuel",
+    "lastname": "Oduya",
+    "email": "s.oduya@pellbridge-academy.example",
+    "phone": "",
+    "jobtitle": "Head of citizenship",
+    "company": "Pellbridge Academy",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190202",
+   "properties": {
+    "firstname": "Carmen",
+    "lastname": "Reyes",
+    "email": "c.reyes@st-aldhelms.example",
+    "phone": "",
+    "jobtitle": "Head of sixth form",
+    "company": "St Aldhelm's College",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190203",
+   "properties": {
+    "firstname": "Alison",
+    "lastname": "Hale",
+    "email": "a.hale@brookfield-school.example",
+    "phone": "",
+    "jobtitle": "Deputy head",
+    "company": "Brookfield School",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190204",
+   "properties": {
+    "firstname": "Desmond",
+    "lastname": "Fairley",
+    "email": "president@pellbridge-rotary.example",
+    "phone": "",
+    "jobtitle": "President",
+    "company": "Pellbridge Rotary Club",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190205",
+   "properties": {
+    "firstname": "Hannah",
+    "lastname": "Merriman",
+    "email": "hannah.merriman@post.example",
+    "phone": "",
+    "jobtitle": "Prospective magistrate",
+    "company": "",
+    "lifecyclestage": "lead",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9190206",
+   "properties": {
+    "firstname": "Yusuf",
+    "lastname": "Demir",
+    "email": "yusuf.demir@post.example",
+    "phone": "",
+    "jobtitle": "Prospective magistrate",
+    "company": "",
+    "lifecyclestage": "lead",
+    "createdate": "2026-07-01T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-07-01T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "9190401",
+   "properties": {
+    "dealname": "Year 10 court visit and mock trial",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "0",
+    "closedate": "2027-01-28T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-14T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-09-14T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "9190301",
+   "_contact": "9190201"
+  },
+  {
+   "id": "9190402",
+   "properties": {
+    "dealname": "Sixth form mock trial competition",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "0",
+    "closedate": "2027-02-25T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-14T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-09-14T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "9190302",
+   "_contact": "9190202"
+  },
+  {
+   "id": "9190403",
+   "properties": {
+    "dealname": "Primary assembly talk: what a court does",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "0",
+    "closedate": "2027-03-10T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-14T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-09-14T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "9190303",
+   "_contact": "9190203"
+  },
+  {
+   "id": "9190404",
+   "properties": {
+    "dealname": "Rotary lunch talk on magistrate recruitment",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "0",
+    "closedate": "2026-10-15T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-14T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-09-14T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "9190304",
+   "_contact": "9190204"
+  },
+  {
+   "id": "9190405",
+   "properties": {
+    "dealname": "Mock trial prize sponsorship",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "250",
+    "closedate": "2027-02-25T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-14T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-09-14T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "9190304",
+   "_contact": "9190204"
+  }
+ ]
+}

@@ -1,0 +1,420 @@
+{
+ "courses": [
+  {
+   "id": "kra_crs_7sci",
+   "name": "Year 7 Science (7B)",
+   "section": "Set 2",
+   "descriptionHeading": "Year 7 Science (7B) - Set 2",
+   "description": "Class page for Year 7 Science (7B).",
+   "room": "Room S3",
+   "ownerId": "kra_tch_01",
+   "courseState": "ACTIVE",
+   "creationTime": "2026-09-01T08:00:00Z",
+   "updateTime": "2027-01-25T12:40:00Z",
+   "enrollmentCode": "b62d51a",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci",
+   "guardiansEnabled": true,
+   "calendarId": "cal_kra_crs_7sci"
+  },
+  {
+   "id": "kra_crs_10geo",
+   "name": "Year 10 Geography",
+   "section": "GCSE group G1",
+   "descriptionHeading": "Year 10 Geography - GCSE group G1",
+   "description": "Class page for Year 10 Geography.",
+   "room": "Room H5",
+   "ownerId": "kra_tch_02",
+   "courseState": "ACTIVE",
+   "creationTime": "2026-09-01T08:00:00Z",
+   "updateTime": "2027-01-25T12:40:00Z",
+   "enrollmentCode": "f7484fb",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_10geo",
+   "guardiansEnabled": true,
+   "calendarId": "cal_kra_crs_10geo"
+  },
+  {
+   "id": "kra_crs_7pe",
+   "name": "Year 7 PE theory",
+   "section": "All forms",
+   "descriptionHeading": "Year 7 PE theory - All forms",
+   "description": "Class page for Year 7 PE theory.",
+   "room": "Sports hall classroom",
+   "ownerId": "kra_tch_03",
+   "courseState": "ACTIVE",
+   "creationTime": "2026-09-01T08:00:00Z",
+   "updateTime": "2027-01-25T12:40:00Z",
+   "enrollmentCode": "08e13b5",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7pe",
+   "guardiansEnabled": true,
+   "calendarId": "cal_kra_crs_7pe"
+  }
+ ],
+ "coursework": [
+  {
+   "courseId": "kra_crs_7sci",
+   "id": "kra_cw_01",
+   "title": "Lab safety poster",
+   "description": "Make an A4 poster showing three hazard symbols and what they mean.",
+   "state": "PUBLISHED",
+   "maxPoints": 10.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_01",
+   "creationTime": "2026-09-08T09:00:00Z",
+   "updateTime": "2026-09-08T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_01",
+   "dueDate": {
+    "year": 2026,
+    "month": 9,
+    "day": 18
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "id": "kra_cw_02",
+   "title": "Particles homework",
+   "description": "Draw the particle arrangement in a solid, a liquid and a gas, and label each.",
+   "state": "PUBLISHED",
+   "maxPoints": 15.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_02",
+   "creationTime": "2026-11-10T09:00:00Z",
+   "updateTime": "2026-11-10T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_02",
+   "dueDate": {
+    "year": 2026,
+    "month": 11,
+    "day": 20
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "id": "kra_cw_03",
+   "title": "Cells microscope write-up",
+   "description": "Write up the onion-skin practical: method, drawing and one sentence of conclusion.",
+   "state": "PUBLISHED",
+   "maxPoints": 20.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_03",
+   "creationTime": "2027-02-02T09:00:00Z",
+   "updateTime": "2027-02-02T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_03",
+   "dueDate": {
+    "year": 2027,
+    "month": 2,
+    "day": 12
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "id": "kra_cw_04",
+   "title": "River Wharfe fieldwork plan",
+   "description": "Plan the sampling sites for the spring field day and list the equipment you need.",
+   "state": "PUBLISHED",
+   "maxPoints": 30.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_04",
+   "creationTime": "2027-02-04T09:00:00Z",
+   "updateTime": "2027-02-04T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_10geo/a/kra_cw_04",
+   "dueDate": {
+    "year": 2027,
+    "month": 2,
+    "day": 19
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "id": "kra_cw_05",
+   "title": "Urban change case study",
+   "description": "Two sides of A4 on the regeneration of a mill district you know.",
+   "state": "PUBLISHED",
+   "maxPoints": 25.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_05",
+   "creationTime": "2026-12-01T09:00:00Z",
+   "updateTime": "2026-12-01T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_10geo/a/kra_cw_05",
+   "dueDate": {
+    "year": 2026,
+    "month": 12,
+    "day": 11
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  },
+  {
+   "courseId": "kra_crs_7pe",
+   "id": "kra_cw_06",
+   "title": "Warm-up design",
+   "description": "Design a five-minute warm-up for netball and explain why each part is there.",
+   "state": "PUBLISHED",
+   "maxPoints": 10.0,
+   "workType": "ASSIGNMENT",
+   "topicId": "kra_top_06",
+   "creationTime": "2026-10-06T09:00:00Z",
+   "updateTime": "2026-10-06T09:00:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7pe/a/kra_cw_06",
+   "dueDate": {
+    "year": 2026,
+    "month": 10,
+    "day": 16
+   },
+   "dueTime": {
+    "hours": 16,
+    "minutes": 0
+   }
+  }
+ ],
+ "topics": [
+  {
+   "courseId": "kra_crs_7sci",
+   "topicId": "kra_top_01",
+   "name": "Working safely",
+   "updateTime": "2026-09-01T08:30:00Z"
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "topicId": "kra_top_02",
+   "name": "Particles",
+   "updateTime": "2026-09-01T08:30:00Z"
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "topicId": "kra_top_03",
+   "name": "Cells",
+   "updateTime": "2026-09-01T08:30:00Z"
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "topicId": "kra_top_04",
+   "name": "Fieldwork",
+   "updateTime": "2026-09-01T08:30:00Z"
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "topicId": "kra_top_05",
+   "name": "Urban environments",
+   "updateTime": "2026-09-01T08:30:00Z"
+  },
+  {
+   "courseId": "kra_crs_7pe",
+   "topicId": "kra_top_06",
+   "name": "Fitness",
+   "updateTime": "2026-09-01T08:30:00Z"
+  }
+ ],
+ "students": [
+  {
+   "courseId": "kra_crs_7sci",
+   "userId": "kra_stu_01",
+   "profile": {
+    "id": "kra_stu_01",
+    "name": {
+     "fullName": "Amelia Crowther"
+    },
+    "emailAddress": "kra_stu_01@pupils.kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_stu_01"
+   }
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "userId": "kra_stu_02",
+   "profile": {
+    "id": "kra_stu_02",
+    "name": {
+     "fullName": "Zain Mahmood"
+    },
+    "emailAddress": "kra_stu_02@pupils.kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_stu_02"
+   }
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "userId": "kra_stu_03",
+   "profile": {
+    "id": "kra_stu_03",
+    "name": {
+     "fullName": "Freya Lockwood"
+    },
+    "emailAddress": "kra_stu_03@pupils.kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_stu_03"
+   }
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "userId": "kra_stu_04",
+   "profile": {
+    "id": "kra_stu_04",
+    "name": {
+     "fullName": "Oscar Kaye"
+    },
+    "emailAddress": "kra_stu_04@pupils.kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_stu_04"
+   }
+  }
+ ],
+ "teachers": [
+  {
+   "courseId": "kra_crs_7sci",
+   "userId": "kra_tch_01",
+   "profile": {
+    "id": "kra_tch_01",
+    "name": {
+     "fullName": "Yusuf Patel"
+    },
+    "emailAddress": "yusuf.patel@kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_tch_01"
+   }
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "userId": "kra_tch_02",
+   "profile": {
+    "id": "kra_tch_02",
+    "name": {
+     "fullName": "Martin Healey"
+    },
+    "emailAddress": "martin.healey@kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_tch_02"
+   }
+  },
+  {
+   "courseId": "kra_crs_7pe",
+   "userId": "kra_tch_03",
+   "profile": {
+    "id": "kra_tch_03",
+    "name": {
+     "fullName": "Gareth Pike"
+    },
+    "emailAddress": "gareth.pike@kestrelridge.example",
+    "photoUrl": "https://lh3.googleusercontent.com/a/kra_tch_03"
+   }
+  }
+ ],
+ "submissions": [
+  {
+   "courseId": "kra_crs_7sci",
+   "courseWorkId": "kra_cw_02",
+   "id": "kra_sub_01",
+   "userId": "kra_stu_01",
+   "state": "RETURNED",
+   "late": false,
+   "creationTime": "2026-11-12T10:00:00Z",
+   "updateTime": "2026-11-24T15:10:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_02/submissions/kra_sub_01",
+   "assignedGrade": 14.0,
+   "draftGrade": 14.0
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "courseWorkId": "kra_cw_02",
+   "id": "kra_sub_02",
+   "userId": "kra_stu_02",
+   "state": "RETURNED",
+   "late": true,
+   "creationTime": "2026-11-12T10:00:00Z",
+   "updateTime": "2026-11-25T15:10:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_02/submissions/kra_sub_02",
+   "assignedGrade": 11.0,
+   "draftGrade": 11.0
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "courseWorkId": "kra_cw_02",
+   "id": "kra_sub_03",
+   "userId": "kra_stu_03",
+   "state": "RETURNED",
+   "late": false,
+   "creationTime": "2026-11-12T10:00:00Z",
+   "updateTime": "2026-11-24T15:12:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_02/submissions/kra_sub_03",
+   "assignedGrade": 13.0,
+   "draftGrade": 13.0
+  },
+  {
+   "courseId": "kra_crs_7sci",
+   "courseWorkId": "kra_cw_02",
+   "id": "kra_sub_04",
+   "userId": "kra_stu_04",
+   "state": "TURNED_IN",
+   "late": false,
+   "creationTime": "2026-11-12T10:00:00Z",
+   "updateTime": "2026-11-20T18:40:00Z",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/a/kra_cw_02/submissions/kra_sub_04",
+   "assignedGrade": null,
+   "draftGrade": null
+  }
+ ],
+ "announcements": [
+  {
+   "courseId": "kra_crs_7sci",
+   "id": "kra_ann_01",
+   "text": "Bring a pencil and ruler to every lab lesson this half-term, please.",
+   "state": "PUBLISHED",
+   "creationTime": "2026-09-07T08:15:00Z",
+   "updateTime": "2026-09-07T08:15:00Z",
+   "creatorUserId": "kra_tch_01",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7sci/p/kra_ann_01"
+  },
+  {
+   "courseId": "kra_crs_10geo",
+   "id": "kra_ann_02",
+   "text": "Letters about the River Wharfe field day go home this week; the day itself is in May.",
+   "state": "PUBLISHED",
+   "creationTime": "2027-01-25T12:40:00Z",
+   "updateTime": "2027-01-25T12:40:00Z",
+   "creatorUserId": "kra_tch_02",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_10geo/p/kra_ann_02"
+  },
+  {
+   "courseId": "kra_crs_7pe",
+   "id": "kra_ann_03",
+   "text": "Indoor lessons all week while the field is waterlogged. Trainers, not boots.",
+   "state": "PUBLISHED",
+   "creationTime": "2026-11-09T08:05:00Z",
+   "updateTime": "2026-11-09T08:05:00Z",
+   "creatorUserId": "kra_tch_03",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_7pe/p/kra_ann_03"
+  }
+ ],
+ "materials": [
+  {
+   "courseId": "kra_crs_10geo",
+   "id": "kra_mat_01",
+   "title": "Fieldwork risk card",
+   "description": "Read before the River Wharfe day: footwear, water depth and the buddy rule.",
+   "state": "PUBLISHED",
+   "creationTime": "2027-01-25T12:45:00Z",
+   "updateTime": "2027-01-25T12:45:00Z",
+   "creatorUserId": "kra_tch_02",
+   "topicId": "kra_top_04",
+   "alternateLink": "https://classroom.google.com/c/kra_crs_10geo/m/kra_mat_01",
+   "materials": [
+    {
+     "link": {
+      "url": "https://docs.google.com/document/d/kra-wharfe-risk-card",
+      "title": "Wharfe field day risk card"
+     }
+    }
+   ]
+  }
+ ]
+}

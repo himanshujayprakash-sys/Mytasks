@@ -1,0 +1,160 @@
+{
+ "teams": [
+  {
+   "id": "19:team-pm19estates@thread.tacv2",
+   "displayName": "Pellbridge MC Estates and Security",
+   "description": "Building, facilities and security",
+   "membershipType": "standard"
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Estates chat"
+  },
+  {
+   "id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "displayName": "Security",
+   "membershipType": "standard",
+   "description": "Security team"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1793000000001",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-hg",
+   "from_display_name": "Hollis Greaves",
+   "content": "Heating engineer is in the admin wing today. Boiler two needs a new pump.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-02T08:00:00Z"
+  },
+  {
+   "id": "1793000000002",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-mt",
+   "from_display_name": "Morwenna Tate",
+   "content": "Thanks. Can we have the portable heaters for the HR office until it is fixed?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-02T09:11:00Z"
+  },
+  {
+   "id": "1793000000003",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-hg",
+   "from_display_name": "Hollis Greaves",
+   "content": "Two heaters are in the estates store. Gordon has the key.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-02T10:22:00Z"
+  },
+  {
+   "id": "1793000000004",
+   "channel_id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-ci",
+   "from_display_name": "Gordon Ibbotson",
+   "content": "Car park resurfacing is Saturday 21 November. Barrier will be up and the car park coned off.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-02T11:33:00Z"
+  },
+  {
+   "id": "1793000000005",
+   "channel_id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-hg",
+   "from_display_name": "Hollis Greaves",
+   "content": "Contractor wants the gate open from 06:45. Can the night guard stay on until then?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-03T12:44:00Z"
+  },
+  {
+   "id": "1793000000006",
+   "channel_id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-ci",
+   "from_display_name": "Gordon Ibbotson",
+   "content": "Yes, I've told the guarding company.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-03T13:55:00Z"
+  },
+  {
+   "id": "1793000000007",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-pn",
+   "from_display_name": "Priya Natarajan",
+   "content": "Laptop swaps on the second floor start Thursday. Ten minutes per person, I'll come round.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-03T14:06:00Z"
+  },
+  {
+   "id": "1793000000008",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-mt",
+   "from_display_name": "Morwenna Tate",
+   "content": "Fire marshal certificates are in Box now.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-03T15:17:00Z"
+  },
+  {
+   "id": "1793000000009",
+   "channel_id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-ci",
+   "from_display_name": "Gordon Ibbotson",
+   "content": "Lost property audit done. Three umbrellas and a phone charger are going to charity at the end of the month.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-04T16:28:00Z"
+  },
+  {
+   "id": "1793000000010",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-hg",
+   "from_display_name": "Hollis Greaves",
+   "content": "Window cleaners are booked for Saturday 5 December, outside only.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-04T08:39:00Z"
+  },
+  {
+   "id": "1793000000011",
+   "channel_id": "19:chan-pm19-general@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-pn",
+   "from_display_name": "Priya Natarajan",
+   "content": "Reminder: the staff intranet goes read-only on Sunday morning for an update.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-04T09:50:00Z"
+  },
+  {
+   "id": "1793000000012",
+   "channel_id": "19:chan-pm19-security@thread.tacv2",
+   "team_id": "19:team-pm19estates@thread.tacv2",
+   "from_user_id": "user-pm19-ci",
+   "from_display_name": "Gordon Ibbotson",
+   "content": "Door access export for October is attached to the audit ticket.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-04T10:01:00Z"
+  }
+ ]
+}

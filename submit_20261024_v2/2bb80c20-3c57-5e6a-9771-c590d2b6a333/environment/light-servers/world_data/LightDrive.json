@@ -1,0 +1,336 @@
+{
+ "folders": {
+  "fd_bmg_visitor": {
+   "fdid": "fd_bmg_visitor",
+   "name": "Visitor services",
+   "parent_id": "fd_root",
+   "path": "/Visitor services",
+   "created_at": "2026-09-01T09:00"
+  },
+  "fd_bmg_shop": {
+   "fdid": "fd_bmg_shop",
+   "name": "Shop",
+   "parent_id": "fd_root",
+   "path": "/Shop",
+   "created_at": "2026-09-01T09:00"
+  },
+  "fd_bmg_volunteers": {
+   "fdid": "fd_bmg_volunteers",
+   "name": "Volunteers",
+   "parent_id": "fd_root",
+   "path": "/Volunteers",
+   "created_at": "2026-09-01T09:00"
+  },
+  "fd_bmg_learning": {
+   "fdid": "fd_bmg_learning",
+   "name": "Learning",
+   "parent_id": "fd_root",
+   "path": "/Learning",
+   "created_at": "2026-09-01T09:00"
+  }
+ },
+ "files": {
+  "fBmg97e27c69add6d950c3": {
+   "fid": "fBmg97e27c69add6d950c3",
+   "name": "Visitor figures 2026-27.xlsx",
+   "folder_id": "fd_bmg_visitor",
+   "path": "/Visitor services/Visitor figures 2026-27.xlsx",
+   "size_bytes": 39880,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-09-01T09:20",
+   "updated_at": "2026-11-02T09:05",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_bmg80b8dc5"
+  },
+  "fBmg49fad7dcc293f4944a": {
+   "fid": "fBmg49fad7dcc293f4944a",
+   "name": "Front desk rota December.xlsx",
+   "folder_id": "fd_bmg_visitor",
+   "path": "/Visitor services/Front desk rota December.xlsx",
+   "size_bytes": 21910,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-11-16T14:10",
+   "updated_at": "2026-11-27T16:40",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmgd2797de"
+  },
+  "fBmg39f88f5fa10a4f29ac": {
+   "fid": "fBmg39f88f5fa10a4f29ac",
+   "name": "Complaints and compliments log.docx",
+   "folder_id": "fd_bmg_visitor",
+   "path": "/Visitor services/Complaints and compliments log.docx",
+   "size_bytes": 46310,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-03T11:00",
+   "updated_at": "2026-11-24T10:15",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmgd07980b"
+  },
+  "fBmg79a0148b68be4a9752": {
+   "fid": "fBmg79a0148b68be4a9752",
+   "name": "Shop Christmas range order.xlsx",
+   "folder_id": "fd_bmg_shop",
+   "path": "/Shop/Shop Christmas range order.xlsx",
+   "size_bytes": 28150,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-09-22T10:30",
+   "updated_at": "2026-10-14T15:00",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_bmg4c15411"
+  },
+  "fBmgbd58d9204ee7aa8694": {
+   "fid": "fBmgbd58d9204ee7aa8694",
+   "name": "Shop stock take October.xlsx",
+   "folder_id": "fd_bmg_shop",
+   "path": "/Shop/Shop stock take October.xlsx",
+   "size_bytes": 52300,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-11-02T08:50",
+   "updated_at": "2026-11-02T08:50",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmg50ad1c8"
+  },
+  "fBmg9fa30a72610906d5ab": {
+   "fid": "fBmg9fa30a72610906d5ab",
+   "name": "Gift Aid on admissions: till guide.pdf",
+   "folder_id": "fd_bmg_shop",
+   "path": "/Shop/Gift Aid on admissions: till guide.pdf",
+   "size_bytes": 312000,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-10T12:00",
+   "updated_at": "2026-09-10T12:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmga163851"
+  },
+  "fBmgcc3eb8ccb18896641f": {
+   "fid": "fBmgcc3eb8ccb18896641f",
+   "name": "Volunteer handbook 2026.pdf",
+   "folder_id": "fd_bmg_volunteers",
+   "path": "/Volunteers/Volunteer handbook 2026.pdf",
+   "size_bytes": 1180000,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-05T09:30",
+   "updated_at": "2026-09-05T09:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmg5e7660c"
+  },
+  "fBmg19e444469eaa3d59c1": {
+   "fid": "fBmg19e444469eaa3d59c1",
+   "name": "Volunteer rota November-December.xlsx",
+   "folder_id": "fd_bmg_volunteers",
+   "path": "/Volunteers/Volunteer rota November-December.xlsx",
+   "size_bytes": 20340,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-26T13:45",
+   "updated_at": "2026-11-20T11:05",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_bmgbf36257"
+  },
+  "fBmg71efeef5f12b5f91cc": {
+   "fid": "fBmg71efeef5f12b5f91cc",
+   "name": "Volunteer thank-you event ideas.docx",
+   "folder_id": "fd_bmg_volunteers",
+   "path": "/Volunteers/Volunteer thank-you event ideas.docx",
+   "size_bytes": 18100,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-11-11T16:00",
+   "updated_at": "2026-11-11T16:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmg4992ec7"
+  },
+  "fBmg18d7dda61debd70374": {
+   "fid": "fBmg18d7dda61debd70374",
+   "name": "Schools offer 2026-27.pdf",
+   "folder_id": "fd_bmg_learning",
+   "path": "/Learning/Schools offer 2026-27.pdf",
+   "size_bytes": 2650000,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-02T10:00",
+   "updated_at": "2026-09-02T10:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmgcebf998"
+  },
+  "fBmg8dcd8a1b2f69347aa6": {
+   "fid": "fBmg8dcd8a1b2f69347aa6",
+   "name": "Shipyard handling box contents list.docx",
+   "folder_id": "fd_bmg_learning",
+   "path": "/Learning/Shipyard handling box contents list.docx",
+   "size_bytes": 33950,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-10-01T14:20",
+   "updated_at": "2026-11-09T10:40",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmgbab8e52"
+  },
+  "fBmg23e9d5c5736f02d5ee": {
+   "fid": "fBmg23e9d5c5736f02d5ee",
+   "name": "Wreath workshop materials list.docx",
+   "folder_id": "fd_bmg_learning",
+   "path": "/Learning/Wreath workshop materials list.docx",
+   "size_bytes": 14900,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-11-18T15:30",
+   "updated_at": "2026-11-18T15:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_bmg933adaa"
+  }
+ },
+ "versions": {
+  "v_bmgd21823d": {
+   "vid": "v_bmgd21823d",
+   "file_id": "fBmg97e27c69add6d950c3",
+   "version_number": 1,
+   "size_bytes": 38120,
+   "created_at": "2026-09-01T09:20",
+   "comment": "Initial upload"
+  },
+  "v_bmg80b8dc5": {
+   "vid": "v_bmg80b8dc5",
+   "file_id": "fBmg97e27c69add6d950c3",
+   "version_number": 2,
+   "size_bytes": 39880,
+   "created_at": "2026-11-02T09:05",
+   "comment": "October figures added: 9,214 visits"
+  },
+  "v_bmg58454e3": {
+   "vid": "v_bmg58454e3",
+   "file_id": "fBmg49fad7dcc293f4944a",
+   "version_number": 1,
+   "size_bytes": 21430,
+   "created_at": "2026-11-16T14:10",
+   "comment": "Initial upload"
+  },
+  "v_bmgd2797de": {
+   "vid": "v_bmgd2797de",
+   "file_id": "fBmg49fad7dcc293f4944a",
+   "version_number": 2,
+   "size_bytes": 21910,
+   "created_at": "2026-11-27T16:40",
+   "comment": "Christmas Eve half day added"
+  },
+  "v_bmgcea3b54": {
+   "vid": "v_bmgcea3b54",
+   "file_id": "fBmg39f88f5fa10a4f29ac",
+   "version_number": 1,
+   "size_bytes": 45200,
+   "created_at": "2026-09-03T11:00",
+   "comment": "Initial upload"
+  },
+  "v_bmgd07980b": {
+   "vid": "v_bmgd07980b",
+   "file_id": "fBmg39f88f5fa10a4f29ac",
+   "version_number": 2,
+   "size_bytes": 46310,
+   "created_at": "2026-11-24T10:15",
+   "comment": "Compliment about the Lantern night choir rehearsal"
+  },
+  "v_bmgfa9adec": {
+   "vid": "v_bmgfa9adec",
+   "file_id": "fBmg79a0148b68be4a9752",
+   "version_number": 1,
+   "size_bytes": 27600,
+   "created_at": "2026-09-22T10:30",
+   "comment": "Initial upload"
+  },
+  "v_bmg4c15411": {
+   "vid": "v_bmg4c15411",
+   "file_id": "fBmg79a0148b68be4a9752",
+   "version_number": 2,
+   "size_bytes": 28150,
+   "created_at": "2026-10-14T15:00",
+   "comment": "Second order of shipyard tea towels"
+  },
+  "v_bmg50ad1c8": {
+   "vid": "v_bmg50ad1c8",
+   "file_id": "fBmgbd58d9204ee7aa8694",
+   "version_number": 1,
+   "size_bytes": 52300,
+   "created_at": "2026-11-02T08:50",
+   "comment": "Initial upload"
+  },
+  "v_bmga163851": {
+   "vid": "v_bmga163851",
+   "file_id": "fBmg9fa30a72610906d5ab",
+   "version_number": 1,
+   "size_bytes": 312000,
+   "created_at": "2026-09-10T12:00",
+   "comment": "Initial upload"
+  },
+  "v_bmg5e7660c": {
+   "vid": "v_bmg5e7660c",
+   "file_id": "fBmgcc3eb8ccb18896641f",
+   "version_number": 1,
+   "size_bytes": 1180000,
+   "created_at": "2026-09-05T09:30",
+   "comment": "Initial upload"
+  },
+  "v_bmg5a2fdf3": {
+   "vid": "v_bmg5a2fdf3",
+   "file_id": "fBmg19e444469eaa3d59c1",
+   "version_number": 1,
+   "size_bytes": 19800,
+   "created_at": "2026-10-26T13:45",
+   "comment": "Initial upload"
+  },
+  "v_bmgbf36257": {
+   "vid": "v_bmgbf36257",
+   "file_id": "fBmg19e444469eaa3d59c1",
+   "version_number": 2,
+   "size_bytes": 20340,
+   "created_at": "2026-11-20T11:05",
+   "comment": "Lantern night helpers confirmed"
+  },
+  "v_bmg4992ec7": {
+   "vid": "v_bmg4992ec7",
+   "file_id": "fBmg71efeef5f12b5f91cc",
+   "version_number": 1,
+   "size_bytes": 18100,
+   "created_at": "2026-11-11T16:00",
+   "comment": "Initial upload"
+  },
+  "v_bmgcebf998": {
+   "vid": "v_bmgcebf998",
+   "file_id": "fBmg18d7dda61debd70374",
+   "version_number": 1,
+   "size_bytes": 2650000,
+   "created_at": "2026-09-02T10:00",
+   "comment": "Initial upload"
+  },
+  "v_bmgba843d7": {
+   "vid": "v_bmgba843d7",
+   "file_id": "fBmg8dcd8a1b2f69347aa6",
+   "version_number": 1,
+   "size_bytes": 33400,
+   "created_at": "2026-10-01T14:20",
+   "comment": "Initial upload"
+  },
+  "v_bmgbab8e52": {
+   "vid": "v_bmgbab8e52",
+   "file_id": "fBmg8dcd8a1b2f69347aa6",
+   "version_number": 2,
+   "size_bytes": 33950,
+   "created_at": "2026-11-09T10:40",
+   "comment": "Replacement rivet gun replica added"
+  },
+  "v_bmg933adaa": {
+   "vid": "v_bmg933adaa",
+   "file_id": "fBmg23e9d5c5736f02d5ee",
+   "version_number": 1,
+   "size_bytes": 14900,
+   "created_at": "2026-11-18T15:30",
+   "comment": "Initial upload"
+  }
+ }
+}

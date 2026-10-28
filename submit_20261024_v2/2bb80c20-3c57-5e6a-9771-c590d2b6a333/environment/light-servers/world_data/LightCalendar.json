@@ -1,0 +1,226 @@
+{
+ "calendars": {
+  "cal_bmg_whatson": {
+   "cid": "cal_bmg_whatson",
+   "name": "What's On at Brennock Museum",
+   "color": "#1B5E7A"
+  },
+  "cal_bmg_families": {
+   "cid": "cal_bmg_families",
+   "name": "Families and schools programme",
+   "color": "#E07B39"
+  }
+ },
+ "events": {
+  "bmgwo0018d235c": {
+   "eid": "bmgwo0018d235c",
+   "title": "Curator's tour: Salt and Iron",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2026-12-03T14:00",
+   "end": "2026-12-03T15:00",
+   "location": "Gallery 4",
+   "description": "Saoirse Dunmore walks through Salt and Iron: Brennock's Shipyards, from the rivet gangs to the last launch in 1981. Free with admission.",
+   "attendees": [
+    "Saoirse Dunmore"
+   ],
+   "all_day": false
+  },
+  "bmgwo002604e14": {
+   "eid": "bmgwo002604e14",
+   "title": "Christmas wreath workshop",
+   "calendar_id": "cal_bmg_families",
+   "start": "2026-12-05T10:30",
+   "end": "2026-12-05T12:30",
+   "location": "Learning studio",
+   "description": "Make a wreath from foraged greenery and dried seed heads. Ages 7 and up with a grown-up; booking essential.",
+   "attendees": [
+    "Rafe Oduya"
+   ],
+   "all_day": false
+  },
+  "bmgwo003c052e4": {
+   "eid": "bmgwo003c052e4",
+   "title": "Late opening: Lantern night",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2026-12-10T17:00",
+   "end": "2026-12-10T21:00",
+   "location": "Whole museum",
+   "description": "Open until 21:00 with lantern-making in the foyer, mulled apple juice in the cafe and the choir from St Aidan's at 19:00.",
+   "attendees": [
+    "Ines Carvalho",
+    "Fenella Brook"
+   ],
+   "all_day": false
+  },
+  "bmgwo004f7511b": {
+   "eid": "bmgwo004f7511b",
+   "title": "Under-fives: sea creatures sensory session",
+   "calendar_id": "cal_bmg_families",
+   "start": "2026-12-12T10:00",
+   "end": "2026-12-12T10:45",
+   "location": "Learning studio",
+   "description": "Water trays, shells and soft toys for babies and toddlers. Pay what you can.",
+   "attendees": [
+    "Rafe Oduya"
+   ],
+   "all_day": false
+  },
+  "bmgwo005a0a863": {
+   "eid": "bmgwo005a0a863",
+   "title": "Talk: the women who painted the rivet sheds",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2026-12-15T18:30",
+   "end": "2026-12-15T19:45",
+   "location": "Lecture theatre",
+   "description": "Dr Hilde Moran on the shipyard sketchbooks lent to Salt and Iron by local families. Tickets five pounds, Friends free.",
+   "attendees": [
+    "Saoirse Dunmore"
+   ],
+   "all_day": false
+  },
+  "bmgwo0064a5b08": {
+   "eid": "bmgwo0064a5b08",
+   "title": "Christmas Eve early close",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2026-12-24T13:00",
+   "end": "2026-12-24T13:30",
+   "location": "Whole museum",
+   "description": "The museum and shop close at 13:00 on Christmas Eve and stay closed on 25 and 26 December.",
+   "attendees": [
+    "Ines Carvalho"
+   ],
+   "all_day": false
+  },
+  "bmgwo0075de4e0": {
+   "eid": "bmgwo0075de4e0",
+   "title": "Holiday trail: find the ship's cat",
+   "calendar_id": "cal_bmg_families",
+   "start": "2026-12-27T10:00",
+   "end": "2026-12-27T16:00",
+   "location": "Galleries 1 to 5",
+   "description": "A free trail sheet from the front desk; finish it to collect a sticker. Runs 27 December to 3 January.",
+   "attendees": [
+    "Rafe Oduya"
+   ],
+   "all_day": false
+  },
+  "bmgwo00815644b": {
+   "eid": "bmgwo00815644b",
+   "title": "New Year's Day closure",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-01-01T10:00",
+   "end": "2027-01-01T10:30",
+   "location": "Whole museum",
+   "description": "Closed on 1 January; open as normal from 2 January.",
+   "attendees": [
+    "Ines Carvalho"
+   ],
+   "all_day": false
+  },
+  "bmgwo0095e41bf": {
+   "eid": "bmgwo0095e41bf",
+   "title": "Talk: restoring the launch-day bunting",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-01-14T18:30",
+   "end": "2027-01-14T19:30",
+   "location": "Lecture theatre",
+   "description": "Priya Calloway on cleaning and supporting the 1953 launch-day bunting shown in Salt and Iron.",
+   "attendees": [
+    "Priya Calloway"
+   ],
+   "all_day": false
+  },
+  "bmgwo010ac3787": {
+   "eid": "bmgwo010ac3787",
+   "title": "Salt and Iron: last weekend",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-01-30T10:00",
+   "end": "2027-01-30T17:00",
+   "location": "Gallery 4",
+   "description": "Final weekend of Salt and Iron, with drop-in talks at 11:00 and 14:00 from the shipyard memories volunteers.",
+   "attendees": [
+    "Saoirse Dunmore",
+    "Fenella Brook"
+   ],
+   "all_day": false
+  },
+  "bmgwo011da9dee": {
+   "eid": "bmgwo011da9dee",
+   "title": "February half-term: build a boat",
+   "calendar_id": "cal_bmg_families",
+   "start": "2027-02-16T10:30",
+   "end": "2027-02-16T13:00",
+   "location": "Learning studio",
+   "description": "Cardboard boats tested in the water trough in the courtyard. Drop in, no booking.",
+   "attendees": [
+    "Rafe Oduya"
+   ],
+   "all_day": false
+  },
+  "bmgwo0123c1e49": {
+   "eid": "bmgwo0123c1e49",
+   "title": "Gallery 4 closed for installation",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-02-01T10:00",
+   "end": "2027-02-01T10:30",
+   "location": "Gallery 4",
+   "description": "Gallery 4 is closed to visitors from 1 February while the spring exhibition is installed. All other galleries are open.",
+   "attendees": [
+    "Ines Carvalho"
+   ],
+   "all_day": false
+  },
+  "bmgwo01388c804": {
+   "eid": "bmgwo01388c804",
+   "title": "Friends' preview evening: Tidelines",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-03-05T18:00",
+   "end": "2027-03-05T20:30",
+   "location": "Galleries 4 and 5",
+   "description": "Friends of the museum see Tidelines the evening before it opens. Invitations go out in the February newsletter.",
+   "attendees": [
+    "Mirren Achebe"
+   ],
+   "all_day": false
+  },
+  "bmgwo014453f9f": {
+   "eid": "bmgwo014453f9f",
+   "title": "Exhibition opens: Tidelines",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-03-06T10:00",
+   "end": "2027-03-06T10:30",
+   "location": "Galleries 4 and 5",
+   "description": "Tidelines: Painting the Northern Coast, 1880-1940 opens to the public. Admission included in the museum ticket.",
+   "attendees": [
+    "Lark Simmonds"
+   ],
+   "all_day": false
+  },
+  "bmgwo0155cc1ee": {
+   "eid": "bmgwo0155cc1ee",
+   "title": "Family Saturday: paint the sea",
+   "calendar_id": "cal_bmg_families",
+   "start": "2027-03-13T10:30",
+   "end": "2027-03-13T12:30",
+   "location": "Learning studio",
+   "description": "Watercolour seascapes with a local artist. All materials provided; ages 5 and up.",
+   "attendees": [
+    "Rafe Oduya"
+   ],
+   "all_day": false
+  },
+  "bmgwo01620faf5": {
+   "eid": "bmgwo01620faf5",
+   "title": "Talk: weather, light and the north-east coast",
+   "calendar_id": "cal_bmg_whatson",
+   "start": "2027-03-18T18:30",
+   "end": "2027-03-18T19:30",
+   "location": "Lecture theatre",
+   "description": "An evening talk for the spring season. Tickets on sale from 1 February.",
+   "attendees": [
+    "Saoirse Dunmore"
+   ],
+   "all_day": false
+  }
+ }
+}

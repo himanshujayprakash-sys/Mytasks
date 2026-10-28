@@ -1,0 +1,161 @@
+{
+ "companies": [
+  {
+   "id": "8101",
+   "properties": {
+    "name": "Wyeside Rotary",
+    "domain": "wyesiderotary.example",
+    "industry": "Other",
+    "city": "Hereford",
+    "state": "",
+    "numberofemployees": "10",
+    "annualrevenue": "",
+    "createdate": "2026-11-01T10:00:00Z"
+   },
+   "createdAt": "2026-11-01T10:00:00Z",
+   "updatedAt": "2026-12-01T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8102",
+   "properties": {
+    "name": "Kingsford Law LLP",
+    "domain": "kingsfordlawllp.example",
+    "industry": "Other",
+    "city": "Hereford",
+    "state": "",
+    "numberofemployees": "20",
+    "annualrevenue": "",
+    "createdate": "2026-11-02T10:00:00Z"
+   },
+   "createdAt": "2026-11-02T10:00:00Z",
+   "updatedAt": "2026-12-02T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8103",
+   "properties": {
+    "name": "Golden Valley Cyclists",
+    "domain": "goldenvalleycyclists.example",
+    "industry": "Other",
+    "city": "Hereford",
+    "state": "",
+    "numberofemployees": "30",
+    "annualrevenue": "",
+    "createdate": "2026-11-03T10:00:00Z"
+   },
+   "createdAt": "2026-11-03T10:00:00Z",
+   "updatedAt": "2026-12-03T10:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "8201",
+   "properties": {
+    "firstname": "Gwyn",
+    "lastname": "Hopkin",
+    "email": "contact1@wyesiderotary.example",
+    "phone": "01632 961701",
+    "jobtitle": "Organiser",
+    "company": "Wyeside Rotary",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-01T11:00:00Z",
+    "lastmodifieddate": "2026-12-01T11:00:00Z"
+   },
+   "createdAt": "2026-11-01T11:00:00Z",
+   "updatedAt": "2026-12-01T11:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8202",
+   "properties": {
+    "firstname": "Alison",
+    "lastname": "Teal",
+    "email": "contact2@kingsfordlawllp.example",
+    "phone": "01632 961702",
+    "jobtitle": "Organiser",
+    "company": "Kingsford Law LLP",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-02T11:00:00Z",
+    "lastmodifieddate": "2026-12-02T11:00:00Z"
+   },
+   "createdAt": "2026-11-02T11:00:00Z",
+   "updatedAt": "2026-12-02T11:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8203",
+   "properties": {
+    "firstname": "Marcus",
+    "lastname": "Ford",
+    "email": "contact3@goldenvalleycyclists.example",
+    "phone": "01632 961703",
+    "jobtitle": "Organiser",
+    "company": "Golden Valley Cyclists",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-03T11:00:00Z",
+    "lastmodifieddate": "2026-12-03T11:00:00Z"
+   },
+   "createdAt": "2026-11-03T11:00:00Z",
+   "updatedAt": "2026-12-03T11:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "8301",
+   "properties": {
+    "dealname": "Wyeside Rotary - Christmas lunch enquiry 2027",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "1800",
+    "closedate": "2027-03-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-01T12:00:00Z",
+    "lastmodifieddate": "2026-12-01T12:00:00Z"
+   },
+   "createdAt": "2026-11-01T12:00:00Z",
+   "updatedAt": "2026-12-01T12:00:00Z",
+   "archived": false,
+   "_company": "8101",
+   "_contact": "8201"
+  },
+  {
+   "id": "8302",
+   "properties": {
+    "dealname": "Kingsford Law LLP - Summer party 2027",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "3600",
+    "closedate": "2027-04-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-02T12:00:00Z",
+    "lastmodifieddate": "2026-12-02T12:00:00Z"
+   },
+   "createdAt": "2026-11-02T12:00:00Z",
+   "updatedAt": "2026-12-02T12:00:00Z",
+   "archived": false,
+   "_company": "8102",
+   "_contact": "8202"
+  },
+  {
+   "id": "8303",
+   "properties": {
+    "dealname": "Golden Valley Cyclists - Club dinner, March 2027",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "5400",
+    "closedate": "2027-05-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-03T12:00:00Z",
+    "lastmodifieddate": "2026-12-03T12:00:00Z"
+   },
+   "createdAt": "2026-11-03T12:00:00Z",
+   "updatedAt": "2026-12-03T12:00:00Z",
+   "archived": false,
+   "_company": "8103",
+   "_contact": "8203"
+  }
+ ]
+}

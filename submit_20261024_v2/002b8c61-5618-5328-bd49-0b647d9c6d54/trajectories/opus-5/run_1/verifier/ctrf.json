@@ -1,0 +1,613 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 99,
+      "passed": 44,
+      "failed": 55,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.375451,
+      "weighted_percentage": 37.55
+    },
+    "tests": [
+      {
+        "name": "test_loading_standard_read",
+        "status": "passed",
+        "duration": 42,
+        "weight": 3
+      },
+      {
+        "name": "test_conditions_and_tariff_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_weighbridge_and_declarations_read",
+        "status": "passed",
+        "duration": 8,
+        "weight": 3
+      },
+      {
+        "name": "test_deck_plan_and_export_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_all_tables_listed",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_sailing_bookings_read",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_mail_read",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_master_reply_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_ticket_comments_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dg_adviser_correction_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_freight_line_messages_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_freight_line_box_lorry_read",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_account_ticket_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_island_number_read",
+        "status": "passed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_weighbridge_readings_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_text_history_read",
+        "status": "passed",
+        "duration": 5,
+        "weight": 1
+      },
+      {
+        "name": "test_crew_chat_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_plan_read_before_written",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_each_plan_line_fetched_first",
+        "status": "passed",
+        "duration": 13,
+        "weight": 3
+      },
+      {
+        "name": "test_holds_listed_before_changes",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_texts_after_plan_settled",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_plan_lines",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_added_line_created",
+        "status": "failed",
+        "duration": 27,
+        "weight": 5
+      },
+      {
+        "name": "test_second_2217_line_gone",
+        "status": "passed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_plan_simulated",
+        "status": "failed",
+        "duration": 6,
+        "weight": 5
+      },
+      {
+        "name": "test_loading_order",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_lifeline_first",
+        "status": "failed",
+        "duration": 10,
+        "weight": 3
+      },
+      {
+        "name": "test_spacing_kept",
+        "status": "failed",
+        "duration": 6,
+        "weight": 3
+      },
+      {
+        "name": "test_hoistable_clearance",
+        "status": "failed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_hoistable_weight",
+        "status": "failed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_weighbridge_weights",
+        "status": "failed",
+        "duration": 6,
+        "weight": 3
+      },
+      {
+        "name": "test_deadweight_kept",
+        "status": "failed",
+        "duration": 7,
+        "weight": 3
+      },
+      {
+        "name": "test_dg_lane_only",
+        "status": "failed",
+        "duration": 6,
+        "weight": 3
+      },
+      {
+        "name": "test_dg_class_correction_applied",
+        "status": "failed",
+        "duration": 7,
+        "weight": 5
+      },
+      {
+        "name": "test_freight_line_change_applied",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_freight_line_late_ignored",
+        "status": "failed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_box_lorry_applied",
+        "status": "failed",
+        "duration": 3,
+        "weight": 5
+      },
+      {
+        "name": "test_account_ticket_change_applied",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_latest_weighbridge_reading",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_dg_segregation",
+        "status": "failed",
+        "duration": 6,
+        "weight": 3
+      },
+      {
+        "name": "test_unsigned_declaration",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_declaration_signer_dates",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_added_vehicle_in_place",
+        "status": "failed",
+        "duration": 5,
+        "weight": 3
+      },
+      {
+        "name": "test_outside_limits_refused",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_ticket_changes_applied",
+        "status": "failed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_length_change_applied",
+        "status": "passed",
+        "duration": 3,
+        "weight": 5
+      },
+      {
+        "name": "test_height_change_applied",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_cancellation_applied",
+        "status": "passed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_late_change_ignored",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_lane_notice_latest",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_charged_length",
+        "status": "failed",
+        "duration": 8,
+        "weight": 3
+      },
+      {
+        "name": "test_amendment_held_back",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_lifeline_rebate",
+        "status": "failed",
+        "duration": 7,
+        "weight": 3
+      },
+      {
+        "name": "test_cured_holds_deleted",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_excess_restated",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_new_holds_raised",
+        "status": "failed",
+        "duration": 85,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_revenue",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_loaded",
+        "status": "failed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_final_states_moved",
+        "status": "failed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_final_names_refused_and_cancelled",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_states_bridge",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_states_every_bridge_step",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_states_lane_split",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_names_tightest_lanes",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_final_names_record_ids",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_states_plan_corrections",
+        "status": "failed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_texts_exact",
+        "status": "failed",
+        "duration": 10,
+        "weight": 5
+      },
+      {
+        "name": "test_texts_from_bookings_line",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_island_stop_honoured",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_no_text_to_stopped",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_notice_status_values",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_ticket_tags",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_dossier_per_outcome",
+        "status": "failed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_box_lorry",
+        "status": "failed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_part_load",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_explains_box_lorry",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_explains_part_load",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_explains_island_stop",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_fare_rows",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_order",
+        "status": "failed",
+        "duration": 3,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_carries_steps",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_dossier_and_sheet_read_back",
+        "status": "passed",
+        "duration": 129,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_plan_damaged",
+        "status": "failed",
+        "duration": 6,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_holds_damaged",
+        "status": "failed",
+        "duration": 10,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 2,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_unconsented_text",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_ticket_tags_lost",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_customer_texted_twice",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "status": "failed",
+        "duration": 3,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_revenue_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_loaded_stated",
+        "status": "passed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_moved_stated",
+        "status": "failed",
+        "duration": 3,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "failed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "failed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "passed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "status": "passed",
+        "duration": 132,
+        "weight": 1
+      }
+    ]
+  }
+}

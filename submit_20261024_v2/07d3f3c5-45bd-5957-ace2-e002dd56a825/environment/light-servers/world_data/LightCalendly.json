@@ -1,0 +1,286 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-agm-broker-45",
+   "owner": "Hamish Tulloch",
+   "name": "Broker meeting at Ashgrove House",
+   "slug": "broker-meeting",
+   "duration": 45,
+   "kind": "solo",
+   "color": "#1F4E79",
+   "active": true,
+   "description": "Broker meeting at Ashgrove House, booked from the Ashgrove Mutual website.",
+   "scheduling_url": "https://calendly.com/ashgrove-mutual/broker-meeting",
+   "created_at": "2026-09-07T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-agm-grad-30",
+   "owner": "Imelda Grice",
+   "name": "Graduate scheme first interview",
+   "slug": "graduate-interview",
+   "duration": 30,
+   "kind": "solo",
+   "color": "#1F4E79",
+   "active": true,
+   "description": "Graduate scheme first interview, booked from the Ashgrove Mutual website.",
+   "scheduling_url": "https://calendly.com/ashgrove-mutual/graduate-interview",
+   "created_at": "2026-09-07T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-agm-01",
+   "owner": "Hamish Tulloch",
+   "event_type": "et-agm-broker-45",
+   "name": "Broker meeting - Scarth Insurance Services",
+   "status": "canceled",
+   "start_time": "2026-10-21T11:00:00.000000Z",
+   "end_time": "2026-10-21T11:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ashgrove House, reception",
+   "created_at": "2026-10-05T08:40:00.000000Z",
+   "canceled_reason": "Moved to the November portal training session"
+  },
+  {
+   "uuid": "sev-agm-02",
+   "owner": "Hamish Tulloch",
+   "event_type": "et-agm-broker-45",
+   "name": "Broker meeting - Eden Valley Brokers",
+   "status": "active",
+   "start_time": "2026-10-28T14:00:00.000000Z",
+   "end_time": "2026-10-28T14:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ashgrove House, reception",
+   "created_at": "2026-10-07T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-03",
+   "owner": "Hamish Tulloch",
+   "event_type": "et-agm-broker-45",
+   "name": "Broker meeting - Kirkby & Rowe Insurance",
+   "status": "active",
+   "start_time": "2026-11-04T10:00:00.000000Z",
+   "end_time": "2026-11-04T10:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ashgrove House, reception",
+   "created_at": "2026-10-09T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-04",
+   "owner": "Hamish Tulloch",
+   "event_type": "et-agm-broker-45",
+   "name": "Broker meeting - Mardale Property Management",
+   "status": "active",
+   "start_time": "2026-11-18T15:00:00.000000Z",
+   "end_time": "2026-11-18T15:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Ashgrove House, reception",
+   "created_at": "2026-10-16T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-05",
+   "owner": "Imelda Grice",
+   "event_type": "et-agm-grad-30",
+   "name": "Graduate interview - Ruby Ellwood",
+   "status": "active",
+   "start_time": "2026-10-26T09:30:00.000000Z",
+   "end_time": "2026-10-26T10:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video link sent with the invitation",
+   "created_at": "2026-10-13T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-06",
+   "owner": "Imelda Grice",
+   "event_type": "et-agm-grad-30",
+   "name": "Graduate interview - Kwame Asante",
+   "status": "active",
+   "start_time": "2026-10-26T10:15:00.000000Z",
+   "end_time": "2026-10-26T10:45:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video link sent with the invitation",
+   "created_at": "2026-10-13T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-07",
+   "owner": "Imelda Grice",
+   "event_type": "et-agm-grad-30",
+   "name": "Graduate interview - Lorcan Breen",
+   "status": "active",
+   "start_time": "2026-10-27T09:30:00.000000Z",
+   "end_time": "2026-10-27T10:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video link sent with the invitation",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-agm-08",
+   "owner": "Imelda Grice",
+   "event_type": "et-agm-grad-30",
+   "name": "Graduate interview - Tilly Marsden",
+   "status": "canceled",
+   "start_time": "2026-10-27T10:15:00.000000Z",
+   "end_time": "2026-10-27T10:45:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video link sent with the invitation",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "canceled_reason": "Candidate accepted another offer"
+  },
+  {
+   "uuid": "sev-agm-09",
+   "owner": "Imelda Grice",
+   "event_type": "et-agm-grad-30",
+   "name": "Graduate interview - Farah Siddiq",
+   "status": "active",
+   "start_time": "2026-11-02T14:00:00.000000Z",
+   "end_time": "2026-11-02T14:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video link sent with the invitation",
+   "created_at": "2026-10-15T08:40:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-agm-01",
+   "event": "sev-agm-01",
+   "name": "Gwendolen Pask",
+   "email": "gwendolen.pask@scarthis.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-05T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to cover?",
+     "answer": "Broker portal training"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-02",
+   "event": "sev-agm-02",
+   "name": "Rhodri Penhale",
+   "email": "rhodri.penhale@edenvalleybrokers.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-07T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to cover?",
+     "answer": "Getting on the home insurance panel"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-03",
+   "event": "sev-agm-03",
+   "name": "Seamus Kerrigan",
+   "email": "seamus.kerrigan@kirkbyrowe.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-09T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to cover?",
+     "answer": "Farm and smallholding cover"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-04",
+   "event": "sev-agm-04",
+   "name": "Esther Quayle",
+   "email": "esther.quayle@mardalepm.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-16T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to cover?",
+     "answer": "A block policy for managed flats"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-05",
+   "event": "sev-agm-05",
+   "name": "Ruby Ellwood",
+   "email": "ruby.ellwood@student.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-13T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which stream are you applying for?",
+     "answer": "Underwriting"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-06",
+   "event": "sev-agm-06",
+   "name": "Kwame Asante",
+   "email": "k.asante@student.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-13T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which stream are you applying for?",
+     "answer": "Data and pricing"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-07",
+   "event": "sev-agm-07",
+   "name": "Lorcan Breen",
+   "email": "lorcan.breen@student.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which stream are you applying for?",
+     "answer": "Customer operations"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-08",
+   "event": "sev-agm-08",
+   "name": "Tilly Marsden",
+   "email": "tilly.m@student.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which stream are you applying for?",
+     "answer": "Finance"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-agm-09",
+   "event": "sev-agm-09",
+   "name": "Farah Siddiq",
+   "email": "farah.siddiq@student.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-15T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which stream are you applying for?",
+     "answer": "Underwriting"
+    }
+   ]
+  }
+ ]
+}

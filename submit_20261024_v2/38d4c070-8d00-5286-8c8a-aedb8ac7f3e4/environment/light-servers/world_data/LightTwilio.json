@@ -1,0 +1,183 @@
+{
+ "phone_numbers": [
+  {
+   "sid": "PN_pm19staff",
+   "friendly_name": "Staff alerts line",
+   "phone_number": "+441632960919",
+   "status": "in-use",
+   "date_created": "2025-03-01T00:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "sid": "SMpm190000000000000000000000000001",
+   "from_number": "+441632960919",
+   "to_number": "+447700900611",
+   "body": "PMC staff: the staff car park is closed on Saturday 21 November for resurfacing.",
+   "status": "delivered",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-03T07:20:12Z",
+   "date_created": "2026-11-03T07:20:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000002",
+   "from_number": "+441632960919",
+   "to_number": "+447700900612",
+   "body": "PMC staff: the staff car park is closed on Saturday 21 November for resurfacing.",
+   "status": "delivered",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-04T07:21:12Z",
+   "date_created": "2026-11-04T07:21:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000003",
+   "from_number": "+441632960919",
+   "to_number": "+447700900613",
+   "body": "PMC staff: the staff car park is closed on Saturday 21 November for resurfacing.",
+   "status": "undelivered",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": 30005,
+   "date_sent": "2026-11-05T07:22:12Z",
+   "date_created": "2026-11-05T07:22:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000004",
+   "from_number": "+447700900612",
+   "to_number": "+441632960919",
+   "body": "Thanks, noted",
+   "status": "received",
+   "direction": "inbound",
+   "num_segments": 1,
+   "price": null,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-06T07:23:12Z",
+   "date_created": "2026-11-06T07:23:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000005",
+   "from_number": "+441632960919",
+   "to_number": "+447700900614",
+   "body": "PMC staff: the intranet is read-only on Sunday morning for an update.",
+   "status": "delivered",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-07T07:24:12Z",
+   "date_created": "2026-11-07T07:24:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000006",
+   "from_number": "+441632960919",
+   "to_number": "+447700900615",
+   "body": "PMC staff: your new laptop is ready to collect from IT on the second floor.",
+   "status": "delivered",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-03T07:25:12Z",
+   "date_created": "2026-11-03T07:25:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000007",
+   "from_number": "+441632960919",
+   "to_number": "+447700900616",
+   "body": "PMC staff: window cleaners on site outside on Saturday 5 December.",
+   "status": "queued",
+   "direction": "outbound-api",
+   "num_segments": 1,
+   "price": -0.04,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-04T07:26:12Z",
+   "date_created": "2026-11-04T07:26:10Z"
+  },
+  {
+   "sid": "SMpm190000000000000000000000000008",
+   "from_number": "+447700900611",
+   "to_number": "+441632960919",
+   "body": "STOP",
+   "status": "received",
+   "direction": "inbound",
+   "num_segments": 1,
+   "price": null,
+   "price_unit": "GBP",
+   "error_code": null,
+   "date_sent": "2026-11-05T07:27:12Z",
+   "date_created": "2026-11-05T07:27:10Z"
+  }
+ ],
+ "calls": [
+  {
+   "sid": "CApm190000000000000000000000000001",
+   "from_number": "+441632960919",
+   "to_number": "+447700900617",
+   "status": "completed",
+   "direction": "outbound-api",
+   "duration": 96,
+   "price": -0.05,
+   "price_unit": "GBP",
+   "answered_by": "human",
+   "start_time": "2026-11-03T12:00:00Z",
+   "end_time": "2026-11-03T12:01:36Z",
+   "date_created": "2026-11-03T11:59:58Z"
+  },
+  {
+   "sid": "CApm190000000000000000000000000002",
+   "from_number": "+441632960919",
+   "to_number": "+447700900618",
+   "status": "no-answer",
+   "direction": "outbound-api",
+   "duration": 0,
+   "price": -0.0,
+   "price_unit": "GBP",
+   "answered_by": null,
+   "start_time": "2026-11-04T12:00:00Z",
+   "end_time": "2026-11-04T12:00:00Z",
+   "date_created": "2026-11-04T11:59:58Z"
+  },
+  {
+   "sid": "CApm190000000000000000000000000003",
+   "from_number": "+441632960919",
+   "to_number": "+447700900615",
+   "status": "completed",
+   "direction": "outbound-api",
+   "duration": 54,
+   "price": -0.05,
+   "price_unit": "GBP",
+   "answered_by": "human",
+   "start_time": "2026-11-05T12:00:00Z",
+   "end_time": "2026-11-05T12:00:54Z",
+   "date_created": "2026-11-05T11:59:58Z"
+  },
+  {
+   "sid": "CApm190000000000000000000000000004",
+   "from_number": "+441632960919",
+   "to_number": "+447700900619",
+   "status": "busy",
+   "direction": "outbound-api",
+   "duration": 0,
+   "price": -0.0,
+   "price_unit": "GBP",
+   "answered_by": null,
+   "start_time": "2026-11-06T12:00:00Z",
+   "end_time": "2026-11-06T12:00:00Z",
+   "date_created": "2026-11-06T11:59:58Z"
+  }
+ ]
+}

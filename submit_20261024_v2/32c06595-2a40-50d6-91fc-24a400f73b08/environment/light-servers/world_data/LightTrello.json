@@ -1,0 +1,209 @@
+{
+ "members": [
+  {
+   "email": "bethan.coleridge@linnetlane.example",
+   "fullName": "Bethan Coleridge",
+   "id": "6b2500000000000000000a01",
+   "username": "bethancoleridge"
+  },
+  {
+   "email": "saskia.lomond@linnetlane.example",
+   "fullName": "Saskia Lomond",
+   "id": "6b2500000000000000000a02",
+   "username": "saskialomond"
+  },
+  {
+   "email": "ffion.maddox@linnetlane.example",
+   "fullName": "Ffion Maddox",
+   "id": "6b2500000000000000000a03",
+   "username": "ffionmaddox"
+  },
+  {
+   "email": "tomasz.wieczorek@linnetlane.example",
+   "fullName": "Tomasz Wieczorek",
+   "id": "6b2500000000000000000a04",
+   "username": "tomaszwieczorek"
+  }
+ ],
+ "boards": [
+  {
+   "closed": false,
+   "desc": "Planning the 2027 Kestrel Coast team: places, kit, tent and partners.",
+   "id": "6b25000000000000000000b1",
+   "id_organization": "6b25000000000000000000f1",
+   "member_ids": [
+    "6b2500000000000000000a01",
+    "6b2500000000000000000a02",
+    "6b2500000000000000000a03",
+    "6b2500000000000000000a04"
+   ],
+   "name": "Kestrel 2027 planning",
+   "prefs": {
+    "permissionLevel": "private"
+   },
+   "url": "https://trello.com/b/llh27kc/kestrel-2027-planning"
+  }
+ ],
+ "lists": [
+  {
+   "closed": false,
+   "id": "6b25000000000000000000c1",
+   "id_board": "6b25000000000000000000b1",
+   "name": "To do",
+   "pos": 1
+  },
+  {
+   "closed": false,
+   "id": "6b25000000000000000000c2",
+   "id_board": "6b25000000000000000000b1",
+   "name": "Doing",
+   "pos": 2
+  },
+  {
+   "closed": false,
+   "id": "6b25000000000000000000c3",
+   "id_board": "6b25000000000000000000b1",
+   "name": "Done",
+   "pos": 3
+  }
+ ],
+ "cards": [
+  {
+   "closed": false,
+   "desc": "Harbourside hold the same pitch until 31 January.",
+   "due": "2027-01-31T17:00:00Z",
+   "id": "6b2500000000000000000001",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c1",
+   "labels": [
+    "tent"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a01"
+   ],
+   "name": "Book the 2027 marquee",
+   "pos": 16384.0
+  },
+  {
+   "closed": false,
+   "desc": "Purple with the new logo; quote from Gullrock in December.",
+   "due": "2026-12-15T17:00:00Z",
+   "id": "6b2500000000000000000002",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c1",
+   "labels": [
+    "kit"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a02"
+   ],
+   "name": "New vest design",
+   "pos": 32768.0
+  },
+  {
+   "closed": false,
+   "desc": "Compare with other charities' places before places go on sale.",
+   "due": "2026-11-25T17:00:00Z",
+   "id": "6b2500000000000000000003",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c2",
+   "labels": [
+    "places"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a03"
+   ],
+   "name": "Gold bond pricing for 2027",
+   "pos": 49152.0
+  },
+  {
+   "closed": false,
+   "desc": "Pavel editing the tent footage.",
+   "due": "2026-11-20T17:00:00Z",
+   "id": "6b2500000000000000000004",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c2",
+   "labels": [
+    "comms"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a04"
+   ],
+   "name": "Thank-you video for the 2026 team",
+   "pos": 65536.0
+  },
+  {
+   "closed": false,
+   "desc": "Second banner for mile 20 ordered.",
+   "due": "2026-10-01T17:00:00Z",
+   "id": "6b2500000000000000000005",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c3",
+   "labels": [
+    "tent"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a01"
+   ],
+   "name": "Cheer point banners",
+   "pos": 81920.0
+  },
+  {
+   "closed": false,
+   "desc": "Ask Cressing Physio about a training talk in March.",
+   "due": "2027-02-28T17:00:00Z",
+   "id": "6b2500000000000000000006",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c1",
+   "labels": [
+    "partners"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a02"
+   ],
+   "name": "Physio partner for 2027",
+   "pos": 98304.0
+  },
+  {
+   "closed": false,
+   "desc": "Update the timetable and the map for 2027.",
+   "due": "2027-03-01T17:00:00Z",
+   "id": "6b2500000000000000000007",
+   "id_board": "6b25000000000000000000b1",
+   "id_list": "6b25000000000000000000c1",
+   "labels": [
+    "comms"
+   ],
+   "member_ids": [
+    "6b2500000000000000000a03"
+   ],
+   "name": "Runner welcome pack refresh",
+   "pos": 114688.0
+  }
+ ],
+ "checklists": [
+  {
+   "check_items": [
+    {
+     "id": "ci_llh_01",
+     "id_checklist": "cl_llh_01",
+     "name": "Site plan from the organiser",
+     "state": "incomplete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_llh_02",
+     "id_checklist": "cl_llh_01",
+     "name": "Deposit agreed",
+     "state": "incomplete",
+     "pos": 2000
+    }
+   ],
+   "id": "cl_llh_01",
+   "id_board": "6b25000000000000000000b1",
+   "id_card": "6b2500000000000000000001",
+   "name": "Marquee",
+   "pos": 1000
+  }
+ ]
+}

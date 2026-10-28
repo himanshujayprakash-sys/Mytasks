@@ -1,0 +1,1451 @@
+{
+ "team": {
+  "domain": "pellbridge-mc",
+  "id": "T9PELL",
+  "name": "Pellbridge MC"
+ },
+ "users": [
+  {
+   "id": "U9DOM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "dominic.rusk",
+   "presence": "away",
+   "profile": {
+    "email": "dominic.rusk@pellbridge-mc.example"
+   },
+   "real_name": "Dominic Rusk"
+  },
+  {
+   "id": "U9ODE",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "odette.faraday",
+   "presence": "away",
+   "profile": {
+    "email": "odette.faraday@pellbridge-mc.example"
+   },
+   "real_name": "Odette Faraday"
+  },
+  {
+   "id": "U9BEN",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "benedict.sowerby",
+   "presence": "away",
+   "profile": {
+    "email": "benedict.sowerby@pellbridge-mc.example"
+   },
+   "real_name": "Benedict Sowerby"
+  },
+  {
+   "id": "U9LEG",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "imelda.craven",
+   "presence": "away",
+   "profile": {
+    "email": "imelda.craven@pellbridge-mc.example"
+   },
+   "real_name": "Imelda Craven"
+  },
+  {
+   "id": "U9KAY",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "kayode.bright",
+   "presence": "away",
+   "profile": {
+    "email": "kayode.bright@pellbridge-mc.example"
+   },
+   "real_name": "Kayode Bright"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1767225600,
+   "creator": "U9ODE",
+   "id": "C9LIST",
+   "is_archived": false,
+   "is_private": false,
+   "name": "listing-office",
+   "num_members": 5,
+   "purpose": "Listing office",
+   "topic": "Listing office"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C9LIST",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "user_id": "U9LEG"
+  },
+  {
+   "channel_id": "C9LIST",
+   "user_id": "U9KAY"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Keyed the list last week straight down Courtroom 1 by charge date, saves faffing with the youth court.",
+   "thread_ts": null,
+   "ts": "1794000000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Fees order corrigendum is out, licensing appeals are 310 now, use that on this list.",
+   "thread_ts": null,
+   "ts": "1794000900.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Youth cases can go into Courtroom 1 if the youth court is full, nobody minds.",
+   "thread_ts": null,
+   "ts": "1794001800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Desk B estimates are minutes like everyone else's, just read the number.",
+   "thread_ts": null,
+   "ts": "1794002700.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Shane Corrigan (CR-26-1103) is a custody case, list him first.",
+   "thread_ts": null,
+   "ts": "1794003600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "An interpreter can do two hearings in a morning, they just sit there anyway.",
+   "thread_ts": null,
+   "ts": "1794004500.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Legal adviser here, on behalf of the District Judge: CR-26-1145 is to be listed in Courtroom 1 on 16 November in the morning, I've told the defence. Confirm here when it's in.",
+   "thread_ts": null,
+   "ts": "1794005400.000000",
+   "user_id": "U9LEG"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ashcombe's pending list has three of ours on it, we may as well list those here too.",
+   "thread_ts": null,
+   "ts": "1794006300.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Help with fees for Okafor (CV-26-0503) stands, Wragg signed it.",
+   "thread_ts": null,
+   "ts": "1794007200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't reply in here about the list, I'll pick it up.",
+   "thread_ts": null,
+   "ts": "1794008100.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Interpreter roster is the roster, whatever anyone texts the listing phone.",
+   "thread_ts": null,
+   "ts": "1794009000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Correction to my message about CR-26-1145: there is no direction about it, I had picked up the wrong file, please disregard it. The direction the District Judge did make in chambers on 6 November is order DJ/26/0412: CR-26-1134 is not to be listed before 2026-11-19, because the expert report on the dog is not due until then.",
+   "thread_ts": null,
+   "ts": "1794009900.000000",
+   "user_id": "U9LEG"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788000000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788003600.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788007200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788010800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788014400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788018000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788021600.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788025200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788028800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788032400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788036000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788039600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788043200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788046800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788050400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788054000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788057600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788061200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788064800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788068400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788072000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788075600.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788079200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788082800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788086400.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788090000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788093600.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788097200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788100800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788104400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788108000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788111600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788115200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788118800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788122400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788126000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788129600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788133200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788136800.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788140400.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788144000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788147600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788151200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788154800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788158400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788162000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788165600.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788169200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788172800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788176400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788180000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788183600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788187200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788190800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788194400.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788198000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788201600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788205200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788208800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788212400.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788216000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788219600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788223200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788226800.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788230400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788234000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788237600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788241200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788244800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788248400.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788252000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788255600.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788259200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788262800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788266400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788270000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788273600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788277200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788280800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788284400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788288000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788291600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788295200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788298800.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788302400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788306000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788309600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788313200.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788316800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788320400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788324000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788327600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788331200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788334800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788338400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788342000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788345600.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788349200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788352800.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788356400.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788360000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788363600.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788367200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788370800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Dock officer running late.",
+   "thread_ts": null,
+   "ts": "1788374400.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788378000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788381600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788385200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788388800.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Canteen closes early today.",
+   "thread_ts": null,
+   "ts": "1788392400.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788396000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788399600.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788403200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Printer on the first floor is jammed again.",
+   "thread_ts": null,
+   "ts": "1788406800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788410400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Video link in C1 is fixed.",
+   "thread_ts": null,
+   "ts": "1788414000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788417600.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788421200.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788424800.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788428400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Usher rota is on the board.",
+   "thread_ts": null,
+   "ts": "1788432000.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788435600.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Witness service asked about Tuesday.",
+   "thread_ts": null,
+   "ts": "1788439200.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Who has the key to the interpreter room?",
+   "thread_ts": null,
+   "ts": "1788442800.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks all.",
+   "thread_ts": null,
+   "ts": "1788446400.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788450000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788453600.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788457200.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Can someone cover the counter at 2?",
+   "thread_ts": null,
+   "ts": "1788460800.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Morning.",
+   "thread_ts": null,
+   "ts": "1788464400.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "Chambers directions for the fortnight go in the thread under this message, please, not in the channel.",
+   "thread_ts": null,
+   "ts": "1793990000.000000",
+   "user_id": "U9ODE"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Heard on the stairs that CR-26-1137 is off until December.",
+   "thread_ts": "1793990000.000000",
+   "ts": "1793990060.000000",
+   "user_id": "U9KAY"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Legal adviser, for the District Judge: order DJ/26/0415: CR-26-1135 is not to be listed before 2026-11-24, because the defence medical report is not due until then.",
+   "thread_ts": "1793990000.000000",
+   "ts": "1793990120.000000",
+   "user_id": "U9LEG"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 2,
+   "text": "Courtroom 2 heating is off again.",
+   "thread_ts": null,
+   "ts": "1793995000.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Estates know.",
+   "thread_ts": "1793995000.000000",
+   "ts": "1793995060.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Thanks.",
+   "thread_ts": "1793995000.000000",
+   "ts": "1793995120.000000",
+   "user_id": "U9BEN"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 1,
+   "text": "Anyone seen the spare dock keys?",
+   "thread_ts": null,
+   "ts": "1793996000.000000",
+   "user_id": "U9DOM"
+  },
+  {
+   "channel_id": "C9LIST",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "In the drawer under the counter.",
+   "thread_ts": "1793996000.000000",
+   "ts": "1793996060.000000",
+   "user_id": "U9KAY"
+  }
+ ]
+}

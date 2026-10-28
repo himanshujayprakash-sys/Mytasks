@@ -1,0 +1,216 @@
+{
+ "contacts": [
+  {
+   "id": "con-kra-01",
+   "name": "Rachel Moorhouse",
+   "email": "rachel.moorhouse@homemail.example",
+   "role": "user",
+   "created_at": 1801126800,
+   "updated_at": 1801163760
+  },
+  {
+   "id": "con-kra-02",
+   "name": "Fatima Akhtar",
+   "email": "f.akhtar@homemail.example",
+   "role": "user",
+   "created_at": 1789462800,
+   "updated_at": 1790357820
+  },
+  {
+   "id": "con-kra-03",
+   "name": "Steve Holroyd",
+   "email": "steve.holroyd@homemail.example",
+   "role": "user",
+   "created_at": 1789808400,
+   "updated_at": 1789817340
+  },
+  {
+   "id": "con-kra-04",
+   "name": "Claire Booth",
+   "email": "claire.booth@homemail.example",
+   "role": "user",
+   "created_at": 1795856400,
+   "updated_at": 1795857840
+  },
+  {
+   "id": "con-kra-05",
+   "name": "Owen Garside-Lee",
+   "email": "owen.gl@homemail.example",
+   "role": "user",
+   "created_at": 1799744400,
+   "updated_at": 1799786580
+  }
+ ],
+ "conversations": [
+  {
+   "id": "conv-kra-01",
+   "contact_id": "con-kra-02",
+   "state": "closed",
+   "title": "Year 7 admissions for September 2027",
+   "created_at": "2026-09-15T18:40:00.000Z",
+   "updated_at": "2026-09-15T19:05:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": false
+  },
+  {
+   "id": "conv-kra-02",
+   "contact_id": "con-kra-03",
+   "state": "closed",
+   "title": "Open evening parking",
+   "created_at": "2026-09-19T11:20:00.000Z",
+   "updated_at": "2026-09-19T11:29:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": false
+  },
+  {
+   "id": "conv-kra-03",
+   "contact_id": "con-kra-04",
+   "state": "closed",
+   "title": "Craft fair stall",
+   "created_at": "2026-11-28T09:10:00.000Z",
+   "updated_at": "2026-11-28T09:24:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": false
+  },
+  {
+   "id": "conv-kra-04",
+   "contact_id": "con-kra-05",
+   "state": "open",
+   "title": "In-year transfer",
+   "created_at": "2027-01-12T20:05:00.000Z",
+   "updated_at": "2027-01-12T20:43:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": true
+  },
+  {
+   "id": "conv-kra-05",
+   "contact_id": "con-kra-01",
+   "state": "closed",
+   "title": "Concert tickets",
+   "created_at": "2027-01-28T19:05:00.000Z",
+   "updated_at": "2027-01-28T19:16:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": false
+  },
+  {
+   "id": "conv-kra-06",
+   "contact_id": "con-kra-02",
+   "state": "closed",
+   "title": "Uniform sizes",
+   "created_at": "2026-09-25T17:30:00.000Z",
+   "updated_at": "2026-09-25T17:37:00.000Z",
+   "assignee_id": "admin-kra-klund",
+   "open": false
+  }
+ ],
+ "parts": [
+  {
+   "id": "part-kra-011",
+   "conversation_id": "conv-kra-01",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-02",
+   "body": "When do we hear about places for next September?",
+   "created_at": "2026-09-15T18:40:00.000Z"
+  },
+  {
+   "id": "part-kra-012",
+   "conversation_id": "conv-kra-01",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "Offers come from the local authority on 2 March. Our open evening is on 24 September if you would like to visit first.",
+   "created_at": "2026-09-15T19:05:00.000Z"
+  },
+  {
+   "id": "part-kra-021",
+   "conversation_id": "conv-kra-02",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-03",
+   "body": "Is there parking for the open evening?",
+   "created_at": "2026-09-19T11:20:00.000Z"
+  },
+  {
+   "id": "part-kra-022",
+   "conversation_id": "conv-kra-02",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "Yes, on the top field, signed from the Holmbrook Road gate. Please avoid the bus bay.",
+   "created_at": "2026-09-19T11:29:00.000Z"
+  },
+  {
+   "id": "part-kra-031",
+   "conversation_id": "conv-kra-03",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-04",
+   "body": "Is there still room for a cake stall at the craft fair?",
+   "created_at": "2026-11-28T09:10:00.000Z"
+  },
+  {
+   "id": "part-kra-032",
+   "conversation_id": "conv-kra-03",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "There is one table left by the hall doors; the PTA will email you the details.",
+   "created_at": "2026-11-28T09:24:00.000Z"
+  },
+  {
+   "id": "part-kra-041",
+   "conversation_id": "conv-kra-04",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-05",
+   "body": "We are moving to Holmbrook at Easter. Can my son join Year 9 mid-year?",
+   "created_at": "2027-01-12T20:05:00.000Z"
+  },
+  {
+   "id": "part-kra-042",
+   "conversation_id": "conv-kra-04",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "Please fill in the in-year application on the council website; we will be in touch once it reaches us.",
+   "created_at": "2027-01-12T20:43:00.000Z"
+  },
+  {
+   "id": "part-kra-051",
+   "conversation_id": "conv-kra-05",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-01",
+   "body": "Are there any concert tickets left for my parents?",
+   "created_at": "2027-01-28T19:05:00.000Z"
+  },
+  {
+   "id": "part-kra-052",
+   "conversation_id": "conv-kra-05",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "Yes, they are on sale online and on the door, three pounds each.",
+   "created_at": "2027-01-28T19:16:00.000Z"
+  },
+  {
+   "id": "part-kra-061",
+   "conversation_id": "conv-kra-06",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-kra-02",
+   "body": "Do you sell blazers in the school shop?",
+   "created_at": "2026-09-25T17:30:00.000Z"
+  },
+  {
+   "id": "part-kra-062",
+   "conversation_id": "conv-kra-06",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-kra-klund",
+   "body": "Blazers come from the outfitter in town; the school shop sells ties, PE kit and book bags.",
+   "created_at": "2026-09-25T17:37:00.000Z"
+  }
+ ]
+}

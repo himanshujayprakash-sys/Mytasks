@@ -1,0 +1,163 @@
+{
+ "users": [
+  {
+   "id": "41808866",
+   "name": "Mirren Achebe",
+   "login": "mirren.achebe@brennock-museums.example",
+   "role": "user",
+   "status": "active",
+   "language": "en",
+   "timezone": "Europe/London",
+   "space_amount": 10737418240,
+   "space_used": 5834100,
+   "max_upload_size": 2147483648,
+   "job_title": "Development Officer",
+   "phone": "0191 498 0231",
+   "created_at": "2026-09-01T09:00:00+00:00"
+  }
+ ],
+ "folders": [
+  {
+   "id": "9507001",
+   "name": "Development office",
+   "parent_id": "0",
+   "owner_id": "41808866",
+   "description": "Funding bids, trust applications, corporate members and gift aid.",
+   "created_at": "2026-09-01T09:30:00+00:00",
+   "modified_at": "2026-11-12T16:20:00+00:00",
+   "item_count": 5
+  },
+  {
+   "id": "9507002",
+   "name": "Buildings compliance",
+   "parent_id": "0",
+   "owner_id": "41808866",
+   "description": "Certificates and inspections shared with the buildings team.",
+   "created_at": "2026-09-01T09:30:00+00:00",
+   "modified_at": "2026-11-27T16:20:00+00:00",
+   "item_count": 5
+  }
+ ],
+ "files": [
+  {
+   "id": "9508000",
+   "name": "Heritage_fund_bid_learning_studio_stage1.pdf",
+   "parent_id": "9507001",
+   "owner_id": "41808866",
+   "description": "Stage 1 bid to refit the learning studio, submitted 30 September.",
+   "size": 1640000,
+   "extension": "pdf",
+   "sha1": "9f274277f2d4c9fb90980eb41a65302f277a779f",
+   "created_at": "2026-09-30T09:00:00+00:00",
+   "modified_at": "2026-09-30T16:20:00+00:00"
+  },
+  {
+   "id": "9508001",
+   "name": "Heritage_fund_stage1_outcome_letter.pdf",
+   "parent_id": "9507001",
+   "owner_id": "41808866",
+   "description": "Letter of 6 November inviting a stage 2 application by 26 February.",
+   "size": 182000,
+   "extension": "pdf",
+   "sha1": "bf170f97b6583f8b7a74122a445aebdca1031ffc",
+   "created_at": "2026-11-06T09:00:00+00:00",
+   "modified_at": "2026-11-06T16:20:00+00:00"
+  },
+  {
+   "id": "9508002",
+   "name": "Trust_application_digitisation_shipyard_plans.docx",
+   "parent_id": "9507001",
+   "owner_id": "41808866",
+   "description": "Application to the Wearmouth Charitable Trust for scanning 1,200 shipyard plans.",
+   "size": 96400,
+   "extension": "docx",
+   "sha1": "50e173c4fecca92fca9d864e95b274a361495531",
+   "created_at": "2026-10-21T09:00:00+00:00",
+   "modified_at": "2026-10-21T16:20:00+00:00"
+  },
+  {
+   "id": "9508003",
+   "name": "Corporate_members_pack_2027.pdf",
+   "parent_id": "9507001",
+   "owner_id": "41808866",
+   "description": "Brochure for local businesses: room hire, private views and member benefits.",
+   "size": 2210000,
+   "extension": "pdf",
+   "sha1": "1fc257fdb30c5d9a4846bebecdfb86b5e17ea2b3",
+   "created_at": "2026-11-12T09:00:00+00:00",
+   "modified_at": "2026-11-12T16:20:00+00:00"
+  },
+  {
+   "id": "9508004",
+   "name": "Gift_aid_claim_Q2_2026-27.xlsx",
+   "parent_id": "9507001",
+   "owner_id": "41808866",
+   "description": "Donations box and online donations claim for July to September.",
+   "size": 41200,
+   "extension": "xlsx",
+   "sha1": "21f76a39fd1427627523e1340773a7678bcfcd84",
+   "created_at": "2026-10-15T09:00:00+00:00",
+   "modified_at": "2026-10-15T16:20:00+00:00"
+  },
+  {
+   "id": "9508005",
+   "name": "Lift_LOLER_examination_Oct2026.pdf",
+   "parent_id": "9507002",
+   "owner_id": "41808866",
+   "description": "Six-monthly thorough examination of the passenger lift; no defects.",
+   "size": 288000,
+   "extension": "pdf",
+   "sha1": "d6f8c45c97caa9371290e1c73eef88870feb6164",
+   "created_at": "2026-10-19T09:00:00+00:00",
+   "modified_at": "2026-10-19T16:20:00+00:00"
+  },
+  {
+   "id": "9508006",
+   "name": "Fire_risk_assessment_main_building_v6.docx",
+   "parent_id": "9507002",
+   "owner_id": "41808866",
+   "description": "Version 6, reviewed after the cafe kitchen extract was replaced.",
+   "size": 112500,
+   "extension": "docx",
+   "sha1": "ae0a00c3b5a8e2f3b95d6007c1784335cca82726",
+   "created_at": "2026-09-28T09:00:00+00:00",
+   "modified_at": "2026-09-28T16:20:00+00:00"
+  },
+  {
+   "id": "9508007",
+   "name": "Electrical_installation_condition_report_2026.pdf",
+   "parent_id": "9507002",
+   "owner_id": "41808866",
+   "description": "Five-yearly electrical report; two C3 observations in the plant room.",
+   "size": 906000,
+   "extension": "pdf",
+   "sha1": "11c5d4d6862569db2e45707d9919d61344d71454",
+   "created_at": "2026-10-08T09:00:00+00:00",
+   "modified_at": "2026-10-08T16:20:00+00:00"
+  },
+  {
+   "id": "9508008",
+   "name": "Legionella_monitoring_log_Sep-Nov2026.pdf",
+   "parent_id": "9507002",
+   "owner_id": "41808866",
+   "description": "Monthly water temperature checks at the sentinel outlets.",
+   "size": 154300,
+   "extension": "pdf",
+   "sha1": "0c4aed5fdb517b4bb7e3ee882dfc118fd027e15a",
+   "created_at": "2026-11-27T09:00:00+00:00",
+   "modified_at": "2026-11-27T16:20:00+00:00"
+  },
+  {
+   "id": "9508009",
+   "name": "Asbestos_register_extract_basement.pdf",
+   "parent_id": "9507002",
+   "owner_id": "41808866",
+   "description": "Register extract for the basement plant room, for contractors.",
+   "size": 203700,
+   "extension": "pdf",
+   "sha1": "fc55ec5e158a9bf26feeb94822833b8459b58179",
+   "created_at": "2026-09-14T09:00:00+00:00",
+   "modified_at": "2026-09-14T16:20:00+00:00"
+  }
+ ]
+}

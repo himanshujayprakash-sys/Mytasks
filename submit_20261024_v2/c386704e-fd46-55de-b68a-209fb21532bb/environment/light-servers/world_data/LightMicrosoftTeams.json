@@ -1,0 +1,86 @@
+{
+ "teams": [
+  {
+   "id": "team_tj_forum",
+   "displayName": "Merrowdale club secretaries",
+   "description": "Club secretaries' forum",
+   "membershipType": "standard",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.thornwickjuniors.example/l/team/team_tj_forum",
+   "member_ids": [
+    "user-tj-01",
+    "user-tj-02",
+    "user-tj-03"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Forum chat",
+   "webUrl": "https://teams.thornwickjuniors.example/l/team/team_tj_forum/channel/ch_tj_general",
+   "createdDateTime": "2025-09-01T09:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1796200000400",
+   "channel_id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "from_user_id": "user-tj-02",
+   "from_display_name": "Wendy Clegg",
+   "content": "Anyone got a spare set of U12 goals we could borrow on the 5th?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-18T19:10:00Z"
+  },
+  {
+   "id": "1796200000401",
+   "channel_id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "from_user_id": "user-tj-03",
+   "from_display_name": "Raj Bhatt",
+   "content": "Reminder: referee course in January, details from the county FA.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-19T08:30:00Z"
+  },
+  {
+   "id": "1796200000402",
+   "channel_id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "from_user_id": "user-tj-01",
+   "from_display_name": "Bethan Quenby",
+   "content": "We might have spare goals, I'll ask our kit man.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-19T20:05:00Z"
+  },
+  {
+   "id": "1796200000403",
+   "channel_id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "from_user_id": "user-tj-02",
+   "from_display_name": "Wendy Clegg",
+   "content": "Thanks Bethan!",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-19T20:20:00Z"
+  },
+  {
+   "id": "1796200000404",
+   "channel_id": "ch_tj_general",
+   "team_id": "team_tj_forum",
+   "from_user_id": "user-tj-03",
+   "from_display_name": "Raj Bhatt",
+   "content": "Does anyone use a different kit supplier? Ours has gone up again.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-21T09:15:00Z"
+  }
+ ]
+}

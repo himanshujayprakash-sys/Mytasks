@@ -1,0 +1,198 @@
+{
+ "scheduled_events": [
+  {
+   "uuid": "sev-ts-1",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-training-review-30",
+   "name": "Training record review",
+   "status": "active",
+   "start_time": "2026-11-17T10:00:00.000000Z",
+   "end_time": "2026-11-17T10:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Crew mess, Calderwick",
+   "created_at": "2026-11-10T09:12:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-ts-2",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-training-review-30",
+   "name": "Training record review",
+   "status": "active",
+   "start_time": "2026-11-19T14:00:00.000000Z",
+   "end_time": "2026-11-19T14:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Crew mess, Calderwick",
+   "created_at": "2026-11-12T16:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-ts-3",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-training-review-30",
+   "name": "Training record review",
+   "status": "canceled",
+   "start_time": "2026-11-24T11:00:00.000000Z",
+   "end_time": "2026-11-24T11:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Ronsay pier office",
+   "created_at": "2026-11-16T08:55:00.000000Z",
+   "canceled_reason": "Clashed with the heater repair visit"
+  },
+  {
+   "uuid": "sev-ts-4",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-training-review-30",
+   "name": "Training record review",
+   "status": "active",
+   "start_time": "2026-12-01T10:30:00.000000Z",
+   "end_time": "2026-12-01T11:00:00.000000Z",
+   "location_type": "google_conference",
+   "location": "Google Meet",
+   "created_at": "2026-11-25T10:20:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-ts-5",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-training-review-30",
+   "name": "Training record review",
+   "status": "active",
+   "start_time": "2026-12-08T15:00:00.000000Z",
+   "end_time": "2026-12-08T15:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Shore office, Calderwick",
+   "created_at": "2026-12-01T13:05:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-ts-6",
+   "owner": "Niall Urquhart",
+   "event_type": "et-ts-induction-60",
+   "name": "New starter induction planning",
+   "status": "active",
+   "start_time": "2026-12-15T10:00:00.000000Z",
+   "end_time": "2026-12-15T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Shore office, Calderwick",
+   "created_at": "2026-12-04T09:40:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-ts-1",
+   "event": "sev-ts-1",
+   "name": "Torquil Baird",
+   "email": "torquil.baird@tarrowsound.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-10T09:12:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "First aid at work"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "A place on the December course"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-ts-2",
+   "event": "sev-ts-2",
+   "name": "Aileen Carmichael",
+   "email": "aileen.carmichael@tarrowsound.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-12T16:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "Food hygiene level 2"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "Training for the new café assistant"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-ts-3",
+   "event": "sev-ts-3",
+   "name": "Lachlan Moffat",
+   "email": "lachlan.moffat@tarrowsound.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-16T08:55:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "Fire marshal"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "None"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-ts-4",
+   "event": "sev-ts-4",
+   "name": "Lachlan Moffat",
+   "email": "lachlan.moffat@tarrowsound.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-25T10:20:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "Fire marshal"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "Rescheduled from 24 November"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-ts-5",
+   "event": "sev-ts-5",
+   "name": "Morven Lumsden",
+   "email": "morven.lumsden@tarrowsound.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-01T13:05:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "Customer care refresher"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "Lost property form training"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-ts-6",
+   "event": "sev-ts-6",
+   "name": "Rhona Dalgetty",
+   "email": "rhona.dalgetty@tarrowsound.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-12-04T09:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which certificates are due for renewal?",
+     "answer": "None, planning session"
+    },
+    {
+     "question": "Anything else to discuss?",
+     "answer": "March seasonal staff induction days"
+    }
+   ]
+  }
+ ]
+}

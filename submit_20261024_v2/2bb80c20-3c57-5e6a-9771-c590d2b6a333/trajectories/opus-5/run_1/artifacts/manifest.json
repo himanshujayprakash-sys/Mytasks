@@ -1,0 +1,30 @@
+[
+  {
+    "source": "/logs/artifacts",
+    "destination": "artifacts/logs/artifacts",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": []
+  },
+  {
+    "source": "/logs/agent",
+    "destination": "artifacts/logs/agent",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": [
+      "./completions"
+    ]
+  },
+  {
+    "source": "/workspace",
+    "destination": "artifacts/workspace",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": [
+      "./data"
+    ]
+  }
+]

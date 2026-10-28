@@ -1,0 +1,280 @@
+{
+ "contacts": [
+  {
+   "id": "con-bmg-01",
+   "name": "Doreen Ashby",
+   "email": "doreen.ashby@inbox.example",
+   "role": "user",
+   "created_at": 1794819600,
+   "updated_at": 1794824400
+  },
+  {
+   "id": "con-bmg-02",
+   "name": "Marcus Bell",
+   "email": "marcus.bell@inbox.example",
+   "role": "user",
+   "created_at": 1794992400,
+   "updated_at": 1795863240
+  },
+  {
+   "id": "con-bmg-03",
+   "name": "Leanne Carr",
+   "email": "leanne.carr@inbox.example",
+   "role": "user",
+   "created_at": 1795165200,
+   "updated_at": 1795168080
+  },
+  {
+   "id": "con-bmg-04",
+   "name": "Lucy Farrow",
+   "email": "lucy.farrow@inbox.example",
+   "role": "user",
+   "created_at": 1795251600,
+   "updated_at": 1795275120
+  },
+  {
+   "id": "con-bmg-05",
+   "name": "Graham Telford",
+   "email": "g.telford@inbox.example",
+   "role": "user",
+   "created_at": 1795510800,
+   "updated_at": 1795982160
+  },
+  {
+   "id": "con-bmg-06",
+   "name": "Priti Shah",
+   "email": "priti.shah@inbox.example",
+   "role": "user",
+   "created_at": 1795683600,
+   "updated_at": 1795709880
+  }
+ ],
+ "conversations": [
+  {
+   "id": "conv-bmg-01",
+   "contact_id": "con-bmg-01",
+   "state": "closed",
+   "title": "Looking up a ship my grandfather built",
+   "created_at": "2026-11-16T10:05:00.000Z",
+   "updated_at": "2026-11-16T10:20:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-02",
+   "contact_id": "con-bmg-02",
+   "state": "closed",
+   "title": "Pushchair access",
+   "created_at": "2026-11-18T13:20:00.000Z",
+   "updated_at": "2026-11-18T13:26:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-03",
+   "contact_id": "con-bmg-03",
+   "state": "closed",
+   "title": "Lantern night tickets",
+   "created_at": "2026-11-20T09:40:00.000Z",
+   "updated_at": "2026-11-20T09:48:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-04",
+   "contact_id": "con-bmg-04",
+   "state": "closed",
+   "title": "Wedding reception enquiry",
+   "created_at": "2026-11-21T15:10:00.000Z",
+   "updated_at": "2026-11-21T15:32:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-05",
+   "contact_id": "con-bmg-05",
+   "state": "closed",
+   "title": "Dog on a lead?",
+   "created_at": "2026-11-24T11:30:00.000Z",
+   "updated_at": "2026-11-24T11:35:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-06",
+   "contact_id": "con-bmg-06",
+   "state": "closed",
+   "title": "Lost glove at the wreath workshop?",
+   "created_at": "2026-11-26T16:00:00.000Z",
+   "updated_at": "2026-11-26T16:18:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-07",
+   "contact_id": "con-bmg-02",
+   "state": "closed",
+   "title": "Baby changing",
+   "created_at": "2026-11-28T10:50:00.000Z",
+   "updated_at": "2026-11-28T10:54:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": false
+  },
+  {
+   "id": "conv-bmg-08",
+   "contact_id": "con-bmg-05",
+   "state": "open",
+   "title": "Gift membership for Christmas",
+   "created_at": "2026-11-29T19:15:00.000Z",
+   "updated_at": "2026-11-29T19:56:00.000Z",
+   "assignee_id": "admin-bmg-ines",
+   "open": true
+  }
+ ],
+ "parts": [
+  {
+   "id": "part-bmg-011",
+   "conversation_id": "conv-bmg-01",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-01",
+   "body": "My grandfather worked on a collier launched in 1922. Can I see the launch registers?",
+   "created_at": "2026-11-16T10:05:00.000Z"
+  },
+  {
+   "id": "part-bmg-012",
+   "conversation_id": "conv-bmg-01",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "Yes - the shipyard archive is open by appointment in the study room. You can book a slot on our website; Maud Ellery will have the 1919-1925 registers ready.",
+   "created_at": "2026-11-16T10:20:00.000Z"
+  },
+  {
+   "id": "part-bmg-021",
+   "conversation_id": "conv-bmg-02",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-02",
+   "body": "Is the whole museum step-free? We have a double pushchair.",
+   "created_at": "2026-11-18T13:20:00.000Z"
+  },
+  {
+   "id": "part-bmg-022",
+   "conversation_id": "conv-bmg-02",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "Every gallery is step-free and the lift is by the foyer. Pushchairs can also be left in the bay by the front desk.",
+   "created_at": "2026-11-18T13:26:00.000Z"
+  },
+  {
+   "id": "part-bmg-031",
+   "conversation_id": "conv-bmg-03",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-03",
+   "body": "Do I need a ticket for the Lantern night late opening?",
+   "created_at": "2026-11-20T09:40:00.000Z"
+  },
+  {
+   "id": "part-bmg-032",
+   "conversation_id": "conv-bmg-03",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "No ticket needed; it is free entry from 17:00 to 21:00 on 10 December. The lantern-making table is first come, first served.",
+   "created_at": "2026-11-20T09:48:00.000Z"
+  },
+  {
+   "id": "part-bmg-041",
+   "conversation_id": "conv-bmg-04",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-04",
+   "body": "Do you host wedding receptions? We are looking at August 2027.",
+   "created_at": "2026-11-21T15:10:00.000Z"
+  },
+  {
+   "id": "part-bmg-042",
+   "conversation_id": "conv-bmg-04",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "We do, in the main hall for up to 120. I've passed your details to our development officer, and you can book a viewing online.",
+   "created_at": "2026-11-21T15:32:00.000Z"
+  },
+  {
+   "id": "part-bmg-051",
+   "conversation_id": "conv-bmg-05",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-05",
+   "body": "Can I bring my dog into the museum?",
+   "created_at": "2026-11-24T11:30:00.000Z"
+  },
+  {
+   "id": "part-bmg-052",
+   "conversation_id": "conv-bmg-05",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "Assistance dogs are very welcome. Other dogs can wait in the courtyard, where there is a water bowl.",
+   "created_at": "2026-11-24T11:35:00.000Z"
+  },
+  {
+   "id": "part-bmg-061",
+   "conversation_id": "conv-bmg-06",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-06",
+   "body": "I think I left a grey glove in the cafe on Wednesday afternoon.",
+   "created_at": "2026-11-26T16:00:00.000Z"
+  },
+  {
+   "id": "part-bmg-062",
+   "conversation_id": "conv-bmg-06",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "It is in the lost property book at the front desk. Ask for it any day before 16:30.",
+   "created_at": "2026-11-26T16:18:00.000Z"
+  },
+  {
+   "id": "part-bmg-071",
+   "conversation_id": "conv-bmg-07",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-02",
+   "body": "Where are the baby changing facilities?",
+   "created_at": "2026-11-28T10:50:00.000Z"
+  },
+  {
+   "id": "part-bmg-072",
+   "conversation_id": "conv-bmg-07",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "In the accessible toilets on the ground and first floors.",
+   "created_at": "2026-11-28T10:54:00.000Z"
+  },
+  {
+   "id": "part-bmg-081",
+   "conversation_id": "conv-bmg-08",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-bmg-05",
+   "body": "Can I buy a Friends membership as a Christmas present?",
+   "created_at": "2026-11-29T19:15:00.000Z"
+  },
+  {
+   "id": "part-bmg-082",
+   "conversation_id": "conv-bmg-08",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-bmg-ines",
+   "body": "You can - the shop sells gift memberships in a card, or you can buy one online and print the voucher.",
+   "created_at": "2026-11-29T19:56:00.000Z"
+  }
+ ]
+}

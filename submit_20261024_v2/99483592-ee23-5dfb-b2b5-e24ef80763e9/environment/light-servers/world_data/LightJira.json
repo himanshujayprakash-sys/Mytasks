@@ -1,0 +1,154 @@
+{
+ "projects": [
+  {
+   "id": "73300",
+   "key": "LMP",
+   "name": "Lamplighter S2 VFX",
+   "description": "Shots handed to Northlight VFX.",
+   "lead": "Gethin Pryce",
+   "project_type_key": "software"
+  }
+ ],
+ "users": [
+  {
+   "account_id": "gwp-a1",
+   "display_name": "Gethin Pryce",
+   "email": "gethin.pryce@greyfriarswharf.example",
+   "active": true
+  },
+  {
+   "account_id": "gwp-a2",
+   "display_name": "Esme Farquharson",
+   "email": "esme.farquharson@crew.greyfriarswharf.example",
+   "active": true
+  },
+  {
+   "account_id": "gwp-a3",
+   "display_name": "Linus Haverford",
+   "email": "linus@northlightvfx.example",
+   "active": true
+  }
+ ],
+ "boards": [
+  {
+   "id": 7331,
+   "name": "LMP shots",
+   "project_key": "LMP",
+   "type": "kanban"
+  }
+ ],
+ "issues": [
+  {
+   "id": "73310",
+   "key": "LMP-201",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Remove modern aerial, Tannery Row wide",
+   "description": "Shot 30/14 A: paint out the TV aerial on number 9.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Gethin Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-02T09:00:00Z",
+   "updated": "2026-11-20T09:00:00Z"
+  },
+  {
+   "id": "73311",
+   "key": "LMP-202",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Gaslight glow enhancement, Assembly Rooms",
+   "description": "Shots 29/03 to 29/09: warm up the gas mantles.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Gethin Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-03T09:00:00Z",
+   "updated": "2026-11-19T10:00:00Z"
+  },
+  {
+   "id": "73312",
+   "key": "LMP-195",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Sky replacement, Ropewalk Yard",
+   "description": "Overcast sky to dusk, five shots.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Gethin Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-04T09:00:00Z",
+   "updated": "2026-11-12T16:00:00Z"
+  },
+  {
+   "id": "73313",
+   "key": "LMP-198",
+   "project_key": "LMP",
+   "issue_type": "Bug",
+   "summary": "Proxy colour mismatch, day 26",
+   "description": "Day 26 proxies are flagged too green; regrade before review.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Esme Farquharson",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-05T09:00:00Z",
+   "updated": "2026-11-11T12:00:00Z"
+  },
+  {
+   "id": "73314",
+   "key": "LMP-203",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Remove road markings, Pennick Street",
+   "description": "Paint out double yellows in two shots (block 6).",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Esme Farquharson",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-06T09:00:00Z",
+   "updated": "2026-11-18T15:00:00Z"
+  },
+  {
+   "id": "73315",
+   "key": "LMP-204",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Smoke plume, chase sequence",
+   "description": "CG smoke for the chase (block 6); plates to come.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Gethin Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-07T09:00:00Z",
+   "updated": "2026-11-17T11:00:00Z"
+  },
+  {
+   "id": "73316",
+   "key": "LMP-199",
+   "project_key": "LMP",
+   "issue_type": "Task",
+   "summary": "Clean-up of rig in lamp-post shot",
+   "description": "Shot 27/22 B: remove the C-stand base.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Linus Haverford",
+   "reporter": "Gethin Pryce",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-08T09:00:00Z",
+   "updated": "2026-11-13T09:30:00Z"
+  }
+ ]
+}

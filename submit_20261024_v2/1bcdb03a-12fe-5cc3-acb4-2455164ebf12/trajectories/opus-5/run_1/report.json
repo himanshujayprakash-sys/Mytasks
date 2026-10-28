@@ -1,0 +1,1379 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "1bcdb03a-12fe-5cc3-acb4-2455164ebf12",
+  "trial": "QBvu54M",
+  "started_at": "2026-10-24T09:50:03.033749Z",
+  "finished_at": "2026-10-24T10:19:37.062825Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.9052,
+    "passed": 67,
+    "failed": 10,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_room_holds",
+      "test_logistics_contact",
+      "test_audience_members"
+    ],
+    "guards_tripped": [
+      "test_guard_housed_ineligible"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_every_ledger_page_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_second_edition_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_amendment_opened",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_clock_note_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_corrin_note_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_scope_memo_opened",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rooming_procedure_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_calendar_drawing_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_boundary_drawing_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cancellation_papers_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_deposit_receipts_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_authorities_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_billing_letters_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_speaker_letters_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tally_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_binding_emails_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_form_responses_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_programme_channel_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_hotels_calendar_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_wiki_schedule_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_hotel_email_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_whatsapp_ack_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_whatsapp_acknowledgement",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_helpdesk_ticket_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_helpdesk_accessibility",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_line_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_opt_out",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_emailed_acknowledgement",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_thread_withdrawal",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_calendar_out_of_service",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_wiki_accessibility",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_every_room_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_audience_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_headings",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_amounts",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_event_time_decides",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_arrival_window",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_other_event_excluded",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rebooked_once",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_deposit_receipts",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_card_authorities",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_signatory_dates",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_sponsor_billing",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_provisional_holds",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cancellation_ack_date",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_cancellation_bands",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_peak_nights",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_contract_not_quoted",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_levy_zone",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_levy_cap",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_bed_nights",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tally_reservation",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_amendment_not_applied",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_total",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_bridge",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_attrition",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_room_holds",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "0 wrong rooms, 1 extra",
+        "error": null
+      },
+      {
+        "name": "test_logistics_contact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "logistics_contact wrong on []",
+        "error": null
+      },
+      {
+        "name": "test_audience_members",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "audience differs by 1",
+        "error": null
+      },
+      {
+        "name": "test_eligibility",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tier_order",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_letters_govern",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_split_figures",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_touched_correct_lines",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no line that was already right was written to",
+        "error": null
+      },
+      {
+        "name": "test_guard_other_writes",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing outside the register lines, held rooms, logistics contacts and the audience was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_housed_ineligible",
+        "weight": -5,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_resubscribed",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no unsubscribed speaker was subscribed again",
+        "error": null
+      },
+      {
+        "name": "test_guard_invalid_room",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no cut, already-held or double room was used",
+        "error": null
+      },
+      {
+        "name": "test_guard_deleted_records",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing was deleted",
+        "error": null
+      },
+      {
+        "name": "test_guard_wrong_total_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no misread statement total was stated as the result",
+        "error": null
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no claim of a statement or rooms that were not made",
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-note-gives-hotel-liability",
+      "criterion": "[final answer] The note gives the hotel liability statement as GBP 6,725.20.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The delivered HTML states “GBP 6,725.20” at line 72, and final_message.md repeats “Total owed: GBP 6,725.20.”",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-note-splits-total-hotel",
+      "criterion": "[final answer] The note splits the total by hotel: Quayside Northlight 3,158.40, Harbour Inn 1,415.20, Corrin Lodge 2,151.60.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md explicitly gives “Quayside Northlight 3,158.40, Harbour Inn 1,415.20, Corrin Lodge 2,151.60”; the HTML table at lines 179–182 confirms the same split.",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-note-says-nsf-02",
+      "criterion": "[final answer] The note says NSF-02 second edition was used.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says the statement was “Prepared under NSF-02 second edition,” also stated in the HTML at lines 70 and 75.",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-note-starts-bridge-13",
+      "criterion": "[final answer] The note starts the bridge at 13,900.00 gross booked value.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The HTML bridge begins with “Gross booked value” of 13,900.00 at lines 99 and 142.",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-note-s-bridge-takes",
+      "criterion": "[final answer] The note's bridge takes off 1,134.00 for arrival outside the block window, naming NL-2616.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "HTML line 144 explicitly deducts 1,134.00 for “Arrival outside the block window” and names NL-2616.",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-note-s-bridge-takes-2",
+      "criterion": "[final answer] The note's bridge takes off 1,062.00 for the cancelled reservations that carry a charge, naming NL-2604, NL-2624.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The bridge does not separately deduct 1,062.00 for NL-2604 and NL-2624. HTML line 148 combines all cancelled bookings into one 2,595.00 deduction.",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-note-s-bridge-takes-3",
+      "criterion": "[final answer] The note's bridge takes off 1,533.00 for the reservations cancelled without charge, naming NL-2605, NL-2606, NL-2607, NL-2628.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The bridge does not separately deduct 1,533.00 for NL-2605, NL-2606, NL-2607, and NL-2628; HTML line 148 combines those with charged cancellations in a 2,595.00 step.",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-note-s-bridge-takes-4",
+      "criterion": "[final answer] The note's bridge takes off 2,882.00 as not guaranteed, naming NL-2609, NL-2626, NL-2610, NL-2611, NL-2621 and NL-2625.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Although HTML line 146 deducts 2,882.00 as not guaranteed, its list additionally includes NL-2620, so it does not give the specified six-reservation list.",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-note-s-bridge-takes-5",
+      "criterion": "[final answer] The note's bridge takes off 873.00 for Harbour Tech Week, naming NL-2615 and NL-2627.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "HTML line 143 deducts 873.00 for “Not this event's block,” names NL-2615 and NL-2627, and lines 230 and 242 identify their event code as Harbour Tech Week.",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-note-s-bridge-takes-6",
+      "criterion": "[final answer] The note's bridge takes off 330.00 as sponsor-billed, naming NL-2613.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "HTML line 147 deducts 330.00 as “Sponsor-billed” and names NL-2613.",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-note-s-bridge-takes-7",
+      "criterion": "[final answer] The note's bridge takes off 567.00 as superseded, naming NL-2608, stated as NL-2608R.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "HTML line 145 deducts 567.00 for NL-2608 as superseded, while line 222 states it was “moved to NL-2608R.”",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-note-s-bridge-reaches",
+      "criterion": "[final answer] The note's bridge reaches 5,519.00 counted at quoted rates, which is 5,425.60 at contract rates with VAT and the levy.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "HTML lines 148–149 show the bridge reaching 5,519.00 and then 5,425.60 after repricing at contract rates with VAT and levy.",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-note-s-bridge-adds",
+      "criterion": "[final answer] The note's bridge adds 150.00 of cancellation charges.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "HTML line 150 explicitly adds cancellation charges of 150.00.",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-note-gives-attrition-1",
+      "criterion": "[final answer] The note gives attrition of 1,149.60 by hotel: Quayside 316.80, Harbour Inn 141.60, Corrin Lodge 691.20.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The HTML attrition table gives Quayside 316.80, Harbour Inn 141.60, and Corrin Lodge 691.20, with total attrition 1,149.60 at lines 179–182 and 192–194.",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-note-says-20-register",
+      "criterion": "[final answer] The note says 20 register lines were corrected.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md explicitly states “Register: 20 lines corrected,” also shown in the HTML metadata.",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-note-says-9-register",
+      "criterion": "[final answer] The note says 9 register lines were left untouched.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The note states 29 total lines and 20 corrected, but never explicitly says “9” lines were left untouched; the rubric requires explicit evidence.",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-note-says-78-speakers",
+      "criterion": "[final answer] The note says 78 speakers were housed: keynote 7, invited 25, contributed 46.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "final_message.md instead explicitly reports “79 speakers housed (7 keynote, 25 invited, 47 contributed).”",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-note-names-speakers-manual",
+      "criterion": "[final answer] The note names the speakers on manual contact: SP-319, SP-388, SP-472, SP-489, SP-535.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md names the five manual cases as SP-388, SP-535, SP-319, SP-472, and SP-489.",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-note-gives-sp-560",
+      "criterion": "[final answer] The note gives SP-560 as not housed because the programme chair withdrew them.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither final_message.md nor the delivered HTML mentions SP-560 or states that the programme chair withdrew them.",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-note-gives-sp-524",
+      "criterion": "[final answer] The note gives SP-524, SP-514, SP-447 as not housed because the programme chair withdrew them.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer and delivered HTML do not name SP-524, SP-514, and SP-447 as programme-chair withdrawals.",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-note-gives-sp-302",
+      "criterion": "[final answer] The note gives SP-302 as not housed because a signed sponsor letter covers the hotel.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer and delivered HTML contain no statement about SP-302 or a signed sponsor letter covering their hotel.",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-note-gives-rm-4002",
+      "criterion": "[final answer] The note gives RM-4002 as ruled out because it is out of service for the nights of 24 and 25 November.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer and delivered HTML do not mention RM-4002 or its being out of service on 24–25 November.",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-note-gives-rooms-corrin",
+      "criterion": "[final answer] The note gives the rooms Corrin Lodge handed back as ruled out: RM-4003, RM-4006, RM-4028, RM-4037, RM-4052, RM-4059, RM-4075, RM-4079, RM-4092.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered note does not list RM-4003, RM-4006, RM-4028, RM-4037, RM-4052, RM-4059, RM-4075, RM-4079, and RM-4092 as Corrin Lodge hand-backs.",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-note-gives-sp-567",
+      "criterion": "[final answer] The note gives SP-567's room as RM-4503.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-567 was assigned RM-4503.",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "j-note-gives-sp-629",
+      "criterion": "[final answer] The note gives SP-629's room as RM-4629.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-629 was assigned RM-4629.",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "j-note-gives-keynote-sp",
+      "criterion": "[final answer] The note gives keynote SP-390's room as RM-4163.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-390 was assigned RM-4163.",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "j-note-gives-keynote-sp-2",
+      "criterion": "[final answer] The note gives keynote SP-550's room as RM-4039.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-550 was assigned RM-4039.",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "j-note-gives-keynote-sp-3",
+      "criterion": "[final answer] The note gives keynote SP-582's room as RM-4015.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-582 was assigned RM-4015.",
+      "error": null
+    },
+    {
+      "id": "31",
+      "name": "j-note-gives-keynote-sp-4",
+      "criterion": "[final answer] The note gives keynote SP-568's room as RM-4033.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-568 was assigned RM-4033.",
+      "error": null
+    },
+    {
+      "id": "32",
+      "name": "j-note-gives-keynote-sp-5",
+      "criterion": "[final answer] The note gives keynote SP-448's room as RM-4026.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-448 was assigned RM-4026.",
+      "error": null
+    },
+    {
+      "id": "33",
+      "name": "j-note-gives-keynote-sp-6",
+      "criterion": "[final answer] The note gives keynote SP-423's room as RM-4125.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-423 was assigned RM-4125.",
+      "error": null
+    },
+    {
+      "id": "34",
+      "name": "j-note-gives-keynote-sp-7",
+      "criterion": "[final answer] The note gives keynote SP-497's room as RM-4303.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that keynote SP-497 was assigned RM-4303.",
+      "error": null
+    },
+    {
+      "id": "35",
+      "name": "j-note-gives-sp-310",
+      "criterion": "[final answer] The note gives SP-310's room as RM-4237.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-310 was assigned RM-4237.",
+      "error": null
+    },
+    {
+      "id": "36",
+      "name": "j-note-gives-sp-333",
+      "criterion": "[final answer] The note gives SP-333's room as RM-4469.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-333 was assigned RM-4469.",
+      "error": null
+    },
+    {
+      "id": "37",
+      "name": "j-note-gives-sp-339",
+      "criterion": "[final answer] The note gives SP-339's room as RM-4572.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-339 was assigned RM-4572.",
+      "error": null
+    },
+    {
+      "id": "38",
+      "name": "j-note-gives-sp-345",
+      "criterion": "[final answer] The note gives SP-345's room as RM-4321.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-345 was assigned RM-4321.",
+      "error": null
+    },
+    {
+      "id": "39",
+      "name": "j-note-gives-sp-346",
+      "criterion": "[final answer] The note gives SP-346's room as RM-4583.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-346 was assigned RM-4583.",
+      "error": null
+    },
+    {
+      "id": "40",
+      "name": "j-note-gives-sp-414",
+      "criterion": "[final answer] The note gives SP-414's room as RM-4413.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered note states that SP-414 was assigned RM-4413.",
+      "error": null
+    },
+    {
+      "id": "41",
+      "name": "j-note-says-hotels-desk",
+      "criterion": "[final answer] The note says the hotels desk's suggestion to use the quoted rates does not hold, and that NSF-02 second edition settles it.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The HTML uses contract rather than quoted rates and cites NSF-02, but it never explicitly identifies and rejects the hotels desk's quoted-rate suggestion.",
+      "error": null
+    },
+    {
+      "id": "42",
+      "name": "j-note-says-hotels-desk-2",
+      "criterion": "[final answer] The note says the hotels desk's suggestion to treat Corrin bed-nights as room-nights does not hold, and that the Corrin desk note settles it.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The HTML converts Corrin bed-nights using occupancy, but never explicitly says the hotels desk's room-night suggestion does not hold or that the Corrin desk note settles it.",
+      "error": null
+    },
+    {
+      "id": "43",
+      "name": "j-note-says-hotels-desk-3",
+      "criterion": "[final answer] The note says the hotels desk's suggestion to take attrition from the pickup report does not hold, and that NSF-02 second edition settles it.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The hotels' pickup report is listed as “Not used” at HTML line 256, but the note does not explicitly identify the hotels desk's attrition suggestion and say NSF-02 second edition settles it.",
+      "error": null
+    },
+    {
+      "id": "44",
+      "name": "j-note-says-suggestion-use",
+      "criterion": "[final answer] The note says the suggestion to use 176 for Quayside peak nights does not hold, and that amendment 1 itself settles it.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The note says amendment 1 is not in force for these arrivals, but does not explicitly mention or reject a suggested Quayside peak rate of 176.",
+      "error": null
+    },
+    {
+      "id": "45",
+      "name": "j-note-says-corvid-s",
+      "criterion": "[final answer] The note says Corvid's request to treat NL-2614 as sponsor-billed does not hold, and that its unsigned billing letter settles it.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "HTML line 229 treats NL-2614 as committed because its sponsor letter was unsigned, but it does not explicitly identify and reject Corvid's request.",
+      "error": null
+    },
+    {
+      "id": "46",
+      "name": "j-note-lists-papers-settled",
+      "criterion": "[final answer] The note lists the papers that settled nothing, including the first edition, the crib sheet, the 2025 published statement, the hotels' pickup report and the October draft rooming list.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "HTML lines 255–256 list the first edition, amendment 1, April crib sheet, 2025 statement, and hotels' pickup report as not used, but omit the October draft rooming list and do not say these papers “settled nothing.”",
+      "error": null
+    },
+    {
+      "id": "47",
+      "name": "n-note-states-statement-total",
+      "criterion": "[final answer] The note states a statement total other than GBP 6,725.20 as the result.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The note consistently presents GBP 6,725.20 as the statement result; no different statement total is given.",
+      "error": null
+    },
+    {
+      "id": "48",
+      "name": "n-note-says-nl-2614",
+      "criterion": "[final answer] The note says NL-2614 is sponsor-billed, or that Corvid's request on it holds.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "HTML line 229 explicitly classifies NL-2614 as a committed stay because the sponsor billing letter was unsigned, not sponsor-billed.",
+      "error": null
+    },
+    {
+      "id": "49",
+      "name": "n-note-says-amendment-1",
+      "criterion": "[final answer] The note says amendment 1's 176 rate applies to the November arrivals.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "final_message.md says amendment 1 “does not reach any November arrival,” and the HTML says it is not in force here.",
+      "error": null
+    },
+    {
+      "id": "50",
+      "name": "n-note-gives-2025-published",
+      "criterion": "[final answer] The note gives the 2025 published statement's total as this year's figure.",
+      "weight": -1,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The HTML lists the “2025 statement print” under “Not used” at line 256 and does not adopt its total.",
+      "error": null
+    },
+    {
+      "id": "51",
+      "name": "n-note-says-sp-560",
+      "criterion": "[final answer] The note says SP-560 was housed or gives SP-560 a room.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "SP-560 is not mentioned or assigned a room in the final answer or delivered HTML.",
+      "error": null
+    },
+    {
+      "id": "52",
+      "name": "n-note-gives-rm-4002",
+      "criterion": "[final answer] The note gives RM-4002 to a speaker.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "RM-4002 is not mentioned or assigned to a speaker in the final answer or delivered HTML.",
+      "error": null
+    },
+    {
+      "id": "53",
+      "name": "n-note-says-nl-2607",
+      "criterion": "[final answer] The note says NL-2607 carries a cancellation charge.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "HTML line 221 explicitly classifies NL-2607 as “Cancelled without charge” with amount 0.00.",
+      "error": null
+    },
+    {
+      "id": "54",
+      "name": "j-explains-substantive-source-decision",
+      "criterion": "[final answer] Explains the substantive source decision: The hotels desk handover withdrawn-room update made RM-4062 unavailable after the first reservation-register correction. The final room allocation uses the refreshed room table rather than the provisional export. Equivalent wording and source identification are sufficient.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "final_message.md says availability was refreshed after the first corrected register line and that RM-4062 was then withdrawn, but it does not explicitly explain that the final allocation used the refreshed room table instead of the provisional export.",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.3333,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 52,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 103936,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 53760,
+      "output_tokens": 5121,
+      "reasoning_output_tokens": 379,
+      "total_tokens": 109057,
+      "cost_usd": 0.324628,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 103936,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 53760,
+          "output_tokens": 5121,
+          "reasoning_output_tokens": 379,
+          "total_tokens": 109057,
+          "cost_usd": 0.324628
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.6192,
+  "channels": {
+    "pytest": 0.9052,
+    "rubric": 0.3333
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

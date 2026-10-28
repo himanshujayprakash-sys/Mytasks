@@ -1,0 +1,385 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 61,
+      "passed": 29,
+      "failed": 32,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.337209,
+      "weighted_percentage": 33.72
+    },
+    "tests": [
+      {
+        "name": "test_papers_read",
+        "status": "passed",
+        "duration": 121,
+        "weight": 1
+      },
+      {
+        "name": "test_channels_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_donations_read_again_after_place_writes",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_place_records_all_right",
+        "status": "failed",
+        "duration": 13,
+        "weight": 5
+      },
+      {
+        "name": "test_place_refund_on_desk_ticket",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_whatsapp_deferral",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_employer_match_mail",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_deputy_waiver_dated",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_stop_consent",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_official_results",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_after_close_and_returned_cheque",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_late_match_and_late_deferral",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_settlement_rows",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_gift_aid_rules",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_place_chargeback_during_close",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_place_refund_during_close",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_claim_lines_all_right",
+        "status": "passed",
+        "duration": 5,
+        "weight": 5
+      },
+      {
+        "name": "test_claim_lines_total",
+        "status": "passed",
+        "duration": 5,
+        "weight": 1
+      },
+      {
+        "name": "test_invoices_all_right",
+        "status": "failed",
+        "duration": 14,
+        "weight": 5
+      },
+      {
+        "name": "test_invoice_refund_shortfall",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_deputy_waiver_shortfall",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_late_deferral_fee",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_chargeback_shortfall",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_no_invoice_for_met_or_deferred",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_notices_all_right",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_notice_stop_runner_emailed",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notice_texts_from_supporter_number",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notice_emails_subject",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notice_chargeback_runner",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notice_refund_runner",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notices_after_records_and_invoices",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_early_entry_list_all_right",
+        "status": "failed",
+        "duration": 15,
+        "weight": 5
+      },
+      {
+        "name": "test_unsubscribed_kept_off",
+        "status": "passed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_page_banner_and_waterfall",
+        "status": "failed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_page_runner_table",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_all_rows_right",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_files_read_back",
+        "status": "passed",
+        "duration": 340,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_sections",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_names_evidence",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_team_total",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_bridge_steps",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_gift_aid_and_lines",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_outcome_counts",
+        "status": "failed",
+        "duration": 4,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_invoices",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_records_corrected",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_shield_winner",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_deputy_waiver_refused",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_deferrals",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_emailed_runners",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_claim_coverage",
+        "status": "failed",
+        "duration": 19,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_right_records_left_alone",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_right_records_touched",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_donations_or_earlier_claims_changed",
+        "status": "failed",
+        "duration": 4,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_runner_contacted_twice",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_text_without_consent",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_unsubscribe_reversed",
+        "status": "failed",
+        "duration": 4,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_invoice_duplicate_or_stranger",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "status": "passed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_unworked_claims",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      }
+    ]
+  }
+}

@@ -1,0 +1,279 @@
+{
+ "team": {
+  "id": "T8TJ",
+  "name": "Thornwick Juniors FC",
+  "domain": "thornwickjuniors"
+ },
+ "users": [
+  {
+   "id": "U8TJ00",
+   "name": "bethan.quenby",
+   "real_name": "Bethan Quenby",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "bethan.quenby@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ01",
+   "name": "ifeoma.adekunle",
+   "real_name": "Ifeoma Adekunle",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "ifeoma.adekunle@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ02",
+   "name": "graham.pilsworth",
+   "real_name": "Graham Pilsworth",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "graham.pilsworth@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ03",
+   "name": "anjali.rao",
+   "real_name": "Anjali Rao",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "anjali.rao@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ04",
+   "name": "marcus.oyelowo",
+   "real_name": "Marcus Oyelowo",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "marcus.oyelowo@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ05",
+   "name": "hannah.ledgard",
+   "real_name": "Hannah Ledgard",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "hannah.ledgard@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJ06",
+   "name": "sol.brannan",
+   "real_name": "Sol Brannan",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "sol.brannan@thornwickjuniors.example"
+   }
+  },
+  {
+   "id": "U8TJMGR1",
+   "name": "u14.manager",
+   "real_name": "Phil Hardcastle",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "phil.hardcastle@volunteers.thornwickjuniors.example"
+   }
+  }
+ ],
+ "channels": [
+  {
+   "id": "C8TJCOMMITTEE",
+   "name": "committee",
+   "is_private": true,
+   "is_archived": false,
+   "topic": "Club committee",
+   "purpose": "Committee business",
+   "creator": "U8TJ02",
+   "created": 1756713600,
+   "num_members": 8
+  },
+  {
+   "id": "C8TJMANAGERS",
+   "name": "team-managers",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Managers",
+   "purpose": "Team managers",
+   "creator": "U8TJ06",
+   "created": 1756713600,
+   "num_members": 8
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ00"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ01"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ02"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ03"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ04"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ05"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ06"
+  },
+  {
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJMGR1"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ00"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ01"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ02"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ03"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ04"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ05"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ06"
+  },
+  {
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJMGR1"
+  }
+ ],
+ "messages": [
+  {
+   "ts": "1795456800.000100",
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ02",
+   "text": "Reminder: U16s can only register 16, same as every year. Pick the best 16.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795459800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJMGR1",
+   "text": "Rory's still keen for the U14s, keep him on the list.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795462800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJMGR1",
+   "text": "If the Brightwell twins don't both fit, just put Isla in, she's been at more sessions.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795465800.000100",
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ06",
+   "text": "Gareth is fine to coach the U12s, he's been doing it for years.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795468800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ03",
+   "text": "Sibling discount is 15% this year I think.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795471800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ04",
+   "text": "Colin's back for the U16s after Christmas but he can still be named now.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795474800.000100",
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJMGR1",
+   "text": "Kieran Lowther is all ours, he only trained with Brindlecombe once.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795477800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ02",
+   "text": "Just text all the parents about fees, it's quicker than emails.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795480800.000100",
+   "channel_id": "C8TJCOMMITTEE",
+   "user_id": "U8TJ06",
+   "text": "Ben Ashworth can go straight into the U14s, I'll sort his form later.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795483800.000100",
+   "channel_id": "C8TJMANAGERS",
+   "user_id": "U8TJ00",
+   "text": "Please don't decide registrations in here; the handbook and the league's papers decide. I'm on it tomorrow.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "team": {
+  "domain": "fernhill-estate",
+  "id": "T0FHEST",
+  "name": "Fernhill Estate"
+ },
+ "users": [
+  {
+   "id": "U0FHMB",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "marisol.baptiste",
+   "presence": "away",
+   "profile": {
+    "email": "marisol.baptiste@fernhillbarn.example"
+   },
+   "real_name": "Marisol Baptiste"
+  },
+  {
+   "id": "U0FHCF",
+   "is_admin": true,
+   "is_bot": false,
+   "name": "caroline.fernhill",
+   "presence": "away",
+   "profile": {
+    "email": "caroline.fernhill@fernhillbarn.example"
+   },
+   "real_name": "Caroline Fernhill"
+  },
+  {
+   "id": "U0FHDP",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "dewi.pugh",
+   "presence": "away",
+   "profile": {
+    "email": "dewi.pugh@fernhillbarn.example"
+   },
+   "real_name": "Dewi Pugh"
+  },
+  {
+   "id": "U0FHBT",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "bronwen.teague",
+   "presence": "away",
+   "profile": {
+    "email": "bronwen.teague@fernhillbarn.example"
+   },
+   "real_name": "Bronwen Teague"
+  },
+  {
+   "id": "U0FHLB",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "lewis.brannock",
+   "presence": "away",
+   "profile": {
+    "email": "lewis.brannock@fernhillbarn.example"
+   },
+   "real_name": "Lewis Brannock"
+  },
+  {
+   "id": "U0FHIC",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ines.calloway",
+   "presence": "away",
+   "profile": {
+    "email": "ines.calloway@fernhillbarn.example"
+   },
+   "real_name": "Ines Calloway"
+  },
+  {
+   "id": "U0FHCD",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "colm.devereux",
+   "presence": "away",
+   "profile": {
+    "email": "colm.devereux@fernhillbarn.example"
+   },
+   "real_name": "Colm Devereux"
+  },
+  {
+   "id": "U0FHPN",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "petra.noakes",
+   "presence": "away",
+   "profile": {
+    "email": "petra.noakes@fernhillbarn.example"
+   },
+   "real_name": "Petra Noakes"
+  },
+  {
+   "id": "U0FHKM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "kojo.mensah",
+   "presence": "away",
+   "profile": {
+    "email": "kojo.mensah@fernhillbarn.example"
+   },
+   "real_name": "Kojo Mensah"
+  },
+  {
+   "id": "U0FHTO",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tamsin.odell",
+   "presence": "away",
+   "profile": {
+    "email": "tamsin.odell@fernhillbarn.example"
+   },
+   "real_name": "Tamsin Odell"
+  },
+  {
+   "id": "U0FHGW",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "gethin.whitlow",
+   "presence": "away",
+   "profile": {
+    "email": "gethin.whitlow@fernhillbarn.example"
+   },
+   "real_name": "Gethin Whitlow"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1767225600,
+   "creator": "U0FHCF",
+   "id": "C0FHESTATE",
+   "is_archived": false,
+   "is_private": false,
+   "name": "estate-grounds",
+   "num_members": 3,
+   "purpose": "Gardens, grounds and cottages",
+   "topic": "Estate"
+  },
+  {
+   "created": 1767607200,
+   "creator": "U0FHBT",
+   "id": "C0FHEVENTS",
+   "is_archived": false,
+   "is_private": false,
+   "name": "barn-events",
+   "num_members": 9,
+   "purpose": "Weddings and events",
+   "topic": "Fernhill Barn staff"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C0FHESTATE",
+   "user_id": "U0FHMB"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "user_id": "U0FHCF"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "user_id": "U0FHDP"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHBT"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHLB"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHIC"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHCF"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHCD"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHPN"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHKM"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHTO"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "user_id": "U0FHGW"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Hedge cutting on the north drive this week.",
+   "thread_ts": null,
+   "ts": "1796112000.000000",
+   "user_id": "U0FHDP"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Cottage 2 changeover Friday.",
+   "thread_ts": null,
+   "ts": "1796205600.000000",
+   "user_id": "U0FHMB"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Christmas trees for the cottages arrive on the 10th.",
+   "thread_ts": null,
+   "ts": "1796299200.000000",
+   "user_id": "U0FHCF"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Gritting the paths each morning this week.",
+   "thread_ts": null,
+   "ts": "1796632200.000000",
+   "user_id": "U0FHDP"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Cottage 4 guests asked for extra logs.",
+   "thread_ts": null,
+   "ts": "1796828400.000000",
+   "user_id": "U0FHMB"
+  },
+  {
+   "channel_id": "C0FHESTATE",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Estate accounts meeting moved to Thursday.",
+   "thread_ts": null,
+   "ts": "1796979600.000000",
+   "user_id": "U0FHCF"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Hartley-Osei final numbers go to the kitchen and the couple on Monday. Everything in writing by then counts.",
+   "thread_ts": null,
+   "ts": "1796979600.000000",
+   "user_id": "U0FHBT"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Minimum numbers don't apply in December, it's off-peak. Bill them for whoever turns up.",
+   "thread_ts": null,
+   "ts": "1796980800.000000",
+   "user_id": "U0FHLB"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I'm allergen trained, I can plate the severe-allergy meals on Saturday myself. No need for sealed meals.",
+   "thread_ts": null,
+   "ts": "1796983500.000000",
+   "user_id": "U0FHIC"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruth's parents are old friends of ours. Don't charge them for the band's meals.",
+   "thread_ts": null,
+   "ts": "1796992200.000000",
+   "user_id": "U0FHCF"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Service charge goes on everything on the invoice, crew meals and sealed meals included.",
+   "thread_ts": null,
+   "ts": "1796998200.000000",
+   "user_id": "U0FHCD"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "They booked in 2025, so the 2025 schedule of charges applies to them.",
+   "thread_ts": null,
+   "ts": "1797001200.000000",
+   "user_id": "U0FHPN"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Fish order for Saturday: just order what's on the production sheet, no extra.",
+   "thread_ts": null,
+   "ts": "1797064200.000000",
+   "user_id": "U0FHKM"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Bar extension to midnight approved for Hartley-Osei, paperwork with Lewis.",
+   "thread_ts": null,
+   "ts": "1797073200.000000",
+   "user_id": "U0FHGW"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Torte trial went well. Pears ordered for the alternative dessert.",
+   "thread_ts": null,
+   "ts": "1797093600.000000",
+   "user_id": "U0FHTO"
+  },
+  {
+   "channel_id": "C0FHEVENTS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I'm at the Hereford wedding fair all Monday; the final numbers are being done for me.",
+   "thread_ts": null,
+   "ts": "1797184800.000000",
+   "user_id": "U0FHBT"
+  }
+ ]
+}

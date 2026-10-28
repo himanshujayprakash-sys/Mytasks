@@ -1,0 +1,490 @@
+{
+ "lists": [
+  {
+   "date_created": "2025-07-10T09:00:00+00:00",
+   "id": "aud-autumn-trade",
+   "member_count": 47,
+   "name": "Thornfield autumn trade list"
+  },
+  {
+   "date_created": "2024-01-10T09:00:00+00:00",
+   "id": "aud-retail-club",
+   "member_count": 0,
+   "name": "Thornfield retail gardeners' club"
+  }
+ ],
+ "members": [
+  {
+   "_pk": "aud-autumn-trade@a8265f7ac02d8dd135debd8624a3ed2d",
+   "email_address": "accounts.402@bramley-trade.example",
+   "full_name": "Bramley Landscapes",
+   "id": "a8265f7ac02d8dd135debd8624a3ed2d",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@79b264cef642e03f64990c8d6d8bfa09",
+   "email_address": "ACCOUNTS.406@FOXLEY-TRADE.EXAMPLE",
+   "full_name": "Foxley Nurseries Retail",
+   "id": "79b264cef642e03f64990c8d6d8bfa09",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@135c9e9bff62a70d88d66f3bc83a13a7",
+   "email_address": "buyer00.trade@mail.example",
+   "full_name": "Trade buyer 1",
+   "id": "135c9e9bff62a70d88d66f3bc83a13a7",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@aa34da4b07221cc61036459f51374cac",
+   "email_address": "buyer01.trade@mail.example",
+   "full_name": "Trade buyer 2",
+   "id": "aa34da4b07221cc61036459f51374cac",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@65811f0f6b4a063932e44fd8d1258b5b",
+   "email_address": "buyer02.trade@mail.example",
+   "full_name": "Trade buyer 3",
+   "id": "65811f0f6b4a063932e44fd8d1258b5b",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@c026cbfe8c10d2d6e2e02ba9e2c0e0dd",
+   "email_address": "buyer03.trade@mail.example",
+   "full_name": "Trade buyer 4",
+   "id": "c026cbfe8c10d2d6e2e02ba9e2c0e0dd",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@0d0323580a093597eacb1f4b00d6182b",
+   "email_address": "buyer04.trade@mail.example",
+   "full_name": "Trade buyer 5",
+   "id": "0d0323580a093597eacb1f4b00d6182b",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@503b9d7b337e523acb5567b4ea2ed139",
+   "email_address": "buyer05.trade@mail.example",
+   "full_name": "Trade buyer 6",
+   "id": "503b9d7b337e523acb5567b4ea2ed139",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@9e6c01ee8329dca4cc23c5b21755eb9f",
+   "email_address": "buyer06.trade@mail.example",
+   "full_name": "Trade buyer 7",
+   "id": "9e6c01ee8329dca4cc23c5b21755eb9f",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@01d27c73c08d6bb29f13abbeef0b5c98",
+   "email_address": "buyer07.trade@mail.example",
+   "full_name": "Trade buyer 8",
+   "id": "01d27c73c08d6bb29f13abbeef0b5c98",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@75068ab4d85a9e299fd57c9319bfead6",
+   "email_address": "buyer08.trade@mail.example",
+   "full_name": "Trade buyer 9",
+   "id": "75068ab4d85a9e299fd57c9319bfead6",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@a686fdc4b586be38d03529e672b27ab1",
+   "email_address": "buyer09.trade@mail.example",
+   "full_name": "Trade buyer 10",
+   "id": "a686fdc4b586be38d03529e672b27ab1",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@dde1693287f4ef3bd9fffa1e5de6c30e",
+   "email_address": "buyer10.trade@mail.example",
+   "full_name": "Trade buyer 11",
+   "id": "dde1693287f4ef3bd9fffa1e5de6c30e",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@1558ee7f0e161b0732727af322f85c29",
+   "email_address": "buyer11.trade@mail.example",
+   "full_name": "Trade buyer 12",
+   "id": "1558ee7f0e161b0732727af322f85c29",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@d2fcd9f395a068f1b1cce20a9523274f",
+   "email_address": "buyer12.trade@mail.example",
+   "full_name": "Trade buyer 13",
+   "id": "d2fcd9f395a068f1b1cce20a9523274f",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@0946c178fc0624430b7e76252725f850",
+   "email_address": "buyer13.trade@mail.example",
+   "full_name": "Trade buyer 14",
+   "id": "0946c178fc0624430b7e76252725f850",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@a27842709c98513f3f95522cdceda6ed",
+   "email_address": "buyer14.trade@mail.example",
+   "full_name": "Trade buyer 15",
+   "id": "a27842709c98513f3f95522cdceda6ed",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@9438eb383e87b2c09488207bdd975027",
+   "email_address": "buyer15.trade@mail.example",
+   "full_name": "Trade buyer 16",
+   "id": "9438eb383e87b2c09488207bdd975027",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@14b2a7b5af99be145c9b0b7c15a88068",
+   "email_address": "buyer16.trade@mail.example",
+   "full_name": "Trade buyer 17",
+   "id": "14b2a7b5af99be145c9b0b7c15a88068",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@558c589a62ccfb805eeb23663229191d",
+   "email_address": "buyer17.trade@mail.example",
+   "full_name": "Trade buyer 18",
+   "id": "558c589a62ccfb805eeb23663229191d",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@ea5c9b8984305f893d21f526b17be5fc",
+   "email_address": "buyer18.trade@mail.example",
+   "full_name": "Trade buyer 19",
+   "id": "ea5c9b8984305f893d21f526b17be5fc",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@a243b6d904806976a05f090cb236e1a7",
+   "email_address": "buyer19.trade@mail.example",
+   "full_name": "Trade buyer 20",
+   "id": "a243b6d904806976a05f090cb236e1a7",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@30b5972231ecd0726c26f5a5ee3d03f1",
+   "email_address": "buyer20.trade@mail.example",
+   "full_name": "Trade buyer 21",
+   "id": "30b5972231ecd0726c26f5a5ee3d03f1",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@9378172adaf779e9f0b2a041b8bb94bd",
+   "email_address": "buyer21.trade@mail.example",
+   "full_name": "Trade buyer 22",
+   "id": "9378172adaf779e9f0b2a041b8bb94bd",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@de0cb2d04bd07e7c8cb57ffc9a151a19",
+   "email_address": "buyer22.trade@mail.example",
+   "full_name": "Trade buyer 23",
+   "id": "de0cb2d04bd07e7c8cb57ffc9a151a19",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@d44f1977a38ccf7ad4d6d3beefe395b1",
+   "email_address": "buyer23.trade@mail.example",
+   "full_name": "Trade buyer 24",
+   "id": "d44f1977a38ccf7ad4d6d3beefe395b1",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@368a3d0fb4aee31c04d3e6f74b767260",
+   "email_address": "buyer24.trade@mail.example",
+   "full_name": "Trade buyer 25",
+   "id": "368a3d0fb4aee31c04d3e6f74b767260",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@5dba061391b296d05367bf0d33954f64",
+   "email_address": "buyer25.trade@mail.example",
+   "full_name": "Trade buyer 26",
+   "id": "5dba061391b296d05367bf0d33954f64",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@c715c73eda5d4715c9a4e2891d01eae8",
+   "email_address": "buyer26.trade@mail.example",
+   "full_name": "Trade buyer 27",
+   "id": "c715c73eda5d4715c9a4e2891d01eae8",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@3737ffcea6431276f2c0a39a023ecd8d",
+   "email_address": "buyer27.trade@mail.example",
+   "full_name": "Trade buyer 28",
+   "id": "3737ffcea6431276f2c0a39a023ecd8d",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@23d9d6c3f8b5286e5e4b31fda0b83425",
+   "email_address": "buyer28.trade@mail.example",
+   "full_name": "Trade buyer 29",
+   "id": "23d9d6c3f8b5286e5e4b31fda0b83425",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@b55368d173675c05874ffe7ac6a3f1f2",
+   "email_address": "buyer29.trade@mail.example",
+   "full_name": "Trade buyer 30",
+   "id": "b55368d173675c05874ffe7ac6a3f1f2",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@a86540d9ce7a1ca0c7ee88ecbb3c708a",
+   "email_address": "buyer30.trade@mail.example",
+   "full_name": "Trade buyer 31",
+   "id": "a86540d9ce7a1ca0c7ee88ecbb3c708a",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@de2b885d7ed69ecda6db0ac82891a685",
+   "email_address": "buyer31.trade@mail.example",
+   "full_name": "Trade buyer 32",
+   "id": "de2b885d7ed69ecda6db0ac82891a685",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@dd53a5aec943ffad2f18f1f80212c164",
+   "email_address": "buyer32.trade@mail.example",
+   "full_name": "Trade buyer 33",
+   "id": "dd53a5aec943ffad2f18f1f80212c164",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@80fbda91c32c038c015d10d7abb2cda0",
+   "email_address": "buyer33.trade@mail.example",
+   "full_name": "Trade buyer 34",
+   "id": "80fbda91c32c038c015d10d7abb2cda0",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@9440ccff486c632c7b3e0006dbbab12d",
+   "email_address": "buyer34.trade@mail.example",
+   "full_name": "Trade buyer 35",
+   "id": "9440ccff486c632c7b3e0006dbbab12d",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@ec746faf43e23d773aa7366cf08effb1",
+   "email_address": "buyer35.trade@mail.example",
+   "full_name": "Trade buyer 36",
+   "id": "ec746faf43e23d773aa7366cf08effb1",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@8fccb94ad17de143e76da9acc48a9744",
+   "email_address": "buyer36.trade@mail.example",
+   "full_name": "Trade buyer 37",
+   "id": "8fccb94ad17de143e76da9acc48a9744",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@fd83e88651f507ed43ab5227b7fb2288",
+   "email_address": "buyer37.trade@mail.example",
+   "full_name": "Trade buyer 38",
+   "id": "fd83e88651f507ed43ab5227b7fb2288",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@5fdd84772c76e55d64b3241934300321",
+   "email_address": "buyer38.trade@mail.example",
+   "full_name": "Trade buyer 39",
+   "id": "5fdd84772c76e55d64b3241934300321",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@bce4b17a75070dacc8877426396199da",
+   "email_address": "buyer39.trade@mail.example",
+   "full_name": "Trade buyer 40",
+   "id": "bce4b17a75070dacc8877426396199da",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@e72d05deaae3b55e4504c9dec0e98f75",
+   "email_address": "buyer40.trade@mail.example",
+   "full_name": "Trade buyer 41",
+   "id": "e72d05deaae3b55e4504c9dec0e98f75",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@2a9c5bcef31d3fb3639977b27d6cd4e4",
+   "email_address": "buyer41.trade@mail.example",
+   "full_name": "Trade buyer 42",
+   "id": "2a9c5bcef31d3fb3639977b27d6cd4e4",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@1c16b00f35a8ba84e8516dd3c454f931",
+   "email_address": "buyer42.trade@mail.example",
+   "full_name": "Trade buyer 43",
+   "id": "1c16b00f35a8ba84e8516dd3c454f931",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@c1742a74b46bee5e7f3ef2d17d0bae83",
+   "email_address": "buyer43.trade@mail.example",
+   "full_name": "Trade buyer 44",
+   "id": "c1742a74b46bee5e7f3ef2d17d0bae83",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  },
+  {
+   "_pk": "aud-autumn-trade@01b5527b0966f814fb7286787bc6d0fa",
+   "email_address": "buyer44.trade@mail.example",
+   "full_name": "Trade buyer 45",
+   "id": "01b5527b0966f814fb7286787bc6d0fa",
+   "list_id": "aud-autumn-trade",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2026-08-01 09:00:00"
+  }
+ ],
+ "campaigns": [],
+ "reports": []
+}

@@ -1,0 +1,348 @@
+{
+ "companies": [
+  {
+   "id": "6101",
+   "properties": {
+    "name": "Polruan Sailing Club",
+    "domain": "polruansc.example",
+    "industry": "Hospitality",
+    "city": "Polruan",
+    "state": "Cornwall",
+    "numberofemployees": "35",
+    "annualrevenue": "410000",
+    "createdate": "2026-11-16T10:00:00Z"
+   },
+   "createdAt": "2026-11-16T10:00:00Z",
+   "updatedAt": "2026-12-03T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6102",
+   "properties": {
+    "name": "Roseland Retreats",
+    "domain": "roselandretreats.example",
+    "industry": "Hospitality",
+    "city": "St Mawes",
+    "state": "Cornwall",
+    "numberofemployees": "60",
+    "annualrevenue": "2300000",
+    "createdate": "2026-11-05T10:00:00Z"
+   },
+   "createdAt": "2026-11-05T10:00:00Z",
+   "updatedAt": "2026-11-25T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6103",
+   "properties": {
+    "name": "St Mawes Community Larder",
+    "domain": "stmaweslarder.example",
+    "industry": "Non-profit",
+    "city": "St Mawes",
+    "state": "Cornwall",
+    "numberofemployees": "8",
+    "annualrevenue": "90000",
+    "createdate": "2026-11-12T10:00:00Z"
+   },
+   "createdAt": "2026-11-12T10:00:00Z",
+   "updatedAt": "2026-11-30T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6104",
+   "properties": {
+    "name": "Kynance Cove Kiosk",
+    "domain": "kynancekiosk.example",
+    "industry": "Food and beverage",
+    "city": "Lizard",
+    "state": "Cornwall",
+    "numberofemployees": "6",
+    "annualrevenue": "210000",
+    "createdate": "2026-10-08T10:00:00Z"
+   },
+   "createdAt": "2026-10-08T10:00:00Z",
+   "updatedAt": "2026-11-26T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6105",
+   "properties": {
+    "name": "Trelowarren Outdoor Centre",
+    "domain": "trelowarrenoc.example",
+    "industry": "Education",
+    "city": "Mawgan",
+    "state": "Cornwall",
+    "numberofemployees": "44",
+    "annualrevenue": "1800000",
+    "createdate": "2026-09-22T10:00:00Z"
+   },
+   "createdAt": "2026-09-22T10:00:00Z",
+   "updatedAt": "2026-12-01T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6106",
+   "properties": {
+    "name": "Malpas Boatyard Cafe",
+    "domain": "malpascafe.example",
+    "industry": "Food and beverage",
+    "city": "Truro",
+    "state": "Cornwall",
+    "numberofemployees": "9",
+    "annualrevenue": "340000",
+    "createdate": "2026-09-15T10:00:00Z"
+   },
+   "createdAt": "2026-09-15T10:00:00Z",
+   "updatedAt": "2026-11-28T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "6201",
+   "properties": {
+    "firstname": "Jenifer",
+    "lastname": "Bassett",
+    "email": "galley@polruansc.example",
+    "phone": "01632 960410",
+    "jobtitle": "Galley manager",
+    "company": "Polruan Sailing Club",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-11-16T11:00:00Z",
+    "lastmodifieddate": "2026-12-03T16:00:00Z"
+   },
+   "createdAt": "2026-11-16T11:00:00Z",
+   "updatedAt": "2026-12-03T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6202",
+   "properties": {
+    "firstname": "Hal",
+    "lastname": "Pendarves",
+    "email": "hal@roselandretreats.example",
+    "phone": "01632 960411",
+    "jobtitle": "Head chef",
+    "company": "Roseland Retreats",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-11-05T11:00:00Z",
+    "lastmodifieddate": "2026-11-25T16:00:00Z"
+   },
+   "createdAt": "2026-11-05T11:00:00Z",
+   "updatedAt": "2026-11-25T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6203",
+   "properties": {
+    "firstname": "Clemo",
+    "lastname": "Hawke",
+    "email": "clemo@roselandretreats.example",
+    "phone": "01632 960412",
+    "jobtitle": "Operations manager",
+    "company": "Roseland Retreats",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-05T11:00:00Z",
+    "lastmodifieddate": "2026-11-05T16:00:00Z"
+   },
+   "createdAt": "2026-11-05T11:00:00Z",
+   "updatedAt": "2026-11-05T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6204",
+   "properties": {
+    "firstname": "Annie",
+    "lastname": "Gilbert",
+    "email": "annie@stmaweslarder.example",
+    "phone": "01632 960413",
+    "jobtitle": "Volunteer coordinator",
+    "company": "St Mawes Community Larder",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-12T11:00:00Z",
+    "lastmodifieddate": "2026-11-30T16:00:00Z"
+   },
+   "createdAt": "2026-11-12T11:00:00Z",
+   "updatedAt": "2026-11-30T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6205",
+   "properties": {
+    "firstname": "Merryn",
+    "lastname": "Tonks",
+    "email": "merryn@kynancekiosk.example",
+    "phone": "01632 960414",
+    "jobtitle": "Owner",
+    "company": "Kynance Cove Kiosk",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-10-08T11:00:00Z",
+    "lastmodifieddate": "2026-11-19T16:00:00Z"
+   },
+   "createdAt": "2026-10-08T11:00:00Z",
+   "updatedAt": "2026-11-19T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6206",
+   "properties": {
+    "firstname": "Wenna",
+    "lastname": "Hosken",
+    "email": "wenna@kynancekiosk.example",
+    "phone": "01632 960415",
+    "jobtitle": "Kiosk supervisor",
+    "company": "Kynance Cove Kiosk",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-26T11:00:00Z",
+    "lastmodifieddate": "2026-11-26T16:00:00Z"
+   },
+   "createdAt": "2026-11-26T11:00:00Z",
+   "updatedAt": "2026-11-26T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6207",
+   "properties": {
+    "firstname": "Loveday",
+    "lastname": "Rickard",
+    "email": "loveday@trelowarrenoc.example",
+    "phone": "01632 960416",
+    "jobtitle": "Catering lead",
+    "company": "Trelowarren Outdoor Centre",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-22T11:00:00Z",
+    "lastmodifieddate": "2026-12-01T16:00:00Z"
+   },
+   "createdAt": "2026-09-22T11:00:00Z",
+   "updatedAt": "2026-12-01T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6208",
+   "properties": {
+    "firstname": "Fenwick",
+    "lastname": "Odgers",
+    "email": "fenwick@malpascafe.example",
+    "phone": "01632 960417",
+    "jobtitle": "Owner",
+    "company": "Malpas Boatyard Cafe",
+    "lifecyclestage": "lead",
+    "createdate": "2026-09-15T11:00:00Z",
+    "lastmodifieddate": "2026-11-28T16:00:00Z"
+   },
+   "createdAt": "2026-09-15T11:00:00Z",
+   "updatedAt": "2026-11-28T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "6301",
+   "properties": {
+    "dealname": "Polruan Sailing Club - galley supplies from March 2027",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "7800",
+    "closedate": "2027-03-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-17T10:00:00Z",
+    "lastmodifieddate": "2026-12-03T10:00:00Z"
+   },
+   "createdAt": "2026-11-17T10:00:00Z",
+   "updatedAt": "2026-12-03T10:00:00Z",
+   "archived": false,
+   "_company": "6101",
+   "_contact": "6201"
+  },
+  {
+   "id": "6302",
+   "properties": {
+    "dealname": "Roseland Retreats - three kitchens from spring 2027",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "21500",
+    "closedate": "2027-03-15T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-06T10:00:00Z",
+    "lastmodifieddate": "2026-11-25T10:00:00Z"
+   },
+   "createdAt": "2026-11-06T10:00:00Z",
+   "updatedAt": "2026-11-25T10:00:00Z",
+   "archived": false,
+   "_company": "6102",
+   "_contact": "6202"
+  },
+  {
+   "id": "6303",
+   "properties": {
+    "dealname": "Kynance Cove Kiosk - summer season 2027",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "5200",
+    "closedate": "2027-04-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-09T10:00:00Z",
+    "lastmodifieddate": "2026-11-19T10:00:00Z"
+   },
+   "createdAt": "2026-10-09T10:00:00Z",
+   "updatedAt": "2026-11-19T10:00:00Z",
+   "archived": false,
+   "_company": "6104",
+   "_contact": "6205"
+  },
+  {
+   "id": "6304",
+   "properties": {
+    "dealname": "Trelowarren Outdoor Centre - residential groups 2027",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "16400",
+    "closedate": "2027-02-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-23T10:00:00Z",
+    "lastmodifieddate": "2026-12-01T10:00:00Z"
+   },
+   "createdAt": "2026-09-23T10:00:00Z",
+   "updatedAt": "2026-12-01T10:00:00Z",
+   "archived": false,
+   "_company": "6105",
+   "_contact": "6207"
+  },
+  {
+   "id": "6305",
+   "properties": {
+    "dealname": "Malpas Boatyard Cafe - weekly fruit and veg",
+    "pipeline": "default",
+    "dealstage": "closedlost",
+    "amount": "4300",
+    "closedate": "2026-11-28T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-16T10:00:00Z",
+    "lastmodifieddate": "2026-11-28T10:00:00Z"
+   },
+   "createdAt": "2026-09-16T10:00:00Z",
+   "updatedAt": "2026-11-28T10:00:00Z",
+   "archived": false,
+   "_company": "6106",
+   "_contact": "6208"
+  },
+  {
+   "id": "6306",
+   "properties": {
+    "dealname": "St Mawes Community Larder - surplus and donated boxes",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "2600",
+    "closedate": "2027-05-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-13T10:00:00Z",
+    "lastmodifieddate": "2026-11-30T10:00:00Z"
+   },
+   "createdAt": "2026-11-13T10:00:00Z",
+   "updatedAt": "2026-11-30T10:00:00Z",
+   "archived": false,
+   "_company": "6103",
+   "_contact": "6204"
+  }
+ ]
+}

@@ -1,0 +1,649 @@
+{
+ "customers": [
+  {
+   "Id": "16100",
+   "DisplayName": "Wexcombe Running Club",
+   "PrimaryEmailAddr": {
+    "Address": "anil.chandra@post.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Pays event fees in advance; race insurance on file."
+  },
+  {
+   "Id": "16101",
+   "DisplayName": "Wexcombe Farmers Market",
+   "PrimaryEmailAddr": {
+    "Address": "bev.truscott@post.example"
+   },
+   "Balance": 3800.0,
+   "Active": true,
+   "Notes": "Market square pitches for the Christmas market, invoiced in one sum."
+  },
+  {
+   "Id": "16102",
+   "DisplayName": "Abbotsley Scouts",
+   "PrimaryEmailAddr": {
+    "Address": "patrick.moyle@post.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Charity rate for community hall grounds bookings."
+  },
+  {
+   "Id": "16103",
+   "DisplayName": "Riverside Brass Band",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Pays on booking by card; no email on file."
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "16200",
+   "DisplayName": "Wexcombe Grounds Maintenance",
+   "PrimaryEmailAddr": {
+    "Address": "jon.pickering@wexcombegrounds.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 720"
+   },
+   "Balance": 6420.0,
+   "Active": true,
+   "Notes": "Grass and hedge contract; monthly report with photos."
+  },
+  {
+   "Id": "16201",
+   "DisplayName": "Abbotsley Tree Surgeons",
+   "PrimaryEmailAddr": {
+    "Address": "claire@abbotsleytrees.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 718"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Tree works to the tree officer's specification."
+  },
+  {
+   "Id": "16202",
+   "DisplayName": "Saxon Rise Fencing",
+   "PrimaryEmailAddr": {
+    "Address": "wayne.dibble@saxonfencing.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 730"
+   },
+   "Balance": 1180.0,
+   "Active": true,
+   "Notes": "Fencing and gate repairs in parks and playgrounds."
+  },
+  {
+   "Id": "16203",
+   "DisplayName": "Mill Row Plant Hire",
+   "PrimaryEmailAddr": {
+    "Address": "hire@millrowplant.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 729"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Plant hire and small-engine servicing."
+  },
+  {
+   "Id": "16204",
+   "DisplayName": "Riverside Play Equipment",
+   "PrimaryEmailAddr": {
+    "Address": "nadia.kerr@riversideplay.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 722"
+   },
+   "Balance": 2390.0,
+   "Active": true,
+   "Notes": "Playground equipment and spare parts."
+  },
+  {
+   "Id": "16205",
+   "DisplayName": "Downland Waste Services",
+   "PrimaryEmailAddr": {
+    "Address": "owen.rees@downlandwaste.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "+44 7700 904 723"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Litter and dog waste bins, emptying and replacement."
+  }
+ ],
+ "items": [
+  {
+   "Id": "16300",
+   "Name": "Park event fee - small",
+   "Description": "Event in a park for up to 200 people",
+   "Type": "Service",
+   "UnitPrice": 120.0,
+   "IncomeAccountRef": {
+    "value": "47",
+    "name": "Parks Events Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-08-25 10:05:00",
+    "LastUpdatedTime": "2026-08-25 10:05:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "16301",
+   "Name": "Park event fee - large",
+   "Description": "Event in a park for more than 200 people",
+   "Type": "Service",
+   "UnitPrice": 450.0,
+   "IncomeAccountRef": {
+    "value": "47",
+    "name": "Parks Events Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-08-25 10:05:00",
+    "LastUpdatedTime": "2026-08-25 10:05:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "16302",
+   "Name": "Market pitch",
+   "Description": "One market square pitch for one day",
+   "Type": "Service",
+   "UnitPrice": 38.0,
+   "IncomeAccountRef": {
+    "value": "48",
+    "name": "Markets Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-08-25 10:05:00",
+    "LastUpdatedTime": "2026-08-25 10:05:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "16303",
+   "Name": "Bandstand booking",
+   "Description": "Bandstand for an afternoon",
+   "Type": "Service",
+   "UnitPrice": 60.0,
+   "IncomeAccountRef": {
+    "value": "47",
+    "name": "Parks Events Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-08-25 10:05:00",
+    "LastUpdatedTime": "2026-08-25 10:05:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "16400",
+   "DocNumber": "PE-2026-118",
+   "TxnDate": "2026-08-28",
+   "DueDate": "2026-09-11",
+   "CustomerRef": {
+    "value": "16100",
+    "name": "Wexcombe Running Club"
+   },
+   "Line": [
+    {
+     "Amount": 450.0,
+     "Description": "Winter 10k, riverside park",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Park event fee - large"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 450.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "16401",
+   "DocNumber": "PE-2026-121",
+   "TxnDate": "2026-09-04",
+   "DueDate": "2026-09-18",
+   "CustomerRef": {
+    "value": "16102",
+    "name": "Abbotsley Scouts"
+   },
+   "Line": [
+    {
+     "Amount": 120.0,
+     "Description": "Campfire evening, community hall grounds",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Park event fee - small"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 120.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "16402",
+   "DocNumber": "PE-2026-124",
+   "TxnDate": "2026-09-15",
+   "DueDate": "2026-09-29",
+   "CustomerRef": {
+    "value": "16101",
+    "name": "Wexcombe Farmers Market"
+   },
+   "Line": [
+    {
+     "Amount": 3800.0,
+     "Description": "Christmas market, 100 pitch-days",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Market pitch"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 3800.0,
+   "Balance": 3800.0,
+   "Status": "Open"
+  },
+  {
+   "Id": "16403",
+   "DocNumber": "PE-2026-127",
+   "TxnDate": "2026-09-25",
+   "DueDate": "2026-10-09",
+   "CustomerRef": {
+    "value": "16103",
+    "name": "Riverside Brass Band"
+   },
+   "Line": [
+    {
+     "Amount": 120.0,
+     "Description": "Bandstand, two Sunday afternoons",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Bandstand booking"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 120.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "16404",
+   "DocNumber": "PE-2026-130",
+   "TxnDate": "2026-10-02",
+   "DueDate": "2026-10-16",
+   "CustomerRef": {
+    "value": "16100",
+    "name": "Wexcombe Running Club"
+   },
+   "Line": [
+    {
+     "Amount": 120.0,
+     "Description": "Junior fun run, riverside park",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Park event fee - small"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 120.0,
+   "Balance": 0,
+   "Status": "Paid"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "16500",
+   "DocNumber": "WGM-0926",
+   "VendorRef": {
+    "value": "16200",
+    "name": "Wexcombe Grounds Maintenance"
+   },
+   "TxnDate": "2026-08-25",
+   "DueDate": "2026-09-24",
+   "Line": [
+    {
+     "Amount": 6420.0,
+     "Description": "Grass and hedge contract, September",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Grounds Maintenance",
+       "value": "71"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 6420.0,
+   "Balance": 6420.0,
+   "PrivateNote": "Awaiting the monthly report check."
+  },
+  {
+   "Id": "16501",
+   "DocNumber": "ATS-3381",
+   "VendorRef": {
+    "value": "16201",
+    "name": "Abbotsley Tree Surgeons"
+   },
+   "TxnDate": "2026-09-09",
+   "DueDate": "2026-10-09",
+   "Line": [
+    {
+     "Amount": 340.0,
+     "Description": "Make safe the split lime on the river path",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Tree Works",
+       "value": "72"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 340.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS."
+  },
+  {
+   "Id": "16502",
+   "DocNumber": "SRF-1207",
+   "VendorRef": {
+    "value": "16202",
+    "name": "Saxon Rise Fencing"
+   },
+   "TxnDate": "2026-09-25",
+   "DueDate": "2026-10-26",
+   "Line": [
+    {
+     "Amount": 1180.0,
+     "Description": "Replace the playground gate closer at Saxon Rise",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Playground Repairs",
+       "value": "73"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1180.0,
+   "Balance": 1180.0,
+   "PrivateNote": ""
+  },
+  {
+   "Id": "16503",
+   "DocNumber": "RPE-5520",
+   "VendorRef": {
+    "value": "16204",
+    "name": "Riverside Play Equipment"
+   },
+   "TxnDate": "2026-10-02",
+   "DueDate": "2026-11-02",
+   "Line": [
+    {
+     "Amount": 2390.0,
+     "Description": "Replacement springer and fixings",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Playground Repairs",
+       "value": "73"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2390.0,
+   "Balance": 2390.0,
+   "PrivateNote": "Fitting by our grounds team."
+  },
+  {
+   "Id": "16504",
+   "DocNumber": "MRP-0814",
+   "VendorRef": {
+    "value": "16203",
+    "name": "Mill Row Plant Hire"
+   },
+   "TxnDate": "2026-10-12",
+   "DueDate": "2026-11-11",
+   "Line": [
+    {
+     "Amount": 285.0,
+     "Description": "Leaf blower servicing, six machines",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Equipment Servicing",
+       "value": "74"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 285.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by card."
+  }
+ ],
+ "payments": [
+  {
+   "Id": "16600",
+   "TxnDate": "2026-09-09",
+   "CustomerRef": {
+    "value": "16100",
+    "name": "Wexcombe Running Club"
+   },
+   "TotalAmt": 450.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "16400",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 450.0
+    }
+   ],
+   "PrivateNote": "BACS"
+  },
+  {
+   "Id": "16601",
+   "TxnDate": "2026-09-14",
+   "CustomerRef": {
+    "value": "16102",
+    "name": "Abbotsley Scouts"
+   },
+   "TotalAmt": 120.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "16401",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 120.0
+    }
+   ],
+   "PrivateNote": "Card"
+  },
+  {
+   "Id": "16602",
+   "TxnDate": "2026-09-28",
+   "CustomerRef": {
+    "value": "16103",
+    "name": "Riverside Brass Band"
+   },
+   "TotalAmt": 120.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "16403",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 120.0
+    }
+   ],
+   "PrivateNote": "Card on booking"
+  },
+  {
+   "Id": "16603",
+   "TxnDate": "2026-10-03",
+   "CustomerRef": {
+    "value": "16100",
+    "name": "Wexcombe Running Club"
+   },
+   "TotalAmt": 120.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "16404",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 120.0
+    }
+   ],
+   "PrivateNote": "BACS"
+  }
+ ],
+ "estimates": [
+  {
+   "Id": "16700",
+   "DocNumber": "EST-PK-019",
+   "TxnDate": "2026-09-30",
+   "ExpirationDate": "2026-10-28",
+   "CustomerRef": {
+    "value": "16103",
+    "name": "Riverside Brass Band"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 480.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Bandstand, eight spring Sunday afternoons",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "16303",
+       "name": "Bandstand booking"
+      },
+      "UnitPrice": 60.0,
+      "Qty": 8
+     }
+    }
+   ],
+   "TotalAmt": 480.0,
+   "TxnStatus": "Pending",
+   "AcceptedDate": "",
+   "MetaData": {
+    "CreateTime": "2026-09-30 10:05:00",
+    "LastUpdatedTime": "2026-09-30 10:05:00"
+   },
+   "SyncToken": "0",
+   "LinkedTxn": []
+  },
+  {
+   "Id": "16701",
+   "DocNumber": "EST-PK-020",
+   "TxnDate": "2026-10-09",
+   "ExpirationDate": "2026-11-06",
+   "CustomerRef": {
+    "value": "16100",
+    "name": "Wexcombe Running Club"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 450.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Spring half marathon start and finish",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "16301",
+       "name": "Park event fee - large"
+      },
+      "UnitPrice": 450.0,
+      "Qty": 1
+     }
+    }
+   ],
+   "TotalAmt": 450.0,
+   "TxnStatus": "Accepted",
+   "AcceptedDate": "2026-10-09",
+   "MetaData": {
+    "CreateTime": "2026-10-09 13:45:00",
+    "LastUpdatedTime": "2026-10-09 13:45:00"
+   },
+   "SyncToken": "0",
+   "LinkedTxn": []
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "16800",
+   "TxnDate": "2026-09-09",
+   "TotalAmt": 46.8,
+   "Line": [
+    {
+     "Description": "Torches and batteries for the stewards",
+     "Amount": 46.8
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-09-10T17:01:00"
+   }
+  },
+  {
+   "Id": "16801",
+   "TxnDate": "2026-09-28",
+   "TotalAmt": 21.5,
+   "Line": [
+    {
+     "Description": "Tea and biscuits for the volunteer litter pick",
+     "Amount": 21.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-09-28T12:26:00"
+   }
+  },
+  {
+   "Id": "16802",
+   "TxnDate": "2026-10-29",
+   "TotalAmt": 18.99,
+   "Line": [
+    {
+     "Description": "Padlock for the bandstand store",
+     "Amount": 18.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-29T10:46:00"
+   }
+  }
+ ]
+}

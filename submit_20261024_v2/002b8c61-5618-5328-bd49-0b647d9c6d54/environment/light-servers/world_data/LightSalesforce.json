@@ -1,0 +1,203 @@
+{
+ "tables": {
+  "Account": [
+   {
+    "Id": "001TS0000017A9B5C0",
+    "Name": "Calderwick Hotel",
+    "Industry": "Hospitality",
+    "AnnualRevenue": 2100000,
+    "Phone": "+441632960611",
+    "Website": "https://calderwickhotel.example",
+    "BillingCity": "Calderwick",
+    "BillingState": "",
+    "NumberOfEmployees": 34,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001TS0000017A9B5C0"
+    }
+   },
+   {
+    "Id": "001TS000002AE21C28",
+    "Name": "Ronsay Distillery",
+    "Industry": "Food & Beverage",
+    "AnnualRevenue": 3400000,
+    "Phone": "+441632960612",
+    "Website": "https://ronsaydistillery.example",
+    "BillingCity": "Ronsay",
+    "BillingState": "",
+    "NumberOfEmployees": 21,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001TS000002AE21C28"
+    }
+   },
+   {
+    "Id": "001TS00000358F71CA",
+    "Name": "Calderwick Garden Centre",
+    "Industry": "Retail",
+    "AnnualRevenue": 860000,
+    "Phone": "+441632960631",
+    "Website": "https://calderwickgarden.example",
+    "BillingCity": "Calderwick",
+    "BillingState": "",
+    "NumberOfEmployees": 14,
+    "attributes": {
+     "type": "Account",
+     "url": "/services/data/v59.0/sobjects/Account/001TS00000358F71CA"
+    }
+   }
+  ],
+  "Contact": [
+   {
+    "Id": "003TS0000019C90090",
+    "FirstName": "Isobel",
+    "LastName": "Garvie",
+    "Email": "isobel.garvie@calderwickhotel.example",
+    "Phone": "+441632960611",
+    "Title": "General manager",
+    "AccountId": "001TS0000017A9B5C0",
+    "MailingCity": "Calderwick",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003TS0000019C90090"
+    }
+   },
+   {
+    "Id": "003TS00000230F0BCF",
+    "FirstName": "Callan",
+    "LastName": "Rennie",
+    "Email": "callan.rennie@ronsaydistillery.example",
+    "Phone": "+441632960612",
+    "Title": "Marketing manager",
+    "AccountId": "001TS000002AE21C28",
+    "MailingCity": "Ronsay",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003TS00000230F0BCF"
+    }
+   },
+   {
+    "Id": "003TS000003482A74F",
+    "FirstName": "Fiona",
+    "LastName": "Laird",
+    "Email": "fiona.laird@calderwickgarden.example",
+    "Phone": "+441632960631",
+    "Title": "Owner",
+    "AccountId": "001TS00000358F71CA",
+    "MailingCity": "Calderwick",
+    "attributes": {
+     "type": "Contact",
+     "url": "/services/data/v59.0/sobjects/Contact/003TS000003482A74F"
+    }
+   }
+  ],
+  "Lead": [
+   {
+    "Id": "00QTS0000015160033",
+    "FirstName": "Rab",
+    "LastName": "Cowie",
+    "Company": "Cowie's Bike Hire",
+    "Email": "rab.cowie@cowiesbikes.example",
+    "Phone": "+441632960641",
+    "Status": "Working - Contacted",
+    "LeadSource": "Referral",
+    "Industry": "Leisure",
+    "Rating": "Warm",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTS0000015160033"
+    }
+   },
+   {
+    "Id": "00QTS000002389D19C",
+    "FirstName": "Senga",
+    "LastName": "Muir",
+    "Company": "Ronsay Pottery",
+    "Email": "senga.muir@ronsaypottery.example",
+    "Phone": "+441632960642",
+    "Status": "Open - Not Contacted",
+    "LeadSource": "Web",
+    "Industry": "Retail",
+    "Rating": "Cold",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTS000002389D19C"
+    }
+   },
+   {
+    "Id": "00QTS000003FCB5B64",
+    "FirstName": "Alasdair",
+    "LastName": "Keir",
+    "Company": "Keir's Fish Bar",
+    "Email": "alasdair.keir@keirsfishbar.example",
+    "Phone": "+441632960643",
+    "Status": "Qualified",
+    "LeadSource": "Email",
+    "Industry": "Hospitality",
+    "Rating": "Hot",
+    "attributes": {
+     "type": "Lead",
+     "url": "/services/data/v59.0/sobjects/Lead/00QTS000003FCB5B64"
+    }
+   }
+  ],
+  "Opportunity": [
+   {
+    "Id": "006TS00000141DFAE4",
+    "Name": "Poster panels 2027",
+    "AccountId": "001TS0000017A9B5C0",
+    "StageName": "Closed Won",
+    "Amount": 750,
+    "Probability": 100,
+    "CloseDate": "2026-12-02",
+    "Type": "Existing Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006TS00000141DFAE4"
+    }
+   },
+   {
+    "Id": "006TS0000020EE3780",
+    "Name": "Winter quarter poster panel",
+    "AccountId": "001TS000002AE21C28",
+    "StageName": "Closed Won",
+    "Amount": 400,
+    "Probability": 100,
+    "CloseDate": "2026-11-20",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006TS0000020EE3780"
+    }
+   },
+   {
+    "Id": "006TS0000030EBD4A6",
+    "Name": "Spring 2027 poster panel",
+    "AccountId": "001TS000002AE21C28",
+    "StageName": "Proposal/Price Quote",
+    "Amount": 400,
+    "Probability": 60,
+    "CloseDate": "2026-12-18",
+    "Type": "Existing Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006TS0000030EBD4A6"
+    }
+   },
+   {
+    "Id": "006TS00000442BEDB7",
+    "Name": "Waiting room leaflet rack",
+    "AccountId": "001TS00000358F71CA",
+    "StageName": "Qualification",
+    "Amount": 240,
+    "Probability": 20,
+    "CloseDate": "2026-12-21",
+    "Type": "New Business",
+    "attributes": {
+     "type": "Opportunity",
+     "url": "/services/data/v59.0/sobjects/Opportunity/006TS00000442BEDB7"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "spaces": [
+  {
+   "id": 9900,
+   "key": "FSH",
+   "name": "Fernhill staff handbook",
+   "type": "global",
+   "status": "current",
+   "description": {
+    "plain": {
+     "value": "How the barn runs.",
+     "representation": "plain"
+    }
+   }
+  }
+ ],
+ "pages": [
+  {
+   "id": "990001",
+   "type": "page",
+   "status": "current",
+   "title": "Fernhill staff handbook",
+   "space_key": "FSH",
+   "parent_id": null,
+   "version": 2,
+   "body": "How the barn runs: shifts, uniforms, breaks and who to ask.",
+   "created_by": "Bronwen Teague",
+   "created_at": "2026-02-10T10:00:00Z"
+  },
+  {
+   "id": "990002",
+   "type": "page",
+   "status": "current",
+   "title": "Uniform",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Black shirts and aprons for front of house; whites for the kitchen.",
+   "created_by": "Lewis Brannock",
+   "created_at": "2026-03-11T10:00:00Z"
+  },
+  {
+   "id": "990003",
+   "type": "page",
+   "status": "current",
+   "title": "Breaks",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Thirty minutes for every six hours worked, taken in the green room.",
+   "created_by": "Lewis Brannock",
+   "created_at": "2026-04-12T10:00:00Z"
+  },
+  {
+   "id": "990004",
+   "type": "page",
+   "status": "current",
+   "title": "Closing the barn",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Log burners out, doors locked, alarm set by the duty manager.",
+   "created_by": "Lewis Brannock",
+   "created_at": "2026-05-13T10:00:00Z"
+  },
+  {
+   "id": "990005",
+   "type": "page",
+   "status": "current",
+   "title": "Bar procedures",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Challenge 25, float counted at open and close.",
+   "created_by": "Gethin Whitlow",
+   "created_at": "2026-06-14T10:00:00Z"
+  },
+  {
+   "id": "990006",
+   "type": "page",
+   "status": "current",
+   "title": "Kitchen hygiene",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Probe checks logged, fridge temperatures twice a day.",
+   "created_by": "Rhodri Pask",
+   "created_at": "2026-07-15T10:00:00Z"
+  },
+  {
+   "id": "990007",
+   "type": "page",
+   "status": "current",
+   "title": "Guest wifi",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Network FernhillGuests, password on the welcome board.",
+   "created_by": "Petra Noakes",
+   "created_at": "2026-02-16T10:00:00Z"
+  },
+  {
+   "id": "990008",
+   "type": "page",
+   "status": "current",
+   "title": "Lost property",
+   "space_key": "FSH",
+   "parent_id": "990001",
+   "version": 2,
+   "body": "Bag and label, log in the office, keep for 30 days.",
+   "created_by": "Marisol Baptiste",
+   "created_at": "2026-03-17T10:00:00Z"
+  }
+ ]
+}

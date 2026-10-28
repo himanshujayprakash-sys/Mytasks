@@ -1,0 +1,934 @@
+{
+ "status": {
+  "TJ-P3003": "Held - team not cleared",
+  "TJ-P3015": "Held - team not cleared",
+  "TJ-P3010": "Held - team not cleared",
+  "TJ-P3012": "Held - team not cleared",
+  "TJ-P3006": "Held - team not cleared",
+  "TJ-P3007": "Held - team not cleared",
+  "TJ-P3001": "Held - team not cleared",
+  "TJ-P3004": "Held - team not cleared",
+  "TJ-P3016": "Held - team not cleared",
+  "TJ-P3011": "Held - team not cleared",
+  "TJ-P3008": "Held - team not cleared",
+  "TJ-P3002": "Held - team not cleared",
+  "TJ-P3009": "Held - team not cleared",
+  "TJ-P3017": "Refused - wrong age group",
+  "TJ-P3005": "Held - team not cleared",
+  "TJ-P3014": "Held - team not cleared",
+  "TJ-P3013": "Held - team not cleared",
+  "TJ-P3038": "Held - not renewed",
+  "TJ-P3021": "Refused - registered elsewhere",
+  "TJ-P3037": "Refused - wrong age group",
+  "TJ-P3019": "Withdrawn by parent",
+  "TJ-P3058": "Held - no consent",
+  "TJ-P3018": "Registered",
+  "TJ-P3020": "Registered",
+  "TJ-P3022": "Registered",
+  "TJ-P3023": "Registered",
+  "TJ-P3024": "Registered",
+  "TJ-P3025": "Registered",
+  "TJ-P3026": "Registered",
+  "TJ-P3027": "Registered",
+  "TJ-P3028": "Registered",
+  "TJ-P3029": "Registered",
+  "TJ-P3030": "Registered",
+  "TJ-P3031": "Registered",
+  "TJ-P3032": "Registered",
+  "TJ-P3033": "Registered",
+  "TJ-P3034": "Registered",
+  "TJ-P3036": "Held - tie at squad limit",
+  "TJ-P3035": "Held - tie at squad limit",
+  "TJ-P3039": "Registered",
+  "TJ-P3040": "Registered",
+  "TJ-P3041": "Registered",
+  "TJ-P3042": "Registered",
+  "TJ-P3043": "Registered",
+  "TJ-P3044": "Registered",
+  "TJ-P3045": "Registered",
+  "TJ-P3046": "Registered",
+  "TJ-P3047": "Registered",
+  "TJ-P3048": "Registered",
+  "TJ-P3049": "Registered",
+  "TJ-P3050": "Registered",
+  "TJ-P3051": "Registered",
+  "TJ-P3052": "Registered",
+  "TJ-P3053": "Registered",
+  "TJ-P3054": "Registered",
+  "TJ-P3055": "Registered",
+  "TJ-P3056": "Registered",
+  "TJ-P3057": "Held - squad full"
+ },
+ "lines": {
+  "FAM-027": [
+   {
+    "player": "Alfie Mellor",
+    "team": "U14",
+    "pid": "TJ-P3028",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-001": [
+   {
+    "player": "Archie Beckett",
+    "team": "U14",
+    "pid": "TJ-P3018",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 85.0
+   }
+  ],
+  "FAM-003": [
+   {
+    "player": "Daniel Pickles",
+    "team": "U16",
+    "pid": "TJ-P3043",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   },
+   {
+    "player": "Archie Pickles",
+    "team": "U14",
+    "pid": "TJ-P3023",
+    "fee": 135.0,
+    "discount": 13.5,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 71.5
+   }
+  ],
+  "FAM-033": [
+   {
+    "player": "Daniel Castle",
+    "team": "U14",
+    "pid": "TJ-P3034",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-032": [
+   {
+    "player": "Dexter Schofield",
+    "team": "U14",
+    "pid": "TJ-P3033",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-022": [
+   {
+    "player": "Elliot Wilde",
+    "team": "U14",
+    "pid": "TJ-P3020",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 85.0
+   }
+  ],
+  "FAM-030": [
+   {
+    "player": "Ethan Ashby",
+    "team": "U14",
+    "pid": "TJ-P3031",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-026": [
+   {
+    "player": "Imogen Holt",
+    "team": "U14",
+    "pid": "TJ-P3027",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 85.0
+   }
+  ],
+  "FAM-023": [
+   {
+    "player": "Imogen Wilde",
+    "team": "U14",
+    "pid": "TJ-P3022",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-029": [
+   {
+    "player": "Kai Tattersall",
+    "team": "U14",
+    "pid": "TJ-P3030",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 85.0
+   }
+  ],
+  "FAM-025": [
+   {
+    "player": "Leo Moss",
+    "team": "U14",
+    "pid": "TJ-P3025",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-005": [
+   {
+    "player": "Zachary Ogden",
+    "team": "U16",
+    "pid": "TJ-P3049",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   },
+   {
+    "player": "Noah Ogden",
+    "team": "U14",
+    "pid": "TJ-P3026",
+    "fee": 135.0,
+    "discount": 13.5,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 121.5
+   }
+  ],
+  "FAM-028": [
+   {
+    "player": "Oliver Shackleton",
+    "team": "U14",
+    "pid": "TJ-P3029",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": true,
+    "deposit": 0.0,
+    "balance": 0.0
+   }
+  ],
+  "FAM-024": [
+   {
+    "player": "Samuel Carver",
+    "team": "U14",
+    "pid": "TJ-P3024",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-031": [
+   {
+    "player": "Sienna Tattersall",
+    "team": "U14",
+    "pid": "TJ-P3032",
+    "fee": 135.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-007": [
+   {
+    "player": "Daniel Haldane",
+    "team": "U16",
+    "pid": "TJ-P3041",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-006": [
+   {
+    "player": "Dexter Hadley",
+    "team": "U16",
+    "pid": "TJ-P3045",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   },
+   {
+    "player": "Finley Hadley",
+    "team": "U16",
+    "pid": "TJ-P3046",
+    "fee": 150.0,
+    "discount": 15.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 135.0
+   }
+  ],
+  "FAM-043": [
+   {
+    "player": "George Fairbairn",
+    "team": "U16",
+    "pid": "TJ-P3053",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   }
+  ],
+  "FAM-038": [
+   {
+    "player": "Imogen Moss",
+    "team": "U16",
+    "pid": "TJ-P3044",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-046": [
+   {
+    "player": "Isla Marsden",
+    "team": "U16",
+    "pid": "TJ-P3056",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-044": [
+   {
+    "player": "Jack Royle",
+    "team": "U16",
+    "pid": "TJ-P3054",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-009": [
+   {
+    "player": "Jacob Tattersall",
+    "team": "U16",
+    "pid": "TJ-P3052",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-045": [
+   {
+    "player": "Joshua Uttley",
+    "team": "U16",
+    "pid": "TJ-P3055",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-039": [
+   {
+    "player": "Leo Holt",
+    "team": "U16",
+    "pid": "TJ-P3047",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   }
+  ],
+  "FAM-036": [
+   {
+    "player": "Lewis Shackleton",
+    "team": "U16",
+    "pid": "TJ-P3039",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   }
+  ],
+  "FAM-041": [
+   {
+    "player": "Poppy Greaves",
+    "team": "U16",
+    "pid": "TJ-P3050",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   }
+  ],
+  "FAM-040": [
+   {
+    "player": "Reuben Fairbairn",
+    "team": "U16",
+    "pid": "TJ-P3048",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": true,
+    "deposit": 0.0,
+    "balance": 0.0
+   }
+  ],
+  "FAM-002": [
+   {
+    "player": "Thomas Eccles",
+    "team": "U16",
+    "pid": "TJ-P3040",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 50.0,
+    "balance": 100.0
+   }
+  ],
+  "FAM-037": [
+   {
+    "player": "Thomas Schofield",
+    "team": "U16",
+    "pid": "TJ-P3042",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ],
+  "FAM-042": [
+   {
+    "player": "Toby Gill",
+    "team": "U16",
+    "pid": "TJ-P3051",
+    "fee": 150.0,
+    "discount": 0.0,
+    "hardship": false,
+    "deposit": 0.0,
+    "balance": 150.0
+   }
+  ]
+ },
+ "invoices": {
+  "FAM-001": {
+   "ref": "TJ26-FAM-001",
+   "lines": [
+    {
+     "player": "Archie Beckett",
+     "team": "U14",
+     "pid": "TJ-P3018",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 85.0
+    }
+   ],
+   "total": 85.0
+  },
+  "FAM-002": {
+   "ref": "TJ26-FAM-002",
+   "lines": [
+    {
+     "player": "Thomas Eccles",
+     "team": "U16",
+     "pid": "TJ-P3040",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    }
+   ],
+   "total": 100.0
+  },
+  "FAM-003": {
+   "ref": "TJ26-FAM-003",
+   "lines": [
+    {
+     "player": "Daniel Pickles",
+     "team": "U16",
+     "pid": "TJ-P3043",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    },
+    {
+     "player": "Archie Pickles",
+     "team": "U14",
+     "pid": "TJ-P3023",
+     "fee": 135.0,
+     "discount": 13.5,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 71.5
+    }
+   ],
+   "total": 171.5
+  },
+  "FAM-005": {
+   "ref": "TJ26-FAM-005",
+   "lines": [
+    {
+     "player": "Zachary Ogden",
+     "team": "U16",
+     "pid": "TJ-P3049",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    },
+    {
+     "player": "Noah Ogden",
+     "team": "U14",
+     "pid": "TJ-P3026",
+     "fee": 135.0,
+     "discount": 13.5,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 121.5
+    }
+   ],
+   "total": 271.5
+  },
+  "FAM-006": {
+   "ref": "TJ26-FAM-006",
+   "lines": [
+    {
+     "player": "Dexter Hadley",
+     "team": "U16",
+     "pid": "TJ-P3045",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    },
+    {
+     "player": "Finley Hadley",
+     "team": "U16",
+     "pid": "TJ-P3046",
+     "fee": 150.0,
+     "discount": 15.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 285.0
+  },
+  "FAM-007": {
+   "ref": "TJ26-FAM-007",
+   "lines": [
+    {
+     "player": "Daniel Haldane",
+     "team": "U16",
+     "pid": "TJ-P3041",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-009": {
+   "ref": "TJ26-FAM-009",
+   "lines": [
+    {
+     "player": "Jacob Tattersall",
+     "team": "U16",
+     "pid": "TJ-P3052",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-022": {
+   "ref": "TJ26-FAM-022",
+   "lines": [
+    {
+     "player": "Elliot Wilde",
+     "team": "U14",
+     "pid": "TJ-P3020",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 85.0
+    }
+   ],
+   "total": 85.0
+  },
+  "FAM-023": {
+   "ref": "TJ26-FAM-023",
+   "lines": [
+    {
+     "player": "Imogen Wilde",
+     "team": "U14",
+     "pid": "TJ-P3022",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-024": {
+   "ref": "TJ26-FAM-024",
+   "lines": [
+    {
+     "player": "Samuel Carver",
+     "team": "U14",
+     "pid": "TJ-P3024",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-025": {
+   "ref": "TJ26-FAM-025",
+   "lines": [
+    {
+     "player": "Leo Moss",
+     "team": "U14",
+     "pid": "TJ-P3025",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-026": {
+   "ref": "TJ26-FAM-026",
+   "lines": [
+    {
+     "player": "Imogen Holt",
+     "team": "U14",
+     "pid": "TJ-P3027",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 85.0
+    }
+   ],
+   "total": 85.0
+  },
+  "FAM-027": {
+   "ref": "TJ26-FAM-027",
+   "lines": [
+    {
+     "player": "Alfie Mellor",
+     "team": "U14",
+     "pid": "TJ-P3028",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-029": {
+   "ref": "TJ26-FAM-029",
+   "lines": [
+    {
+     "player": "Kai Tattersall",
+     "team": "U14",
+     "pid": "TJ-P3030",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 85.0
+    }
+   ],
+   "total": 85.0
+  },
+  "FAM-030": {
+   "ref": "TJ26-FAM-030",
+   "lines": [
+    {
+     "player": "Ethan Ashby",
+     "team": "U14",
+     "pid": "TJ-P3031",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-031": {
+   "ref": "TJ26-FAM-031",
+   "lines": [
+    {
+     "player": "Sienna Tattersall",
+     "team": "U14",
+     "pid": "TJ-P3032",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-032": {
+   "ref": "TJ26-FAM-032",
+   "lines": [
+    {
+     "player": "Dexter Schofield",
+     "team": "U14",
+     "pid": "TJ-P3033",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-033": {
+   "ref": "TJ26-FAM-033",
+   "lines": [
+    {
+     "player": "Daniel Castle",
+     "team": "U14",
+     "pid": "TJ-P3034",
+     "fee": 135.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 135.0
+    }
+   ],
+   "total": 135.0
+  },
+  "FAM-036": {
+   "ref": "TJ26-FAM-036",
+   "lines": [
+    {
+     "player": "Lewis Shackleton",
+     "team": "U16",
+     "pid": "TJ-P3039",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    }
+   ],
+   "total": 100.0
+  },
+  "FAM-037": {
+   "ref": "TJ26-FAM-037",
+   "lines": [
+    {
+     "player": "Thomas Schofield",
+     "team": "U16",
+     "pid": "TJ-P3042",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-038": {
+   "ref": "TJ26-FAM-038",
+   "lines": [
+    {
+     "player": "Imogen Moss",
+     "team": "U16",
+     "pid": "TJ-P3044",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-039": {
+   "ref": "TJ26-FAM-039",
+   "lines": [
+    {
+     "player": "Leo Holt",
+     "team": "U16",
+     "pid": "TJ-P3047",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    }
+   ],
+   "total": 100.0
+  },
+  "FAM-041": {
+   "ref": "TJ26-FAM-041",
+   "lines": [
+    {
+     "player": "Poppy Greaves",
+     "team": "U16",
+     "pid": "TJ-P3050",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    }
+   ],
+   "total": 100.0
+  },
+  "FAM-042": {
+   "ref": "TJ26-FAM-042",
+   "lines": [
+    {
+     "player": "Toby Gill",
+     "team": "U16",
+     "pid": "TJ-P3051",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-043": {
+   "ref": "TJ26-FAM-043",
+   "lines": [
+    {
+     "player": "George Fairbairn",
+     "team": "U16",
+     "pid": "TJ-P3053",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 50.0,
+     "balance": 100.0
+    }
+   ],
+   "total": 100.0
+  },
+  "FAM-044": {
+   "ref": "TJ26-FAM-044",
+   "lines": [
+    {
+     "player": "Jack Royle",
+     "team": "U16",
+     "pid": "TJ-P3054",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-045": {
+   "ref": "TJ26-FAM-045",
+   "lines": [
+    {
+     "player": "Joshua Uttley",
+     "team": "U16",
+     "pid": "TJ-P3055",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  },
+  "FAM-046": {
+   "ref": "TJ26-FAM-046",
+   "lines": [
+    {
+     "player": "Isla Marsden",
+     "team": "U16",
+     "pid": "TJ-P3056",
+     "fee": 150.0,
+     "discount": 0.0,
+     "hardship": false,
+     "deposit": 0.0,
+     "balance": 150.0
+    }
+   ],
+   "total": 150.0
+  }
+ }
+}

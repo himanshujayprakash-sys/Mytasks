@@ -1,0 +1,93 @@
+{
+ "users": [
+  {
+   "id": "51806633",
+   "name": "Caroline Fernhill",
+   "login": "caroline.fernhill@fernhillbarn.example",
+   "role": "user",
+   "status": "active",
+   "language": "en",
+   "timezone": "Europe/London",
+   "space_amount": 10737418240,
+   "space_used": 2104400,
+   "max_upload_size": 2147483648,
+   "job_title": "Estate Owner",
+   "phone": "01632 961000",
+   "created_at": "2025-01-06T09:00:00+00:00"
+  }
+ ],
+ "folders": [
+  {
+   "id": "9606001",
+   "name": "Estate certificates",
+   "parent_id": "0",
+   "owner_id": "51806633",
+   "description": "Insurance, licences and safety certificates.",
+   "created_at": "2025-01-06T09:30:00+00:00",
+   "modified_at": "2026-08-12T15:00:00+00:00",
+   "item_count": 5
+  }
+ ],
+ "files": [
+  {
+   "id": "9607000",
+   "name": "Public_liability_certificate_2026.pdf",
+   "parent_id": "9606001",
+   "owner_id": "51806633",
+   "description": "Public liability insurance, renewed April 2026.",
+   "size": 180000,
+   "extension": "pdf",
+   "sha1": "17a240bb6f8bbf52338daa44d3309edc69db8f55",
+   "created_at": "2026-04-01T09:00:00+00:00",
+   "modified_at": "2026-04-01T16:00:00+00:00"
+  },
+  {
+   "id": "9607001",
+   "name": "Gas_safety_certificate_barn_2026.pdf",
+   "parent_id": "9606001",
+   "owner_id": "51806633",
+   "description": "Annual gas safety check, kitchen and burners.",
+   "size": 190101,
+   "extension": "pdf",
+   "sha1": "b8a5e34e9d7232aacf7e33f6933b24fdb8da4ffa",
+   "created_at": "2026-08-12T09:00:00+00:00",
+   "modified_at": "2026-08-12T16:00:00+00:00"
+  },
+  {
+   "id": "9607002",
+   "name": "Electrical_installation_report_2025.pdf",
+   "parent_id": "9606001",
+   "owner_id": "51806633",
+   "description": "Five-yearly electrical report.",
+   "size": 200202,
+   "extension": "pdf",
+   "sha1": "451fa04d02f5cf311e8600eea41aa0e4ebca8550",
+   "created_at": "2025-09-30T09:00:00+00:00",
+   "modified_at": "2025-09-30T16:00:00+00:00"
+  },
+  {
+   "id": "9607003",
+   "name": "Food_hygiene_rating_letter_2026.pdf",
+   "parent_id": "9606001",
+   "owner_id": "51806633",
+   "description": "Food hygiene rating 5, inspected June 2026.",
+   "size": 210303,
+   "extension": "pdf",
+   "sha1": "80d4b6bcb64d9cf21e729ccb5f51e1a89f46e18f",
+   "created_at": "2026-06-20T09:00:00+00:00",
+   "modified_at": "2026-06-20T16:00:00+00:00"
+  },
+  {
+   "id": "9607004",
+   "name": "Premises_licence_2026.pdf",
+   "parent_id": "9606001",
+   "owner_id": "51806633",
+   "description": "Premises licence and plan.",
+   "size": 220404,
+   "extension": "pdf",
+   "sha1": "4b1fbda205145cd2e9850fcd69a8c71994dde7ff",
+   "created_at": "2026-01-31T09:00:00+00:00",
+   "modified_at": "2026-01-31T16:00:00+00:00"
+  }
+ ]
+}

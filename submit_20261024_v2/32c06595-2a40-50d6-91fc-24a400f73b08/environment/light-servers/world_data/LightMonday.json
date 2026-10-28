@@ -1,0 +1,198 @@
+{
+ "items": [
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-oct",
+   "item_id": "item-llh-001",
+   "name": "Draw 2 October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-oct",
+   "item_id": "item-llh-002",
+   "name": "Draw 9 October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-oct",
+   "item_id": "item-llh-003",
+   "name": "Draw 16 October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-oct",
+   "item_id": "item-llh-004",
+   "name": "Draw 23 October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-oct",
+   "item_id": "item-llh-005",
+   "name": "Draw 30 October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-nov",
+   "item_id": "item-llh-006",
+   "name": "Draw 6 November"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "created_at": "2026-10-01T09:00:00Z",
+   "group_id": "grp-nov",
+   "item_id": "item-llh-007",
+   "name": "Draw 13 November"
+  }
+ ],
+ "column_values": [
+  {
+   "column_id": "status",
+   "item_id": "item-llh-001",
+   "text": "Paid",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-001",
+   "text": "3",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-002",
+   "text": "Paid",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-002",
+   "text": "2",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-003",
+   "text": "Paid",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-003",
+   "text": "4",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-004",
+   "text": "Paid",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-004",
+   "text": "3",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-005",
+   "text": "Paid",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-005",
+   "text": "3",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-006",
+   "text": "Prizes due",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-006",
+   "text": "2",
+   "value": null
+  },
+  {
+   "column_id": "status",
+   "item_id": "item-llh-007",
+   "text": "Not drawn",
+   "value": null
+  },
+  {
+   "column_id": "winners",
+   "item_id": "item-llh-007",
+   "text": "0",
+   "value": null
+  }
+ ],
+ "workspaces": [
+  {
+   "description": "Lottery operations",
+   "kind": "open",
+   "name": "Lottery",
+   "workspace_id": "ws-llh-lottery"
+  }
+ ],
+ "boards": [
+  {
+   "board_id": "board-llh-draws",
+   "board_kind": "public",
+   "description": "Weekly draws and prize payments.",
+   "name": "Lottery draws Q4",
+   "state": "active",
+   "workspace_id": "ws-llh-lottery"
+  }
+ ],
+ "groups": [
+  {
+   "board_id": "board-llh-draws",
+   "color": "#7B1FA2",
+   "group_id": "grp-oct",
+   "position": "1",
+   "title": "October"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "color": "#F57C00",
+   "group_id": "grp-nov",
+   "position": "2",
+   "title": "November"
+  }
+ ],
+ "columns": [
+  {
+   "board_id": "board-llh-draws",
+   "column_id": "status",
+   "position": 0,
+   "title": "Status",
+   "type": "status"
+  },
+  {
+   "board_id": "board-llh-draws",
+   "column_id": "winners",
+   "position": 1,
+   "title": "Winners",
+   "type": "numbers"
+  }
+ ],
+ "users": [
+  {
+   "email": "imani.osei@linnetlane.example",
+   "is_admin": true,
+   "name": "Imani Osei",
+   "title": "Lottery Manager",
+   "user_id": "u-llh-imani"
+  }
+ ]
+}

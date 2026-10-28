@@ -1,0 +1,304 @@
+{
+ "boards": [
+  {
+   "id": "6b2f0000000000000000b001",
+   "name": "Ashgrove social committee",
+   "desc": "Events and fundraising for head office staff.",
+   "closed": false,
+   "id_organization": "6b2f0000000000000000f001",
+   "url": "https://trello.com/b/agmsoc26/ashgrove-social-committee",
+   "member_ids": [
+    "6b2f0000000000000000a001",
+    "6b2f0000000000000000a002",
+    "6b2f0000000000000000a003",
+    "6b2f0000000000000000a004"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "6b2f0000000000000000c001",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Ideas",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6b2f0000000000000000c002",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Planning",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6b2f0000000000000000c003",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Booked",
+   "closed": false,
+   "pos": 3
+  },
+  {
+   "id": "6b2f0000000000000000c004",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Done",
+   "closed": false,
+   "pos": 4
+  }
+ ],
+ "members": [
+  {
+   "id": "6b2f0000000000000000a001",
+   "fullName": "Ottoline Brack",
+   "username": "ottolinebrack",
+   "email": "ottoline.brack@ashgrovemutual.test"
+  },
+  {
+   "id": "6b2f0000000000000000a002",
+   "fullName": "Bronwen Castell",
+   "username": "bronwencastell",
+   "email": "bronwen.castell@ashgrovemutual.test"
+  },
+  {
+   "id": "6b2f0000000000000000a003",
+   "fullName": "Gareth Lowe",
+   "username": "garethlowe",
+   "email": "gareth.lowe@ashgrovemutual.test"
+  },
+  {
+   "id": "6b2f0000000000000000a004",
+   "fullName": "Imelda Grice",
+   "username": "imeldagrice",
+   "email": "imelda.grice@ashgrovemutual.test"
+  }
+ ],
+ "cards": [
+  {
+   "id": "6b2f0000000000000000d001",
+   "name": "Wellbeing week",
+   "desc": "Walks, talks and the massage chair, 5 to 9 October.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c004",
+   "pos": 16384.0,
+   "due": "2026-10-09T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a004"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d002",
+   "name": "Bake sale for the mountain rescue team",
+   "desc": "Held on 14 October; raised 386 pounds.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c004",
+   "pos": 32768.0,
+   "due": "2026-10-14T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d003",
+   "name": "Christmas party at The Old Mill Hotel",
+   "desc": "Deposit paid on 14 October. Menu choices due 20 November.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c003",
+   "pos": 49152.0,
+   "due": "2026-12-11T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d004",
+   "name": "Team fell walk",
+   "desc": "Coach booked for 08:45 from Ashgrove House; about five miles.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c003",
+   "pos": 65536.0,
+   "due": "2026-11-28T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a003"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d005",
+   "name": "Secret Santa",
+   "desc": "Ten pound limit; names drawn on 20 November.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 81920.0,
+   "due": "2026-11-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d006",
+   "name": "Charity of the year vote",
+   "desc": "Shortlist of three goes to the whole office.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 98304.0,
+   "due": "2026-12-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a004"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d007",
+   "name": "Christmas jumper day",
+   "desc": "Two pounds each for the mountain rescue team.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 114688.0,
+   "due": "2026-12-10T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d008",
+   "name": "Office tree and decorations",
+   "desc": "Up on 1 December, down by 6 January.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c002",
+   "pos": 131072.0,
+   "due": "2026-12-01T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000a001"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d009",
+   "name": "Quiz night in January",
+   "desc": "Ask the hotel about a function room.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c001",
+   "pos": 147456.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6b2f0000000000000000d010",
+   "name": "Summer barbecue",
+   "desc": "Too early to book; raise it at the spring meeting.",
+   "id_board": "6b2f0000000000000000b001",
+   "id_list": "6b2f0000000000000000c001",
+   "pos": 163840.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "social"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_agm_01",
+   "id_card": "6b2f0000000000000000d003",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Party jobs",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_agm_01",
+     "id_checklist": "cl_agm_01",
+     "name": "Deposit",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_agm_02",
+     "id_checklist": "cl_agm_01",
+     "name": "Menu choices",
+     "state": "incomplete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_agm_03",
+     "id_checklist": "cl_agm_01",
+     "name": "Taxis home",
+     "state": "incomplete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_agm_04",
+     "id_checklist": "cl_agm_01",
+     "name": "Raffle prizes",
+     "state": "incomplete",
+     "pos": 4000
+    }
+   ]
+  },
+  {
+   "id": "cl_agm_02",
+   "id_card": "6b2f0000000000000000d004",
+   "id_board": "6b2f0000000000000000b001",
+   "name": "Walk kit",
+   "pos": 2000,
+   "check_items": [
+    {
+     "id": "ci_agm_11",
+     "id_checklist": "cl_agm_02",
+     "name": "First aid kit",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_agm_12",
+     "id_checklist": "cl_agm_02",
+     "name": "Route card",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_agm_13",
+     "id_checklist": "cl_agm_02",
+     "name": "Spare torch",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

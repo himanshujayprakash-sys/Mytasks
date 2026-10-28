@@ -1,0 +1,463 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 74,
+      "passed": 55,
+      "failed": 19,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.818182,
+      "weighted_percentage": 81.82
+    },
+    "tests": [
+      {
+        "name": "test_page_headline_in_full",
+        "status": "passed",
+        "duration": 17,
+        "weight": 5
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "passed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "passed",
+        "duration": 4,
+        "weight": 3
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "passed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "status": "passed",
+        "duration": 95,
+        "weight": 1
+      },
+      {
+        "name": "test_every_ledger_page_opened",
+        "status": "passed",
+        "duration": 12,
+        "weight": 3
+      },
+      {
+        "name": "test_second_edition_opened",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_corrigendum_opened",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_procedure_opened",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_clock_note_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_desk_basis_note_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_scope_memo_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_station_plan_and_gusts_opened",
+        "status": "passed",
+        "duration": 7,
+        "weight": 3
+      },
+      {
+        "name": "test_territories_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_valuations_opened",
+        "status": "passed",
+        "duration": 8,
+        "weight": 3
+      },
+      {
+        "name": "test_recoveries_opened",
+        "status": "passed",
+        "duration": 9,
+        "weight": 3
+      },
+      {
+        "name": "test_scans_opened",
+        "status": "passed",
+        "duration": 30,
+        "weight": 3
+      },
+      {
+        "name": "test_tally_opened",
+        "status": "passed",
+        "duration": 3,
+        "weight": 3
+      },
+      {
+        "name": "test_mailbox_rules_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_event_period_revision_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_ticket_internal_notes_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_web_chat_read",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_every_policy_read",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_every_open_slot_read",
+        "status": "passed",
+        "duration": 33,
+        "weight": 1
+      },
+      {
+        "name": "test_text_history_read",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_audience_members_read",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_tickets_read",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_register_headings",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_register_values",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_loss_time_decides",
+        "status": "failed",
+        "duration": 16,
+        "weight": 3
+      },
+      {
+        "name": "test_event_time_order",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_review_decision",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_reserve_authority",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_ra_register_dates",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_lapse_and_reinstatement",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_gust_threshold",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_binder_excluded",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_event_period_revision_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_adjuster_revision_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_web_chat_duplicate_merged",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_merged_once",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_vat_basis",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_average",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_valuation_date",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_wear_and_tear",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_tally_claim",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_excess",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_corrigendum_not_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_recoveries",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_return",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_bridge",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "status": "failed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_slot_holds",
+        "status": "passed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_desk_limit",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_vulnerable_first",
+        "status": "passed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_structural_triage",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_leave_respected",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_notices",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_sms_consent",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_authority_redirect",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_ticket_tags",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_ticket_status",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_audience",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_hold_before_notice",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_touched_correct_lines",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_other_writes",
+        "status": "failed",
+        "duration": 2,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_texted_without_consent",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_resubscribed",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_invalid_slot",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_duplicate_notice",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_deleted_records",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "status": "failed",
+        "duration": 6,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_wrong_total_stated",
+        "status": "failed",
+        "duration": 1,
+        "weight": -3
+      }
+    ]
+  }
+}

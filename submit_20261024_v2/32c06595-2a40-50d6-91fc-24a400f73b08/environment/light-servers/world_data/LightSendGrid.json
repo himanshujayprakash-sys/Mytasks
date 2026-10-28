@@ -1,0 +1,176 @@
+{
+ "sent_log": [
+  {
+   "clicks": 0,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llhd4d8a6",
+   "opens": 1,
+   "sent_at": "2026-10-15T09:00:00Z",
+   "status": "delivered",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "pat.hollow@postbox.example"
+  },
+  {
+   "clicks": 1,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llh52c6ef",
+   "opens": 2,
+   "sent_at": "2026-10-15T09:01:00Z",
+   "status": "opened",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "des.ure@inbox.example"
+  },
+  {
+   "clicks": 2,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llhe8473d",
+   "opens": 3,
+   "sent_at": "2026-10-15T09:02:00Z",
+   "status": "opened",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "gwyneth.abel@mailhub.example"
+  },
+  {
+   "clicks": 0,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llh4f4384",
+   "opens": 4,
+   "sent_at": "2026-10-15T09:03:00Z",
+   "status": "opened",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "ola.bankole@postbox.example"
+  },
+  {
+   "clicks": 1,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llh537caf",
+   "opens": 1,
+   "sent_at": "2026-10-15T09:04:00Z",
+   "status": "delivered",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "june.carthew@mailhub.example"
+  },
+  {
+   "clicks": 2,
+   "from_email": "events@linnetlane.example",
+   "message_id": "msg-llhf96697",
+   "opens": 2,
+   "sent_at": "2026-10-15T09:05:00Z",
+   "status": "opened",
+   "subject": "You're invited: Linnet Lane quiz night",
+   "template_id": "d-llhquiz2026000001",
+   "to_email": "ray.tozer@inbox.example"
+  }
+ ],
+ "contacts": [
+  {
+   "country": "GB",
+   "created_at": "2025-01-12T10:00:00Z",
+   "email": "pat.hollow@postbox.example",
+   "first_name": "Patricia",
+   "id": "contact-llh000",
+   "last_name": "Hollow",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-10T10:00:00Z"
+  },
+  {
+   "country": "GB",
+   "created_at": "2025-02-12T10:00:00Z",
+   "email": "des.ure@inbox.example",
+   "first_name": "Desmond",
+   "id": "contact-llh001",
+   "last_name": "Ure",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-11T10:00:00Z"
+  },
+  {
+   "country": "GB",
+   "created_at": "2025-03-12T10:00:00Z",
+   "email": "gwyneth.abel@mailhub.example",
+   "first_name": "Gwyneth",
+   "id": "contact-llh002",
+   "last_name": "Abel",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-12T10:00:00Z"
+  },
+  {
+   "country": "GB",
+   "created_at": "2025-04-12T10:00:00Z",
+   "email": "ola.bankole@postbox.example",
+   "first_name": "Ola",
+   "id": "contact-llh003",
+   "last_name": "Bankole",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-13T10:00:00Z"
+  },
+  {
+   "country": "GB",
+   "created_at": "2025-05-12T10:00:00Z",
+   "email": "june.carthew@mailhub.example",
+   "first_name": "June",
+   "id": "contact-llh004",
+   "last_name": "Carthew",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-14T10:00:00Z"
+  },
+  {
+   "country": "GB",
+   "created_at": "2025-06-12T10:00:00Z",
+   "email": "ray.tozer@inbox.example",
+   "first_name": "Raymond",
+   "id": "contact-llh005",
+   "last_name": "Tozer",
+   "list_ids": [
+    "list-llh-quiz"
+   ],
+   "updated_at": "2026-10-15T10:00:00Z"
+  }
+ ],
+ "templates": [
+  {
+   "generation": "dynamic",
+   "id": "d-llhquiz2026000001",
+   "name": "Quiz night invitation",
+   "updated_at": "2026-10-14T10:00:00Z",
+   "versions": [
+    {
+     "id": "v_llhq1",
+     "template_id": "d-llhquiz2026000001",
+     "active": 1,
+     "name": "v1",
+     "subject": "You're invited: Linnet Lane quiz night"
+    }
+   ]
+  },
+  {
+   "generation": "dynamic",
+   "id": "d-llhlights20260001",
+   "name": "Lights of Remembrance",
+   "updated_at": "2026-11-02T10:00:00Z",
+   "versions": [
+    {
+     "id": "v_llhl1",
+     "template_id": "d-llhlights20260001",
+     "active": 1,
+     "name": "v1",
+     "subject": "Lights of Remembrance, Sunday 6 December"
+    }
+   ]
+  }
+ ]
+}

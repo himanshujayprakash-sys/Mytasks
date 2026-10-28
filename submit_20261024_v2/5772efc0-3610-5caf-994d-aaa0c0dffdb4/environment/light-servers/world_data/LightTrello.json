@@ -1,0 +1,301 @@
+{
+ "boards": [
+  {
+   "id": "60b100000000000000917b01",
+   "name": "Summer Open Day 2027",
+   "desc": "Everything for the open day on Saturday 19 June.",
+   "closed": false,
+   "id_organization": "5e0a00000000000000917f01",
+   "url": "https://trello.com/b/tn17open/summer-open-day-2027",
+   "member_ids": [
+    "5f1a00000000000000917a01",
+    "5f1a00000000000000917a02",
+    "5f1a00000000000000917a03",
+    "5f1a00000000000000917a04"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "61c100000000000000917c01",
+   "id_board": "60b100000000000000917b01",
+   "name": "To Do",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "61c100000000000000917c02",
+   "id_board": "60b100000000000000917b01",
+   "name": "Doing",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "61c100000000000000917c03",
+   "id_board": "60b100000000000000917b01",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "members": [
+  {
+   "id": "5f1a00000000000000917a01",
+   "fullName": "Isla Brennan",
+   "username": "islabrennan",
+   "email": "isla.brennan@thornfield-nurseries.example"
+  },
+  {
+   "id": "5f1a00000000000000917a02",
+   "fullName": "Nadia Fenwick",
+   "username": "nadiafenwick",
+   "email": "nadia.fenwick@thornfield-nurseries.example"
+  },
+  {
+   "id": "5f1a00000000000000917a03",
+   "fullName": "Colm Rafferty",
+   "username": "colmrafferty",
+   "email": "colm.rafferty@thornfield-nurseries.example"
+  },
+  {
+   "id": "5f1a00000000000000917a04",
+   "fullName": "Bea Lindqvist",
+   "username": "bealindqvist",
+   "email": "bea.lindqvist@thornfield-nurseries.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "62d100000000000000917d01",
+   "name": "Band set list and timings",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c03",
+   "pos": 16384.0,
+   "due": "2027-05-14T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a01"
+   ],
+   "labels": [
+    "music"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d02",
+   "name": "Children's trail: twelve clue boards",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c02",
+   "pos": 32768.0,
+   "due": "2027-06-16T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a04"
+   ],
+   "labels": [
+    "family"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d03",
+   "name": "Cafe stall menu for the lawn",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c02",
+   "pos": 49152.0,
+   "due": "2027-06-15T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a02"
+   ],
+   "labels": [
+    "food"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d04",
+   "name": "Paddock parking signs",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c01",
+   "pos": 65536.0,
+   "due": "2027-06-17T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a03"
+   ],
+   "labels": [
+    "site"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d05",
+   "name": "Raffle prizes from local businesses",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c02",
+   "pos": 81920.0,
+   "due": "2027-06-14T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a01"
+   ],
+   "labels": [
+    "fundraising"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d06",
+   "name": "First aid point and volunteers",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c01",
+   "pos": 98304.0,
+   "due": "2027-06-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a04"
+   ],
+   "labels": [
+    "safety"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d07",
+   "name": "Facebook event and village posters",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c03",
+   "pos": 114688.0,
+   "due": "2027-05-31T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a01"
+   ],
+   "labels": [
+    "publicity"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d08",
+   "name": "Extra bins and recycling points",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c01",
+   "pos": 131072.0,
+   "due": "2027-06-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a03"
+   ],
+   "labels": [
+    "site"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d09",
+   "name": "Design advice desk with the studio",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c03",
+   "pos": 147456.0,
+   "due": "2027-06-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a01"
+   ],
+   "labels": [
+    "studio"
+   ]
+  },
+  {
+   "id": "62d100000000000000917d10",
+   "name": "Thank-you post for volunteers",
+   "desc": "Summer open day 2027 planning card.",
+   "id_board": "60b100000000000000917b01",
+   "id_list": "61c100000000000000917c01",
+   "pos": 163840.0,
+   "due": "2027-06-22T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000917a01"
+   ],
+   "labels": [
+    "publicity"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_tn17trail",
+   "id_card": "62d100000000000000917d02",
+   "id_board": "60b100000000000000917b01",
+   "name": "Trail boards",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_tn17t1",
+     "id_checklist": "cl_tn17trail",
+     "name": "Write the clues",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_tn17t2",
+     "id_checklist": "cl_tn17trail",
+     "name": "Laminate boards",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_tn17t3",
+     "id_checklist": "cl_tn17trail",
+     "name": "Stakes from the workshop",
+     "state": "incomplete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_tn17t4",
+     "id_checklist": "cl_tn17trail",
+     "name": "Prize stickers",
+     "state": "incomplete",
+     "pos": 4000
+    }
+   ]
+  },
+  {
+   "id": "cl_tn17raffle",
+   "id_card": "62d100000000000000917d05",
+   "id_board": "60b100000000000000917b01",
+   "name": "Prizes promised",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_tn17r1",
+     "id_checklist": "cl_tn17raffle",
+     "name": "Meal for two from the Riverside Hotel",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_tn17r2",
+     "id_checklist": "cl_tn17raffle",
+     "name": "Haircut voucher from the village salon",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_tn17r3",
+     "id_checklist": "cl_tn17raffle",
+     "name": "Hamper from the farm shop",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

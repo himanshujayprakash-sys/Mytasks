@@ -1,0 +1,222 @@
+{
+ "workspace": {
+  "gid": "1231700000000001",
+  "name": "Greyfriars Wharf Productions"
+ },
+ "users": [
+  {
+   "gid": "1231700000000300",
+   "name": "Marisol Echeverria",
+   "email": "marisol.echeverria@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  },
+  {
+   "gid": "1231700000000301",
+   "name": "Gethin Pryce",
+   "email": "gethin.pryce@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  },
+  {
+   "gid": "1231700000000302",
+   "name": "Lucinda Fairweather",
+   "email": "lucinda.fairweather@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  },
+  {
+   "gid": "1231700000000303",
+   "name": "Nell Ashdown",
+   "email": "nell.ashdown@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  },
+  {
+   "gid": "1231700000000304",
+   "name": "Delphine Marchetti",
+   "email": "delphine.marchetti@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  },
+  {
+   "gid": "1231700000000305",
+   "name": "Rafe Adeyinka",
+   "email": "rafe.adeyinka@greyfriarswharf.example",
+   "workspace_gid": "1231700000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1231700000000101",
+   "name": "Lamplighter S2 production office",
+   "notes": "Office, base and crew welfare jobs for series 2.",
+   "color": "dark-blue",
+   "archived": false,
+   "owner_gid": "1231700000000300",
+   "workspace_gid": "1231700000000001",
+   "created_at": "2026-09-14T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1231700000000201",
+   "name": "Next up",
+   "project_gid": "1231700000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  },
+  {
+   "gid": "1231700000000202",
+   "name": "In hand",
+   "project_gid": "1231700000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  },
+  {
+   "gid": "1231700000000203",
+   "name": "Finished",
+   "project_gid": "1231700000000101",
+   "created_at": "2026-09-14T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1231700000000400",
+   "name": "Book the wrap party venue",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000300",
+   "completed": true,
+   "due_on": "2026-11-06",
+   "notes": "Assembly Rooms booked for Saturday 12 December; deposit paid.",
+   "created_at": "2026-10-12T09:10:00.000Z",
+   "modified_at": "2026-11-05T14:10:00.000Z"
+  },
+  {
+   "gid": "1231700000000401",
+   "name": "Order series 2 crew jackets",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000300",
+   "completed": true,
+   "due_on": "2026-10-30",
+   "notes": "Navy softshells, embroidered logo; 112 delivered to base.",
+   "created_at": "2026-09-28T09:11:00.000Z",
+   "modified_at": "2026-10-29T14:11:00.000Z"
+  },
+  {
+   "gid": "1231700000000402",
+   "name": "Arrange DIT cart repair",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000202",
+   "assignee_gid": "1231700000000301",
+   "completed": false,
+   "due_on": "2026-11-27",
+   "notes": "Cart's UPS failed at the Assembly Rooms; replacement unit on order.",
+   "created_at": "2026-11-18T09:12:00.000Z",
+   "modified_at": "2026-11-19T14:12:00.000Z"
+  },
+  {
+   "gid": "1231700000000403",
+   "name": "Second unit drone licence renewal",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000201",
+   "assignee_gid": "1231700000000301",
+   "completed": false,
+   "due_on": "2026-12-04",
+   "notes": "Pilot's operator ID renews in December; paperwork with Barnaby.",
+   "created_at": "2026-11-10T09:13:00.000Z",
+   "modified_at": "2026-11-10T14:13:00.000Z"
+  },
+  {
+   "gid": "1231700000000404",
+   "name": "Petty cash audit for October",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000302",
+   "completed": true,
+   "due_on": "2026-11-13",
+   "notes": "All floats reconciled; two missing receipts chased and found.",
+   "created_at": "2026-11-02T09:14:00.000Z",
+   "modified_at": "2026-11-12T14:14:00.000Z"
+  },
+  {
+   "gid": "1231700000000405",
+   "name": "Set up the series 2 cost report template",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000302",
+   "completed": true,
+   "due_on": "2026-10-09",
+   "notes": "Template on the drive; weekly from week 41.",
+   "created_at": "2026-09-21T09:15:00.000Z",
+   "modified_at": "2026-10-08T14:15:00.000Z"
+  },
+  {
+   "gid": "1231700000000406",
+   "name": "Print week 49 call sheet covers",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000201",
+   "assignee_gid": "1231700000000303",
+   "completed": false,
+   "due_on": "2026-11-27",
+   "notes": "Colour covers for the block 6 read-through.",
+   "created_at": "2026-11-19T09:16:00.000Z",
+   "modified_at": "2026-11-19T14:16:00.000Z"
+  },
+  {
+   "gid": "1231700000000407",
+   "name": "Unit base toilet hire extension",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000304",
+   "completed": true,
+   "due_on": "2026-11-16",
+   "notes": "Honeywagons extended to 18 December.",
+   "created_at": "2026-11-09T09:17:00.000Z",
+   "modified_at": "2026-11-14T14:17:00.000Z"
+  },
+  {
+   "gid": "1231700000000408",
+   "name": "Christmas hamper for the leisure centre staff",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000201",
+   "assignee_gid": "1231700000000300",
+   "completed": false,
+   "due_on": "2026-12-11",
+   "notes": "Thank-you for the overflow car park; budget agreed.",
+   "created_at": "2026-11-17T09:18:00.000Z",
+   "modified_at": "2026-11-17T14:18:00.000Z"
+  },
+  {
+   "gid": "1231700000000409",
+   "name": "Replace walkie batteries",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000202",
+   "assignee_gid": "1231700000000304",
+   "completed": false,
+   "due_on": "2026-11-25",
+   "notes": "Forty batteries ordered; old ones to the WEEE bin at base.",
+   "created_at": "2026-11-16T09:19:00.000Z",
+   "modified_at": "2026-11-18T14:19:00.000Z"
+  },
+  {
+   "gid": "1231700000000410",
+   "name": "Arrange crew flu jabs",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000203",
+   "assignee_gid": "1231700000000300",
+   "completed": true,
+   "due_on": "2026-10-23",
+   "notes": "Pharmacy came to base on 21 October; 58 crew vaccinated.",
+   "created_at": "2026-10-05T09:20:00.000Z",
+   "modified_at": "2026-10-22T14:20:00.000Z"
+  },
+  {
+   "gid": "1231700000000411",
+   "name": "Block 6 script printing",
+   "project_gid": "1231700000000101",
+   "section_gid": "1231700000000202",
+   "assignee_gid": "1231700000000303",
+   "completed": false,
+   "due_on": "2026-11-30",
+   "notes": "Pink revisions due Monday; print 60 sets.",
+   "created_at": "2026-11-18T09:21:00.000Z",
+   "modified_at": "2026-11-20T14:21:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "users": [
+  {
+   "id": "52310077",
+   "name": "Graham Pilsworth",
+   "login": "graham.pilsworth@thornwickjuniors.example",
+   "role": "user",
+   "status": "active",
+   "language": "en",
+   "timezone": "Europe/London",
+   "space_amount": 10737418240,
+   "space_used": 911200,
+   "max_upload_size": 2147483648,
+   "job_title": "Chair",
+   "phone": "01632 961101",
+   "created_at": "2024-07-01T09:00:00+00:00"
+  }
+ ],
+ "folders": [
+  {
+   "id": "9921001",
+   "name": "Governance",
+   "parent_id": "0",
+   "owner_id": "52310077",
+   "description": "Constitution and minutes.",
+   "created_at": "2024-07-01T09:30:00+00:00",
+   "modified_at": "2026-07-20T16:20:00+00:00",
+   "item_count": 2
+  },
+  {
+   "id": "9921002",
+   "name": "Licences and insurance",
+   "parent_id": "0",
+   "owner_id": "52310077",
+   "description": "Insurance and pitch licence.",
+   "created_at": "2024-07-01T09:30:00+00:00",
+   "modified_at": "2026-08-10T16:20:00+00:00",
+   "item_count": 3
+  },
+  {
+   "id": "9921003",
+   "name": "Finance",
+   "parent_id": "0",
+   "owner_id": "52310077",
+   "description": "Accounts, bank and grants.",
+   "created_at": "2024-07-01T09:30:00+00:00",
+   "modified_at": "2026-10-18T16:20:00+00:00",
+   "item_count": 3
+  }
+ ],
+ "files": [
+  {
+   "id": "9922000",
+   "name": "Club_constitution_2024.pdf",
+   "parent_id": "9921001",
+   "owner_id": "52310077",
+   "description": "Constitution as amended at the 2024 AGM.",
+   "size": 210400,
+   "extension": "pdf",
+   "sha1": "71a751bffede379edd3857ccaaaa6a5e93208eec",
+   "created_at": "2024-07-15T09:00:00+00:00",
+   "modified_at": "2024-07-15T16:20:00+00:00"
+  },
+  {
+   "id": "9922001",
+   "name": "AGM_minutes_July_2026.pdf",
+   "parent_id": "9921001",
+   "owner_id": "52310077",
+   "description": "Minutes of the club AGM, 9 July 2026.",
+   "size": 98800,
+   "extension": "pdf",
+   "sha1": "6a946afba749c4a722be8592de0c271ca70936ab",
+   "created_at": "2026-07-20T09:00:00+00:00",
+   "modified_at": "2026-07-20T16:20:00+00:00"
+  },
+  {
+   "id": "9922002",
+   "name": "Public_liability_insurance_2026-27.pdf",
+   "parent_id": "9921002",
+   "owner_id": "52310077",
+   "description": "Club insurance through the county FA scheme.",
+   "size": 154300,
+   "extension": "pdf",
+   "sha1": "3f1d2ec59211c00436522bfdc5d7f5a9a5696262",
+   "created_at": "2026-08-01T09:00:00+00:00",
+   "modified_at": "2026-08-01T16:20:00+00:00"
+  },
+  {
+   "id": "9922003",
+   "name": "Pitch_licence_Thornwick_Leisure.pdf",
+   "parent_id": "9921002",
+   "owner_id": "52310077",
+   "description": "3G and grass pitch licence to May 2027.",
+   "size": 132000,
+   "extension": "pdf",
+   "sha1": "e0111bacd4603171ae6afcf1ddbdd149f194da85",
+   "created_at": "2026-08-10T09:00:00+00:00",
+   "modified_at": "2026-08-10T16:20:00+00:00"
+  },
+  {
+   "id": "9922004",
+   "name": "Accreditation_certificate_2026.pdf",
+   "parent_id": "9921002",
+   "owner_id": "52310077",
+   "description": "Grassroots accreditation certificate.",
+   "size": 45200,
+   "extension": "pdf",
+   "sha1": "5172d61f57e32bfbf8b1c4e203964d1f42d91c7a",
+   "created_at": "2026-03-14T09:00:00+00:00",
+   "modified_at": "2026-03-14T16:20:00+00:00"
+  },
+  {
+   "id": "9922005",
+   "name": "Bank_mandate_2026.pdf",
+   "parent_id": "9921003",
+   "owner_id": "52310077",
+   "description": "Signatories: chair and treasurer.",
+   "size": 61500,
+   "extension": "pdf",
+   "sha1": "3a7b32971b737084599737c411c1d5e403c9fb46",
+   "created_at": "2026-07-25T09:00:00+00:00",
+   "modified_at": "2026-07-25T16:20:00+00:00"
+  },
+  {
+   "id": "9922006",
+   "name": "Accounts_year_to_June_2026.pdf",
+   "parent_id": "9921003",
+   "owner_id": "52310077",
+   "description": "Independently examined accounts.",
+   "size": 120700,
+   "extension": "pdf",
+   "sha1": "82c86497398e3806b8bc751d65a29022bab31302",
+   "created_at": "2026-08-30T09:00:00+00:00",
+   "modified_at": "2026-08-30T16:20:00+00:00"
+  },
+  {
+   "id": "9922007",
+   "name": "Grant_application_kit_fund.pdf",
+   "parent_id": "9921003",
+   "owner_id": "52310077",
+   "description": "Application to the community kit fund, October.",
+   "size": 88300,
+   "extension": "pdf",
+   "sha1": "5c891d77a27cfbfcff7bbd53cc7a36a46c12db49",
+   "created_at": "2026-10-18T09:00:00+00:00",
+   "modified_at": "2026-10-18T16:20:00+00:00"
+  }
+ ]
+}

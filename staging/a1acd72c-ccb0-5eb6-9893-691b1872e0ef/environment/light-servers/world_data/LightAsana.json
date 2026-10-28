@@ -1,0 +1,192 @@
+{
+ "workspace": {
+  "gid": "1229290000000001",
+  "name": "Thornbeck Homes"
+ },
+ "users": [
+  {
+   "gid": "1229290000000300",
+   "name": "Ruth Akinola",
+   "email": "ruth.akinola@thornbeck-homes.example",
+   "workspace_gid": "1229290000000001"
+  },
+  {
+   "gid": "1229290000000301",
+   "name": "Patrick Doyle",
+   "email": "patrick.doyle@thornbeck-homes.example",
+   "workspace_gid": "1229290000000001"
+  },
+  {
+   "gid": "1229290000000302",
+   "name": "Danielle Firth",
+   "email": "danielle.firth@thornbeck-homes.example",
+   "workspace_gid": "1229290000000001"
+  },
+  {
+   "gid": "1229290000000303",
+   "name": "Saira Bashir",
+   "email": "saira.bashir@thornbeck-homes.example",
+   "workspace_gid": "1229290000000001"
+  },
+  {
+   "gid": "1229290000000304",
+   "name": "Helen Mortimer",
+   "email": "helen.mortimer@thornbeck-homes.example",
+   "workspace_gid": "1229290000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1229290000000101",
+   "name": "Damp and mould action plan 2026-27",
+   "notes": "Actions agreed after the 2026 damp and mould self-assessment.",
+   "color": "dark-blue",
+   "archived": false,
+   "owner_gid": "1229290000000300",
+   "workspace_gid": "1229290000000001",
+   "created_at": "2026-08-03T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1229290000000201",
+   "name": "Next up",
+   "project_gid": "1229290000000101",
+   "created_at": "2026-08-03T09:05:00.000Z"
+  },
+  {
+   "gid": "1229290000000202",
+   "name": "In hand",
+   "project_gid": "1229290000000101",
+   "created_at": "2026-08-03T09:05:00.000Z"
+  },
+  {
+   "gid": "1229290000000203",
+   "name": "Finished",
+   "project_gid": "1229290000000101",
+   "created_at": "2026-08-03T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1229290000000400",
+   "name": "Write the condensation advice leaflet",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000203",
+   "assignee_gid": "1229290000000300",
+   "completed": true,
+   "due_on": "2026-10-16",
+   "notes": "Leaflet signed off and sent to print; copies to the contact centre.",
+   "created_at": "2026-09-07T09:10:00.000Z",
+   "modified_at": "2026-10-15T15:20:00.000Z"
+  },
+  {
+   "gid": "1229290000000401",
+   "name": "Survey every home with two or more mould reports in the last year",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000202",
+   "assignee_gid": "1229290000000300",
+   "completed": false,
+   "due_on": "2026-12-18",
+   "notes": "38 homes on the list; 24 surveyed so far.",
+   "created_at": "2026-08-03T09:11:00.000Z",
+   "modified_at": "2026-10-29T15:21:00.000Z"
+  },
+  {
+   "gid": "1229290000000402",
+   "name": "Buy 50 dehumidifiers for loan",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000203",
+   "assignee_gid": "1229290000000301",
+   "completed": true,
+   "due_on": "2026-10-02",
+   "notes": "Delivered to Mill Lane stores on 30 September.",
+   "created_at": "2026-08-20T09:12:00.000Z",
+   "modified_at": "2026-09-30T15:22:00.000Z"
+  },
+  {
+   "gid": "1229290000000403",
+   "name": "Train contact centre on mould triage questions",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000203",
+   "assignee_gid": "1229290000000303",
+   "completed": true,
+   "due_on": "2026-09-25",
+   "notes": "Two sessions run; script added to the knowledge base.",
+   "created_at": "2026-08-25T09:13:00.000Z",
+   "modified_at": "2026-09-25T15:23:00.000Z"
+  },
+  {
+   "gid": "1229290000000404",
+   "name": "Agree trickle vent retrofit programme for Larch House",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000201",
+   "assignee_gid": "1229290000000301",
+   "completed": false,
+   "due_on": "2027-01-29",
+   "notes": "Needs a quote and a section 20 consultation for the leaseholders.",
+   "created_at": "2026-09-14T09:14:00.000Z",
+   "modified_at": "2026-10-07T15:24:00.000Z"
+  },
+  {
+   "gid": "1229290000000405",
+   "name": "Check all bathroom extractor fans at Rowan Court",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000202",
+   "assignee_gid": "1229290000000301",
+   "completed": false,
+   "due_on": "2026-11-27",
+   "notes": "Castleton testing team to check fans while on site.",
+   "created_at": "2026-09-21T09:15:00.000Z",
+   "modified_at": "2026-10-22T15:25:00.000Z"
+  },
+  {
+   "gid": "1229290000000406",
+   "name": "Report damp and mould figures to the board",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000201",
+   "assignee_gid": "1229290000000304",
+   "completed": false,
+   "due_on": "2026-11-12",
+   "notes": "Numbers for the November board pack.",
+   "created_at": "2026-10-20T09:16:00.000Z",
+   "modified_at": "2026-10-20T15:26:00.000Z"
+  },
+  {
+   "gid": "1229290000000407",
+   "name": "Visit vulnerable tenants with open mould cases",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000202",
+   "assignee_gid": "1229290000000302",
+   "completed": false,
+   "due_on": "2026-11-20",
+   "notes": "Nine households; four visited.",
+   "created_at": "2026-10-01T09:17:00.000Z",
+   "modified_at": "2026-10-28T15:27:00.000Z"
+  },
+  {
+   "gid": "1229290000000408",
+   "name": "Review the damp and mould policy",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000201",
+   "assignee_gid": "1229290000000304",
+   "completed": false,
+   "due_on": "2027-02-26",
+   "notes": "Annual review; take account of the ombudsman's spotlight report.",
+   "created_at": "2026-10-26T09:18:00.000Z",
+   "modified_at": "2026-10-26T15:28:00.000Z"
+  },
+  {
+   "gid": "1229290000000409",
+   "name": "Thermal imaging camera for surveyors",
+   "project_gid": "1229290000000101",
+   "section_gid": "1229290000000203",
+   "assignee_gid": "1229290000000300",
+   "completed": true,
+   "due_on": "2026-09-11",
+   "notes": "Camera bought; training done on 10 September.",
+   "created_at": "2026-08-12T09:19:00.000Z",
+   "modified_at": "2026-09-10T15:29:00.000Z"
+  }
+ ]
+}

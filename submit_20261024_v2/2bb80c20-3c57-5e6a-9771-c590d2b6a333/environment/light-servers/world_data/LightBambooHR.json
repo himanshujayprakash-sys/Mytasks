@@ -1,0 +1,745 @@
+{
+ "employees": [
+  {
+   "id": "emp-bm-01",
+   "firstName": "Tamsin",
+   "lastName": "Rook",
+   "jobTitle": "Registrar",
+   "department": "Collections",
+   "workEmail": "tamsin.rook@brennock-museums.example",
+   "hireDate": "2010-01-01",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-10"
+  },
+  {
+   "id": "emp-bm-02",
+   "firstName": "Kit",
+   "lastName": "Laverick",
+   "jobTitle": "Assistant Registrar",
+   "department": "Collections",
+   "workEmail": "kit.laverick@brennock-museums.example",
+   "hireDate": "2011-02-02",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-10"
+  },
+  {
+   "id": "emp-bm-03",
+   "firstName": "Olwen",
+   "lastName": "Pryce",
+   "jobTitle": "Exhibitions Officer",
+   "department": "Exhibitions",
+   "workEmail": "olwen.pryce@brennock-museums.example",
+   "hireDate": "2012-03-03",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-04",
+   "firstName": "Isaac",
+   "lastName": "Venn",
+   "jobTitle": "Paintings Conservator",
+   "department": "Conservation",
+   "workEmail": "isaac.venn@brennock-museums.example",
+   "hireDate": "2013-04-04",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-05",
+   "firstName": "Hollis",
+   "lastName": "Brandt",
+   "jobTitle": "Senior Conservator",
+   "department": "Conservation",
+   "workEmail": "hollis.brandt@brennock-museums.example",
+   "hireDate": "2014-05-05",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-06",
+   "firstName": "Maud",
+   "lastName": "Ellery",
+   "jobTitle": "Collections Manager",
+   "department": "Collections",
+   "workEmail": "maud.ellery@brennock-museums.example",
+   "hireDate": "2015-06-06",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-10"
+  },
+  {
+   "id": "emp-bm-07",
+   "firstName": "Saoirse",
+   "lastName": "Dunmore",
+   "jobTitle": "Curator of Fine Art",
+   "department": "Curatorial",
+   "workEmail": "saoirse.dunmore@brennock-museums.example",
+   "hireDate": "2016-07-07",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-08",
+   "firstName": "Ned",
+   "lastName": "Aske",
+   "jobTitle": "Lead Technician",
+   "department": "Collections",
+   "workEmail": "ned.aske@brennock-museums.example",
+   "hireDate": "2017-08-08",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-10"
+  },
+  {
+   "id": "emp-bm-09",
+   "firstName": "Priya",
+   "lastName": "Calloway",
+   "jobTitle": "Paper and Frames Conservator",
+   "department": "Conservation",
+   "workEmail": "priya.calloway@brennock-museums.example",
+   "hireDate": "2018-09-01",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-10",
+   "firstName": "Gil",
+   "lastName": "Harker",
+   "jobTitle": "Head of Collections",
+   "department": "Collections",
+   "workEmail": "gil.harker@brennock-museums.example",
+   "hireDate": "2019-10-02",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-11",
+   "firstName": "Celia",
+   "lastName": "Woodhouse",
+   "jobTitle": "Director",
+   "department": "Directorate",
+   "workEmail": "celia.woodhouse@brennock-museums.example",
+   "hireDate": "2020-11-03",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": null
+  },
+  {
+   "id": "emp-bm-12",
+   "firstName": "Bryony",
+   "lastName": "Stell",
+   "jobTitle": "Finance Officer",
+   "department": "Finance",
+   "workEmail": "bryony.stell@brennock-museums.example",
+   "hireDate": "2021-12-04",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-13",
+   "firstName": "Rafe",
+   "lastName": "Oduya",
+   "jobTitle": "Learning Officer",
+   "department": "Learning",
+   "workEmail": "rafe.oduya@brennock-museums.example",
+   "hireDate": "2022-01-05",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-14",
+   "firstName": "Lark",
+   "lastName": "Simmonds",
+   "jobTitle": "Marketing and Press Officer",
+   "department": "Marketing",
+   "workEmail": "lark.simmonds@brennock-museums.example",
+   "hireDate": "2023-02-06",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-15",
+   "firstName": "Dev",
+   "lastName": "Malhotra",
+   "jobTitle": "IT and Systems Officer",
+   "department": "Operations",
+   "workEmail": "dev.malhotra@brennock-museums.example",
+   "hireDate": "2010-03-07",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-16",
+   "firstName": "Ines",
+   "lastName": "Carvalho",
+   "jobTitle": "Visitor Services Manager",
+   "department": "Visitor Services",
+   "workEmail": "ines.carvalho@brennock-museums.example",
+   "hireDate": "2011-04-08",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-17",
+   "firstName": "Joss",
+   "lastName": "Penrith",
+   "jobTitle": "Buildings and Facilities Manager",
+   "department": "Operations",
+   "workEmail": "joss.penrith@brennock-museums.example",
+   "hireDate": "2012-05-01",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-18",
+   "firstName": "Mirren",
+   "lastName": "Achebe",
+   "jobTitle": "Development Officer",
+   "department": "Development",
+   "workEmail": "mirren.achebe@brennock-museums.example",
+   "hireDate": "2013-06-02",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-19",
+   "firstName": "Wyn",
+   "lastName": "Halloran",
+   "jobTitle": "Technician",
+   "department": "Collections",
+   "workEmail": "wyn.halloran@brennock-museums.example",
+   "hireDate": "2014-07-03",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-10"
+  },
+  {
+   "id": "emp-bm-20",
+   "firstName": "Fenella",
+   "lastName": "Brook",
+   "jobTitle": "Volunteer Coordinator",
+   "department": "Visitor Services",
+   "workEmail": "fenella.brook@brennock-museums.example",
+   "hireDate": "2015-08-04",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-21",
+   "firstName": "Tobias",
+   "lastName": "Grieve",
+   "jobTitle": "Retail Manager",
+   "department": "Commercial",
+   "workEmail": "tobias.grieve@brennock-museums.example",
+   "hireDate": "2016-09-05",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  },
+  {
+   "id": "emp-bm-22",
+   "firstName": "Annika",
+   "lastName": "Sorensen",
+   "jobTitle": "Digital Content Producer",
+   "department": "Marketing",
+   "workEmail": "annika.sorensen@brennock-museums.example",
+   "hireDate": "2017-10-06",
+   "status": "active",
+   "location": "Brennock",
+   "supervisorId": "emp-bm-11"
+  }
+ ],
+ "time_off": [
+  {
+   "id": "tor-bm-001",
+   "employeeId": "emp-bm-02",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-15",
+   "end": "2027-02-19",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Half-term week with the children",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-002",
+   "employeeId": "emp-bm-06",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-19",
+   "end": "2027-02-22",
+   "amount": 4,
+   "unit": "days",
+   "notes": "Long weekend in Northumberland",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-003",
+   "employeeId": "emp-bm-08",
+   "type": "Vacation",
+   "status": "requested",
+   "start": "2027-02-22",
+   "end": "2027-02-26",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Brother's wedding in Cork, if cover allows",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-004",
+   "employeeId": "emp-bm-05",
+   "type": "Vacation",
+   "status": "denied",
+   "start": "2027-02-08",
+   "end": "2027-02-09",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Conference in Glasgow - declined, clashes with the first collection",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-005",
+   "employeeId": "emp-bm-07",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-01-11",
+   "end": "2027-01-15",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Skiing",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-006",
+   "employeeId": "emp-bm-09",
+   "type": "Training",
+   "status": "approved",
+   "start": "2027-03-01",
+   "end": "2027-03-03",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Frame conservation course, Edinburgh",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-007",
+   "employeeId": "emp-bm-01",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-23",
+   "end": "2027-01-02",
+   "amount": 11,
+   "unit": "days",
+   "notes": "Christmas",
+   "created": "2026-11-13"
+  },
+  {
+   "id": "tor-bm-008",
+   "employeeId": "emp-bm-03",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-21",
+   "end": "2026-12-31",
+   "amount": 11,
+   "unit": "days",
+   "notes": "Christmas",
+   "created": "2026-11-11"
+  },
+  {
+   "id": "tor-bm-009",
+   "employeeId": "emp-bm-10",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-01",
+   "end": "2027-02-05",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Half-term away",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-010",
+   "employeeId": "emp-bm-04",
+   "type": "Training",
+   "status": "approved",
+   "start": "2026-12-14",
+   "end": "2026-12-16",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Varnish removal workshop",
+   "created": "2026-11-04"
+  },
+  {
+   "id": "tor-bm-011",
+   "employeeId": "emp-bm-12",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-28",
+   "end": "2026-12-31",
+   "amount": 4,
+   "unit": "days",
+   "notes": "Year end break",
+   "created": "2026-11-18"
+  },
+  {
+   "id": "tor-bm-012",
+   "employeeId": "emp-bm-13",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-15",
+   "end": "2027-02-19",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Half-term",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-013",
+   "employeeId": "emp-bm-14",
+   "type": "Sick",
+   "status": "approved",
+   "start": "2026-11-02",
+   "end": "2026-11-04",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Flu",
+   "created": "2026-09-23"
+  },
+  {
+   "id": "tor-bm-014",
+   "employeeId": "emp-bm-19",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-10",
+   "end": "2027-02-12",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Moving house",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-015",
+   "employeeId": "emp-bm-17",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-10-19",
+   "end": "2026-10-23",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Autumn break",
+   "created": "2026-09-09"
+  },
+  {
+   "id": "tor-bm-016",
+   "employeeId": "emp-bm-16",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-24",
+   "end": "2026-12-27",
+   "amount": 4,
+   "unit": "days",
+   "notes": "Christmas in Porto",
+   "created": "2026-11-14"
+  },
+  {
+   "id": "tor-bm-017",
+   "employeeId": "emp-bm-15",
+   "type": "Vacation",
+   "status": "requested",
+   "start": "2027-01-18",
+   "end": "2027-01-19",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Long weekend",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-018",
+   "employeeId": "emp-bm-22",
+   "type": "Sick",
+   "status": "approved",
+   "start": "2026-11-16",
+   "end": "2026-11-17",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Migraine",
+   "created": "2026-10-07"
+  },
+  {
+   "id": "tor-bm-019",
+   "employeeId": "emp-bm-18",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-22",
+   "end": "2027-02-23",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Family visit",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-020",
+   "employeeId": "emp-bm-20",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Volunteer thank-you trip",
+   "created": "2026-10-28"
+  },
+  {
+   "id": "tor-bm-021",
+   "employeeId": "emp-bm-21",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-01-04",
+   "end": "2027-01-08",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Post-Christmas break",
+   "created": "2026-11-25"
+  },
+  {
+   "id": "tor-bm-022",
+   "employeeId": "emp-bm-11",
+   "type": "Training",
+   "status": "approved",
+   "start": "2027-02-15",
+   "end": "2027-02-17",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Directors' conference, London",
+   "created": "2026-11-26"
+  },
+  {
+   "id": "tor-bm-023",
+   "employeeId": "emp-bm-08",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-10-26",
+   "end": "2026-10-30",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Half-term",
+   "created": "2026-09-16"
+  },
+  {
+   "id": "tor-bm-024",
+   "employeeId": "emp-bm-05",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-21",
+   "end": "2026-12-24",
+   "amount": 4,
+   "unit": "days",
+   "notes": "Christmas",
+   "created": "2026-11-11"
+  },
+  {
+   "id": "tor-bm-025",
+   "employeeId": "emp-bm-02",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-29",
+   "end": "2026-12-31",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Year end",
+   "created": "2026-11-19"
+  },
+  {
+   "id": "tor-bm-026",
+   "employeeId": "emp-bm-06",
+   "type": "Sick",
+   "status": "approved",
+   "start": "2026-10-12",
+   "end": "2026-10-13",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Back strain",
+   "created": "2026-09-02"
+  }
+ ],
+ "whos_out": [
+  {
+   "id": "wo-bm-001",
+   "employeeId": "emp-bm-02",
+   "start": "2027-02-15",
+   "end": "2027-02-19",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-002",
+   "employeeId": "emp-bm-06",
+   "start": "2027-02-19",
+   "end": "2027-02-22",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-005",
+   "employeeId": "emp-bm-07",
+   "start": "2027-01-11",
+   "end": "2027-01-15",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-006",
+   "employeeId": "emp-bm-09",
+   "start": "2027-03-01",
+   "end": "2027-03-03",
+   "type": "Training"
+  },
+  {
+   "id": "wo-bm-007",
+   "employeeId": "emp-bm-01",
+   "start": "2026-12-23",
+   "end": "2027-01-02",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-008",
+   "employeeId": "emp-bm-03",
+   "start": "2026-12-21",
+   "end": "2026-12-31",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-009",
+   "employeeId": "emp-bm-10",
+   "start": "2027-02-01",
+   "end": "2027-02-05",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-010",
+   "employeeId": "emp-bm-04",
+   "start": "2026-12-14",
+   "end": "2026-12-16",
+   "type": "Training"
+  },
+  {
+   "id": "wo-bm-011",
+   "employeeId": "emp-bm-12",
+   "start": "2026-12-28",
+   "end": "2026-12-31",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-012",
+   "employeeId": "emp-bm-13",
+   "start": "2027-02-15",
+   "end": "2027-02-19",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-013",
+   "employeeId": "emp-bm-14",
+   "start": "2026-11-02",
+   "end": "2026-11-04",
+   "type": "Sick"
+  },
+  {
+   "id": "wo-bm-014",
+   "employeeId": "emp-bm-19",
+   "start": "2027-02-10",
+   "end": "2027-02-12",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-015",
+   "employeeId": "emp-bm-17",
+   "start": "2026-10-19",
+   "end": "2026-10-23",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-016",
+   "employeeId": "emp-bm-16",
+   "start": "2026-12-24",
+   "end": "2026-12-27",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-018",
+   "employeeId": "emp-bm-22",
+   "start": "2026-11-16",
+   "end": "2026-11-17",
+   "type": "Sick"
+  },
+  {
+   "id": "wo-bm-019",
+   "employeeId": "emp-bm-18",
+   "start": "2027-02-22",
+   "end": "2027-02-23",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-020",
+   "employeeId": "emp-bm-20",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-021",
+   "employeeId": "emp-bm-21",
+   "start": "2027-01-04",
+   "end": "2027-01-08",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-022",
+   "employeeId": "emp-bm-11",
+   "start": "2027-02-15",
+   "end": "2027-02-17",
+   "type": "Training"
+  },
+  {
+   "id": "wo-bm-023",
+   "employeeId": "emp-bm-08",
+   "start": "2026-10-26",
+   "end": "2026-10-30",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-024",
+   "employeeId": "emp-bm-05",
+   "start": "2026-12-21",
+   "end": "2026-12-24",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-025",
+   "employeeId": "emp-bm-02",
+   "start": "2026-12-29",
+   "end": "2026-12-31",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-bm-026",
+   "employeeId": "emp-bm-06",
+   "start": "2026-10-12",
+   "end": "2026-10-13",
+   "type": "Sick"
+  }
+ ]
+}

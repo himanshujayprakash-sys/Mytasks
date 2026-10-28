@@ -1,0 +1,190 @@
+{
+ "teams": [
+  {
+   "id": "19:team-bmg-staff01@thread.tacv2",
+   "displayName": "Brennock Museum staff",
+   "description": "Everyone working at Brennock Museum and Art Gallery",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.microsoft.com/l/team/19%3ateam-bmg-staff01%40thread.tacv2",
+   "member_ids": [
+    "user-bmg-01",
+    "user-bmg-02",
+    "user-bmg-03",
+    "user-bmg-04",
+    "user-bmg-05",
+    "user-bmg-06",
+    "user-bmg-07",
+    "user-bmg-08",
+    "user-bmg-09",
+    "user-bmg-10",
+    "user-bmg-11",
+    "user-bmg-12",
+    "user-bmg-13",
+    "user-bmg-14",
+    "user-bmg-15",
+    "user-bmg-16",
+    "user-bmg-17",
+    "user-bmg-18",
+    "user-bmg-19",
+    "user-bmg-20",
+    "user-bmg-21",
+    "user-bmg-22"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "displayName": "General",
+   "description": "Notices for all staff",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-bmg-gen01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  },
+  {
+   "id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "displayName": "Front of house",
+   "description": "Front desk, galleries, shop and cafe",
+   "membershipType": "standard",
+   "webUrl": "https://teams.microsoft.com/l/channel/19%3achan-bmg-foh01%40thread.tacv2",
+   "createdDateTime": "2026-09-01T10:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1795800000001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-11",
+   "from_display_name": "Celia Woodhouse",
+   "content": "Thank you all for Salt and Iron's best October since the museum reopened: 9,214 visits.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-16T09:05:00Z"
+  },
+  {
+   "id": "1795800005001",
+   "channel_id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-16",
+   "from_display_name": "Ines Carvalho",
+   "content": "Twenty new folding stools are in the Gallery 4 store. Please offer them to anyone who looks tired.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-18T08:50:00Z"
+  },
+  {
+   "id": "1795800010001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-20",
+   "from_display_name": "Fenella Brook",
+   "content": "Staff Christmas lunch is Friday 18 December. Menu choices to me by 4 December please.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-19T12:30:00Z"
+  },
+  {
+   "id": "1795800015001",
+   "channel_id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-16",
+   "from_display_name": "Ines Carvalho",
+   "content": "The till freeze with gift memberships is with Dev. Take those payments on the shop till for now.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-20T16:40:00Z"
+  },
+  {
+   "id": "1795800020001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-17",
+   "from_display_name": "Joss Penrith",
+   "content": "The passenger lift is out of action on Tuesday 1 December from 08:00 to 10:00 for its service.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-23T10:15:00Z"
+  },
+  {
+   "id": "1795800025001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-14",
+   "from_display_name": "Lark Simmonds",
+   "content": "Spring leaflet second proof is on my desk if anyone wants to check their event listing.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-24T14:00:00Z"
+  },
+  {
+   "id": "1795800030001",
+   "channel_id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-19",
+   "from_display_name": "Wyn Halloran",
+   "content": "Gallery 4 film screen fixed; it should stay on all afternoon now.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-25T11:05:00Z"
+  },
+  {
+   "id": "1795800035001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-13",
+   "from_display_name": "Rafe Oduya",
+   "content": "Wreath workshop sold out. Waiting list is at the front desk.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-26T15:20:00Z"
+  },
+  {
+   "id": "1795800040001",
+   "channel_id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-16",
+   "from_display_name": "Ines Carvalho",
+   "content": "Lantern night briefing for all front of house staff: Tuesday 8 December, 16:30, in the cafe.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-27T09:00:00Z"
+  },
+  {
+   "id": "1795800045001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-15",
+   "from_display_name": "Dev Malhotra",
+   "content": "Staff Wi-Fi goes off for ten minutes at 12:30 on Wednesday for an update.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-27T13:40:00Z"
+  },
+  {
+   "id": "1795800050001",
+   "channel_id": "19:chan-bmg-gen01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-21",
+   "from_display_name": "Tobias Grieve",
+   "content": "The shipyard tea towels are nearly sold out again; the reorder arrives next week.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-28T10:10:00Z"
+  },
+  {
+   "id": "1795800055001",
+   "channel_id": "19:chan-bmg-foh01@thread.tacv2",
+   "team_id": "19:team-bmg-staff01@thread.tacv2",
+   "from_user_id": "user-bmg-16",
+   "from_display_name": "Ines Carvalho",
+   "content": "Reminder: school group from St Aidan's in Gallery 2 on Wednesday from 09:45.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-30T08:55:00Z"
+  }
+ ]
+}

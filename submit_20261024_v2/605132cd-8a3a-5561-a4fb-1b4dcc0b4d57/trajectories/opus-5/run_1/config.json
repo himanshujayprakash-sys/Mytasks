@@ -1,0 +1,27 @@
+{
+    "task": {
+        "path": "tasks_hard10/605132cd-8a3a-5561-a4fb-1b4dcc0b4d57"
+    },
+    "trial_name": "605132cd-8a3a-5561-a4fb-1b4dcc0b__yQFR8WJ",
+    "trials_dir": "output_oh_hard10_recipe2/605132cd-8a3a-5561-a4fb-1b4dcc0b4d57",
+    "agent_setup_timeout_multiplier": 6.0,
+    "environment_build_timeout_multiplier": 3.0,
+    "agent": {
+        "name": "tools.openhands_agent.agent:OpenHandsAgent",
+        "model_name": "claude-opus-5",
+        "extra_allowed_hosts": [
+            "host.docker.internal"
+        ],
+        "kwargs": {
+            "reasoning_effort": "high"
+        }
+    },
+    "environment": {
+        "type": "docker",
+        "extra_docker_compose": [
+            "tools/openhands_agent/overlay.yaml",
+            "tools/openhands_agent/overlay-host-gateway.yaml"
+        ]
+    },
+    "job_id": "947d5bc1-81d2-4390-9d3a-07430c8f13d4"
+}

@@ -1,0 +1,815 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "c386704e-fd46-55de-b68a-209fb21532bb",
+  "trial": "WcG7jun",
+  "started_at": "2026-10-25T08:10:53.907013Z",
+  "finished_at": "2026-10-25T08:51:37.406432Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.3881,
+    "passed": 20,
+    "failed": 19,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_families_read_after_the_award",
+      "test_invoices_all_right",
+      "test_sibling_discount",
+      "test_hardship_families_not_invoiced",
+      "test_reminders_all_right",
+      "test_page_headline_all_right",
+      "test_page_status_chart_per_team",
+      "test_page_table_sorts_and_filters",
+      "test_page_self_contained",
+      "test_fees_sheet_all_rows_right",
+      "test_dossier_all_right",
+      "test_files_read_back",
+      "test_final_states_invoice_total",
+      "test_final_states_invoice_count",
+      "test_final_states_reminder_counts"
+    ],
+    "guards_tripped": [
+      "test_guard_family_reminded_twice",
+      "test_guard_family_invoiced_twice"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_handbook_and_policy_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_renewal_forms_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_portal_read_after_the_first_save",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_families_read_after_the_award",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the families table was not read again before the invoices were raised",
+        "error": null
+      },
+      {
+        "name": "test_safeguarding_results_all_right",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_suspension_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_leave_of_absence_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_squad_statuses_all_right",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_whatsapp_withdrawal_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_duplicate_check_refusal_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tie_held_in_full",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_u16_limit_from_the_agm",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_u12_players_held_for_the_team",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_invoices_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "invoices wrong or missing for ['FAM-001', 'FAM-002', 'FAM-003', 'FAM-005', 'FAM-007', 'FAM-009']; invoices for families that owe nothing: ['FAM-006', 'FAM-008']",
+        "error": null
+      },
+      {
+        "name": "test_sibling_discount",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "sibling discount not applied for families ['FAM-003', 'FAM-005']",
+        "error": null
+      },
+      {
+        "name": "test_hardship_families_not_invoiced",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "families on the hardship fund invoiced: ['FAM-006']",
+        "error": null
+      },
+      {
+        "name": "test_reminders_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "texts: 0 missing or worded wrong, 25 extra; emails: [] missing, 10 sent for 5",
+        "error": null
+      },
+      {
+        "name": "test_opted_out_family_emailed",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_headline_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "no page was delivered",
+        "error": null
+      },
+      {
+        "name": "test_page_status_chart_per_team",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page has no chart of the statuses by team carrying the registered counts",
+        "error": null
+      },
+      {
+        "name": "test_page_table_sorts_and_filters",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "table rows 0/58, sortable and filterable False",
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "no page was delivered",
+        "error": null
+      },
+      {
+        "name": "test_fees_sheet_all_rows_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "fees sheet rows wrong or missing for ['Alfie Mellor', 'Archie Beckett', 'Daniel Pickles', 'Archie Pickles', 'Daniel Castle', 'Dexter Schofield']; rows for players not registered: 0",
+        "error": null
+      },
+      {
+        "name": "test_dossier_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "no safeguarding dossier was delivered",
+        "error": null
+      },
+      {
+        "name": "test_files_read_back",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page, the dossier or the fees sheet was not read back after it was written",
+        "error": null
+      },
+      {
+        "name": "test_final_states_invoice_total",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not state the invoiced total 3563.00",
+        "error": null
+      },
+      {
+        "name": "test_final_states_registered_per_team",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_names_the_tie",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_states_invoice_count",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give 27 invoices",
+        "error": null
+      },
+      {
+        "name": "test_final_states_reminder_counts",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give 22 texts and 5 emails",
+        "error": null
+      },
+      {
+        "name": "test_final_explains_u12",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_claim_coverage_passes_075",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_restraint_with_the_rows_worked",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_texted_a_family_that_opted_out",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no opted-out family was texted",
+        "error": null
+      },
+      {
+        "name": "test_guard_registration_records_damaged",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no record outside the job was written",
+        "error": null
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing was written outside the job",
+        "error": null
+      },
+      {
+        "name": "test_guard_family_reminded_twice",
+        "weight": -1,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_family_invoiced_twice",
+        "weight": -1,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_total_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "the note did not state a misread total",
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-note-gives-33-players",
+      "criterion": "[final answer] The note gives 33 players registered: 0 in the U12s, 15 in the U14s and 18 in the U16s.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "Final message §1 explicitly gives U12 “0,” U14 “15,” U16 “18,” and total “33.”",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-note-names-isla-brightwell",
+      "criterion": "[final answer] The note names Isla Brightwell and Esme Brightwell as both Held - tie at squad limit in the U14s.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "Final message §4 explicitly names “Esme Brightwell and Isla Brightwell — Held - tie at squad limit” in the U14 section.",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-note-says-kieran-lowther",
+      "criterion": "[final answer] The note says Kieran Lowther (SR-26-031) is Refused - registered elsewhere because the league portal's dual registrations table shows him registered with Brindlecombe Colts.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message says Kieran Lowther is “Refused - registered elsewhere” because Brindlecombe Colts registered him, but neither it nor the delivered committee note identifies him as “SR-26-031”; that identifier appears only in supporting workspace data.",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-note-gives-27-invoices",
+      "criterion": "[final answer] The note gives 27 invoices totalling 3,563.00 pounds.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Final message §5 instead explicitly states “28 invoices, £3,848.00,” not 27 invoices totalling £3,563.00.",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-note-says-hadley-family",
+      "criterion": "[final answer] The note says the Hadley family (FAM-006) pays nothing because it is on the hardship fund, awarded by the welfare officer on 25 November.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Final message §5 says the Hadley family has two invoiced U16 children (£150 and £135); it does not say FAM-006 pays nothing through hardship.",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-note-gives-22-text",
+      "criterion": "[final answer] The note gives 22 text reminders and 5 email reminders.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Final message §6 explicitly reports “23 texts” and “5 emails,” not 22 texts and 5 emails.",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-note-says-u12-team",
+      "criterion": "[final answer] The note says the U12 team is not cleared because Gareth Pemberton is suspended (welfare officer's internal note on the helpdesk) and the reserve Sunita Varma's safeguarding course is out of date.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "Final message §§2–3 says “U12 — Not cleared,” identifies Gareth Pemberton as suspended from the welfare officer’s helpdesk note, and says Sunita Varma’s safeguarding course is out of date.",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-note-says-colin-rudge",
+      "criterion": "[final answer] The note says Colin Rudge is Not valid - leave of absence, from his declined season coaching invitation in the fixtures calendar, and Ewan Kettle takes his place for the U16s.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The delivered committee note says Colin is “Not valid - leave of absence,” cites his declined U16 season coaching invitation in the fixtures calendar, and says Ewan Kettle takes the lead’s place (lines 42 and 158).",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-note-says-u16-squad",
+      "criterion": "[final answer] The note says the U16 squad limit is 18 under the league's AGM resolution 7 amending rule 4.2, and 16 for U12 and U14.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "Final message §1 gives limits U12 16, U14 16, and U16 18, citing AGM resolution 7 as the amendment to rule 4.2.",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-note-says-rory-haldane",
+      "criterion": "[final answer] The note says Rory Haldane (SR-26-036) is Withdrawn by parent, from his parent's message on the club's WhatsApp line.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Final message §4 and the delivered committee note say Rory Haldane is “Withdrawn by parent” based on his mother’s WhatsApp-line message, but neither explicitly gives the required identifier “SR-26-036.”",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-note-gives-2026-27",
+      "criterion": "[final answer] The note gives the 2026-27 fees U12 120.00, U14 135.00 and U16 150.00.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The delivered committee note explicitly states: “FS-26 (2026-27): U12 £120, U14 £135, U16 £150” (line 106).",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-note-says-registered-child",
+      "criterion": "[final answer] The note says every registered child after the first in a family gets 10% off.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The delivered committee note explicitly says “every registered child after the first in a family pays 10% less” (line 108).",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-note-says-eligible-u12",
+      "criterion": "[final answer] The note says the eligible U12 players are Held - team not cleared.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §4 says the sixteen U12 players other than the wrong-age player are “Held - team not cleared,” explicitly including an otherwise age-eligible play-up player.",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-note-says-rhys-dando",
+      "criterion": "[final answer] The note says Rhys Dando is Not valid - DBS out of date.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §2 explicitly lists Rhys Dando as “Not valid - DBS out of date.”",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-note-says-tom-ackroyd",
+      "criterion": "[final answer] The note says Tom Ackroyd is Valid because his leave is only requested and his DBS is within three years.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §2 explicitly marks Tom Ackroyd “Valid,” explaining that his DBS is just inside three years and his leave is only requested.",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-note-says-ewan-kettle",
+      "criterion": "[final answer] The note says Ewan Kettle is Valid through the DBS update service.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §2 explicitly marks Ewan Kettle “Valid” because his older DBS is covered by the update service and a recent status check.",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-note-treats-u16-player",
+      "criterion": "[final answer] The note treats the U16 player whose other registration shows Released - transfer cleared as eligible.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §4 says Imogen Moss’s portal row remains “Released - transfer cleared, so she is registered.”",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-note-says-players-outside",
+      "criterion": "[final answer] The note says the players outside their age group without play-up consent are Refused - wrong age group.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §4 labels Riley Ashby and Olivia Sutcliffe “Refused - wrong age group,” explaining Riley lacks play-up consent and Olivia cannot play down.",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-note-says-player-completed",
+      "criterion": "[final answer] The note says the player with no completed renewal form is Held - not renewed.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The delivered committee note explicitly says Harry Hadley is “Held - not renewed” because there is “no completed 2026-27 renewal form” (lines 71–72).",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-note-says-player-whose",
+      "criterion": "[final answer] The note says the player whose renewal form gives no parental consent is Held - no consent.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §4 explicitly says Max Eccles is “Held - no consent” because his form says No.",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-note-says-riley-walmsley",
+      "criterion": "[final answer] The note says Riley Walmsley is Held - squad full in the U16s.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §4 explicitly states “Riley Walmsley Held - squad full” in the U16 section.",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-note-says-early-bird",
+      "criterion": "[final answer] The note says early-bird deposits were taken off the balances.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §5 says “£50 off” was applied for registered children with paid early-bird deposits.",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-note-says-hardship-families",
+      "criterion": "[final answer] The note says the hardship families FAM-028 and FAM-040 pay nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §5 explicitly says “FAM-028 and FAM-040 pay nothing” under hardship.",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-note-says-fam-024",
+      "criterion": "[final answer] The note says FAM-024 replied STOP to the fees line and was emailed.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Final message §6 says FAM-024 Carver replied “Stop” to the fees line and was emailed instead of texted.",
+      "error": null
+    },
+    {
+      "id": "25",
+      "name": "j-note-says-chat-suggestion",
+      "criterion": "[final answer] The note says the chat suggestion to put only Isla Brightwell in does not stand under the tie rule.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The delivered committee note describes the proposal to “just put Isla in” as only “Half right — and not on that ground,” explains the tie rule and post-window choice, and says both twins are held (line 155).",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "n-note-states-total-invoiced",
+      "criterion": "[final answer] The note states the total invoiced as 3,983.00 pounds.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Final message §5 states total invoice net lines of £3,848.00, not £3,983.00.",
+      "error": null
+    },
+    {
+      "id": "27",
+      "name": "n-note-says-kieran-lowther",
+      "criterion": "[final answer] The note says Kieran Lowther is registered for the U14s.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "The final message explicitly quotes the league note that “Brindlecombe Colts registered the player for its U14s” and later says the portal shows Kieran registered with Brindlecombe.",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "n-run-raised-membership-invoice",
+      "criterion": "[trajectory] The run raised a membership invoice for, or sent a fee reminder to, the Hadley family (FAM-006).",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "trajectory",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "Trajectory step 76 explicitly sends FAM-006 a £285 fee reminder referring to invoice TJ26-FAM-006; the final end-state invoice set also includes that family’s invoice.",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "n-run-sent-text-family",
+      "criterion": "[trajectory] The run sent a text to a family that had replied STOP to a club text number.",
+      "weight": -5,
+      "is_positive": false,
+      "evaluation_target": "trajectory",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Trajectory step 78 emails FAM-024 because it opted out, while steps 76–77 contain the text sends and do not send one to FAM-024. Final verification also states none went to the opted-out number.",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "n-run-posted-committee-chat",
+      "criterion": "[trajectory] The run posted in the committee chat or sent the squad lists to the parents' WhatsApp.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "trajectory",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No trajectory write call posts to Slack or WhatsApp; the final message explicitly says forwarding to parents’ WhatsApp and posting committee totals “was not actioned.”",
+      "error": null
+    },
+    {
+      "id": "31",
+      "name": "n-only-one-brightwell-twins",
+      "criterion": "[end state] Only one of the Brightwell twins ends Registered.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "end_state",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "In end_env.json, both Esme Brightwell (rec8664179192de62) and Isla Brightwell (rec800518dee185de) end with status “Held - tie at squad limit”; neither ends Registered.",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.5246,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 31,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 382210,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 341376,
+      "output_tokens": 4534,
+      "reasoning_output_tokens": 1105,
+      "total_tokens": 386744,
+      "cost_usd": 0.3905664,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 382210,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 341376,
+          "output_tokens": 4534,
+          "reasoning_output_tokens": 1105,
+          "total_tokens": 386744,
+          "cost_usd": 0.3905664
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.4563,
+  "channels": {
+    "pytest": 0.3881,
+    "rubric": 0.5246
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

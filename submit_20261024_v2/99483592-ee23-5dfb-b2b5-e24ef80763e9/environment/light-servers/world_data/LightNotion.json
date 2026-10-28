@@ -1,0 +1,297 @@
+{
+ "pages": [
+  {
+   "id": "page-gwp-loclib",
+   "parent_type": "workspace",
+   "parent_id": "workspace-gwp-locations",
+   "title": "Location library",
+   "created_time": "2026-02-10T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Imogen Thackeray",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-tannery",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Tannery Row",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-pennick",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Pennick Street terraces",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-marchbank",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Marchbank Court",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-kestrel",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Kestrel Hill car park",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-aldric",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "St Aldric's churchyard",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-wickerby",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Wickerby Lane",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-canal",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Canal Basin towpath",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-ropewalk",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Ropewalk Yard",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-assembly",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Rookhaven Assembly Rooms",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  },
+  {
+   "id": "page-gwp-loc-oldrope",
+   "parent_type": "page",
+   "parent_id": "page-gwp-loclib",
+   "title": "Old Rope Works",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-11-18T16:00:00.000Z",
+   "created_by": "Rafe Adeyinka",
+   "archived": false,
+   "icon": "pin",
+   "cover_url": null
+  }
+ ],
+ "blocks": [
+  {
+   "id": "block-gwp-loc-000",
+   "page_id": "page-gwp-loclib",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 0,
+   "text": "One page per location in use or on the recce list. Access, power, parking and the people to talk to. The community liaison logs anything agreed with the council by phone as a comment on the location's page.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-001",
+   "page_id": "page-gwp-loc-tannery",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 1,
+   "text": "Same frontages as the night exteriors; listed houses 7 to 11, lamps on stands only.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-002",
+   "page_id": "page-gwp-loc-pennick",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 2,
+   "text": "Terraces both sides; twelve residents' bays on the application plan. Patient transport uses the top of the street.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-003",
+   "page_id": "page-gwp-loc-marchbank",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 3,
+   "text": "Service road bays; residents' lift is not for equipment.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-004",
+   "page_id": "page-gwp-loc-kestrel",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 4,
+   "text": "Upper deck for the chase; lower deck stays open to the public.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-005",
+   "page_id": "page-gwp-loc-aldric",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 5,
+   "text": "Vicar happy; lych gate must stay clear for funerals.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-006",
+   "page_id": "page-gwp-loc-wickerby",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 6,
+   "text": "Single track; the low loader cannot turn.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-007",
+   "page_id": "page-gwp-loc-canal",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 7,
+   "text": "Towpath closure agreed with the Canal and River Trust.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-008",
+   "page_id": "page-gwp-loc-ropewalk",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 8,
+   "text": "Used weeks 44 and 47. Yard owner prefers a call the day before.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-009",
+   "page_id": "page-gwp-loc-assembly",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 9,
+   "text": "Interiors weeks 47 and 49; wrap party venue.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  },
+  {
+   "id": "block-gwp-loc-010",
+   "page_id": "page-gwp-loc-oldrope",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "order": 10,
+   "text": "Block 7; agreement out for signature.",
+   "created_time": "2026-10-20T09:00:00.000Z",
+   "last_edited_time": "2026-10-20T09:00:00.000Z",
+   "has_children": false
+  }
+ ],
+ "comments": [
+  {
+   "id": "comment-gwp-0001",
+   "parent_page_id": "page-gwp-loc-pennick",
+   "parent_block_id": null,
+   "author_id": "user-gwp-saoirse",
+   "text": "Logged for the office: Desmond Quilliam (council filming officer) rang me on 18 November. Agreed by phone: from Tuesday 24 November the Pennick Street suspension drops to 8 residents' bays. Bays 9 to 12 at the top of the street stay open for the dialysis patient transport. Monday 23 November stays at all 12 bays. He is not reissuing the grant letter; this comment is the record.",
+   "created_time": "2026-11-18T15:47:00.000Z",
+   "resolved": false
+  },
+  {
+   "id": "comment-gwp-0002",
+   "parent_page_id": "page-gwp-loc-tannery",
+   "parent_block_id": null,
+   "author_id": "user-gwp-saoirse",
+   "text": "Residents at numbers 2 and 4 asked for the generator to face away from their windows.",
+   "created_time": "2026-11-17T12:10:00.000Z",
+   "resolved": false
+  },
+  {
+   "id": "comment-gwp-0003",
+   "parent_page_id": "page-gwp-loc-aldric",
+   "parent_block_id": null,
+   "author_id": "user-gwp-rafe",
+   "text": "Verger's number is in the call sheet.",
+   "created_time": "2026-11-16T10:00:00.000Z",
+   "resolved": false
+  },
+  {
+   "id": "comment-gwp-0004",
+   "parent_page_id": "page-gwp-loc-ropewalk",
+   "parent_block_id": null,
+   "author_id": "user-gwp-rafe",
+   "text": "Yard owner happy with week 47; invoice paid.",
+   "created_time": "2026-11-19T16:30:00.000Z",
+   "resolved": false
+  }
+ ]
+}

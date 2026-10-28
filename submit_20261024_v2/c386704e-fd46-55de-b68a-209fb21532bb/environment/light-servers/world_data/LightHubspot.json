@@ -1,0 +1,188 @@
+{
+ "companies": [
+  {
+   "id": "93101",
+   "properties": {
+    "name": "Thornwick Motors",
+    "domain": "thornwickmotors.example",
+    "industry": "Automotive",
+    "city": "Thornwick",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-06-10T10:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93102",
+   "properties": {
+    "name": "Rafferty's Bakery",
+    "domain": "raffertysbakery.example",
+    "industry": "Food",
+    "city": "Thornwick",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-06-10T10:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93103",
+   "properties": {
+    "name": "Merrow Physio",
+    "domain": "merrowphysio.example",
+    "industry": "Health",
+    "city": "Merrow",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-06-10T10:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93104",
+   "properties": {
+    "name": "Greenbank Lettings",
+    "domain": "greenbanklettings.example",
+    "industry": "Property",
+    "city": "Thornwick",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-06-10T10:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "93201",
+   "properties": {
+    "firstname": "Neil",
+    "lastname": "Rafferty",
+    "email": "neil@raffertysbakery.example",
+    "phone": "",
+    "jobtitle": "Owner",
+    "company": "Rafferty's Bakery",
+    "lifecyclestage": "customer",
+    "createdate": "2026-06-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93202",
+   "properties": {
+    "firstname": "Shona",
+    "lastname": "McCrae",
+    "email": "shona@thornwickmotors.example",
+    "phone": "",
+    "jobtitle": "Marketing",
+    "company": "Thornwick Motors",
+    "lifecyclestage": "customer",
+    "createdate": "2026-06-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93203",
+   "properties": {
+    "firstname": "Priti",
+    "lastname": "Desai",
+    "email": "priti@merrowphysio.example",
+    "phone": "",
+    "jobtitle": "Clinic lead",
+    "company": "Merrow Physio",
+    "lifecyclestage": "customer",
+    "createdate": "2026-06-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93204",
+   "properties": {
+    "firstname": "Owen",
+    "lastname": "Hale",
+    "email": "owen@greenbanklettings.example",
+    "phone": "",
+    "jobtitle": "Director",
+    "company": "Greenbank Lettings",
+    "lifecyclestage": "customer",
+    "createdate": "2026-06-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-06-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "93301",
+   "properties": {
+    "dealname": "Shirt sponsorship U14 2026-27, Thornwick Motors",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "600",
+    "closedate": "2026-08-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-06-15T10:30:00Z",
+    "lastmodifieddate": "2026-09-01T15:00:00Z"
+   },
+   "createdAt": "2026-06-15T10:30:00Z",
+   "updatedAt": "2026-09-01T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93302",
+   "properties": {
+    "dealname": "Tournament sponsor, Rafferty's Bakery",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "150",
+    "closedate": "2026-08-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-06-15T10:30:00Z",
+    "lastmodifieddate": "2026-09-01T15:00:00Z"
+   },
+   "createdAt": "2026-06-15T10:30:00Z",
+   "updatedAt": "2026-09-01T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "93303",
+   "properties": {
+    "dealname": "Physio discount scheme, Merrow Physio",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "0",
+    "closedate": "2026-08-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-06-15T10:30:00Z",
+    "lastmodifieddate": "2026-09-01T15:00:00Z"
+   },
+   "createdAt": "2026-06-15T10:30:00Z",
+   "updatedAt": "2026-09-01T15:00:00Z",
+   "archived": false
+  }
+ ]
+}

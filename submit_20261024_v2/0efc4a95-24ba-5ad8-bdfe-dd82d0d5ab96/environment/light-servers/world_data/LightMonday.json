@@ -1,0 +1,318 @@
+{
+ "workspaces": [
+  {
+   "workspace_id": "ws-kra-site",
+   "name": "Site team",
+   "kind": "open",
+   "description": "Repairs and small works around the school site"
+  }
+ ],
+ "boards": [
+  {
+   "board_id": "board-kra-jobs",
+   "name": "Site jobs",
+   "board_kind": "public",
+   "description": "Jobs reported to the site manager, with their dates.",
+   "state": "active",
+   "workspace_id": "ws-kra-site"
+  }
+ ],
+ "groups": [
+  {
+   "group_id": "grp-kra-done",
+   "board_id": "board-kra-jobs",
+   "title": "Done",
+   "color": "#00c875",
+   "position": 0
+  },
+  {
+   "group_id": "grp-kra-booked",
+   "board_id": "board-kra-jobs",
+   "title": "Booked",
+   "color": "#579bfc",
+   "position": 1
+  },
+  {
+   "group_id": "grp-kra-wait",
+   "board_id": "board-kra-jobs",
+   "title": "Waiting for parts",
+   "color": "#fdab3d",
+   "position": 2
+  },
+  {
+   "group_id": "grp-kra-todo",
+   "board_id": "board-kra-jobs",
+   "title": "Not started",
+   "color": "#c4c4c4",
+   "position": 3
+  }
+ ],
+ "columns": [
+  {
+   "column_id": "status_kra",
+   "board_id": "board-kra-jobs",
+   "title": "Status",
+   "type": "status",
+   "position": 0
+  },
+  {
+   "column_id": "date_kra",
+   "board_id": "board-kra-jobs",
+   "title": "Date",
+   "type": "date",
+   "position": 1
+  },
+  {
+   "column_id": "person_kra",
+   "board_id": "board-kra-jobs",
+   "title": "Who",
+   "type": "people",
+   "position": 2
+  }
+ ],
+ "users": [
+  {
+   "user_id": "mu-kra-01",
+   "name": "Ben Ashworth",
+   "email": "ben.ashworth@kestrelridge.example",
+   "title": "Site Manager",
+   "is_admin": true
+  },
+  {
+   "user_id": "mu-kra-02",
+   "name": "Daniel Frost",
+   "email": "daniel.frost@kestrelridge.example",
+   "title": "IT Technician",
+   "is_admin": false
+  }
+ ],
+ "items": [
+  {
+   "item_id": "item-kra-001",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-done",
+   "name": "Replace the cracked pane in the art room door",
+   "created_at": "2026-09-23T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-002",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-done",
+   "name": "Grit the top car park before 07:30",
+   "created_at": "2027-01-10T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-003",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-booked",
+   "name": "Sports hall roof: temporary patch over court 3",
+   "created_at": "2027-01-20T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-004",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-done",
+   "name": "Service the boilers in block C",
+   "created_at": "2026-10-30T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-005",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-wait",
+   "name": "Fix the dripping tap in the science prep room",
+   "created_at": "2027-02-01T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-006",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-todo",
+   "name": "Paint the line markings on the netball courts",
+   "created_at": "2027-01-27T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-007",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-done",
+   "name": "Repair the library blinds",
+   "created_at": "2026-11-25T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-008",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-booked",
+   "name": "Fire door closer, music corridor",
+   "created_at": "2027-02-04T08:30:00Z"
+  },
+  {
+   "item_id": "item-kra-009",
+   "board_id": "board-kra-jobs",
+   "group_id": "grp-kra-todo",
+   "name": "PAT testing in the IT suites",
+   "created_at": "2027-01-18T08:30:00Z"
+  }
+ ],
+ "column_values": [
+  {
+   "item_id": "item-kra-001",
+   "column_id": "status_kra",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-001",
+   "column_id": "date_kra",
+   "text": "2026-10-02",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-001",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-002",
+   "column_id": "status_kra",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-002",
+   "column_id": "date_kra",
+   "text": "2027-01-11",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-002",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-003",
+   "column_id": "status_kra",
+   "text": "Booked",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-003",
+   "column_id": "date_kra",
+   "text": "2027-02-13",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-003",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-004",
+   "column_id": "status_kra",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-004",
+   "column_id": "date_kra",
+   "text": "2026-11-14",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-004",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-005",
+   "column_id": "status_kra",
+   "text": "Waiting for parts",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-005",
+   "column_id": "date_kra",
+   "text": "2027-02-10",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-005",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-006",
+   "column_id": "status_kra",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-006",
+   "column_id": "date_kra",
+   "text": "2027-04-16",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-006",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-007",
+   "column_id": "status_kra",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-007",
+   "column_id": "date_kra",
+   "text": "2026-12-04",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-007",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-008",
+   "column_id": "status_kra",
+   "text": "Booked",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-008",
+   "column_id": "date_kra",
+   "text": "2027-02-09",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-008",
+   "column_id": "person_kra",
+   "text": "Ben Ashworth",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-009",
+   "column_id": "status_kra",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-009",
+   "column_id": "date_kra",
+   "text": "2027-03-01",
+   "value": null
+  },
+  {
+   "item_id": "item-kra-009",
+   "column_id": "person_kra",
+   "text": "Daniel Frost",
+   "value": null
+  }
+ ]
+}

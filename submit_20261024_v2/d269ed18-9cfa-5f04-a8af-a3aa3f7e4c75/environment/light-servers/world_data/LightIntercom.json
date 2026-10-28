@@ -1,0 +1,242 @@
+{
+ "contacts": [
+  {
+   "id": "con-fh-01",
+   "name": "Ruth Hartley and Kwame Osei",
+   "email": "ruth.hartley@mailbox.example",
+   "role": "user",
+   "created_at": 1767086400,
+   "updated_at": 1796003600
+  },
+  {
+   "id": "con-fh-02",
+   "name": "Tilly Fowler and Arjun Bains",
+   "email": "tilly.fowler@post.example",
+   "role": "user",
+   "created_at": 1767172800,
+   "updated_at": 1796007200
+  },
+  {
+   "id": "con-fh-03",
+   "name": "Leah Corrigan and Sam Whitby",
+   "email": "leah.corrigan@mailbox.example",
+   "role": "user",
+   "created_at": 1767259200,
+   "updated_at": 1796010800
+  },
+  {
+   "id": "con-fh-04",
+   "name": "Priyanka Nair and Tom Ellery",
+   "email": "priyanka.nair@inbox.example",
+   "role": "user",
+   "created_at": 1767345600,
+   "updated_at": 1796014400
+  },
+  {
+   "id": "con-fh-05",
+   "name": "Beth Arkwright and Femi Lawal",
+   "email": "beth.arkwright@mailbox.example",
+   "role": "user",
+   "created_at": 1767432000,
+   "updated_at": 1796018000
+  }
+ ],
+ "conversations": [
+  {
+   "id": "conv-fh-hartley-osei",
+   "contact_id": "con-fh-01",
+   "state": "open",
+   "title": "Final details for 19 December",
+   "created_at": "2026-11-14T10:00:00.000Z",
+   "updated_at": "2026-12-10T19:00:00.000Z",
+   "assignee_id": "admin-fh-hattie",
+   "open": true
+  },
+  {
+   "id": "conv-fh-fowler-bains",
+   "contact_id": "con-fh-02",
+   "state": "closed",
+   "title": "Fowler-Bains final numbers",
+   "created_at": "2026-11-20T09:00:00.000Z",
+   "updated_at": "2026-12-07T16:00:00.000Z",
+   "assignee_id": "admin-fh-hattie",
+   "open": false
+  },
+  {
+   "id": "conv-fh-corrigan",
+   "contact_id": "con-fh-03",
+   "state": "open",
+   "title": "Menu tasting",
+   "created_at": "2026-12-02T10:00:00.000Z",
+   "updated_at": "2026-12-02T12:00:00.000Z",
+   "assignee_id": "admin-fh-hattie",
+   "open": true
+  },
+  {
+   "id": "conv-fh-nair",
+   "contact_id": "con-fh-04",
+   "state": "open",
+   "title": "Ceremony music",
+   "created_at": "2026-12-03T10:00:00.000Z",
+   "updated_at": "2026-12-03T12:00:00.000Z",
+   "assignee_id": "admin-fh-hattie",
+   "open": true
+  },
+  {
+   "id": "conv-fh-arkwright",
+   "contact_id": "con-fh-05",
+   "state": "open",
+   "title": "Accommodation",
+   "created_at": "2026-12-04T10:00:00.000Z",
+   "updated_at": "2026-12-04T12:00:00.000Z",
+   "assignee_id": "admin-fh-hattie",
+   "open": true
+  }
+ ],
+ "parts": [
+  {
+   "id": "part-7f82642050",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-01",
+   "body": "Hi Hattie, we're getting to the final details now. Could we have a call next week about the evening and the band?",
+   "created_at": "2026-11-14T10:00:00.000Z"
+  },
+  {
+   "id": "part-e60d18cb87",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-hattie",
+   "body": "Of course. I'll ring Kwame next week. Final numbers are confirmed on Monday 14 December from everything we have in writing.",
+   "created_at": "2026-11-14T11:20:00.000Z"
+  },
+  {
+   "id": "part-782508bebd",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-01",
+   "body": "Lovely. Also, is the cake table near the fire? We'd rather it wasn't.",
+   "created_at": "2026-11-20T18:00:00.000Z"
+  },
+  {
+   "id": "part-0215b69888",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-hattie",
+   "body": "Noted: the cake table goes by the window.",
+   "created_at": "2026-11-21T09:00:00.000Z"
+  },
+  {
+   "id": "part-cf389aaee6",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "note",
+   "author_type": "admin",
+   "author_id": "admin-fh-hattie",
+   "body": "Called Kwame 10 Dec 15:40. Agreed: the four members of The Copper Kettles (Femi Adeyemi, Lucas Varney, Juno Achebe, Rory Halloran) will eat a crew meal in the green room before they play, not the wedding breakfast. Take them off the wedding breakfast and charge 4 crew meals instead. Kwame happy with this.",
+   "created_at": "2026-12-10T15:52:00.000Z"
+  },
+  {
+   "id": "part-923c53d27d",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "note",
+   "author_type": "admin",
+   "author_id": "admin-fh-hattie",
+   "body": "Reminder to self: microphone for the father of the bride.",
+   "created_at": "2026-12-01T09:10:00.000Z"
+  },
+  {
+   "id": "part-1d00591f98",
+   "conversation_id": "conv-fh-hartley-osei",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-01",
+   "body": "Thanks for the call Hattie, all sorted from our side!",
+   "created_at": "2026-12-10T19:00:00.000Z"
+  },
+  {
+   "id": "part-daeb541631",
+   "conversation_id": "conv-fh-fowler-bains",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-02",
+   "body": "Our final numbers are on the form. Thank you!",
+   "created_at": "2026-11-20T09:00:00.000Z"
+  },
+  {
+   "id": "part-003646c5b2",
+   "conversation_id": "conv-fh-fowler-bains",
+   "part_type": "note",
+   "author_type": "admin",
+   "author_id": "admin-fh-hattie",
+   "body": "Called Arjun: the DJ eats a crew meal. Add 1 crew meal.",
+   "created_at": "2026-12-04T10:00:00.000Z"
+  },
+  {
+   "id": "part-249813a065",
+   "conversation_id": "conv-fh-fowler-bains",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-bronwen",
+   "body": "Final numbers for Saturday 12 December 2026 confirmed.",
+   "created_at": "2026-12-07T16:00:00.000Z"
+  },
+  {
+   "id": "part-3e852be151",
+   "conversation_id": "conv-fh-corrigan",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-03",
+   "body": "Can we bring our parents to the tasting?",
+   "created_at": "2026-12-02T10:00:00.000Z"
+  },
+  {
+   "id": "part-4b2cc61cd6",
+   "conversation_id": "conv-fh-corrigan",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-petra",
+   "body": "Yes, of course. I'll send details.",
+   "created_at": "2026-12-02T12:00:00.000Z"
+  },
+  {
+   "id": "part-60b299d21b",
+   "conversation_id": "conv-fh-nair",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-04",
+   "body": "Can our own musician play during the ceremony?",
+   "created_at": "2026-12-03T10:00:00.000Z"
+  },
+  {
+   "id": "part-e892fe9507",
+   "conversation_id": "conv-fh-nair",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-petra",
+   "body": "Yes, of course. I'll send details.",
+   "created_at": "2026-12-03T12:00:00.000Z"
+  },
+  {
+   "id": "part-a338eb3855",
+   "conversation_id": "conv-fh-arkwright",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-fh-05",
+   "body": "Do you have a list of local B&Bs?",
+   "created_at": "2026-12-04T10:00:00.000Z"
+  },
+  {
+   "id": "part-54402d3e45",
+   "conversation_id": "conv-fh-arkwright",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-fh-petra",
+   "body": "Yes, of course. I'll send details.",
+   "created_at": "2026-12-04T12:00:00.000Z"
+  }
+ ]
+}

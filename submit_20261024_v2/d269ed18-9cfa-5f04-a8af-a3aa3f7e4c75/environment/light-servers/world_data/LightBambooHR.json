@@ -1,0 +1,144 @@
+{
+ "employees": [
+  {
+   "id": "emp-fe01",
+   "firstName": "Dewi",
+   "lastName": "Pugh",
+   "jobTitle": "Head Gardener",
+   "department": "Estate",
+   "workEmail": "dewi.pugh@fernhillbarn.example",
+   "hireDate": "2012-04-02",
+   "status": "active",
+   "location": "Fernhill Estate",
+   "supervisorId": null
+  },
+  {
+   "id": "emp-fe02",
+   "firstName": "Mari",
+   "lastName": "Gwyther",
+   "jobTitle": "Gardener",
+   "department": "Estate",
+   "workEmail": "mari.gwyther@fernhillbarn.example",
+   "hireDate": "2019-03-11",
+   "status": "active",
+   "location": "Fernhill Estate",
+   "supervisorId": "emp-fe01"
+  },
+  {
+   "id": "emp-fe03",
+   "firstName": "Owain",
+   "lastName": "Lloyd-Price",
+   "jobTitle": "Groundsman",
+   "department": "Estate",
+   "workEmail": "owain.lloyd-price@fernhillbarn.example",
+   "hireDate": "2021-05-17",
+   "status": "active",
+   "location": "Fernhill Estate",
+   "supervisorId": "emp-fe01"
+  },
+  {
+   "id": "emp-fe04",
+   "firstName": "Sally",
+   "lastName": "Ferris",
+   "jobTitle": "Cottage Housekeeper",
+   "department": "Estate",
+   "workEmail": "sally.ferris@fernhillbarn.example",
+   "hireDate": "2018-09-03",
+   "status": "active",
+   "location": "Fernhill Estate",
+   "supervisorId": "emp-fe01"
+  },
+  {
+   "id": "emp-fe05",
+   "firstName": "Tom",
+   "lastName": "Bevan",
+   "jobTitle": "Estate Handyman",
+   "department": "Estate",
+   "workEmail": "tom.bevan@fernhillbarn.example",
+   "hireDate": "2016-06-20",
+   "status": "active",
+   "location": "Fernhill Estate",
+   "supervisorId": "emp-fe01"
+  }
+ ],
+ "time_off": [
+  {
+   "id": "tor-fe001",
+   "employeeId": "emp-fe02",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-21",
+   "end": "2026-12-24",
+   "amount": 4,
+   "unit": "days",
+   "notes": "Christmas.",
+   "created": "2026-11-01"
+  },
+  {
+   "id": "tor-fe002",
+   "employeeId": "emp-fe03",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-11-09",
+   "end": "2026-11-13",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Half-term.",
+   "created": "2026-10-01"
+  },
+  {
+   "id": "tor-fe003",
+   "employeeId": "emp-fe04",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-28",
+   "end": "2026-12-31",
+   "amount": 4,
+   "unit": "days",
+   "notes": "New Year.",
+   "created": "2026-11-20"
+  },
+  {
+   "id": "tor-fe004",
+   "employeeId": "emp-fe05",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Long weekend.",
+   "created": "2026-11-25"
+  }
+ ],
+ "whos_out": [
+  {
+   "id": "wo-fe001",
+   "employeeId": "emp-fe02",
+   "start": "2026-12-21",
+   "end": "2026-12-24",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-fe002",
+   "employeeId": "emp-fe03",
+   "start": "2026-11-09",
+   "end": "2026-11-13",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-fe003",
+   "employeeId": "emp-fe04",
+   "start": "2026-12-28",
+   "end": "2026-12-31",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-fe004",
+   "employeeId": "emp-fe05",
+   "start": "2026-12-07",
+   "end": "2026-12-08",
+   "type": "Vacation"
+  }
+ ]
+}

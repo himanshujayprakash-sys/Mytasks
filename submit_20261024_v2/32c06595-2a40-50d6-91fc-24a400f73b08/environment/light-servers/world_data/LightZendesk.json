@@ -1,0 +1,1412 @@
+{
+ "organizations": [
+  {
+   "created_at": "2019-04-01T09:00:00Z",
+   "id": 72001,
+   "name": "Linnet Lane supporters"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "id": 72002,
+   "name": "Kestrel Coast 2026 runners"
+  },
+  {
+   "created_at": "2020-01-15T09:00:00Z",
+   "id": 72003,
+   "name": "Corporate partners"
+  }
+ ],
+ "users": [
+  {
+   "created_at": "2016-07-18T09:00:00Z",
+   "email": "nia.abernethy@linnetlane.example",
+   "id": 71001,
+   "name": "Nia Abernethy",
+   "organization_id": null,
+   "role": "agent"
+  },
+  {
+   "created_at": "2023-06-12T09:00:00Z",
+   "email": "anwen.rees-tudor@linnetlane.example",
+   "id": 71002,
+   "name": "Anwen Rees-Tudor",
+   "organization_id": null,
+   "role": "agent"
+  },
+  {
+   "created_at": "2018-10-22T09:00:00Z",
+   "email": "marcus.delacour@linnetlane.example",
+   "id": 71003,
+   "name": "Marcus Delacour",
+   "organization_id": null,
+   "role": "agent"
+  },
+  {
+   "created_at": "2021-03-15T09:00:00Z",
+   "email": "saskia.lomond@linnetlane.example",
+   "id": 71004,
+   "name": "Saskia Lomond",
+   "organization_id": null,
+   "role": "agent"
+  },
+  {
+   "created_at": "2022-05-03T09:00:00Z",
+   "email": "callum.treharne@linnetlane.example",
+   "id": 71005,
+   "name": "Callum Treharne",
+   "organization_id": null,
+   "role": "agent"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "martha.ellery@inbox.example",
+   "id": 70100,
+   "name": "Martha Ellery",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "graham.pettifer@mailhub.example",
+   "id": 70101,
+   "name": "Graham Pettifer",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "ewan.crabtree@postbox.example",
+   "id": 70102,
+   "name": "Ewan Crabtree",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "valerie.upcott@inbox.example",
+   "id": 70103,
+   "name": "Valerie Upcott",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "hugh.penwarden@postbox.example",
+   "id": 70104,
+   "name": "Hugh Penwarden",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "pamela.rickard@inbox.example",
+   "id": 70105,
+   "name": "Pamela Rickard",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "jonah.pellow@mailhub.example",
+   "id": 70106,
+   "name": "Jonah Pellow",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "teodora.ivanova@postbox.example",
+   "id": 70107,
+   "name": "Teodora Ivanova",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "gwenllian.price@mailhub.example",
+   "id": 70108,
+   "name": "Gwenllian Price",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "accounts@saltmarshbrewing.example",
+   "id": 70109,
+   "name": "Saltmarsh Brewing Co",
+   "organization_id": 72003,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "leon.achterberg@mailhub.example",
+   "id": 70110,
+   "name": "Leon Achterberg",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "maia.rangihuna@mailhub.example",
+   "id": 70111,
+   "name": "Maia Rangihuna",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "arnold.treseder@mailhub.example",
+   "id": 70112,
+   "name": "Arnold Treseder",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "brenda.kneebone@postbox.example",
+   "id": 70113,
+   "name": "Brenda Kneebone",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "sandra.polk@inbox.example",
+   "id": 70114,
+   "name": "Sandra Polkinghorne",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "t.huxtable@mailhub.example",
+   "id": 70115,
+   "name": "Terence Huxtable",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "ezra.blackwood@postbox.example",
+   "id": 70116,
+   "name": "Ezra Blackwood",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "philippa.stroud@inbox.example",
+   "id": 70117,
+   "name": "Philippa Stroud",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "owen.trevaskis@postbox.example",
+   "id": 70118,
+   "name": "Owen Trevaskis",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "clare.duckham@postbox.example",
+   "id": 70119,
+   "name": "Clare Duckham",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "treasurer@tidemouthrc.example",
+   "id": 70120,
+   "name": "Tidemouth Running Club",
+   "organization_id": 72003,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "rita.laity@inbox.example",
+   "id": 70121,
+   "name": "Rita Laity",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "oskar.lindgren@inbox.example",
+   "id": 70122,
+   "name": "Oskar Lindgren",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "meredith.gale@inbox.example",
+   "id": 70123,
+   "name": "Meredith Gale",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "kevin.rodda@mailhub.example",
+   "id": 70124,
+   "name": "Kevin Rodda",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "agnieszka.wolska@mailhub.example",
+   "id": 70125,
+   "name": "Agnieszka Wolska",
+   "organization_id": 72002,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "june.carthew@mailhub.example",
+   "id": 70126,
+   "name": "June Carthew",
+   "organization_id": 72001,
+   "role": "end-user"
+  },
+  {
+   "created_at": "2026-03-01T09:00:00Z",
+   "email": "ivan.petrenko@postbox.example",
+   "id": 70127,
+   "name": "Ivan Petrenko",
+   "organization_id": 72001,
+   "role": "end-user"
+  }
+ ],
+ "tickets": [
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-18T09:00:00Z",
+   "description": "Could I have a receipt for my donation to Ruth's page?",
+   "id": 6100,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70104,
+   "status": "pending",
+   "subject": "Receipt for my donation",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-18T11:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-20T10:00:00Z",
+   "description": "I've moved to 4 Quarry Close, Tidemouth.",
+   "id": 6101,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70105,
+   "status": "solved",
+   "subject": "Change of address",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-20T12:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-22T11:00:00Z",
+   "description": "Could I swap my vest for a medium?",
+   "id": 6102,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70106,
+   "status": "solved",
+   "subject": "Vest size",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-22T13:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-24T12:00:00Z",
+   "description": "My page shows Teodora Ivanov - can you fix it?",
+   "id": 6103,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70107,
+   "status": "solved",
+   "subject": "Page name misspelt",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-24T14:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-26T13:00:00Z",
+   "description": "Can my medal say Gwen not Gwenllian?",
+   "id": 6104,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70108,
+   "status": "solved",
+   "subject": "Medal engraving",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-26T15:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-28T09:00:00Z",
+   "description": "We need a receipt for our company donation for our accounts.",
+   "id": 6105,
+   "organization_id": 72003,
+   "priority": "normal",
+   "requester_id": 70109,
+   "status": "solved",
+   "subject": "Company receipt",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-28T11:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-30T10:00:00Z",
+   "description": "My fundraising page won't let me log in.",
+   "id": 6106,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70110,
+   "status": "pending",
+   "subject": "Can't log in",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-30T12:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-02T11:00:00Z",
+   "description": "Are there photos from the tent?",
+   "id": 6107,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70111,
+   "status": "solved",
+   "subject": "Photos",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-02T13:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-04T12:00:00Z",
+   "description": "I'd like to set up a monthly gift.",
+   "id": 6108,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70112,
+   "status": "solved",
+   "subject": "Standing order",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-04T14:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-06T13:00:00Z",
+   "description": "Have I won the September draw?",
+   "id": 6109,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70113,
+   "status": "solved",
+   "subject": "Lottery winnings",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-06T15:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-08T09:00:00Z",
+   "description": "I'd like to give in memory of my husband.",
+   "id": 6110,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70114,
+   "status": "solved",
+   "subject": "In memory gift",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-08T11:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-10T10:00:00Z",
+   "description": "Can you collect a wardrobe?",
+   "id": 6111,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70115,
+   "status": "solved",
+   "subject": "Shop collection",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-10T12:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-12T11:00:00Z",
+   "description": "Where is the hospice cheer point?",
+   "id": 6112,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70116,
+   "status": "pending",
+   "subject": "Cheer point",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-12T13:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-14T12:00:00Z",
+   "description": "Can I leave a bag at the tent?",
+   "id": 6113,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70117,
+   "status": "solved",
+   "subject": "Bag drop",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-14T14:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-16T13:00:00Z",
+   "description": "Can I add Gift Aid to raffle tickets?",
+   "id": 6114,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70118,
+   "status": "solved",
+   "subject": "Raffle and Gift Aid",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-16T15:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-18T09:00:00Z",
+   "description": "I'm getting your newsletter twice.",
+   "id": 6115,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70119,
+   "status": "solved",
+   "subject": "Duplicate emails",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-18T11:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-20T10:00:00Z",
+   "description": "Our club wants to donate to the team.",
+   "id": 6116,
+   "organization_id": 72003,
+   "priority": "normal",
+   "requester_id": 70120,
+   "status": "solved",
+   "subject": "Running club donation",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-20T12:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-22T11:00:00Z",
+   "description": "I'd love to volunteer at the tent next year.",
+   "id": 6117,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70121,
+   "status": "solved",
+   "subject": "Volunteer next year",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-22T13:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-24T12:00:00Z",
+   "description": "I didn't get a hospice medal at the finish.",
+   "id": 6118,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70122,
+   "status": "pending",
+   "subject": "Medal not received",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-24T14:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-26T13:00:00Z",
+   "description": "Just wanted to say thank you for the support.",
+   "id": 6119,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70123,
+   "status": "solved",
+   "subject": "Thank you",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-26T15:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-28T09:00:00Z",
+   "description": "Please change my direct debit date.",
+   "id": 6120,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70124,
+   "status": "solved",
+   "subject": "Direct debit",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-28T11:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-30T10:00:00Z",
+   "description": "Can I buy a hospice T-shirt?",
+   "id": 6121,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70125,
+   "status": "solved",
+   "subject": "Event T-shirt",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-30T12:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-11-01T11:00:00Z",
+   "description": "Where do I send a cheque?",
+   "id": 6122,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70126,
+   "status": "solved",
+   "subject": "Address for cheque",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-11-01T13:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-11-03T12:00:00Z",
+   "description": "Please add me to your newsletter.",
+   "id": 6123,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70127,
+   "status": "solved",
+   "subject": "Newsletter",
+   "tags": [
+    "routine"
+   ],
+   "type": "question",
+   "updated_at": "2026-11-03T14:00:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-09-30T12:15:00Z",
+   "description": "My GP has told me not to run after my knee operation. Please could you defer my Kestrel place to 2027? Martha Ellery, bib 4139",
+   "id": 6188,
+   "organization_id": 72002,
+   "priority": "normal",
+   "requester_id": 70100,
+   "status": "solved",
+   "subject": "Can't run on Sunday",
+   "tags": [
+    "kestrel",
+    "runner"
+   ],
+   "type": "question",
+   "updated_at": "2026-09-30T13:02:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-19T10:05:00Z",
+   "description": "I'd like a refund of my gift to Idris Kenward's page please - I've had a change of circumstances.",
+   "id": 6198,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70102,
+   "status": "solved",
+   "subject": "Refund please",
+   "tags": [
+    "donation",
+    "refund"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-20T11:45:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-22T16:00:00Z",
+   "description": "I'm retiring in November and won't pay income tax after that. Please stop claiming Gift Aid on my gifts from December.",
+   "id": 6207,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70103,
+   "status": "solved",
+   "subject": "Gift Aid on future gifts",
+   "tags": [
+    "gift-aid"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-23T09:30:00Z"
+  },
+  {
+   "assignee_id": 71001,
+   "created_at": "2026-10-26T09:12:00Z",
+   "description": "I sponsored Kemi Adeyinka on Saturday and the page took my 200 pounds twice. Could one of them be refunded please?",
+   "id": 6214,
+   "organization_id": 72001,
+   "priority": "normal",
+   "requester_id": 70101,
+   "status": "solved",
+   "subject": "Two donations by mistake",
+   "tags": [
+    "donation",
+    "refund"
+   ],
+   "type": "question",
+   "updated_at": "2026-10-27T14:30:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "author_id": 70100,
+   "body": "My GP has told me not to run after my knee operation. Please could you defer my Kestrel place to 2027? Martha Ellery, bib 4139",
+   "created_at": "2026-09-30T12:15:00Z",
+   "id": 61880,
+   "public": true,
+   "ticket_id": 6188
+  },
+  {
+   "author_id": 71004,
+   "body": "Of course, Martha - noted, and get well soon. Saskia",
+   "created_at": "2026-09-30T13:02:00Z",
+   "id": 61881,
+   "public": true,
+   "ticket_id": 6188
+  },
+  {
+   "author_id": 70101,
+   "body": "I sponsored Kemi Adeyinka on Saturday and the page took my 200 pounds twice. Could one of them be refunded please?",
+   "created_at": "2026-10-26T09:12:00Z",
+   "id": 62140,
+   "public": true,
+   "ticket_id": 6214
+  },
+  {
+   "author_id": 71001,
+   "body": "Thanks Graham, sorry about that. I've passed this to our finance team to sort out.",
+   "created_at": "2026-10-26T09:40:00Z",
+   "id": 62141,
+   "public": true,
+   "ticket_id": 6214
+  },
+  {
+   "author_id": 71003,
+   "body": "Refunded D-111154 (200.00, Kemi Adeyinka's page, hospice website) to the donor's card today; it duplicated D-111153. The donations table will keep showing it as paid until the November card file. No Gift Aid to be claimed on it.",
+   "created_at": "2026-10-27T14:10:00Z",
+   "id": 62142,
+   "public": false,
+   "ticket_id": 6214
+  },
+  {
+   "author_id": 71001,
+   "body": "Finance have sorted this for you - thank you for letting us know.",
+   "created_at": "2026-10-27T14:30:00Z",
+   "id": 62143,
+   "public": true,
+   "ticket_id": 6214
+  },
+  {
+   "author_id": 70102,
+   "body": "I'd like a refund of my gift to Idris Kenward's page please - I've had a change of circumstances.",
+   "created_at": "2026-10-19T10:05:00Z",
+   "id": 61980,
+   "public": true,
+   "ticket_id": 6198
+  },
+  {
+   "author_id": 71003,
+   "body": "Checked the ledger: the gift was made in March 2025 to Idris's page for last year's 10k, outside the refund window. Not refunded; Nia to reply.",
+   "created_at": "2026-10-20T11:20:00Z",
+   "id": 61981,
+   "public": false,
+   "ticket_id": 6198
+  },
+  {
+   "author_id": 71001,
+   "body": "Hi Ewan, I'm sorry, that gift was made in March 2025 and we can't refund it now. Thank you for your support.",
+   "created_at": "2026-10-20T11:45:00Z",
+   "id": 61982,
+   "public": true,
+   "ticket_id": 6198
+  },
+  {
+   "author_id": 70103,
+   "body": "I'm retiring in November and won't pay income tax after that. Please stop claiming Gift Aid on my gifts from December.",
+   "created_at": "2026-10-22T16:00:00Z",
+   "id": 62070,
+   "public": true,
+   "ticket_id": 6207
+  },
+  {
+   "author_id": 71005,
+   "body": "Declaration end date set to 30 November 2026 in the CRM; gifts up to then stay eligible.",
+   "created_at": "2026-10-23T09:10:00Z",
+   "id": 62071,
+   "public": false,
+   "ticket_id": 6207
+  },
+  {
+   "author_id": 71001,
+   "body": "Thanks Valerie, we've updated your declaration so we stop claiming from December.",
+   "created_at": "2026-10-23T09:30:00Z",
+   "id": 62072,
+   "public": true,
+   "ticket_id": 6207
+  },
+  {
+   "author_id": 70104,
+   "body": "Could I have a receipt for my donation to Ruth's page?",
+   "created_at": "2026-09-18T09:00:00Z",
+   "id": 61000,
+   "public": true,
+   "ticket_id": 6100
+  },
+  {
+   "author_id": 71001,
+   "body": "Receipt re-sent from the CRM.",
+   "created_at": "2026-09-18T10:00:00Z",
+   "id": 61001,
+   "public": false,
+   "ticket_id": 6100
+  },
+  {
+   "author_id": 71001,
+   "body": "Sent you a fresh receipt, Hugh.",
+   "created_at": "2026-09-18T11:00:00Z",
+   "id": 61002,
+   "public": true,
+   "ticket_id": 6100
+  },
+  {
+   "author_id": 70105,
+   "body": "I've moved to 4 Quarry Close, Tidemouth.",
+   "created_at": "2026-09-20T10:00:00Z",
+   "id": 61010,
+   "public": true,
+   "ticket_id": 6101
+  },
+  {
+   "author_id": 71002,
+   "body": "Address updated; duplicate record merged.",
+   "created_at": "2026-09-20T11:00:00Z",
+   "id": 61011,
+   "public": false,
+   "ticket_id": 6101
+  },
+  {
+   "author_id": 71002,
+   "body": "All updated, thank you Pamela.",
+   "created_at": "2026-09-20T12:00:00Z",
+   "id": 61012,
+   "public": true,
+   "ticket_id": 6101
+  },
+  {
+   "author_id": 70106,
+   "body": "Could I swap my vest for a medium?",
+   "created_at": "2026-09-22T11:00:00Z",
+   "id": 61020,
+   "public": true,
+   "ticket_id": 6102
+  },
+  {
+   "author_id": 71001,
+   "body": "Swapped from spare stock at the tent.",
+   "created_at": "2026-09-22T12:00:00Z",
+   "id": 61021,
+   "public": false,
+   "ticket_id": 6102
+  },
+  {
+   "author_id": 71001,
+   "body": "Swapped at the tent, Jonah - see you there.",
+   "created_at": "2026-09-22T13:00:00Z",
+   "id": 61022,
+   "public": true,
+   "ticket_id": 6102
+  },
+  {
+   "author_id": 70107,
+   "body": "My page shows Teodora Ivanov - can you fix it?",
+   "created_at": "2026-09-24T12:00:00Z",
+   "id": 61030,
+   "public": true,
+   "ticket_id": 6103
+  },
+  {
+   "author_id": 71002,
+   "body": "Asked PledgePath to correct the display name.",
+   "created_at": "2026-09-24T13:00:00Z",
+   "id": 61031,
+   "public": false,
+   "ticket_id": 6103
+  },
+  {
+   "author_id": 71002,
+   "body": "Fixed now, Teodora.",
+   "created_at": "2026-09-24T14:00:00Z",
+   "id": 61032,
+   "public": true,
+   "ticket_id": 6103
+  },
+  {
+   "author_id": 70108,
+   "body": "Can my medal say Gwen not Gwenllian?",
+   "created_at": "2026-09-26T13:00:00Z",
+   "id": 61040,
+   "public": true,
+   "ticket_id": 6104
+  },
+  {
+   "author_id": 71001,
+   "body": "Changed on the engraving list.",
+   "created_at": "2026-09-26T14:00:00Z",
+   "id": 61041,
+   "public": false,
+   "ticket_id": 6104
+  },
+  {
+   "author_id": 71001,
+   "body": "Done, Gwen.",
+   "created_at": "2026-09-26T15:00:00Z",
+   "id": 61042,
+   "public": true,
+   "ticket_id": 6104
+  },
+  {
+   "author_id": 70109,
+   "body": "We need a receipt for our company donation for our accounts.",
+   "created_at": "2026-09-28T09:00:00Z",
+   "id": 61050,
+   "public": true,
+   "ticket_id": 6105
+  },
+  {
+   "author_id": 71002,
+   "body": "Company receipt issued; no Gift Aid on company gifts.",
+   "created_at": "2026-09-28T10:00:00Z",
+   "id": 61051,
+   "public": false,
+   "ticket_id": 6105
+  },
+  {
+   "author_id": 71002,
+   "body": "Receipt attached.",
+   "created_at": "2026-09-28T11:00:00Z",
+   "id": 61052,
+   "public": true,
+   "ticket_id": 6105
+  },
+  {
+   "author_id": 70110,
+   "body": "My fundraising page won't let me log in.",
+   "created_at": "2026-09-30T10:00:00Z",
+   "id": 61060,
+   "public": true,
+   "ticket_id": 6106
+  },
+  {
+   "author_id": 71001,
+   "body": "Password reset link re-sent.",
+   "created_at": "2026-09-30T11:00:00Z",
+   "id": 61061,
+   "public": false,
+   "ticket_id": 6106
+  },
+  {
+   "author_id": 71001,
+   "body": "Try the new link, Leon.",
+   "created_at": "2026-09-30T12:00:00Z",
+   "id": 61062,
+   "public": true,
+   "ticket_id": 6106
+  },
+  {
+   "author_id": 70111,
+   "body": "Are there photos from the tent?",
+   "created_at": "2026-10-02T11:00:00Z",
+   "id": 61070,
+   "public": true,
+   "ticket_id": 6107
+  },
+  {
+   "author_id": 71002,
+   "body": "Pointed to the shared album.",
+   "created_at": "2026-10-02T12:00:00Z",
+   "id": 61071,
+   "public": false,
+   "ticket_id": 6107
+  },
+  {
+   "author_id": 71002,
+   "body": "They're in the album link we emailed.",
+   "created_at": "2026-10-02T13:00:00Z",
+   "id": 61072,
+   "public": true,
+   "ticket_id": 6107
+  },
+  {
+   "author_id": 70112,
+   "body": "I'd like to set up a monthly gift.",
+   "created_at": "2026-10-04T12:00:00Z",
+   "id": 61080,
+   "public": true,
+   "ticket_id": 6108
+  },
+  {
+   "author_id": 71001,
+   "body": "Standing order form sent.",
+   "created_at": "2026-10-04T13:00:00Z",
+   "id": 61081,
+   "public": false,
+   "ticket_id": 6108
+  },
+  {
+   "author_id": 71001,
+   "body": "Form on its way.",
+   "created_at": "2026-10-04T14:00:00Z",
+   "id": 61082,
+   "public": true,
+   "ticket_id": 6108
+  },
+  {
+   "author_id": 70113,
+   "body": "Have I won the September draw?",
+   "created_at": "2026-10-06T13:00:00Z",
+   "id": 61090,
+   "public": true,
+   "ticket_id": 6109
+  },
+  {
+   "author_id": 71002,
+   "body": "Checked the draw list: not this time.",
+   "created_at": "2026-10-06T14:00:00Z",
+   "id": 61091,
+   "public": false,
+   "ticket_id": 6109
+  },
+  {
+   "author_id": 71002,
+   "body": "Not this month, Brenda - good luck next time.",
+   "created_at": "2026-10-06T15:00:00Z",
+   "id": 61092,
+   "public": true,
+   "ticket_id": 6109
+  },
+  {
+   "author_id": 70114,
+   "body": "I'd like to give in memory of my husband.",
+   "created_at": "2026-10-08T09:00:00Z",
+   "id": 61100,
+   "public": true,
+   "ticket_id": 6110
+  },
+  {
+   "author_id": 71001,
+   "body": "In-memory fund set up.",
+   "created_at": "2026-10-08T10:00:00Z",
+   "id": 61101,
+   "public": false,
+   "ticket_id": 6110
+  },
+  {
+   "author_id": 71001,
+   "body": "We've set up a tribute fund.",
+   "created_at": "2026-10-08T11:00:00Z",
+   "id": 61102,
+   "public": true,
+   "ticket_id": 6110
+  },
+  {
+   "author_id": 70115,
+   "body": "Can you collect a wardrobe?",
+   "created_at": "2026-10-10T10:00:00Z",
+   "id": 61110,
+   "public": true,
+   "ticket_id": 6111
+  },
+  {
+   "author_id": 71002,
+   "body": "Passed to retail.",
+   "created_at": "2026-10-10T11:00:00Z",
+   "id": 61111,
+   "public": false,
+   "ticket_id": 6111
+  },
+  {
+   "author_id": 71002,
+   "body": "Retail will call you.",
+   "created_at": "2026-10-10T12:00:00Z",
+   "id": 61112,
+   "public": true,
+   "ticket_id": 6111
+  },
+  {
+   "author_id": 70116,
+   "body": "Where is the hospice cheer point?",
+   "created_at": "2026-10-12T11:00:00Z",
+   "id": 61120,
+   "public": true,
+   "ticket_id": 6112
+  },
+  {
+   "author_id": 71001,
+   "body": "Sent the cheer point plan.",
+   "created_at": "2026-10-12T12:00:00Z",
+   "id": 61121,
+   "public": false,
+   "ticket_id": 6112
+  },
+  {
+   "author_id": 71001,
+   "body": "Mile 20, by the lifeboat station.",
+   "created_at": "2026-10-12T13:00:00Z",
+   "id": 61122,
+   "public": true,
+   "ticket_id": 6112
+  },
+  {
+   "author_id": 70117,
+   "body": "Can I leave a bag at the tent?",
+   "created_at": "2026-10-14T12:00:00Z",
+   "id": 61130,
+   "public": true,
+   "ticket_id": 6113
+  },
+  {
+   "author_id": 71002,
+   "body": "Yes, tent bag drop.",
+   "created_at": "2026-10-14T13:00:00Z",
+   "id": 61131,
+   "public": false,
+   "ticket_id": 6113
+  },
+  {
+   "author_id": 71002,
+   "body": "Yes - labelled bags at the tent.",
+   "created_at": "2026-10-14T14:00:00Z",
+   "id": 61132,
+   "public": true,
+   "ticket_id": 6113
+  },
+  {
+   "author_id": 70118,
+   "body": "Can I add Gift Aid to raffle tickets?",
+   "created_at": "2026-10-16T13:00:00Z",
+   "id": 61140,
+   "public": true,
+   "ticket_id": 6114
+  },
+  {
+   "author_id": 71001,
+   "body": "Explained raffle tickets are not gifts.",
+   "created_at": "2026-10-16T14:00:00Z",
+   "id": 61141,
+   "public": false,
+   "ticket_id": 6114
+  },
+  {
+   "author_id": 71001,
+   "body": "Raffle tickets can't carry Gift Aid, sorry.",
+   "created_at": "2026-10-16T15:00:00Z",
+   "id": 61142,
+   "public": true,
+   "ticket_id": 6114
+  },
+  {
+   "author_id": 70119,
+   "body": "I'm getting your newsletter twice.",
+   "created_at": "2026-10-18T09:00:00Z",
+   "id": 61150,
+   "public": true,
+   "ticket_id": 6115
+  },
+  {
+   "author_id": 71002,
+   "body": "Duplicate supporter record merged.",
+   "created_at": "2026-10-18T10:00:00Z",
+   "id": 61151,
+   "public": false,
+   "ticket_id": 6115
+  },
+  {
+   "author_id": 71002,
+   "body": "Merged - you'll get one copy now.",
+   "created_at": "2026-10-18T11:00:00Z",
+   "id": 61152,
+   "public": true,
+   "ticket_id": 6115
+  },
+  {
+   "author_id": 70120,
+   "body": "Our club wants to donate to the team.",
+   "created_at": "2026-10-20T10:00:00Z",
+   "id": 61160,
+   "public": true,
+   "ticket_id": 6116
+  },
+  {
+   "author_id": 71001,
+   "body": "Company/club gift - no Gift Aid.",
+   "created_at": "2026-10-20T11:00:00Z",
+   "id": 61161,
+   "public": false,
+   "ticket_id": 6116
+  },
+  {
+   "author_id": 71001,
+   "body": "Thank you - here's how.",
+   "created_at": "2026-10-20T12:00:00Z",
+   "id": 61162,
+   "public": true,
+   "ticket_id": 6116
+  },
+  {
+   "author_id": 70121,
+   "body": "I'd love to volunteer at the tent next year.",
+   "created_at": "2026-10-22T11:00:00Z",
+   "id": 61170,
+   "public": true,
+   "ticket_id": 6117
+  },
+  {
+   "author_id": 71002,
+   "body": "Added to volunteer list.",
+   "created_at": "2026-10-22T12:00:00Z",
+   "id": 61171,
+   "public": false,
+   "ticket_id": 6117
+  },
+  {
+   "author_id": 71002,
+   "body": "Added you, Rita.",
+   "created_at": "2026-10-22T13:00:00Z",
+   "id": 61172,
+   "public": true,
+   "ticket_id": 6117
+  },
+  {
+   "author_id": 70122,
+   "body": "I didn't get a hospice medal at the finish.",
+   "created_at": "2026-10-24T12:00:00Z",
+   "id": 61180,
+   "public": true,
+   "ticket_id": 6118
+  },
+  {
+   "author_id": 71001,
+   "body": "Posting a spare.",
+   "created_at": "2026-10-24T13:00:00Z",
+   "id": 61181,
+   "public": false,
+   "ticket_id": 6118
+  },
+  {
+   "author_id": 71001,
+   "body": "One is in the post, Oskar.",
+   "created_at": "2026-10-24T14:00:00Z",
+   "id": 61182,
+   "public": true,
+   "ticket_id": 6118
+  },
+  {
+   "author_id": 70123,
+   "body": "Just wanted to say thank you for the support.",
+   "created_at": "2026-10-26T13:00:00Z",
+   "id": 61190,
+   "public": true,
+   "ticket_id": 6119
+  },
+  {
+   "author_id": 71002,
+   "body": "Shared with the team.",
+   "created_at": "2026-10-26T14:00:00Z",
+   "id": 61191,
+   "public": false,
+   "ticket_id": 6119
+  },
+  {
+   "author_id": 71002,
+   "body": "Thank you, Meredith!",
+   "created_at": "2026-10-26T15:00:00Z",
+   "id": 61192,
+   "public": true,
+   "ticket_id": 6119
+  },
+  {
+   "author_id": 70124,
+   "body": "Please change my direct debit date.",
+   "created_at": "2026-10-28T09:00:00Z",
+   "id": 61200,
+   "public": true,
+   "ticket_id": 6120
+  },
+  {
+   "author_id": 71001,
+   "body": "DD date moved to the 15th.",
+   "created_at": "2026-10-28T10:00:00Z",
+   "id": 61201,
+   "public": false,
+   "ticket_id": 6120
+  },
+  {
+   "author_id": 71001,
+   "body": "Done.",
+   "created_at": "2026-10-28T11:00:00Z",
+   "id": 61202,
+   "public": true,
+   "ticket_id": 6120
+  },
+  {
+   "author_id": 70125,
+   "body": "Can I buy a hospice T-shirt?",
+   "created_at": "2026-10-30T10:00:00Z",
+   "id": 61210,
+   "public": true,
+   "ticket_id": 6121
+  },
+  {
+   "author_id": 71002,
+   "body": "Shop link sent.",
+   "created_at": "2026-10-30T11:00:00Z",
+   "id": 61211,
+   "public": false,
+   "ticket_id": 6121
+  },
+  {
+   "author_id": 71002,
+   "body": "Here's the shop link.",
+   "created_at": "2026-10-30T12:00:00Z",
+   "id": 61212,
+   "public": true,
+   "ticket_id": 6121
+  },
+  {
+   "author_id": 70126,
+   "body": "Where do I send a cheque?",
+   "created_at": "2026-11-01T11:00:00Z",
+   "id": 61220,
+   "public": true,
+   "ticket_id": 6122
+  },
+  {
+   "author_id": 71001,
+   "body": "Gave the hospice address.",
+   "created_at": "2026-11-01T12:00:00Z",
+   "id": 61221,
+   "public": false,
+   "ticket_id": 6122
+  },
+  {
+   "author_id": 71001,
+   "body": "Send it to the hospice, FAO Fundraising.",
+   "created_at": "2026-11-01T13:00:00Z",
+   "id": 61222,
+   "public": true,
+   "ticket_id": 6122
+  },
+  {
+   "author_id": 70127,
+   "body": "Please add me to your newsletter.",
+   "created_at": "2026-11-03T12:00:00Z",
+   "id": 61230,
+   "public": true,
+   "ticket_id": 6123
+  },
+  {
+   "author_id": 71002,
+   "body": "Added with consent recorded.",
+   "created_at": "2026-11-03T13:00:00Z",
+   "id": 61231,
+   "public": false,
+   "ticket_id": 6123
+  },
+  {
+   "author_id": 71002,
+   "body": "You're on the list.",
+   "created_at": "2026-11-03T14:00:00Z",
+   "id": 61232,
+   "public": true,
+   "ticket_id": 6123
+  }
+ ]
+}

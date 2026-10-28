@@ -1,0 +1,493 @@
+{
+ "employees": [
+  {
+   "department": "Executive",
+   "firstName": "Rowena",
+   "hireDate": "2014-04-07",
+   "id": "emp-llh01",
+   "jobTitle": "Chief Executive",
+   "lastName": "Castellan",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": null,
+   "workEmail": "rowena.castellan@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Vanessa",
+   "hireDate": "2017-09-04",
+   "id": "emp-llh02",
+   "jobTitle": "Director of Income",
+   "lastName": "Hartigan",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "vanessa.hartigan@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Owain",
+   "hireDate": "2019-02-11",
+   "id": "emp-llh03",
+   "jobTitle": "Head of Events",
+   "lastName": "Petheridge",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh02",
+   "workEmail": "owain.petheridge@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Bethan",
+   "hireDate": "2020-06-01",
+   "id": "emp-llh04",
+   "jobTitle": "Events Fundraising Manager",
+   "lastName": "Coleridge",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh03",
+   "workEmail": "bethan.coleridge@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Saskia",
+   "hireDate": "2021-03-15",
+   "id": "emp-llh05",
+   "jobTitle": "Senior Events Officer",
+   "lastName": "Lomond",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh04",
+   "workEmail": "saskia.lomond@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Ffion",
+   "hireDate": "2024-01-08",
+   "id": "emp-llh06",
+   "jobTitle": "Events Assistant",
+   "lastName": "Maddox",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh05",
+   "workEmail": "ffion.maddox@linnetlane.example"
+  },
+  {
+   "department": "Supporter Care",
+   "firstName": "Callum",
+   "hireDate": "2022-05-03",
+   "id": "emp-llh07",
+   "jobTitle": "Data and Gift Aid Officer",
+   "lastName": "Treharne",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh09",
+   "workEmail": "callum.treharne@linnetlane.example"
+  },
+  {
+   "department": "Finance",
+   "firstName": "Marcus",
+   "hireDate": "2018-10-22",
+   "id": "emp-llh08",
+   "jobTitle": "Finance Officer",
+   "lastName": "Delacour",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh12",
+   "workEmail": "marcus.delacour@linnetlane.example"
+  },
+  {
+   "department": "Supporter Care",
+   "firstName": "Nia",
+   "hireDate": "2016-07-18",
+   "id": "emp-llh09",
+   "jobTitle": "Supporter Care Manager",
+   "lastName": "Abernethy",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh02",
+   "workEmail": "nia.abernethy@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Tomasz",
+   "hireDate": "2023-02-27",
+   "id": "emp-llh10",
+   "jobTitle": "Community Fundraiser",
+   "lastName": "Wieczorek",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh04",
+   "workEmail": "tomasz.wieczorek@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Joanna",
+   "hireDate": "2019-11-04",
+   "id": "emp-llh11",
+   "jobTitle": "Corporate Partnerships Lead",
+   "lastName": "Strickland",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh02",
+   "workEmail": "joanna.strickland@linnetlane.example"
+  },
+  {
+   "department": "Finance",
+   "firstName": "Hywel",
+   "hireDate": "2015-01-12",
+   "id": "emp-llh12",
+   "jobTitle": "Head of Finance",
+   "lastName": "Brannigan",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "hywel.brannigan@linnetlane.example"
+  },
+  {
+   "department": "Fundraising",
+   "firstName": "Imani",
+   "hireDate": "2021-08-16",
+   "id": "emp-llh13",
+   "jobTitle": "Lottery Manager",
+   "lastName": "Osei",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh02",
+   "workEmail": "imani.osei@linnetlane.example"
+  },
+  {
+   "department": "Retail",
+   "firstName": "Lorcan",
+   "hireDate": "2018-03-05",
+   "id": "emp-llh14",
+   "jobTitle": "Retail Manager",
+   "lastName": "Featherstone",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "lorcan.featherstone@linnetlane.example"
+  },
+  {
+   "department": "People",
+   "firstName": "Delphine",
+   "hireDate": "2020-09-14",
+   "id": "emp-llh15",
+   "jobTitle": "Volunteer Coordinator",
+   "lastName": "Ashcombe",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh16",
+   "workEmail": "delphine.ashcombe@linnetlane.example"
+  },
+  {
+   "department": "People",
+   "firstName": "Grace",
+   "hireDate": "2017-05-22",
+   "id": "emp-llh16",
+   "jobTitle": "HR Manager",
+   "lastName": "Ellingham",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "grace.ellingham@linnetlane.example"
+  },
+  {
+   "department": "Marketing",
+   "firstName": "Pavel",
+   "hireDate": "2022-10-03",
+   "id": "emp-llh17",
+   "jobTitle": "Digital Officer",
+   "lastName": "Horvath",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh18",
+   "workEmail": "pavel.horvath@linnetlane.example"
+  },
+  {
+   "department": "Marketing",
+   "firstName": "Kirsty",
+   "hireDate": "2016-02-29",
+   "id": "emp-llh18",
+   "jobTitle": "Head of Marketing",
+   "lastName": "Mabey",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "kirsty.mabey@linnetlane.example"
+  },
+  {
+   "department": "Supporter Care",
+   "firstName": "Anwen",
+   "hireDate": "2023-06-12",
+   "id": "emp-llh19",
+   "jobTitle": "Supporter Care Officer",
+   "lastName": "Rees-Tudor",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh09",
+   "workEmail": "anwen.rees-tudor@linnetlane.example"
+  },
+  {
+   "department": "Clinical",
+   "firstName": "Benedict",
+   "hireDate": "2013-09-02",
+   "id": "emp-llh20",
+   "jobTitle": "Clinical Director",
+   "lastName": "Larkham",
+   "location": "Linnet Lane Hospice, Port Cressing",
+   "status": "active",
+   "supervisorId": "emp-llh01",
+   "workEmail": "benedict.larkham@linnetlane.example"
+  }
+ ],
+ "time_off": [
+  {
+   "amount": 10,
+   "created": "2026-09-07",
+   "employeeId": "emp-llh03",
+   "end": "2026-10-30",
+   "id": "tor-llh001",
+   "notes": "Half term with the family.",
+   "start": "2026-10-19",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-10-01",
+   "employeeId": "emp-llh03",
+   "end": "2026-11-06",
+   "id": "tor-llh002",
+   "notes": "Cancelled - staying in for the Kestrel close.",
+   "start": "2026-11-02",
+   "status": "canceled",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 10,
+   "created": "2026-06-02",
+   "employeeId": "emp-llh05",
+   "end": "2026-08-21",
+   "id": "tor-llh003",
+   "notes": "Summer holiday.",
+   "start": "2026-08-10",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-10-12",
+   "employeeId": "emp-llh07",
+   "end": "2026-11-20",
+   "id": "tor-llh004",
+   "notes": "Week off after the close.",
+   "start": "2026-11-16",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 2,
+   "created": "2026-10-14",
+   "employeeId": "emp-llh08",
+   "end": "2026-10-13",
+   "id": "tor-llh005",
+   "notes": "Migraine.",
+   "start": "2026-10-12",
+   "status": "approved",
+   "type": "Sick",
+   "unit": "days"
+  },
+  {
+   "amount": 7,
+   "created": "2026-10-30",
+   "employeeId": "emp-llh04",
+   "end": "2026-12-31",
+   "id": "tor-llh006",
+   "notes": "Christmas.",
+   "start": "2026-12-21",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 2,
+   "created": "2026-10-06",
+   "employeeId": "emp-llh06",
+   "end": "2026-10-27",
+   "id": "tor-llh007",
+   "notes": "Long weekend.",
+   "start": "2026-10-26",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 1,
+   "created": "2026-10-20",
+   "employeeId": "emp-llh10",
+   "end": "2026-11-11",
+   "id": "tor-llh008",
+   "notes": "Legacy giving course.",
+   "start": "2026-11-11",
+   "status": "approved",
+   "type": "Training",
+   "unit": "days"
+  },
+  {
+   "amount": 3,
+   "created": "2026-10-02",
+   "employeeId": "emp-llh02",
+   "end": "2026-10-30",
+   "id": "tor-llh009",
+   "notes": "Short break.",
+   "start": "2026-10-28",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-08-30",
+   "employeeId": "emp-llh09",
+   "end": "2026-10-09",
+   "id": "tor-llh010",
+   "notes": "Clashes with race follow-up week.",
+   "start": "2026-10-05",
+   "status": "denied",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-07-21",
+   "employeeId": "emp-llh13",
+   "end": "2026-09-18",
+   "id": "tor-llh011",
+   "notes": "Walking holiday.",
+   "start": "2026-09-14",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 2,
+   "created": "2026-10-15",
+   "employeeId": "emp-llh15",
+   "end": "2026-10-16",
+   "id": "tor-llh012",
+   "notes": "",
+   "start": "2026-10-15",
+   "status": "approved",
+   "type": "Bereavement",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-11-04",
+   "employeeId": "emp-llh17",
+   "end": "2026-12-11",
+   "id": "tor-llh013",
+   "notes": "Pending manager approval.",
+   "start": "2026-12-07",
+   "status": "requested",
+   "type": "Vacation",
+   "unit": "days"
+  },
+  {
+   "amount": 5,
+   "created": "2026-10-19",
+   "employeeId": "emp-llh11",
+   "end": "2026-11-27",
+   "id": "tor-llh014",
+   "notes": "",
+   "start": "2026-11-23",
+   "status": "approved",
+   "type": "Vacation",
+   "unit": "days"
+  }
+ ],
+ "whos_out": [
+  {
+   "employeeId": "emp-llh03",
+   "end": "2026-10-30",
+   "id": "wo-llh001",
+   "start": "2026-10-19",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh05",
+   "end": "2026-08-21",
+   "id": "wo-llh003",
+   "start": "2026-08-10",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh07",
+   "end": "2026-11-20",
+   "id": "wo-llh004",
+   "start": "2026-11-16",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh08",
+   "end": "2026-10-13",
+   "id": "wo-llh005",
+   "start": "2026-10-12",
+   "type": "Sick"
+  },
+  {
+   "employeeId": "emp-llh04",
+   "end": "2026-12-31",
+   "id": "wo-llh006",
+   "start": "2026-12-21",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh06",
+   "end": "2026-10-27",
+   "id": "wo-llh007",
+   "start": "2026-10-26",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh10",
+   "end": "2026-11-11",
+   "id": "wo-llh008",
+   "start": "2026-11-11",
+   "type": "Training"
+  },
+  {
+   "employeeId": "emp-llh02",
+   "end": "2026-10-30",
+   "id": "wo-llh009",
+   "start": "2026-10-28",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh13",
+   "end": "2026-09-18",
+   "id": "wo-llh011",
+   "start": "2026-09-14",
+   "type": "Vacation"
+  },
+  {
+   "employeeId": "emp-llh15",
+   "end": "2026-10-16",
+   "id": "wo-llh012",
+   "start": "2026-10-15",
+   "type": "Bereavement"
+  },
+  {
+   "employeeId": "emp-llh11",
+   "end": "2026-11-27",
+   "id": "wo-llh014",
+   "start": "2026-11-23",
+   "type": "Vacation"
+  }
+ ]
+}

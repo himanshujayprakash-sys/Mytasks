@@ -1,0 +1,690 @@
+{
+ "customers": [
+  {
+   "Id": "91701",
+   "DisplayName": "Rotary Club of Wantage",
+   "PrimaryEmailAddr": {
+    "Address": "secretary@wantage-rotary.example"
+   },
+   "Balance": 283.5,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  },
+  {
+   "Id": "91702",
+   "DisplayName": "Cholsey Women's Institute",
+   "PrimaryEmailAddr": {
+    "Address": "cholsey.wi@inbox.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  },
+  {
+   "Id": "91703",
+   "DisplayName": "Lamb, Kirsty",
+   "PrimaryEmailAddr": {
+    "Address": "kirsty.lamb@inbox.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  },
+  {
+   "Id": "91704",
+   "DisplayName": "East Hendred Walking Group",
+   "PrimaryEmailAddr": {
+    "Address": "walks@easthendred.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  },
+  {
+   "Id": "91705",
+   "DisplayName": "Vale Hospice Friends",
+   "PrimaryEmailAddr": {
+    "Address": "friends@vale-hospice.example"
+   },
+   "Balance": 60.0,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  },
+  {
+   "Id": "91706",
+   "DisplayName": "Teale, Graham",
+   "PrimaryEmailAddr": {
+    "Address": "graham.teale@inbox.example"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Cafe group booking customer"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "91711",
+   "DisplayName": "Hillside Roasters",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 801111"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  },
+  {
+   "Id": "91712",
+   "DisplayName": "Downs Dairy",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 802222"
+   },
+   "Balance": 148.2,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  },
+  {
+   "Id": "91713",
+   "DisplayName": "Abbey Linen Hire",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 803333"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  },
+  {
+   "Id": "91714",
+   "DisplayName": "Grove Bakery",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 804444"
+   },
+   "Balance": 96.0,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  },
+  {
+   "Id": "91715",
+   "DisplayName": "Clearwater Cleaning Supplies",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 805555"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  },
+  {
+   "Id": "91716",
+   "DisplayName": "PayPoint Terminals",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01235 806666"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Cafe supplier"
+  }
+ ],
+ "items": [
+  {
+   "Id": "91721",
+   "Name": "Afternoon tea for two",
+   "Description": "Sandwiches, scones and a pot of tea for two",
+   "Type": "Service",
+   "UnitPrice": 24.0,
+   "IncomeAccountRef": {
+    "value": "9171",
+    "name": "Cafe Income"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2027-03-01 08:00:00",
+    "LastUpdatedTime": "2027-03-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91722",
+   "Name": "Group lunch per head",
+   "Description": "Soup, sandwich and cake for groups of ten or more",
+   "Type": "Service",
+   "UnitPrice": 13.5,
+   "IncomeAccountRef": {
+    "value": "9171",
+    "name": "Cafe Income"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2027-03-01 08:00:00",
+    "LastUpdatedTime": "2027-03-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91723",
+   "Name": "Back room hire, half day",
+   "Description": "Cafe back room, morning or afternoon",
+   "Type": "Service",
+   "UnitPrice": 60.0,
+   "IncomeAccountRef": {
+    "value": "9171",
+    "name": "Cafe Income"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2027-03-01 08:00:00",
+    "LastUpdatedTime": "2027-03-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91724",
+   "Name": "Children's party package",
+   "Description": "Room, squash and party tea for up to fifteen",
+   "Type": "Service",
+   "UnitPrice": 165.0,
+   "IncomeAccountRef": {
+    "value": "9171",
+    "name": "Cafe Income"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2027-03-01 08:00:00",
+    "LastUpdatedTime": "2027-03-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91725",
+   "Name": "Coffee and cake for groups",
+   "Description": "Hot drink and a slice of cake per person",
+   "Type": "Service",
+   "UnitPrice": 6.5,
+   "IncomeAccountRef": {
+    "value": "9171",
+    "name": "Cafe Income"
+   },
+   "Active": true,
+   "Taxable": true,
+   "MetaData": {
+    "CreateTime": "2027-03-01 08:00:00",
+    "LastUpdatedTime": "2027-03-01 08:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "91731",
+   "DocNumber": "TC-2027-041",
+   "TxnDate": "2027-04-14",
+   "DueDate": "2027-04-28",
+   "CustomerRef": {
+    "value": "91701",
+    "name": "Rotary Club of Wantage"
+   },
+   "Line": [
+    {
+     "Amount": 243.0,
+     "Description": "Group lunch, 18 members",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 243.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91732",
+   "DocNumber": "TC-2027-047",
+   "TxnDate": "2027-04-29",
+   "DueDate": "2027-05-13",
+   "CustomerRef": {
+    "value": "91702",
+    "name": "Cholsey Women's Institute"
+   },
+   "Line": [
+    {
+     "Amount": 156.0,
+     "Description": "Coffee and cake, 24 members",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 156.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91733",
+   "DocNumber": "TC-2027-052",
+   "TxnDate": "2027-05-12",
+   "DueDate": "2027-05-26",
+   "CustomerRef": {
+    "value": "91704",
+    "name": "East Hendred Walking Group"
+   },
+   "Line": [
+    {
+     "Amount": 104.0,
+     "Description": "Coffee and cake after the walk, 16 people",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 104.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91734",
+   "DocNumber": "TC-2027-058",
+   "TxnDate": "2027-05-26",
+   "DueDate": "2027-06-09",
+   "CustomerRef": {
+    "value": "91705",
+    "name": "Vale Hospice Friends"
+   },
+   "Line": [
+    {
+     "Amount": 60.0,
+     "Description": "Back room hire for the committee",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 60.0,
+   "Balance": 60.0,
+   "Status": "Open"
+  },
+  {
+   "Id": "91735",
+   "DocNumber": "TC-2027-061",
+   "TxnDate": "2027-06-03",
+   "DueDate": "2027-06-17",
+   "CustomerRef": {
+    "value": "91701",
+    "name": "Rotary Club of Wantage"
+   },
+   "Line": [
+    {
+     "Amount": 283.5,
+     "Description": "Group lunch, 21 members",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 283.5,
+   "Balance": 283.5,
+   "Status": "Open"
+  },
+  {
+   "Id": "91736",
+   "DocNumber": "TC-2027-063",
+   "TxnDate": "2027-06-04",
+   "DueDate": "2027-06-18",
+   "CustomerRef": {
+    "value": "91703",
+    "name": "Lamb, Kirsty"
+   },
+   "Line": [
+    {
+     "Amount": 50.0,
+     "Description": "Children's party deposit, 3 July",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Cafe catering"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 50.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "91741",
+   "DocNumber": "HR-5521",
+   "VendorRef": {
+    "value": "91711",
+    "name": "Hillside Roasters"
+   },
+   "TxnDate": "2027-05-05",
+   "DueDate": "2027-05-19",
+   "Line": [
+    {
+     "Amount": 112.0,
+     "Description": "Coffee beans, two bags",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 112.0,
+   "Balance": 0.0,
+   "PrivateNote": "Cafe account"
+  },
+  {
+   "Id": "91742",
+   "DocNumber": "DD-0612",
+   "VendorRef": {
+    "value": "91712",
+    "name": "Downs Dairy"
+   },
+   "TxnDate": "2027-06-01",
+   "DueDate": "2027-06-15",
+   "Line": [
+    {
+     "Amount": 148.2,
+     "Description": "Milk and cream, May",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 148.2,
+   "Balance": 148.2,
+   "PrivateNote": "Cafe account"
+  },
+  {
+   "Id": "91743",
+   "DocNumber": "AL-3307",
+   "VendorRef": {
+    "value": "91713",
+    "name": "Abbey Linen Hire"
+   },
+   "TxnDate": "2027-05-28",
+   "DueDate": "2027-06-11",
+   "Line": [
+    {
+     "Amount": 64.8,
+     "Description": "Tablecloths and tea towels, May",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 64.8,
+   "Balance": 0.0,
+   "PrivateNote": "Cafe account"
+  },
+  {
+   "Id": "91744",
+   "DocNumber": "GB-0219",
+   "VendorRef": {
+    "value": "91714",
+    "name": "Grove Bakery"
+   },
+   "TxnDate": "2027-06-02",
+   "DueDate": "2027-06-16",
+   "Line": [
+    {
+     "Amount": 96.0,
+     "Description": "Bread and scones, last week of May",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 96.0,
+   "Balance": 96.0,
+   "PrivateNote": "Cafe account"
+  },
+  {
+   "Id": "91745",
+   "DocNumber": "CC-7781",
+   "VendorRef": {
+    "value": "91715",
+    "name": "Clearwater Cleaning Supplies"
+   },
+   "TxnDate": "2027-05-15",
+   "DueDate": "2027-05-29",
+   "Line": [
+    {
+     "Amount": 58.4,
+     "Description": "Dishwasher tablets and sanitiser",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 58.4,
+   "Balance": 0.0,
+   "PrivateNote": "Cafe account"
+  },
+  {
+   "Id": "91746",
+   "DocNumber": "PP-1190",
+   "VendorRef": {
+    "value": "91716",
+    "name": "PayPoint Terminals"
+   },
+   "TxnDate": "2027-06-01",
+   "DueDate": "2027-06-15",
+   "Line": [
+    {
+     "Amount": 19.99,
+     "Description": "Card terminal rental, June",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cafe Purchases",
+       "value": "9172"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 19.99,
+   "Balance": 0.0,
+   "PrivateNote": "Cafe account"
+  }
+ ],
+ "payments": [
+  {
+   "Id": "91750",
+   "TxnDate": "2027-04-20",
+   "CustomerRef": {
+    "value": "91701",
+    "name": "Rotary Club of Wantage"
+   },
+   "TotalAmt": 243.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91731",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 243.0
+    }
+   ],
+   "PrivateNote": "Bank transfer"
+  },
+  {
+   "Id": "91751",
+   "TxnDate": "2027-05-03",
+   "CustomerRef": {
+    "value": "91702",
+    "name": "Cholsey Women's Institute"
+   },
+   "TotalAmt": 156.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91732",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 156.0
+    }
+   ],
+   "PrivateNote": "Cheque"
+  },
+  {
+   "Id": "91752",
+   "TxnDate": "2027-05-12",
+   "CustomerRef": {
+    "value": "91704",
+    "name": "East Hendred Walking Group"
+   },
+   "TotalAmt": 104.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91733",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 104.0
+    }
+   ],
+   "PrivateNote": "Card in the cafe"
+  },
+  {
+   "Id": "91753",
+   "TxnDate": "2027-06-04",
+   "CustomerRef": {
+    "value": "91703",
+    "name": "Lamb, Kirsty"
+   },
+   "TotalAmt": 50.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91736",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 50.0
+    }
+   ],
+   "PrivateNote": "Card in the cafe"
+  }
+ ],
+ "estimates": [
+  {
+   "Id": "91761",
+   "DocNumber": "TE-2027-009",
+   "TxnDate": "2027-06-02",
+   "ExpirationDate": "2027-07-02",
+   "CustomerRef": {
+    "value": "91705",
+    "name": "Vale Hospice Friends"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 270.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Afternoon tea for a summer fundraiser, 20 guests",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "91721",
+       "name": "Afternoon tea for two"
+      },
+      "UnitPrice": 27.0,
+      "Qty": 10
+     }
+    }
+   ],
+   "TotalAmt": 270.0,
+   "TxnStatus": "Pending",
+   "AcceptedDate": "",
+   "MetaData": {
+    "CreateTime": "2027-06-02 10:00:00",
+    "LastUpdatedTime": "2027-06-02 10:00:00"
+   },
+   "SyncToken": "0",
+   "LinkedTxn": []
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "91770",
+   "TxnDate": "2027-05-08",
+   "TotalAmt": 23.4,
+   "Line": [
+    {
+     "Description": "Bunting for the cafe terrace",
+     "Amount": 23.4
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2027-05-08T09:00:00"
+   }
+  },
+  {
+   "Id": "91771",
+   "TxnDate": "2027-05-22",
+   "TotalAmt": 41.0,
+   "Line": [
+    {
+     "Description": "Replacement milk jugs",
+     "Amount": 41.0
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2027-05-22T09:00:00"
+   }
+  },
+  {
+   "Id": "91772",
+   "TxnDate": "2027-06-03",
+   "TotalAmt": 17.85,
+   "Line": [
+    {
+     "Description": "Chalk pens for the menu board",
+     "Amount": 17.85
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2027-06-03T09:00:00"
+   }
+  }
+ ]
+}

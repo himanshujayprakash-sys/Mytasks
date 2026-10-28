@@ -1,0 +1,54 @@
+Ashgrove weather station plan (rev B, 2026-03)
+Drawing: Ashgrove weather station plan (rev B, 2026-03)
+
+Stations:
+- WS-Northfell: Met Office synoptic station
+- WS-Cragmouth: Met Office synoptic station
+- WS-Saltney: Met Office synoptic station
+- WS-Ferrybridge: Met Office synoptic station
+
+District-to-station assignment:
+- AG1 -> WS-Northfell
+- AG2 -> WS-Northfell
+- AG3 -> WS-Northfell
+- AG4 -> WS-Northfell
+- AG5 -> WS-Northfell
+- AG6 -> WS-Northfell
+- AG7 -> WS-Northfell
+- AG8 -> WS-Northfell
+- AG9 -> WS-Northfell
+- AG10 -> WS-Northfell
+- AG11 -> WS-Cragmouth
+- AG12 -> WS-Cragmouth
+- AG13 -> WS-Cragmouth
+- AG14 -> WS-Cragmouth
+- AG15 -> WS-Cragmouth
+- AG16 -> WS-Cragmouth
+- AG17 -> WS-Cragmouth
+- AG18 -> WS-Cragmouth
+- AG19 -> WS-Cragmouth
+- AG20 -> WS-Cragmouth
+- AG21 -> WS-Saltney
+- AG22 -> WS-Saltney
+- AG23 -> WS-Saltney
+- AG24 -> WS-Saltney
+- AG25 -> WS-Saltney
+- AG26 -> WS-Saltney
+- AG27 -> WS-Saltney
+- AG28 -> WS-Saltney
+- AG29 -> WS-Saltney
+- AG30 -> WS-Saltney
+- AG31 -> WS-Ferrybridge
+- AG32 -> WS-Ferrybridge
+- AG33 -> WS-Ferrybridge
+- AG34 -> WS-Ferrybridge
+- AG35 -> WS-Ferrybridge
+- AG36 -> WS-Ferrybridge
+- AG37 -> WS-Ferrybridge
+- AG38 -> WS-Ferrybridge
+- AG39 -> WS-Ferrybridge
+- AG40 -> WS-Ferrybridge
+
+Notes:
+- Each postcode district is assigned the nearest station with a full gust record.
+- Gusts are logged per station per day, not per district.

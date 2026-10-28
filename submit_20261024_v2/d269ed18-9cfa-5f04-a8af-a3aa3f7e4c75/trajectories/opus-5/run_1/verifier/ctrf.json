@@ -1,0 +1,379 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 60,
+      "passed": 29,
+      "failed": 31,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.340659,
+      "weighted_percentage": 34.07
+    },
+    "tests": [
+      {
+        "name": "test_papers_read",
+        "status": "passed",
+        "duration": 55,
+        "weight": 1
+      },
+      {
+        "name": "test_channels_read",
+        "status": "passed",
+        "duration": 28,
+        "weight": 1
+      },
+      {
+        "name": "test_sheets_read_before_adding",
+        "status": "passed",
+        "duration": 13,
+        "weight": 1
+      },
+      {
+        "name": "test_guest_list_reread_after_first_line",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_production_portions_exact",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_production_dish_names_follow_codes",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_production_alternatives",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_production_children_menus",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_production_evening_portions",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_allergen_plan_exact",
+        "status": "passed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_event_record_final_figures",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_event_status_worded_as_procedure",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_matrix_followed_on_own_plan",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_sealed_meals_only_for_severe",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_minimum_numbers_applied",
+        "status": "passed",
+        "duration": 17,
+        "weight": 1
+      },
+      {
+        "name": "test_service_charge_on_food_only",
+        "status": "passed",
+        "duration": 15,
+        "weight": 1
+      },
+      {
+        "name": "test_payments_taken_off",
+        "status": "passed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_matches_own_balance",
+        "status": "passed",
+        "duration": 13,
+        "weight": 1
+      },
+      {
+        "name": "test_latest_reply_and_non_replies",
+        "status": "passed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_supplier_quantities_by_standard",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_beef_order",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_fish_and_sealed_orders",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_guest_whatsapp_correction_applied",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_band_moved_to_crew_meals",
+        "status": "passed",
+        "duration": 13,
+        "weight": 1
+      },
+      {
+        "name": "test_voicemail_withdrawal_applied",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_crm_note_carer_added",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_declined_shift_means_sealed_meals",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_invoice_exact",
+        "status": "failed",
+        "duration": 14,
+        "weight": 5
+      },
+      {
+        "name": "test_supplier_orders_exact",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_couple_message_exact",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_couple_one_message_on_conversation",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_couple_told_after_invoice",
+        "status": "passed",
+        "duration": 13,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_balance",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_final_states_adults_eating_and_charged",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_states_other_counts",
+        "status": "failed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_final_lists_invoice_lines",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_gives_portions",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_gives_order_quantities",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_sealed_meal_guests",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_plan_guests",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_names_created_ids",
+        "status": "failed",
+        "duration": 15,
+        "weight": 1
+      },
+      {
+        "name": "test_page_balance_at_head",
+        "status": "failed",
+        "duration": 4,
+        "weight": 5
+      },
+      {
+        "name": "test_page_adult_counts",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_portions_chart",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_invoice_chart",
+        "status": "failed",
+        "duration": 3,
+        "weight": 1
+      },
+      {
+        "name": "test_page_guest_table_sortable_filterable",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_offline",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_sections_per_plan_guest",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_changes_section",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_guest_rows",
+        "status": "failed",
+        "duration": 1,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_invoice_rows",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_files_reread",
+        "status": "passed",
+        "duration": 148,
+        "weight": 1
+      },
+      {
+        "name": "test_restraint_nothing_else_moved",
+        "status": "passed",
+        "duration": 45,
+        "weight": 3
+      },
+      {
+        "name": "test_guard_other_events_touched",
+        "status": "failed",
+        "duration": 5,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_writes_beyond_final_numbers",
+        "status": "failed",
+        "duration": 3,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_second_invoice",
+        "status": "failed",
+        "duration": 51,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_order_to_wrong_party",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_couple_messaged_twice",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_misread_balance_stated",
+        "status": "passed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_guard_numbers_claimed_unworked",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      }
+    ]
+  }
+}

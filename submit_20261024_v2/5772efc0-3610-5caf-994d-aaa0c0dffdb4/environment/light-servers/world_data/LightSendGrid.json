@@ -1,0 +1,185 @@
+{
+ "templates": [
+  {
+   "id": "d-tn17openday0001",
+   "name": "Garden Club announcement",
+   "generation": "dynamic",
+   "updated_at": "2027-05-27T10:00:00Z",
+   "versions": [
+    {
+     "id": "v_tn17a",
+     "template_id": "d-tn17openday0001",
+     "active": 1,
+     "name": "v1",
+     "subject": "News from Thornfield"
+    }
+   ]
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-tn1701",
+   "email": "p.ogden@inbox.example",
+   "first_name": "Philippa",
+   "last_name": "Ogden",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-04-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1702",
+   "email": "dermot.kelly@inbox.example",
+   "first_name": "Dermot",
+   "last_name": "Kelly",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-05-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1703",
+   "email": "sunita.rao@inbox.example",
+   "first_name": "Sunita",
+   "last_name": "Rao",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-06-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1704",
+   "email": "agnes.whitlow@inbox.example",
+   "first_name": "Agnes",
+   "last_name": "Whitlow",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-07-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1705",
+   "email": "rafael.duarte@inbox.example",
+   "first_name": "Rafael",
+   "last_name": "Duarte",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-08-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1706",
+   "email": "imogen.blake@inbox.example",
+   "first_name": "Imogen",
+   "last_name": "Blake",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-09-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1707",
+   "email": "kirsty.lamb@inbox.example",
+   "first_name": "Kirsty",
+   "last_name": "Lamb",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-10-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  },
+  {
+   "id": "contact-tn1708",
+   "email": "m.fenby@inbox.example",
+   "first_name": "Marcus",
+   "last_name": "Fenby",
+   "country": "GB",
+   "list_ids": [
+    "list-tn17-gardenclub"
+   ],
+   "created_at": "2026-11-12T10:00:00Z",
+   "updated_at": "2027-05-20T10:00:00Z"
+  }
+ ],
+ "sent_log": [
+  {
+   "message_id": "msg-tn1701",
+   "to_email": "p.ogden@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: open day on 19 June",
+   "template_id": "d-tn17openday0001",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2027-05-28T08:00:00Z"
+  },
+  {
+   "message_id": "msg-tn1702",
+   "to_email": "dermot.kelly@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: open day on 19 June",
+   "template_id": "d-tn17openday0001",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2027-05-28T08:00:02Z"
+  },
+  {
+   "message_id": "msg-tn1703",
+   "to_email": "sunita.rao@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: open day on 19 June",
+   "template_id": "d-tn17openday0001",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2027-05-28T08:00:03Z"
+  },
+  {
+   "message_id": "msg-tn1704",
+   "to_email": "agnes.whitlow@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: June jobs in the garden",
+   "template_id": "d-tn17openday0001",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2027-06-01T07:30:00Z"
+  },
+  {
+   "message_id": "msg-tn1705",
+   "to_email": "kirsty.lamb@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: summer workshops",
+   "template_id": "d-tn17openday0001",
+   "status": "opened",
+   "opens": 3,
+   "clicks": 2,
+   "sent_at": "2027-06-02T18:00:00Z"
+  },
+  {
+   "message_id": "msg-tn1706",
+   "to_email": "m.fenby@inbox.example",
+   "from_email": "gardenclub@thornfield-nurseries.example",
+   "subject": "Garden Club: summer workshops",
+   "template_id": "d-tn17openday0001",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2027-06-02T18:00:02Z"
+  }
+ ]
+}

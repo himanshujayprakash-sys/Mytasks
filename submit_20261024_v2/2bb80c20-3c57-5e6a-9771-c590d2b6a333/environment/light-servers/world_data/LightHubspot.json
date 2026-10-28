@@ -1,0 +1,331 @@
+{
+ "companies": [
+  {
+   "id": "8101",
+   "properties": {
+    "name": "Tyneside Marine Engineering",
+    "domain": "tyneside-marine-eng.example",
+    "industry": "Engineering",
+    "city": "Brennock",
+    "state": "Tyne and Wear",
+    "numberofemployees": "140",
+    "annualrevenue": "18500000",
+    "createdate": "2026-09-15T10:00:00Z"
+   },
+   "createdAt": "2026-09-15T10:00:00Z",
+   "updatedAt": "2026-11-24T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8102",
+   "properties": {
+    "name": "Quay Road Dental Practice",
+    "domain": "quayroaddental.example",
+    "industry": "Health care",
+    "city": "Brennock",
+    "state": "Tyne and Wear",
+    "numberofemployees": "22",
+    "annualrevenue": "1900000",
+    "createdate": "2026-10-02T10:00:00Z"
+   },
+   "createdAt": "2026-10-02T10:00:00Z",
+   "updatedAt": "2026-11-10T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8103",
+   "properties": {
+    "name": "Northcliff Building Society",
+    "domain": "northcliff-bs.example",
+    "industry": "Financial services",
+    "city": "Sunderland",
+    "state": "Tyne and Wear",
+    "numberofemployees": "380",
+    "annualrevenue": "41000000",
+    "createdate": "2026-09-22T10:00:00Z"
+   },
+   "createdAt": "2026-09-22T10:00:00Z",
+   "updatedAt": "2026-11-26T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8104",
+   "properties": {
+    "name": "Saltwick Brewery",
+    "domain": "saltwickbrewery.example",
+    "industry": "Food and beverage",
+    "city": "Brennock",
+    "state": "Tyne and Wear",
+    "numberofemployees": "35",
+    "annualrevenue": "3200000",
+    "createdate": "2026-10-20T10:00:00Z"
+   },
+   "createdAt": "2026-10-20T10:00:00Z",
+   "updatedAt": "2026-11-18T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8105",
+   "properties": {
+    "name": "Harbour Lights Hotel",
+    "domain": "harbourlightshotel.example",
+    "industry": "Hospitality",
+    "city": "Brennock",
+    "state": "Tyne and Wear",
+    "numberofemployees": "60",
+    "annualrevenue": "4800000",
+    "createdate": "2026-11-04T10:00:00Z"
+   },
+   "createdAt": "2026-11-04T10:00:00Z",
+   "updatedAt": "2026-11-04T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8106",
+   "properties": {
+    "name": "Linden Wealth Partners",
+    "domain": "lindenwealth.example",
+    "industry": "Financial services",
+    "city": "Durham",
+    "state": "Tyne and Wear",
+    "numberofemployees": "18",
+    "annualrevenue": "2700000",
+    "createdate": "2026-11-17T10:00:00Z"
+   },
+   "createdAt": "2026-11-17T10:00:00Z",
+   "updatedAt": "2026-11-27T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "8201",
+   "properties": {
+    "firstname": "Dan",
+    "lastname": "Okafor",
+    "email": "events@tyneside-marine-eng.example",
+    "phone": "0191 498 0310",
+    "jobtitle": "Events and communications lead",
+    "company": "Tyneside Marine Engineering",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-15T11:00:00Z",
+    "lastmodifieddate": "2026-11-24T16:00:00Z"
+   },
+   "createdAt": "2026-09-15T11:00:00Z",
+   "updatedAt": "2026-11-24T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8202",
+   "properties": {
+    "firstname": "Moira",
+    "lastname": "Fenwick",
+    "email": "moira.fenwick@tyneside-marine-eng.example",
+    "phone": "0191 498 0311",
+    "jobtitle": "Managing director",
+    "company": "Tyneside Marine Engineering",
+    "lifecyclestage": "lead",
+    "createdate": "2026-09-15T11:00:00Z",
+    "lastmodifieddate": "2026-09-15T16:00:00Z"
+   },
+   "createdAt": "2026-09-15T11:00:00Z",
+   "updatedAt": "2026-09-15T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8203",
+   "properties": {
+    "firstname": "Sanjay",
+    "lastname": "Rao",
+    "email": "practice@quayroaddental.example",
+    "phone": "0191 498 0312",
+    "jobtitle": "Practice owner",
+    "company": "Quay Road Dental Practice",
+    "lifecyclestage": "customer",
+    "createdate": "2026-10-02T11:00:00Z",
+    "lastmodifieddate": "2026-11-10T16:00:00Z"
+   },
+   "createdAt": "2026-10-02T11:00:00Z",
+   "updatedAt": "2026-11-10T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8204",
+   "properties": {
+    "firstname": "Alison",
+    "lastname": "Burdon",
+    "email": "a.burdon@northcliff-bs.example",
+    "phone": "0191 498 0313",
+    "jobtitle": "Community partnerships manager",
+    "company": "Northcliff Building Society",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-22T11:00:00Z",
+    "lastmodifieddate": "2026-11-26T16:00:00Z"
+   },
+   "createdAt": "2026-09-22T11:00:00Z",
+   "updatedAt": "2026-11-26T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8205",
+   "properties": {
+    "firstname": "Rory",
+    "lastname": "Gilchrist",
+    "email": "rory@saltwickbrewery.example",
+    "phone": "0191 498 0314",
+    "jobtitle": "Co-founder",
+    "company": "Saltwick Brewery",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-10-20T11:00:00Z",
+    "lastmodifieddate": "2026-11-18T16:00:00Z"
+   },
+   "createdAt": "2026-10-20T11:00:00Z",
+   "updatedAt": "2026-11-18T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8206",
+   "properties": {
+    "firstname": "Hannah",
+    "lastname": "Lowes",
+    "email": "h.lowes@harbourlightshotel.example",
+    "phone": "0191 498 0315",
+    "jobtitle": "General manager",
+    "company": "Harbour Lights Hotel",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-04T11:00:00Z",
+    "lastmodifieddate": "2026-11-04T16:00:00Z"
+   },
+   "createdAt": "2026-11-04T11:00:00Z",
+   "updatedAt": "2026-11-04T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8207",
+   "properties": {
+    "firstname": "Edwin",
+    "lastname": "Sharpe",
+    "email": "edwin@lindenwealth.example",
+    "phone": "0191 498 0316",
+    "jobtitle": "Partner",
+    "company": "Linden Wealth Partners",
+    "lifecyclestage": "lead",
+    "createdate": "2026-11-17T11:00:00Z",
+    "lastmodifieddate": "2026-11-27T16:00:00Z"
+   },
+   "createdAt": "2026-11-17T11:00:00Z",
+   "updatedAt": "2026-11-27T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "8301",
+   "properties": {
+    "dealname": "Tyneside Marine Engineering - gold corporate membership 2027",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "6000",
+    "closedate": "2027-01-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-16T10:00:00Z",
+    "lastmodifieddate": "2026-11-24T10:00:00Z"
+   },
+   "createdAt": "2026-09-16T10:00:00Z",
+   "updatedAt": "2026-11-24T10:00:00Z",
+   "archived": false,
+   "_company": "8101",
+   "_contact": "8201"
+  },
+  {
+   "id": "8302",
+   "properties": {
+    "dealname": "Quay Road Dental Practice - bronze corporate membership",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "1200",
+    "closedate": "2026-11-10T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-03T10:00:00Z",
+    "lastmodifieddate": "2026-11-10T10:00:00Z"
+   },
+   "createdAt": "2026-10-03T10:00:00Z",
+   "updatedAt": "2026-11-10T10:00:00Z",
+   "archived": false,
+   "_company": "8102",
+   "_contact": "8203"
+  },
+  {
+   "id": "8303",
+   "properties": {
+    "dealname": "Northcliff Building Society - sponsorship of the schools programme",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "15000",
+    "closedate": "2027-02-28T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-23T10:00:00Z",
+    "lastmodifieddate": "2026-11-26T10:00:00Z"
+   },
+   "createdAt": "2026-09-23T10:00:00Z",
+   "updatedAt": "2026-11-26T10:00:00Z",
+   "archived": false,
+   "_company": "8103",
+   "_contact": "8204"
+  },
+  {
+   "id": "8304",
+   "properties": {
+    "dealname": "Saltwick Brewery - Lantern night drinks partner and silver membership",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "2500",
+    "closedate": "2027-03-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-21T10:00:00Z",
+    "lastmodifieddate": "2026-11-18T10:00:00Z"
+   },
+   "createdAt": "2026-10-21T10:00:00Z",
+   "updatedAt": "2026-11-18T10:00:00Z",
+   "archived": false,
+   "_company": "8104",
+   "_contact": "8205"
+  },
+  {
+   "id": "8305",
+   "properties": {
+    "dealname": "Harbour Lights Hotel - room hire package for guests",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "1800",
+    "closedate": "2027-04-30T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-05T10:00:00Z"
+   },
+   "createdAt": "2026-11-05T10:00:00Z",
+   "updatedAt": "2026-11-05T10:00:00Z",
+   "archived": false,
+   "_company": "8105",
+   "_contact": "8206"
+  },
+  {
+   "id": "8306",
+   "properties": {
+    "dealname": "Linden Wealth Partners - private view hosting",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "3000",
+    "closedate": "2027-03-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-11-18T10:00:00Z",
+    "lastmodifieddate": "2026-11-27T10:00:00Z"
+   },
+   "createdAt": "2026-11-18T10:00:00Z",
+   "updatedAt": "2026-11-27T10:00:00Z",
+   "archived": false,
+   "_company": "8106",
+   "_contact": "8207"
+  }
+ ]
+}

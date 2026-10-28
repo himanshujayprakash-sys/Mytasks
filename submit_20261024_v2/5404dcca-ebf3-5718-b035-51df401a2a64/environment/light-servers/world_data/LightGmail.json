@@ -1,0 +1,803 @@
+{
+ "drafts": [],
+ "messages": [
+  {
+   "body": "Morning,\n\nThe Wednesday consignment left the packhouse short this morning: the frost took more of the tomatoes and citrus than we hoped. The signed delivery note is with your goods-in team and shows what actually came off the wagon.\n\nPentrae Growers despatch",
+   "cc_addr": "",
+   "date": "2026-12-08T05:30:00Z",
+   "from_addr": "despatch@pentrae-growers.example",
+   "id": "msg-e6594627a8",
+   "internal_date": 1796707800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 258,
+   "snippet": "Morning,\n\nThe Wednesday consignment left the packhouse short this morning: the frost took ",
+   "subject": "Consignment for Wednesday 9 December",
+   "thread_id": "thr-fbd56b01",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello,\n\nPlease hold all deliveries to EF-2302 Ristorante Valli from today: the account is 45 days over terms. I will confirm when the stop is lifted.\n\nCredit control",
+   "cc_addr": "",
+   "date": "2026-12-03T09:15:00Z",
+   "from_addr": "credit.control@ellisford-produce.example",
+   "id": "msg-46532b1e18",
+   "internal_date": 1796289300000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 165,
+   "snippet": "Hello,\n\nPlease hold all deliveries to EF-2302 Ristorante Valli from today: the account is ",
+   "subject": "Credit stop: EF-2302 Ristorante Valli",
+   "thread_id": "thr-62430f41",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello again,\n\nPayment received this afternoon, so the stop on EF-2302 is lifted with immediate effect.\n\nCredit control",
+   "cc_addr": "",
+   "date": "2026-12-07T15:40:00Z",
+   "from_addr": "credit.control@ellisford-produce.example",
+   "id": "msg-c200bf6e05",
+   "internal_date": 1796658000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 118,
+   "snippet": "Hello again,\n\nPayment received this afternoon, so the stop on EF-2302 is lifted with immed",
+   "subject": "Re: Credit stop: EF-2302 Ristorante Valli",
+   "thread_id": "thr-62430f41",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello,\n\nPlease hold all deliveries to EF-2405 Corner Basket from today: the direct debit for invoice INV-31744 came back unpaid. The stop stays until INV-31744 is cleared on the accounts ledger.\n\nCredit control",
+   "cc_addr": "",
+   "date": "2026-12-04T11:20:00Z",
+   "from_addr": "credit.control@ellisford-produce.example",
+   "id": "msg-7fcf6c5b16",
+   "internal_date": 1796383200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 210,
+   "snippet": "Hello,\n\nPlease hold all deliveries to EF-2405 Corner Basket from today: the direct debit f",
+   "subject": "Credit stop: EF-2405 Corner Basket",
+   "thread_id": "thr-05a7ae16",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello,\n\nPlease hold all deliveries to EF-2309 Wrecker's Arms from today: invoice INV-31790 is 40 days over terms. The stop stays until INV-31790 is cleared on the accounts ledger; the customer says a credit for the October short is due against it.\n\nCredit control",
+   "cc_addr": "",
+   "date": "2026-12-05T10:05:00Z",
+   "from_addr": "credit.control@ellisford-produce.example",
+   "id": "msg-cdc64f6465",
+   "internal_date": 1796465100000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 263,
+   "snippet": "Hello,\n\nPlease hold all deliveries to EF-2309 Wrecker's Arms from today: invoice INV-31790",
+   "subject": "Credit stop: EF-2309 Wrecker's Arms",
+   "thread_id": "thr-c3062ebf",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hi,\n\nPlease make the vine tomatoes 7 cases instead of 5 for Wednesday's delivery. Everything else as ordered.\n\nRosen, Fig and Fennel Deli",
+   "cc_addr": "",
+   "date": "2026-12-07T10:12:00Z",
+   "from_addr": "rosen.eddy@834d98.example",
+   "id": "msg-05643f686a",
+   "internal_date": 1796638320000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 137,
+   "snippet": "Hi,\n\nPlease make the vine tomatoes 7 cases instead of 5 for Wednesday's delivery. Everythi",
+   "subject": "Wednesday order",
+   "thread_id": "thr-d755363f",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello,\n\nWe forgot to put leeks on Wednesday's order: please add 4 cases of leeks to it. Thank you.\n\nGwen, St Keverne Primary School kitchen",
+   "cc_addr": "",
+   "date": "2026-12-07T12:30:00Z",
+   "from_addr": "gwen.trebilcock@405710.example",
+   "id": "msg-7d666cd369",
+   "internal_date": 1796646600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 139,
+   "snippet": "Hello,\n\nWe forgot to put leeks on Wednesday's order: please add 4 cases of leeks to it. Th",
+   "subject": "Leeks for Wednesday",
+   "thread_id": "thr-5bbedd6c",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Morning,\n\nCould we have 2 more cases of leeks on Wednesday's delivery? Big party booked in.\n\nBryok, The Harbour Kitchen",
+   "cc_addr": "",
+   "date": "2026-12-08T06:40:00Z",
+   "from_addr": "bryok.trevail@609019.example",
+   "id": "msg-9734c98adc",
+   "internal_date": 1796712000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 119,
+   "snippet": "Morning,\n\nCould we have 2 more cases of leeks on Wednesday's delivery? Big party booked in",
+   "subject": "Extra leeks",
+   "thread_id": "thr-03fbd218",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello,\n\nFurther to your claim: the credit note for the November short on leeks now stands at 96.60 pounds, as we have added the second missing pallet. Please update your records.\n\nPentrae Growers accounts",
+   "cc_addr": "",
+   "date": "2026-12-04T14:05:00Z",
+   "from_addr": "accounts@pentrae-growers.example",
+   "id": "msg-56aa94473f",
+   "internal_date": 1796393100000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 204,
+   "snippet": "Hello,\n\nFurther to your claim: the credit note for the November short on leeks now stands ",
+   "subject": "Credit note: November short on leeks",
+   "thread_id": "thr-821aa1ac",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hi,\n\nCould you reply to this email with exactly what we are getting tomorrow, line by line? We need to plan the menu.\n\nKerra, Old Custom House Bistro",
+   "cc_addr": "",
+   "date": "2026-12-08T06:55:00Z",
+   "from_addr": "kerra.tonkin@690e61.example",
+   "id": "msg-7af8fa94a4",
+   "internal_date": 1796712900000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 149,
+   "snippet": "Hi,\n\nCould you reply to this email with exactly what we are getting tomorrow, line by line",
+   "subject": "What are we getting?",
+   "thread_id": "thr-80c9a6aa",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Morning,\n\nWhen the allocation is done, email the whole sheet to despatch@pentrae-growers.example so they can see what their short has cost our customers.\n\nSales director",
+   "cc_addr": "",
+   "date": "2026-12-08T07:05:00Z",
+   "from_addr": "sales.director@ellisford-produce.example",
+   "id": "msg-3b90c83812",
+   "internal_date": 1796713500000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 169,
+   "snippet": "Morning,\n\nWhen the allocation is done, email the whole sheet to despatch@pentrae-growers.e",
+   "subject": "Allocation: send it to the grower",
+   "thread_id": "thr-d188338b",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hi,\n\nFor information, our sheet for Wednesday 9 December is in your sheets folder. Our accounts stay on our allocation.\n\nNorthgate allocations",
+   "cc_addr": "",
+   "date": "2026-12-07T09:30:00Z",
+   "from_addr": "allocations.northgate@ellisford-produce.example",
+   "id": "msg-ea4c44b0c1",
+   "internal_date": 1796635800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 142,
+   "snippet": "Hi,\n\nFor information, our sheet for Wednesday 9 December is in your sheets folder. Our acc",
+   "subject": "Northgate allocation sheet for info",
+   "thread_id": "thr-8120d8c1",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-20T08:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-a41ea6a17f",
+   "internal_date": 1792483200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 1",
+   "thread_id": "thr-2f0d34bc",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-21T10:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-8c2db5d5f3",
+   "internal_date": 1792576800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 2",
+   "thread_id": "thr-87525a1b",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-22T12:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-d274f6e703",
+   "internal_date": 1792670400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 3",
+   "thread_id": "thr-e7dbae55",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-23T14:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-89111202a5",
+   "internal_date": 1792764000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 4",
+   "thread_id": "thr-eb53ab90",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-24T16:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-9c07f23653",
+   "internal_date": 1792857600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 5",
+   "thread_id": "thr-87d9a9c5",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-25T18:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-75dfda7c63",
+   "internal_date": 1792951200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 6",
+   "thread_id": "thr-aadee392",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-26T20:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-4852c84126",
+   "internal_date": 1793044800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 7",
+   "thread_id": "thr-e9c62c16",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-27T22:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-6837f09416",
+   "internal_date": 1793138400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 8",
+   "thread_id": "thr-446c2916",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-29T00:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-fc0ae698f7",
+   "internal_date": 1793232000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 9",
+   "thread_id": "thr-b648bbaa",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-30T02:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-e72c4ca576",
+   "internal_date": 1793325600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 10",
+   "thread_id": "thr-ca83ad69",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-10-31T04:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-0b689278ca",
+   "internal_date": 1793419200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 11",
+   "thread_id": "thr-2c4993f3",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-01T06:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-d660010d45",
+   "internal_date": 1793512800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 12",
+   "thread_id": "thr-d2236a00",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-02T08:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-7d8d8d8244",
+   "internal_date": 1793606400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 13",
+   "thread_id": "thr-5a2a6464",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-03T10:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-c3d0af266f",
+   "internal_date": 1793700000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 14",
+   "thread_id": "thr-531c6196",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-04T12:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-07e89eb52d",
+   "internal_date": 1793793600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 15",
+   "thread_id": "thr-5ea4d035",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-05T14:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-49d4a40627",
+   "internal_date": 1793887200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 16",
+   "thread_id": "thr-8847d219",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-06T16:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-f86fcf25dd",
+   "internal_date": 1793980800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 17",
+   "thread_id": "thr-163af50e",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-07T18:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-0c6f9cff4a",
+   "internal_date": 1794074400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 18",
+   "thread_id": "thr-ac364edd",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-08T20:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-f6b4ad3544",
+   "internal_date": 1794168000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 19",
+   "thread_id": "thr-e7beec7c",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-09T22:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-7752cc6317",
+   "internal_date": 1794261600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 20",
+   "thread_id": "thr-d37b2584",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-11T00:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-927d514f26",
+   "internal_date": 1794355200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 21",
+   "thread_id": "thr-d30c8867",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-12T02:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-89ac79e591",
+   "internal_date": 1794448800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 22",
+   "thread_id": "thr-d4aa7036",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-13T04:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-a9bda50046",
+   "internal_date": 1794542400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 23",
+   "thread_id": "thr-bea1a769",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-14T06:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-95c6eecc5b",
+   "internal_date": 1794636000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 24",
+   "thread_id": "thr-bb5a39b3",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-15T08:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-6f23a67469",
+   "internal_date": 1794729600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 25",
+   "thread_id": "thr-991fbfec",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-16T10:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-a74308e29c",
+   "internal_date": 1794823200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 26",
+   "thread_id": "thr-b1503b05",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-17T12:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-8550b1202e",
+   "internal_date": 1794916800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 27",
+   "thread_id": "thr-7c807629",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-18T14:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-e42961befd",
+   "internal_date": 1795010400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 28",
+   "thread_id": "thr-6144513a",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-19T16:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-405cee16c3",
+   "internal_date": 1795104000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 29",
+   "thread_id": "thr-ae441626",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-20T18:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-9377801ef7",
+   "internal_date": 1795197600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 30",
+   "thread_id": "thr-432eb105",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-21T20:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-9f1d2c5dba",
+   "internal_date": 1795291200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 31",
+   "thread_id": "thr-ce0bf570",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  },
+  {
+   "body": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-22T22:00:00Z",
+   "from_addr": "comms@ellisford-produce.example",
+   "id": "msg-3eecff088c",
+   "internal_date": 1795384800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 107,
+   "snippet": "Hello all,\n\nThe Christmas rota, the new chiller, parking at the depot and the charity quiz",
+   "subject": "Company news 32",
+   "thread_id": "thr-a2753ad9",
+   "to_addr": "allocations.quayside@ellisford-produce.example"
+  }
+ ],
+ "profile": {
+  "emailAddress": "allocations.quayside@ellisford-produce.example",
+  "historyId": "9901",
+  "messagesTotal": 44,
+  "threadsTotal": 44
+ }
+}

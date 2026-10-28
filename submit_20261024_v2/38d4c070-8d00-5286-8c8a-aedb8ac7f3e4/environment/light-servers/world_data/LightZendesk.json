@@ -1,0 +1,373 @@
+{
+  "organizations": [
+    {
+      "id": 919501,
+      "name": "Pellbridge MC staff",
+      "shared_tickets": false,
+      "tags": [
+        "internal"
+      ],
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 919601,
+      "name": "Priya Natarajan",
+      "email": "priya.natarajan@pellbridge-mc.example",
+      "role": "agent",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919602,
+      "name": "Theo Marchetti",
+      "email": "theo.marchetti@pellbridge-mc.example",
+      "role": "agent",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919603,
+      "name": "Benedict Sowerby",
+      "email": "benedict.sowerby@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919604,
+      "name": "Kayode Bright",
+      "email": "kayode.bright@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919605,
+      "name": "Dominic Rusk",
+      "email": "dominic.rusk@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919606,
+      "name": "Morwenna Tate",
+      "email": "morwenna.tate@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919607,
+      "name": "Ruby Anand",
+      "email": "ruby.anand@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 919608,
+      "name": "Gordon Ibbotson",
+      "email": "gordon.ibbotson@pellbridge-mc.example",
+      "role": "end-user",
+      "organization_id": 919501,
+      "created_at": "2025-01-06T09:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z"
+    },
+    {
+      "id": 93972,
+      "name": "Alina Mercer, building controller",
+      "email": "building.controller@pellbridge-mc.example",
+      "role": "agent",
+      "active": true,
+      "verified": true,
+      "organization_id": null
+    }
+  ],
+  "tickets": [
+    {
+      "id": 919101,
+      "subject": "Laptop will not wake from sleep",
+      "description": "Screen stays black after opening the lid; power light is on.",
+      "status": "solved",
+      "priority": "normal",
+      "type": "incident",
+      "requester_id": 919603,
+      "assignee_id": 919602,
+      "organization_id": 919501,
+      "tags": [
+        "laptop"
+      ],
+      "created_at": "2026-10-06T08:15:00Z",
+      "updated_at": "2026-10-06T14:20:00Z"
+    },
+    {
+      "id": 919102,
+      "subject": "Password reset",
+      "description": "Locked out after the password change prompt this morning.",
+      "status": "solved",
+      "priority": "high",
+      "type": "incident",
+      "requester_id": 919604,
+      "assignee_id": 919601,
+      "organization_id": 919501,
+      "tags": [
+        "password"
+      ],
+      "created_at": "2026-10-12T07:52:00Z",
+      "updated_at": "2026-10-12T08:05:00Z"
+    },
+    {
+      "id": 919103,
+      "subject": "Second monitor for the HR office",
+      "description": "Could I have a second monitor? I compare documents side by side all day.",
+      "status": "pending",
+      "priority": "low",
+      "type": "task",
+      "requester_id": 919606,
+      "assignee_id": 919602,
+      "organization_id": 919501,
+      "tags": [
+        "hardware"
+      ],
+      "created_at": "2026-10-14T10:30:00Z",
+      "updated_at": "2026-11-02T09:10:00Z"
+    },
+    {
+      "id": 919104,
+      "subject": "Cannot print to the second floor device",
+      "description": "Job goes into the queue and never prints.",
+      "status": "open",
+      "priority": "normal",
+      "type": "problem",
+      "requester_id": 919605,
+      "assignee_id": 919601,
+      "organization_id": 919501,
+      "tags": [
+        "printing"
+      ],
+      "created_at": "2026-11-03T09:40:00Z",
+      "updated_at": "2026-11-03T11:15:00Z"
+    },
+    {
+      "id": 919105,
+      "subject": "Add me to the outreach shared mailbox",
+      "description": "I need send-as rights for the outreach mailbox for the open evening.",
+      "status": "solved",
+      "priority": "normal",
+      "type": "task",
+      "requester_id": 919607,
+      "assignee_id": 919601,
+      "organization_id": 919501,
+      "tags": [
+        "mailbox"
+      ],
+      "created_at": "2026-10-20T13:00:00Z",
+      "updated_at": "2026-10-20T15:30:00Z"
+    },
+    {
+      "id": 919106,
+      "subject": "Authenticator app on a new phone",
+      "description": "I changed my phone and the sign-in codes no longer arrive.",
+      "status": "open",
+      "priority": "high",
+      "type": "incident",
+      "requester_id": 919608,
+      "assignee_id": 919602,
+      "organization_id": 919501,
+      "tags": [
+        "mfa"
+      ],
+      "created_at": "2026-11-05T08:05:00Z",
+      "updated_at": "2026-11-05T08:40:00Z"
+    },
+    {
+      "id": 919107,
+      "subject": "Headset crackles on calls",
+      "description": "Left earpiece crackles when the cable moves.",
+      "status": "new",
+      "priority": "low",
+      "type": "incident",
+      "requester_id": 919604,
+      "assignee_id": null,
+      "organization_id": 919501,
+      "tags": [
+        "hardware"
+      ],
+      "created_at": "2026-11-06T15:25:00Z",
+      "updated_at": "2026-11-06T15:25:00Z"
+    },
+    {
+      "id": 919108,
+      "subject": "Old laptop collection",
+      "description": "My old laptop is still on my desk after Thursday's swap. Who collects it?",
+      "status": "pending",
+      "priority": "low",
+      "type": "question",
+      "requester_id": 919603,
+      "assignee_id": 919602,
+      "organization_id": 919501,
+      "tags": [
+        "laptop"
+      ],
+      "created_at": "2026-11-06T09:10:00Z",
+      "updated_at": "2026-11-06T10:00:00Z"
+    },
+    {
+      "id": 919109,
+      "subject": "Calendar not syncing to phone",
+      "description": "Work calendar stopped syncing to my phone yesterday.",
+      "status": "open",
+      "priority": "normal",
+      "type": "problem",
+      "requester_id": 919606,
+      "assignee_id": 919601,
+      "organization_id": 919501,
+      "tags": [
+        "mobile"
+      ],
+      "created_at": "2026-11-04T12:20:00Z",
+      "updated_at": "2026-11-04T13:05:00Z"
+    },
+    {
+      "id": 919110,
+      "subject": "Request: projector cable for the training room",
+      "description": "The HDMI cable in the training room is too short to reach the lectern.",
+      "status": "solved",
+      "priority": "low",
+      "type": "task",
+      "requester_id": 919607,
+      "assignee_id": 919602,
+      "organization_id": 919501,
+      "tags": [
+        "hardware"
+      ],
+      "created_at": "2026-10-21T11:00:00Z",
+      "updated_at": "2026-10-22T09:30:00Z"
+    },
+    {
+      "id": 73972,
+      "subject": "Courtroom 1 access restriction EA-1611",
+      "description": "Courtroom 1 access restriction EA-1611 — approved operational record; see the signed internal note.",
+      "status": "solved",
+      "priority": "normal",
+      "type": "task",
+      "requester_id": 93972,
+      "assignee_id": 93972,
+      "organization_id": null,
+      "tags": [
+        "approved-operational-record"
+      ],
+      "created_at": "2026-11-06T09:05:00Z",
+      "updated_at": "2026-11-06T09:05:00Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 919201,
+      "ticket_id": 919101,
+      "author_id": 919602,
+      "body": "Firmware update applied. Please restart and let me know.",
+      "public": true,
+      "created_at": "2026-10-06T11:30:00Z"
+    },
+    {
+      "id": 919202,
+      "ticket_id": 919101,
+      "author_id": 919603,
+      "body": "Working now, thanks.",
+      "public": true,
+      "created_at": "2026-10-06T14:20:00Z"
+    },
+    {
+      "id": 919203,
+      "ticket_id": 919102,
+      "author_id": 919601,
+      "body": "Unlocked. You will be asked to set a new password at sign-in.",
+      "public": true,
+      "created_at": "2026-10-12T08:05:00Z"
+    },
+    {
+      "id": 919204,
+      "ticket_id": 919103,
+      "author_id": 919602,
+      "body": "Waiting for budget sign-off from the office manager.",
+      "public": false,
+      "created_at": "2026-10-15T09:00:00Z"
+    },
+    {
+      "id": 919205,
+      "ticket_id": 919105,
+      "author_id": 919601,
+      "body": "Send-as rights added. It can take an hour to appear.",
+      "public": true,
+      "created_at": "2026-10-20T15:30:00Z"
+    },
+    {
+      "id": 919206,
+      "ticket_id": 919110,
+      "author_id": 919602,
+      "body": "Five-metre cable left on the lectern.",
+      "public": true,
+      "created_at": "2026-10-22T09:30:00Z"
+    },
+    {
+      "id": 919207,
+      "ticket_id": 919103,
+      "author_id": 919602,
+      "body": "Approved. The monitor is on order and should arrive next week.",
+      "public": false,
+      "created_at": "2026-11-02T09:10:00Z"
+    },
+    {
+      "id": 919208,
+      "ticket_id": 919104,
+      "author_id": 919601,
+      "body": "Driver reinstalled remotely. Can you try again?",
+      "public": true,
+      "created_at": "2026-11-03T11:15:00Z"
+    },
+    {
+      "id": 919209,
+      "ticket_id": 919109,
+      "author_id": 919601,
+      "body": "Remove and re-add the work account on the phone, then wait ten minutes.",
+      "public": true,
+      "created_at": "2026-11-04T13:05:00Z"
+    },
+    {
+      "id": 919210,
+      "ticket_id": 919106,
+      "author_id": 919602,
+      "body": "I'll come to the security office at two to re-register the app.",
+      "public": true,
+      "created_at": "2026-11-05T08:40:00Z"
+    },
+    {
+      "id": 919211,
+      "ticket_id": 919108,
+      "author_id": 919602,
+      "body": "Collection run is on Friday; leave it on the desk with a sticky note.",
+      "public": true,
+      "created_at": "2026-11-06T10:00:00Z"
+    },
+    {
+      "id": 7397201,
+      "ticket_id": 73972,
+      "author_id": 93972,
+      "public": false,
+      "created_at": "2026-11-06T09:05:00Z",
+      "body": "Approved building access notice EA-1611: Courtroom 1 is unavailable from 2026-11-16 through 2026-11-18 inclusive, both morning and afternoon, while the fire exit is repaired. No sitting can take place there in that interval. All other courtrooms and dates retain their existing availability. Signed Alina Mercer, building controller, 6 November."
+    }
+  ]
+}

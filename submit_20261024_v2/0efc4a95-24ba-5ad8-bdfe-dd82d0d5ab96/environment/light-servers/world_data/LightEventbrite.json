@@ -1,0 +1,134 @@
+{
+ "events": [
+  {
+   "id": "evt-kra-01",
+   "organization_id": "org-kra-pta",
+   "name": "Kestrel Ridge spring concert",
+   "summary": "An evening of music from the choir, brass group and the Year 10 band.",
+   "status": "live",
+   "start_utc": "2027-03-25T19:00:00Z",
+   "end_utc": "2027-03-25T21:00:00Z",
+   "timezone": "Europe/London",
+   "venue_id": "venue-kra-hall",
+   "capacity": 220,
+   "is_free": false,
+   "online_event": false,
+   "url": "https://www.eventbrite.co.uk/e/evt-kra-01",
+   "created": "2026-09-05T10:00:00Z"
+  },
+  {
+   "id": "evt-kra-02",
+   "organization_id": "org-kra-pta",
+   "name": "Christmas craft fair",
+   "summary": "Stalls from local makers and the school enterprise club, in aid of the PTA.",
+   "status": "completed",
+   "start_utc": "2026-12-05T10:00:00Z",
+   "end_utc": "2026-12-05T14:00:00Z",
+   "timezone": "Europe/London",
+   "venue_id": "venue-kra-hall",
+   "capacity": 300,
+   "is_free": true,
+   "online_event": false,
+   "url": "https://www.eventbrite.co.uk/e/evt-kra-02",
+   "created": "2026-09-05T10:00:00Z"
+  },
+  {
+   "id": "evt-kra-03",
+   "organization_id": "org-kra-pta",
+   "name": "Open evening for Year 6 families",
+   "summary": "Tours led by Year 8 pupils and a talk from the headteacher.",
+   "status": "completed",
+   "start_utc": "2026-09-24T17:30:00Z",
+   "end_utc": "2026-09-24T20:00:00Z",
+   "timezone": "Europe/London",
+   "venue_id": "venue-kra-hall",
+   "capacity": 400,
+   "is_free": true,
+   "online_event": false,
+   "url": "https://www.eventbrite.co.uk/e/evt-kra-03",
+   "created": "2026-09-05T10:00:00Z"
+  }
+ ],
+ "attendees": [
+  {
+   "id": "att-kra-01",
+   "event_id": "evt-kra-01",
+   "ticket_class_id": "tc-evt-kra-01",
+   "name": "Rachel Moorhouse",
+   "email": "rachel.moorhouse@homemail.example",
+   "status": "attending",
+   "checked_in": false,
+   "created": "2027-01-28T19:20:00Z"
+  },
+  {
+   "id": "att-kra-02",
+   "event_id": "evt-kra-01",
+   "ticket_class_id": "tc-evt-kra-01",
+   "name": "Dev Chauhan",
+   "email": "dev.chauhan@homemail.example",
+   "status": "attending",
+   "checked_in": false,
+   "created": "2027-02-02T08:05:00Z"
+  },
+  {
+   "id": "att-kra-03",
+   "event_id": "evt-kra-01",
+   "ticket_class_id": "tc-evt-kra-01",
+   "name": "Wendy Asquith",
+   "email": "w.asquith@homemail.example",
+   "status": "attending",
+   "checked_in": false,
+   "created": "2027-02-05T12:40:00Z"
+  },
+  {
+   "id": "att-kra-04",
+   "event_id": "evt-kra-02",
+   "ticket_class_id": "tc-evt-kra-02",
+   "name": "Mark Illingworth",
+   "email": "mark.illingworth@homemail.example",
+   "status": "checked in",
+   "checked_in": true,
+   "created": "2026-11-20T20:10:00Z"
+  },
+  {
+   "id": "att-kra-05",
+   "event_id": "evt-kra-02",
+   "ticket_class_id": "tc-evt-kra-02",
+   "name": "Claire Booth",
+   "email": "claire.booth@homemail.example",
+   "status": "attending",
+   "checked_in": false,
+   "created": "2026-11-28T09:00:00Z"
+  },
+  {
+   "id": "att-kra-06",
+   "event_id": "evt-kra-03",
+   "ticket_class_id": "tc-evt-kra-03",
+   "name": "Fatima Akhtar",
+   "email": "f.akhtar@homemail.example",
+   "status": "checked in",
+   "checked_in": true,
+   "created": "2026-09-15T18:30:00Z"
+  },
+  {
+   "id": "att-kra-07",
+   "event_id": "evt-kra-03",
+   "ticket_class_id": "tc-evt-kra-03",
+   "name": "Steve Holroyd",
+   "email": "steve.holroyd@homemail.example",
+   "status": "attending",
+   "checked_in": false,
+   "created": "2026-09-19T11:15:00Z"
+  },
+  {
+   "id": "att-kra-08",
+   "event_id": "evt-kra-03",
+   "ticket_class_id": "tc-evt-kra-03",
+   "name": "Lucy Brook",
+   "email": "lucy.brook@homemail.example",
+   "status": "checked in",
+   "checked_in": true,
+   "created": "2026-09-22T21:00:00Z"
+  }
+ ]
+}

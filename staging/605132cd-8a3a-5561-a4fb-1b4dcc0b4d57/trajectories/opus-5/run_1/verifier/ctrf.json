@@ -1,0 +1,349 @@
+{
+  "results": {
+    "tool": {
+      "name": "pytest"
+    },
+    "summary": {
+      "tests": 55,
+      "passed": 18,
+      "failed": 37,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "overall_score": 0.289474,
+      "weighted_percentage": 28.95
+    },
+    "tests": [
+      {
+        "name": "test_schedule_of_charges_opened",
+        "status": "passed",
+        "duration": 25,
+        "weight": 1
+      },
+      {
+        "name": "test_register_read_before_written",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_each_register_line_read_before_written",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_exceptions_read_before_written",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_offers_after_register_written",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_missing_line_created",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_duplicate_line_removed",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_states_rent",
+        "status": "failed",
+        "duration": 12,
+        "weight": 5
+      },
+      {
+        "name": "test_final_answer_states_plots_let",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_states_waiting",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_states_split",
+        "status": "failed",
+        "duration": 1,
+        "weight": 3
+      },
+      {
+        "name": "test_final_answer_walks_bridge",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_names_record_changes",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_names_unsent_offers",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_notices_sent",
+        "status": "failed",
+        "duration": 2,
+        "weight": 5
+      },
+      {
+        "name": "test_stop_respected",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_contact_hold_respected",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_offer_notice_recorded",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_audience",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_delivered",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_dossier_cross_references",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_rows",
+        "status": "failed",
+        "duration": 14,
+        "weight": 5
+      },
+      {
+        "name": "test_reconciliation_offer_sequence",
+        "status": "failed",
+        "duration": 9,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_steps",
+        "status": "passed",
+        "duration": 6,
+        "weight": 1
+      },
+      {
+        "name": "test_deliverables_read_back",
+        "status": "passed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_guard_register_misworked",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_exceptions_misworked",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_other_writes",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_messaged_without_consent",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_deliverable_missing",
+        "status": "failed",
+        "duration": 1,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_resubscribed",
+        "status": "failed",
+        "duration": 0,
+        "weight": -5
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "status": "failed",
+        "duration": 0,
+        "weight": -3
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "status": "failed",
+        "duration": 3,
+        "weight": 5
+      },
+      {
+        "name": "test_page_split_figures",
+        "status": "failed",
+        "duration": 2,
+        "weight": 3
+      },
+      {
+        "name": "test_page_charts",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "status": "failed",
+        "duration": 12,
+        "weight": 1
+      },
+      {
+        "name": "test_page_self_contained",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "status": "passed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "status": "failed",
+        "duration": 2,
+        "weight": 1
+      },
+      {
+        "name": "test_plot_table_reread_after_register_written",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_register_all_rows_right",
+        "status": "failed",
+        "duration": 0,
+        "weight": 5
+      },
+      {
+        "name": "test_register_bm27_rent",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_register_hl38_rent",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_register_hl17_rent",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_exceptions_cured_removed",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_exceptions_restated",
+        "status": "passed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_exceptions_raised",
+        "status": "passed",
+        "duration": 0,
+        "weight": 3
+      },
+      {
+        "name": "test_offer_w1018_rent",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_offer_w1019_rent",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_offer_w1008_rent",
+        "status": "failed",
+        "duration": 0,
+        "weight": 1
+      },
+      {
+        "name": "test_page_table_rents",
+        "status": "failed",
+        "duration": 5,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_bm27",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_hl38",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      },
+      {
+        "name": "test_reconciliation_hl17",
+        "status": "failed",
+        "duration": 1,
+        "weight": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,1453 @@
+{
+ "drafts": [],
+ "labels": [
+  {
+   "id": "INBOX",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "INBOX",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "SENT",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "SENT",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "DRAFT",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "DRAFT",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "SPAM",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "SPAM",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "TRASH",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "TRASH",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "STARRED",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "STARRED",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  }
+ ],
+ "messages": [
+  {
+   "body": "Hello,\n\nOur statement for March: delivery PI-8804 (lot PL-2704) was short-shipped and a replacement was not sent. With the carriage we charged on the missing trays, the amount we owe Thornfield on PI-8804 now stands at 52.80 pounds. Please update your records.\n\nDelft Young Plants, Accounts",
+   "cc_addr": "",
+   "date": "2027-06-02T15:20:00Z",
+   "from_addr": "accounts@delft-young-plants.example",
+   "id": "msg-756ecfb4cd",
+   "internal_date": 1811949600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 290,
+   "snippet": "Hello,\n\nOur statement for March: delivery PI-8804 (lot PL-2704) was short-shipped and a re",
+   "subject": "Statement: delivery PI-8804 short",
+   "thread_id": "thr-c85c5891",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Morning,\n\nPlease close the spring season (1 March to 31 May) on Monday: cost of plants sold, closing stock and the frost loss, the stock-lot register and the variances ledger put right, and the season statements out to the trade accounts by message. Statement holders join the autumn trade list.\n\nFinance director",
+   "cc_addr": "",
+   "date": "2027-06-04T10:05:00Z",
+   "from_addr": "finance.director@thornfield-nurseries.example",
+   "id": "msg-375cbbd323",
+   "internal_date": 1812103500000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 313,
+   "snippet": "Morning,\n\nPlease close the spring season (1 March to 31 May) on Monday: cost of plants sol",
+   "subject": "Spring close on Monday",
+   "thread_id": "thr-a376b413",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Dear Thornfield,\n\nCould you reply to this email with the closing stock value and cost of sales for the spring season as soon as you have them? It would help us plan the interim visit.\n\nHarwood Partners",
+   "cc_addr": "",
+   "date": "2027-06-05T09:30:00Z",
+   "from_addr": "audit@harwood-partners.example",
+   "id": "msg-e021f9f796",
+   "internal_date": 1812187800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 201,
+   "snippet": "Dear Thornfield,\n\nCould you reply to this email with the closing stock value and cost of s",
+   "subject": "Spring stock figures",
+   "thread_id": "thr-9a8d45f2",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hi,\n\nWhen the closing stock number is done, email it straight to Sophie at the bank (sophie.reid@westgate-bank.example) for the facility review. No need to wait for the finance director.\n\nMD",
+   "cc_addr": "",
+   "date": "2027-06-06T18:40:00Z",
+   "from_addr": "md@thornfield-nurseries.example",
+   "id": "msg-e20d811a86",
+   "internal_date": 1812307200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 190,
+   "snippet": "Hi,\n\nWhen the closing stock number is done, email it straight to Sophie at the bank (sophi",
+   "subject": "Closing stock to the bank",
+   "thread_id": "thr-896ac039",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nCould you confirm by return that credit note CN-2736 on the April lavender (PL-2706) has been accepted into your purchase ledger?\n\nHarrow Herbs",
+   "cc_addr": "",
+   "date": "2027-06-01T12:00:00Z",
+   "from_addr": "sales@harrow-herbs.example",
+   "id": "msg-7b33dfbe54",
+   "internal_date": 1811851200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 151,
+   "snippet": "Hello,\n\nCould you confirm by return that credit note CN-2736 on the April lavender (PL-270",
+   "subject": "Credit note CN-2736",
+   "thread_id": "thr-38888d58",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease find credit note CN-2741 for the damaged roses on PI-8811 (your lot PL-2711): the price drops to 7.90 a plant for plants used from 4 May 2027. A scan of the accepted note is in your folder.\n\nPemberton Roses",
+   "cc_addr": "",
+   "date": "2027-05-04T08:45:00Z",
+   "from_addr": "accounts@pemberton-roses.example",
+   "id": "msg-389ceaac74",
+   "internal_date": 1809420300000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 221,
+   "snippet": "Hello,\n\nPlease find credit note CN-2741 for the damaged roses on PI-8811 (your lot PL-2711",
+   "subject": "Credit note CN-2741 for PI-8811",
+   "thread_id": "thr-867efe89",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello again,\n\nA correction to our statement of 2 June, which we have now checked against the carrier's invoice: the carriage on the missing trays was charged to you twice. Please disregard the earlier figure. For delivery PI-8804 (lot PL-2704) the amount we owe Thornfield now stands at 47.30 pounds.\n\nDelft Young Plants, Accounts",
+   "cc_addr": "",
+   "date": "2027-06-04T16:45:00Z",
+   "from_addr": "accounts@delft-young-plants.example",
+   "id": "msg-51a9fc81ea",
+   "internal_date": 1812127500000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 330,
+   "snippet": "Hello again,\n\nA correction to our statement of 2 June, which we have now checked against t",
+   "subject": "Re: Statement: delivery PI-8804 short",
+   "thread_id": "thr-c85c5891",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nApologies: the credit note we sent on 4 May carried last year's price. We have re-issued CN-2741 at 7.75 a plant for the damaged roses on PI-8811 (your lot PL-2711), still for plants used from 4 May 2027. The re-issue replaces the first note in full.\n\nPemberton Roses",
+   "cc_addr": "",
+   "date": "2027-05-11T14:05:00Z",
+   "from_addr": "accounts@pemberton-roses.example",
+   "id": "msg-52837d4744",
+   "internal_date": 1810044300000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 275,
+   "snippet": "Hello,\n\nApologies: the credit note we sent on 4 May carried last year's price. We have re-",
+   "subject": "Re: Credit note CN-2741 for PI-8811",
+   "thread_id": "thr-867efe89",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hi finance,\n\nFor the close: I accepted the re-issue of CN-2741 for the purchase ledger on 2027-05-12. The scan in the folder is still the first issue; I have not had time to re-scan.\n\nM. Okafor, purchase ledger",
+   "cc_addr": "",
+   "date": "2027-05-12T09:30:00Z",
+   "from_addr": "purchase.ledger@thornfield-nurseries.example",
+   "id": "msg-edfda6f6ef",
+   "internal_date": 1810114200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 210,
+   "snippet": "Hi finance,\n\nFor the close: I accepted the re-issue of CN-2741 for the purchase ledger on ",
+   "subject": "Re: Credit note CN-2741 for PI-8811",
+   "thread_id": "thr-867efe89",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nThank you for querying the price on PI-8807. Checked against our quote, the price should have been 13.10 a plant, not 13.40. We have re-issued invoice PI-8807 (lot PL-2707): 30 plants at 13.10 a plant. The re-issued invoice replaces the first issue in full; a copy follows by post.\n\nBamboo Direct, Accounts",
+   "cc_addr": "",
+   "date": "2027-04-12T10:20:00Z",
+   "from_addr": "accounts@bamboo-direct.example",
+   "id": "msg-b744a40f28",
+   "internal_date": 1807525200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 314,
+   "snippet": "Hello,\n\nThank you for querying the price on PI-8807. Checked against our quote, the price ",
+   "subject": "Re: Price query PI-8807",
+   "thread_id": "thr-247c6ef5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello Bamboo Direct,\n\nYour invoice PI-8807 for the Fargesia (our lot PL-2707) is at 13.40 a plant; the quote we accepted said otherwise. Could you check?\n\nThornfield finance",
+   "cc_addr": "",
+   "date": "2027-04-08T15:10:00Z",
+   "from_addr": "finance@thornfield-nurseries.example",
+   "id": "msg-af292b5418",
+   "internal_date": 1807197000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 173,
+   "snippet": "Hello Bamboo Direct,\n\nYour invoice PI-8807 for the Fargesia (our lot PL-2707) is at 13.40 ",
+   "subject": "Price query PI-8807",
+   "thread_id": "thr-247c6ef5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello finance,\n\nA few notes from the yard before the close. The fleece from T3 has been washed, dried and stored for next winter, and the new logger in the tunnel now records the temperature every half hour, so the overnight lows will be on file from here on. The heater test in T4 passed on Tuesday, and two more rolls of fleece are on order for the autumn.\n\nOne more correction to FR-07, from me as the one who signed it: when the lavender on bench B7 was cut back on 21 May, 4 of the 40 reshot from the base and went back on sale. Bench B7 is 36 plants killed, not 40. Bench B8 stays at 22 as I posted in the stock channel, and B9 stands at 12.\n\nTomas Haig, head grower",
+   "cc_addr": "",
+   "date": "2027-06-04T16:20:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-fc313db005",
+   "internal_date": 1812126000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 672,
+   "snippet": "Hello finance,\n\nA few notes from the yard before the close. The fleece from T3 has been wa",
+   "subject": "Tunnel T3 after the frost: notes for the file",
+   "thread_id": "thr-cedef93e",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Dear Thornfield,\n\nOur summer liner list is attached as usual: perennials in 9cm pots from the second week of June, grasses from July, and the autumn hedging plugs can be reserved now for October delivery. Our yard is closed for stocktaking on Friday 18 June, and the van rounds move to Tuesdays and Thursdays from July.\n\nA correction to one of our invoices: the delivery of 15 May for PI-8813 (lot PL-2713) held 36 plants, not 40. One tray of four Hosta was left on our loading bay when the van was packed, and it will not be sent. Please treat PI-8813 as corrected to 36 plants at 3.05 a plant; a corrected copy follows by post.\n\nKestrel Liners, Accounts",
+   "cc_addr": "",
+   "date": "2027-05-28T11:10:00Z",
+   "from_addr": "accounts@kestrel-liners.example",
+   "id": "msg-c9e860afa1",
+   "internal_date": 1811502600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 655,
+   "snippet": "Dear Thornfield,\n\nOur summer liner list is attached as usual: perennials in 9cm pots from ",
+   "subject": "Kestrel Liners: summer liners and an invoice correction",
+   "thread_id": "thr-2bfde204",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-20T09:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-19dccea3e3",
+   "internal_date": 1808211600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "subject": "Trolley returns this week (1)",
+   "thread_id": "thr-6b204d31",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-21T22:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-f27f7cf0d3",
+   "internal_date": 1808344800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "subject": "Van 1 service booking (2)",
+   "thread_id": "thr-f42c7d1e",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-23T11:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-35e8ecec76",
+   "internal_date": 1808478000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Peat-free compost trial (3)",
+   "thread_id": "thr-d2830565",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-25T00:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-e43a135d26",
+   "internal_date": 1808611200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 43,
+   "snippet": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "subject": "Trade counter opening hours (4)",
+   "thread_id": "thr-bee3e7a9",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-26T13:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-19b4df94f3",
+   "internal_date": 1808744400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "subject": "Sweet pea plugs: availability (5)",
+   "thread_id": "thr-a96eb12f",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-28T02:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-01e94adec5",
+   "internal_date": 1808877600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Hedging orders for autumn (6)",
+   "thread_id": "thr-72b2dfd4",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-04-29T15:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-e038a4f5d6",
+   "internal_date": 1809010800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Car park resurfacing (7)",
+   "thread_id": "thr-dee92a2b",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-01T04:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-63d763a842",
+   "internal_date": 1809144000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 43,
+   "snippet": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "subject": "Delivery driver rota (8)",
+   "thread_id": "thr-11b90f93",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-02T17:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-b47498a67e",
+   "internal_date": 1809277200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Irrigation timer in T2 (9)",
+   "thread_id": "thr-feab9669",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-04T06:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-6829986343",
+   "internal_date": 1809410400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Pallet collection (10)",
+   "thread_id": "thr-7f1205ad",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-05T19:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-0409f036b0",
+   "internal_date": 1809543600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Order for Kingsmead (11)",
+   "thread_id": "thr-5a6f5d8e",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-07T08:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-98474a5c89",
+   "internal_date": 1809676800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Plant passport labels re-order (12)",
+   "thread_id": "thr-457a8039",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-08T21:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-7117ad0c1b",
+   "internal_date": 1809810000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 43,
+   "snippet": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "subject": "Trolley returns this week (13)",
+   "thread_id": "thr-3c54c464",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-10T10:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-b4cab12883",
+   "internal_date": 1809943200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Van 1 service booking (14)",
+   "thread_id": "thr-8c767a02",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-11T23:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-ed0903e464",
+   "internal_date": 1810076400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Peat-free compost trial (15)",
+   "thread_id": "thr-a0ce1d74",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-13T12:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-48faa3f394",
+   "internal_date": 1810209600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "subject": "Trade counter opening hours (16)",
+   "thread_id": "thr-b373300d",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-15T01:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-2a34a740a6",
+   "internal_date": 1810342800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Sweet pea plugs: availability (17)",
+   "thread_id": "thr-4cc5005d",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-16T14:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-76e8cb6430",
+   "internal_date": 1810476000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "subject": "Hedging orders for autumn (18)",
+   "thread_id": "thr-ae4c3640",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-18T03:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-afde00b722",
+   "internal_date": 1810609200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "subject": "Car park resurfacing (19)",
+   "thread_id": "thr-124b18b9",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-19T16:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-5b2eaa6d82",
+   "internal_date": 1810742400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Delivery driver rota (20)",
+   "thread_id": "thr-77b16794",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-21T05:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-6aaf3c51b6",
+   "internal_date": 1810875600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "subject": "Irrigation timer in T2 (21)",
+   "thread_id": "thr-e60f29fb",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-22T18:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-ff7bdf0840",
+   "internal_date": 1811008800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Pallet collection (22)",
+   "thread_id": "thr-c263421f",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-24T07:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-c3e0d9b48d",
+   "internal_date": 1811142000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 43,
+   "snippet": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "subject": "Order for Kingsmead (23)",
+   "thread_id": "thr-da1c13ad",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-25T20:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-bfc2445f8f",
+   "internal_date": 1811275200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 43,
+   "snippet": "Hello,\n\nOrder picked and ready.\n\nThornfield",
+   "subject": "Plant passport labels re-order (24)",
+   "thread_id": "thr-39e7e0a3",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-27T09:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-0a98b322e1",
+   "internal_date": 1811408400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 40,
+   "snippet": "Hello,\n\nBooked for Thursday.\n\nThornfield",
+   "subject": "Trolley returns this week (25)",
+   "thread_id": "thr-748371fa",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-28T22:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-8ec6ff446e",
+   "internal_date": 1811541600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "subject": "Van 1 service booking (26)",
+   "thread_id": "thr-14e3ccdb",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-05-30T11:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-1006bdf391",
+   "internal_date": 1811674800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nWe'll discuss at Monday's huddle.\n\nThornfield",
+   "subject": "Peat-free compost trial (27)",
+   "thread_id": "thr-5961988d",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-06-01T00:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-23bd455c36",
+   "internal_date": 1811808000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 53,
+   "snippet": "Hello,\n\nPlease see the board in the yard.\n\nThornfield",
+   "subject": "Trade counter opening hours (28)",
+   "thread_id": "thr-b08e2ded",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-06-02T13:00:00Z",
+   "from_addr": "sales@thornfield-nurseries.example",
+   "id": "msg-e241a17f14",
+   "internal_date": 1811941200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Sweet pea plugs: availability (29)",
+   "thread_id": "thr-06f5ccdb",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "cc_addr": "",
+   "date": "2027-06-04T02:00:00Z",
+   "from_addr": "yard@thornfield-nurseries.example",
+   "id": "msg-908ea4f68b",
+   "internal_date": 1812074400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 34,
+   "snippet": "Hello,\n\nNoted, thanks.\n\nThornfield",
+   "subject": "Hedging orders for autumn (30)",
+   "thread_id": "thr-151b7b66",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-01T08:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-190c760d6c",
+   "internal_date": 1803888000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 1",
+   "thread_id": "thr-e08f34e6",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-03T21:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-0f2c7d091b",
+   "internal_date": 1804107600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 2",
+   "thread_id": "thr-5b837055",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-06T10:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-4fd79470e5",
+   "internal_date": 1804327200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 3",
+   "thread_id": "thr-4c8f715f",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-08T23:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-79e5d29808",
+   "internal_date": 1804546800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 4",
+   "thread_id": "thr-4f0b6a95",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-11T12:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-a287e33ac9",
+   "internal_date": 1804766400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 5",
+   "thread_id": "thr-37253163",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-14T01:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-9ae2f15476",
+   "internal_date": 1804986000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 6",
+   "thread_id": "thr-43fd6752",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-16T14:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-81816a7386",
+   "internal_date": 1805205600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 7",
+   "thread_id": "thr-2e6a2721",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-19T03:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-4c6a657040",
+   "internal_date": 1805425200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 8",
+   "thread_id": "thr-b47a617c",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-21T16:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-b7a0b06e7d",
+   "internal_date": 1805644800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 9",
+   "thread_id": "thr-ac331744",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-24T05:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-26c2530522",
+   "internal_date": 1805864400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 10",
+   "thread_id": "thr-5387e463",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-26T18:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-13cebdcbd5",
+   "internal_date": 1806084000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 11",
+   "thread_id": "thr-b085a3e1",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-29T07:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-00e8ebbeb7",
+   "internal_date": 1806303600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 12",
+   "thread_id": "thr-7d613cba",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-03-31T20:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-8a7c9b8bc0",
+   "internal_date": 1806523200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 13",
+   "thread_id": "thr-62de4e14",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-03T09:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-baa3d7eae8",
+   "internal_date": 1806742800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 14",
+   "thread_id": "thr-9f102201",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-05T22:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-309ffdda19",
+   "internal_date": 1806962400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 15",
+   "thread_id": "thr-ada03f65",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-08T11:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-44e55ae93a",
+   "internal_date": 1807182000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 16",
+   "thread_id": "thr-649306f5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-11T00:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-adf662990e",
+   "internal_date": 1807401600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 17",
+   "thread_id": "thr-d9bd8ec8",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-13T13:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-d10a55d24c",
+   "internal_date": 1807621200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 18",
+   "thread_id": "thr-ec269c7a",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-16T02:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-2e8af68691",
+   "internal_date": 1807840800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 19",
+   "thread_id": "thr-9e4b6ff5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-18T15:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-e10dd77296",
+   "internal_date": 1808060400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 20",
+   "thread_id": "thr-3b5808a5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-21T04:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-3fc210c2ec",
+   "internal_date": 1808280000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 21",
+   "thread_id": "thr-30a7e943",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-23T17:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-e90334dd39",
+   "internal_date": 1808499600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 22",
+   "thread_id": "thr-a8a7b878",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-26T06:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-a311283724",
+   "internal_date": 1808719200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 23",
+   "thread_id": "thr-76a2a8f9",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-04-28T19:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-8c78bfab71",
+   "internal_date": 1808938800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 24",
+   "thread_id": "thr-a76b560b",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-01T08:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-b666c1362d",
+   "internal_date": 1809158400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 25",
+   "thread_id": "thr-4a061dc7",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-03T21:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-3a3050fc28",
+   "internal_date": 1809378000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 26",
+   "thread_id": "thr-d6a11698",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-06T10:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-654c8b4631",
+   "internal_date": 1809597600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 27",
+   "thread_id": "thr-22a02dee",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-08T23:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-65c0974401",
+   "internal_date": 1809817200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 28",
+   "thread_id": "thr-9fb591a5",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-11T12:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-af91b98994",
+   "internal_date": 1810036800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 29",
+   "thread_id": "thr-e5a55802",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-14T01:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-8d2b9ec0a6",
+   "internal_date": 1810256400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 30",
+   "thread_id": "thr-39268b7a",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-16T14:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-6a9daa6242",
+   "internal_date": 1810476000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 31",
+   "thread_id": "thr-2f5e33dc",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-19T03:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-b6019ca914",
+   "internal_date": 1810695600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 32",
+   "thread_id": "thr-e980d916",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-21T16:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-67146b2dfe",
+   "internal_date": 1810915200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 33",
+   "thread_id": "thr-2aa45f7d",
+   "to_addr": "finance@thornfield-nurseries.example"
+  },
+  {
+   "body": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barbecue.\n\nOffice",
+   "cc_addr": "",
+   "date": "2027-05-24T05:00:00Z",
+   "from_addr": "office@thornfield-nurseries.example",
+   "id": "msg-df64ae6075",
+   "internal_date": 1811134800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 103,
+   "snippet": "Hello all,\n\nWatering rota, the potting shed rota, delivery van bookings and the staff barb",
+   "subject": "Nursery notice 34",
+   "thread_id": "thr-03906a54",
+   "to_addr": "finance@thornfield-nurseries.example"
+  }
+ ],
+ "profile": {
+  "emailAddress": "finance@thornfield-nurseries.example",
+  "historyId": "8317",
+  "messagesTotal": 77,
+  "threadsTotal": 77
+ }
+}

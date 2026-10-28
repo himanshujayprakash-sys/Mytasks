@@ -1,0 +1,252 @@
+{
+ "event_types": [
+  {
+   "uri": "https://api.calendly.com/event_types/et_pm_magistrate30",
+   "slug": "becoming-a-magistrate",
+   "name": "Becoming a magistrate: a short call",
+   "duration": 30,
+   "kind": "solo",
+   "active": true,
+   "color": "blue",
+   "type": "StandardEventType"
+  },
+  {
+   "uri": "https://api.calendly.com/event_types/et_pm_school30",
+   "slug": "school-visit-planning",
+   "name": "Planning a school visit",
+   "duration": 30,
+   "kind": "solo",
+   "active": true,
+   "color": "green",
+   "type": "StandardEventType"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-pm001",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_magistrate30",
+   "name": "Becoming a magistrate: a short call",
+   "status": "active",
+   "start_time": "2026-10-14T17:30:00.000000Z",
+   "end_time": "2026-10-14T18:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-02T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm002",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_magistrate30",
+   "name": "Becoming a magistrate: a short call",
+   "status": "active",
+   "start_time": "2026-10-20T12:30:00.000000Z",
+   "end_time": "2026-10-20T13:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-04T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm003",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_school30",
+   "name": "Planning a school visit",
+   "status": "active",
+   "start_time": "2026-10-22T15:45:00.000000Z",
+   "end_time": "2026-10-22T16:15:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-06T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm004",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_magistrate30",
+   "name": "Becoming a magistrate: a short call",
+   "status": "canceled",
+   "start_time": "2026-11-03T18:00:00.000000Z",
+   "end_time": "2026-11-03T18:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-08T08:40:00.000000Z",
+   "canceled_reason": "Invitee asked to move to the open evening instead"
+  },
+  {
+   "uuid": "sev-pm005",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_school30",
+   "name": "Planning a school visit",
+   "status": "active",
+   "start_time": "2026-11-05T16:00:00.000000Z",
+   "end_time": "2026-11-05T16:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-10T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm006",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_magistrate30",
+   "name": "Becoming a magistrate: a short call",
+   "status": "active",
+   "start_time": "2026-11-10T17:30:00.000000Z",
+   "end_time": "2026-11-10T18:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-12T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm007",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_magistrate30",
+   "name": "Becoming a magistrate: a short call",
+   "status": "active",
+   "start_time": "2026-11-12T12:30:00.000000Z",
+   "end_time": "2026-11-12T13:00:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-pm008",
+   "owner": "Ruby Anand",
+   "event_type": "et_pm_school30",
+   "name": "Planning a school visit",
+   "status": "active",
+   "start_time": "2026-11-19T16:00:00.000000Z",
+   "end_time": "2026-11-19T16:30:00.000000Z",
+   "location_type": "zoom",
+   "location": "Video call",
+   "created_at": "2026-10-16T08:40:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-pm001",
+   "event": "sev-pm001",
+   "name": "Hannah Merriman",
+   "email": "hannah.merriman@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-02T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "Can I sit if I work shifts?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm002",
+   "event": "sev-pm002",
+   "name": "Trevor Ashdown",
+   "email": "trevor.ashdown@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-04T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "How much time does it take each year?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm003",
+   "event": "sev-pm003",
+   "name": "Pellbridge Academy, Mr Oduya",
+   "email": "s.oduya@pellbridge-academy.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-06T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "Year 10 citizenship group of 25"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm004",
+   "event": "sev-pm004",
+   "name": "Leanne Fairbrother",
+   "email": "leanne.f@post.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-08T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "Does my employer have to give me time off?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm005",
+   "event": "sev-pm005",
+   "name": "St Aldhelm's College, Ms Reyes",
+   "email": "c.reyes@st-aldhelms.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-10T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "Mock trial competition entry for sixth formers"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm006",
+   "event": "sev-pm006",
+   "name": "Gareth Penhale",
+   "email": "gareth.penhale@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-12T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "I am 66. Is there an upper age limit?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm007",
+   "event": "sev-pm007",
+   "name": "Yusuf Demir",
+   "email": "yusuf.demir@post.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-14T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "What training is given before the first sitting?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-pm008",
+   "event": "sev-pm008",
+   "name": "Brookfield School, Mrs Hale",
+   "email": "a.hale@brookfield-school.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-16T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to ask?",
+     "answer": "Visit to see the building and meet a legal adviser in January"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "vendors": [
+  {
+   "Id": "91",
+   "DisplayName": "The Old Mill Hotel",
+   "PrimaryEmailAddr": {
+    "Address": "events@oldmillhotel.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960911"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Christmas party and broker breakfast venue."
+  },
+  {
+   "Id": "92",
+   "DisplayName": "Fellfoot Coaches",
+   "PrimaryEmailAddr": {
+    "Address": "bookings@fellfootcoaches.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960922"
+   },
+   "Balance": 340.0,
+   "Active": true,
+   "Notes": "Coach for the team fell walk."
+  },
+  {
+   "Id": "93",
+   "DisplayName": "Brewster's Bakery",
+   "PrimaryEmailAddr": {
+    "Address": "orders@brewstersbakery.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960933"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Bake sale tray bakes."
+  },
+  {
+   "Id": "94",
+   "DisplayName": "Kendal Trophy Centre",
+   "PrimaryEmailAddr": {
+    "Address": "sales@kendaltrophy.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960944"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Quiz and sports day trophies."
+  }
+ ],
+ "bills": [
+  {
+   "Id": "9301",
+   "DocNumber": "KTC-1187",
+   "VendorRef": {
+    "value": "94",
+    "name": "Kendal Trophy Centre"
+   },
+   "TxnDate": "2026-09-26",
+   "DueDate": "2026-10-26",
+   "Line": [
+    {
+     "Amount": 58.4,
+     "Description": "Engraved quiz trophy",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Prizes",
+       "value": "81"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 58.4,
+   "Balance": 0,
+   "PrivateNote": "Paid from the social committee account on 2026-09-30."
+  },
+  {
+   "Id": "9302",
+   "DocNumber": "BB-4410",
+   "VendorRef": {
+    "value": "93",
+    "name": "Brewster's Bakery"
+   },
+   "TxnDate": "2026-10-13",
+   "DueDate": "2026-11-12",
+   "Line": [
+    {
+     "Amount": 72.5,
+     "Description": "Tray bakes for the bake sale",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Refreshments",
+       "value": "82"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 72.5,
+   "Balance": 0,
+   "PrivateNote": "Paid from the social committee account on 2026-10-15."
+  },
+  {
+   "Id": "9303",
+   "DocNumber": "OMH-2215",
+   "VendorRef": {
+    "value": "91",
+    "name": "The Old Mill Hotel"
+   },
+   "TxnDate": "2026-10-12",
+   "DueDate": "2026-11-11",
+   "Line": [
+    {
+     "Amount": 600.0,
+     "Description": "Christmas party deposit",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "83"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 600.0,
+   "Balance": 0,
+   "PrivateNote": "Paid from the social committee account on 2026-10-14."
+  },
+  {
+   "Id": "9304",
+   "DocNumber": "FFC-0981",
+   "VendorRef": {
+    "value": "92",
+    "name": "Fellfoot Coaches"
+   },
+   "TxnDate": "2026-10-19",
+   "DueDate": "2026-11-18",
+   "Line": [
+    {
+     "Amount": 340.0,
+     "Description": "Coach hire for the fell walk, 28 November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Events",
+       "value": "83"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 340.0,
+   "Balance": 340.0,
+   "PrivateNote": "To pay before the walk."
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "9501",
+   "TxnDate": "2026-10-06",
+   "TotalAmt": 24.0,
+   "Line": [
+    {
+     "Description": "Fruit for wellbeing week",
+     "Amount": 24.0
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-06T10:00:00"
+   }
+  },
+  {
+   "Id": "9502",
+   "TxnDate": "2026-10-08",
+   "TotalAmt": 15.5,
+   "Line": [
+    {
+     "Description": "Parking for the visiting speaker",
+     "Amount": 15.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-08T10:00:00"
+   }
+  },
+  {
+   "Id": "9503",
+   "TxnDate": "2026-10-13",
+   "TotalAmt": 9.99,
+   "Line": [
+    {
+     "Description": "Cash box for the bake sale",
+     "Amount": 9.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-13T10:00:00"
+   }
+  },
+  {
+   "Id": "9504",
+   "TxnDate": "2026-10-16",
+   "TotalAmt": 31.2,
+   "Line": [
+    {
+     "Description": "Flasks and cups for the fell walk",
+     "Amount": 31.2
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-16T10:00:00"
+   }
+  }
+ ],
+ "bill_payments": [
+  {
+   "Id": "BP-AGM-01",
+   "PayType": "Check",
+   "DocNumber": "SC-2201",
+   "TxnDate": "2026-09-30",
+   "TotalAmt": 58.4,
+   "VendorRef": {
+    "value": "94",
+    "name": "Kendal Trophy Centre"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2301",
+     "name": "Social committee account"
+    }
+   }
+  },
+  {
+   "Id": "BP-AGM-02",
+   "PayType": "Check",
+   "DocNumber": "SC-2202",
+   "TxnDate": "2026-10-15",
+   "TotalAmt": 72.5,
+   "VendorRef": {
+    "value": "93",
+    "name": "Brewster's Bakery"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2301",
+     "name": "Social committee account"
+    }
+   }
+  },
+  {
+   "Id": "BP-AGM-03",
+   "PayType": "Check",
+   "DocNumber": "SC-2203",
+   "TxnDate": "2026-10-14",
+   "TotalAmt": 600.0,
+   "VendorRef": {
+    "value": "91",
+    "name": "The Old Mill Hotel"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "2301",
+     "name": "Social committee account"
+    }
+   }
+  }
+ ]
+}

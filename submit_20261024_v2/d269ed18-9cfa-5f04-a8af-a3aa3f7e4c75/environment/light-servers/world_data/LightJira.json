@@ -1,0 +1,138 @@
+{
+ "projects": [
+  {
+   "id": "71000",
+   "key": "FHW",
+   "name": "Fernhill website",
+   "description": "Website and online enquiries.",
+   "lead": "Petra Noakes",
+   "project_type_key": "software"
+  }
+ ],
+ "users": [
+  {
+   "account_id": "fh-a50917b360b6",
+   "display_name": "Petra Noakes",
+   "email": "petra.noakes@fernhillbarn.example",
+   "active": true
+  },
+  {
+   "account_id": "fh-dfea640ea433",
+   "display_name": "Bronwen Teague",
+   "email": "bronwen.teague@fernhillbarn.example",
+   "active": true
+  },
+  {
+   "account_id": "fh-ec2757b207eb",
+   "display_name": "Hattie Groves",
+   "email": "hattie.groves@fernhillbarn.example",
+   "active": true
+  }
+ ],
+ "boards": [
+  {
+   "id": 7101,
+   "name": "FHW board",
+   "project_key": "FHW",
+   "type": "kanban"
+  }
+ ],
+ "issues": [
+  {
+   "id": "71001",
+   "key": "FHW-40",
+   "project_key": "FHW",
+   "issue_type": "Task",
+   "summary": "Update 2027 prices on the website",
+   "description": "New price guide from 1 January 2027.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Petra Noakes",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-01T10:00:00Z",
+   "updated": "2026-12-01T10:00:00Z"
+  },
+  {
+   "id": "71002",
+   "key": "FHW-41",
+   "project_key": "FHW",
+   "issue_type": "Bug",
+   "summary": "Enquiry form not sending copies",
+   "description": "Couples are not getting a copy of their enquiry.",
+   "status": "In Progress",
+   "priority": "Medium",
+   "assignee": "Petra Noakes",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-25T09:00:00Z",
+   "updated": "2026-11-25T09:00:00Z"
+  },
+  {
+   "id": "71003",
+   "key": "FHW-42",
+   "project_key": "FHW",
+   "issue_type": "Task",
+   "summary": "Add winter photos to the gallery",
+   "description": "Photos from the November weddings.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Hattie Groves",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-30T15:00:00Z",
+   "updated": "2026-11-30T15:00:00Z"
+  },
+  {
+   "id": "71004",
+   "key": "FHW-43",
+   "project_key": "FHW",
+   "issue_type": "Task",
+   "summary": "Virtual tour video",
+   "description": "Film the barn with the drone in January.",
+   "status": "To Do",
+   "priority": "Medium",
+   "assignee": "Hattie Groves",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-05T11:00:00Z",
+   "updated": "2026-12-05T11:00:00Z"
+  },
+  {
+   "id": "71005",
+   "key": "FHW-44",
+   "project_key": "FHW",
+   "issue_type": "Bug",
+   "summary": "Calendar shows 2027 dates as unavailable",
+   "description": "Availability widget greys out February.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Petra Noakes",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-11-12T14:00:00Z",
+   "updated": "2026-11-12T14:00:00Z"
+  },
+  {
+   "id": "71006",
+   "key": "FHW-45",
+   "project_key": "FHW",
+   "issue_type": "Task",
+   "summary": "Wedding fair landing page",
+   "description": "Offer page for the Hereford fair.",
+   "status": "Done",
+   "priority": "Medium",
+   "assignee": "Bronwen Teague",
+   "reporter": "Bronwen Teague",
+   "sprint_id": 0,
+   "story_points": 0,
+   "created": "2026-12-07T09:00:00Z",
+   "updated": "2026-12-07T09:00:00Z"
+  }
+ ]
+}

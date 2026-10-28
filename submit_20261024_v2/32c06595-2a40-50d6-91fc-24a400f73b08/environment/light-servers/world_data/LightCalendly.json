@@ -1,0 +1,174 @@
+{
+ "scheduled_events": [
+  {
+   "canceled_reason": null,
+   "created_at": "2026-11-01T09:00:00.000000Z",
+   "end_time": "2026-11-12T10:30:00.000000Z",
+   "event_type": "et-llh-induct-30",
+   "location": "Hospice volunteer room",
+   "location_type": "physical",
+   "name": "Volunteer induction",
+   "owner": "Delphine Ashcombe",
+   "start_time": "2026-11-12T10:00:00.000000Z",
+   "status": "active",
+   "uuid": "sev-llh001"
+  },
+  {
+   "canceled_reason": null,
+   "created_at": "2026-11-02T09:00:00.000000Z",
+   "end_time": "2026-11-12T10:60:00.000000Z",
+   "event_type": "et-llh-induct-30",
+   "location": "Hospice volunteer room",
+   "location_type": "physical",
+   "name": "Volunteer induction",
+   "owner": "Delphine Ashcombe",
+   "start_time": "2026-11-12T10:30:00.000000Z",
+   "status": "active",
+   "uuid": "sev-llh002"
+  },
+  {
+   "canceled_reason": null,
+   "created_at": "2026-11-03T09:00:00.000000Z",
+   "end_time": "2026-11-13T12:20:00.000000Z",
+   "event_type": "et-llh-chat-20",
+   "location": "Phone",
+   "location_type": "outbound_call",
+   "name": "Challenge events chat",
+   "owner": "Saskia Lomond",
+   "start_time": "2026-11-13T12:00:00.000000Z",
+   "status": "active",
+   "uuid": "sev-llh003"
+  },
+  {
+   "canceled_reason": null,
+   "created_at": "2026-11-04T09:00:00.000000Z",
+   "end_time": "2026-11-16T17:20:00.000000Z",
+   "event_type": "et-llh-chat-20",
+   "location": "Phone",
+   "location_type": "outbound_call",
+   "name": "Challenge events chat",
+   "owner": "Saskia Lomond",
+   "start_time": "2026-11-16T17:00:00.000000Z",
+   "status": "active",
+   "uuid": "sev-llh004"
+  },
+  {
+   "canceled_reason": null,
+   "created_at": "2026-11-05T09:00:00.000000Z",
+   "end_time": "2026-11-19T09:30:00.000000Z",
+   "event_type": "et-llh-induct-30",
+   "location": "Hospice volunteer room",
+   "location_type": "physical",
+   "name": "Volunteer induction",
+   "owner": "Delphine Ashcombe",
+   "start_time": "2026-11-19T09:00:00.000000Z",
+   "status": "active",
+   "uuid": "sev-llh005"
+  }
+ ],
+ "invitees": [
+  {
+   "created_at": "2026-11-01T09:00:00.000000Z",
+   "email": "rita.laity@inbox.example",
+   "event": "sev-llh001",
+   "name": "Rita Laity",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to talk about?",
+     "answer": "Tent volunteer next year"
+    }
+   ],
+   "status": "active",
+   "timezone": "Europe/London",
+   "uuid": "inv-llh001"
+  },
+  {
+   "created_at": "2026-11-02T09:00:00.000000Z",
+   "email": "ken.spry@postbox.example",
+   "event": "sev-llh002",
+   "name": "Ken Spry",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to talk about?",
+     "answer": "Christmas tree driver"
+    }
+   ],
+   "status": "active",
+   "timezone": "Europe/London",
+   "uuid": "inv-llh002"
+  },
+  {
+   "created_at": "2026-11-03T09:00:00.000000Z",
+   "email": "h.pengelly@inbox.example",
+   "event": "sev-llh003",
+   "name": "Hannah Pengelly",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to talk about?",
+     "answer": "Interested in a 2027 gold bond place"
+    }
+   ],
+   "status": "active",
+   "timezone": "Europe/London",
+   "uuid": "inv-llh003"
+  },
+  {
+   "created_at": "2026-11-04T09:00:00.000000Z",
+   "email": "rory.mcbride@mailhub.example",
+   "event": "sev-llh004",
+   "name": "Rory McBride",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to talk about?",
+     "answer": "Running the 2027 race on my own place"
+    }
+   ],
+   "status": "active",
+   "timezone": "Europe/London",
+   "uuid": "inv-llh004"
+  },
+  {
+   "created_at": "2026-11-05T09:00:00.000000Z",
+   "email": "alma.treweek@inbox.example",
+   "event": "sev-llh005",
+   "name": "Alma Treweek",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to talk about?",
+     "answer": "Lights of Remembrance steward"
+    }
+   ],
+   "status": "active",
+   "timezone": "Europe/London",
+   "uuid": "inv-llh005"
+  }
+ ],
+ "event_types": [
+  {
+   "active": true,
+   "color": "#7B1FA2",
+   "created_at": "2026-02-01T09:00:00.000000Z",
+   "description": "Half-hour induction for new event volunteers.",
+   "duration": 30,
+   "kind": "solo",
+   "name": "Volunteer induction",
+   "owner": "Delphine Ashcombe",
+   "scheduling_url": "https://calendly.com/linnet-lane/volunteer-induction",
+   "slug": "volunteer-induction",
+   "uuid": "et-llh-induct-30"
+  },
+  {
+   "active": true,
+   "color": "#F57C00",
+   "created_at": "2026-03-01T09:00:00.000000Z",
+   "description": "Call with the events team about a challenge event place.",
+   "duration": 20,
+   "kind": "solo",
+   "name": "Challenge events chat",
+   "owner": "Saskia Lomond",
+   "scheduling_url": "https://calendly.com/linnet-lane/challenge-chat",
+   "slug": "challenge-chat",
+   "uuid": "et-llh-chat-20"
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+{
+ "team": {
+  "id": "T7GWP",
+  "name": "Greyfriars Wharf Productions",
+  "domain": "greyfriarswharf"
+ },
+ "users": [
+  {
+   "id": "U7GW00",
+   "name": "imogen.thackeray",
+   "real_name": "Imogen Thackeray",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "imogen.thackeray@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW01",
+   "name": "rafe.adeyinka",
+   "real_name": "Rafe Adeyinka",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "rafe.adeyinka@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW02",
+   "name": "delphine.marchetti",
+   "real_name": "Delphine Marchetti",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "delphine.marchetti@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW03",
+   "name": "saoirse.kavanagh",
+   "real_name": "Saoirse Kavanagh",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "saoirse.kavanagh@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW04",
+   "name": "lucinda.fairweather",
+   "real_name": "Lucinda Fairweather",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "lucinda.fairweather@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW05",
+   "name": "gethin.pryce",
+   "real_name": "Gethin Pryce",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "gethin.pryce@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW06",
+   "name": "marisol.echeverria",
+   "real_name": "Marisol Echeverria",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "marisol.echeverria@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW07",
+   "name": "barnaby.quist",
+   "real_name": "Barnaby Quist",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "barnaby.quist@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GW08",
+   "name": "nell.ashdown",
+   "real_name": "Nell Ashdown",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "nell.ashdown@greyfriarswharf.example"
+   }
+  },
+  {
+   "id": "U7GWCREW1",
+   "name": "declan.moriarty",
+   "real_name": "Declan Moriarty",
+   "is_admin": false,
+   "is_bot": false,
+   "presence": "away",
+   "profile": {
+    "email": "declan.moriarty@crew.greyfriarswharf.example"
+   }
+  }
+ ],
+ "channels": [
+  {
+   "id": "C7GWLOCDEPT",
+   "name": "locations-dept",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Lamplighter S2 locations",
+   "purpose": "Location department chat",
+   "creator": "U7GW00",
+   "created": 1772442000,
+   "num_members": 7
+  },
+  {
+   "id": "C7GWGENERAL",
+   "name": "lamplighter-general",
+   "is_private": false,
+   "is_archived": false,
+   "topic": "Series 2 production",
+   "purpose": "Whole production",
+   "creator": "U7GW05",
+   "created": 1772442000,
+   "num_members": 9
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW00"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW01"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW02"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW03"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW04"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW05"
+  },
+  {
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW06"
+  }
+ ],
+ "messages": [
+  {
+   "ts": "1794992400.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW01",
+   "text": "Tannery Row permit came through, we're good for all three days next week.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794994800.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW08",
+   "text": "For overtime, round to the nearest half hour like we did on series 1, it's what the crew expect.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794997200.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GWCREW1",
+   "text": "Mo's Tuesday wrap was 22:00 not 21:00, can someone fix his line?",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794999600.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW04",
+   "text": "Bay suspensions are 29.80 a day, same as last year.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795002000.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW01",
+   "text": "Wickerby Lane will be fine, the council always grants in the end. Clear it and get the notices out.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795004400.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW08",
+   "text": "Canal Basin permit runs all week I think.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795006800.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW05",
+   "text": "Just text everyone on all the lists for next week, quicker than letters.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795009200.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW02",
+   "text": "Pretty sure Callum was in on Wednesday for a bit, saw his van.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795011600.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW02",
+   "text": "Tamsin's off Tuesday by the way.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795014000.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW01",
+   "text": "Kestrel Hill car park is ours Thursday and Friday, nothing can go wrong there.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1795016400.000100",
+   "channel_id": "C7GWLOCDEPT",
+   "user_id": "U7GW00",
+   "text": "Please don't settle anything off the back of this channel; the terms and the council's papers decide. I'm on the recce till late.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794906000.000200",
+   "channel_id": "C7GWGENERAL",
+   "user_id": "U7GW05",
+   "text": "Wrap party is Saturday 12 December at the Assembly Rooms.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794909000.000200",
+   "channel_id": "C7GWGENERAL",
+   "user_id": "U7GW05",
+   "text": "Football: crew v cast, Sunday 10:00 at the rec.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794912000.000200",
+   "channel_id": "C7GWGENERAL",
+   "user_id": "U7GW05",
+   "text": "Base recycling: cans and plastics in the blue bins please.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  },
+  {
+   "ts": "1794915000.000200",
+   "channel_id": "C7GWGENERAL",
+   "user_id": "U7GW05",
+   "text": "Well done all on the night exteriors.",
+   "thread_ts": null,
+   "reply_count": 0,
+   "reactions": []
+  }
+ ]
+}

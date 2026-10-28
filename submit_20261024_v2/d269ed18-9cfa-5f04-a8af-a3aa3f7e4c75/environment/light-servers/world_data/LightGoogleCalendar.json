@@ -1,0 +1,422 @@
+{
+ "calendars": [
+  {
+   "id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Kitchen shifts",
+   "primary": false
+  },
+  {
+   "id": "viewings@fernhillbarn.example",
+   "summary": "Viewings and tastings",
+   "primary": false
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-fh-shift-01",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Wedding breakfast service: Fowler-Bains",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-12T11:00:00+00:00",
+   "end": "2026-12-12T18:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-shift-02",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Kitchen prep day",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-15T08:00:00+00:00",
+   "end": "2026-12-15T16:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-shift-03",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Kitchen prep day",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-17T08:00:00+00:00",
+   "end": "2026-12-17T16:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-shift-04",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Wedding prep: Hartley-Osei",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-18T08:00:00+00:00",
+   "end": "2026-12-18T17:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-shift-05",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Wedding breakfast service: Hartley-Osei",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-19T11:00:00+00:00",
+   "end": "2026-12-19T18:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-shift-06",
+   "calendar_id": "kitchen.shifts@fernhillbarn.example",
+   "summary": "Staff Christmas lunch prep",
+   "description": "Shift invitation from the head chef's rota; accept or decline here.",
+   "location": "Fernhill kitchen",
+   "start": "2026-12-22T09:00:00+00:00",
+   "end": "2026-12-22T13:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "rhodri.pask@fernhillbarn.example",
+   "organizer": "rhodri.pask@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-001",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Viewing: Corrigan and Whitby family",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2026-12-12T11:00:00+00:00",
+   "end": "2026-12-12T12:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-002",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Menu tasting: Nair and Ellery",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2027-01-09T12:00:00+00:00",
+   "end": "2027-01-09T13:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-003",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Viewing: walk-in couples",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2027-01-09T10:00:00+00:00",
+   "end": "2027-01-09T11:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-004",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Viewing: Okonkwo and Reid",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2027-01-16T11:00:00+00:00",
+   "end": "2027-01-16T12:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-005",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Menu tasting: Arkwright and Lawal",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2027-01-23T12:00:00+00:00",
+   "end": "2027-01-23T13:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-006",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Wedding fair, Hereford",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2026-12-14T09:00:00+00:00",
+   "end": "2026-12-14T10:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-007",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Open evening",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2027-01-28T18:00:00+00:00",
+   "end": "2027-01-28T19:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-fh-008",
+   "calendar_id": "viewings@fernhillbarn.example",
+   "summary": "Viewing: Gallacher and Sefton",
+   "description": "Booked by the events office.",
+   "location": "Fernhill Tithe Barn",
+   "start": "2026-12-19T09:00:00+00:00",
+   "end": "2026-12-19T10:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "petra.noakes@fernhillbarn.example",
+   "organizer": "petra.noakes@fernhillbarn.example",
+   "recurrence": [],
+   "visibility": "default"
+  }
+ ],
+ "attendees": {
+  "evt-fh-shift-01": [
+   {
+    "email": "rhodri.pask@fernhillbarn.example",
+    "displayName": "Rhodri Pask",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": true
+   },
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tamsin.odell@fernhillbarn.example",
+    "displayName": "Tamsin Odell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "kojo.mensah@fernhillbarn.example",
+    "displayName": "Kojo Mensah",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ],
+  "evt-fh-shift-02": [
+   {
+    "email": "rhodri.pask@fernhillbarn.example",
+    "displayName": "Rhodri Pask",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": true
+   },
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tamsin.odell@fernhillbarn.example",
+    "displayName": "Tamsin Odell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ],
+  "evt-fh-shift-03": [
+   {
+    "email": "rhodri.pask@fernhillbarn.example",
+    "displayName": "Rhodri Pask",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": true
+   },
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tamsin.odell@fernhillbarn.example",
+    "displayName": "Tamsin Odell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "kojo.mensah@fernhillbarn.example",
+    "displayName": "Kojo Mensah",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ],
+  "evt-fh-shift-04": [
+   {
+    "email": "rhodri.pask@fernhillbarn.example",
+    "displayName": "Rhodri Pask",
+    "responseStatus": "declined",
+    "optional": false,
+    "organizer": true
+   },
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tamsin.odell@fernhillbarn.example",
+    "displayName": "Tamsin Odell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "kojo.mensah@fernhillbarn.example",
+    "displayName": "Kojo Mensah",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ],
+  "evt-fh-shift-05": [
+   {
+    "email": "rhodri.pask@fernhillbarn.example",
+    "displayName": "Rhodri Pask",
+    "responseStatus": "declined",
+    "optional": false,
+    "organizer": true
+   },
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "tamsin.odell@fernhillbarn.example",
+    "displayName": "Tamsin Odell",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "kojo.mensah@fernhillbarn.example",
+    "displayName": "Kojo Mensah",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ],
+  "evt-fh-shift-06": [
+   {
+    "email": "ines.calloway@fernhillbarn.example",
+    "displayName": "Ines Calloway",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   },
+   {
+    "email": "abi.flint@fernhillbarn.example",
+    "displayName": "Abi Flint",
+    "responseStatus": "accepted",
+    "optional": false,
+    "organizer": false
+   }
+  ]
+ }
+}

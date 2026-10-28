@@ -1,0 +1,192 @@
+{
+ "workspace": {
+  "gid": "1232300000000001",
+  "name": "Thornwick Juniors FC"
+ },
+ "users": [
+  {
+   "gid": "1232300000000300",
+   "name": "Graham Pilsworth",
+   "email": "graham.pilsworth@thornwickjuniors.example",
+   "workspace_gid": "1232300000000001"
+  },
+  {
+   "gid": "1232300000000301",
+   "name": "Hannah Ledgard",
+   "email": "hannah.ledgard@thornwickjuniors.example",
+   "workspace_gid": "1232300000000001"
+  },
+  {
+   "gid": "1232300000000302",
+   "name": "Marcus Oyelowo",
+   "email": "marcus.oyelowo@thornwickjuniors.example",
+   "workspace_gid": "1232300000000001"
+  },
+  {
+   "gid": "1232300000000303",
+   "name": "Anjali Rao",
+   "email": "anjali.rao@thornwickjuniors.example",
+   "workspace_gid": "1232300000000001"
+  },
+  {
+   "gid": "1232300000000304",
+   "name": "Sol Brannan",
+   "email": "sol.brannan@thornwickjuniors.example",
+   "workspace_gid": "1232300000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1232300000000101",
+   "name": "Clubhouse and grounds 2026-27",
+   "notes": "Jobs around the clubhouse and pitches.",
+   "color": "dark-orange",
+   "archived": false,
+   "owner_gid": "1232300000000301",
+   "workspace_gid": "1232300000000001",
+   "created_at": "2026-08-25T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1232300000000201",
+   "name": "Next up",
+   "project_gid": "1232300000000101",
+   "created_at": "2026-08-25T09:05:00.000Z"
+  },
+  {
+   "gid": "1232300000000202",
+   "name": "In hand",
+   "project_gid": "1232300000000101",
+   "created_at": "2026-08-25T09:05:00.000Z"
+  },
+  {
+   "gid": "1232300000000203",
+   "name": "Finished",
+   "project_gid": "1232300000000101",
+   "created_at": "2026-08-25T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1232300000000400",
+   "name": "Re-line grass pitch 2 for the winter",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000203",
+   "assignee_gid": "1232300000000301",
+   "completed": true,
+   "due_on": "2026-10-30",
+   "notes": "White line marker refilled; pitch 2 marked for 9v9.",
+   "created_at": "2026-10-12T09:10:00.000Z",
+   "modified_at": "2026-10-29T13:10:00.000Z"
+  },
+  {
+   "gid": "1232300000000401",
+   "name": "Fix the clubhouse boiler",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000203",
+   "assignee_gid": "1232300000000300",
+   "completed": true,
+   "due_on": "2026-11-13",
+   "notes": "Engineer replaced the pump on 12 November; radiators warm again.",
+   "created_at": "2026-11-02T09:11:00.000Z",
+   "modified_at": "2026-11-12T13:11:00.000Z"
+  },
+  {
+   "gid": "1232300000000402",
+   "name": "Order new corner flags",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000202",
+   "assignee_gid": "1232300000000301",
+   "completed": false,
+   "due_on": "2026-12-04",
+   "notes": "Spring-loaded flags for the 3G; quote from the supplier is in.",
+   "created_at": "2026-11-16T09:12:00.000Z",
+   "modified_at": "2026-11-18T13:12:00.000Z"
+  },
+  {
+   "gid": "1232300000000403",
+   "name": "Christmas tournament tea bar rota",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000202",
+   "assignee_gid": "1232300000000302",
+   "completed": false,
+   "due_on": "2026-12-12",
+   "notes": "Need eight volunteers across two shifts.",
+   "created_at": "2026-11-10T09:13:00.000Z",
+   "modified_at": "2026-11-20T13:13:00.000Z"
+  },
+  {
+   "gid": "1232300000000404",
+   "name": "Floodlight timer on the 3G",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000201",
+   "assignee_gid": "1232300000000300",
+   "completed": false,
+   "due_on": "2026-12-18",
+   "notes": "Timer drifts by ten minutes; ask the leisure trust.",
+   "created_at": "2026-11-19T09:14:00.000Z",
+   "modified_at": "2026-11-19T13:14:00.000Z"
+  },
+  {
+   "gid": "1232300000000405",
+   "name": "Clear leaves from the car park",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000203",
+   "assignee_gid": "1232300000000301",
+   "completed": true,
+   "due_on": "2026-11-21",
+   "notes": "Done on Saturday morning with the U16 parents.",
+   "created_at": "2026-11-14T09:15:00.000Z",
+   "modified_at": "2026-11-21T13:15:00.000Z"
+  },
+  {
+   "gid": "1232300000000406",
+   "name": "Club accreditation evidence folder",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000201",
+   "assignee_gid": "1232300000000304",
+   "completed": false,
+   "due_on": "2027-02-26",
+   "notes": "Gather session plans and coach CPD records for the March renewal.",
+   "created_at": "2026-11-05T09:16:00.000Z",
+   "modified_at": "2026-11-05T13:16:00.000Z"
+  },
+  {
+   "gid": "1232300000000407",
+   "name": "Replace the clubhouse kettle",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000203",
+   "assignee_gid": "1232300000000303",
+   "completed": true,
+   "due_on": "2026-10-09",
+   "notes": "Bought from petty cash; receipt in the tin.",
+   "created_at": "2026-10-05T09:17:00.000Z",
+   "modified_at": "2026-10-08T13:17:00.000Z"
+  },
+  {
+   "gid": "1232300000000408",
+   "name": "Goalpost safety check",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000203",
+   "assignee_gid": "1232300000000301",
+   "completed": true,
+   "due_on": "2026-09-12",
+   "notes": "All portable goals weighted and anchored; logged in the checklist.",
+   "created_at": "2026-09-01T09:18:00.000Z",
+   "modified_at": "2026-09-11T13:18:00.000Z"
+  },
+  {
+   "gid": "1232300000000409",
+   "name": "Book the presentation evening venue",
+   "project_gid": "1232300000000101",
+   "section_gid": "1232300000000201",
+   "assignee_gid": "1232300000000302",
+   "completed": false,
+   "due_on": "2027-01-29",
+   "notes": "Last year's hall is booked; try the rugby club.",
+   "created_at": "2026-11-12T09:19:00.000Z",
+   "modified_at": "2026-11-12T13:19:00.000Z"
+  }
+ ]
+}

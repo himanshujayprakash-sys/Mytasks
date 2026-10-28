@@ -1,0 +1,400 @@
+{
+ "lists": [
+  {
+   "date_created": "2024-01-10T09:00:00+00:00",
+   "id": "aud-courtusers",
+   "member_count": 38,
+   "name": "Pellbridge court users' bulletin"
+  },
+  {
+   "date_created": "2023-01-10T09:00:00+00:00",
+   "id": "aud-magistrates",
+   "member_count": 0,
+   "name": "Magistrates' newsletter"
+  }
+ ],
+ "members": [
+  {
+   "_pk": "aud-courtusers@b9d70df81a3eade88dd58a039c123d76",
+   "email_address": "LISTING.CR261131@COURTUSERS.EXAMPLE",
+   "full_name": "Listing contact CR-26-1131",
+   "id": "b9d70df81a3eade88dd58a039c123d76",
+   "list_id": "aud-courtusers",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-02-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@1e9f72595c7a0114aab378862d1ff539",
+   "email_address": "listing.cv260504@courtusers.example",
+   "full_name": "Listing contact CV-26-0504",
+   "id": "1e9f72595c7a0114aab378862d1ff539",
+   "list_id": "aud-courtusers",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-02-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@130944ed9c314d83066e318f65e2109f",
+   "email_address": "user00.court@courtusers.example",
+   "full_name": "Court user 0",
+   "id": "130944ed9c314d83066e318f65e2109f",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@a552acb85b01170072981b56b0cd4ab9",
+   "email_address": "user01.court@courtusers.example",
+   "full_name": "Court user 1",
+   "id": "a552acb85b01170072981b56b0cd4ab9",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@66dea3ba441d116aaf678aee87c2cdfa",
+   "email_address": "user02.court@courtusers.example",
+   "full_name": "Court user 2",
+   "id": "66dea3ba441d116aaf678aee87c2cdfa",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@e27d6e62eba0e64b7ec3211bf2590f7d",
+   "email_address": "user03.court@courtusers.example",
+   "full_name": "Court user 3",
+   "id": "e27d6e62eba0e64b7ec3211bf2590f7d",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@333245335687ab992a8a045133c48628",
+   "email_address": "user04.court@courtusers.example",
+   "full_name": "Court user 4",
+   "id": "333245335687ab992a8a045133c48628",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@c49d5c8c0c78f0a693e20f7524b1cb7d",
+   "email_address": "user05.court@courtusers.example",
+   "full_name": "Court user 5",
+   "id": "c49d5c8c0c78f0a693e20f7524b1cb7d",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@d559ad32978995a10b81e665de6c1050",
+   "email_address": "user06.court@courtusers.example",
+   "full_name": "Court user 6",
+   "id": "d559ad32978995a10b81e665de6c1050",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@aba877f243aafb06bddea20e1aaf6ed2",
+   "email_address": "user07.court@courtusers.example",
+   "full_name": "Court user 7",
+   "id": "aba877f243aafb06bddea20e1aaf6ed2",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@05c9de7522b3384e7df857437133a6ae",
+   "email_address": "user08.court@courtusers.example",
+   "full_name": "Court user 8",
+   "id": "05c9de7522b3384e7df857437133a6ae",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@9beb77dd86b1ac93282b6b3ccd681725",
+   "email_address": "user09.court@courtusers.example",
+   "full_name": "Court user 9",
+   "id": "9beb77dd86b1ac93282b6b3ccd681725",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@d51f9f8c36d1cc1d942856065d44b1ab",
+   "email_address": "user10.court@courtusers.example",
+   "full_name": "Court user 10",
+   "id": "d51f9f8c36d1cc1d942856065d44b1ab",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@6d3a582e99fbf5106badf827f7e5b2f8",
+   "email_address": "user11.court@courtusers.example",
+   "full_name": "Court user 11",
+   "id": "6d3a582e99fbf5106badf827f7e5b2f8",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@2485f7a74a16cd59df8af3cac365d91d",
+   "email_address": "user12.court@courtusers.example",
+   "full_name": "Court user 12",
+   "id": "2485f7a74a16cd59df8af3cac365d91d",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@9eed94e3f618951a051aa942770fa6ff",
+   "email_address": "user13.court@courtusers.example",
+   "full_name": "Court user 13",
+   "id": "9eed94e3f618951a051aa942770fa6ff",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@fedf1a4b2cabd719c3b1a3ea5f26f920",
+   "email_address": "user14.court@courtusers.example",
+   "full_name": "Court user 14",
+   "id": "fedf1a4b2cabd719c3b1a3ea5f26f920",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@d792062e7500ca9d6238d520239b6f6c",
+   "email_address": "user15.court@courtusers.example",
+   "full_name": "Court user 15",
+   "id": "d792062e7500ca9d6238d520239b6f6c",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@83dfeb884d1cee4331ac2662bc1bf9d6",
+   "email_address": "user16.court@courtusers.example",
+   "full_name": "Court user 16",
+   "id": "83dfeb884d1cee4331ac2662bc1bf9d6",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@2ca167ff23bd2a4d448135a3d59fea82",
+   "email_address": "user17.court@courtusers.example",
+   "full_name": "Court user 17",
+   "id": "2ca167ff23bd2a4d448135a3d59fea82",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@81bdcc5266d317816d4d753fe3b710e1",
+   "email_address": "user18.court@courtusers.example",
+   "full_name": "Court user 18",
+   "id": "81bdcc5266d317816d4d753fe3b710e1",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@83dc75be69d75f90f38d9ff0bb7729eb",
+   "email_address": "user19.court@courtusers.example",
+   "full_name": "Court user 19",
+   "id": "83dc75be69d75f90f38d9ff0bb7729eb",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@045405d56c6dc78583e0709b28a035f0",
+   "email_address": "user20.court@courtusers.example",
+   "full_name": "Court user 20",
+   "id": "045405d56c6dc78583e0709b28a035f0",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@63c0b47084e2596d62ce4cc4f8c91a4c",
+   "email_address": "user21.court@courtusers.example",
+   "full_name": "Court user 21",
+   "id": "63c0b47084e2596d62ce4cc4f8c91a4c",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@d6ff877868e3fa501584f61f3b08ff81",
+   "email_address": "user22.court@courtusers.example",
+   "full_name": "Court user 22",
+   "id": "d6ff877868e3fa501584f61f3b08ff81",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@2ff38fd91a043bd4d5cbed368493602a",
+   "email_address": "user23.court@courtusers.example",
+   "full_name": "Court user 23",
+   "id": "2ff38fd91a043bd4d5cbed368493602a",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@b285d42358b69246f1675bae8d5625d0",
+   "email_address": "user24.court@courtusers.example",
+   "full_name": "Court user 24",
+   "id": "b285d42358b69246f1675bae8d5625d0",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@4078116e9f16411579d399f5355b1589",
+   "email_address": "user25.court@courtusers.example",
+   "full_name": "Court user 25",
+   "id": "4078116e9f16411579d399f5355b1589",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@f7e27480b6ab14a4fd9b0a39b6c3d105",
+   "email_address": "user26.court@courtusers.example",
+   "full_name": "Court user 26",
+   "id": "f7e27480b6ab14a4fd9b0a39b6c3d105",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@5b3127bdc57a71ceb8f42e4f98a42779",
+   "email_address": "user27.court@courtusers.example",
+   "full_name": "Court user 27",
+   "id": "5b3127bdc57a71ceb8f42e4f98a42779",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@d07030d07f3476927a94ac57c8f0cf9a",
+   "email_address": "user28.court@courtusers.example",
+   "full_name": "Court user 28",
+   "id": "d07030d07f3476927a94ac57c8f0cf9a",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@19e7e8d5a028ca2aa0a579a222783a02",
+   "email_address": "user29.court@courtusers.example",
+   "full_name": "Court user 29",
+   "id": "19e7e8d5a028ca2aa0a579a222783a02",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@4f84078edcc6fad1e476012365d9947d",
+   "email_address": "user30.court@courtusers.example",
+   "full_name": "Court user 30",
+   "id": "4f84078edcc6fad1e476012365d9947d",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@8497404dba5caa8661b72943f0a11eb0",
+   "email_address": "user31.court@courtusers.example",
+   "full_name": "Court user 31",
+   "id": "8497404dba5caa8661b72943f0a11eb0",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@39b5ad04e8cfb6102b4f18e119977a69",
+   "email_address": "user32.court@courtusers.example",
+   "full_name": "Court user 32",
+   "id": "39b5ad04e8cfb6102b4f18e119977a69",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@3d2993ebf1ba43b349a390b593eb8456",
+   "email_address": "user33.court@courtusers.example",
+   "full_name": "Court user 33",
+   "id": "3d2993ebf1ba43b349a390b593eb8456",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@966eabd446e83f05e98f53c0863c7904",
+   "email_address": "user34.court@courtusers.example",
+   "full_name": "Court user 34",
+   "id": "966eabd446e83f05e98f53c0863c7904",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  },
+  {
+   "_pk": "aud-courtusers@9182afc8f2f5ee92772b6ea9d7f7eb6d",
+   "email_address": "user35.court@courtusers.example",
+   "full_name": "Court user 35",
+   "id": "9182afc8f2f5ee92772b6ea9d7f7eb6d",
+   "list_id": "aud-courtusers",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-05-01 09:00:00"
+  }
+ ],
+ "campaigns": [],
+ "reports": []
+}

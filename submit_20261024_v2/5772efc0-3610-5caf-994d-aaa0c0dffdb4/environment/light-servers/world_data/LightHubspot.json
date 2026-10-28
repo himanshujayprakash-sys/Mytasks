@@ -1,0 +1,282 @@
+{
+ "companies": [
+  {
+   "id": "9170301",
+   "properties": {
+    "name": "Wantage Town Council",
+    "domain": "wantage-council.example",
+    "industry": "Government Administration",
+    "city": "Wantage",
+    "state": "Oxfordshire",
+    "numberofemployees": "45",
+    "annualrevenue": "0",
+    "createdate": "2027-02-11T09:30:00Z"
+   },
+   "createdAt": "2027-02-11T09:30:00Z",
+   "updatedAt": "2027-05-28T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170302",
+   "properties": {
+    "name": "Riverside Hotel Wallingford",
+    "domain": "riverside-wallingford.example",
+    "industry": "Hospitality",
+    "city": "Wallingford",
+    "state": "Oxfordshire",
+    "numberofemployees": "60",
+    "annualrevenue": "3100000",
+    "createdate": "2027-02-11T09:30:00Z"
+   },
+   "createdAt": "2027-02-11T09:30:00Z",
+   "updatedAt": "2027-05-28T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170303",
+   "properties": {
+    "name": "Cholsey Village Hall Trust",
+    "domain": "cholsey-hall.example",
+    "industry": "Non-Profit Organization Management",
+    "city": "Cholsey",
+    "state": "Oxfordshire",
+    "numberofemployees": "6",
+    "annualrevenue": "0",
+    "createdate": "2027-02-11T09:30:00Z"
+   },
+   "createdAt": "2027-02-11T09:30:00Z",
+   "updatedAt": "2027-05-28T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170304",
+   "properties": {
+    "name": "Abingdon Vale Surgery",
+    "domain": "vale-surgery.example",
+    "industry": "Hospital & Health Care",
+    "city": "Abingdon",
+    "state": "Oxfordshire",
+    "numberofemployees": "38",
+    "annualrevenue": "0",
+    "createdate": "2027-02-11T09:30:00Z"
+   },
+   "createdAt": "2027-02-11T09:30:00Z",
+   "updatedAt": "2027-05-28T12:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "9170201",
+   "properties": {
+    "firstname": "Harriet",
+    "lastname": "Cole",
+    "email": "town.clerk@wantage-council.example",
+    "phone": "01235 700137",
+    "jobtitle": "Town clerk",
+    "company": "Wantage Town Council",
+    "lifecyclestage": "opportunity",
+    "createdate": "2027-02-11T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-02-11T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170202",
+   "properties": {
+    "firstname": "Joel",
+    "lastname": "Mercer",
+    "email": "joel.mercer@riverside-wallingford.example",
+    "phone": "01235 700274",
+    "jobtitle": "General manager",
+    "company": "Riverside Hotel Wallingford",
+    "lifecyclestage": "opportunity",
+    "createdate": "2027-05-10T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-05-10T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170203",
+   "properties": {
+    "firstname": "Brenda",
+    "lastname": "Hale",
+    "email": "bookings@cholsey-hall.example",
+    "phone": "01235 700411",
+    "jobtitle": "Trustee",
+    "company": "Cholsey Village Hall Trust",
+    "lifecyclestage": "opportunity",
+    "createdate": "2027-03-18T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-03-18T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170204",
+   "properties": {
+    "firstname": "Ananya",
+    "lastname": "Pillai",
+    "email": "practice.manager@vale-surgery.example",
+    "phone": "01235 700548",
+    "jobtitle": "Practice manager",
+    "company": "Abingdon Vale Surgery",
+    "lifecyclestage": "opportunity",
+    "createdate": "2027-04-22T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-04-22T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170205",
+   "properties": {
+    "firstname": "Philippa",
+    "lastname": "Ogden",
+    "email": "p.ogden@inbox.example",
+    "phone": "01235 700685",
+    "jobtitle": "Homeowner",
+    "company": "",
+    "lifecyclestage": "customer",
+    "createdate": "2027-05-09T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-05-09T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "9170206",
+   "properties": {
+    "firstname": "Graham",
+    "lastname": "Teale",
+    "email": "graham.teale@inbox.example",
+    "phone": "01235 700822",
+    "jobtitle": "Homeowner",
+    "company": "",
+    "lifecyclestage": "customer",
+    "createdate": "2027-05-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-01T12:00:00Z"
+   },
+   "createdAt": "2027-05-12T10:00:00Z",
+   "updatedAt": "2027-06-01T12:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "9170401",
+   "properties": {
+    "dealname": "Market square planters - autumn scheme",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "4800",
+    "closedate": "2027-09-30T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": "9170301",
+   "_contact": "9170201"
+  },
+  {
+   "id": "9170402",
+   "properties": {
+    "dealname": "Hotel riverside terrace redesign",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "12500",
+    "closedate": "2027-10-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": "9170302",
+   "_contact": "9170202"
+  },
+  {
+   "id": "9170403",
+   "properties": {
+    "dealname": "Village hall memorial garden",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "3200",
+    "closedate": "2027-09-15T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": "9170303",
+   "_contact": "9170203"
+  },
+  {
+   "id": "9170404",
+   "properties": {
+    "dealname": "Surgery courtyard sensory garden",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "6900",
+    "closedate": "2027-11-30T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": "9170304",
+   "_contact": "9170204"
+  },
+  {
+   "id": "9170405",
+   "properties": {
+    "dealname": "Ogden cottage garden design",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "1450",
+    "closedate": "2027-06-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": null,
+   "_contact": "9170205"
+  },
+  {
+   "id": "9170406",
+   "properties": {
+    "dealname": "Teale terrace planting plan",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "980",
+    "closedate": "2027-06-30T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2027-04-12T10:00:00Z",
+    "lastmodifieddate": "2027-06-02T09:00:00Z"
+   },
+   "createdAt": "2027-04-12T10:00:00Z",
+   "updatedAt": "2027-06-02T09:00:00Z",
+   "archived": false,
+   "_company": null,
+   "_contact": "9170206"
+  }
+ ]
+}

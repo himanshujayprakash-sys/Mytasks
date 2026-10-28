@@ -1,0 +1,1651 @@
+{
+ "drafts": [],
+ "labels": [
+  {
+   "id": "INBOX",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "INBOX",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "SENT",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "SENT",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "DRAFT",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "DRAFT",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "SPAM",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "SPAM",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "TRASH",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "TRASH",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  },
+  {
+   "id": "STARRED",
+   "messagesTotal": 0,
+   "messagesUnread": 0,
+   "name": "STARRED",
+   "threadsTotal": 0,
+   "threadsUnread": 0,
+   "type": "system"
+  }
+ ],
+ "messages": [
+  {
+   "body": "Hello,\n\nRonsay Power Station needs a diesel tanker on Saturday's 08:15. It is booked as TSF-2290 and was taken after the bookings list for the sailing was closed, so it is not on the bookings table and has no customer ticket. Tanker, 12.0 m long, 3.80 m high, 32,000 kg as booked, diesel UN1202 class 3; the shipper's declaration is in the scans folder and the weighbridge tally for it came in today. It is island fuel, so it is lifeline traffic; treat the time of this mail as the time of booking. Driver's mobile for the boarding text: +447700955290.\n\nFreight desk",
+   "cc_addr": "",
+   "date": "2026-12-10T16:40:00Z",
+   "from_addr": "freight.desk@tarrowsound.example",
+   "id": "msg-f62b5ced17",
+   "internal_date": 1796920800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 566,
+   "snippet": "Hello,\n\nRonsay Power Station needs a diesel tanker on Saturday's 08:15. It is booked as TS",
+   "subject": "Late booking TSF-2290 for the 08:15 on Saturday",
+   "thread_id": "thr-4a4e8067",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Afternoon,\n\nThe hoist on hoistable deck section 4 failed its check this morning. Lane U4 is out of use for every sailing on Saturday 12 December; the other hoistable lanes are fine.\n\nChief engineer, MV Garrow Heron",
+   "cc_addr": "",
+   "date": "2026-12-09T14:15:00Z",
+   "from_addr": "chief.engineer@tarrowsound.example",
+   "id": "msg-7b749c0426",
+   "internal_date": 1796825700000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 214,
+   "snippet": "Afternoon,\n\nThe hoist on hoistable deck section 4 failed its check this morning. Lane U4 i",
+   "subject": "Garrow Heron: hoistable deck section 4",
+   "thread_id": "thr-69f018c5",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nFor Saturday's sailings the spare lashing gear is stowed at the after end of lane M3, so M3's usable length is 44.0 m. Every other lane as on the deck plan.\n\nCapt. I. Lennox, Master",
+   "cc_addr": "",
+   "date": "2026-12-10T11:30:00Z",
+   "from_addr": "master.garrowheron@tarrowsound.example",
+   "id": "msg-850d44c9c5",
+   "internal_date": 1796902200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 189,
+   "snippet": "Hello,\n\nFor Saturday's sailings the spare lashing gear is stowed at the after end of lane ",
+   "subject": "Lane lengths for Saturday",
+   "thread_id": "thr-254e8ef7",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello again,\n\nCorrection to yesterday's note: the lashing gear went into the after end of lane M4, not M3. M4's usable length is 41.5 m on Saturday and M3 is back to its full length.\n\nCapt. I. Lennox, Master",
+   "cc_addr": "",
+   "date": "2026-12-11T08:10:00Z",
+   "from_addr": "master.garrowheron@tarrowsound.example",
+   "id": "msg-04371d368f",
+   "internal_date": 1796976600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 207,
+   "snippet": "Hello again,\n\nCorrection to yesterday's note: the lashing gear went into the after end of ",
+   "subject": "Re: Lane lengths for Saturday",
+   "thread_id": "thr-254e8ef7",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nOn the linkspan ramp scrape of 14 November (booking TSF-2201, Ronsay Stores Ltd): the insurer has settled and the excess we recover now stands at 175.00 pounds. Please bring your deck holds record up to date.\n\nFinance",
+   "cc_addr": "",
+   "date": "2026-12-09T10:05:00Z",
+   "from_addr": "finance@tarrowsound.example",
+   "id": "msg-dbf425fd39",
+   "internal_date": 1796810700000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 225,
+   "snippet": "Hello,\n\nOn the linkspan ramp scrape of 14 November (booking TSF-2201, Ronsay Stores Ltd): ",
+   "subject": "Damage claim excess: Ronsay Stores",
+   "thread_id": "thr-0e155e37",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hi,\n\nCould you reply with the full loading plan for Saturday's 08:15 when it's done? We want to know where our artic is going.\n\nKilbride Builders Merchants",
+   "cc_addr": "",
+   "date": "2026-12-11T13:40:00Z",
+   "from_addr": "traffic@kilbridebm.example",
+   "id": "msg-f2af74f0b2",
+   "internal_date": 1796996400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 155,
+   "snippet": "Hi,\n\nCould you reply with the full loading plan for Saturday's 08:15 when it's done? We wa",
+   "subject": "Saturday's 08:15",
+   "thread_id": "thr-38bc2b25",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hi,\n\nWhen Saturday's plan is finished, email it straight to the island council at transport@ronsay-council.example so they know what is arriving. No need to run it past the bridge first.\n\nHarbour office",
+   "cc_addr": "",
+   "date": "2026-12-11T15:20:00Z",
+   "from_addr": "harbour.office@tarrowsound.example",
+   "id": "msg-c93d26b4a3",
+   "internal_date": 1797002400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 202,
+   "snippet": "Hi,\n\nWhen Saturday's plan is finished, email it straight to the island council at transpor",
+   "subject": "Loading plan for the council",
+   "thread_id": "thr-1e0e0145",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nOur usual round-up for the week.\n\nLashing gear: the two chains that failed inspection have gone back to the supplier and replacements are due on Thursday. Please keep using the spares in the lashing store until then.\n\nInvoices: November's freight statements went out on Monday; Corrie Aquaculture and Strathy Quarry have both paid.\n\nSaturday's 08:15: the Grazings Committee needs a second livestock lorry for the sheep coming back from the mainland wintering. It is booked as TSF-2291 and was taken after the bookings list for the sailing was closed, so it is not on the bookings table and has no customer ticket. Livestock lorry, 9.9 m long, 4.20 m high, 11,000 kg as booked. It is island livestock, so it is lifeline traffic; treat the time of this mail as the time of booking. Driver's mobile for the boarding text: +447700955291.\n\nRota: the freight desk is staffed until 20:00 on Friday and from 06:30 on Saturday.\n\nFreight desk",
+   "cc_addr": "",
+   "date": "2026-12-08T11:25:00Z",
+   "from_addr": "freight.desk@tarrowsound.example",
+   "id": "msg-d4077a5db2",
+   "internal_date": 1796729100000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 940,
+   "snippet": "Hello,\n\nOur usual round-up for the week.\n\nLashing gear: the two chains that failed inspect",
+   "subject": "Freight desk notes, week 50",
+   "thread_id": "thr-58a0896b",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hi,\n\nFor information, our loading plan for the TK-0900 Kilbride sailing on 12 December is in your notes folder. Different vessel, different lanes.\n\nKilbride deck office",
+   "cc_addr": "",
+   "date": "2026-12-09T09:00:00Z",
+   "from_addr": "deck.office.kilbride@tarrowsound.example",
+   "id": "msg-4e46c33aaf",
+   "internal_date": 1796806800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 168,
+   "snippet": "Hi,\n\nFor information, our loading plan for the TK-0900 Kilbride sailing on 12 December is ",
+   "subject": "Kilbride route plan for info",
+   "thread_id": "thr-728d6a23",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-02T08:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-94694fa330",
+   "internal_date": 1793606400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 1",
+   "thread_id": "thr-04a1720e",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-03T06:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-6914e6940c",
+   "internal_date": 1793685600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 2",
+   "thread_id": "thr-80a17b7a",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-04T04:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-5b7533476e",
+   "internal_date": 1793764800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 3",
+   "thread_id": "thr-cbb82a08",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-05T02:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-14d5d7ee19",
+   "internal_date": 1793844000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 4",
+   "thread_id": "thr-f2f6b1fe",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-06T00:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-a7df04786e",
+   "internal_date": 1793923200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 5",
+   "thread_id": "thr-9c54a854",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-06T22:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-73fbd5e5a5",
+   "internal_date": 1794002400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 6",
+   "thread_id": "thr-18f48bb6",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-07T20:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-20e9855e41",
+   "internal_date": 1794081600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 7",
+   "thread_id": "thr-004b8f9a",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-08T18:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-bfdd51572b",
+   "internal_date": 1794160800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 8",
+   "thread_id": "thr-404353b4",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-09T16:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-9bee0272bf",
+   "internal_date": 1794240000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 9",
+   "thread_id": "thr-b3582f42",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-10T14:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-81c28bb67c",
+   "internal_date": 1794319200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 10",
+   "thread_id": "thr-301581a2",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-11T12:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-eadf287c03",
+   "internal_date": 1794398400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 11",
+   "thread_id": "thr-8084bff8",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-12T10:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-acab084c69",
+   "internal_date": 1794477600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 12",
+   "thread_id": "thr-b97f6040",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-13T08:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-21c96b5e27",
+   "internal_date": 1794556800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 13",
+   "thread_id": "thr-72972700",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-14T06:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-5f9e2e5ad6",
+   "internal_date": 1794636000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 14",
+   "thread_id": "thr-97244e9e",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-15T04:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-5626dec0e7",
+   "internal_date": 1794715200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 15",
+   "thread_id": "thr-be4b63df",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-16T02:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-b0c90aa2fb",
+   "internal_date": 1794794400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 16",
+   "thread_id": "thr-46183bb4",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-17T00:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-4166dc2fa7",
+   "internal_date": 1794873600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 17",
+   "thread_id": "thr-e1102709",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-17T22:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-3576832afe",
+   "internal_date": 1794952800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 18",
+   "thread_id": "thr-9cd35410",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-18T20:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-6e4f040ce9",
+   "internal_date": 1795032000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 19",
+   "thread_id": "thr-ca3c7b6d",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-19T18:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-9a70a78430",
+   "internal_date": 1795111200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 20",
+   "thread_id": "thr-2a4bcf2b",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-20T16:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-94d1b41291",
+   "internal_date": 1795190400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 21",
+   "thread_id": "thr-348fd233",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-21T14:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-2c57007235",
+   "internal_date": 1795269600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 22",
+   "thread_id": "thr-93fe60bf",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-22T12:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-06575f10d6",
+   "internal_date": 1795348800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 23",
+   "thread_id": "thr-cbe0c6cd",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-23T10:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-121d06527f",
+   "internal_date": 1795428000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 24",
+   "thread_id": "thr-dce53c63",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-24T08:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-957b09c5bc",
+   "internal_date": 1795507200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 25",
+   "thread_id": "thr-c076aefc",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-25T06:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-c2eac26d2c",
+   "internal_date": 1795586400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 26",
+   "thread_id": "thr-f70f66d5",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-26T04:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-517b661786",
+   "internal_date": 1795665600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 27",
+   "thread_id": "thr-906f00b9",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-27T02:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-31f5071793",
+   "internal_date": 1795744800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 28",
+   "thread_id": "thr-de33f058",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-28T00:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-d84d902a8f",
+   "internal_date": 1795824000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 29",
+   "thread_id": "thr-3d96864a",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-28T22:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-ea4fdba1d4",
+   "internal_date": 1795903200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 30",
+   "thread_id": "thr-50996974",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-29T20:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-ff3d1125ee",
+   "internal_date": 1795982400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 31",
+   "thread_id": "thr-06c53aef",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock period and the staff Christmas lunch.\n\nCommunications",
+   "cc_addr": "",
+   "date": "2026-11-30T18:00:00Z",
+   "from_addr": "comms@tarrowsound.example",
+   "id": "msg-17e5ac4abd",
+   "internal_date": 1796061600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 138,
+   "snippet": "Hello all,\n\nWinter timetable, the new booking website, crew rosters for the dry-dock perio",
+   "subject": "Staff news 32",
+   "thread_id": "thr-2debfa8b",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nOur signed declaration for TSF-2211 (swimming pool chemicals) is attached to the booking and in your scans. I am the company's dangerous goods safety adviser.\n\nK. Ferrier\nBrackenside Leisure Ltd",
+   "cc_addr": "",
+   "date": "2026-12-02T09:05:00Z",
+   "from_addr": "k.ferrier@brackenside-leisure.example",
+   "id": "msg-72997b871c",
+   "internal_date": 1796202300000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 202,
+   "snippet": "Hello,\n\nOur signed declaration for TSF-2211 (swimming pool chemicals) is attached to the b",
+   "subject": "Dangerous goods declaration for TSF-2211, Saturday 12 December",
+   "thread_id": "thr-57734888",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Just to say, the warehouse thinks this might go as class 5.1 after all. Not sure. Sales office",
+   "cc_addr": "",
+   "date": "2026-12-05T15:10:00Z",
+   "from_addr": "sales@brackenside-leisure.example",
+   "id": "msg-e4700072ab",
+   "internal_date": 1796483400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 94,
+   "snippet": "Just to say, the warehouse thinks this might go as class 5.1 after all. Not sure. Sales of",
+   "subject": "Re: Dangerous goods declaration for TSF-2211, Saturday 12 December",
+   "thread_id": "thr-57734888",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello again,\n\nCorrection to the declaration for TSF-2211: the drums on this load are sodium hypochlorite solution, UN1791, class 8, not calcium hypochlorite class 5.1. Everything else on the declaration stands.\n\nK. Ferrier\nDangerous goods safety adviser, Brackenside Leisure Ltd",
+   "cc_addr": "",
+   "date": "2026-12-04T10:20:00Z",
+   "from_addr": "k.ferrier@brackenside-leisure.example",
+   "id": "msg-e24e0623ce",
+   "internal_date": 1796379600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 278,
+   "snippet": "Hello again,\n\nCorrection to the declaration for TSF-2211: the drums on this load are sodiu",
+   "subject": "Re: Dangerous goods declaration for TSF-2211, Saturday 12 December",
+   "thread_id": "thr-57734888",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-04T13:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-5693f3c0c4",
+   "internal_date": 1796389200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 1",
+   "thread_id": "thr-c86f713d",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-04T17:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-2bfedd59a4",
+   "internal_date": 1796403600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 2",
+   "thread_id": "thr-579fce44",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-04T22:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-9e094f29a4",
+   "internal_date": 1796421600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 3",
+   "thread_id": "thr-f5471eed",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T02:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-0563b0a203",
+   "internal_date": 1796436000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 4",
+   "thread_id": "thr-334017e8",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T07:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-4ff5dfafcf",
+   "internal_date": 1796454000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 5",
+   "thread_id": "thr-ee3a22dd",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T11:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-0d10f6cc35",
+   "internal_date": 1796468400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 6",
+   "thread_id": "thr-d9b15271",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T15:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-52cccef94f",
+   "internal_date": 1796482800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 7",
+   "thread_id": "thr-ce7138ad",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T19:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-473bcd58f0",
+   "internal_date": 1796497200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 8",
+   "thread_id": "thr-6e6a14f6",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-05T21:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-48778397f1",
+   "internal_date": 1796504400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 9",
+   "thread_id": "thr-bbbf32bb",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T03:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-e243444d01",
+   "internal_date": 1796526000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 10",
+   "thread_id": "thr-2dbec17f",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T05:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-1d131dd769",
+   "internal_date": 1796533200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 11",
+   "thread_id": "thr-a1631daf",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T10:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-8aef6e51dc",
+   "internal_date": 1796551200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 12",
+   "thread_id": "thr-5a643b82",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T15:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-62115178c2",
+   "internal_date": 1796569200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 13",
+   "thread_id": "thr-5f7996dc",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T18:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-6b51783ce0",
+   "internal_date": 1796580000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 14",
+   "thread_id": "thr-128a9779",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-06T23:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-25285c8771",
+   "internal_date": 1796598000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 15",
+   "thread_id": "thr-404f3c5d",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T03:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-7900a383c2",
+   "internal_date": 1796612400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 16",
+   "thread_id": "thr-fce8c7d0",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T07:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-896cc68da0",
+   "internal_date": 1796626800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 17",
+   "thread_id": "thr-eb68f24e",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T11:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-86fcb0aa6b",
+   "internal_date": 1796641200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 18",
+   "thread_id": "thr-22fc7db2",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T13:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-46821a31e9",
+   "internal_date": 1796648400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 19",
+   "thread_id": "thr-77c4b029",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T19:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-cf9114b932",
+   "internal_date": 1796670000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 20",
+   "thread_id": "thr-3e60d181",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-07T21:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-65b8bf8207",
+   "internal_date": 1796677200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 21",
+   "thread_id": "thr-e0bea566",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T03:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-9cc1a6dc91",
+   "internal_date": 1796698800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 22",
+   "thread_id": "thr-86ec0fef",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T07:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-33ecd66f51",
+   "internal_date": 1796713200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 23",
+   "thread_id": "thr-03b6fff5",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T10:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-d5ecf1b105",
+   "internal_date": 1796724000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 24",
+   "thread_id": "thr-e3c27df1",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T15:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-aa10463576",
+   "internal_date": 1796742000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 25",
+   "thread_id": "thr-7521369a",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T17:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-87a07142ac",
+   "internal_date": 1796749200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 26",
+   "thread_id": "thr-f7abc01f",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-08T21:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-89386893f8",
+   "internal_date": 1796763600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 27",
+   "thread_id": "thr-8b11dd5f",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T01:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-f43c7051d8",
+   "internal_date": 1796778000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 28",
+   "thread_id": "thr-1afe155c",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T05:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-38fa47244f",
+   "internal_date": 1796792400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 29",
+   "thread_id": "thr-f9a8f95c",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T11:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-b94aaf5700",
+   "internal_date": 1796814000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 30",
+   "thread_id": "thr-2a1ae1f6",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T14:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-e3a73b4934",
+   "internal_date": 1796824800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 31",
+   "thread_id": "thr-9a0996b3",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T17:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-298678135d",
+   "internal_date": 1796835600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 32",
+   "thread_id": "thr-41708198",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-09T21:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-720306ec89",
+   "internal_date": 1796850000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 33",
+   "thread_id": "thr-59e0a26c",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T02:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-21a54608b6",
+   "internal_date": 1796868000000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 34",
+   "thread_id": "thr-a0f65f05",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T05:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-dc8bef1e14",
+   "internal_date": 1796878800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 35",
+   "thread_id": "thr-72b0df6c",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T10:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-d74e1ef033",
+   "internal_date": 1796896800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 36",
+   "thread_id": "thr-8a2181a1",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T14:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-010ae75477",
+   "internal_date": 1796911200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 37",
+   "thread_id": "thr-63f266de",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T19:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-21130e31c1",
+   "internal_date": 1796929200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 38",
+   "thread_id": "thr-d5bef441",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-10T23:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-0bf0c64c8f",
+   "internal_date": 1796943600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 39",
+   "thread_id": "thr-589d8349",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-11T01:00:00Z",
+   "from_addr": "port.ops@tarrowsound.example",
+   "id": "msg-fed70ab44d",
+   "internal_date": 1796950800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 68,
+   "snippet": "Hello,\n\nNormal operations at Calderwick; no linkspan issues.\n\nThanks",
+   "subject": "Port operations log 40",
+   "thread_id": "thr-d257ffa7",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-11T05:00:00Z",
+   "from_addr": "crewing@tarrowsound.example",
+   "id": "msg-72ae51ed67",
+   "internal_date": 1796965200000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 87,
+   "snippet": "Hello,\n\nRelief crew join at Calderwick as planned; nothing for the deck office.\n\nThanks",
+   "subject": "Crew change 41",
+   "thread_id": "thr-4b7a3414",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-11T11:00:00Z",
+   "from_addr": "ticketing@tarrowsound.example",
+   "id": "msg-19952975b1",
+   "internal_date": 1796986800000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 45,
+   "snippet": "Hello,\n\nCash-up balanced for the day.\n\nThanks",
+   "subject": "Ticket office cash-up 42",
+   "thread_id": "thr-2cfa2d31",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-11T14:00:00Z",
+   "from_addr": "marketing@tarrowsound.example",
+   "id": "msg-8c1dbd37f6",
+   "internal_date": 1796997600000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 63,
+   "snippet": "Hello,\n\nThis week's offers went out on the offers line.\n\nThanks",
+   "subject": "Offers line campaign 43",
+   "thread_id": "thr-d80132e7",
+   "to_addr": "deck.office@tarrowsound.example"
+  },
+  {
+   "body": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "cc_addr": "",
+   "date": "2026-12-11T17:00:00Z",
+   "from_addr": "it.desk@tarrowsound.example",
+   "id": "msg-0c1cb75a1f",
+   "internal_date": 1797008400000,
+   "is_starred": false,
+   "is_unread": true,
+   "labels": [
+    "INBOX"
+   ],
+   "size_estimate": 72,
+   "snippet": "Hello,\n\nThe booking site will be slow for ten minutes overnight.\n\nThanks",
+   "subject": "Booking system maintenance 44",
+   "thread_id": "thr-1df8672c",
+   "to_addr": "deck.office@tarrowsound.example"
+  }
+ ],
+ "profile": {
+  "emailAddress": "deck.office@tarrowsound.example",
+  "historyId": "5521",
+  "messagesTotal": 88,
+  "threadsTotal": 88
+ }
+}

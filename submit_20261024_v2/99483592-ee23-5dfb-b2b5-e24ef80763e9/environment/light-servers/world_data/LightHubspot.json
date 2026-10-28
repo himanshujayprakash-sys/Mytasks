@@ -1,0 +1,156 @@
+{
+ "companies": [
+  {
+   "id": "73101",
+   "properties": {
+    "name": "Rookhaven Gazette",
+    "domain": "rookhavengazette.example",
+    "industry": "Media",
+    "city": "Rookhaven",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-03-10T10:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73102",
+   "properties": {
+    "name": "Lantern FM",
+    "domain": "lanternfm.example",
+    "industry": "Media",
+    "city": "Rookhaven",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-03-10T10:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73103",
+   "properties": {
+    "name": "Rookhaven Tourism Partnership",
+    "domain": "visitrookhaven.example",
+    "industry": "Tourism",
+    "city": "Rookhaven",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-03-10T10:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73104",
+   "properties": {
+    "name": "Screen Northfold",
+    "domain": "screennorthfold.example",
+    "industry": "Film office",
+    "city": "Northfold",
+    "state": "",
+    "numberofemployees": "",
+    "annualrevenue": "",
+    "createdate": "2026-03-10T10:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:00:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "73201",
+   "properties": {
+    "firstname": "Harriet",
+    "lastname": "Pengelly",
+    "email": "news@rookhavengazette.example",
+    "phone": "",
+    "jobtitle": "Features editor",
+    "company": "Rookhaven Gazette",
+    "lifecyclestage": "other",
+    "createdate": "2026-03-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73202",
+   "properties": {
+    "firstname": "Sol",
+    "lastname": "Mirza",
+    "email": "sol@lanternfm.example",
+    "phone": "",
+    "jobtitle": "Breakfast presenter",
+    "company": "Lantern FM",
+    "lifecyclestage": "other",
+    "createdate": "2026-03-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73203",
+   "properties": {
+    "firstname": "Bea",
+    "lastname": "Kingsley",
+    "email": "bea@visitrookhaven.example",
+    "phone": "",
+    "jobtitle": "Partnership manager",
+    "company": "Rookhaven Tourism Partnership",
+    "lifecyclestage": "other",
+    "createdate": "2026-03-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73204",
+   "properties": {
+    "firstname": "Gareth",
+    "lastname": "Lyle",
+    "email": "gareth@screennorthfold.example",
+    "phone": "",
+    "jobtitle": "Locations officer",
+    "company": "Screen Northfold",
+    "lifecyclestage": "other",
+    "createdate": "2026-03-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "73205",
+   "properties": {
+    "firstname": "Pippa",
+    "lastname": "Okoro",
+    "email": "pippa@rookhavengazette.example",
+    "phone": "",
+    "jobtitle": "Photographer",
+    "company": "Rookhaven Gazette",
+    "lifecyclestage": "other",
+    "createdate": "2026-03-10T10:05:00Z",
+    "lastmodifieddate": "2026-10-20T15:00:00Z"
+   },
+   "createdAt": "2026-03-10T10:05:00Z",
+   "updatedAt": "2026-10-20T15:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": []
+}

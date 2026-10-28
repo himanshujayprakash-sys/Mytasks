@@ -1,0 +1,440 @@
+{
+ "vendors": [
+  {
+   "Id": "71",
+   "DisplayName": "Kernow Packaging Supplies",
+   "PrimaryEmailAddr": {
+    "Address": "accounts@kernowpackaging.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960511"
+   },
+   "Balance": 198.1,
+   "Active": true,
+   "Notes": "Crate liners, stretch wrap and tape."
+  },
+  {
+   "Id": "72",
+   "DisplayName": "Carrick Hygiene Services",
+   "PrimaryEmailAddr": {
+    "Address": "billing@carrickhygiene.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960522"
+   },
+   "Balance": 142.0,
+   "Active": true,
+   "Notes": "Washroom services and hand wash stations."
+  },
+  {
+   "Id": "73",
+   "DisplayName": "Hayle Forklift Services",
+   "PrimaryEmailAddr": {
+    "Address": "office@hayleforklift.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960533"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Forklift servicing and LOLER examinations."
+  },
+  {
+   "Id": "74",
+   "DisplayName": "Fal Valley Waste",
+   "PrimaryEmailAddr": {
+    "Address": "invoices@falvalleywaste.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960544"
+   },
+   "Balance": 612.75,
+   "Active": true,
+   "Notes": "Cardboard, general and food waste collections."
+  },
+  {
+   "Id": "75",
+   "DisplayName": "Penryn Pest Control",
+   "PrimaryEmailAddr": {
+    "Address": "admin@penrynpest.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960555"
+   },
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Monthly pest control visits."
+  },
+  {
+   "Id": "76",
+   "DisplayName": "Tamar Fuel Cards",
+   "PrimaryEmailAddr": {
+    "Address": "statements@tamarfuel.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 960566"
+   },
+   "Balance": 3184.22,
+   "Active": true,
+   "Notes": "Fleet fuel cards for the depot vans."
+  }
+ ],
+ "bills": [
+  {
+   "Id": "7301",
+   "DocNumber": "CH-7781",
+   "VendorRef": {
+    "value": "72",
+    "name": "Carrick Hygiene Services"
+   },
+   "TxnDate": "2026-11-01",
+   "DueDate": "2026-12-01",
+   "Line": [
+    {
+     "Amount": 142.0,
+     "Description": "Washroom services, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cleaning",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 142.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-20."
+  },
+  {
+   "Id": "7302",
+   "DocNumber": "KP-20419",
+   "VendorRef": {
+    "value": "71",
+    "name": "Kernow Packaging Supplies"
+   },
+   "TxnDate": "2026-11-06",
+   "DueDate": "2026-12-06",
+   "Line": [
+    {
+     "Amount": 286.4,
+     "Description": "Crate liners and stretch wrap",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Packaging",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 286.4,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-25."
+  },
+  {
+   "Id": "7303",
+   "DocNumber": "HF-3302",
+   "VendorRef": {
+    "value": "73",
+    "name": "Hayle Forklift Services"
+   },
+   "TxnDate": "2026-11-12",
+   "DueDate": "2026-12-12",
+   "Line": [
+    {
+     "Amount": 390.0,
+     "Description": "LOLER examinations, FL2 and FL3",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Repairs and maintenance",
+       "value": "63"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 390.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-11-30."
+  },
+  {
+   "Id": "7304",
+   "DocNumber": "PPC-0457",
+   "VendorRef": {
+    "value": "75",
+    "name": "Penryn Pest Control"
+   },
+   "TxnDate": "2026-11-19",
+   "DueDate": "2026-12-19",
+   "Line": [
+    {
+     "Amount": 85.0,
+     "Description": "Pest control visit, 19 November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cleaning",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 85.0,
+   "Balance": 0,
+   "PrivateNote": "Paid by BACS on 2026-12-01."
+  },
+  {
+   "Id": "7305",
+   "DocNumber": "KP-20488",
+   "VendorRef": {
+    "value": "71",
+    "name": "Kernow Packaging Supplies"
+   },
+   "TxnDate": "2026-11-27",
+   "DueDate": "2026-12-27",
+   "Line": [
+    {
+     "Amount": 198.1,
+     "Description": "Packing tape and pallet labels",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Packaging",
+       "value": "62"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 198.1,
+   "Balance": 198.1,
+   "PrivateNote": "Awaiting payment run."
+  },
+  {
+   "Id": "7306",
+   "DocNumber": "FVW-11820",
+   "VendorRef": {
+    "value": "74",
+    "name": "Fal Valley Waste"
+   },
+   "TxnDate": "2026-11-30",
+   "DueDate": "2026-12-30",
+   "Line": [
+    {
+     "Amount": 612.75,
+     "Description": "Waste collections, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Waste",
+       "value": "64"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 612.75,
+   "Balance": 612.75,
+   "PrivateNote": "Awaiting payment run."
+  },
+  {
+   "Id": "7307",
+   "DocNumber": "CH-7834",
+   "VendorRef": {
+    "value": "72",
+    "name": "Carrick Hygiene Services"
+   },
+   "TxnDate": "2026-12-01",
+   "DueDate": "2026-12-31",
+   "Line": [
+    {
+     "Amount": 142.0,
+     "Description": "Washroom services, December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Cleaning",
+       "value": "61"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 142.0,
+   "Balance": 142.0,
+   "PrivateNote": "Awaiting payment run."
+  },
+  {
+   "Id": "7308",
+   "DocNumber": "TFC-NOV26",
+   "VendorRef": {
+    "value": "76",
+    "name": "Tamar Fuel Cards"
+   },
+   "TxnDate": "2026-12-01",
+   "DueDate": "2026-12-31",
+   "Line": [
+    {
+     "Amount": 3184.22,
+     "Description": "Fuel card statement, November",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Motor fuel",
+       "value": "65"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 3184.22,
+   "Balance": 3184.22,
+   "PrivateNote": "Awaiting payment run."
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "7501",
+   "TxnDate": "2026-11-20",
+   "TotalAmt": 36.5,
+   "Line": [
+    {
+     "Description": "Van wash tokens",
+     "Amount": 36.5
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-20T10:00:00"
+   }
+  },
+  {
+   "Id": "7502",
+   "TxnDate": "2026-11-23",
+   "TotalAmt": 112.8,
+   "Line": [
+    {
+     "Description": "Thermal gloves and hats for stores",
+     "Amount": 112.8
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-23T10:00:00"
+   }
+  },
+  {
+   "Id": "7503",
+   "TxnDate": "2026-11-24",
+   "TotalAmt": 58.2,
+   "Line": [
+    {
+     "Description": "Canteen tea, coffee and milk",
+     "Amount": 58.2
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-24T10:00:00"
+   }
+  },
+  {
+   "Id": "7504",
+   "TxnDate": "2026-11-28",
+   "TotalAmt": 24.99,
+   "Line": [
+    {
+     "Description": "Replacement padlock for the gas cage",
+     "Amount": 24.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-28T10:00:00"
+   }
+  },
+  {
+   "Id": "7505",
+   "TxnDate": "2026-12-04",
+   "TotalAmt": 47.35,
+   "Line": [
+    {
+     "Description": "Quiz night prizes",
+     "Amount": 47.35
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-12-04T10:00:00"
+   }
+  },
+  {
+   "Id": "7506",
+   "TxnDate": "2026-12-07",
+   "TotalAmt": 19.6,
+   "Line": [
+    {
+     "Description": "Batteries for the yard torches",
+     "Amount": 19.6
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-12-07T10:00:00"
+   }
+  }
+ ],
+ "bill_payments": [
+  {
+   "Id": "BP-EFP-01",
+   "PayType": "Check",
+   "DocNumber": "BACS-30411",
+   "TxnDate": "2026-11-20",
+   "TotalAmt": 142.0,
+   "VendorRef": {
+    "value": "72",
+    "name": "Carrick Hygiene Services"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1201",
+     "name": "Quayside depot current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-EFP-02",
+   "PayType": "Check",
+   "DocNumber": "BACS-30412",
+   "TxnDate": "2026-11-25",
+   "TotalAmt": 286.4,
+   "VendorRef": {
+    "value": "71",
+    "name": "Kernow Packaging Supplies"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1201",
+     "name": "Quayside depot current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-EFP-03",
+   "PayType": "Check",
+   "DocNumber": "BACS-30413",
+   "TxnDate": "2026-11-30",
+   "TotalAmt": 390.0,
+   "VendorRef": {
+    "value": "73",
+    "name": "Hayle Forklift Services"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1201",
+     "name": "Quayside depot current account"
+    }
+   }
+  },
+  {
+   "Id": "BP-EFP-04",
+   "PayType": "Check",
+   "DocNumber": "BACS-30414",
+   "TxnDate": "2026-12-01",
+   "TotalAmt": 85.0,
+   "VendorRef": {
+    "value": "75",
+    "name": "Penryn Pest Control"
+   },
+   "CheckPayment": {
+    "BankAccountRef": {
+     "value": "1201",
+     "name": "Quayside depot current account"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,350 @@
+{
+ "workspaces": [
+  {
+   "workspace_id": "ws-efp-transport",
+   "name": "Transport",
+   "kind": "open",
+   "description": "Fleet and yard"
+  }
+ ],
+ "boards": [
+  {
+   "board_id": "board-efp-fleet",
+   "name": "Fleet servicing",
+   "board_kind": "public",
+   "description": "Vans and forklifts: services, MOTs and repairs.",
+   "state": "active",
+   "workspace_id": "ws-efp-transport"
+  }
+ ],
+ "groups": [
+  {
+   "group_id": "grp-efp-done",
+   "board_id": "board-efp-fleet",
+   "title": "Done",
+   "color": "#00c875",
+   "position": 0
+  },
+  {
+   "group_id": "grp-efp-booked",
+   "board_id": "board-efp-fleet",
+   "title": "Booked",
+   "color": "#579bfc",
+   "position": 1
+  },
+  {
+   "group_id": "grp-efp-wait",
+   "board_id": "board-efp-fleet",
+   "title": "Waiting for parts",
+   "color": "#fdab3d",
+   "position": 2
+  },
+  {
+   "group_id": "grp-efp-todo",
+   "board_id": "board-efp-fleet",
+   "title": "Not started",
+   "color": "#c4c4c4",
+   "position": 3
+  }
+ ],
+ "columns": [
+  {
+   "column_id": "status",
+   "board_id": "board-efp-fleet",
+   "title": "Status",
+   "type": "status",
+   "position": 0
+  },
+  {
+   "column_id": "date",
+   "board_id": "board-efp-fleet",
+   "title": "Due",
+   "type": "date",
+   "position": 1
+  },
+  {
+   "column_id": "person",
+   "board_id": "board-efp-fleet",
+   "title": "Owner",
+   "type": "people",
+   "position": 2
+  }
+ ],
+ "users": [
+  {
+   "user_id": "mu-efp-01",
+   "name": "Kerensa Opie",
+   "email": "kerensa.opie@ellisford-produce.example",
+   "title": "transport manager",
+   "is_admin": true
+  },
+  {
+   "user_id": "mu-efp-02",
+   "name": "Caspar Vosper",
+   "email": "caspar.vosper@ellisford-produce.example",
+   "title": "fleet fitter",
+   "is_admin": false
+  },
+  {
+   "user_id": "mu-efp-03",
+   "name": "Jago Mewton",
+   "email": "jago.mewton@ellisford-produce.example",
+   "title": "depot engineer",
+   "is_admin": false
+  }
+ ],
+ "items": [
+  {
+   "item_id": "item-efp-001",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "QD-02 annual service",
+   "created_at": "2026-11-02T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-002",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "QD-03 brake pads",
+   "created_at": "2026-11-09T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-003",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "QD-04 MOT",
+   "created_at": "2026-11-03T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-004",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "QD-05 refrigeration unit service",
+   "created_at": "2026-11-16T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-005",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "QD-06 replace offside rear tyre",
+   "created_at": "2026-11-25T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-006",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-wait",
+   "name": "QD-07 windscreen chip repair",
+   "created_at": "2026-12-01T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-007",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-booked",
+   "name": "QD-08 tail lift inspection",
+   "created_at": "2026-11-23T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-008",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-todo",
+   "name": "QD-09 lease return inspection",
+   "created_at": "2026-11-30T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-009",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-done",
+   "name": "Forklift FL2 battery water top-up",
+   "created_at": "2026-11-26T09:00:00Z"
+  },
+  {
+   "item_id": "item-efp-010",
+   "board_id": "board-efp-fleet",
+   "group_id": "grp-efp-wait",
+   "name": "Forklift FL3 seat belt replacement",
+   "created_at": "2026-12-03T09:00:00Z"
+  }
+ ],
+ "column_values": [
+  {
+   "item_id": "item-efp-001",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-001",
+   "column_id": "date",
+   "text": "2026-11-18",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-001",
+   "column_id": "person",
+   "text": "Caspar Vosper",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-002",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-002",
+   "column_id": "date",
+   "text": "2026-11-21",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-002",
+   "column_id": "person",
+   "text": "Caspar Vosper",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-003",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-003",
+   "column_id": "date",
+   "text": "2026-12-02",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-003",
+   "column_id": "person",
+   "text": "Kerensa Opie",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-004",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-004",
+   "column_id": "date",
+   "text": "2026-12-07",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-004",
+   "column_id": "person",
+   "text": "Caspar Vosper",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-005",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-005",
+   "column_id": "date",
+   "text": "2026-11-26",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-005",
+   "column_id": "person",
+   "text": "Caspar Vosper",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-006",
+   "column_id": "status",
+   "text": "Waiting for parts",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-006",
+   "column_id": "date",
+   "text": "2026-12-09",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-006",
+   "column_id": "person",
+   "text": "Kerensa Opie",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-007",
+   "column_id": "status",
+   "text": "Booked",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-007",
+   "column_id": "date",
+   "text": "2026-12-14",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-007",
+   "column_id": "person",
+   "text": "Caspar Vosper",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-008",
+   "column_id": "status",
+   "text": "Not started",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-008",
+   "column_id": "date",
+   "text": "2027-01-20",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-008",
+   "column_id": "person",
+   "text": "Kerensa Opie",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-009",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-009",
+   "column_id": "date",
+   "text": "2026-11-30",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-009",
+   "column_id": "person",
+   "text": "Jago Mewton",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-010",
+   "column_id": "status",
+   "text": "Waiting for parts",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-010",
+   "column_id": "date",
+   "text": "2026-12-11",
+   "value": null
+  },
+  {
+   "item_id": "item-efp-010",
+   "column_id": "person",
+   "text": "Jago Mewton",
+   "value": null
+  }
+ ]
+}

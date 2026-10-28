@@ -1,0 +1,367 @@
+{
+  "pytest": {
+    "score": 0.0,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.0,
+        "raw": 0.0,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 21 of 76, charged 24; missed 29: test_plot_table_reread_after_register_written, test_register_all_rows_right, test_register_bm27_rent, test_register_hl38_rent, test_register_hl17_rent, test_missing_line_created, test_notices_sent, test_offer_w1018_rent, test_offer_w1019_rent, test_offer_w1008_rent, test_offers_after_register_written, test_offer_notice_recorded, test_audience, test_restraint_outside_round_untouched, test_page_headline_in_full, test_page_split_figures, test_page_table_rents, test_page_bridge_anchors, test_reconciliation_rows, test_reconciliation_bm27, test_reconciliation_hl38, test_reconciliation_hl17, test_reconciliation_offer_sequence, test_final_answer_states_rent, test_final_answer_states_split, test_final_answer_walks_bridge, test_final_answer_states_plots_let, test_final_answer_states_waiting, test_final_answer_states_corrections; guards tripped: test_guard_register_misworked, test_guard_other_writes, test_guard_messaged_without_consent, test_guard_wrong_rent_stated, test_guard_wrong_let_stated, test_guard_wrong_waiting_stated"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.2436,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-final-note-says-2027",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[final answer] The final note says the 2027 rent invoiced is 1058.36 pounds.",
+        "reasoning": "The final_message.md headline says \u201c2027 rent invoiced: 1,069.65,\u201d not \u00a31,058.36."
+      },
+      {
+        "id": "2",
+        "name": "j-final-note-says-hollins",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[final answer] The final note says Hollins Lane accounts for 501.96 pounds of the rent.",
+        "reasoning": "The final_message.md headline gives Hollins Lane as \u201c474.80,\u201d not \u00a3501.96."
+      },
+      {
+        "id": "3",
+        "name": "j-final-note-says-brook",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[final answer] The final note says Brook Meadow accounts for 442.63 pounds of the rent.",
+        "reasoning": "The final_message.md headline gives Brook Meadow as \u201c438.60,\u201d not \u00a3442.63."
+      },
+      {
+        "id": "4",
+        "name": "j-final-note-says-plots",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[final answer] The final note says the plots let come to 1032.24 pounds at the 2027 area rates before concessions and water charges (or 1032.25 pounds when each plot's rent is rounded to the penny first).",
+        "reasoning": "The final_message.md bridge gives plot rent as \u00a31,056.85 before concessions and water, not \u00a31,032.24 or \u00a31,032.25."
+      },
+      {
+        "id": "5",
+        "name": "j-final-note-says-14",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[final answer] The final note says 14 register lines were corrected.",
+        "reasoning": "Section 4 of final_message.md explicitly says \u201c13 lines corrected,\u201d not 14."
+      },
+      {
+        "id": "6",
+        "name": "j-end-state-lettings-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[end state] In the end state the lettings register line for BM-27 carries applicant W-1018, the heading Let for 2027 and the rent 59.47.",
+        "reasoning": "In end_env.json, lr-BM-27 has applicant_ref \u201cW-1018\u201d and heading \u201cLet for 2027,\u201d but rent_gbp is \u201c55.44,\u201d not \u00a359.47."
+      },
+      {
+        "id": "7",
+        "name": "j-end-state-lettings-register-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[end state] In the end state the lettings register line for HL-17 carries applicant W-1008, the heading Let for 2027 and the rent 104.92.",
+        "reasoning": "In end_env.json, lr-HL-17 has heading \u201cLet for 2027,\u201d but applicant_ref is \u201cW-1005\u201d and rent_gbp is \u201c82.80,\u201d not W-1008 and \u00a3104.92."
+      },
+      {
+        "id": "8",
+        "name": "j-offer-message-sent-w",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.0641025641025641,
+        "description": "[trajectory] The offer message sent to W-1019 is for plot HL-38 at Hollins Lane at a rent of 75.04 pounds.",
+        "reasoning": "Trajectory step 144 sent W-1019 an HL-38 Hollins Lane offer for \u201c70.00 pounds,\u201d not \u00a375.04."
+      },
+      {
+        "id": "9",
+        "name": "j-final-note-says-bm",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says BM-27, HL-38 and HL-17 were re-measured during the round (236, 164 and 247 square metres) and that their rents follow the new areas.",
+        "reasoning": "final_message.md does not say BM-27, HL-38, and HL-17 were re-measured at 236, 164, and 247 square metres; its delivered figures instead use 220, 150, and 230 square metres."
+      },
+      {
+        "id": "10",
+        "name": "j-final-note-says-14-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says 14 plots were let.",
+        "reasoning": "The final_message.md headline says \u201c15 plots let,\u201d not 14."
+      },
+      {
+        "id": "11",
+        "name": "j-final-note-says-214",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says 214 applicants are still waiting.",
+        "reasoning": "The final_message.md headline says \u201c213 applicants still waiting,\u201d not 214."
+      },
+      {
+        "id": "12",
+        "name": "j-final-note-says-round",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the round was worked under the second edition of WDC-AL-02.",
+        "reasoning": "Section 2 of final_message.md explicitly says \u201cWDC-AL-02 second edition\u201d governed the round."
+      },
+      {
+        "id": "13",
+        "name": "j-final-note-says-bridge",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the bridge starts from 1080.00 pounds, last year's flat 45.00 on every vacant plot.",
+        "reasoning": "The bridge in final_message.md starts with \u201cLast year's flat charge, 45.00 on every vacant plot\u201d and gives \u00a31,080.00 for all 24 plots."
+      },
+      {
+        "id": "14",
+        "name": "j-final-note-says-withdrawn",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the withdrawn plots (BM-41, HL-26, HL-33) take out 135.00 pounds.",
+        "reasoning": "The final_message.md bridge says withdrawn plots remove \u00a3135.00 and identifies HL-33, BM-41, and HL-26."
+      },
+      {
+        "id": "15",
+        "name": "j-final-note-says-plots-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the plots held for accessible letting (BM-02, BM-46, HL-45) take out 135.00 pounds.",
+        "reasoning": "The final_message.md bridge says held-for-accessible-letting plots remove \u00a3135.00 and lists BM-02, HL-45, and BM-46."
+      },
+      {
+        "id": "16",
+        "name": "j-final-note-says-plots-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the plots with no taker (QF-12, QF-22, QF-31, QF-36) take out 180.00 pounds, leaving 630.00 pounds at last year's flat charge on the plots let.",
+        "reasoning": "The final_message.md lists only QF-22, QF-36, and QF-12 as no-taker plots, removing \u00a3135.00 and leaving \u00a3675.00; it omits QF-31 and does not state \u00a3180.00/\u00a3630.00."
+      },
+      {
+        "id": "17",
+        "name": "j-final-note-says-register",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says register lines were opened for BM-19 and BM-30 and the second HL-33 line (lr-HL-33b) was removed.",
+        "reasoning": "Section 4 of final_message.md says \u201cAdded: lr-BM-19, lr-BM-30\u201d and \u201cRemoved: lr-HL-33b (duplicate HL-33).\u201d"
+      },
+      {
+        "id": "18",
+        "name": "j-final-note-says-ex",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says EX-201 and EX-202 came off the exceptions ledger and EX-203 was restated to 62.50 pounds.",
+        "reasoning": "Section 5 of final_message.md says EX-201 and EX-202 were removed and EX-203 was restated from \u00a364.00 to \u00a362.50."
+      },
+      {
+        "id": "19",
+        "name": "j-final-note-says-exceptions",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says exceptions were raised for W-1008 and W-1012 (priority evidence not valid) and W-1047 (duplicate application).",
+        "reasoning": "Section 5 of final_message.md says exceptions were raised for W-1008 and W-1012 as \u201cPriority evidence not valid\u201d and W-1047 as \u201cDuplicate application.\u201d"
+      },
+      {
+        "id": "20",
+        "name": "j-final-note-says-w",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says W-1013 (not opted in), W-1016 (contact hold until 23 November 2026) and W-1020 (asked us to stop messaging) were let a plot but sent no offer.",
+        "reasoning": "Section 6 of final_message.md lists W-1013 as not opted in, W-1016 with a contact hold through 2026-11-23, and W-1020 as having asked to stop messages, all under \u201cLet applicants not sent an offer.\u201d"
+      },
+      {
+        "id": "21",
+        "name": "j-final-note-says-w-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says W-1003 has no concession for 2027 because no issued certificate covers 1 January 2027 (the old one expires 31 December and the signed renewal begins 2 January).",
+        "reasoning": "Section 7 of final_message.md says W-1003\u2019s issued certificates leave 1 January 2027 uncovered and therefore she gets no concession."
+      },
+      {
+        "id": "22",
+        "name": "j-final-note-says-head",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.038461538461538464,
+        "description": "[final answer] The final note says the Head of Parks' ruling that BM-27 goes to W-1033 does not stand, because W-1033 is band C, and that BM-27 went to W-1018 in turn.",
+        "reasoning": "The office-chat table in final_message.md rejects the Head\u2019s BM-27 ruling and says BM-27 went to W-1018 in band B while W-1033 is band C."
+      },
+      {
+        "id": "23",
+        "name": "j-final-note-says-chat",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the chat view that the corrigendum's 22.00 water charge applies does not stand, because the corrigendum commences in 2028.",
+        "reasoning": "final_message.md says Gareth\u2019s \u00a322 water view does not stand because Corrigendum 1 commences in 2028 and changes no 2027 charge."
+      },
+      {
+        "id": "24",
+        "name": "j-final-note-says-chat-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the chat view that a pole is 30 square metres does not stand, because the schedule converts a pole at 25.29 square metres.",
+        "reasoning": "The office-chat table in final_message.md rejects the 30 m\u00b2-per-pole view and states \u201c1 pole = 25.29 m\u00b2.\u201d"
+      },
+      {
+        "id": "25",
+        "name": "j-final-note-says-w-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says W-1008 is not band A because her assessment certificate EV-3108 is unsigned.",
+        "reasoning": "The office-chat table identifies Hester Quinlan\u2019s band-A view as invalid because scan EV-3108 is unsigned; elsewhere section 5 explicitly links W-1008 to that invalid priority evidence."
+      },
+      {
+        "id": "26",
+        "name": "j-final-note-says-bm-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says BM-41 was withdrawn from letting because of the site warden's comment on its handback inspection record.",
+        "reasoning": "Section 7 of final_message.md says the warden\u2019s BM-41 comment concerned knotweed and made the plot unfit to let; the bridge classifies BM-41 as withdrawn."
+      },
+      {
+        "id": "27",
+        "name": "j-final-note-says-hl",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says HL-33 was withdrawn from letting because of the site warden's addendum on its handback inspection record.",
+        "reasoning": "Section 7 of final_message.md says the HL-33 warden addendum concerned asbestos and made it unfit to let; the bridge classifies HL-33 as withdrawn."
+      },
+      {
+        "id": "28",
+        "name": "j-final-note-says-quarry",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says the Quarry Field closure in works notice EWN-14 was cancelled on the parks works calendar, so the Quarry Field plots were offered.",
+        "reasoning": "Section 7 of final_message.md says the works-calendar closure was cancelled on 27 October so Quarry Field stayed in the round; section 9 identifies EWN-14 as the notice that merely announced the closure."
+      },
+      {
+        "id": "29",
+        "name": "j-final-note-says-w-4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says W-1001's written change through the parks helpdesk (Brook Meadow as well as Hollins Lane) changed the round.",
+        "reasoning": "Section 7 of final_message.md says W-1001\u2019s web-form helpdesk ticket added Brook Meadow while retaining the water requirement and explains how this changed her round outcome."
+      },
+      {
+        "id": "30",
+        "name": "j-final-note-says-w-5",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.01282051282051282,
+        "description": "[final answer] The final note says W-1015's text to the office's SMS reminder line asking to come off the list changed the round.",
+        "reasoning": "Section 7 of final_message.md says W-1015 used the SMS line to ask to come off the list and explains that this caused all three raised beds to be held."
+      },
+      {
+        "id": "31",
+        "name": "n-final-note-gives-2027",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.038461538461538464,
+        "description": "[final answer] The final note gives the 2027 rent invoiced as 1043.17 pounds or 1052.24 pounds.",
+        "reasoning": "The final_message.md gives total 2027 rent as \u00a31,069.65, neither \u00a31,043.17 nor \u00a31,052.24."
+      },
+      {
+        "id": "32",
+        "name": "n-final-note-gives-hollins",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.038461538461538464,
+        "description": "[final answer] The final note gives Hollins Lane's rent as 490.80 pounds or 495.84 pounds, or Brook Meadow's as 438.60 pounds.",
+        "reasoning": "Although Hollins Lane is given as \u00a3474.80, the same final_message.md headline explicitly gives Brook Meadow as \u00a3438.60, one of the criterion\u2019s listed figures."
+      },
+      {
+        "id": "33",
+        "name": "n-end-state-lettings-register",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.038461538461538464,
+        "description": "[end state] In the end state the lettings register still carries 55.44 for BM-27, 70.00 for HL-38 or 98.80 for HL-17.",
+        "reasoning": "end_env.json still carries \u00a355.44 for BM-27 and \u00a370.00 for HL-38 (and \u00a382.80 for HL-17), so at least two of the criterion\u2019s specified stale values remain."
+      },
+      {
+        "id": "34",
+        "name": "n-offer-message-gives-w",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.038461538461538464,
+        "description": "[trajectory] An offer message gives W-1018 a rent of 55.44 pounds, W-1019 a rent of 70.00 pounds or W-1008 a rent of 98.80 pounds.",
+        "reasoning": "Trajectory step 144 sent W-1019 the message \u201cplot HL-38 at Hollins Lane ... at 70.00 pounds,\u201d which is one of the criterion\u2019s listed incorrect offer amounts."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-final-note-says-2027\":{\"score\":\"no\",\"reasoning\":\"The final_message.md headline says \u201c2027 rent invoiced: 1,069.65,\u201d not \u00a31,058.36.\"},\"j-final-note-says-hollins\":{\"score\":\"no\",\"reasoning\":\"The final_message.md headline gives Hollins Lane as \u201c474.80,\u201d not \u00a3501.96.\"},\"j-final-note-says-brook\":{\"score\":\"no\",\"reasoning\":\"The final_message.md headline gives Brook Meadow as \u201c438.60,\u201d not \u00a3442.63.\"},\"j-final-note-says-plots\":{\"score\":\"no\",\"reasoning\":\"The final_message.md bridge gives plot rent as \u00a31,056.85 before concessions and water, not \u00a31,032.24 or \u00a31,032.25.\"},\"j-final-note-says-14\":{\"score\":\"no\",\"reasoning\":\"Section 4 of final_message.md explicitly says \u201c13 lines corrected,\u201d not 14.\"},\"j-end-state-lettings-register\":{\"score\":\"no\",\"reasoning\":\"In end_env.json, lr-BM-27 has applicant_ref \u201cW-1018\u201d and heading \u201cLet for 2027,\u201d but rent_gbp is \u201c55.44,\u201d not \u00a359.47.\"},\"j-end-state-lettings-register-2\":{\"score\":\"no\",\"reasoning\":\"In end_env.json, lr-HL-17 has heading \u201cLet for 2027,\u201d but applicant_ref is \u201cW-1005\u201d and rent_gbp is \u201c82.80,\u201d not W-1008 and \u00a3104.92.\"},\"j-offer-message-sent-w\":{\"score\":\"no\",\"reasoning\":\"Trajectory step 144 sent W-1019 an HL-38 Hollins Lane offer for \u201c70.00 pounds,\u201d not \u00a375.04.\"},\"j-final-note-says-bm\":{\"score\":\"no\",\"reasoning\":\"final_message.md does not say BM-27, HL-38, and HL-17 were re-measured at 236, 164, and 247 square metres; its delivered figures instead use 220, 150, and 230 square metres.\"},\"j-final-note-says-14-2\":{\"score\":\"no\",\"reasoning\":\"The final_message.md headline says \u201c15 plots let,\u201d not 14.\"},\"j-final-note-says-214\":{\"score\":\"no\",\"reasoning\":\"The final_message.md headline says \u201c213 applicants still waiting,\u201d not 214.\"},\"j-final-note-says-round\":{\"score\":\"yes\",\"reasoning\":\"Section 2 of final_message.md explicitly says \u201cWDC-AL-02 second edition\u201d governed the round.\"},\"j-final-note-says-bridge\":{\"score\":\"yes\",\"reasoning\":\"The bridge in final_message.md starts with \u201cLast year's flat charge, 45.00 on every vacant plot\u201d and gives \u00a31,080.00 for all 24 plots.\"},\"j-final-note-says-withdrawn\":{\"score\":\"yes\",\"reasoning\":\"The final_message.md bridge says withdrawn plots remove \u00a3135.00 and identifies HL-33, BM-41, and HL-26.\"},\"j-final-note-says-plots-2\":{\"score\":\"yes\",\"reasoning\":\"The final_message.md bridge says held-for-accessible-letting plots remove \u00a3135.00 and lists BM-02, HL-45, and BM-46.\"},\"j-final-note-says-plots-3\":{\"score\":\"no\",\"reasoning\":\"The final_message.md lists only QF-22, QF-36, and QF-12 as no-taker plots, removing \u00a3135.00 and leaving \u00a3675.00; it omits QF-31 and does not state \u00a3180.00/\u00a3630.00.\"},\"j-final-note-says-register\":{\"score\":\"yes\",\"reasoning\":\"Section 4 of final_message.md says \u201cAdded: lr-BM-19, lr-BM-30\u201d and \u201cRemoved: lr-HL-33b (duplicate HL-33).\u201d\"},\"j-final-note-says-ex\":{\"score\":\"yes\",\"reasoning\":\"Section 5 of final_message.md says EX-201 and EX-202 were removed and EX-203 was restated from \u00a364.00 to \u00a362.50.\"},\"j-final-note-says-exceptions\":{\"score\":\"yes\",\"reasoning\":\"Section 5 of final_message.md says exceptions were raised for W-1008 and W-1012 as \u201cPriority evidence not valid\u201d and W-1047 as \u201cDuplicate application.\u201d\"},\"j-final-note-says-w\":{\"score\":\"yes\",\"reasoning\":\"Section 6 of final_message.md lists W-1013 as not opted in, W-1016 with a contact hold through 2026-11-23, and W-1020 as having asked to stop messages, all under \u201cLet applicants not sent an offer.\u201d\"},\"j-final-note-says-w-2\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says W-1003\u2019s issued certificates leave 1 January 2027 uncovered and therefore she gets no concession.\"},\"j-final-note-says-head\":{\"score\":\"yes\",\"reasoning\":\"The office-chat table in final_message.md rejects the Head\u2019s BM-27 ruling and says BM-27 went to W-1018 in band B while W-1033 is band C.\"},\"j-final-note-says-chat\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says Gareth\u2019s \u00a322 water view does not stand because Corrigendum 1 commences in 2028 and changes no 2027 charge.\"},\"j-final-note-says-chat-2\":{\"score\":\"yes\",\"reasoning\":\"The office-chat table in final_message.md rejects the 30 m\u00b2-per-pole view and states \u201c1 pole = 25.29 m\u00b2.\u201d\"},\"j-final-note-says-w-3\":{\"score\":\"yes\",\"reasoning\":\"The office-chat table identifies Hester Quinlan\u2019s band-A view as invalid because scan EV-3108 is unsigned; elsewhere section 5 explicitly links W-1008 to that invalid priority evidence.\"},\"j-final-note-says-bm-2\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says the warden\u2019s BM-41 comment concerned knotweed and made the plot unfit to let; the bridge classifies BM-41 as withdrawn.\"},\"j-final-note-says-hl\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says the HL-33 warden addendum concerned asbestos and made it unfit to let; the bridge classifies HL-33 as withdrawn.\"},\"j-final-note-says-quarry\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says the works-calendar closure was cancelled on 27 October so Quarry Field stayed in the round; section 9 identifies EWN-14 as the notice that merely announced the closure.\"},\"j-final-note-says-w-4\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says W-1001\u2019s web-form helpdesk ticket added Brook Meadow while retaining the water requirement and explains how this changed her round outcome.\"},\"j-final-note-says-w-5\":{\"score\":\"yes\",\"reasoning\":\"Section 7 of final_message.md says W-1015 used the SMS line to ask to come off the list and explains that this caused all three raised beds to be held.\"},\"n-final-note-gives-2027\":{\"score\":\"no\",\"reasoning\":\"The final_message.md gives total 2027 rent as \u00a31,069.65, neither \u00a31,043.17 nor \u00a31,052.24.\"},\"n-final-note-gives-hollins\":{\"score\":\"yes\",\"reasoning\":\"Although Hollins Lane is given as \u00a3474.80, the same final_message.md headline explicitly gives Brook Meadow as \u00a3438.60, one of the criterion\u2019s listed figures.\"},\"n-end-state-lettings-register\":{\"score\":\"yes\",\"reasoning\":\"end_env.json still carries \u00a355.44 for BM-27 and \u00a370.00 for HL-38 (and \u00a382.80 for HL-17), so at least two of the criterion\u2019s specified stale values remain.\"},\"n-offer-message-gives-w\":{\"score\":\"yes\",\"reasoning\":\"Trajectory step 144 sent W-1019 the message \u201cplot HL-38 at Hollins Lane ... at 70.00 pounds,\u201d which is one of the criterion\u2019s listed incorrect offer amounts.\"}}",
+    "usage": {
+      "input_tokens": 140644,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 94208,
+      "output_tokens": 3325,
+      "reasoning_output_tokens": 319,
+      "total_tokens": 143969,
+      "cost_usd": 0.2899272,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 140644,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 94208,
+          "output_tokens": 3325,
+          "reasoning_output_tokens": 319,
+          "total_tokens": 143969,
+          "cost_usd": 0.2899272
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.c319c01b88b3406d90899b347a4dda52.jsonl"
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+{
+ "team": {
+  "domain": "tarrowsound",
+  "id": "T9TSF",
+  "name": "Tarrow Sound Ferries"
+ },
+ "users": [
+  {
+   "id": "U9INES",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ines.haldane",
+   "presence": "away",
+   "profile": {
+    "email": "ines.haldane@tarrowsound.example"
+   },
+   "real_name": "Ines Haldane"
+  },
+  {
+   "id": "U9CAL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "callum.rennie",
+   "presence": "away",
+   "profile": {
+    "email": "callum.rennie@tarrowsound.example"
+   },
+   "real_name": "Callum Rennie"
+  },
+  {
+   "id": "U9DH",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "dougie.harkness",
+   "presence": "away",
+   "profile": {
+    "email": "dougie.harkness@tarrowsound.example"
+   },
+   "real_name": "Dougie Harkness"
+  },
+  {
+   "id": "U9PM",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "morag.sutherland",
+   "presence": "away",
+   "profile": {
+    "email": "morag.sutherland@tarrowsound.example"
+   },
+   "real_name": "Morag Sutherland"
+  },
+  {
+   "id": "U9AB",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "d.abernethy",
+   "presence": "away",
+   "profile": {
+    "email": "d.abernethy@tarrowsound.example"
+   },
+   "real_name": "D. Abernethy"
+  },
+  {
+   "id": "U9KY",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "kyle.bannatyne",
+   "presence": "away",
+   "profile": {
+    "email": "kyle.bannatyne@tarrowsound.example"
+   },
+   "real_name": "Kyle Bannatyne"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1767225600,
+   "creator": "U9INES",
+   "id": "C9LOAD",
+   "is_archived": false,
+   "is_private": false,
+   "name": "calderwick-loading",
+   "num_members": 6,
+   "purpose": "Calderwick vehicle deck loading",
+   "topic": "Calderwick vehicle deck loading"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9INES"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9CAL"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9DH"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9PM"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9AB"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "user_id": "U9KY"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I keyed the cars at eight fifty a metre like last season, finance can sort the bands.",
+   "thread_ts": null,
+   "ts": "1796806800.000000",
+   "user_id": "U9CAL"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Hoistable deck clearance is 2.30, it's always been 2.30 on the Heron.",
+   "thread_ts": null,
+   "ts": "1796807900.000000",
+   "user_id": "U9DH"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Diesel's fine in any lane, it's only diesel. Put the power station tanker wherever there's room.",
+   "thread_ts": null,
+   "ts": "1796809000.000000",
+   "user_id": "U9KY"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The pool chemicals and the heating oil can share M1, they're both sealed tanks and drums.",
+   "thread_ts": null,
+   "ts": "1796810100.000000",
+   "user_id": "U9DH"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Fennimore signed the Brackley Chemicals declaration, he always does theirs, so that one's good.",
+   "thread_ts": null,
+   "ts": "1796811200.000000",
+   "user_id": "U9KY"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Weighbridge was playing up on Friday, go with the booked weights.",
+   "thread_ts": null,
+   "ts": "1796812300.000000",
+   "user_id": "U9DH"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "U4 hoist is fixed, the engineers were on it this morning.",
+   "thread_ts": null,
+   "ts": "1796813400.000000",
+   "user_id": "U9KY"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruling from me: Ronsay Stores goes on first and in M2, they're our biggest account. Confirm here when it's in the plan.",
+   "thread_ts": null,
+   "ts": "1796814500.000000",
+   "user_id": "U9PM"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "DG surcharge went up to 25%, use that.",
+   "thread_ts": null,
+   "ts": "1796815600.000000",
+   "user_id": "U9CAL"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The boatyard lorry goes under five metres on the main deck, it'll fit.",
+   "thread_ts": null,
+   "ts": "1796816700.000000",
+   "user_id": "U9DH"
+  },
+  {
+   "channel_id": "C9LOAD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't reply in here about the plan, I'll pick it up.",
+   "thread_ts": null,
+   "ts": "1796817800.000000",
+   "user_id": "U9INES"
+  }
+ ]
+}

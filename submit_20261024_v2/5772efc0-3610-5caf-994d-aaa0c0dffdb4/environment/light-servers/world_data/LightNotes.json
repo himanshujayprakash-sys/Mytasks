@@ -1,0 +1,39 @@
+{
+ "notebooks": {
+  "nb_yard": {
+   "nbid": "nb_yard",
+   "name": "Yard",
+   "color": "#0F9D58",
+   "description": "Yard working notes"
+  }
+ },
+ "notes": {
+  "yardstock0514": {
+   "nid": "yardstock0514",
+   "title": "Stock on the benches (yard working count)",
+   "notebook_id": "nb_yard",
+   "tags": [
+    "stock",
+    "yard"
+   ],
+   "content": "Counted on the benches on 14 May for picking. OP-FAR7: 12 plants; PL-2702: 18 plants; PL-2704: 36 plants; PL-2706: 92 plants; PL-2707: 30 plants; PL-2708: 40 plants; PL-2709: 20 plants; PL-2710: 180 plants; PL-2711: 45 plants; PL-2712: 120 plants. Rough value of what is on the benches at the catalogue's trade cost: 1,402.60 pounds.",
+   "is_pinned": true,
+   "is_archived": false,
+   "created_at": "2027-05-14T16:00",
+   "updated_at": "2027-05-14T16:00"
+  },
+  "yardrota": {
+   "nid": "yardrota",
+   "title": "Watering rota",
+   "notebook_id": "nb_yard",
+   "tags": [
+    "rota"
+   ],
+   "content": "T1 and T2 mornings, T3 and T4 evenings.",
+   "is_pinned": false,
+   "is_archived": false,
+   "created_at": "2027-04-01T08:00",
+   "updated_at": "2027-04-01T08:00"
+  }
+ }
+}

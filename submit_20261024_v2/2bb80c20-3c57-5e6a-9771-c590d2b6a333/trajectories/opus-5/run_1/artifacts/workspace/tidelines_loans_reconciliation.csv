@@ -1,0 +1,51 @@
+row_type,object_no,lender_id,lender,currency,agreed_value_used,agreement_rate,insured_value_gbp,cover,premium_gbp,trip_ref,status
+object,TW-01,LND-01,Calder Bay Art Society,GBP,85000,1,85000,GIS,0.00,TRP-01,Confirmed
+object,TW-02,LND-01,Calder Bay Art Society,GBP,140000,1,140000,GIS,0.00,TRP-01,Confirmed
+object,TW-03,LND-01,Calder Bay Art Society,GBP,62500,1,62500,GIS,0.00,TRP-01,Confirmed
+object,TW-04,LND-02,Musee Leonie Barraud,EUR,420000,0.8674,364308,GIS,0.00,TRP-02,Confirmed
+object,TW-05,LND-02,Musee Leonie Barraud,EUR,275500,0.8674,238969,GIS,0.00,TRP-02,Confirmed
+object,TW-06,LND-02,Musee Leonie Barraud,EUR,1150000,0.8674,997510,GIS,0.00,TRP-02,Confirmed
+object,TW-07,LND-03,Galerie Hendriks & Daalder,EUR,1200000,0.8655,1038600,Commercial,1415.53,TRP-03,Confirmed
+object,TW-08,LND-03,Galerie Hendriks & Daalder,EUR,950000,0.8655,822225,Commercial,1188.34,TRP-03,Confirmed
+object,TW-09,LND-03,Galerie Hendriks & Daalder,EUR,1100000,0.8655,952050,Commercial,1324.65,TRP-03,Confirmed
+object,TW-10,LND-03,Galerie Hendriks & Daalder,EUR,400000,0.8655,346200,Commercial,588.54,TRP-03-2,Confirmed
+object,TW-11,LND-04,Mrs Imogen Thackwray,GBP,48000,1,48000,GIS,0.00,TRP-04,Confirmed
+object,TW-12,LND-04,Mrs Imogen Thackwray,GBP,210000,1,0,,0.00,,Withdrawn by lender
+object,TW-13,LND-04,Mrs Imogen Thackwray,GBP,36500,1,36500,GIS,0.00,TRP-04,Confirmed
+object,TW-14,LND-05,Ostkust Konstmuseum,SEK,6200000,0.0721,447020,GIS,0.00,TRP-05,Confirmed
+object,TW-15,LND-05,Ostkust Konstmuseum,SEK,3445000,0.0721,248385,GIS,0.00,TRP-05,Confirmed
+object,TW-16,LND-05,Ostkust Konstmuseum,SEK,9800000,0.0721,706580,GIS,0.00,TRP-05,Confirmed
+object,TW-17,LND-06,Fairhaven Fine Art Ltd,GBP,380000,1,380000,Commercial,570.00,TRP-06,Confirmed
+object,TW-18,LND-06,Fairhaven Fine Art Ltd,GBP,1250000,1,1250000,Commercial,1387.50,TRP-06,Confirmed
+object,TW-19,LND-07,Whitcombe College,GBP,95000,1,95000,GIS,0.00,TRP-07,Confirmed
+object,TW-20,LND-07,Whitcombe College,GBP,175000,1,0,,0.00,,Declined - condition
+object,TW-21,LND-07,Whitcombe College,GBP,52000,1,52000,GIS,0.00,TRP-07,Confirmed
+object,TW-22,LND-08,Strandhuis Collection Trust,EUR,640000,0.8690,556160,GIS,0.00,TRP-08,Confirmed
+object,TW-23,LND-08,Strandhuis Collection Trust,EUR,310125,0.8690,269499,GIS,0.00,TRP-08,Confirmed
+object,TW-24,LND-08,Strandhuis Collection Trust,EUR,185250,0.8690,160982,GIS,0.00,TRP-08,Confirmed
+object,TW-25,LND-09,Halvorsen Family Collection,NOK,12500000,0.0703,878750,GIS,0.00,TRP-09,Confirmed
+object,TW-26,LND-09,Halvorsen Family Collection,NOK,4750000,0.0703,333925,GIS,0.00,TRP-09,Confirmed
+object,TW-27,LND-10,Carrow & Webb Gallery,USD,1600000,0.7843,1254880,Commercial,1642.62,TRP-10,Confirmed
+object,TW-28,LND-10,Carrow & Webb Gallery,USD,1850000,0.7843,1450955,Commercial,1848.50,TRP-10,Confirmed
+object,TW-29,LND-10,Carrow & Webb Gallery,USD,700000,0.7843,549010,Commercial,901.46,TRP-10-2,Confirmed
+object,TW-30,LND-11,Aldred Maritime Museum,GBP,220000,1,220000,Commercial,330.00,TRP-11,Confirmed
+object,TW-31,LND-11,Aldred Maritime Museum,GBP,96000,1,96000,Commercial,144.00,TRP-11,Confirmed
+object,TW-32,LND-12,Mr Ruaridh Fennick,GBP,125000,1,125000,GIS,0.00,TRP-12,Confirmed
+object,TW-33,LND-12,Mr Ruaridh Fennick,GBP,74000,1,74000,GIS,0.00,TRP-12,Confirmed
+object,TW-34,LND-13,Garside Hall Estate,GBP,160000,1,0,,0.00,,Not confirmed - agreement unsigned
+object,TW-35,LND-13,Garside Hall Estate,GBP,58000,1,0,,0.00,,Not confirmed - agreement unsigned
+vehicle,,LND-01,Calder Bay Art Society,,,,287500,,,TRP-01,Booked
+vehicle,,LND-02,Musee Leonie Barraud,,,,1600787,,,TRP-02,Booked
+vehicle,,LND-03,Galerie Hendriks & Daalder,,,,2812875,,,TRP-03,Booked
+vehicle,,LND-03,Galerie Hendriks & Daalder,,,,346200,,,TRP-03-2,Booked
+vehicle,,LND-04,Mrs Imogen Thackwray,,,,84500,,,TRP-04,Booked
+vehicle,,LND-05,Ostkust Konstmuseum,,,,1401985,,,TRP-05,Booked
+vehicle,,LND-06,Fairhaven Fine Art Ltd,,,,1630000,,,TRP-06,Booked
+vehicle,,LND-07,Whitcombe College,,,,147000,,,TRP-07,Booked
+vehicle,,LND-08,Strandhuis Collection Trust,,,,986641,,,TRP-08,Booked
+vehicle,,LND-09,Halvorsen Family Collection,,,,1212675,,,TRP-09,Booked
+vehicle,,LND-10,Carrow & Webb Gallery,,,,2705835,,,TRP-10,Booked
+vehicle,,LND-10,Carrow & Webb Gallery,,,,549010,,,TRP-10-2,Booked
+vehicle,,LND-11,Aldred Maritime Museum,,,,316000,,,TRP-11,Booked
+vehicle,,LND-12,Mr Ruaridh Fennick,,,,199000,,,TRP-12,Booked
+vehicle,,LND-13,Garside Hall Estate,,,,0,,,TRP-13,Cancelled

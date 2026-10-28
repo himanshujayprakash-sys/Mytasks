@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="19" skipped="0" tests="39" time="0.579" timestamp="2026-10-25T08:50:02.898700+00:00" hostname="3a6043eacf0c"><testcase classname="test_outputs" name="test_handbook_and_policy_read" time="0.080" /><testcase classname="test_outputs" name="test_renewal_forms_read" time="0.001" /><testcase classname="test_outputs" name="test_portal_read_after_the_first_save" time="0.001" /><testcase classname="test_outputs" name="test_families_read_after_the_award" time="0.001"><failure message="AssertionError: the families table was not read again before the invoices were raised&#10;assert []&#10; +  where [] = _reads_of('families', 135, 175)&#10; +    where 175 = min([175, 176, 177, 178, 179, 180, ...])">def test_families_read_after_the_award():
+        """invoices follow the families table as it stands when they are raised: read after the welfare officer's award landed (the club's
+        twentieth squad status write) and before the first invoice"""
+        sq = [i for i, tb in _write_order() if tb == 'squad_registrations']; inv = [i for i, s in _calls('LightXero', 'create_invoice')]
+        n = int(R.get('award_after') or 20)
+        assert len(sq) &gt;= n and inv, 'the squad statuses were not worked, or no invoice was raised'
+&gt;       assert _reads_of('families', sq[n - 1], min(inv)), 'the families table was not read again before the invoices were raised'
+E       AssertionError: the families table was not read again before the invoices were raised
+E       assert []
+E        +  where [] = _reads_of('families', 135, 175)
+E        +    where 175 = min([175, 176, 177, 178, 179, 180, ...])
+
+test_outputs.py:704: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_safeguarding_results_all_right" time="0.007" /><testcase classname="test_outputs" name="test_suspension_applied" time="0.001" /><testcase classname="test_outputs" name="test_leave_of_absence_applied" time="0.001" /><testcase classname="test_outputs" name="test_squad_statuses_all_right" time="0.001" /><testcase classname="test_outputs" name="test_whatsapp_withdrawal_applied" time="0.001" /><testcase classname="test_outputs" name="test_duplicate_check_refusal_applied" time="0.001" /><testcase classname="test_outputs" name="test_tie_held_in_full" time="0.001" /><testcase classname="test_outputs" name="test_u16_limit_from_the_agm" time="0.001" /><testcase classname="test_outputs" name="test_u12_players_held_for_the_team" time="0.001" /><testcase classname="test_outputs" name="test_invoices_all_right" time="0.011"><failure message="AssertionError: invoices wrong or missing for ['FAM-001', 'FAM-002', 'FAM-003', 'FAM-005', 'FAM-007', 'FAM-009']; invoices for families that owe nothing: ['FAM-006', 'FAM-008']&#10;assert (not ['FAM-001', 'FAM-002', 'FAM-003', 'FAM-005', 'FAM-007', 'FAM-009', ...])">def test_invoices_all_right():
+        """one invoice per family whose registered children have a balance, with RH-26 s.6's lines, reference, status and dates, and no other"""
+        got = _invoices()
+        bad = [f for f in R['invoices'] if not _invoice_right(f)]
+        extra = sorted(str(f) for f in got if f not in R['invoices'])
+&gt;       assert not bad and not extra, f'invoices wrong or missing for {bad[:6]}; invoices for families that owe nothing: {extra[:6]}'
+E       AssertionError: invoices wrong or missing for ['FAM-001', 'FAM-002', 'FAM-003', 'FAM-005', 'FAM-007', 'FAM-009']; invoices for families that owe nothing: ['FAM-006', 'FAM-008']
+E       assert (not ['FAM-001', 'FAM-002', 'FAM-003', 'FAM-005', 'FAM-007', 'FAM-009', ...])
+
+test_outputs.py:769: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_sibling_discount" time="0.002"><failure message="AssertionError: sibling discount not applied for families ['FAM-003', 'FAM-005']&#10;assert (['FAM-003', 'FAM-005'] and not ['FAM-003', 'FAM-005'])">def test_sibling_discount():
+        multi = sorted({l['family'] for l in R['lines'].values() if sum(1 for x in R['lines'].values() if x['family'] == l['family']) &gt; 1} &amp; set(R['invoices']))
+        bad = [f for f in multi if not _invoice_right(f)]
+&gt;       assert multi and not bad, f'sibling discount not applied for families {bad}'
+E       AssertionError: sibling discount not applied for families ['FAM-003', 'FAM-005']
+E       assert (['FAM-003', 'FAM-005'] and not ['FAM-003', 'FAM-005'])
+
+test_outputs.py:776: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_hardship_families_not_invoiced" time="0.001"><failure message="AssertionError: families on the hardship fund invoiced: ['FAM-006']&#10;assert ({'FAM-001': [{'i': 175, 'items': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': 85.0}], 'reference': 'TJ26-FAM-001', 'status': 'AUTHORISED', ...}, {'i': 334, 'items': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': 85.0}], 'reference': 'TJ26-FAM-001', 'status': 'AUTHORISED', ...}], 'FAM-002': [{'i': 176, 'items': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}], 'reference': 'TJ26-FAM-002', 'status': 'AUTHORISED', ...}, {'i': 335, 'items': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}], 'reference': 'TJ26-FAM-002', 'status': 'AUTHORISED', ...}], 'FAM-003': [{'i': 177, 'items': [{'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}, {'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': 71.5}], 'reference': 'TJ26-FAM-003', 'status': 'AUTHORISED', ...}, {'i': 336, 'items': [{'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}, {'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': 71.5}], 'reference': 'TJ26-FAM-003', 'status': 'AUTHORISED', ...}], 'FAM-005': [{'i': 178, 'items': [{'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': 150.0}, {'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': 121.5}], 'reference': 'TJ26-FAM-005', 'status': 'AUTHORISED', ...}, {'i': 337, 'items': [{'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': 150.0}, {'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': 121.5}], 'reference': 'TJ26-FAM-005', 'status': 'AUTHORISED', ...}], ...} and not ['FAM-006'])">def test_hardship_families_not_invoiced():
+        got = _invoices()
+        hit = [f for f in R['hardship'] if f in got]
+&gt;       assert got and not hit, f'families on the hardship fund invoiced: {hit}'
+E       AssertionError: families on the hardship fund invoiced: ['FAM-006']
+E       assert ({'FAM-001': [{'i': 175, 'items': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': 85.0}], 'reference': 'TJ26-FAM-001', 'status': 'AUTHORISED', ...}, {'i': 334, 'items': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': 85.0}], 'reference': 'TJ26-FAM-001', 'status': 'AUTHORISED', ...}], 'FAM-002': [{'i': 176, 'items': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}], 'reference': 'TJ26-FAM-002', 'status': 'AUTHORISED', ...}, {'i': 335, 'items': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}], 'reference': 'TJ26-FAM-002', 'status': 'AUTHORISED', ...}], 'FAM-003': [{'i': 177, 'items': [{'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}, {'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': 71.5}], 'reference': 'TJ26-FAM-003', 'status': 'AUTHORISED', ...}, {'i': 336, 'items': [{'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': 100.0}, {'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': 71.5}], 'reference': 'TJ26-FAM-003', 'status': 'AUTHORISED', ...}], 'FAM-005': [{'i': 178, 'items': [{'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': 150.0}, {'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': 121.5}], 'reference': 'TJ26-FAM-005', 'status': 'AUTHORISED', ...}, {'i': 337, 'items': [{'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': 150.0}, {'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': 121.5}], 'reference': 'TJ26-FAM-005', 'status': 'AUTHORISED', ...}], ...} and not ['FAM-006'])
+
+test_outputs.py:783: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reminders_all_right" time="0.007"><failure message="AssertionError: texts: 0 missing or worded wrong, 25 extra; emails: [] missing, 10 sent for 5&#10;assert ({('+447700900...pt out'), ...} == {('+447700900...pt out'), ...}&#10;  &#10;  Extra items in the left set:&#10;  ('+447700900170', 'thornwick juniors: your 2026-27 membership balance of £285.00 is invoiced as tj26-fam-006. please pay by 15 dec 2026. reply stop to opt out')&#10;  ('+447700900543', 'thornwick juniors: your 2026-27 membership balance of £135.00 is invoiced as tj26-fam-008. please pay by 15 dec 2026. reply stop to opt out')&#10;  &#10;  Full diff:&#10;    {...&#10;  &#10;  ...Full output truncated (145 lines hidden), use '-vv' to show)">def test_reminders_all_right():
+        """exactly one reminder per invoiced family: RH-26 s.7's text from the fees line, or the email with the reference and amount"""
+        tx = [t for t in _texts() if t[1] in set(R['fam_mobile'].values())]
+        got_t = {(t[1], _norm(t[3])) for t in tx if t[2] == R['fees_line']}
+        want_t = {(v['to'], _norm(v['body'])) for v in R['texts'].values()}
+        em = [e for e in _emails() if e[0] in R['email_family']]
+        bad_e = [f for f, v in R['emails'].items() if not any(e[0] == v['to'].lower() and v['reference'] in e[1] + e[2] and float(v['amount']) in _money_in(e[2]) for e in em)]
+&gt;       assert got_t == want_t and len(tx) == len(want_t) and not bad_e and len(em) == len(R['emails']), \
+            f'texts: {len(want_t - got_t)} missing or worded wrong, {len(tx) - len(want_t &amp; got_t)} extra; emails: {bad_e} missing, {len(em)} sent for {len(R["emails"])}'
+E       AssertionError: texts: 0 missing or worded wrong, 25 extra; emails: [] missing, 10 sent for 5
+E       assert ({('+447700900...pt out'), ...} == {('+447700900...pt out'), ...}
+E         
+E         Extra items in the left set:
+E         ('+447700900170', 'thornwick juniors: your 2026-27 membership balance of £285.00 is invoiced as tj26-fam-006. please pay by 15 dec 2026. reply stop to opt out')
+E         ('+447700900543', 'thornwick juniors: your 2026-27 membership balance of £135.00 is invoiced as tj26-fam-008. please pay by 15 dec 2026. reply stop to opt out')
+E         
+E         Full diff:
+E           {...
+E         
+E         ...Full output truncated (145 lines hidden), use '-vv' to show)
+
+test_outputs.py:795: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_opted_out_family_emailed" time="0.001" /><testcase classname="test_outputs" name="test_page_headline_all_right" time="0.001"><failure message="AssertionError: no page was delivered&#10;assert ''&#10; +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()&#10; +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip">def test_page_headline_all_right():
+        """at the head: the players registered and the total invoiced, with each team's registered count next to them"""
+        src = _page_src()
+&gt;       assert src.strip(), 'no page was delivered'
+E       AssertionError: no page was delivered
+E       assert ''
+E        +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()
+E        +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip
+
+test_outputs.py:810: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_status_chart_per_team" time="0.001"><failure message="AssertionError: the page has no chart of the statuses by team carrying the registered counts&#10;assert ('')">def test_page_status_chart_per_team():
+        src = _page_src(); svg = ' '.join(re.findall(r'&lt;svg.*?&lt;/svg&gt;', src, re.S | re.I))
+        if not svg:      # a chart drawn with HTML bars: the block whose class or id names a chart, up to the next section or table
+            m = re.search(r'&lt;(div|section|figure)\b[^&gt;]*(class|id)\s*=\s*["\'][^"\']*chart[^"\']*["\'][^&gt;]*&gt;', src, re.I)
+            if m:
+                end = re.search(r'&lt;h2\b|&lt;table\b', src[m.end():], re.I)
+                svg = src[m.start(): m.end() + (end.start() if end else 6000)]
+        nums = L.numbers_in(re.sub(r'&lt;[^&gt;]+&gt;', ' ', re.sub(r'&lt;title&gt;', ' ', svg)), words=False)
+&gt;       assert svg and all(t in svg for t in ('U12', 'U14', 'U16')) and all(v in nums for v in R['reg_by_team'].values() if v), \
+            'the page has no chart of the statuses by team carrying the registered counts'
+E       AssertionError: the page has no chart of the statuses by team carrying the registered counts
+E       assert ('')
+
+test_outputs.py:828: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_table_sorts_and_filters" time="0.001"><failure message="AssertionError: table rows 0/58, sortable and filterable False&#10;assert (0 &gt;= (58 - 2))&#10; +  where 0 = len([])&#10; +  and   58 = len({'SR-26-001': {'player_id': 'TJ-P3003', 'name': 'Archie Eccles', 'team': 'U12', 'family': 'FAM-002', ...}, 'SR-26-002': {'player_id': 'TJ-P3015', 'name': 'Archie Naylor', 'team': 'U12', 'family': 'FAM-019', ...}, 'SR-26-003': {'player_id': 'TJ-P3010', 'name': 'Archie Tattersall', 'team': 'U12', 'family': 'FAM-009', ...}, 'SR-26-004': {'player_id': 'TJ-P3012', 'name': 'Esme Lomax', 'team': 'U12', 'family': 'FAM-016', ...}, ...})">def test_page_table_sorts_and_filters():
+        src = _page_src(); low = src.lower()
+        rows = [r for r in R['players'] if r in src or R['players'][r]['player_id'] in src or R['players'][r]['name'] in src]
+        ok = 'sort' in low and '&lt;table' in low and '&lt;script' in low and ('filter' in low or 'search' in low) and ('&lt;input' in low or '&lt;select' in low)
+&gt;       assert len(rows) &gt;= len(R['players']) - 2 and ok, f'table rows {len(rows)}/{len(R["players"])}, sortable and filterable {ok}'
+E       AssertionError: table rows 0/58, sortable and filterable False
+E       assert (0 &gt;= (58 - 2))
+E        +  where 0 = len([])
+E        +  and   58 = len({'SR-26-001': {'player_id': 'TJ-P3003', 'name': 'Archie Eccles', 'team': 'U12', 'family': 'FAM-002', ...}, 'SR-26-002': {'player_id': 'TJ-P3015', 'name': 'Archie Naylor', 'team': 'U12', 'family': 'FAM-019', ...}, 'SR-26-003': {'player_id': 'TJ-P3010', 'name': 'Archie Tattersall', 'team': 'U12', 'family': 'FAM-009', ...}, 'SR-26-004': {'player_id': 'TJ-P3012', 'name': 'Esme Lomax', 'team': 'U12', 'family': 'FAM-016', ...}, ...})
+
+test_outputs.py:837: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_self_contained" time="0.001"><failure message="AssertionError: no page was delivered&#10;assert ''&#10; +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()&#10; +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip">def test_page_self_contained():
+        src = _page_src()
+&gt;       assert src.strip(), 'no page was delivered'
+E       AssertionError: no page was delivered
+E       assert ''
+E        +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()
+E        +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip
+
+test_outputs.py:843: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_fees_sheet_all_rows_right" time="0.001"><failure message="AssertionError: fees sheet rows wrong or missing for ['Alfie Mellor', 'Archie Beckett', 'Daniel Pickles', 'Archie Pickles', 'Daniel Castle', 'Dexter Schofield']; rows for players not registered: 0&#10;assert ([])">def test_fees_sheet_all_rows_right():
+        """a line for each registered player and nobody else: fee, sibling discount, hardship, deposit, balance and invoice reference as RH-26 s.6 gives"""
+        rows = _fees_rows(); bad = []; seen = set()
+        for pid, l in R['lines'].items():
+            row = next((x for x in rows if pid in x.values() or l['name'] in x.values()), None)
+            if not row:
+                bad.append(l['name']); continue
+            seen.add(id(row)); vals = [_num(v) for v in row.values()]; low = {_norm(v) for v in row.values()}
+            need = [float(l['fee']), float(l['deposit']), float(l['balance'])] + ([] if l['hardship'] else [float(l['discount'])])
+            ref = R['invoices'][l['family']]['reference'] if l['family'] in R['invoices'] else None
+            if not all(any(v is not None and abs(v - n) &lt; 0.006 for v in vals) for n in need) or ('yes' if l['hardship'] else 'no') not in low \
+                    or (ref and ref.lower() not in low) or (not ref and any(re.fullmatch(r'tj26-fam-\d+', x) for x in low)):
+                bad.append(l['name'])
+        names = {p['name'] for p in R['players'].values()}
+        extra = [x for x in rows if id(x) not in seen and any(v in names for v in x.values())]
+&gt;       assert rows and not bad and not extra, f'fees sheet rows wrong or missing for {bad[:6]}; rows for players not registered: {len(extra)}'
+E       AssertionError: fees sheet rows wrong or missing for ['Alfie Mellor', 'Archie Beckett', 'Daniel Pickles', 'Archie Pickles', 'Daniel Castle', 'Dexter Schofield']; rows for players not registered: 0
+E       assert ([])
+
+test_outputs.py:864: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_all_right" time="0.001"><failure message="AssertionError: no safeguarding dossier was delivered&#10;assert ''&#10; +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()&#10; +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip">def test_dossier_all_right():
+        """one section per coach checked with the result, one per team with the clearance and its two coaches"""
+        txt = _dossier(); secs = re.split(r'\n(?=\s*#)', txt); bad = []
+&gt;       assert txt.strip(), 'no safeguarding dossier was delivered'
+E       AssertionError: no safeguarding dossier was delivered
+E       assert ''
+E        +  where '' = &lt;built-in method strip of str object at 0xffffaf713868&gt;()
+E        +    where &lt;built-in method strip of str object at 0xffffaf713868&gt; = ''.strip
+
+test_outputs.py:871: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_files_read_back" time="0.001"><failure message="AssertionError: the page, the dossier or the fees sheet was not read back after it was written&#10;assert (False)&#10; +  where False = _written_and_read_back('', ('.html', '.htm'))">def test_files_read_back():
+&gt;       assert _written_and_read_back('', ('.html', '.htm')) and _written_and_read_back('safeguarding', ('.md', '.markdown', '.txt')) and \
+            _written_and_read_back('fees', ('.csv',)), 'the page, the dossier or the fees sheet was not read back after it was written'
+E       AssertionError: the page, the dossier or the fees sheet was not read back after it was written
+E       assert (False)
+E        +  where False = _written_and_read_back('', ('.html', '.htm'))
+
+test_outputs.py:884: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_invoice_total" time="0.001"><failure message="AssertionError: the note does not state the invoiced total 3563.00&#10;assert 3563.0 in {100.0, 121.5, 135.0, 271.5, 3848.0}&#10; +  where 3563.0 = float('3563.00')&#10; +  and   {100.0, 121.5, 135.0, 271.5, 3848.0} = _money_in('# Note for the committee: closing the MDYL winter registration window, 2026-27\n\n*Bethan Quenby, registration secretary — 25 November 2026. Follows handbook **RH-26**, the **Safeguarding policy (volunteers) 2026**, fee schedule **FS-26**, and the league\'s rules as they stand for this window. A copy is saved as `committee_note_window_2026-27.md`.*\n\n**Late change, please note.** The league portal\'s dual-registrations table was amended this afternoon. Row MD-DUP-4217 for **Kieran Lowther** had said *Released - transfer cleared 2026-11-19*; it now reads **Registered**, with a league note of 25 November: &quot;Brindlecombe Colts registered the player for its U14s on 18 November; the release recorded on 19 November was entered in error and is withdrawn.&quot; The league\'s confirmation says the table applies &quot;as it stands when the window closes&quot;, so Kieran is *Refused - registered elsewhere* — which took a player out of the U14 ordering and moved the squad limit onto the tied pair below. Everything below is after that change.\n\n## 1. How many are registered\n\n| Team | Drafted | Registered | Squad limit | Source |\n|---|---|---|---|---|\n| U12 | 17 | **0** | 16 | MDYL rule 4.2 (not amende...n, not the literal &quot;twelve months before the born-from date&quot;, because the literal reading would make &quot;playing up&quot; impossible and would permit playing down, which MDYL rule 4.3 and the league\'s confirmation forbid. This decides Layla Marsden, Daniel Castle and Toby Gill (all Yes to playing up) in, and Riley Ashby (No) out. Flagged for the handbook review.\n2. **Reminder amount.** The handbook calls it both &quot;the invoice\'s total&quot; and &quot;your membership balance&quot;; because the accounts system force-adds a 10% tax it cannot be both. I used the membership balance (= invoice net/subtotal), which is what the sentence describes and what the fees CSV holds.\n3. **Session reset.** Partway through I logged out of the accounts, text, mail and registration-base connections for tidiness; that reset their stores and discarded the first pass of the work. Everything was rebuilt in fresh sessions — with the corrected league data — and verified by reading each system back: 58 squad statuses with no Draft left, 9 coach results, 3 clearance rows, 28 invoices totalling £3,848.00 net, 23 reminder texts from the fees line (none to the opted-out number), 5 reminder emails. No system was left part-written.\n')&#10; +    where '# Note for the committee: closing the MDYL winter registration window, 2026-27\n\n*Bethan Quenby, registration secretary — 25 November 2026. Follows handbook **RH-26**, the **Safeguarding policy (volunteers) 2026**, fee schedule **FS-26**, and the league\'s rules as they stand for this window. A copy is saved as `committee_note_window_2026-27.md`.*\n\n**Late change, please note.** The league portal\'s dual-registrations table was amended this afternoon. Row MD-DUP-4217 for **Kieran Lowther** had said *Released - transfer cleared 2026-11-19*; it now reads **Registered**, with a league note of 25 November: &quot;Brindlecombe Colts registered the player for its U14s on 18 November; the release recorded on 19 November was entered in error and is withdrawn.&quot; The league\'s confirmation says the table applies &quot;as it stands when the window closes&quot;, so Kieran is *Refused - registered elsewhere* — which took a player out of the U14 ordering and moved the squad limit onto the tied pair below. Everything below is after that change.\n\n## 1. How many are registered\n\n| Team | Drafted | Registered | Squad limit | Source |\n|---|---|---|---|---|\n| U12 | 17 | **0** | 16 | MDYL rule 4.2 (not amende...n, not the literal &quot;twelve months before the born-from date&quot;, because the literal reading would make &quot;playing up&quot; impossible and would permit playing down, which MDYL rule 4.3 and the league\'s confirmation forbid. This decides Layla Marsden, Daniel Castle and Toby Gill (all Yes to playing up) in, and Riley Ashby (No) out. Flagged for the handbook review.\n2. **Reminder amount.** The handbook calls it both &quot;the invoice\'s total&quot; and &quot;your membership balance&quot;; because the accounts system force-adds a 10% tax it cannot be both. I used the membership balance (= invoice net/subtotal), which is what the sentence describes and what the fees CSV holds.\n3. **Session reset.** Partway through I logged out of the accounts, text, mail and registration-base connections for tidiness; that reset their stores and discarded the first pass of the work. Everything was rebuilt in fresh sessions — with the corrected league data — and verified by reading each system back: 58 squad statuses with no Draft left, 9 coach results, 3 clearance rows, 28 invoices totalling £3,848.00 net, 23 reminder texts from the fees line (none to the opted-out number), 5 reminder emails. No system was left part-written.\n' = &lt;function final at 0xffffad953560&gt;()&#10; +      where &lt;function final at 0xffffad953560&gt; = L.final">def test_final_states_invoice_total():
+&gt;       assert float(R['invoice_total']) in _money_in(L.final()), f'the note does not state the invoiced total {R["invoice_total"]}'
+E       AssertionError: the note does not state the invoiced total 3563.00
+E       assert 3563.0 in {100.0, 121.5, 135.0, 271.5, 3848.0}
+E        +  where 3563.0 = float('3563.00')
+E        +  and   {100.0, 121.5, 135.0, 271.5, 3848.0} = _money_in('# Note for the committee: closing the MDYL winter registration window, 2026-27\n\n*Bethan Quenby, registration secretary — 25 November 2026. Follows handbook **RH-26**, the **Safeguarding policy (volunteers) 2026**, fee schedule **FS-26**, and the league\'s rules as they stand for this window. A copy is saved as `committee_note_window_2026-27.md`.*\n\n**Late change, please note.** The league portal\'s dual-registrations table was amended this afternoon. Row MD-DUP-4217 for **Kieran Lowther** had said *Released - transfer cleared 2026-11-19*; it now reads **Registered**, with a league note of 25 November: "Brindlecombe Colts registered the player for its U14s on 18 November; the release recorded on 19 November was entered in error and is withdrawn." The league\'s confirmation says the table applies "as it stands when the window closes", so Kieran is *Refused - registered elsewhere* — which took a player out of the U14 ordering and moved the squad limit onto the tied pair below. Everything below is after that change.\n\n## 1. How many are registered\n\n| Team | Drafted | Registered | Squad limit | Source |\n|---|---|---|---|---|\n| U12 | 17 | **0** | 16 | MDYL rule 4.2 (not amende...n, not the literal "twelve months before the born-from date", because the literal reading would make "playing up" impossible and would permit playing down, which MDYL rule 4.3 and the league\'s confirmation forbid. This decides Layla Marsden, Daniel Castle and Toby Gill (all Yes to playing up) in, and Riley Ashby (No) out. Flagged for the handbook review.\n2. **Reminder amount.** The handbook calls it both "the invoice\'s total" and "your membership balance"; because the accounts system force-adds a 10% tax it cannot be both. I used the membership balance (= invoice net/subtotal), which is what the sentence describes and what the fees CSV holds.\n3. **Session reset.** Partway through I logged out of the accounts, text, mail and registration-base connections for tidiness; that reset their stores and discarded the first pass of the work. Everything was rebuilt in fresh sessions — with the corrected league data — and verified by reading each system back: 58 squad statuses with no Draft left, 9 coach results, 3 clearance rows, 28 invoices totalling £3,848.00 net, 23 reminder texts from the fees line (none to the opted-out number), 5 reminder emails. No system was left part-written.\n')
+E        +    where '# Note for the committee: closing the MDYL winter registration window, 2026-27\n\n*Bethan Quenby, registration secretary — 25 November 2026. Follows handbook **RH-26**, the **Safeguarding policy (volunteers) 2026**, fee schedule **FS-26**, and the league\'s rules as they stand for this window. A copy is saved as `committee_note_window_2026-27.md`.*\n\n**Late change, please note.** The league portal\'s dual-registrations table was amended this afternoon. Row MD-DUP-4217 for **Kieran Lowther** had said *Released - transfer cleared 2026-11-19*; it now reads **Registered**, with a league note of 25 November: "Brindlecombe Colts registered the player for its U14s on 18 November; the release recorded on 19 November was entered in error and is withdrawn." The league\'s confirmation says the table applies "as it stands when the window closes", so Kieran is *Refused - registered elsewhere* — which took a player out of the U14 ordering and moved the squad limit onto the tied pair below. Everything below is after that change.\n\n## 1. How many are registered\n\n| Team | Drafted | Registered | Squad limit | Source |\n|---|---|---|---|---|\n| U12 | 17 | **0** | 16 | MDYL rule 4.2 (not amende...n, not the literal "twelve months before the born-from date", because the literal reading would make "playing up" impossible and would permit playing down, which MDYL rule 4.3 and the league\'s confirmation forbid. This decides Layla Marsden, Daniel Castle and Toby Gill (all Yes to playing up) in, and Riley Ashby (No) out. Flagged for the handbook review.\n2. **Reminder amount.** The handbook calls it both "the invoice\'s total" and "your membership balance"; because the accounts system force-adds a 10% tax it cannot be both. I used the membership balance (= invoice net/subtotal), which is what the sentence describes and what the fees CSV holds.\n3. **Session reset.** Partway through I logged out of the accounts, text, mail and registration-base connections for tidiness; that reset their stores and discarded the first pass of the work. Everything was rebuilt in fresh sessions — with the corrected league data — and verified by reading each system back: 58 squad statuses with no Draft left, 9 coach results, 3 clearance rows, 28 invoices totalling £3,848.00 net, 23 reminder texts from the fees line (none to the opted-out number), 5 reminder emails. No system was left part-written.\n' = &lt;function final at 0xffffad953560&gt;()
+E        +      where &lt;function final at 0xffffad953560&gt; = L.final
+
+test_outputs.py:891: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_registered_per_team" time="0.008" /><testcase classname="test_outputs" name="test_final_names_the_tie" time="0.003" /><testcase classname="test_outputs" name="test_final_states_invoice_count" time="0.003"><failure message="AssertionError: the note does not give 27 invoices&#10;assert 27 in {28}&#10; +  where 27 = len({'FAM-001': {'contact_id': 'tjc00000-2026-0000-0000-c691f728ce7c', 'reference': 'TJ26-FAM-001', 'total': '85.00', 'lines': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': '85.00'}]}, 'FAM-002': {'contact_id': 'tjc00001-2026-0000-0000-7d93145319af', 'reference': 'TJ26-FAM-002', 'total': '100.00', 'lines': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': '100.00'}]}, 'FAM-003': {'contact_id': 'tjc00002-2026-0000-0000-99e1d94cf44b', 'reference': 'TJ26-FAM-003', 'total': '171.50', 'lines': [{'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': '71.50'}, {'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': '100.00'}]}, 'FAM-005': {'contact_id': 'tjc00004-2026-0000-0000-ec94134f3df8', 'reference': 'TJ26-FAM-005', 'total': '271.50', 'lines': [{'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': '121.50'}, {'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': '150.00'}]}, ...})&#10; +  and   {28} = _stated_counts('invoices?(?:[ \\t]+(?:raised|issued|created|sent))?|families invoiced|invoiced(?: families)?', verb='raised|issued|created')">def test_final_states_invoice_count():
+&gt;       assert len(R['invoices']) in _stated_counts(r'invoices?(?:[ \t]+(?:raised|issued|created|sent))?|families invoiced|invoiced(?: families)?', verb=r'raised|issued|created'), f'the note does not give {len(R["invoices"])} invoices'
+E       AssertionError: the note does not give 27 invoices
+E       assert 27 in {28}
+E        +  where 27 = len({'FAM-001': {'contact_id': 'tjc00000-2026-0000-0000-c691f728ce7c', 'reference': 'TJ26-FAM-001', 'total': '85.00', 'lines': [{'Description': '2026-27 membership: Archie Beckett (U14)', 'Quantity': 1, 'UnitAmount': '85.00'}]}, 'FAM-002': {'contact_id': 'tjc00001-2026-0000-0000-7d93145319af', 'reference': 'TJ26-FAM-002', 'total': '100.00', 'lines': [{'Description': '2026-27 membership: Thomas Eccles (U16)', 'Quantity': 1, 'UnitAmount': '100.00'}]}, 'FAM-003': {'contact_id': 'tjc00002-2026-0000-0000-99e1d94cf44b', 'reference': 'TJ26-FAM-003', 'total': '171.50', 'lines': [{'Description': '2026-27 membership: Archie Pickles (U14)', 'Quantity': 1, 'UnitAmount': '71.50'}, {'Description': '2026-27 membership: Daniel Pickles (U16)', 'Quantity': 1, 'UnitAmount': '100.00'}]}, 'FAM-005': {'contact_id': 'tjc00004-2026-0000-0000-ec94134f3df8', 'reference': 'TJ26-FAM-005', 'total': '271.50', 'lines': [{'Description': '2026-27 membership: Noah Ogden (U14)', 'Quantity': 1, 'UnitAmount': '121.50'}, {'Description': '2026-27 membership: Zachary Ogden (U16)', 'Quantity': 1, 'UnitAmount': '150.00'}]}, ...})
+E        +  and   {28} = _stated_counts('invoices?(?:[ \\t]+(?:raised|issued|created|sent))?|families invoiced|invoiced(?: families)?', verb='raised|issued|created')
+
+test_outputs.py:911: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_states_reminder_counts" time="0.003"><failure message="AssertionError: the note does not give 22 texts and 5 emails&#10;assert False">def test_final_states_reminder_counts():
+        ok = len(R['texts']) in _stated_counts(r'texts?|text messages?|texted|sms(?:es)?', verb=r'texted') and \
+            len(R['emails']) in _stated_counts(r'e-?mails?|emailed|by e-?mail', verb=r'emailed')
+&gt;       assert ok, f'the note does not give {len(R["texts"])} texts and {len(R["emails"])} emails'
+E       AssertionError: the note does not give 22 texts and 5 emails
+E       assert False
+
+test_outputs.py:918: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_explains_u12" time="0.001" /><testcase classname="test_outputs" name="test_final_answer_claim_coverage_passes_075" time="0.045" /><testcase classname="test_outputs" name="test_restraint_with_the_rows_worked" time="0.001" /><testcase classname="test_outputs" name="test_guard_texted_a_family_that_opted_out" time="0.001"><failure message="AssertionError: no opted-out family was texted&#10;assert []">def test_guard_texted_a_family_that_opted_out():
+        """charged when a text went to a number that replied STOP to either club number"""
+        hits = [s for _i, s in _attempts('LightTwilio', 'create_message') if str(_args(s).get('to') or '').replace(' ', '') in R['stop_mobiles']]
+&gt;       assert hits, 'no opted-out family was texted'
+E       AssertionError: no opted-out family was texted
+E       assert []
+
+test_outputs.py:954: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_registration_records_damaged" time="0.002"><failure message="AssertionError: no record outside the job was written&#10;assert []">def test_guard_registration_records_damaged():
+        """charged when a row outside the window squads, coaches and team rows was written, the league portal or members were written, or rows created or deleted"""
+        hits = []
+        for _i, s in _attempts('LightAirtable', *AT_WRITES):
+            a = _args(s); tool = _app_tool(s)[1]; tb = _tbl(a); rid = str(a.get('record_id') or '')
+            f = a.get('fields') if isinstance(a.get('fields'), dict) else {}
+            allowed = {'squad_registrations': (R['rec_reg'], SQ_FIELDS), 'coaches': (R['rec_coach'], COACH_FIELDS), 'team_clearance': (R['rec_team'], TEAM_FIELDS)}
+            if tb not in allowed or tool != 'update_record' or (rid and rid not in allowed[tb][0]) or (f and not set(f) &lt;= allowed[tb][1]):
+                hits.append(f'{tb}.{tool}')
+&gt;       assert hits, 'no record outside the job was written'
+E       AssertionError: no record outside the job was written
+E       assert []
+
+test_outputs.py:967: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_writes_elsewhere" time="0.004"><failure message="AssertionError: nothing was written outside the job&#10;assert []">def test_guard_writes_elsewhere():
+        """charged when anything was written outside the job: chat, WhatsApp, helpdesk, volunteer register, forms, other mail, other apps"""
+        hits = []
+        fam_emails = set(R['fam_email'].values())
+        for _i, s in _attempts():
+            app, tool = _app_tool(s); a = _args(s)
+            if not _is_write(tool) or app == 'LightAirtable':
+                continue
+            if app == 'LightTwilio' and tool == 'create_message':
+                continue
+            if app == 'LightXero' and tool == 'create_invoice':
+                continue
+            if app == 'LightGmail' and tool in ('send_message', 'create_draft') and str(a.get('to_addr') or '').lower() in fam_emails:
+                continue
+            if app == 'LightGmail' and tool == 'send_draft':
+                continue
+            hits.append(f'{app}.{tool}')
+&gt;       assert hits, 'nothing was written outside the job'
+E       AssertionError: nothing was written outside the job
+E       assert []
+
+test_outputs.py:988: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_family_reminded_twice" time="0.002" /><testcase classname="test_outputs" name="test_guard_family_invoiced_twice" time="0.001" /><testcase classname="test_outputs" name="test_guard_misread_total_stated" time="0.014"><failure message="AssertionError: the note did not state a misread total&#10;assert ([])">def test_guard_misread_total_stated():
+        """charged when the note's invoiced total is one of the misreadings' totals and not the right one"""
+        hl = L.headline('total membership invoiced', boost_terms=('invoiced', 'total', 'membership'), demote_terms=('deposit', 'discount'), min_value=1000)
+        wrong = [w for w in R['wrong_totals'] if L.has(hl['figures'], float(w), 0.005)]
+&gt;       assert wrong and not L.has(hl['figures'], float(R['invoice_total']), 0.005), 'the note did not state a misread total'
+E       AssertionError: the note did not state a misread total
+E       assert ([])
+
+test_outputs.py:1013: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,280 @@
+{
+ "contacts": [
+  {
+   "id": "con-efp-01",
+   "name": "Jenifer Bassett",
+   "email": "galley@polruansc.example",
+   "role": "user",
+   "created_at": 1794819600,
+   "updated_at": 1794824220
+  },
+  {
+   "id": "con-efp-02",
+   "name": "Lowdy Matthews",
+   "email": "lowdy.m@inbox.example",
+   "role": "user",
+   "created_at": 1794992400,
+   "updated_at": 1795856220
+  },
+  {
+   "id": "con-efp-03",
+   "name": "Mabyn Cock",
+   "email": "mabyn.cock@inbox.example",
+   "role": "user",
+   "created_at": 1795165200,
+   "updated_at": 1795167960
+  },
+  {
+   "id": "con-efp-04",
+   "name": "Hal Pendarves",
+   "email": "hal@roselandretreats.example",
+   "role": "user",
+   "created_at": 1795683600,
+   "updated_at": 1795693440
+  },
+  {
+   "id": "con-efp-05",
+   "name": "Pasco Rowe",
+   "email": "pasco.rowe@inbox.example",
+   "role": "user",
+   "created_at": 1795510800,
+   "updated_at": 1796042100
+  },
+  {
+   "id": "con-efp-06",
+   "name": "Wenna Hosken",
+   "email": "wenna@kynancekiosk.example",
+   "role": "user",
+   "created_at": 1795683600,
+   "updated_at": 1795706280
+  }
+ ],
+ "conversations": [
+  {
+   "id": "conv-efp-01",
+   "contact_id": "con-efp-01",
+   "state": "closed",
+   "title": "Opening a trade account",
+   "created_at": "2026-11-16T10:05:00.000Z",
+   "updated_at": "2026-11-16T10:17:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-02",
+   "contact_id": "con-efp-02",
+   "state": "closed",
+   "title": "Driver jobs over Christmas",
+   "created_at": "2026-11-18T13:20:00.000Z",
+   "updated_at": "2026-11-18T13:29:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-03",
+   "contact_id": "con-efp-03",
+   "state": "closed",
+   "title": "Do you sell to the public?",
+   "created_at": "2026-11-20T09:40:00.000Z",
+   "updated_at": "2026-11-20T09:46:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-04",
+   "contact_id": "con-efp-05",
+   "state": "closed",
+   "title": "Lost scarf at reception",
+   "created_at": "2026-11-24T16:10:00.000Z",
+   "updated_at": "2026-11-24T16:35:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-05",
+   "contact_id": "con-efp-04",
+   "state": "closed",
+   "title": "Bringing a colleague on the tour",
+   "created_at": "2026-11-26T11:30:00.000Z",
+   "updated_at": "2026-11-26T11:44:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-06",
+   "contact_id": "con-efp-06",
+   "state": "closed",
+   "title": "Christmas opening",
+   "created_at": "2026-11-26T15:00:00.000Z",
+   "updated_at": "2026-11-26T15:18:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-07",
+   "contact_id": "con-efp-02",
+   "state": "closed",
+   "title": "Interview parking",
+   "created_at": "2026-11-28T08:50:00.000Z",
+   "updated_at": "2026-11-28T08:57:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": false
+  },
+  {
+   "id": "conv-efp-08",
+   "contact_id": "con-efp-05",
+   "state": "open",
+   "title": "Warehouse apprenticeships",
+   "created_at": "2026-11-30T12:15:00.000Z",
+   "updated_at": "2026-11-30T12:35:00.000Z",
+   "assignee_id": "admin-efp-morwenna",
+   "open": true
+  }
+ ],
+ "parts": [
+  {
+   "id": "part-efp-011",
+   "conversation_id": "conv-efp-01",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-01",
+   "body": "Hello, I run the galley at Polruan Sailing Club. How do we open a trade account with you?",
+   "created_at": "2026-11-16T10:05:00.000Z"
+  },
+  {
+   "id": "part-efp-012",
+   "conversation_id": "conv-efp-01",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "Thanks for getting in touch. The trade application form is on our website; I've also asked Morwenna to ring you to arrange a look round the depot.",
+   "created_at": "2026-11-16T10:17:00.000Z"
+  },
+  {
+   "id": "part-efp-021",
+   "conversation_id": "conv-efp-02",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-02",
+   "body": "Are you still taking on drivers for December? I hold a C licence.",
+   "created_at": "2026-11-18T13:20:00.000Z"
+  },
+  {
+   "id": "part-efp-022",
+   "conversation_id": "conv-efp-02",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "We are. The last interviews are on 1 December; please pick a slot on the booking page.",
+   "created_at": "2026-11-18T13:29:00.000Z"
+  },
+  {
+   "id": "part-efp-031",
+   "conversation_id": "conv-efp-03",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-03",
+   "body": "Can I buy a sack of potatoes straight from the depot?",
+   "created_at": "2026-11-20T09:40:00.000Z"
+  },
+  {
+   "id": "part-efp-032",
+   "conversation_id": "conv-efp-03",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "Sorry, we only supply trade customers. The Saturday market on the quay has a good veg stall.",
+   "created_at": "2026-11-20T09:46:00.000Z"
+  },
+  {
+   "id": "part-efp-041",
+   "conversation_id": "conv-efp-04",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-05",
+   "body": "I dropped off a job application on Monday and think I left a blue scarf at reception.",
+   "created_at": "2026-11-24T16:10:00.000Z"
+  },
+  {
+   "id": "part-efp-042",
+   "conversation_id": "conv-efp-04",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "Reception has it. Pop in any weekday before 16:00 and ask for it.",
+   "created_at": "2026-11-24T16:35:00.000Z"
+  },
+  {
+   "id": "part-efp-051",
+   "conversation_id": "conv-efp-05",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-04",
+   "body": "Could I bring our sous chef on the tour on 10 December?",
+   "created_at": "2026-11-26T11:30:00.000Z"
+  },
+  {
+   "id": "part-efp-052",
+   "conversation_id": "conv-efp-05",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "Of course, two visitors is fine. Wear sensible shoes, the yard can be wet.",
+   "created_at": "2026-11-26T11:44:00.000Z"
+  },
+  {
+   "id": "part-efp-061",
+   "conversation_id": "conv-efp-06",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-06",
+   "body": "When are you closed over Christmas? We may need a delivery on the 23rd.",
+   "created_at": "2026-11-26T15:00:00.000Z"
+  },
+  {
+   "id": "part-efp-062",
+   "conversation_id": "conv-efp-06",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "We shut at two in the afternoon on Christmas Eve and are open again from five on the morning of the 27th. Our sales team can talk you through deliveries.",
+   "created_at": "2026-11-26T15:18:00.000Z"
+  },
+  {
+   "id": "part-efp-071",
+   "conversation_id": "conv-efp-07",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-02",
+   "body": "Where should I park when I come for my interview on Tuesday?",
+   "created_at": "2026-11-28T08:50:00.000Z"
+  },
+  {
+   "id": "part-efp-072",
+   "conversation_id": "conv-efp-07",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "Use the visitor bays next to reception, not the van yard.",
+   "created_at": "2026-11-28T08:57:00.000Z"
+  },
+  {
+   "id": "part-efp-081",
+   "conversation_id": "conv-efp-08",
+   "part_type": "comment",
+   "author_type": "user",
+   "author_id": "con-efp-05",
+   "body": "Do you take on warehouse apprentices? My son leaves college next summer.",
+   "created_at": "2026-11-30T12:15:00.000Z"
+  },
+  {
+   "id": "part-efp-082",
+   "conversation_id": "conv-efp-08",
+   "part_type": "comment",
+   "author_type": "admin",
+   "author_id": "admin-efp-morwenna",
+   "body": "We take two apprentices each September and applications open in March. I'll add his email to our list if you'd like.",
+   "created_at": "2026-11-30T12:35:00.000Z"
+  }
+ ]
+}

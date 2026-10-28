@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quayside depot allocation, Wednesday 9 December 2026</title>
+<style>
+ :root { --ink:#1b2430; --rule:#d6dce4; --pos:#2e7d32; --neg:#b3261e; --start:#27496d; }
+ body { font-family: "Segoe UI", Arial, Helvetica, sans-serif; margin:0;
+         color:var(--ink); background:#f6f8fa; }
+ header { background:#fff; border-bottom:3px solid var(--start); padding:26px 32px; }
+ h1 { font-size:19px; margin:0 0 14px; font-weight:600; letter-spacing:.02em; }
+ .headline { display:flex; flex-wrap:wrap; align-items:flex-end; gap:46px; }
+ .big { font-size:72px; line-height:1; font-weight:700; color:var(--start); }
+ .big small { font-size:28px; font-weight:600; }
+ .cap { font-size:13px; text-transform:uppercase; letter-spacing:.09em;
+         color:#5a6676; margin-bottom:6px; }
+ .count { font-size:46px; line-height:1; font-weight:700; }
+ .count.no { color:var(--neg); }
+ main { padding:26px 32px 60px; }
+ section { background:#fff; border:1px solid var(--rule); border-radius:6px;
+            padding:20px 24px; margin-bottom:26px; }
+ h2 { font-size:15px; margin:0 0 6px; text-transform:uppercase;
+       letter-spacing:.07em; color:#36455a; }
+ p.note { font-size:13px; color:#5a6676; margin:0 0 14px; }
+ .chart { width:100%; height:auto; }
+ .grid { stroke:#e7ebf0; stroke-width:1; }
+ .ax { font-size:11px; fill:#5a6676; }
+ .val { font-size:11px; fill:#1b2430; font-weight:600; }
+ .run { font-size:11px; fill:#27496d; font-weight:700; }
+ .bar.start { fill:var(--start); } .bar.pos { fill:var(--pos); }
+ .bar.neg { fill:var(--neg); }
+ .clsA { fill:#27496d; } .clsB { fill:#3d6e9c; }
+ .clsC { fill:#6e9bc5; } .clsD { fill:#a9c3dc; }
+ .tools { display:flex; gap:12px; align-items:center; margin-bottom:12px; }
+ input[type=search] { padding:7px 10px; border:1px solid var(--rule);
+   border-radius:4px; font-size:13px; width:330px; }
+ table { border-collapse:collapse; width:100%; font-size:12.5px; }
+ th, td { border-bottom:1px solid var(--rule); padding:6px 8px;
+           text-align:left; vertical-align:top; }
+ th { background:#eef2f6; cursor:pointer; user-select:none;
+       position:sticky; top:0; white-space:nowrap; }
+ th::after { content:" \2195"; color:#8a97a8; font-size:10px; }
+ td.num { text-align:right; font-variant-numeric:tabular-nums; }
+ tbody tr:nth-child(even) { background:#fafbfc; }
+ .wrap { max-height:620px; overflow:auto; border:1px solid var(--rule); }
+ .meta { font-size:12.5px; color:#5a6676; }
+</style>
+</head>
+<body>
+<header>
+ <h1>Quayside depot &mdash; allocation for delivery Wednesday 9 December 2026</h1>
+ <div class="headline">
+  <div>
+   <div class="cap">Total invoice value after discounts</div>
+   <div class="big"><small>&pound;</small>1918.58</div>
+  </div>
+  <div>
+   <div class="cap">Accounts delivered to</div>
+   <div class="count">22</div>
+  </div>
+  <div>
+   <div class="cap">Accounts not delivered to</div>
+   <div class="count no">4</div>
+  </div>
+ </div>
+</header>
+<main>
+<section>
+ <h2>Bridge from the order book to the invoice</h2>
+ <p class="note">Order lines as they stood at the 06:00 cut-off on 8 December,
+  priced at PL-12 second issue, through to the total after contract discounts.
+  Figures in pounds.</p>
+ <svg viewBox="0 0 1000 420" class="chart" role="img" aria-label="Bridge from ordered value to invoice value">
+<line x1="70" y1="270.0" x2="980" y2="270.0" class="grid"/>
+<text x="62" y="274.0" class="ax" text-anchor="end">0</text>
+<line x1="70" y1="222.0" x2="980" y2="222.0" class="grid"/>
+<text x="62" y="226.0" class="ax" text-anchor="end">537</text>
+<line x1="70" y1="174.0" x2="980" y2="174.0" class="grid"/>
+<text x="62" y="178.0" class="ax" text-anchor="end">1073</text>
+<line x1="70" y1="126.0" x2="980" y2="126.0" class="grid"/>
+<text x="62" y="130.0" class="ax" text-anchor="end">1610</text>
+<line x1="70" y1="78.0" x2="980" y2="78.0" class="grid"/>
+<text x="62" y="82.0" class="ax" text-anchor="end">2147</text>
+<line x1="70" y1="30.0" x2="980" y2="30.0" class="grid"/>
+<text x="62" y="34.0" class="ax" text-anchor="end">2684</text>
+<rect x="80.0" y="30.0" width="132.0" height="240.0" class="bar start"><title>Order lines at the 06:00 cut-off, at PL-12 second issue: 2683.55 (running 2683.55)</title></rect>
+<text x="146.0" y="24.0" class="val" text-anchor="middle">2683.55</text>
+<text x="146.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="146.0" dy="0">Order lines at the</tspan>
+<tspan x="146.0" dy="12">06:00 cut-off, at</tspan>
+<tspan x="146.0" dy="12">PL-12 second issue</tspan>
+</text>
+<text x="146.0" y="360.0" class="run" text-anchor="middle">= 2683.55</text>
+<rect x="230.0" y="30.0" width="132.0" height="6.7" class="bar neg"><title>Less accounts not delivered: credit stop: -75.45 (running 2608.10)</title></rect>
+<text x="296.0" y="24.0" class="val" text-anchor="middle">-75.45</text>
+<text x="296.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="296.0" dy="0">Less accounts not</tspan>
+<tspan x="296.0" dy="12">delivered: credit</tspan>
+<tspan x="296.0" dy="12">stop</tspan>
+</text>
+<text x="296.0" y="360.0" class="run" text-anchor="middle">= 2608.10</text>
+<rect x="380.0" y="36.7" width="132.0" height="30.8" class="bar neg"><title>Less accounts not delivered: below minimum drop: -343.95 (running 2264.15)</title></rect>
+<text x="446.0" y="30.7" class="val" text-anchor="middle">-343.95</text>
+<text x="446.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="446.0" dy="0">Less accounts not</tspan>
+<tspan x="446.0" dy="12">delivered: below</tspan>
+<tspan x="446.0" dy="12">minimum drop</tspan>
+</text>
+<text x="446.0" y="360.0" class="run" text-anchor="middle">= 2264.15</text>
+<rect x="530.0" y="67.5" width="132.0" height="44.6" class="bar neg"><title>Less cases the stock could not cover: -498.85 (running 1765.30)</title></rect>
+<text x="596.0" y="61.5" class="val" text-anchor="middle">-498.85</text>
+<text x="596.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="596.0" dy="0">Less cases the stock</tspan>
+<tspan x="596.0" dy="12">could not cover</tspan>
+</text>
+<text x="596.0" y="360.0" class="run" text-anchor="middle">= 1765.30</text>
+<rect x="680.0" y="93.4" width="132.0" height="18.7" class="bar pos"><title>Plus substitutes at the price charged: 209.40 (running 1974.70)</title></rect>
+<text x="746.0" y="87.4" class="val" text-anchor="middle">209.40</text>
+<text x="746.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="746.0" dy="0">Plus substitutes at</tspan>
+<tspan x="746.0" dy="12">the price charged</tspan>
+</text>
+<text x="746.0" y="360.0" class="run" text-anchor="middle">= 1974.70</text>
+<rect x="830.0" y="93.4" width="132.0" height="5.0" class="bar neg"><title>Less contract discounts (class A 6%, class B 4%): -56.12 (running 1918.58)</title></rect>
+<text x="896.0" y="87.4" class="val" text-anchor="middle">-56.12</text>
+<text x="896.0" y="286.0" class="ax" text-anchor="middle">
+<tspan x="896.0" dy="0">Less contract</tspan>
+<tspan x="896.0" dy="12">discounts (class A</tspan>
+<tspan x="896.0" dy="12">6%, class B 4%)</tspan>
+</text>
+<text x="896.0" y="360.0" class="run" text-anchor="middle">= 1918.58</text>
+</svg>
+ <table style="margin-top:14px">
+  <thead><tr><th>Step</th><th>Amount</th><th>Running total</th><th>Lines or accounts behind it</th></tr></thead>
+  <tbody>
+  <tr><td>Order lines at the 06:00 cut-off, at PL-12 second issue</td><td class=num>2683.55</td><td class=num>2683.55</td><td>72 order lines in the order book for 2026-12-09 plus the line EF-2204 added by mail, less the line EF-2103 cancelled; priced at the price list before discount</td></tr><tr><td>Less accounts not delivered: credit stop</td><td class=num>-75.45</td><td class=num>2608.10</td><td>EF-2405 Corner Basket (QO-40258, QO-40259)</td></tr><tr><td>Less accounts not delivered: below minimum drop</td><td class=num>-343.95</td><td class=num>2264.15</td><td>EF-2401 Pascoe&#x27;s Greengrocer, EF-2404 Treloar Grocers, EF-2406 Harbourside Mini-Mart</td></tr><tr><td>Less cases the stock could not cover</td><td class=num>-498.85</td><td class=num>1765.30</td><td>short and nil lines across P-11, P-12, P-14, P-15</td></tr><tr><td>Plus substitutes at the price charged</td><td class=num>209.40</td><td class=num>1974.70</td><td>9 substitute supplies: P-18 for P-11, P-13 for P-12</td></tr><tr><td>Less contract discounts (class A 6%, class B 4%)</td><td class=num>-56.12</td><td class=num>1918.58</td><td>PL-12 second issue, section 2</td></tr>
+  </tbody>
+ </table>
+</section>
+<section>
+ <h2>Invoice value by contract class</h2>
+ <p class="note">Class A takes 6% and class B 4% off every line; classes C and D
+  take nothing (PL-12 second issue, section 2).</p>
+ <svg viewBox="0 0 620 300" class="chart" role="img" aria-label="Invoice value by contract class">
+<line x1="70" y1="240.0" x2="600" y2="240.0" class="grid"/>
+<text x="62" y="244.0" class="ax" text-anchor="end">0</text>
+<line x1="70" y1="196.0" x2="600" y2="196.0" class="grid"/>
+<text x="62" y="200.0" class="ax" text-anchor="end">142</text>
+<line x1="70" y1="152.0" x2="600" y2="152.0" class="grid"/>
+<text x="62" y="156.0" class="ax" text-anchor="end">283</text>
+<line x1="70" y1="108.0" x2="600" y2="108.0" class="grid"/>
+<text x="62" y="112.0" class="ax" text-anchor="end">425</text>
+<line x1="70" y1="64.0" x2="600" y2="64.0" class="grid"/>
+<text x="62" y="68.0" class="ax" text-anchor="end">566</text>
+<line x1="70" y1="20.0" x2="600" y2="20.0" class="grid"/>
+<text x="62" y="24.0" class="ax" text-anchor="end">708</text>
+<rect x="90.0" y="91.2" width="97.5" height="148.8" class="bar clsA"><title>Class A: 478.61</title></rect>
+<text x="138.8" y="85.2" class="val" text-anchor="middle">478.61</text>
+<text x="138.8" y="260.0" class="ax" text-anchor="middle">Class A</text>
+<rect x="217.5" y="49.2" width="97.5" height="190.8" class="bar clsB"><title>Class B: 613.77</title></rect>
+<text x="266.2" y="43.2" class="val" text-anchor="middle">613.77</text>
+<text x="266.2" y="260.0" class="ax" text-anchor="middle">Class B</text>
+<rect x="345.0" y="20.0" width="97.5" height="220.0" class="bar clsC"><title>Class C: 707.80</title></rect>
+<text x="393.8" y="14.0" class="val" text-anchor="middle">707.80</text>
+<text x="393.8" y="260.0" class="ax" text-anchor="middle">Class C</text>
+<rect x="472.5" y="203.2" width="97.5" height="36.8" class="bar clsD"><title>Class D: 118.40</title></rect>
+<text x="521.2" y="197.2" class="val" text-anchor="middle">118.40</text>
+<text x="521.2" y="260.0" class="ax" text-anchor="middle">Class D</text>
+</svg>
+</section>
+<section>
+ <h2>Allocation register &mdash; every line</h2>
+ <p class="note">82 register lines. Click any heading to sort; type in the
+  box to filter.</p>
+ <div class="tools">
+  <input type="search" id="q" placeholder="Filter on any word, e.g. EF-2304 or Withdrawn">
+  <span class="meta" id="shown"></span>
+ </div>
+ <div class="wrap">
+ <table id="reg">
+  <thead><tr>
+   <th>Account</th><th>Class</th><th>Product</th><th>Ordered</th>
+   <th>Allocated</th><th>Heading</th><th>Rule that decided it</th><th>Value</th>
+  </tr></thead>
+  <tbody>
+<tr><td>EF-2401 Pascoe&#x27;s Greengrocer</td><td>D</td><td>P-11 Vine tomatoes</td><td class=num>6</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2401 Pascoe&#x27;s Greengrocer</td><td>D</td><td>P-12 Iceberg lettuce</td><td class=num>4</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2401 Pascoe&#x27;s Greengrocer</td><td>D</td><td>P-16 Clementines</td><td class=num>4</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2101 Brackenmoor Community Hospital kitchen</td><td>A</td><td>P-11 Vine tomatoes</td><td class=num>6</td><td class=num>6</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>81.22</td></tr>
+<tr><td>EF-2101 Brackenmoor Community Hospital kitchen</td><td>A</td><td>P-12 Iceberg lettuce</td><td class=num>7</td><td class=num>7</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>63.17</td></tr>
+<tr><td>EF-2101 Brackenmoor Community Hospital kitchen</td><td>A</td><td>P-16 Clementines</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>51.70</td></tr>
+<tr><td>EF-2102 Ashlyn House Care Home</td><td>A</td><td>P-11 Vine tomatoes</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>54.14</td></tr>
+<tr><td>EF-2102 Ashlyn House Care Home</td><td>A</td><td>P-14 Leeks</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>23.55</td></tr>
+<tr><td>EF-2102 Ashlyn House Care Home</td><td>A</td><td>P-15 Chestnut mushrooms</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>21.43</td></tr>
+<tr><td>EF-2301 The Harbour Kitchen</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>4</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>14.40</td></tr>
+<tr><td>EF-2301 The Harbour Kitchen</td><td>C</td><td>P-12 Iceberg lettuce</td><td class=num>3</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class C (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2301 The Harbour Kitchen</td><td>C</td><td>P-14 Leeks</td><td class=num>2</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>8.35</td></tr>
+<tr><td>EF-2202 Ellisford Academy</td><td>B</td><td>P-12 Iceberg lettuce</td><td class=num>3</td><td class=num>2</td><td>Allocated in part</td><td>class B share of the cases left (clause 3)</td><td class=num>18.43</td></tr>
+<tr><td>EF-2202 Ellisford Academy</td><td>B</td><td>P-15 Chestnut mushrooms</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>43.78</td></tr>
+<tr><td>EF-2202 Ellisford Academy</td><td>B</td><td>P-16 Clementines</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>52.80</td></tr>
+<tr><td>EF-2302 Ristorante Valli</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>6</td><td class=num>2</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>28.80</td></tr>
+<tr><td>EF-2302 Ristorante Valli</td><td>C</td><td>P-15 Chestnut mushrooms</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>34.20</td></tr>
+<tr><td>EF-2302 Ristorante Valli</td><td>C</td><td>P-17 Tenderstem broccoli</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>34.40</td></tr>
+<tr><td>EF-2104 Tregellas Lodge Nursing Home</td><td>A</td><td>P-11 Vine tomatoes</td><td class=num>5</td><td class=num>5</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>67.68</td></tr>
+<tr><td>EF-2104 Tregellas Lodge Nursing Home</td><td>A</td><td>P-12 Iceberg lettuce</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>27.07</td></tr>
+<tr><td>EF-2104 Tregellas Lodge Nursing Home</td><td>A</td><td>P-14 Leeks</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>15.70</td></tr>
+<tr><td>EF-2306 Fig and Fennel Deli</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>7</td><td class=num>3</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>43.20</td></tr>
+<tr><td>EF-2306 Fig and Fennel Deli</td><td>C</td><td>P-13 Cos lettuce</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>33.75</td></tr>
+<tr><td>EF-2103 St Brannoc&#x27;s Care Home</td><td>A</td><td>P-11 Vine tomatoes</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>40.61</td></tr>
+<tr><td>EF-2103 St Brannoc&#x27;s Care Home</td><td>A</td><td>P-16 Clementines</td><td class=num>5</td><td class=num>0</td><td>Cancelled by customer</td><td>cancelled in writing before the cut-off (clause 1)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2103 St Brannoc&#x27;s Care Home</td><td>A</td><td>P-17 Tenderstem broccoli</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class A covered in full (clause 3)</td><td class=num>32.34</td></tr>
+<tr><td>EF-2305 Saltings Brasserie</td><td>B</td><td>P-11 Vine tomatoes</td><td class=num>5</td><td class=num>5</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>69.12</td></tr>
+<tr><td>EF-2305 Saltings Brasserie</td><td>B</td><td>P-12 Iceberg lettuce</td><td class=num>3</td><td class=num>2</td><td>Allocated in part</td><td>class B share of the cases left (clause 3)</td><td class=num>18.43</td></tr>
+<tr><td>EF-2305 Saltings Brasserie</td><td>B</td><td>P-16 Clementines</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>39.60</td></tr>
+<tr><td>EF-2201 Penhallow Primary School</td><td>B</td><td>P-11 Vine tomatoes</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>41.47</td></tr>
+<tr><td>EF-2201 Penhallow Primary School</td><td>B</td><td>P-12 Iceberg lettuce</td><td class=num>4</td><td class=num>3</td><td>Allocated in part</td><td>class B share of the cases left (clause 3)</td><td class=num>27.65</td></tr>
+<tr><td>EF-2201 Penhallow Primary School</td><td>B</td><td>P-14 Leeks</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>16.03</td></tr>
+<tr><td>EF-2403 Quay Market stall 7</td><td>D</td><td>P-11 Vine tomatoes</td><td class=num>4</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class D (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2403 Quay Market stall 7</td><td>D</td><td>P-14 Leeks</td><td class=num>2</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class D (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2403 Quay Market stall 7</td><td>D</td><td>P-18 Salad tomatoes</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class D covered in full (clause 3)</td><td class=num>30.60</td></tr>
+<tr><td>EF-2204 St Keverne Primary School</td><td>B</td><td>P-15 Chestnut mushrooms</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>21.89</td></tr>
+<tr><td>EF-2204 St Keverne Primary School</td><td>B</td><td>P-16 Clementines</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>39.60</td></tr>
+<tr><td>EF-2204 St Keverne Primary School</td><td>B</td><td>P-14 Leeks</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>32.06</td></tr>
+<tr><td>EF-2303 Copper Kettle Tearooms</td><td>C</td><td>P-12 Iceberg lettuce</td><td class=num>2</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class C (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2303 Copper Kettle Tearooms</td><td>C</td><td>P-16 Clementines</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>27.50</td></tr>
+<tr><td>EF-2303 Copper Kettle Tearooms</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>30.60</td></tr>
+<tr><td>EF-2309 Wrecker&#x27;s Arms</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>2</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>14.40</td></tr>
+<tr><td>EF-2309 Wrecker&#x27;s Arms</td><td>C</td><td>P-12 Iceberg lettuce</td><td class=num>2</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class C (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2309 Wrecker&#x27;s Arms</td><td>C</td><td>P-16 Clementines</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>27.50</td></tr>
+<tr><td>EF-2402 Ellisford Farm Shop</td><td>D</td><td>P-12 Iceberg lettuce</td><td class=num>3</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class D (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2402 Ellisford Farm Shop</td><td>D</td><td>P-15 Chestnut mushrooms</td><td class=num>4</td><td class=num>2</td><td>Allocated in part</td><td>class D share of the cases left (clause 3)</td><td class=num>22.80</td></tr>
+<tr><td>EF-2402 Ellisford Farm Shop</td><td>D</td><td>P-17 Tenderstem broccoli</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class D covered in full (clause 3)</td><td class=num>34.40</td></tr>
+<tr><td>EF-2203 County Hall staff restaurant</td><td>B</td><td>P-11 Vine tomatoes</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>27.65</td></tr>
+<tr><td>EF-2203 County Hall staff restaurant</td><td>B</td><td>P-13 Cos lettuce</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>32.40</td></tr>
+<tr><td>EF-2203 County Hall staff restaurant</td><td>B</td><td>P-18 Salad tomatoes</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>19.58</td></tr>
+<tr><td>EF-2206 Quayside Day Nursery</td><td>B</td><td>P-12 Iceberg lettuce</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>18.43</td></tr>
+<tr><td>EF-2206 Quayside Day Nursery</td><td>B</td><td>P-17 Tenderstem broccoli</td><td class=num>4</td><td class=num>4</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>66.05</td></tr>
+<tr><td>EF-2405 Corner Basket</td><td>D</td><td>P-15 Chestnut mushrooms</td><td class=num>3</td><td class=num>0</td><td>Held - credit stop</td><td>account on credit stop at the cut-off (clause 1)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2405 Corner Basket</td><td>D</td><td>P-16 Clementines</td><td class=num>3</td><td class=num>0</td><td>Held - credit stop</td><td>account on credit stop at the cut-off (clause 1)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2308 The Lantern Cafe</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>2</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>14.40</td></tr>
+<tr><td>EF-2308 The Lantern Cafe</td><td>C</td><td>P-17 Tenderstem broccoli</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>51.60</td></tr>
+<tr><td>EF-2310 Old Custom House Bistro</td><td>C</td><td>P-14 Leeks</td><td class=num>3</td><td class=num>2</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>16.70</td></tr>
+<tr><td>EF-2310 Old Custom House Bistro</td><td>C</td><td>P-15 Chestnut mushrooms</td><td class=num>1</td><td class=num>1</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>11.40</td></tr>
+<tr><td>EF-2310 Old Custom House Bistro</td><td>C</td><td>P-16 Clementines</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>27.50</td></tr>
+<tr><td>EF-2307 Gull Street Fish Bar</td><td>C</td><td>P-12 Iceberg lettuce</td><td class=num>2</td><td class=num>0</td><td>Nil - stock exhausted</td><td>no cases left for class C (clause 3)</td><td class=num>0.00</td></tr>
+<tr><td>EF-2307 Gull Street Fish Bar</td><td>C</td><td>P-14 Leeks</td><td class=num>2</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>8.35</td></tr>
+<tr><td>EF-2307 Gull Street Fish Bar</td><td>C</td><td>P-15 Chestnut mushrooms</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>34.20</td></tr>
+<tr><td>EF-2307 Gull Street Fish Bar</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>20.40</td></tr>
+<tr><td>EF-2304 Mariner&#x27;s Rest Inn</td><td>C</td><td>P-11 Vine tomatoes</td><td class=num>3</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>14.40</td></tr>
+<tr><td>EF-2304 Mariner&#x27;s Rest Inn</td><td>C</td><td>P-14 Leeks</td><td class=num>3</td><td class=num>1</td><td>Allocated in part</td><td>class C share of the cases left (clause 3)</td><td class=num>8.35</td></tr>
+<tr><td>EF-2304 Mariner&#x27;s Rest Inn</td><td>C</td><td>P-15 Chestnut mushrooms</td><td class=num>3</td><td class=num>3</td><td>Allocated in full</td><td>class C covered in full (clause 3)</td><td class=num>34.20</td></tr>
+<tr><td>EF-2404 Treloar Grocers</td><td>D</td><td>P-11 Vine tomatoes</td><td class=num>3</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2404 Treloar Grocers</td><td>D</td><td>P-12 Iceberg lettuce</td><td class=num>2</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2404 Treloar Grocers</td><td>D</td><td>P-14 Leeks</td><td class=num>3</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2205 Ellisford Leisure Centre cafe</td><td>B</td><td>P-18 Salad tomatoes</td><td class=num>2</td><td class=num>2</td><td>Allocated in full</td><td>class B covered in full (clause 3)</td><td class=num>19.58</td></tr>
+<tr><td>EF-2406 Harbourside Mini-Mart</td><td>D</td><td>P-11 Vine tomatoes</td><td class=num>2</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2406 Harbourside Mini-Mart</td><td>D</td><td>P-16 Clementines</td><td class=num>2</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2406 Harbourside Mini-Mart</td><td>D</td><td>P-18 Salad tomatoes</td><td class=num>2</td><td class=num>0</td><td>Withdrawn - below minimum drop</td><td>account withdrawn under clause 5 and Appendix B</td><td class=num>0.00</td></tr>
+<tr><td>EF-2201 Penhallow Primary School</td><td>B</td><td>P-13 Cos lettuce</td><td class=num>0</td><td class=num>1</td><td>Substitute supplied</td><td>substitute for P-12 under clause 4, charged at the lower of the two prices</td><td class=num>9.22</td></tr>
+<tr><td>EF-2301 The Harbour Kitchen</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>0</td><td class=num>3</td><td>Substitute supplied</td><td>substitute for P-11 under clause 4, charged at the lower of the two prices</td><td class=num>30.60</td></tr>
+<tr><td>EF-2301 The Harbour Kitchen</td><td>C</td><td>P-13 Cos lettuce</td><td class=num>0</td><td class=num>3</td><td>Substitute supplied</td><td>substitute for P-12 under clause 4, charged at the lower of the two prices</td><td class=num>28.80</td></tr>
+<tr><td>EF-2306 Fig and Fennel Deli</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>0</td><td class=num>4</td><td>Substitute supplied</td><td>substitute for P-11 under clause 4, charged at the lower of the two prices</td><td class=num>40.80</td></tr>
+<tr><td>EF-2303 Copper Kettle Tearooms</td><td>C</td><td>P-13 Cos lettuce</td><td class=num>0</td><td class=num>2</td><td>Substitute supplied</td><td>substitute for P-12 under clause 4, charged at the lower of the two prices</td><td class=num>19.20</td></tr>
+<tr><td>EF-2309 Wrecker&#x27;s Arms</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>0</td><td class=num>1</td><td>Substitute supplied</td><td>substitute for P-11 under clause 4, charged at the lower of the two prices</td><td class=num>10.20</td></tr>
+<tr><td>EF-2309 Wrecker&#x27;s Arms</td><td>C</td><td>P-13 Cos lettuce</td><td class=num>0</td><td class=num>2</td><td>Substitute supplied</td><td>substitute for P-12 under clause 4, charged at the lower of the two prices</td><td class=num>19.20</td></tr>
+<tr><td>EF-2304 Mariner&#x27;s Rest Inn</td><td>C</td><td>P-18 Salad tomatoes</td><td class=num>0</td><td class=num>2</td><td>Substitute supplied</td><td>substitute for P-11 under clause 4, charged at the lower of the two prices</td><td class=num>20.40</td></tr>
+<tr><td>EF-2403 Quay Market stall 7</td><td>D</td><td>P-18 Salad tomatoes</td><td class=num>0</td><td class=num>3</td><td>Substitute supplied</td><td>substitute for P-11 under clause 4, charged at the lower of the two prices</td><td class=num>30.60</td></tr>
+  </tbody>
+ </table>
+ </div>
+</section>
+<section class="meta">
+ <h2>Authority</h2>
+ <p>TT-4 Allocation terms for short supply, third edition (in force for every
+ delivery day on or after 23 November 2026). PL-12 Trade price list, second issue
+ (applies to every delivery on or after 30 November 2026); corrigendum 1
+ commences 4 January 2027 and does not reach this delivery.</p>
+</section>
+</main>
+<script>
+(function () {
+  var table = document.getElementById('reg');
+  var tbody = table.tBodies[0];
+  var all = Array.prototype.slice.call(tbody.rows);
+  var shown = document.getElementById('shown');
+  var dir = {};
+  function count(n) { shown.textContent = n + ' of ' + all.length + ' lines shown'; }
+  count(all.length);
+  Array.prototype.forEach.call(table.tHead.rows[0].cells, function (th, i) {
+    th.addEventListener('click', function () {
+      dir[i] = !dir[i];
+      var rows = Array.prototype.slice.call(tbody.rows);
+      rows.sort(function (a, b) {
+        var x = a.cells[i].textContent.trim(), y = b.cells[i].textContent.trim();
+        var nx = parseFloat(x), ny = parseFloat(y);
+        var c = (!isNaN(nx) && !isNaN(ny) && x !== '' && y !== '')
+                ? nx - ny : x.localeCompare(y);
+        return dir[i] ? c : -c;
+      });
+      rows.forEach(function (r) { tbody.appendChild(r); });
+    });
+  });
+  document.getElementById('q').addEventListener('input', function (e) {
+    var q = e.target.value.toLowerCase(), n = 0;
+    all.forEach(function (r) {
+      var hit = r.textContent.toLowerCase().indexOf(q) !== -1;
+      r.style.display = hit ? '' : 'none';
+      if (hit) { n++; }
+    });
+    count(n);
+  });
+})();
+</script>
+</body>
+</html>

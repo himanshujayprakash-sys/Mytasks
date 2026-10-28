@@ -1,0 +1,167 @@
+{
+ "sent_log": [
+  {
+   "message_id": "msg-wxfbefc5",
+   "to_email": "anil.chandra@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Your park event booking is confirmed",
+   "template_id": "d-52c9e952f8b9a60e",
+   "status": "opened",
+   "opens": 3,
+   "clicks": 1,
+   "sent_at": "2026-08-26T11:40:00Z"
+  },
+  {
+   "message_id": "msg-wx92ba3f",
+   "to_email": "patrick.moyle@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Your park event booking is confirmed",
+   "template_id": "d-52c9e952f8b9a60e",
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-09-08T12:15:00Z"
+  },
+  {
+   "message_id": "msg-wxdc693e",
+   "to_email": "s.lavington@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "We have received your bandstand request",
+   "template_id": "d-b4370a357e139cab",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-09-11T13:40:00Z"
+  },
+  {
+   "message_id": "msg-wxaed793",
+   "to_email": "bev.truscott@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Christmas market pitch plan",
+   "template_id": "d-2f00a5369dfd1732",
+   "status": "opened",
+   "opens": 5,
+   "clicks": 3,
+   "sent_at": "2026-09-18T09:50:00Z"
+  },
+  {
+   "message_id": "msg-wxa1cade",
+   "to_email": "callum.burt@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Thanks for volunteering with Friends of Riverside Park",
+   "template_id": "d-374c80674eff66bc",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 2,
+   "sent_at": "2026-10-02T15:20:00Z"
+  },
+  {
+   "message_id": "msg-wxcd1992",
+   "to_email": "pauline.hext@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Your tree enquiry has been logged",
+   "template_id": "d-0fb5eabfbb6f15a1",
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-10-09T13:45:00Z"
+  },
+  {
+   "message_id": "msg-wx91495e",
+   "to_email": "g.farrant@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Your tree enquiry has been logged",
+   "template_id": "d-0fb5eabfbb6f15a1",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-10-23T16:20:00Z"
+  },
+  {
+   "message_id": "msg-wxc0dc39",
+   "to_email": "maureen.pike@post.example",
+   "from_email": "parks.bookings@wexcombe.gov.example",
+   "subject": "Memorial bench: next steps",
+   "template_id": "d-6845c12fec51889e",
+   "status": "opened",
+   "opens": 3,
+   "clicks": 1,
+   "sent_at": "2026-10-26T13:10:00Z"
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-wxf5eb4",
+   "email": "anil.chandra@post.example",
+   "first_name": "Anil",
+   "last_name": "Chandra",
+   "country": "GB",
+   "list_ids": [
+    "list-wxa73d98"
+   ],
+   "created_at": "2026-08-25T12:45:00Z",
+   "updated_at": "2026-09-23T12:51:00Z"
+  },
+  {
+   "id": "contact-wx008e7",
+   "email": "patrick.moyle@post.example",
+   "first_name": "Patrick",
+   "last_name": "Moyle",
+   "country": "GB",
+   "list_ids": [
+    "list-wxa73d98"
+   ],
+   "created_at": "2026-09-01T13:00:00Z",
+   "updated_at": "2026-09-27T15:20:00Z"
+  },
+  {
+   "id": "contact-wx5a5c9",
+   "email": "s.lavington@post.example",
+   "first_name": "Stephen",
+   "last_name": "Lavington",
+   "country": "GB",
+   "list_ids": [
+    "list-wxa73d98"
+   ],
+   "created_at": "2026-09-04T13:35:00Z",
+   "updated_at": "2026-09-21T15:25:00Z"
+  },
+  {
+   "id": "contact-wx90b67",
+   "email": "callum.burt@post.example",
+   "first_name": "Callum",
+   "last_name": "Burt",
+   "country": "GB",
+   "list_ids": [
+    "list-wxd6e5c3"
+   ],
+   "created_at": "2026-09-14T13:45:00Z",
+   "updated_at": "2026-09-21T15:09:00Z"
+  },
+  {
+   "id": "contact-wx6301d",
+   "email": "pauline.hext@post.example",
+   "first_name": "Pauline",
+   "last_name": "Hext",
+   "country": "GB",
+   "list_ids": [
+    "list-wxd6e5c3"
+   ],
+   "created_at": "2026-09-17T11:40:00Z",
+   "updated_at": "2026-09-30T12:27:00Z"
+  },
+  {
+   "id": "contact-wxa4200",
+   "email": "g.farrant@post.example",
+   "first_name": "George",
+   "last_name": "Farrant",
+   "country": "GB",
+   "list_ids": [
+    "list-wxd6e5c3",
+    "list-wxa73d98"
+   ],
+   "created_at": "2026-09-21T08:35:00Z",
+   "updated_at": "2026-10-07T10:42:00Z"
+  }
+ ]
+}

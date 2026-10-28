@@ -1,0 +1,12 @@
+[
+  {
+    "source": "/workspace",
+    "destination": "artifacts/workspace",
+    "type": "directory",
+    "status": "ok",
+    "service": null,
+    "exclude": [
+      "./data"
+    ]
+  }
+]

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="41" skipped="0" tests="68" time="2.000" timestamp="2026-10-25T04:46:55.276603+00:00" hostname="a5e41b59dacb"><testcase classname="test_outputs" name="test_standard_in_force_read" time="0.026" /><testcase classname="test_outputs" name="test_appointments_read_in_full" time="0.056" /><testcase classname="test_outputs" name="test_ticket_notes_read" time="0.001" /><testcase classname="test_outputs" name="test_voicemail_transcripts_read" time="0.001" /><testcase classname="test_outputs" name="test_returns_read_after_first_award" time="0.001" /><testcase classname="test_outputs" name="test_appointments_read_after_first_award" time="0.003" /><testcase classname="test_outputs" name="test_register_statuses" time="0.027" /><testcase classname="test_outputs" name="test_register_released_job_awarded" time="0.001" /><testcase classname="test_outputs" name="test_award_rows_all_right" time="0.022"><failure message="AssertionError: award rows wrong or missing ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258', 'RJ-25264', 'RJ-25288'], extra ['']&#10;assert (not [''])">def test_award_rows_all_right():
+        """all rows right: one row per award, amounts, route, notice channel, tenant and run exact; no row for a job without an award"""
+        got = _awards_by_job()
+        extra = sorted(set(got) - set(AW))
+        wrong = sorted(j for j in AW if not _award_row_right(j, got.get(j, [])))
+&gt;       assert not extra and not wrong, f'award rows wrong or missing {wrong[:6]}, extra {extra[:5]}'
+E       AssertionError: award rows wrong or missing ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258', 'RJ-25264', 'RJ-25288'], extra ['']
+E       assert (not [''])
+
+test_outputs.py:813: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_first_report_on_voicemail" time="0.007"><failure message="AssertionError: the job first reported on the out-of-hours voicemail is not awarded from that report&#10;assert False&#10; +  where False = _award_ok('RJ-25241', {'job_ref': 'RJ-25241', 'tenant_ref': 'T-12801', 'late_days': 3, 'late_gbp': '16.00', ...})">def test_award_first_report_on_voicemail():
+        j = R['special']['J1']
+&gt;       assert _award_ok(j, AW[j]), 'the job first reported on the out-of-hours voicemail is not awarded from that report'
+E       AssertionError: the job first reported on the out-of-hours voicemail is not awarded from that report
+E       assert False
+E        +  where False = _award_ok('RJ-25241', {'job_ref': 'RJ-25241', 'tenant_ref': 'T-12801', 'late_days': 3, 'late_gbp': '16.00', ...})
+
+test_outputs.py:819: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_ticket_note_cancellation" time="0.008"><failure message="AssertionError: the job whose no-show was the tenant's recorded cancellation has the wrong award&#10;assert False&#10; +  where False = _award_ok('RJ-25243', {'job_ref': 'RJ-25243', 'tenant_ref': 'T-11915', 'late_days': 4, 'late_gbp': '18.00', ...})">def test_award_ticket_note_cancellation():
+        j = R['special']['J2']
+&gt;       assert _award_ok(j, AW[j]), "the job whose no-show was the tenant's recorded cancellation has the wrong award"
+E       AssertionError: the job whose no-show was the tenant's recorded cancellation has the wrong award
+E       assert False
+E        +  where False = _award_ok('RJ-25243', {'job_ref': 'RJ-25243', 'tenant_ref': 'T-11915', 'late_days': 4, 'late_gbp': '18.00', ...})
+
+test_outputs.py:825: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_leave_day_visits_missed" time="0.015"><failure message="AssertionError: Direct Works visits booked on an approved leave day not treated as missed: ['RJ-25250', 'RJ-25258']&#10;assert not ['RJ-25250', 'RJ-25258']">def test_award_leave_day_visits_missed():
+        bad = [j for j in (R['special']['J5a'], R['special']['J5b']) if not _award_ok(j, AW[j])]
+&gt;       assert not bad, f'Direct Works visits booked on an approved leave day not treated as missed: {bad}'
+E       AssertionError: Direct Works visits booked on an approved leave day not treated as missed: ['RJ-25250', 'RJ-25258']
+E       assert not ['RJ-25250', 'RJ-25258']
+
+test_outputs.py:831: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_released_return_completes_job" time="0.007"><failure message="AssertionError: the job completed by the return posted when the run opened has the wrong award (or none)&#10;assert False&#10; +  where False = _award_ok('RJ-25320', {'job_ref': 'RJ-25320', 'tenant_ref': 'T-11544', 'late_days': 12, 'late_gbp': '34.00', ...})">def test_award_released_return_completes_job():
+        j = R['special']['J6']
+&gt;       assert _award_ok(j, AW[j]), 'the job completed by the return posted when the run opened has the wrong award (or none)'
+E       AssertionError: the job completed by the return posted when the run opened has the wrong award (or none)
+E       assert False
+E        +  where False = _award_ok('RJ-25320', {'job_ref': 'RJ-25320', 'tenant_ref': 'T-11544', 'late_days': 12, 'late_gbp': '34.00', ...})
+
+test_outputs.py:837: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_rekeyed_visit_first_correction" time="0.012"><failure message="AssertionError: the award does not count the visit the contract manager re-keyed as missed when the run opened&#10;assert False&#10; +  where False = _award_ok('RJ-25503', {'job_ref': 'RJ-25503', 'tenant_ref': 'T-12704', 'late_days': 1, 'late_gbp': '12.00', ...})">def test_award_rekeyed_visit_first_correction():
+        j = R['rekey']['A']['job']
+&gt;       assert _award_ok(j, AW[j]), 'the award does not count the visit the contract manager re-keyed as missed when the run opened'
+E       AssertionError: the award does not count the visit the contract manager re-keyed as missed when the run opened
+E       assert False
+E        +  where False = _award_ok('RJ-25503', {'job_ref': 'RJ-25503', 'tenant_ref': 'T-12704', 'late_days': 1, 'late_gbp': '12.00', ...})
+
+test_outputs.py:843: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_rekeyed_visit_second_correction" time="0.008"><failure message="AssertionError: the award does not count the visit re-keyed as missed later in the run&#10;assert False&#10; +  where False = _award_ok('RJ-25637', {'job_ref': 'RJ-25637', 'tenant_ref': 'T-10592', 'late_days': 1, 'late_gbp': '12.00', ...})">def test_award_rekeyed_visit_second_correction():
+        j = R['rekey']['B']['job']
+&gt;       assert _award_ok(j, AW[j]), 'the award does not count the visit re-keyed as missed later in the run'
+E       AssertionError: the award does not count the visit re-keyed as missed later in the run
+E       assert False
+E        +  where False = _award_ok('RJ-25637', {'job_ref': 'RJ-25637', 'tenant_ref': 'T-10592', 'late_days': 1, 'late_gbp': '12.00', ...})
+
+test_outputs.py:849: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_job_limit" time="0.008"><failure message="AssertionError: the per-job limit was not applied&#10;assert False&#10; +  where False = _award_ok('RJ-25264', {'job_ref': 'RJ-25264', 'tenant_ref': 'T-10730', 'late_days': 42, 'late_gbp': '50.00', ...})">def test_award_job_limit():
+        j = R['special']['JC']
+&gt;       assert _award_ok(j, AW[j]), 'the per-job limit was not applied'
+E       AssertionError: the per-job limit was not applied
+E       assert False
+E        +  where False = _award_ok('RJ-25264', {'job_ref': 'RJ-25264', 'tenant_ref': 'T-10730', 'late_days': 42, 'late_gbp': '50.00', ...})
+
+test_outputs.py:855: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_routes_from_latest_arrears_list" time="0.007"><failure message="AssertionError: payment routes not from the latest (corrected) arrears list: ['RJ-25436', 'RJ-25585', 'RJ-25534', 'RJ-25565', 'RJ-25430', 'RJ-25364', 'RJ-25603', 'RJ-25439']&#10;assert not ['RJ-25436', 'RJ-25585', 'RJ-25534', 'RJ-25565', 'RJ-25430', 'RJ-25364', ...]">def test_award_routes_from_latest_arrears_list():
+        got = _awards_by_job()
+        want = {j: 'rent' for j in R['arrears_jobs']}
+        want.update({R['removed_job']: 'bank', R['added_job']: 'rent', R['cleared_job']: 'bank'})
+        bad = [j for j, r in want.items() if len(got.get(j, [])) != 1 or _route(_f(got[j][0], 'payment_route')) != r]
+&gt;       assert not bad, f'payment routes not from the latest (corrected) arrears list: {bad}'
+E       AssertionError: payment routes not from the latest (corrected) arrears list: ['RJ-25436', 'RJ-25585', 'RJ-25534', 'RJ-25565', 'RJ-25430', 'RJ-25364', 'RJ-25603', 'RJ-25439']
+E       assert not ['RJ-25436', 'RJ-25585', 'RJ-25534', 'RJ-25565', 'RJ-25430', 'RJ-25364', ...]
+
+test_outputs.py:864: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_notice_channels" time="0.007"><failure message="AssertionError: notice channel wrong on [] (0 awards present)&#10;assert ((0 * 2) &gt;= 45)&#10; +  where 0 = len([])&#10; +  and   45 = len({'RJ-25241': {'job_ref': 'RJ-25241', 'tenant_ref': 'T-12801', 'late_days': 3, 'late_gbp': '16.00', ...}, 'RJ-25243': {'job_ref': 'RJ-25243', 'tenant_ref': 'T-11915', 'late_days': 4, 'late_gbp': '18.00', ...}, 'RJ-25250': {'job_ref': 'RJ-25250', 'tenant_ref': 'T-13317', 'late_days': 0, 'late_gbp': '0.00', ...}, 'RJ-25258': {'job_ref': 'RJ-25258', 'tenant_ref': 'T-11304', 'late_days': 9, 'late_gbp': '28.00', ...}, ...})">def test_award_notice_channels():
+        """judged on the award rows present for jobs due an award (a missing award is charged by the checks that own it)"""
+        got = _awards_by_job()
+        have = [j for j in AW if len(got.get(j, [])) == 1]
+        bad = [j for j in have if _chan(_f(got[j][0], 'notice_channel')) != _chan(AW[j]['notice_channel'])]
+&gt;       assert len(have) * 2 &gt;= len(AW) and not bad, f'notice channel wrong on {bad[:5]} ({len(have)} awards present)'
+E       AssertionError: notice channel wrong on [] (0 awards present)
+E       assert ((0 * 2) &gt;= 45)
+E        +  where 0 = len([])
+E        +  and   45 = len({'RJ-25241': {'job_ref': 'RJ-25241', 'tenant_ref': 'T-12801', 'late_days': 3, 'late_gbp': '16.00', ...}, 'RJ-25243': {'job_ref': 'RJ-25243', 'tenant_ref': 'T-11915', 'late_days': 4, 'late_gbp': '18.00', ...}, 'RJ-25250': {'job_ref': 'RJ-25250', 'tenant_ref': 'T-13317', 'late_days': 0, 'late_gbp': '0.00', ...}, 'RJ-25258': {'job_ref': 'RJ-25258', 'tenant_ref': 'T-11304', 'late_days': 9, 'late_gbp': '28.00', ...}, ...})
+
+test_outputs.py:873: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_rule_working_day_lateness" time="0.145"><failure message="AssertionError: urgent/routine lateness wrong on ['RJ-25330', 'RJ-25338', 'RJ-25358', 'RJ-25368']&#10;assert (True and not ['RJ-25330', 'RJ-25338', 'RJ-25358', 'RJ-25368', 'RJ-25409', 'RJ-25432'])&#10; +  where True = _worked()">def test_rule_working_day_lateness():
+        bad = _rule_set('working_days')
+&gt;       assert _worked() and not bad, f'urgent/routine lateness wrong on {bad[:4]}'
+E       AssertionError: urgent/routine lateness wrong on ['RJ-25330', 'RJ-25338', 'RJ-25358', 'RJ-25368']
+E       assert (True and not ['RJ-25330', 'RJ-25338', 'RJ-25358', 'RJ-25368', 'RJ-25409', 'RJ-25432'])
+E        +  where True = _worked()
+
+test_outputs.py:943: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_rule_emergency_calendar_days" time="0.113"><failure message="AssertionError: emergency lateness wrong on ['RJ-25288', 'RJ-25297']&#10;assert (True and not ['RJ-25288', 'RJ-25297'])&#10; +  where True = _worked()">def test_rule_emergency_calendar_days():
+        bad = _rule_set('emergency')
+&gt;       assert _worked() and not bad, f'emergency lateness wrong on {bad[:4]}'
+E       AssertionError: emergency lateness wrong on ['RJ-25288', 'RJ-25297']
+E       assert (True and not ['RJ-25288', 'RJ-25297'])
+E        +  where True = _worked()
+
+test_outputs.py:949: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_rule_tenant_caused_delay_moves_target" time="0.201" /><testcase classname="test_outputs" name="test_rule_missed_appointments_paid" time="0.080"><failure message="AssertionError: missed appointments handled wrongly on ['RJ-25387', 'RJ-25509', 'RJ-25645']&#10;assert (True and not ['RJ-25387', 'RJ-25509', 'RJ-25645'])&#10; +  where True = _worked()">def test_rule_missed_appointments_paid():
+        bad = _rule_set('missed')
+&gt;       assert _worked() and not bad, f'missed appointments handled wrongly on {bad[:4]}'
+E       AssertionError: missed appointments handled wrongly on ['RJ-25387', 'RJ-25509', 'RJ-25645']
+E       assert (True and not ['RJ-25387', 'RJ-25509', 'RJ-25645'])
+E        +  where True = _worked()
+
+test_outputs.py:961: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_rule_late_notice_cancellation_is_missed" time="0.027"><failure message="AssertionError: late-notice cancellation handled wrongly on ['RJ-25374']&#10;assert (True and not ['RJ-25374'])&#10; +  where True = _worked()">def test_rule_late_notice_cancellation_is_missed():
+        bad = _rule_set('late_notice')
+&gt;       assert _worked() and not bad, f'late-notice cancellation handled wrongly on {bad[:4]}'
+E       AssertionError: late-notice cancellation handled wrongly on ['RJ-25374']
+E       assert (True and not ['RJ-25374'])
+E        +  where True = _worked()
+
+test_outputs.py:967: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_rule_communal_and_recharge_jobs" time="0.053" /><testcase classname="test_outputs" name="test_rule_refused_leave_not_counted" time="0.024" /><testcase classname="test_outputs" name="test_recharge_rows_all_right" time="0.007"><failure message="AssertionError: recharge rows wrong ['AP-52022', 'AP-52028', 'AP-52031', 'AP-52083'], extra ['']&#10;assert (not ['AP-52022', 'AP-52028', 'AP-52031', 'AP-52083', 'AP-52450', 'AP-52452', ...])">def test_recharge_rows_all_right():
+        """all rows right: one recharge per contractor appointment the run counts as missed, and no other"""
+        got = _recharges_by_appt()
+        bad = [x['appt_ref'] for x in R['recharges'] if not _recharge_right(x['appt_ref'], got.get(x['appt_ref'], []))]
+        extra = sorted(set(got) - {x['appt_ref'] for x in R['recharges']})
+&gt;       assert not bad and not extra, f'recharge rows wrong {bad[:4]}, extra {extra[:4]}'
+E       AssertionError: recharge rows wrong ['AP-52022', 'AP-52028', 'AP-52031', 'AP-52083'], extra ['']
+E       assert (not ['AP-52022', 'AP-52028', 'AP-52031', 'AP-52083', 'AP-52450', 'AP-52452', ...])
+
+test_outputs.py:1002: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_recharge_not_for_tenant_cancellation" time="0.012" /><testcase classname="test_outputs" name="test_recharge_for_rekeyed_visits" time="0.007"><failure message="AssertionError: the visits re-keyed as missed during the run were not recharged: ['AP-52307', 'AP-52414']&#10;assert not ['AP-52307', 'AP-52414']">def test_recharge_for_rekeyed_visits():
+        got = _recharges_by_appt()
+        bad = [R['rekey'][k]['appt'] for k in ('A', 'B') if not _recharge_right(R['rekey'][k]['appt'], got.get(R['rekey'][k]['appt'], []))]
+&gt;       assert not bad, f'the visits re-keyed as missed during the run were not recharged: {bad}'
+E       AssertionError: the visits re-keyed as missed during the run were not recharged: ['AP-52307', 'AP-52414']
+E       assert not ['AP-52307', 'AP-52414']
+
+test_outputs.py:1015: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_recharge_for_released_job" time="0.006"><failure message="AssertionError: the missed visit on the job completed by the released return was not recharged&#10;assert False&#10; +  where False = _recharge_right('AP-52083', [])&#10; +    where [] = &lt;built-in method get of dict object at 0xffffaf73e840&gt;('AP-52083', [])&#10; +      where &lt;built-in method get of dict object at 0xffffaf73e840&gt; = {'': [{'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rec1818c32fc936dd'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rece9c57a8c767910'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'recdfedcbb420d5d9'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rec1741b74917d0e5'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'recb8d117bdca847a'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rece0db3084d4a4c4'}, ...]}.get">def test_recharge_for_released_job():
+        got = _recharges_by_appt()
+&gt;       assert _recharge_right(R['j6_appt'], got.get(R['j6_appt'], [])), 'the missed visit on the job completed by the released return was not recharged'
+E       AssertionError: the missed visit on the job completed by the released return was not recharged
+E       assert False
+E        +  where False = _recharge_right('AP-52083', [])
+E        +    where [] = &lt;built-in method get of dict object at 0xffffaf73e840&gt;('AP-52083', [])
+E        +      where &lt;built-in method get of dict object at 0xffffaf73e840&gt; = {'': [{'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rec1818c32fc936dd'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rece9c57a8c767910'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'recdfedcbb420d5d9'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rec1741b74917d0e5'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'recb8d117bdca847a'}, {'createdTime': '2026-01-01 08:00:00', 'fields': {}, 'id': 'rece0db3084d4a4c4'}, ...]}.get
+
+test_outputs.py:1021: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_no_recharge_to_direct_works" time="0.008" /><testcase classname="test_outputs" name="test_award_texts_all_right" time="0.005"><failure message="AssertionError: 7 award texts missing or wrong, e.g. ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509']&#10;assert not ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25624', 'RJ-25637', ...]">def test_award_texts_all_right():
+        """all rows right: every award told by text gets one text from the repairs line with its amount, job and route"""
+        texts = _texts()
+        bad = [j for j, a in AW.items() if a['notice_channel'] == 'Text' and not _text_right(a, texts)]
+&gt;       assert not bad, f'{len(bad)} award texts missing or wrong, e.g. {bad[:4]}'
+E       AssertionError: 7 award texts missing or wrong, e.g. ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509']
+E       assert not ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25624', 'RJ-25637', ...]
+
+test_outputs.py:1042: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_award_email_for_form_opt_out" time="0.001"><failure message="AssertionError: the tenant who chose No texts on the contact preferences form was not told by email instead of text&#10;assert (False)">def test_award_email_for_form_opt_out():
+        a = AW[R['stop_ooh_job']]
+        texted = any(to == _phone(R['stop_ooh_mobile']) for to, _f_, _b in _texts())
+        mailed = any(to == a['to'].lower() and _notice_ok(b, a) for to, _s, b in _emails())
+&gt;       assert mailed and not texted, 'the tenant who chose No texts on the contact preferences form was not told by email instead of text'
+E       AssertionError: the tenant who chose No texts on the contact preferences form was not told by email instead of text
+E       assert (False)
+
+test_outputs.py:1050: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_letter_case_not_texted_or_emailed" time="0.001" /><testcase classname="test_outputs" name="test_ordinary_reply_still_texted" time="0.001" /><testcase classname="test_outputs" name="test_rekeyed_tenants_texted_corrected_amounts" time="0.001"><failure message="AssertionError: the tenants on the jobs re-keyed during the run were not texted the corrected award: ['RJ-25637']&#10;assert not ['RJ-25637']">def test_rekeyed_tenants_texted_corrected_amounts():
+        texts = _texts()
+        bad = [R['rekey'][k]['job'] for k in ('A', 'B') if not _text_right(AW[R['rekey'][k]['job']], texts)]
+&gt;       assert not bad, f'the tenants on the jobs re-keyed during the run were not texted the corrected award: {bad}'
+E       AssertionError: the tenants on the jobs re-keyed during the run were not texted the corrected award: ['RJ-25637']
+E       assert not ['RJ-25637']
+
+test_outputs.py:1069: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_contractor_emails_all_right" time="0.001"><failure message="AssertionError: contractor recharge emails missing or wrong: ['Marrick Plumbing &amp; Heating', 'Kestle Roofing']&#10;assert not ['Marrick Plumbing &amp; Heating', 'Kestle Roofing']">def test_contractor_emails_all_right():
+        """all rows right: one email to each recharged contractor's accounts address with every appointment recharged and the total"""
+        bad = [c for c in R['contractor_email'] if not _contractor_email_right(c)]
+&gt;       assert not bad, f'contractor recharge emails missing or wrong: {bad}'
+E       AssertionError: contractor recharge emails missing or wrong: ['Marrick Plumbing &amp; Heating', 'Kestle Roofing']
+E       assert not ['Marrick Plumbing &amp; Heating', 'Kestle Roofing']
+
+test_outputs.py:1086: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_contractor_email_marrick" time="0.001"><failure message="AssertionError: the Marrick recharge email is missing or wrong&#10;assert False&#10; +  where False = _contractor_email_right('Marrick Plumbing &amp; Heating')">def test_contractor_email_marrick():
+&gt;       assert _contractor_email_right('Marrick Plumbing &amp; Heating'), 'the Marrick recharge email is missing or wrong'
+E       AssertionError: the Marrick recharge email is missing or wrong
+E       assert False
+E        +  where False = _contractor_email_right('Marrick Plumbing &amp; Heating')
+
+test_outputs.py:1091: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_contractor_email_castleton" time="0.001" /><testcase classname="test_outputs" name="test_contractor_email_ravensgill" time="0.000" /><testcase classname="test_outputs" name="test_contractor_email_kestle" time="0.000"><failure message="AssertionError: the Kestle recharge email is missing or wrong&#10;assert False&#10; +  where False = _contractor_email_right('Kestle Roofing')">def test_contractor_email_kestle():
+&gt;       assert _contractor_email_right('Kestle Roofing'), 'the Kestle recharge email is missing or wrong'
+E       AssertionError: the Kestle recharge email is missing or wrong
+E       assert False
+E        +  where False = _contractor_email_right('Kestle Roofing')
+
+test_outputs.py:1106: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_channel_post_all_right" time="0.001"><failure message="AssertionError: the month's figures were not posted in the repairs performance channel as the reporting note asks&#10;assert False">def test_channel_post_all_right():
+        """one post carries the total, the number of awards, the recharge total and every worst contractor"""
+        tot = R['totals']
+        ok = any(_has_amount(p, tot['total']) and _has_amount(p, tot['recharge']) and str(tot['n_awards']) in re.findall(r'\d+', p) and _post_names_worst(p)
+                 for p in _posts())
+&gt;       assert ok, "the month's figures were not posted in the repairs performance channel as the reporting note asks"
+E       AssertionError: the month's figures were not posted in the repairs performance channel as the reporting note asks
+E       assert False
+
+test_outputs.py:1120: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_channel_post_total" time="0.001"><failure message="AssertionError: the channel post does not give the total awarded&#10;assert False&#10; +  where False = any(&lt;generator object test_channel_post_total.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafb73a00&gt;)">def test_channel_post_total():
+&gt;       assert any(_has_amount(p, R['totals']['total']) for p in _posts()), 'the channel post does not give the total awarded'
+E       AssertionError: the channel post does not give the total awarded
+E       assert False
+E        +  where False = any(&lt;generator object test_channel_post_total.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffafb73a00&gt;)
+
+test_outputs.py:1125: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_channel_post_names_every_worst_contractor" time="0.002" /><testcase classname="test_outputs" name="test_page_all_right" time="0.015"><failure message="AssertionError: page: headline False, bridge False, split False, award rows wrong ['RJ-25330', 'RJ-25447', 'RJ-25509', 'RJ-25548'], extra []&#10;assert (False)&#10; +  where False = _page_headline()">def test_page_all_right():
+        """all rows right: headline, bridge, route split, and one table row per award carrying its amount; no row for another job"""
+        rows = _page_rows()
+        bad = [j for j, a in AW.items() if not any(_has_amount(x, a['total_gbp']) for x in rows.get(j, []))]
+        extra = sorted(j for j in rows if j not in AW)
+&gt;       assert _page_headline() and _page_bridge() and _page_split() and not bad and not extra, \
+            f'page: headline {_page_headline()}, bridge {_page_bridge()}, split {_page_split()}, award rows wrong {bad[:4]}, extra {extra[:4]}'
+E       AssertionError: page: headline False, bridge False, split False, award rows wrong ['RJ-25330', 'RJ-25447', 'RJ-25509', 'RJ-25548'], extra []
+E       assert (False)
+E        +  where False = _page_headline()
+
+test_outputs.py:1169: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_headline" time="0.003"><failure message="AssertionError: the page does not state the total awarded&#10;assert False&#10; +  where False = _page_headline()">def test_page_headline():
+&gt;       assert _page_headline(), 'the page does not state the total awarded'
+E       AssertionError: the page does not state the total awarded
+E       assert False
+E        +  where False = _page_headline()
+
+test_outputs.py:1175: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_bridge" time="0.003"><failure message="AssertionError: the page bridge does not carry the late, missed, limit and total amounts&#10;assert False&#10; +  where False = _page_bridge()">def test_page_bridge():
+&gt;       assert _page_bridge(), 'the page bridge does not carry the late, missed, limit and total amounts'
+E       AssertionError: the page bridge does not carry the late, missed, limit and total amounts
+E       assert False
+E        +  where False = _page_bridge()
+
+test_outputs.py:1180: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_route_split" time="0.007"><failure message="AssertionError: the page does not split bank transfers and rent credits&#10;assert False&#10; +  where False = _page_split()">def test_page_route_split():
+&gt;       assert _page_split(), 'the page does not split bank transfers and rent credits'
+E       AssertionError: the page does not split bank transfers and rent credits
+E       assert False
+E        +  where False = _page_split()
+
+test_outputs.py:1185: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_award_table_sortable_filterable" time="0.001" /><testcase classname="test_outputs" name="test_page_self_contained" time="0.002" /><testcase classname="test_outputs" name="test_reconciliation_all_rows_right" time="0.002"><failure message="AssertionError: reconciliation rows wrong or missing ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25548'], extra []&#10;assert (not ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25548', 'RJ-25624', ...])">def test_reconciliation_all_rows_right():
+        """all rows right: one row per job completed in October with its award (0.00 when none), and no other job"""
+        idx = _csv_index()
+        bad = [j for j in R['register'] if not _recon_row_right(j, idx)]
+        extra = sorted(set(idx) - set(R['register']))
+&gt;       assert not bad and not extra, f'reconciliation rows wrong or missing {bad[:5]}, extra {extra[:5]}'
+E       AssertionError: reconciliation rows wrong or missing ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25548'], extra []
+E       assert (not ['RJ-25330', 'RJ-25364', 'RJ-25447', 'RJ-25509', 'RJ-25548', 'RJ-25624', ...])
+
+test_outputs.py:1227: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_clock_and_target_dates" time="0.002" /><testcase classname="test_outputs" name="test_reconciliation_corrected_rows" time="0.001"><failure message="AssertionError: the reconciliation rows of the jobs the run-day changes touch are wrong: ['RJ-25637']&#10;assert not ['RJ-25637']">def test_reconciliation_corrected_rows():
+        idx = _csv_index()
+        jobs = [R['special']['J6'], R['rekey']['A']['job'], R['rekey']['B']['job']]
+        bad = [j for j in jobs if not _recon_row_right(j, idx)]
+&gt;       assert not bad, f'the reconciliation rows of the jobs the run-day changes touch are wrong: {bad}'
+E       AssertionError: the reconciliation rows of the jobs the run-day changes touch are wrong: ['RJ-25637']
+E       assert not ['RJ-25637']
+
+test_outputs.py:1245: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_all_awards_right" time="0.005"><failure message="AssertionError: the dossier leaves out or misstates ['RJ-25241', 'RJ-25243', 'RJ-25258', 'RJ-25264', 'RJ-25288']&#10;assert ('# October 2026 repairs compensation run - evidence dossier\n\nThornbeck Homes. Run `2026-10`, worked on Monday 2 November 2026 by the repairs performance officer. Every job completed in October 2026 was assessed under the **Repairs Service Standard, 4th edition (2026)**, which is in force for every repair completed on or after 1 April 2026.\n\n- Jobs completed in October 2026 and assessed in this run: **86**\n- Awards: **45**, total **GBP 1,076.00**\n- Late completion GBP 866.00 + missed appointments GBP 225.00 - GBP 15.00 reduction for the per-job limit = GBP 1,076.00\n- Paid by bank transfer GBP 930.00 (39 awards); credited to rent accounts GBP 146.00 (6 awards)\n- Contractor recharges: 11 appointments at GBP 25.00 = GBP 275.00\n\n## 1. Sources that changed an outcome\n\nThese are the jobs where a source other than the keyed planner/portal record decided the answer. Each is listed with the rule it turns on.\n\n### RJ-25241 - 32 Beckside (T-12801, Ewan Oldroyd) - clock start moved\n\n- Keyed `reported_on` 2026-10-12 (the day the job was raised on ticket 72475).\n- Out-of-hours voicemail transcript, 2026-10-07 21:14, caller +447700900539: *&quot;this is Ewan Oldroyd from 32 Beckside....GBP 25.00 |\n| CR-2026-10-08 | AP-52444 | RJ-25387 | 2026-10-13 | Castleton Electrical Services | GBP 25.00 |\n| CR-2026-10-09 | AP-52439 | RJ-25429 | 2026-10-12 | Castleton Electrical Services | GBP 25.00 |\n| CR-2026-10-10 | AP-52307 | RJ-25503 | 2026-10-26 | Ravensgill Building Maintenance | GBP 25.00 |\n| CR-2026-10-11 | AP-52434 | RJ-25509 | 2026-09-14 | Castleton Electrical Services | GBP 25.00 |\n\n- Marrick Plumbing &amp; Heating: 4 appointments, GBP 100.00\n- Castleton Electrical Services: 3 appointments, GBP 75.00\n- Ravensgill Building Maintenance: 3 appointments, GBP 75.00\n- Kestle Roofing: 1 appointment, GBP 25.00\n\nTotal recharged: **GBP 275.00** over 11 appointments. The two Direct Works no-shows (AP-52008 on RJ-25250, AP-52014 on RJ-25258) and the Direct Works no-shows on RJ-25436 (AP-52459) and RJ-25645 (AP-52454) are paid to the tenants but not recharged: Direct Works is not party to the responsive repairs contract (Schedule D3).\n\nWorst contractor of the month on missed appointments, as the reporting note defines it: **Marrick Plumbing &amp; Heating** with 4. Direct Works is our own team and is reported separately in the Direct Works report, not in this measure.\n\n' and not ['RJ-25241', 'RJ-25243', 'RJ-25258', 'RJ-25264', 'RJ-25288', 'RJ-25297', ...])">def test_dossier_all_awards_right():
+        """all rows right: every award appears in the dossier with its amount on its line"""
+        d = _dossier()
+        bad = [j for j, a in AW.items() if not any(_has_amount(ln, a['total_gbp']) for ln in _dossier_lines(j))]
+&gt;       assert d and not bad, f'the dossier leaves out or misstates {bad[:5]}'
+E       AssertionError: the dossier leaves out or misstates ['RJ-25241', 'RJ-25243', 'RJ-25258', 'RJ-25264', 'RJ-25288']
+E       assert ('# October 2026 repairs compensation run - evidence dossier\n\nThornbeck Homes. Run `2026-10`, worked on Monday 2 November 2026 by the repairs performance officer. Every job completed in October 2026 was assessed under the **Repairs Service Standard, 4th edition (2026)**, which is in force for every repair completed on or after 1 April 2026.\n\n- Jobs completed in October 2026 and assessed in this run: **86**\n- Awards: **45**, total **GBP 1,076.00**\n- Late completion GBP 866.00 + missed appointments GBP 225.00 - GBP 15.00 reduction for the per-job limit = GBP 1,076.00\n- Paid by bank transfer GBP 930.00 (39 awards); credited to rent accounts GBP 146.00 (6 awards)\n- Contractor recharges: 11 appointments at GBP 25.00 = GBP 275.00\n\n## 1. Sources that changed an outcome\n\nThese are the jobs where a source other than the keyed planner/portal record decided the answer. Each is listed with the rule it turns on.\n\n### RJ-25241 - 32 Beckside (T-12801, Ewan Oldroyd) - clock start moved\n\n- Keyed `reported_on` 2026-10-12 (the day the job was raised on ticket 72475).\n- Out-of-hours voicemail transcript, 2026-10-07 21:14, caller +447700900539: *"this is Ewan Oldroyd from 32 Beckside....GBP 25.00 |\n| CR-2026-10-08 | AP-52444 | RJ-25387 | 2026-10-13 | Castleton Electrical Services | GBP 25.00 |\n| CR-2026-10-09 | AP-52439 | RJ-25429 | 2026-10-12 | Castleton Electrical Services | GBP 25.00 |\n| CR-2026-10-10 | AP-52307 | RJ-25503 | 2026-10-26 | Ravensgill Building Maintenance | GBP 25.00 |\n| CR-2026-10-11 | AP-52434 | RJ-25509 | 2026-09-14 | Castleton Electrical Services | GBP 25.00 |\n\n- Marrick Plumbing &amp; Heating: 4 appointments, GBP 100.00\n- Castleton Electrical Services: 3 appointments, GBP 75.00\n- Ravensgill Building Maintenance: 3 appointments, GBP 75.00\n- Kestle Roofing: 1 appointment, GBP 25.00\n\nTotal recharged: **GBP 275.00** over 11 appointments. The two Direct Works no-shows (AP-52008 on RJ-25250, AP-52014 on RJ-25258) and the Direct Works no-shows on RJ-25436 (AP-52459) and RJ-25645 (AP-52454) are paid to the tenants but not recharged: Direct Works is not party to the responsive repairs contract (Schedule D3).\n\nWorst contractor of the month on missed appointments, as the reporting note defines it: **Marrick Plumbing &amp; Heating** with 4. Direct Works is our own team and is reported separately in the Direct Works report, not in this measure.\n\n' and not ['RJ-25241', 'RJ-25243', 'RJ-25258', 'RJ-25264', 'RJ-25288', 'RJ-25297', ...])
+
+test_outputs.py:1258: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_cites_the_deciding_evidence" time="0.001" /><testcase classname="test_outputs" name="test_reply_total_awarded" time="0.001"><failure message="AssertionError: the reply does not give the total awarded&#10;assert False&#10; +  where False = _has_amount('The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 &quot;Awarded (Oct 2026 run)&quot;, 41 &quot;No award (Oct 2026 run)&quot;); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal &quot;...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her &quot;October compensation run&quot; thread with the full award-by-award list.', '1088.00')&#10; +    where 'The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 &quot;Awarded (Oct 2026 run)&quot;, 41 &quot;No award (Oct 2026 run)&quot;); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal &quot;...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her &quot;October compensation run&quot; thread with the full award-by-award list.' = _final()">def test_reply_total_awarded():
+        """the final figure"""
+&gt;       assert _has_amount(_final(), R['totals']['total']), 'the reply does not give the total awarded'
+E       AssertionError: the reply does not give the total awarded
+E       assert False
+E        +  where False = _has_amount('The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 "Awarded (Oct 2026 run)", 41 "No award (Oct 2026 run)"); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal "...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her "October compensation run" thread with the full award-by-award list.', '1088.00')
+E        +    where 'The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 "Awarded (Oct 2026 run)", 41 "No award (Oct 2026 run)"); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal "...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her "October compensation run" thread with the full award-by-award list.' = _final()
+
+test_outputs.py:1284: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reply_lists_each_award" time="0.002"><failure message="AssertionError: the reply does not list 45 awards with amount and route, e.g. ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258']&#10;assert not ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258', 'RJ-25264', 'RJ-25288', ...]">def test_reply_lists_each_award():
+        """all rows right: the reply lists every award with its amount and payment route"""
+        f = _final(); bad = []
+        for j, a in AW.items():
+            ok = False
+            for m in re.finditer(re.escape(j), f):
+                nxt = f.find('RJ-', m.start() + 3)
+                win = f[m.start(): (nxt if nxt != -1 else len(f))][:220]
+                if _has_amount(win, a['total_gbp']) and _route_said(win, a['payment_route']):
+                    ok = True
+            if not ok:
+                bad.append(j)
+&gt;       assert not bad, f'the reply does not list {len(bad)} awards with amount and route, e.g. {bad[:4]}'
+E       AssertionError: the reply does not list 45 awards with amount and route, e.g. ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258']
+E       assert not ['RJ-25241', 'RJ-25243', 'RJ-25250', 'RJ-25258', 'RJ-25264', 'RJ-25288', ...]
+
+test_outputs.py:1300: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reply_award_count" time="0.001" /><testcase classname="test_outputs" name="test_reply_route_totals" time="0.001"><failure message="AssertionError: the reply does not give the bank and rent-account totals&#10;assert (False)&#10; +  where False = _has_amount('The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 &quot;Awarded (Oct 2026 run)&quot;, 41 &quot;No award (Oct 2026 run)&quot;); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal &quot;...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her &quot;October compensation run&quot; thread with the full award-by-award list.', '957.00')">def test_reply_route_totals():
+        f = _final(); t = R['totals']
+&gt;       assert _has_amount(f, t['bank']) and _has_amount(f, t['rent']), 'the reply does not give the bank and rent-account totals'
+E       AssertionError: the reply does not give the bank and rent-account totals
+E       assert (False)
+E        +  where False = _has_amount('The October 2026 repairs compensation run is complete.\n\n**Headline figures**\n- **GBP 1,076.00 awarded across 45 awards**, from 86 jobs completed in October 2026 (assessed under the Repairs Service Standard, 4th edition 2026 — the 3rd edition no longer applies).\n- **GBP 930.00 by bank transfer** (39 awards); **GBP 146.00 credited to rent accounts** (6 awards).\n- **GBP 275.00 recharged over 11 missed appointments**; **Marrick Plumbing &amp; Heating** is the worst contractor of the month with 4.\n\n**What was written and sent**\n- `compensation_status` set on all 86 October completions (45 "Awarded (Oct 2026 run)", 41 "No award (Oct 2026 run)"); earlier runs untouched.\n- 45 rows in `compensation_awards` (CA-2026-10-01…45) and 11 rows in `contractor_recharges` (CR-2026-10-01…11). Nothing else in the base changed.\n- 44 tenant notices texted from the repairs line (+44 7700 900010); 4 recharge emails to the contractors\' accounts addresses; the month\'s figures posted in #repairs-performance.\n\n**Judgement calls that moved money**\n- **RJ-25241** – out-of-hours voicemail of 7 Oct started the clock 5 days before the keyed date (s.4.1): nil → GBP 16.00.\n- **RJ-25243** – the portal "...thing needs you**\nOrla Hirst (T-11720, RJ-25548, GBP 28.00) texted STOP on 29 September and has no email on file, so her notice must go by letter. I recorded the channel as `Letter` and did not text her, but there is no system available to me to raise the print job — the post room needs to print and post it. This is flagged in the email to Helen Mortimer.\n\n**Files delivered to the workspace**\n- `compensation_schedule_oct2026.html` – self-contained, no external resources; headed by the GBP 1,076.00 total, with the bridge (late GBP 866.00 + missed GBP 225.00 − GBP 15.00 per-job-limit reduction = GBP 1,076.00), the bank/rent split, and a sortable, filterable, self-totalling table of the 45 awards.\n- `compensation_reconciliation_oct2026.csv` – 86 rows, one per October completion, with clock start, target, completion, days late, missed appointments and award (0.00 where none).\n- `compensation_dossier_oct2026.md` – the evidence behind every award and every job where a source changed the outcome, cited to ticket, voicemail, HR record, email or re-keyed row.\n\nThe reply to the head of repairs has been sent in her "October compensation run" thread with the full award-by-award list.', '957.00')
+
+test_outputs.py:1311: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reply_recharge_total" time="0.001" /><testcase classname="test_outputs" name="test_reply_names_every_worst_contractor" time="0.001"><failure message="AssertionError: the reply does not name every contractor sharing the most missed appointments&#10;assert False">def test_reply_names_every_worst_contractor():
+        f = _final()
+        windows = [f[m.start(): m.start() + 300] for m in re.finditer(r'worst|most missed|highest|level|tie|joint', f, re.I)]
+        windows += re.split(r'(?&lt;=[.!?])\s+|\n', f)
+        ok = any(all(w.split()[0].lower() in x.lower() for w in R['worst']) for x in windows)
+&gt;       assert ok, 'the reply does not name every contractor sharing the most missed appointments'
+E       AssertionError: the reply does not name every contractor sharing the most missed appointments
+E       assert False
+
+test_outputs.py:1327: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_restraint_with_the_run_right" time="0.007"><failure message="AssertionError: the run is not right, or it changed something outside the run&#10;assert (False)">def test_restraint_with_the_run_right():
+        """nothing outside the run moved, no write in another system and no award outside the run, on a run whose award rows are all right"""
+        got = _awards_by_job()
+        right = not (set(got) - set(AW)) and all(_award_row_right(j, got.get(j, [])) for j in AW)
+&gt;       assert right and not _damage_hits() and not _elsewhere_hits(), 'the run is not right, or it changed something outside the run'
+E       AssertionError: the run is not right, or it changed something outside the run
+E       assert (False)
+
+test_outputs.py:1384: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_text_to_opted_out_tenant" time="0.001" /><testcase classname="test_outputs" name="test_guard_writes_elsewhere" time="0.001" /><testcase classname="test_outputs" name="test_guard_records_damaged" time="0.009"><failure message="AssertionError: no record outside the run was changed&#10;assert []&#10; +  where [] = _damage_hits()">def test_guard_records_damaged():
+&gt;       assert _damage_hits(), 'no record outside the run was changed'
+E       AssertionError: no record outside the run was changed
+E       assert []
+E        +  where [] = _damage_hits()
+
+test_outputs.py:1402: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_tenant_notified_twice" time="0.001"><failure message="AssertionError: nobody was told twice&#10;assert []">def test_guard_tenant_notified_twice():
+        cons = {v.lower() for v in R['contractor_email'].values()}
+        c = list(_recipients('LightTwilio', 'create_message', 'to', _phone).items()) + \
+            [(k, n) for k, n in _recipients('LightGmail', 'send_message', 'to_addr', _norm).items() if k not in cons]
+        hits = [k for k, n in c if n &gt; 1]
+&gt;       assert hits, 'nobody was told twice'
+E       AssertionError: nobody was told twice
+E       assert []
+
+test_outputs.py:1411: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_award_outside_the_run" time="0.007" /><testcase classname="test_outputs" name="test_guard_unworked_claims" time="0.034"><failure message="AssertionError: the reply is backed by work&#10;assert (True and not True)&#10; +  where True = _worked()">def test_guard_unworked_claims():
+        f = _final()
+        claims = _has_amount(f, R['totals']['total']) or R['totals']['n_awards'] in _stated_counts(f, _COUNT_LAB)
+&gt;       assert claims and not _worked() and not _attempts('LightAirtable', 'create_records'), 'the reply is backed by work'
+E       AssertionError: the reply is backed by work
+E       assert (True and not True)
+E        +  where True = _worked()
+
+test_outputs.py:1424: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_misread_total_stated" time="0.002"><failure message="AssertionError: no misread total stated&#10;assert []">def test_guard_misread_total_stated():
+        f = _final()
+        hits = [w for w in R['wrong_totals'] if _has_amount(f, w)]
+&gt;       assert hits, 'no misread total stated'
+E       AssertionError: no misread total stated
+E       assert []
+
+test_outputs.py:1431: AssertionError</failure></testcase></testsuite></testsuites>

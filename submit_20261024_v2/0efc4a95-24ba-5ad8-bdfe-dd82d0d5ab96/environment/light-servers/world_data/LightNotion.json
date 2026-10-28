@@ -1,0 +1,158 @@
+{
+ "pages": [
+  {
+   "id": "pg-kra-it",
+   "parent_type": "workspace",
+   "parent_id": "ws-kra",
+   "title": "IT help for staff",
+   "created_time": "2026-09-02T08:30:00.000Z",
+   "last_edited_time": "2027-01-12T10:00:00.000Z",
+   "created_by": "Daniel Frost",
+   "archived": false,
+   "icon": "laptop",
+   "cover_url": null
+  },
+  {
+   "id": "pg-kra-it-01",
+   "parent_type": "page",
+   "parent_id": "pg-kra-it",
+   "title": "Connecting a laptop to the classroom projector",
+   "created_time": "2026-09-02T08:40:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "created_by": "Daniel Frost",
+   "archived": false,
+   "icon": "laptop",
+   "cover_url": null
+  },
+  {
+   "id": "pg-kra-it-02",
+   "parent_type": "page",
+   "parent_id": "pg-kra-it",
+   "title": "Resetting a pupil's network password",
+   "created_time": "2026-09-03T09:10:00.000Z",
+   "last_edited_time": "2026-09-03T09:10:00.000Z",
+   "created_by": "Daniel Frost",
+   "archived": false,
+   "icon": "laptop",
+   "cover_url": null
+  },
+  {
+   "id": "pg-kra-it-03",
+   "parent_type": "page",
+   "parent_id": "pg-kra-it",
+   "title": "Booking the laptop trolleys",
+   "created_time": "2026-09-08T11:00:00.000Z",
+   "last_edited_time": "2027-01-12T10:00:00.000Z",
+   "created_by": "Daniel Frost",
+   "archived": false,
+   "icon": "laptop",
+   "cover_url": null
+  },
+  {
+   "id": "pg-kra-it-04",
+   "parent_type": "page",
+   "parent_id": "pg-kra-it",
+   "title": "What to do if the interactive board freezes",
+   "created_time": "2026-10-14T14:30:00.000Z",
+   "last_edited_time": "2026-10-14T14:30:00.000Z",
+   "created_by": "Daniel Frost",
+   "archived": false,
+   "icon": "laptop",
+   "cover_url": null
+  }
+ ],
+ "blocks": [
+  {
+   "id": "blk-kra-01",
+   "page_id": "pg-kra-it-01",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "text": "Use the HDMI lead in the desk drawer; press Source on the remote until the laptop picture appears.",
+   "order": 0,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  },
+  {
+   "id": "blk-kra-02",
+   "page_id": "pg-kra-it-01",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "text": "If the picture is stretched, set the laptop display to duplicate, not extend.",
+   "order": 1,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  },
+  {
+   "id": "blk-kra-03",
+   "page_id": "pg-kra-it-02",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "text": "Form tutors can reset passwords from the admin console under Users. New passwords must be changed at first sign-in.",
+   "order": 0,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  },
+  {
+   "id": "blk-kra-04",
+   "page_id": "pg-kra-it-03",
+   "parent_block_id": null,
+   "type": "to_do",
+   "text": "Trolleys A and B are booked on the shared sheet in the staff room; trolley C stays in the library.",
+   "order": 0,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  },
+  {
+   "id": "blk-kra-05",
+   "page_id": "pg-kra-it-03",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "text": "Plug the trolley back in at the end of the day so the laptops charge overnight.",
+   "order": 1,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  },
+  {
+   "id": "blk-kra-06",
+   "page_id": "pg-kra-it-04",
+   "parent_block_id": null,
+   "type": "paragraph",
+   "text": "Hold the power button on the side panel for ten seconds, wait one minute and switch it on again. Log a ticket if it happens twice.",
+   "order": 0,
+   "created_time": "2026-10-14T14:35:00.000Z",
+   "last_edited_time": "2026-11-05T13:20:00.000Z",
+   "has_children": false,
+   "checked": null
+  }
+ ],
+ "comments": [
+  {
+   "id": "cmt-kra-01",
+   "parent_page_id": "pg-kra-it-03",
+   "parent_block_id": "blk-kra-04",
+   "author_id": "user-kra-yp",
+   "text": "Could trolley C move to the science corridor on Thursdays?",
+   "created_time": "2027-01-11T12:10:00.000Z",
+   "resolved": false
+  },
+  {
+   "id": "cmt-kra-02",
+   "parent_page_id": "pg-kra-it-01",
+   "parent_block_id": "blk-kra-02",
+   "author_id": "user-kra-pn",
+   "text": "This fixed it in room E2, thanks.",
+   "created_time": "2026-11-05T13:25:00.000Z",
+   "resolved": true
+  }
+ ]
+}

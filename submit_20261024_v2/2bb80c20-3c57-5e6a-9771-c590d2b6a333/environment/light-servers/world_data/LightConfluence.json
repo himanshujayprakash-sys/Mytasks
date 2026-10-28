@@ -1,0 +1,307 @@
+{
+ "spaces": [
+  {
+   "id": 8810,
+   "key": "BMSH",
+   "name": "Brennock Museum staff handbook",
+   "type": "global",
+   "status": "current",
+   "description": {
+    "plain": {
+     "value": "How the building, front of house and staff side of the museum work.",
+     "representation": "plain"
+    }
+   }
+  },
+  {
+   "id": 8890,
+   "key": "BMCON",
+   "name": "Conservation",
+   "type": "global",
+   "status": "current",
+   "description": {
+    "plain": {
+     "value": "Conservation studio: treatment records and condition checks.",
+     "representation": "plain"
+    }
+   }
+  }
+ ],
+ "pages": [
+  {
+   "id": "880001",
+   "type": "page",
+   "status": "current",
+   "title": "Brennock Museum staff handbook",
+   "space_key": "BMSH",
+   "parent_id": null,
+   "version": 4,
+   "body": "Start here. The pages below cover the building, front of house and the people side of working at the museum.",
+   "created_by": "Ines Carvalho",
+   "created_at": "2026-09-07T10:00:00Z"
+  },
+  {
+   "id": "880002",
+   "type": "page",
+   "status": "current",
+   "title": "Opening and closing the building",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 3,
+   "body": "The duty manager opens the staff entrance at 08:30, sets the galleries' lights at 09:45 and does the closing sweep from 16:45, galleries first, toilets last.",
+   "created_by": "Joss Penrith",
+   "created_at": "2026-09-07T10:00:00Z"
+  },
+  {
+   "id": "880003",
+   "type": "page",
+   "status": "current",
+   "title": "Visitor emergencies and first aid",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Radio the duty manager first. First aiders are listed on the board behind the front desk; the defibrillator is in the foyer by the lift.",
+   "created_by": "Ines Carvalho",
+   "created_at": "2026-09-10T10:00:00Z"
+  },
+  {
+   "id": "880004",
+   "type": "page",
+   "status": "current",
+   "title": "Lost children and lost property",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "A lost child stays at the front desk with two members of staff. Lost property is logged in the blue book and kept for 30 days.",
+   "created_by": "Ines Carvalho",
+   "created_at": "2026-09-14T10:00:00Z"
+  },
+  {
+   "id": "880005",
+   "type": "page",
+   "status": "current",
+   "title": "Fire evacuation",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 3,
+   "body": "The assembly point is the far side of Quay Road by the war memorial. Gallery staff sweep their gallery and report to the duty manager at the assembly point.",
+   "created_by": "Joss Penrith",
+   "created_at": "2026-09-21T10:00:00Z"
+  },
+  {
+   "id": "880006",
+   "type": "page",
+   "status": "current",
+   "title": "Cash handling at the front desk and shop",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Floats are counted in pairs at opening and closing. Card refunds over twenty pounds need the retail manager or the duty manager.",
+   "created_by": "Tobias Grieve",
+   "created_at": "2026-09-29T10:00:00Z"
+  },
+  {
+   "id": "880007",
+   "type": "page",
+   "status": "current",
+   "title": "Working with volunteers",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Volunteers sign in on the tablet at the staff entrance. Their rota is on the volunteers' noticeboard; please tell Fenella about any change of shift.",
+   "created_by": "Fenella Brook",
+   "created_at": "2026-10-05T10:00:00Z"
+  },
+  {
+   "id": "880008",
+   "type": "page",
+   "status": "current",
+   "title": "Room hire: setting up the lecture theatre",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Chairs for 120 are stacked in the store behind the stage. Hirers' caterers use the cafe kitchen only with the cafe manager present.",
+   "created_by": "Mirren Achebe",
+   "created_at": "2026-10-13T10:00:00Z"
+  },
+  {
+   "id": "880009",
+   "type": "page",
+   "status": "current",
+   "title": "IT: printing, Wi-Fi and passwords",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Staff Wi-Fi is BMAG-Staff; visitors use BMAG-Guest. Passwords change every 90 days; raise a ticket in the IT helpdesk if you are locked out.",
+   "created_by": "Dev Malhotra",
+   "created_at": "2026-10-19T10:00:00Z"
+  },
+  {
+   "id": "880010",
+   "type": "page",
+   "status": "current",
+   "title": "Photography and filming requests",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Commercial filming needs a signed location agreement from the marketing office. Visitors may take photos for personal use without flash.",
+   "created_by": "Lark Simmonds",
+   "created_at": "2026-10-26T10:00:00Z"
+  },
+  {
+   "id": "880011",
+   "type": "page",
+   "status": "current",
+   "title": "Christmas opening hours 2026",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 1,
+   "body": "Open as normal until 23 December, 10:00 to 13:00 on Christmas Eve, closed 25 and 26 December and 1 January.",
+   "created_by": "Ines Carvalho",
+   "created_at": "2026-11-16T10:00:00Z"
+  },
+  {
+   "id": "880012",
+   "type": "page",
+   "status": "current",
+   "title": "Staff Christmas lunch",
+   "space_key": "BMSH",
+   "parent_id": "880001",
+   "version": 2,
+   "body": "Friday 18 December at 13:00 in the cafe, volunteers welcome. Menu choices to Fenella by 4 December.",
+   "created_by": "Fenella Brook",
+   "created_at": "2026-11-23T10:00:00Z"
+  },
+  {
+   "id": "880900",
+   "type": "page",
+   "status": "current",
+   "title": "Tidelines: pre-loan condition checks",
+   "space_key": "BMCON",
+   "parent_id": null,
+   "version": 3,
+   "body": "<p>One comment per lender visit records the outcome of the pre-loan condition check for each object.</p>",
+   "created_by": "isaac.venn",
+   "created_at": "2026-10-20T09:00:00Z"
+  },
+  {
+   "id": "880901",
+   "type": "page",
+   "status": "current",
+   "title": "Studio supplies",
+   "space_key": "BMCON",
+   "parent_id": null,
+   "version": 7,
+   "body": "<p>Running list of studio consumables and suppliers.</p>",
+   "created_by": "priya.calloway",
+   "created_at": "2026-09-08T09:00:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "id": "cmt-bmcon-001",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-01 to TW-03 checked at Calder Bay on 6 November: stable, fit to travel.</p>",
+   "created_at": "2026-11-15T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-002",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-04 to TW-06 checked at Port-Sainte-Anne on 3 November: TW-06 has minor abrasion on the frame; fit to travel with a glazing upgrade.</p>",
+   "created_at": "2026-11-16T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-003",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-07 to TW-10 checked in Amsterdam on 4 November: all stable, fit to travel.</p>",
+   "created_at": "2026-11-17T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-004",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-11 to TW-13 checked at Kirkby Stane on 9 November: fit to travel; the Ibbs needs a new backboard, lender has arranged it.</p>",
+   "created_at": "2026-11-18T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-005",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-14 to TW-16 checked in Sundvik on 28 October: fit to travel.</p>",
+   "created_at": "2026-11-19T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-006",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-17 and TW-18 checked at Fairhaven on 12 November: fit to travel.</p>",
+   "created_at": "2026-11-20T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-007",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-19 and TW-21 checked at Elsworth on 19 November: fit to travel.</p>",
+   "created_at": "2026-11-21T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-008",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-22 to TW-24 checked at Oostduin on 5 November: fit to travel.</p>",
+   "created_at": "2026-11-22T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-009",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-25 and TW-26 checked at Solvik on 29 October: fit to travel.</p>",
+   "created_at": "2026-11-23T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-010",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-27 to TW-29 condition reports from the gallery's conservator reviewed on 16 November: fit to travel.</p>",
+   "created_at": "2026-11-24T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-011",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-30 and TW-31 checked at Saltby on 17 November: fit to travel.</p>",
+   "created_at": "2026-11-25T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-012",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-32 and TW-33 checked in Edinburgh on 11 November: fit to travel.</p>",
+   "created_at": "2026-11-26T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-013",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "body": "<p>TW-34 and TW-35 checked at Garside on 13 November: fit to travel.</p>",
+   "created_at": "2026-11-26T16:00:00Z"
+  },
+  {
+   "id": "cmt-bmcon-090",
+   "page_id": "880900",
+   "author": "isaac.venn",
+   "created_at": "2026-11-19T16:05:00Z",
+   "body": "<p>Elsworth, 19 November. TW-20 (Rossiter, 'Fog at Skelwick'): active flaking in the lower sky, paint lifting along the stretcher-bar line. Not fit to travel. I have told Dr Lisle by phone; he agrees.</p>"
+  },
+  {
+   "id": "cmt-bmcon-091",
+   "page_id": "880901",
+   "author": "priya.calloway",
+   "created_at": "2026-11-05T11:00:00Z",
+   "body": "<p>Spare UV-filter glazing ordered for the glazing upgrades.</p>"
+  }
+ ]
+}

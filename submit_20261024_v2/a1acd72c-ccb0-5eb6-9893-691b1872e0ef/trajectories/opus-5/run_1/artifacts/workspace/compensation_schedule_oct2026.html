@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thornbeck Homes - repairs compensation schedule, October 2026</title>
+<style>
+  :root { --ink:#1d2430; --muted:#5d6b7f; --line:#d8dee8; --bg:#f4f6fa; --accent:#1f5f8b; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px; background:var(--bg); color:var(--ink);
+         font:15px/1.5 "Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif; }
+  .wrap { max-width:1380px; margin:0 auto; }
+  h1 { font-size:20px; margin:0 0 2px; }
+  .sub { color:var(--muted); margin:0 0 20px; font-size:13px; }
+  .headline { background:#fff; border:1px solid var(--line); border-left:6px solid var(--accent);
+               border-radius:8px; padding:18px 22px; margin-bottom:18px; }
+  .headline .amount { font-size:40px; font-weight:700; letter-spacing:-0.5px; }
+  .headline .label { color:var(--muted); font-size:13px; text-transform:uppercase;
+                      letter-spacing:.08em; }
+  .cards { display:flex; flex-wrap:wrap; gap:18px; margin-bottom:18px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:8px; padding:16px 20px;
+           flex:1 1 320px; }
+  .card h2 { font-size:13px; text-transform:uppercase; letter-spacing:.08em;
+              color:var(--muted); margin:0 0 10px; }
+  table.bridge { width:100%; border-collapse:collapse; }
+  table.bridge td { padding:5px 0; }
+  table.bridge td.v { text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap; }
+  table.bridge tr.sum td { border-top:2px solid var(--ink); font-weight:700; padding-top:8px; }
+  table.bridge tr.less td { color:#9b2c2c; }
+  .controls { background:#fff; border:1px solid var(--line); border-radius:8px 8px 0 0;
+               padding:14px 16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center;
+               border-bottom:none; }
+  .controls input, .controls select { font:inherit; padding:6px 9px; border:1px solid var(--line);
+                                       border-radius:5px; background:#fff; color:inherit; }
+  .controls input[type=search] { min-width:260px; }
+  .controls .count { margin-left:auto; color:var(--muted); font-size:13px; }
+  .tablebox { background:#fff; border:1px solid var(--line); border-radius:0 0 8px 8px;
+               overflow-x:auto; }
+  table.data { width:100%; border-collapse:collapse; font-size:14px; }
+  table.data th { position:sticky; top:0; background:#eef2f7; text-align:left; padding:9px 11px;
+                   border-bottom:1px solid var(--line); cursor:pointer; white-space:nowrap;
+                   user-select:none; }
+  table.data th:hover { background:#e3eaf3; }
+  table.data td { padding:8px 11px; border-bottom:1px solid #eef1f6; white-space:nowrap; }
+  table.data td.num { text-align:right; font-variant-numeric:tabular-nums; }
+  table.data tbody tr:nth-child(even) { background:#fafbfd; }
+  table.data tfoot td { padding:10px 11px; font-weight:700; border-top:2px solid var(--ink);
+                         background:#fff; }
+  .arrow { font-size:10px; color:var(--muted); margin-left:5px; }
+  footer { color:var(--muted); font-size:12px; margin-top:18px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Repairs compensation schedule - October 2026</h1>
+  <p class="sub">Thornbeck Homes &middot; run 2026-10, worked on Monday 2 November 2026 &middot;
+     assessed under the Repairs Service Standard, 4th edition (2026)</p>
+
+  <div class="headline">
+    <div class="label">Total awarded</div>
+    <div class="amount">GBP 1,076.00</div>
+    <div class="label">45 awards across 86 jobs completed in October 2026</div>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h2>How the total is made up</h2>
+      <table class="bridge">
+        <tr><td>Late completion (s.5.3, capped at GBP 50.00 a job)</td>
+            <td class="v">GBP 866.00</td></tr>
+        <tr><td>Missed appointments (s.6.1, 15 &times; GBP 15.00)</td>
+            <td class="v">GBP 225.00</td></tr>
+        <tr><td>Sub-total before the per-job limit</td>
+            <td class="v">GBP 1,091.00</td></tr>
+        <tr class="less"><td>Less reduction for the GBP 80.00 per-job limit (s.7.1)</td>
+            <td class="v">-GBP 15.00</td></tr>
+        <tr class="sum"><td>Total awarded</td><td class="v">GBP 1,076.00</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h2>How it is paid (s.8)</h2>
+      <table class="bridge">
+        <tr><td>Bank transfer (39 awards)</td><td class="v">GBP 930.00</td></tr>
+        <tr><td>Rent account credit (6 awards, accounts in arrears)</td>
+            <td class="v">GBP 146.00</td></tr>
+        <tr class="sum"><td>Total awarded</td><td class="v">GBP 1,076.00</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="controls">
+    <label>Search <input type="search" id="q" placeholder="job, tenant, address, contractor..."></label>
+    <label>Payment route
+      <select id="route">
+        <option value="">all</option>
+        <option>Bank transfer</option>
+        <option>Rent account credit</option>
+      </select>
+    </label>
+    <label>Contractor
+      <select id="contractor"><option value="">all</option></select>
+    </label>
+    <label>Priority
+      <select id="priority"><option value="">all</option></select>
+    </label>
+    <label><input type="checkbox" id="missedonly"> missed appointments only</label>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="tablebox">
+    <table class="data" id="t">
+      <thead><tr><th data-key="award" data-num="0">Award<span class="arrow"></span></th><th data-key="job" data-num="0">Job<span class="arrow"></span></th><th data-key="tenant" data-num="0">Tenant<span class="arrow"></span></th><th data-key="tref" data-num="0">Tenant ref<span class="arrow"></span></th><th data-key="address" data-num="0">Address<span class="arrow"></span></th><th data-key="contractor" data-num="0">Contractor<span class="arrow"></span></th><th data-key="priority" data-num="0">Priority<span class="arrow"></span></th><th data-key="clock" data-num="0">Clock start<span class="arrow"></span></th><th data-key="target" data-num="0">Target<span class="arrow"></span></th><th data-key="done" data-num="0">Completed<span class="arrow"></span></th><th data-key="late_days" data-num="1">Days late<span class="arrow"></span></th><th data-key="late" data-num="1">Late GBP<span class="arrow"></span></th><th data-key="missed_n" data-num="1">Missed appts<span class="arrow"></span></th><th data-key="missed" data-num="1">Missed GBP<span class="arrow"></span></th><th data-key="total" data-num="1">Total GBP<span class="arrow"></span></th><th data-key="route" data-num="0">Payment route<span class="arrow"></span></th><th data-key="notice" data-num="0">Notice<span class="arrow"></span></th></tr></thead>
+      <tbody>
+<tr><td class="">CA-2026-10-01</td><td class="">RJ-25241</td><td class="">Ewan Oldroyd</td><td class="">T-12801</td><td class="">32 Beckside</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-10-07</td><td class="">2026-10-14</td><td class="">2026-10-19</td><td class="num">3</td><td class="num">16.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">16.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-02</td><td class="">RJ-25243</td><td class="">Fergus Fox</td><td class="">T-11915</td><td class="">2 Cragg View</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Routine</td><td class="">2026-09-14</td><td class="">2026-10-19</td><td class="">2026-10-23</td><td class="num">4</td><td class="num">18.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">18.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-03</td><td class="">RJ-25250</td><td class="">Jodie Gaunt</td><td class="">T-13317</td><td class="">Flat 29, Gilstead Walk</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-10-09</td><td class="">2026-10-16</td><td class="">2026-10-16</td><td class="num">0</td><td class="num">0.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">15.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-04</td><td class="">RJ-25258</td><td class="">Farah Dobson</td><td class="">T-11304</td><td class="">Flat 33, Gilstead Walk</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-09-09</td><td class="">2026-10-07</td><td class="">2026-10-20</td><td class="num">9</td><td class="num">28.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">43.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-05</td><td class="">RJ-25264</td><td class="">Owen Sutcliffe</td><td class="">T-10730</td><td class="">22 Millrace Road</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Routine</td><td class="">2026-08-03</td><td class="">2026-09-01</td><td class="">2026-10-28</td><td class="num">41</td><td class="num">50.00</td><td class="num">3</td><td class="num">45.00</td><td class="num">80.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-06</td><td class="">RJ-25288</td><td class="">Tamsin Walsh</td><td class="">T-11048</td><td class="">Flat 14, Spinner Court</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Emergency</td><td class="">2026-10-17</td><td class="">2026-10-18</td><td class="">2026-10-19</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-07</td><td class="">RJ-25297</td><td class="">Una Kaye</td><td class="">T-12231</td><td class="">28 Cragg View</td><td class="">Castleton Electrical Services</td><td class="">Emergency</td><td class="">2026-10-09</td><td class="">2026-10-10</td><td class="">2026-10-12</td><td class="num">2</td><td class="num">14.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">14.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-08</td><td class="">RJ-25320</td><td class="">Chantelle Hussain</td><td class="">T-11544</td><td class="">Flat 18, Fold Yard</td><td class="">Kestle Roofing</td><td class="">Routine</td><td class="">2026-09-15</td><td class="">2026-10-13</td><td class="">2026-10-29</td><td class="num">12</td><td class="num">34.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">49.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-09</td><td class="">RJ-25330</td><td class="">Wendy Oates</td><td class="">T-12815</td><td class="">Flat 7, Fold Yard</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-08-26</td><td class="">2026-09-24</td><td class="">2026-10-07</td><td class="num">9</td><td class="num">28.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">28.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-10</td><td class="">RJ-25335</td><td class="">Bethany Bairstow</td><td class="">T-12507</td><td class="">10 Dyehouse Street</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-09-10</td><td class="">2026-10-08</td><td class="">2026-10-28</td><td class="num">14</td><td class="num">38.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">38.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-11</td><td class="">RJ-25338</td><td class="">Hollie Dewhirst</td><td class="">T-13183</td><td class="">36 Weavers Rise</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-09-17</td><td class="">2026-10-15</td><td class="">2026-10-20</td><td class="num">3</td><td class="num">16.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">16.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-12</td><td class="">RJ-25343</td><td class="">Fiona Eastwood</td><td class="">T-13002</td><td class="">16 Ouzel Close</td><td class="">Ravensgill Building Maintenance</td><td class="">Routine</td><td class="">2026-09-22</td><td class="">2026-11-03</td><td class="">2026-10-21</td><td class="num">0</td><td class="num">0.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">15.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-13</td><td class="">RJ-25358</td><td class="">Vikram Jowett</td><td class="">T-11010</td><td class="">40 Millrace Road</td><td class="">Ravensgill Building Maintenance</td><td class="">Routine</td><td class="">2026-09-25</td><td class="">2026-10-23</td><td class="">2026-10-26</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-14</td><td class="">RJ-25364</td><td class="">Paula Netherwood</td><td class="">T-11933</td><td class="">21 Millrace Road</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Routine</td><td class="">2026-09-08</td><td class="">2026-10-06</td><td class="">2026-10-14</td><td class="num">6</td><td class="num">22.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">37.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-15</td><td class="">RJ-25368</td><td class="">Lewis Eastwood</td><td class="">T-11817</td><td class="">22 Tenter Lane</td><td class="">Castleton Electrical Services</td><td class="">Routine</td><td class="">2026-09-22</td><td class="">2026-10-20</td><td class="">2026-10-28</td><td class="num">6</td><td class="num">22.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">22.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-16</td><td class="">RJ-25374</td><td class="">Quentin Fox</td><td class="">T-12955</td><td class="">Flat 40, Gilstead Walk</td><td class="">Ravensgill Building Maintenance</td><td class="">Urgent</td><td class="">2026-09-25</td><td class="">2026-10-02</td><td class="">2026-10-08</td><td class="num">4</td><td class="num">18.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">33.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-17</td><td class="">RJ-25387</td><td class="">Janet Dobson</td><td class="">T-11266</td><td class="">34 Beckside</td><td class="">Castleton Electrical Services</td><td class="">Routine</td><td class="">2026-09-30</td><td class="">2026-10-28</td><td class="">2026-10-26</td><td class="num">0</td><td class="num">0.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">15.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-18</td><td class="">RJ-25409</td><td class="">Hollie Rushworth</td><td class="">T-12332</td><td class="">29 Cragg View</td><td class="">Ravensgill Building Maintenance</td><td class="">Urgent</td><td class="">2026-10-15</td><td class="">2026-10-22</td><td class="">2026-10-26</td><td class="num">2</td><td class="num">14.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">14.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-19</td><td class="">RJ-25429</td><td class="">Hamid Ackroyd</td><td class="">T-12874</td><td class="">Flat 46, Larch House</td><td class="">Castleton Electrical Services</td><td class="">Routine</td><td class="">2026-10-01</td><td class="">2026-10-29</td><td class="">2026-10-22</td><td class="num">0</td><td class="num">0.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">15.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-20</td><td class="">RJ-25430</td><td class="">Jodie Fawcett</td><td class="">T-11683</td><td class="">29 Dyehouse Street</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Urgent</td><td class="">2026-10-05</td><td class="">2026-10-12</td><td class="">2026-10-20</td><td class="num">6</td><td class="num">22.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">22.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-21</td><td class="">RJ-25432</td><td class="">Carys Riaz</td><td class="">T-11832</td><td class="">45 Millrace Road</td><td class="">Castleton Electrical Services</td><td class="">Routine</td><td class="">2026-09-28</td><td class="">2026-10-26</td><td class="">2026-10-27</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-22</td><td class="">RJ-25436</td><td class="">Lewis Ogden</td><td class="">T-12701</td><td class="">Flat 3, Rowan Court</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-10-01</td><td class="">2026-10-29</td><td class="">2026-10-19</td><td class="num">0</td><td class="num">0.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">15.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-23</td><td class="">RJ-25439</td><td class="">Hollie Uttley</td><td class="">T-11770</td><td class="">Flat 25, Spinner Court</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-10-12</td><td class="">2026-10-19</td><td class="">2026-10-20</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-24</td><td class="">RJ-25447</td><td class="">Saeed Bairstow</td><td class="">T-10873</td><td class="">33 Weavers Rise</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Routine</td><td class="">2026-08-18</td><td class="">2026-09-16</td><td class="">2026-10-05</td><td class="num">13</td><td class="num">36.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">36.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-25</td><td class="">RJ-25451</td><td class="">Craig Illingworth</td><td class="">T-12581</td><td class="">Flat 4, Gilstead Walk</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Urgent</td><td class="">2026-09-22</td><td class="">2026-09-29</td><td class="">2026-10-05</td><td class="num">4</td><td class="num">18.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">18.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-26</td><td class="">RJ-25457</td><td class="">Yasmin Netherwood</td><td class="">T-12110</td><td class="">Flat 39, Gilstead Walk</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-10-13</td><td class="">2026-10-20</td><td class="">2026-10-26</td><td class="num">4</td><td class="num">18.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">18.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-27</td><td class="">RJ-25483</td><td class="">Sabina Ackroyd</td><td class="">T-11689</td><td class="">Flat 7, Gilstead Walk</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-09-25</td><td class="">2026-10-02</td><td class="">2026-10-05</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-28</td><td class="">RJ-25503</td><td class="">Jamal Shackleton</td><td class="">T-12704</td><td class="">23 Beckside</td><td class="">Ravensgill Building Maintenance</td><td class="">Urgent</td><td class="">2026-10-21</td><td class="">2026-10-28</td><td class="">2026-10-29</td><td class="num">1</td><td class="num">12.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">27.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-29</td><td class="">RJ-25505</td><td class="">Kofi Lumb</td><td class="">T-10494</td><td class="">41 Millrace Road</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-09-24</td><td class="">2026-10-01</td><td class="">2026-10-06</td><td class="num">3</td><td class="num">16.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">16.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-30</td><td class="">RJ-25509</td><td class="">Vince Moorhouse</td><td class="">T-10598</td><td class="">17 Weavers Rise</td><td class="">Castleton Electrical Services</td><td class="">Routine</td><td class="">2026-08-24</td><td class="">2026-09-22</td><td class="">2026-10-05</td><td class="num">9</td><td class="num">28.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">43.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-31</td><td class="">RJ-25534</td><td class="">Yasmin Rushworth</td><td class="">T-13132</td><td class="">Flat 20, Rowan Court</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-09-30</td><td class="">2026-10-07</td><td class="">2026-10-08</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-32</td><td class="">RJ-25542</td><td class="">Jamal Jessop</td><td class="">T-13079</td><td class="">33 Millrace Road</td><td class="">Kestle Roofing</td><td class="">Routine</td><td class="">2026-09-14</td><td class="">2026-10-12</td><td class="">2026-10-26</td><td class="num">10</td><td class="num">30.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">30.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-33</td><td class="">RJ-25548</td><td class="">Orla Hirst</td><td class="">T-11720</td><td class="">18 Millrace Road</td><td class="">Ravensgill Building Maintenance</td><td class="">Routine</td><td class="">2026-08-27</td><td class="">2026-09-25</td><td class="">2026-10-08</td><td class="num">9</td><td class="num">28.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">28.00</td><td class="">Bank transfer</td><td class="">Letter</td></tr>
+<tr><td class="">CA-2026-10-34</td><td class="">RJ-25565</td><td class="">Leanne Tolson</td><td class="">T-11906</td><td class="">39 Millrace Road</td><td class="">Ravensgill Building Maintenance</td><td class="">Routine</td><td class="">2026-08-31</td><td class="">2026-09-28</td><td class="">2026-10-16</td><td class="num">14</td><td class="num">38.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">38.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-35</td><td class="">RJ-25569</td><td class="">Zara Tasker</td><td class="">T-11170</td><td class="">Flat 27, Rowan Court</td><td class="">Ravensgill Building Maintenance</td><td class="">Urgent</td><td class="">2026-10-19</td><td class="">2026-10-26</td><td class="">2026-10-29</td><td class="num">3</td><td class="num">16.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">16.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-36</td><td class="">RJ-25574</td><td class="">Danuta Mahmood</td><td class="">T-12519</td><td class="">29 Weavers Rise</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-09-14</td><td class="">2026-10-12</td><td class="">2026-10-26</td><td class="num">10</td><td class="num">30.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">30.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-37</td><td class="">RJ-25585</td><td class="">Gareth Umpleby</td><td class="">T-11486</td><td class="">Flat 13, Gilstead Walk</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-09-22</td><td class="">2026-09-29</td><td class="">2026-10-07</td><td class="num">6</td><td class="num">22.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">22.00</td><td class="">Rent account credit</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-38</td><td class="">RJ-25592</td><td class="">Rhian Kaye</td><td class="">T-13327</td><td class="">23 Millrace Road</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-09-29</td><td class="">2026-10-06</td><td class="">2026-10-08</td><td class="num">2</td><td class="num">14.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">14.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-39</td><td class="">RJ-25597</td><td class="">Kieran Bairstow</td><td class="">T-10703</td><td class="">Flat 19, Spinner Court</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Urgent</td><td class="">2026-09-29</td><td class="">2026-10-06</td><td class="">2026-10-07</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-40</td><td class="">RJ-25603</td><td class="">Ivor Fox</td><td class="">T-12839</td><td class="">11 Beckside</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-09-11</td><td class="">2026-10-09</td><td class="">2026-10-19</td><td class="num">6</td><td class="num">22.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">22.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-41</td><td class="">RJ-25624</td><td class="">Kieran Exley</td><td class="">T-12263</td><td class="">12 Weavers Rise</td><td class="">Direct Works</td><td class="">Routine</td><td class="">2026-08-18</td><td class="">2026-09-16</td><td class="">2026-10-05</td><td class="num">13</td><td class="num">36.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">36.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-42</td><td class="">RJ-25628</td><td class="">Kofi Ramsden</td><td class="">T-11282</td><td class="">2 Ouzel Close</td><td class="">Marrick Plumbing &amp; Heating</td><td class="">Urgent</td><td class="">2026-10-02</td><td class="">2026-10-09</td><td class="">2026-10-12</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-43</td><td class="">RJ-25637</td><td class="">Vikram Priestley</td><td class="">T-10592</td><td class="">49 Millrace Road</td><td class="">Kestle Roofing</td><td class="">Urgent</td><td class="">2026-10-09</td><td class="">2026-10-16</td><td class="">2026-10-19</td><td class="num">1</td><td class="num">12.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">12.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-44</td><td class="">RJ-25645</td><td class="">Lorna Sutcliffe</td><td class="">T-12731</td><td class="">17 Beckside</td><td class="">Direct Works</td><td class="">Urgent</td><td class="">2026-10-13</td><td class="">2026-10-20</td><td class="">2026-10-26</td><td class="num">4</td><td class="num">18.00</td><td class="num">1</td><td class="num">15.00</td><td class="num">33.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+<tr><td class="">CA-2026-10-45</td><td class="">RJ-25652</td><td class="">Brendan Sutcliffe</td><td class="">T-11733</td><td class="">Flat 9, Fold Yard</td><td class="">Ravensgill Building Maintenance</td><td class="">Routine</td><td class="">2026-08-19</td><td class="">2026-09-17</td><td class="">2026-10-06</td><td class="num">13</td><td class="num">36.00</td><td class="num">0</td><td class="num">0.00</td><td class="num">36.00</td><td class="">Bank transfer</td><td class="">Text</td></tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="11">Shown</td>
+          <td class="num" id="fLate"></td>
+          <td class="num" id="fMissedN"></td>
+          <td class="num" id="fMissed"></td>
+          <td class="num" id="fTotal"></td>
+          <td colspan="2"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+  <footer>
+    Click a column heading to sort; click again to reverse. Amounts are in pounds to two decimal
+    places and dates are YYYY-MM-DD. The clock start is the day the tenant first reported the
+    defect through a monitored channel (s.4.1); the target reflects any move for a tenant
+    cancellation or a no-access visit (s.6.3).
+  </footer>
+
+</div>
+<script>
+(function () {
+  var table = document.getElementById('t');
+  var body = table.tBodies[0];
+  var rows = Array.prototype.slice.call(body.rows);
+  var heads = Array.prototype.slice.call(table.tHead.rows[0].cells);
+  var q = document.getElementById('q');
+  var selRoute = document.getElementById('route');
+  var selCon = document.getElementById('contractor');
+  var selPri = document.getElementById('priority');
+  var missedOnly = document.getElementById('missedonly');
+  var count = document.getElementById('count');
+  var COL = {};
+  heads.forEach(function (h, i) { COL[h.dataset.key] = i; });
+
+  function fill(sel, key) {
+    var seen = {};
+    rows.forEach(function (r) { seen[r.cells[COL[key]].textContent] = 1; });
+    Object.keys(seen).sort().forEach(function (v) {
+      var o = document.createElement('option'); o.textContent = v; sel.appendChild(o);
+    });
+  }
+  fill(selCon, 'contractor');
+  fill(selPri, 'priority');
+
+  function apply() {
+    var term = q.value.trim().toLowerCase();
+    var shown = 0, late = 0, missed = 0, missedN = 0, total = 0;
+    rows.forEach(function (r) {
+      var ok = true;
+      if (term && r.textContent.toLowerCase().indexOf(term) === -1) ok = false;
+      if (ok && selRoute.value && r.cells[COL.route].textContent !== selRoute.value) ok = false;
+      if (ok && selCon.value && r.cells[COL.contractor].textContent !== selCon.value) ok = false;
+      if (ok && selPri.value && r.cells[COL.priority].textContent !== selPri.value) ok = false;
+      if (ok && missedOnly.checked && r.cells[COL.missed_n].textContent === '0') ok = false;
+      r.style.display = ok ? '' : 'none';
+      if (ok) {
+        shown++;
+        late += parseFloat(r.cells[COL.late].textContent);
+        missed += parseFloat(r.cells[COL.missed].textContent);
+        missedN += parseInt(r.cells[COL.missed_n].textContent, 10);
+        total += parseFloat(r.cells[COL.total].textContent);
+      }
+    });
+    count.textContent = shown + ' of ' + rows.length + ' awards shown';
+    document.getElementById('fLate').textContent = late.toFixed(2);
+    document.getElementById('fMissedN').textContent = missedN;
+    document.getElementById('fMissed').textContent = missed.toFixed(2);
+    document.getElementById('fTotal').textContent = total.toFixed(2);
+  }
+
+  [q, selRoute, selCon, selPri, missedOnly].forEach(function (el) {
+    el.addEventListener('input', apply);
+    el.addEventListener('change', apply);
+  });
+
+  var sortCol = -1, sortAsc = true;
+  heads.forEach(function (h, i) {
+    h.addEventListener('click', function () {
+      sortAsc = (sortCol === i) ? !sortAsc : true;
+      sortCol = i;
+      var num = h.dataset.num === '1';
+      rows.sort(function (a, b) {
+        var x = a.cells[i].textContent, y = b.cells[i].textContent;
+        var c = num ? (parseFloat(x) - parseFloat(y)) : x.localeCompare(y);
+        return sortAsc ? c : -c;
+      });
+      rows.forEach(function (r) { body.appendChild(r); });
+      heads.forEach(function (o) { o.querySelector('.arrow').textContent = ''; });
+      h.querySelector('.arrow').textContent = sortAsc ? '\u25B2' : '\u25BC';
+    });
+  });
+
+  apply();
+})();
+</script>
+</body>
+</html>

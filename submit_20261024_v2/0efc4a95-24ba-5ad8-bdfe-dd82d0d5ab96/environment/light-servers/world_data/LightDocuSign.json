@@ -1,0 +1,92 @@
+{
+ "envelopes": [
+  {
+   "envelope_id": "env-kra-01",
+   "status": "completed",
+   "email_subject": "Please sign: cleaning services contract extension",
+   "sender_name": "Simon Tranter",
+   "sender_email": "simon.tranter@kestrelridge.example",
+   "created_time": "2026-09-10T09:00:00Z",
+   "sent_time": "2026-09-10T09:05:00Z",
+   "completed_time": "2026-09-14T16:20:00Z",
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-02",
+   "status": "completed",
+   "email_subject": "Please sign: supply teacher agency terms 2026-27",
+   "sender_name": "Martin Healey",
+   "sender_email": "martin.healey@kestrelridge.example",
+   "created_time": "2026-09-22T10:30:00Z",
+   "sent_time": "2026-09-22T10:31:00Z",
+   "completed_time": "2026-09-23T08:45:00Z",
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-03",
+   "status": "sent",
+   "email_subject": "Please sign: sports hall roof works quotation",
+   "sender_name": "Simon Tranter",
+   "sender_email": "simon.tranter@kestrelridge.example",
+   "created_time": "2027-01-29T14:00:00Z",
+   "sent_time": "2027-01-29T14:02:00Z",
+   "completed_time": null,
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-04",
+   "status": "delivered",
+   "email_subject": "Please sign: governor declaration of interests",
+   "sender_name": "Harriet Vale",
+   "sender_email": "harriet.vale@kestrelridge.example",
+   "created_time": "2027-02-01T09:15:00Z",
+   "sent_time": "2027-02-01T09:16:00Z",
+   "completed_time": null,
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-05",
+   "status": "voided",
+   "email_subject": "Voided: photocopier lease variation (wrong term)",
+   "sender_name": "Simon Tranter",
+   "sender_email": "simon.tranter@kestrelridge.example",
+   "created_time": "2026-11-03T11:00:00Z",
+   "sent_time": "2026-11-03T11:04:00Z",
+   "completed_time": null,
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-06",
+   "status": "completed",
+   "email_subject": "Please sign: new starter contract, science technician",
+   "sender_name": "Martin Healey",
+   "sender_email": "martin.healey@kestrelridge.example",
+   "created_time": "2026-12-08T15:10:00Z",
+   "sent_time": "2026-12-08T15:12:00Z",
+   "completed_time": "2026-12-11T10:00:00Z",
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-07",
+   "status": "completed",
+   "email_subject": "Please sign: catering equipment maintenance agreement",
+   "sender_name": "Hannah Clegg",
+   "sender_email": "hannah.clegg@kestrelridge.example",
+   "created_time": "2026-10-15T13:20:00Z",
+   "sent_time": "2026-10-15T13:22:00Z",
+   "completed_time": "2026-10-19T09:30:00Z",
+   "template_id": null
+  },
+  {
+   "envelope_id": "env-kra-08",
+   "status": "sent",
+   "email_subject": "Please sign: data sharing agreement with the local authority",
+   "sender_name": "Kirsty Lund",
+   "sender_email": "kirsty.lund@kestrelridge.example",
+   "created_time": "2027-02-04T10:00:00Z",
+   "sent_time": "2027-02-04T10:03:00Z",
+   "completed_time": null,
+   "template_id": null
+  }
+ ]
+}

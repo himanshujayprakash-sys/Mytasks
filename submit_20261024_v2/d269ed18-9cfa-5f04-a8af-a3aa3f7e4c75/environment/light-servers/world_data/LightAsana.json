@@ -1,0 +1,120 @@
+{
+ "workspace": {
+  "gid": "1240600000000001",
+  "name": "Fernhill Estate"
+ },
+ "users": [
+  {
+   "gid": "1240600000000300",
+   "name": "Caroline Fernhill",
+   "email": "caroline.fernhill@fernhillbarn.example",
+   "workspace_gid": "1240600000000001"
+  },
+  {
+   "gid": "1240600000000301",
+   "name": "Marisol Baptiste",
+   "email": "marisol.baptiste@fernhillbarn.example",
+   "workspace_gid": "1240600000000001"
+  },
+  {
+   "gid": "1240600000000302",
+   "name": "Bronwen Teague",
+   "email": "bronwen.teague@fernhillbarn.example",
+   "workspace_gid": "1240600000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1240600000000101",
+   "name": "Holiday cottages refurbishment 2027",
+   "notes": "Cottages 1 and 3 before Easter.",
+   "color": "dark-green",
+   "archived": false,
+   "owner_gid": "1240600000000300",
+   "workspace_gid": "1240600000000001",
+   "created_at": "2026-10-05T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1240600000000200",
+   "name": "Planning",
+   "project_gid": "1240600000000101",
+   "created_at": "2026-10-05T09:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000201",
+   "name": "Works",
+   "project_gid": "1240600000000101",
+   "created_at": "2026-10-05T09:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000202",
+   "name": "Furnishing",
+   "project_gid": "1240600000000101",
+   "created_at": "2026-10-05T09:00:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1240600000000400",
+   "name": "Survey cottage 3 roof",
+   "project_gid": "1240600000000101",
+   "section_gid": "1240600000000200",
+   "assignee_gid": "1240600000000301",
+   "completed": true,
+   "due_on": "2026-11-15",
+   "notes": "",
+   "created_at": "2026-10-10T10:00:00.000Z",
+   "modified_at": "2026-12-01T10:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000401",
+   "name": "Quotes for new kitchens",
+   "project_gid": "1240600000000101",
+   "section_gid": "1240600000000200",
+   "assignee_gid": "1240600000000300",
+   "completed": false,
+   "due_on": "2027-01-20",
+   "notes": "",
+   "created_at": "2026-10-11T10:00:00.000Z",
+   "modified_at": "2026-12-02T10:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000402",
+   "name": "Order cottage 3 beds",
+   "project_gid": "1240600000000101",
+   "section_gid": "1240600000000202",
+   "assignee_gid": "1240600000000301",
+   "completed": false,
+   "due_on": "2027-02-10",
+   "notes": "",
+   "created_at": "2026-10-12T10:00:00.000Z",
+   "modified_at": "2026-12-03T10:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000403",
+   "name": "Repaint cottage 1",
+   "project_gid": "1240600000000101",
+   "section_gid": "1240600000000201",
+   "assignee_gid": "1240600000000301",
+   "completed": false,
+   "due_on": "2027-01-30",
+   "notes": "",
+   "created_at": "2026-10-13T10:00:00.000Z",
+   "modified_at": "2026-12-04T10:00:00.000Z"
+  },
+  {
+   "gid": "1240600000000404",
+   "name": "Photograph cottages for website",
+   "project_gid": "1240600000000101",
+   "section_gid": "1240600000000202",
+   "assignee_gid": "1240600000000302",
+   "completed": false,
+   "due_on": "2027-03-01",
+   "notes": "",
+   "created_at": "2026-10-14T10:00:00.000Z",
+   "modified_at": "2026-12-05T10:00:00.000Z"
+  }
+ ]
+}

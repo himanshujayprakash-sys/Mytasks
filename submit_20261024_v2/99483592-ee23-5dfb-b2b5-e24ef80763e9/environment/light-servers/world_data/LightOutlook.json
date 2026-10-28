@@ -1,0 +1,108 @@
+{
+ "messages": [
+  {
+   "id": "AAMkGWP0000001",
+   "subject": "Invoice 7741: honeywagon hire November",
+   "from_name": "Coastline Welfare Hire",
+   "from_address": "accounts@coastlinewelfare.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Please find our invoice for November honeywagon hire, net 30.",
+   "contentType": "html",
+   "isRead": true,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-16T09:20:00Z"
+  },
+  {
+   "id": "AAMkGWP0000002",
+   "subject": "Remittance: Salt and Ember catering",
+   "from_name": "Salt and Ember",
+   "from_address": "bookings@saltandember.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Thank you for your payment of week 45 catering.",
+   "contentType": "html",
+   "isRead": true,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-13T14:00:00Z"
+  },
+  {
+   "id": "AAMkGWP0000003",
+   "subject": "Cost report query",
+   "from_name": "Abigail Thorne",
+   "from_address": "abigail.thorne@mercerfilmfinance.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Could you send the backup for the generator line in week 46?",
+   "contentType": "html",
+   "isRead": true,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-17T08:55:00Z"
+  },
+  {
+   "id": "AAMkGWP0000004",
+   "subject": "VAT return reminder",
+   "from_name": "Pargeter and Lowe Accountants",
+   "from_address": "vat@pargeterlowe.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Your quarterly VAT return is due on 7 December.",
+   "contentType": "html",
+   "isRead": true,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-12T10:30:00Z"
+  },
+  {
+   "id": "AAMkGWP0000005",
+   "subject": "Petty cash top-up",
+   "from_name": "Nell Ashdown",
+   "from_address": "nell.ashdown@greyfriarswharf.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Float 3 needs topping up before Monday.",
+   "contentType": "html",
+   "isRead": false,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-19T16:40:00Z"
+  },
+  {
+   "id": "AAMkGWP0000006",
+   "subject": "Invoice 2290: generator service",
+   "from_name": "Greenlight Generators",
+   "from_address": "hello@greenlightgenerators.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Invoice for the replacement generator on day 27.",
+   "contentType": "html",
+   "isRead": false,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-18T11:10:00Z"
+  },
+  {
+   "id": "AAMkGWP0000007",
+   "subject": "Drawdown request form",
+   "from_name": "Abigail Thorne",
+   "from_address": "abigail.thorne@mercerfilmfinance.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Form attached for the December drawdown; two signatures please.",
+   "contentType": "html",
+   "isRead": false,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-18T14:20:00Z"
+  },
+  {
+   "id": "AAMkGWP0000008",
+   "subject": "Wrap party deposit receipt",
+   "from_name": "Rookhaven Assembly Rooms",
+   "from_address": "events@rookhavenassembly.example",
+   "to_name": "Lucinda Fairweather",
+   "to_address": "lucinda.fairweather@greyfriarswharf.example",
+   "bodyPreview": "Deposit received with thanks.",
+   "contentType": "html",
+   "isRead": true,
+   "importance": "normal",
+   "receivedDateTime": "2026-11-06T10:00:00Z"
+  }
+ ]
+}

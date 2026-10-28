@@ -1,0 +1,163 @@
+{
+ "files": [
+  {
+   "id": "gd-kra-root",
+   "name": "Business office",
+   "mime_type": "application/vnd.google-apps.folder",
+   "parent_id": null,
+   "size": 0,
+   "created_time": "2026-09-01T09:00:00Z",
+   "modified_time": "2026-09-01T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-root/view"
+  },
+  {
+   "id": "gd-kra-bud",
+   "name": "Budget 2026-27",
+   "mime_type": "application/vnd.google-apps.folder",
+   "parent_id": "gd-kra-root",
+   "size": 0,
+   "created_time": "2026-09-01T09:00:00Z",
+   "modified_time": "2026-09-01T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-bud/view"
+  },
+  {
+   "id": "gd-kra-site",
+   "name": "Site and contracts",
+   "mime_type": "application/vnd.google-apps.folder",
+   "parent_id": "gd-kra-root",
+   "size": 0,
+   "created_time": "2026-09-01T09:00:00Z",
+   "modified_time": "2026-09-01T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-site/view"
+  },
+  {
+   "id": "gd-kra-f01",
+   "name": "Budget monitoring - autumn term.xlsx",
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "parent_id": "gd-kra-bud",
+   "size": 84211,
+   "created_time": "2026-12-14T09:00:00Z",
+   "modified_time": "2026-12-14T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": true,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f01/view"
+  },
+  {
+   "id": "gd-kra-f02",
+   "name": "Energy bills comparison 2025-2026.xlsx",
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "parent_id": "gd-kra-bud",
+   "size": 40312,
+   "created_time": "2026-11-03T09:00:00Z",
+   "modified_time": "2026-11-03T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f02/view"
+  },
+  {
+   "id": "gd-kra-f03",
+   "name": "Sports hall roof - surveyor's report.pdf",
+   "mime_type": "application/pdf",
+   "parent_id": "gd-kra-site",
+   "size": 1822300,
+   "created_time": "2026-10-21T09:00:00Z",
+   "modified_time": "2026-10-21T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f03/view"
+  },
+  {
+   "id": "gd-kra-f04",
+   "name": "Cleaning contract renewal notes.docx",
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "parent_id": "gd-kra-site",
+   "size": 22100,
+   "created_time": "2027-01-19T09:00:00Z",
+   "modified_time": "2027-01-19T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f04/view"
+  },
+  {
+   "id": "gd-kra-f05",
+   "name": "Photocopier lease schedule.pdf",
+   "mime_type": "application/pdf",
+   "parent_id": "gd-kra-site",
+   "size": 310450,
+   "created_time": "2026-09-15T09:00:00Z",
+   "modified_time": "2026-09-15T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f05/view"
+  },
+  {
+   "id": "gd-kra-f06",
+   "name": "Staff sickness cover insurance quotes.docx",
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "parent_id": "gd-kra-bud",
+   "size": 18800,
+   "created_time": "2027-01-28T09:00:00Z",
+   "modified_time": "2027-01-28T15:30:00Z",
+   "owner_email": "simon.tranter@kestrelridge.example",
+   "starred": false,
+   "trashed": false,
+   "web_view_link": "https://drive.google.com/file/d/gd-kra-f06/view"
+  }
+ ],
+ "permissions": [
+  {
+   "id": "perm-kra-01",
+   "file_id": "gd-kra-root",
+   "type": "user",
+   "role": "owner",
+   "email": "simon.tranter@kestrelridge.example",
+   "display_name": "Simon Tranter"
+  },
+  {
+   "id": "perm-kra-02",
+   "file_id": "gd-kra-bud",
+   "type": "user",
+   "role": "writer",
+   "email": "janet.hollins@kestrelridge.example",
+   "display_name": "Janet Hollins"
+  },
+  {
+   "id": "perm-kra-03",
+   "file_id": "gd-kra-bud",
+   "type": "user",
+   "role": "reader",
+   "email": "harriet.vale@kestrelridge.example",
+   "display_name": "Harriet Vale"
+  },
+  {
+   "id": "perm-kra-04",
+   "file_id": "gd-kra-site",
+   "type": "user",
+   "role": "writer",
+   "email": "ben.ashworth@kestrelridge.example",
+   "display_name": "Ben Ashworth"
+  },
+  {
+   "id": "perm-kra-05",
+   "file_id": "gd-kra-f03",
+   "type": "user",
+   "role": "reader",
+   "email": "martin.healey@kestrelridge.example",
+   "display_name": "Martin Healey"
+  }
+ ]
+}

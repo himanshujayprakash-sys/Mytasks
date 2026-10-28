@@ -1,0 +1,236 @@
+{
+ "items": [
+  {
+   "item_id": "item-wx001",
+   "board_id": "board-wx-grounds",
+   "group_id": "grp-wx-in-hand",
+   "name": "Clear leaves from the riverside path",
+   "created_at": "2026-08-28T15:00:00Z"
+  },
+  {
+   "item_id": "item-wx002",
+   "board_id": "board-wx-grounds",
+   "group_id": "grp-wx-finished",
+   "name": "Repair the bench by the bandstand",
+   "created_at": "2026-09-07T15:35:00Z"
+  },
+  {
+   "item_id": "item-wx003",
+   "board_id": "board-wx-grounds",
+   "group_id": "grp-wx-requests",
+   "name": "Dog waste bin missing at Saxon Rise",
+   "created_at": "2026-09-17T12:20:00Z"
+  },
+  {
+   "item_id": "item-wx004",
+   "board_id": "board-wx-grounds",
+   "group_id": "grp-wx-finished",
+   "name": "Cut back the hedge on the market square side",
+   "created_at": "2026-09-18T12:20:00Z"
+  },
+  {
+   "item_id": "item-wx005",
+   "board_id": "board-wx-grounds",
+   "group_id": "grp-wx-in-hand",
+   "name": "Cemetery lodge roof repair",
+   "created_at": "2026-10-02T11:40:00Z"
+  },
+  {
+   "item_id": "item-wx006",
+   "board_id": "board-wx-events",
+   "group_id": "grp-wx-requests",
+   "name": "Brass band afternoons, spring",
+   "created_at": "2026-10-09T11:40:00Z"
+  },
+  {
+   "item_id": "item-wx007",
+   "board_id": "board-wx-events",
+   "group_id": "grp-wx-in-hand",
+   "name": "Riverside fireworks display",
+   "created_at": "2026-10-22T09:40:00Z"
+  },
+  {
+   "item_id": "item-wx008",
+   "board_id": "board-wx-events",
+   "group_id": "grp-wx-finished",
+   "name": "Winter 10k route approved",
+   "created_at": "2026-10-28T12:55:00Z"
+  }
+ ],
+ "column_values": [
+  {
+   "item_id": "item-wx001",
+   "column_id": "status",
+   "text": "In Progress",
+   "value": null
+  },
+  {
+   "item_id": "item-wx001",
+   "column_id": "owner",
+   "text": "Adrian Tillotson",
+   "value": "usr-wx6"
+  },
+  {
+   "item_id": "item-wx001",
+   "column_id": "due",
+   "text": "2026-09-25",
+   "value": null
+  },
+  {
+   "item_id": "item-wx001",
+   "column_id": "notes",
+   "text": "Blowers back from servicing.",
+   "value": null
+  },
+  {
+   "item_id": "item-wx002",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-wx002",
+   "column_id": "owner",
+   "text": "Adrian Tillotson",
+   "value": "usr-wx6"
+  },
+  {
+   "item_id": "item-wx002",
+   "column_id": "due",
+   "text": "2026-09-16",
+   "value": null
+  },
+  {
+   "item_id": "item-wx003",
+   "column_id": "status",
+   "text": "Todo",
+   "value": null
+  },
+  {
+   "item_id": "item-wx003",
+   "column_id": "owner",
+   "text": "Rowena Blackwood",
+   "value": "usr-wx4"
+  },
+  {
+   "item_id": "item-wx003",
+   "column_id": "due",
+   "text": "2026-10-05",
+   "value": null
+  },
+  {
+   "item_id": "item-wx003",
+   "column_id": "notes",
+   "text": "Downland Waste to supply a new one.",
+   "value": null
+  },
+  {
+   "item_id": "item-wx004",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-wx004",
+   "column_id": "owner",
+   "text": "Adrian Tillotson",
+   "value": "usr-wx6"
+  },
+  {
+   "item_id": "item-wx004",
+   "column_id": "due",
+   "text": "2026-09-23",
+   "value": null
+  },
+  {
+   "item_id": "item-wx005",
+   "column_id": "status",
+   "text": "In Progress",
+   "value": null
+  },
+  {
+   "item_id": "item-wx005",
+   "column_id": "owner",
+   "text": "Leanne Trago",
+   "value": "usr-wx12"
+  },
+  {
+   "item_id": "item-wx005",
+   "column_id": "due",
+   "text": "2026-10-07",
+   "value": null
+  },
+  {
+   "item_id": "item-wx005",
+   "column_id": "notes",
+   "text": "Roofers booked for Wednesday.",
+   "value": null
+  },
+  {
+   "item_id": "item-wx006",
+   "column_id": "status",
+   "text": "Todo",
+   "value": null
+  },
+  {
+   "item_id": "item-wx006",
+   "column_id": "owner",
+   "text": "Helen Quarrie",
+   "value": "usr-wx7"
+  },
+  {
+   "item_id": "item-wx006",
+   "column_id": "due",
+   "text": "2026-10-26",
+   "value": null
+  },
+  {
+   "item_id": "item-wx006",
+   "column_id": "notes",
+   "text": "Waiting for the band's dates.",
+   "value": null
+  },
+  {
+   "item_id": "item-wx007",
+   "column_id": "status",
+   "text": "In Progress",
+   "value": null
+  },
+  {
+   "item_id": "item-wx007",
+   "column_id": "owner",
+   "text": "Helen Quarrie",
+   "value": "usr-wx7"
+  },
+  {
+   "item_id": "item-wx007",
+   "column_id": "due",
+   "text": "2026-11-11",
+   "value": null
+  },
+  {
+   "item_id": "item-wx008",
+   "column_id": "status",
+   "text": "Done",
+   "value": null
+  },
+  {
+   "item_id": "item-wx008",
+   "column_id": "owner",
+   "text": "Helen Quarrie",
+   "value": "usr-wx7"
+  },
+  {
+   "item_id": "item-wx008",
+   "column_id": "due",
+   "text": "2026-11-01",
+   "value": null
+  },
+  {
+   "item_id": "item-wx008",
+   "column_id": "notes",
+   "text": "Route avoids the playground.",
+   "value": null
+  }
+ ]
+}

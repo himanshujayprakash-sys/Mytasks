@@ -1,0 +1,173 @@
+{
+ "lists": [
+  {
+   "id": "list-tj-newsletter",
+   "name": "Thornwick Juniors newsletter",
+   "stats": {
+    "member_count": 10,
+    "unsubscribe_count": 1,
+    "open_rate": 0.52,
+    "click_rate": 0.11
+   },
+   "date_created": "2025-09-01T09:00:00+00:00"
+  }
+ ],
+ "members": [
+  {
+   "id": "6e3c5d77e5070ece7604b0950256d5a2",
+   "list_id": "list-tj-newsletter",
+   "email_address": "bev.crankshaw@mailbox.example",
+   "full_name": "Beverley Crankshaw",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-10T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@6e3c5d77e5070ece7604b0950256d5a2"
+  },
+  {
+   "id": "992d1e665b5f1fa8489916e8fffff947",
+   "list_id": "list-tj-newsletter",
+   "email_address": "d.ellery@homemail.example",
+   "full_name": "Duncan Ellery",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-11T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@992d1e665b5f1fa8489916e8fffff947"
+  },
+  {
+   "id": "c41da09b33ebe0915b2f102541268175",
+   "list_id": "list-tj-newsletter",
+   "email_address": "faye.gorton@inbox.example",
+   "full_name": "Faye Gorton",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-12T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@c41da09b33ebe0915b2f102541268175"
+  },
+  {
+   "id": "5b74b6ff847621ffe4514d444999330b",
+   "list_id": "list-tj-newsletter",
+   "email_address": "g.hirst@mailbox.example",
+   "full_name": "Gordon Hirst",
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-09-13T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@5b74b6ff847621ffe4514d444999330b"
+  },
+  {
+   "id": "c381d85a09a8e71a98df576b85d89a63",
+   "list_id": "list-tj-newsletter",
+   "email_address": "ivy.jessop@homemail.example",
+   "full_name": "Ivy Jessop",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-14T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@c381d85a09a8e71a98df576b85d89a63"
+  },
+  {
+   "id": "a9b035488c26c8282296ad2d4d8505b6",
+   "list_id": "list-tj-newsletter",
+   "email_address": "karl.lumb@inbox.example",
+   "full_name": "Karl Lumb",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-15T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@a9b035488c26c8282296ad2d4d8505b6"
+  },
+  {
+   "id": "f7e741271a79f705d52115500a33e1e0",
+   "list_id": "list-tj-newsletter",
+   "email_address": "mandy.nolan@mailbox.example",
+   "full_name": "Mandy Nolan",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-16T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@f7e741271a79f705d52115500a33e1e0"
+  },
+  {
+   "id": "f44c7df836e407b039d1679efc475b14",
+   "list_id": "list-tj-newsletter",
+   "email_address": "pete.quirke@homemail.example",
+   "full_name": "Pete Quirke",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-17T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@f44c7df836e407b039d1679efc475b14"
+  },
+  {
+   "id": "95503d7d9a220b7d65f7b2a7d6abed7d",
+   "list_id": "list-tj-newsletter",
+   "email_address": "rosie.starkey@inbox.example",
+   "full_name": "Rosie Starkey",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-18T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@95503d7d9a220b7d65f7b2a7d6abed7d"
+  },
+  {
+   "id": "bb9b48e2971e0422df4ec87aa0491ae5",
+   "list_id": "list-tj-newsletter",
+   "email_address": "terry.unsworth@mailbox.example",
+   "full_name": "Terry Unsworth",
+   "status": "subscribed",
+   "timestamp_signup": "2025-09-19T10:00:00.000Z",
+   "member_rating": 3,
+   "_pk": "list-tj-newsletter@bb9b48e2971e0422df4ec87aa0491ae5"
+  }
+ ],
+ "campaigns": [
+  {
+   "id": "camp-tj-09",
+   "list_id": "list-tj-newsletter",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 9,
+   "send_time": "2026-09-01T10:00:00.000Z",
+   "create_time": "2026-08-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-tj-newsletter"
+   },
+   "settings": {
+    "subject_line": "Thornwick Juniors news: September",
+    "from_name": "Thornwick Juniors FC",
+    "reply_to": "marcus.oyelowo@thornwickjuniors.example",
+    "title": "Newsletter September 2026"
+   }
+  },
+  {
+   "id": "camp-tj-10",
+   "list_id": "list-tj-newsletter",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 9,
+   "send_time": "2026-10-01T10:00:00.000Z",
+   "create_time": "2026-09-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-tj-newsletter"
+   },
+   "settings": {
+    "subject_line": "Thornwick Juniors news: October",
+    "from_name": "Thornwick Juniors FC",
+    "reply_to": "marcus.oyelowo@thornwickjuniors.example",
+    "title": "Newsletter October 2026"
+   }
+  },
+  {
+   "id": "camp-tj-11",
+   "list_id": "list-tj-newsletter",
+   "type": "regular",
+   "status": "sent",
+   "emails_sent": 9,
+   "send_time": "2026-11-01T10:00:00.000Z",
+   "create_time": "2026-10-28T10:00:00.000Z",
+   "recipients": {
+    "list_id": "list-tj-newsletter"
+   },
+   "settings": {
+    "subject_line": "Thornwick Juniors news: November",
+    "from_name": "Thornwick Juniors FC",
+    "reply_to": "marcus.oyelowo@thornwickjuniors.example",
+    "title": "Newsletter November 2026"
+   }
+  }
+ ]
+}

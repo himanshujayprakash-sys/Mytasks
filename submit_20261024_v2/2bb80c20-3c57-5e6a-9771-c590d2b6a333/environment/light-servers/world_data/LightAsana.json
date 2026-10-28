@@ -1,0 +1,318 @@
+{
+ "workspace": {
+  "gid": "1227300000000001",
+  "name": "Brennock Museum and Art Gallery"
+ },
+ "users": [
+  {
+   "gid": "1227300000000300",
+   "name": "Tamsin Rook",
+   "email": "tamsin.rook@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000301",
+   "name": "Kit Laverick",
+   "email": "kit.laverick@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000302",
+   "name": "Olwen Pryce",
+   "email": "olwen.pryce@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000303",
+   "name": "Isaac Venn",
+   "email": "isaac.venn@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000304",
+   "name": "Hollis Brandt",
+   "email": "hollis.brandt@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000305",
+   "name": "Maud Ellery",
+   "email": "maud.ellery@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000306",
+   "name": "Saoirse Dunmore",
+   "email": "saoirse.dunmore@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000307",
+   "name": "Ned Aske",
+   "email": "ned.aske@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000308",
+   "name": "Priya Calloway",
+   "email": "priya.calloway@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000309",
+   "name": "Gil Harker",
+   "email": "gil.harker@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000310",
+   "name": "Celia Woodhouse",
+   "email": "celia.woodhouse@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000311",
+   "name": "Bryony Stell",
+   "email": "bryony.stell@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000312",
+   "name": "Rafe Oduya",
+   "email": "rafe.oduya@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000313",
+   "name": "Lark Simmonds",
+   "email": "lark.simmonds@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000314",
+   "name": "Dev Malhotra",
+   "email": "dev.malhotra@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000315",
+   "name": "Ines Carvalho",
+   "email": "ines.carvalho@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000316",
+   "name": "Joss Penrith",
+   "email": "joss.penrith@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000317",
+   "name": "Mirren Achebe",
+   "email": "mirren.achebe@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000318",
+   "name": "Wyn Halloran",
+   "email": "wyn.halloran@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000319",
+   "name": "Fenella Brook",
+   "email": "fenella.brook@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000320",
+   "name": "Tobias Grieve",
+   "email": "tobias.grieve@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  },
+  {
+   "gid": "1227300000000321",
+   "name": "Annika Sorensen",
+   "email": "annika.sorensen@brennock-museums.example",
+   "workspace_gid": "1227300000000001"
+  }
+ ],
+ "projects": [
+  {
+   "gid": "1227300000000101",
+   "name": "Spring 2027 season: marketing and learning",
+   "notes": "Leaflet, posters, schools sessions, explainers and web pages for the spring season.",
+   "color": "dark-teal",
+   "archived": false,
+   "owner_gid": "1227300000000313",
+   "workspace_gid": "1227300000000001",
+   "created_at": "2026-10-12T09:00:00.000Z"
+  }
+ ],
+ "sections": [
+  {
+   "gid": "1227300000000201",
+   "name": "Next up",
+   "project_gid": "1227300000000101",
+   "created_at": "2026-10-12T09:05:00.000Z"
+  },
+  {
+   "gid": "1227300000000202",
+   "name": "In hand",
+   "project_gid": "1227300000000101",
+   "created_at": "2026-10-12T09:05:00.000Z"
+  },
+  {
+   "gid": "1227300000000203",
+   "name": "Finished",
+   "project_gid": "1227300000000101",
+   "created_at": "2026-10-12T09:05:00.000Z"
+  }
+ ],
+ "tasks": [
+  {
+   "gid": "1227300000000400",
+   "name": "Spring season leaflet: first proof",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000203",
+   "assignee_gid": "1227300000000313",
+   "completed": true,
+   "due_on": "2026-11-20",
+   "notes": "Proof back from Tyneside Print on 18 November. Two typos on the families page fixed; second proof requested.",
+   "created_at": "2026-10-12T09:10:00.000Z",
+   "modified_at": "2026-11-19T15:20:00.000Z"
+  },
+  {
+   "gid": "1227300000000401",
+   "name": "Spring season leaflet: final sign-off and print run",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000202",
+   "assignee_gid": "1227300000000313",
+   "completed": false,
+   "due_on": "2026-12-11",
+   "notes": "15,000 copies, A5 folded. Distribution to libraries and the tourist information centre in the first week of January.",
+   "created_at": "2026-10-12T09:11:00.000Z",
+   "modified_at": "2026-11-26T15:21:00.000Z"
+  },
+  {
+   "gid": "1227300000000402",
+   "name": "Tidelines poster artwork: choose the hero image",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000202",
+   "assignee_gid": "1227300000000313",
+   "completed": false,
+   "due_on": "2026-12-04",
+   "notes": "Three options shortlisted by Saoirse; the image rights note from the picture library is still awaited for option B.",
+   "created_at": "2026-11-02T09:12:00.000Z",
+   "modified_at": "2026-11-25T15:22:00.000Z"
+  },
+  {
+   "gid": "1227300000000403",
+   "name": "Book the bus-shelter advertising for February",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000201",
+   "assignee_gid": "1227300000000313",
+   "completed": false,
+   "due_on": "2026-12-18",
+   "notes": "Twelve panels on the coast road and the bus station. Quote from the outdoor media agency due this week.",
+   "created_at": "2026-11-16T09:13:00.000Z",
+   "modified_at": "2026-11-16T15:23:00.000Z"
+  },
+  {
+   "gid": "1227300000000404",
+   "name": "Schools workshop: write the Tidelines session plan",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000201",
+   "assignee_gid": "1227300000000312",
+   "completed": false,
+   "due_on": "2027-01-15",
+   "notes": "Key stage 2 session on weather and the sea in pictures. Trial it with the St Aidan's Year 5 class in late February.",
+   "created_at": "2026-11-09T09:14:00.000Z",
+   "modified_at": "2026-11-23T15:24:00.000Z"
+  },
+  {
+   "gid": "1227300000000405",
+   "name": "Recruit gallery explainers for the spring season",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000201",
+   "assignee_gid": "1227300000000319",
+   "completed": false,
+   "due_on": "2027-01-29",
+   "notes": "Advert drafted for the volunteer newsletter; training sessions pencilled for 20 and 27 February.",
+   "created_at": "2026-11-18T09:15:00.000Z",
+   "modified_at": "2026-11-27T15:25:00.000Z"
+  },
+  {
+   "gid": "1227300000000406",
+   "name": "Salt and Iron visitor survey: analyse October responses",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000203",
+   "assignee_gid": "1227300000000315",
+   "completed": true,
+   "due_on": "2026-11-13",
+   "notes": "412 responses. Most liked: the riveting film. Most asked for: more seating in Gallery 4.",
+   "created_at": "2026-10-30T09:16:00.000Z",
+   "modified_at": "2026-11-13T15:26:00.000Z"
+  },
+  {
+   "gid": "1227300000000407",
+   "name": "Order extra folding stools for Gallery 4",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000203",
+   "assignee_gid": "1227300000000316",
+   "completed": true,
+   "due_on": "2026-11-24",
+   "notes": "Twenty stools delivered on 23 November after the survey feedback.",
+   "created_at": "2026-11-14T09:17:00.000Z",
+   "modified_at": "2026-11-23T15:27:00.000Z"
+  },
+  {
+   "gid": "1227300000000408",
+   "name": "Press release: Christmas at the museum",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000203",
+   "assignee_gid": "1227300000000313",
+   "completed": true,
+   "due_on": "2026-11-17",
+   "notes": "Sent to local papers and the regional radio station on 17 November; the Brennock Gazette ran it on the 21st.",
+   "created_at": "2026-11-05T09:18:00.000Z",
+   "modified_at": "2026-11-17T15:28:00.000Z"
+  },
+  {
+   "gid": "1227300000000409",
+   "name": "Website: spring season pages",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000201",
+   "assignee_gid": "1227300000000321",
+   "completed": false,
+   "due_on": "2027-01-08",
+   "notes": "Page templates ready; copy and images to follow once the leaflet is signed off.",
+   "created_at": "2026-11-20T09:19:00.000Z",
+   "modified_at": "2026-11-20T15:29:00.000Z"
+  },
+  {
+   "gid": "1227300000000410",
+   "name": "Audio guide script for Salt and Iron: Welsh-language version",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000203",
+   "assignee_gid": "1227300000000321",
+   "completed": true,
+   "due_on": "2026-10-30",
+   "notes": "Recorded on 28 October; live on the guide players from 2 November.",
+   "created_at": "2026-09-21T09:20:00.000Z",
+   "modified_at": "2026-10-30T15:30:00.000Z"
+  },
+  {
+   "gid": "1227300000000411",
+   "name": "Accessibility: large-print captions for the spring galleries",
+   "project_gid": "1227300000000101",
+   "section_gid": "1227300000000201",
+   "assignee_gid": "1227300000000315",
+   "completed": false,
+   "due_on": "2027-02-19",
+   "notes": "Same layout as Salt and Iron; ask the print room for the 18-point template.",
+   "created_at": "2026-11-24T09:21:00.000Z",
+   "modified_at": "2026-11-24T15:31:00.000Z"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+# Mytasks, phase 1: the working set another laptop needs to create tasks, run QC and run trajectories.
+# Every other top-level folder (backups, old versions, harness clones and their outputs) is added in later phases.
+/*
+!/.gitignore
+!/README.md
+!/pipeline/
+!/submit_20261024_v2/
+!/staging/
+!/QC_PASSED_20261028/
+!/qc (2).zip
+!/clean_trajectories.py
+!/*.md
+
+# never: secrets, this machine's environments, caches
+.env
+.env.*
+!.env.example
+auth.json
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# this laptop's run outputs (QC reports, gate results): a later phase
+/pipeline/batches/
+
+# held back: GitHub push protection reads the mock Twilio account ids (AC…) in these as secrets. They are task world data,
+# not credentials; allow them on GitHub (secret-scanning "used in tests") and remove these lines to add the files.
+/submit_20261024_v2/002b8c61-5618-5328-bd49-0b647d9c6d54/environment/light-servers/world_data/LightTwilio.json
+/submit_20261024_v2/002b8c61-5618-5328-bd49-0b647d9c6d54/trajectories/opus-5/run_1/agent/trajectory.json
+/submit_20261024_v2/07d3f3c5-45bd-5957-ace2-e002dd56a825/environment/light-servers/world_data/LightTwilio.json
+/submit_20261024_v2/07d3f3c5-45bd-5957-ace2-e002dd56a825/trajectories/opus-5/run_1/agent/trajectory.json
+/submit_20261024_v2/32c06595-2a40-50d6-91fc-24a400f73b08/environment/light-servers/world_data/LightTwilio.json
+/submit_20261024_v2/32c06595-2a40-50d6-91fc-24a400f73b08/trajectories/opus-5/run_1/agent/trajectory.json

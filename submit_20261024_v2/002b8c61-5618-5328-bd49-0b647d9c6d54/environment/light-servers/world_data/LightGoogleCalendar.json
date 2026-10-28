@@ -1,0 +1,133 @@
+{
+ "calendars": [
+  {
+   "id": "ottilie.strang@tarrowsound.example",
+   "summary": "ottilie.strang@tarrowsound.example",
+   "primary": false
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-ts-001",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Leaflet proof 1 review",
+   "description": "Go through the first proof of the summer 2027 timetable leaflet.",
+   "location": "Shore office, Calderwick",
+   "start": "2026-11-24T10:00:00+00:00",
+   "end": "2026-11-24T11:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-002",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Website photo shoot",
+   "description": "Photographer on the harbour wall if the morning is bright and still.",
+   "location": "Calderwick harbour",
+   "start": "2026-11-27T08:30:00+00:00",
+   "end": "2026-11-27T11:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-003",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Calderwick Hotel poster panels",
+   "description": "Sign the 2027 panel agreement with Isobel Garvie.",
+   "location": "Calderwick Hotel",
+   "start": "2026-12-02T14:00:00+00:00",
+   "end": "2026-12-02T14:45:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-004",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Leaflet proof 2 review",
+   "description": "Check the spelling fixes and the café hours.",
+   "location": "Shore office, Calderwick",
+   "start": "2026-12-04T11:00:00+00:00",
+   "end": "2026-12-04T11:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-005",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Ronsay Distillery tasting display",
+   "description": "Look at space by the café counter for a tasting display.",
+   "location": "Ronsay Distillery visitor centre",
+   "start": "2026-12-14T13:00:00+00:00",
+   "end": "2026-12-14T14:00:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-006",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Tourist board brochure deadline",
+   "description": "Listing copy and photo due to the tourist board.",
+   "location": "",
+   "start": "2026-12-16T09:00:00+00:00",
+   "end": "2026-12-16T09:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-007",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Ronsay gala committee",
+   "description": "Planning meeting for the summer gala; marketing update on the 2027 leaflet.",
+   "location": "Ronsay village hall",
+   "start": "2026-12-09T19:00:00+00:00",
+   "end": "2026-12-09T20:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [],
+   "visibility": "default"
+  },
+  {
+   "id": "evt-ts-008",
+   "calendar_id": "ottilie.strang@tarrowsound.example",
+   "summary": "Marketing and café catch-up",
+   "description": "Weekly catch-up with Aileen on offers and the menu board.",
+   "location": "Café office, Calderwick",
+   "start": "2026-11-16T15:00:00+00:00",
+   "end": "2026-11-16T15:30:00+00:00",
+   "all_day": false,
+   "status": "confirmed",
+   "creator": "ottilie.strang@tarrowsound.example",
+   "organizer": "ottilie.strang@tarrowsound.example",
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;BYDAY=MO"
+   ],
+   "visibility": "default"
+  }
+ ]
+}

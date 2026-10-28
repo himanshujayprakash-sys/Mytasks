@@ -1,0 +1,144 @@
+{
+ "teams": [
+  {
+   "id": "team_tbh_nbh",
+   "displayName": "Thornbeck neighbourhoods",
+   "description": "Housing officers, tenancy sustainment and caretakers",
+   "membershipType": "standard",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.thornbeck-homes.example/l/team/team_tbh_nbh",
+   "member_ids": [
+    "user-tbh-01",
+    "user-tbh-02",
+    "user-tbh-03",
+    "user-tbh-04",
+    "user-tbh-05",
+    "user-tbh-06"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Day-to-day chat",
+   "webUrl": "https://teams.thornbeck-homes.example/l/team/team_tbh_nbh/channel/ch_tbh_general",
+   "createdDateTime": "2025-03-03T08:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1797200000101",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-02",
+   "from_display_name": "Grace Adeyemi",
+   "content": "Two sign-ups this week: Weavers Rise on Tuesday, Spinner Court on Thursday.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-05T09:15:00Z"
+  },
+  {
+   "id": "1797200000102",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-05",
+   "from_display_name": "Alfie Baxter",
+   "content": "Lift at Larch House back in service after the engineer on the 14th.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-14T10:20:00Z"
+  },
+  {
+   "id": "1797200000103",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-04",
+   "from_display_name": "Danielle Firth",
+   "content": "Hardship fund panel approved three energy grants yesterday.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-14T12:40:00Z"
+  },
+  {
+   "id": "1797200000104",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-01",
+   "from_display_name": "Stuart Bramley",
+   "content": "Abandoned car on Millrace Road reported to the council again; they say they'll tow it this week.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-16T10:20:00Z"
+  },
+  {
+   "id": "1797200000105",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-05",
+   "from_display_name": "Alfie Baxter",
+   "content": "Larch House bin room cleared. Someone dumped a mattress again - photo on the shared drive.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-19T08:05:00Z"
+  },
+  {
+   "id": "1797200000106",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-06",
+   "from_display_name": "Sinead Corrigan",
+   "content": "Gilstead Walk scaffold gate was left open overnight - I've locked it and told Ravensgill.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-21T07:50:00Z"
+  },
+  {
+   "id": "1797200000107",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-03",
+   "from_display_name": "Liam Roebuck",
+   "content": "ASB case at Cragg View closed; neighbours both signed the acceptable behaviour agreement.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-23T15:30:00Z"
+  },
+  {
+   "id": "1797200000108",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-02",
+   "from_display_name": "Grace Adeyemi",
+   "content": "Fold Yard garden group want to plant bulbs on Saturday 7 November - anyone free to help?",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-28T16:10:00Z"
+  },
+  {
+   "id": "1797200000109",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-04",
+   "from_display_name": "Danielle Firth",
+   "content": "Digital drop-in at the library moved to 10am from next week.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-29T09:30:00Z"
+  },
+  {
+   "id": "1797200000110",
+   "channel_id": "ch_tbh_general",
+   "team_id": "team_tbh_nbh",
+   "from_user_id": "user-tbh-01",
+   "from_display_name": "Stuart Bramley",
+   "content": "Walkabout posters for Weavers Rise are up.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-10-30T11:00:00Z"
+  }
+ ]
+}

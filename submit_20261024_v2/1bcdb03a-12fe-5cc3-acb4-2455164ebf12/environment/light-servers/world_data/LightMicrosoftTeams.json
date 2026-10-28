@@ -1,0 +1,169 @@
+{
+ "teams": [
+  {
+   "id": "19:team-nl04-crew@thread.tacv2",
+   "displayName": "Northlight crew",
+   "description": "Summit team and event-week crew",
+   "membershipType": "standard",
+   "member_ids": [
+    "user-001",
+    "user-nl04-tomasz",
+    "user-nl04-imogen",
+    "user-nl04-dev",
+    "user-nl04-kit",
+    "user-nl04-sunniva",
+    "user-nl04-greta",
+    "user-nl04-lewis",
+    "user-nl04-fintan",
+    "user-nl04-noor"
+   ],
+   "isArchived": false
+  }
+ ],
+ "channels": [
+  {
+   "id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "General channel"
+  },
+  {
+   "id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "displayName": "Event week",
+   "membershipType": "standard",
+   "description": "Load-in, shifts and the three summit days"
+  },
+  {
+   "id": "19:nl04-progcommittee@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "displayName": "Programme committee",
+   "membershipType": "standard",
+   "description": "Programme chair and committee"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1762400000001",
+   "channel_id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-kit",
+   "from_display_name": "Kit Arden",
+   "content": "Livestream test went well this evening - no drops on the venue fibre.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-05T21:10:00Z"
+  },
+  {
+   "id": "1762400000002",
+   "channel_id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-sunniva",
+   "from_display_name": "Sunniva Holt",
+   "content": "Volunteer briefing pack is in the shared drive. 41 of 44 have confirmed.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-06T10:05:00Z"
+  },
+  {
+   "id": "1762400000003",
+   "channel_id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-greta",
+   "from_display_name": "Greta Marchetti",
+   "content": "Final lunch numbers are due to the caterer on the 19th.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-06T14:30:00Z"
+  },
+  {
+   "id": "1762400000004",
+   "channel_id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-lewis",
+   "from_display_name": "Lewis Achterberg",
+   "content": "Badge print run moves to Tuesday 17th so late registrations make it in.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-09T09:40:00Z"
+  },
+  {
+   "id": "1762400000005",
+   "channel_id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-fintan",
+   "from_display_name": "Fintan Rourke",
+   "content": "Countdown email number two went out - 48 percent open rate.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-10T12:15:00Z"
+  },
+  {
+   "id": "1762400000006",
+   "channel_id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-kit",
+   "from_display_name": "Kit Arden",
+   "content": "Need two volunteers who can lift for the load-in at 7am on the 23rd.",
+   "contentType": "html",
+   "importance": "high",
+   "createdDateTime": "2026-11-10T16:50:00Z"
+  },
+  {
+   "id": "1762400000007",
+   "channel_id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-sunniva",
+   "from_display_name": "Sunniva Holt",
+   "content": "Rory and Yasmin are on the load-in.",
+   "contentType": "html",
+   "importance": "high",
+   "createdDateTime": "2026-11-10T17:05:00Z"
+  },
+  {
+   "id": "1762400000008",
+   "channel_id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-dev",
+   "from_display_name": "Dev Okonkwo",
+   "content": "Agenda in the app is now final apart from the closing panel order.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-11T11:20:00Z"
+  },
+  {
+   "id": "1762400000009",
+   "channel_id": "19:nl04-general@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-noor",
+   "from_display_name": "Noor Haddad",
+   "content": "University group passes are all claimed.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-11T15:00:00Z"
+  },
+  {
+   "id": "1762400000010",
+   "channel_id": "19:nl04-eventweek@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-greta",
+   "from_display_name": "Greta Marchetti",
+   "content": "Venue confirms the courtyard heaters. Gas cylinders are on them.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-11T16:35:00Z"
+  },
+  {
+   "id": "1762400000011",
+   "channel_id": "19:nl04-progcommittee@thread.tacv2",
+   "team_id": "19:team-nl04-crew@thread.tacv2",
+   "from_user_id": "user-nl04-dev",
+   "from_display_name": "Dev Okonkwo",
+   "content": "Closing panel order is agreed: moderator first, then the three panellists by surname.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-09T10:20:00Z"
+  }
+ ]
+}

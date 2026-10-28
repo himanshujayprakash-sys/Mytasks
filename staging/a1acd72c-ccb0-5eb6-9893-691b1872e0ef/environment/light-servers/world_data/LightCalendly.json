@@ -1,0 +1,230 @@
+{
+ "scheduled_events": [
+  {
+   "uuid": "sev-tbh-1",
+   "owner": "Grace Adeyemi",
+   "event_type": "et-tbh-tenancysignup",
+   "name": "Tenancy sign-up",
+   "status": "active",
+   "start_time": "2026-10-06T10:00:00.000000Z",
+   "end_time": "2026-10-06T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Wyndale office",
+   "created_at": "2026-09-20T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-2",
+   "owner": "Liam Roebuck",
+   "event_type": "et-tbh-tenancysignup",
+   "name": "Tenancy sign-up",
+   "status": "active",
+   "start_time": "2026-10-13T14:00:00.000000Z",
+   "end_time": "2026-10-13T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Wyndale office",
+   "created_at": "2026-09-21T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-3",
+   "owner": "Danielle Firth",
+   "event_type": "et-tbh-newtenantsettlingi",
+   "name": "New tenant settling-in visit",
+   "status": "active",
+   "start_time": "2026-10-20T11:00:00.000000Z",
+   "end_time": "2026-10-20T12:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Tenant's home",
+   "created_at": "2026-09-22T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-4",
+   "owner": "Stuart Bramley",
+   "event_type": "et-tbh-tenancysignup",
+   "name": "Tenancy sign-up",
+   "status": "active",
+   "start_time": "2026-10-27T10:30:00.000000Z",
+   "end_time": "2026-10-27T11:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Wyndale office",
+   "created_at": "2026-09-23T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-5",
+   "owner": "Danielle Firth",
+   "event_type": "et-tbh-newtenantsettlingi",
+   "name": "New tenant settling-in visit",
+   "status": "active",
+   "start_time": "2026-11-04T13:00:00.000000Z",
+   "end_time": "2026-11-04T14:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Tenant's home",
+   "created_at": "2026-09-24T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-6",
+   "owner": "Liam Roebuck",
+   "event_type": "et-tbh-tenancysignup",
+   "name": "Tenancy sign-up",
+   "status": "active",
+   "start_time": "2026-11-06T09:30:00.000000Z",
+   "end_time": "2026-11-06T10:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Wyndale office",
+   "created_at": "2026-09-25T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-7",
+   "owner": "Grace Adeyemi",
+   "event_type": "et-tbh-mutualexchangeview",
+   "name": "Mutual exchange viewing",
+   "status": "active",
+   "start_time": "2026-11-09T15:00:00.000000Z",
+   "end_time": "2026-11-09T16:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Tenant's home",
+   "created_at": "2026-09-26T09:00:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-tbh-8",
+   "owner": "Stuart Bramley",
+   "event_type": "et-tbh-tenancysignup",
+   "name": "Tenancy sign-up",
+   "status": "canceled",
+   "start_time": "2026-10-02T11:00:00.000000Z",
+   "end_time": "2026-10-02T12:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Wyndale office",
+   "created_at": "2026-09-27T09:00:00.000000Z",
+   "canceled_reason": "Applicant withdrew"
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-tbh-1",
+   "event": "sev-tbh-1",
+   "name": "Agnes Fawcett",
+   "email": "agnes.fawcett@wynmail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-20T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which home are you signing for?",
+     "answer": "35 Weavers Rise"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-2",
+   "event": "sev-tbh-2",
+   "name": "Kofi Mensah",
+   "email": "kofi.mensah@pennine-net.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-21T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which home are you signing for?",
+     "answer": "Flat 2, Larch House"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-3",
+   "event": "sev-tbh-3",
+   "name": "Agnes Fawcett",
+   "email": "agnes.fawcett@wynmail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-22T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything you need help with?",
+     "answer": "Setting up the energy account"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-4",
+   "event": "sev-tbh-4",
+   "name": "Leanne Booth",
+   "email": "leanne.booth@moorpost.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-23T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which home are you signing for?",
+     "answer": "3 Ouzel Close"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-5",
+   "event": "sev-tbh-5",
+   "name": "Kofi Mensah",
+   "email": "kofi.mensah@pennine-net.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-24T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything you need help with?",
+     "answer": "Help with the tenant portal"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-6",
+   "event": "sev-tbh-6",
+   "name": "Brendan Lumb",
+   "email": "brendan.lumb@calderlink.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-25T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which home are you signing for?",
+     "answer": "8 Cragg View"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-7",
+   "event": "sev-tbh-7",
+   "name": "Hollie Exley",
+   "email": "hollie.exley@freemail-uk.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-26T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which homes are you swapping?",
+     "answer": "a flat at Larch House and a house on Tenter Lane"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-tbh-8",
+   "event": "sev-tbh-8",
+   "name": "Reece Kilner",
+   "email": "reece.kilner@wynmail.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-09-27T09:00:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Which home are you signing for?",
+     "answer": "Flat 2, Fold Yard"
+    }
+   ]
+  }
+ ]
+}

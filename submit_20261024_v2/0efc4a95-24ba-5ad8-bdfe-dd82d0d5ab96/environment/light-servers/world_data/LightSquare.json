@@ -1,0 +1,609 @@
+{
+ "customers": [
+  {
+   "id": "CUST_KRA_01",
+   "given_name": "Joanne",
+   "family_name": "Firth",
+   "email_address": "joanne.firth@homemail.example",
+   "phone_number": "+447700955100",
+   "created_at": "2026-09-02T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_02",
+   "given_name": "Imran",
+   "family_name": "Hussain",
+   "email_address": "imran.hussain@homemail.example",
+   "phone_number": "+447700955101",
+   "created_at": "2026-09-02T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_03",
+   "given_name": "Sarah",
+   "family_name": "Dobson",
+   "email_address": "sarah.dobson@homemail.example",
+   "phone_number": "+447700955102",
+   "created_at": "2026-09-03T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_04",
+   "given_name": "Lee",
+   "family_name": "Haigh",
+   "email_address": "lee.haigh@homemail.example",
+   "phone_number": "+447700955103",
+   "created_at": "2026-09-04T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_05",
+   "given_name": "Agnieszka",
+   "family_name": "Nowak",
+   "email_address": "agnieszka.nowak@homemail.example",
+   "phone_number": "+447700955104",
+   "created_at": "2026-09-07T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_06",
+   "given_name": "Paul",
+   "family_name": "Greenwood",
+   "email_address": "paul.greenwood@homemail.example",
+   "phone_number": "+447700955105",
+   "created_at": "2026-09-10T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_07",
+   "given_name": "Nadia",
+   "family_name": "Begum",
+   "email_address": "nadia.begum@homemail.example",
+   "phone_number": "+447700955106",
+   "created_at": "2026-09-14T09:00:00Z"
+  },
+  {
+   "id": "CUST_KRA_08",
+   "given_name": "Craig",
+   "family_name": "Sutcliffe",
+   "email_address": "craig.sutcliffe@homemail.example",
+   "phone_number": "+447700955107",
+   "created_at": "2026-10-01T09:00:00Z"
+  }
+ ],
+ "catalog": [
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_TOPUP10",
+   "item_variation_data": {
+    "name": "Canteen account top-up 10 pounds",
+    "price_money": {
+     "amount": 1000,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_TOPUP20",
+   "item_variation_data": {
+    "name": "Canteen account top-up 20 pounds",
+    "price_money": {
+     "amount": 2000,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_TIE",
+   "item_variation_data": {
+    "name": "School tie (clip-on)",
+    "price_money": {
+     "amount": 650,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_PEPOLO",
+   "item_variation_data": {
+    "name": "PE polo shirt, teal",
+    "price_money": {
+     "amount": 1400,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_PESHORT",
+   "item_variation_data": {
+    "name": "PE shorts, black",
+    "price_money": {
+     "amount": 1100,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_CALC",
+   "item_variation_data": {
+    "name": "Scientific calculator",
+    "price_money": {
+     "amount": 1250,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_PLANNER",
+   "item_variation_data": {
+    "name": "Replacement student planner",
+    "price_money": {
+     "amount": 400,
+     "currency": "GBP"
+    }
+   }
+  },
+  {
+   "type": "ITEM_VARIATION",
+   "id": "VAR_KRA_BAG",
+   "item_variation_data": {
+    "name": "Book bag with crest",
+    "price_money": {
+     "amount": 850,
+     "currency": "GBP"
+    }
+   }
+  }
+ ],
+ "inventory": [
+  {
+   "catalog_object_id": "VAR_KRA_TIE",
+   "quantity": "64",
+   "state": "IN_STOCK"
+  },
+  {
+   "catalog_object_id": "VAR_KRA_PEPOLO",
+   "quantity": "38",
+   "state": "IN_STOCK"
+  },
+  {
+   "catalog_object_id": "VAR_KRA_PESHORT",
+   "quantity": "41",
+   "state": "IN_STOCK"
+  },
+  {
+   "catalog_object_id": "VAR_KRA_CALC",
+   "quantity": "17",
+   "state": "IN_STOCK"
+  },
+  {
+   "catalog_object_id": "VAR_KRA_PLANNER",
+   "quantity": "52",
+   "state": "IN_STOCK"
+  },
+  {
+   "catalog_object_id": "VAR_KRA_BAG",
+   "quantity": "23",
+   "state": "IN_STOCK"
+  }
+ ],
+ "payments": [
+  {
+   "id": "PAY_KRA_001",
+   "order_id": "ORD_KRA_001",
+   "customer_id": "CUST_KRA_01",
+   "amount_money": {
+    "amount": 3900,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4101",
+   "created_at": "2026-09-02T15:40:00Z"
+  },
+  {
+   "id": "PAY_KRA_002",
+   "order_id": "ORD_KRA_002",
+   "customer_id": "CUST_KRA_02",
+   "amount_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4102",
+   "created_at": "2026-09-03T07:55:00Z"
+  },
+  {
+   "id": "PAY_KRA_003",
+   "order_id": "ORD_KRA_003",
+   "customer_id": "CUST_KRA_03",
+   "amount_money": {
+    "amount": 1300,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4103",
+   "created_at": "2026-09-03T16:05:00Z"
+  },
+  {
+   "id": "PAY_KRA_004",
+   "order_id": "ORD_KRA_004",
+   "customer_id": "CUST_KRA_04",
+   "amount_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4104",
+   "created_at": "2026-09-08T12:30:00Z"
+  },
+  {
+   "id": "PAY_KRA_005",
+   "order_id": "ORD_KRA_005",
+   "customer_id": "CUST_KRA_05",
+   "amount_money": {
+    "amount": 1000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4105",
+   "created_at": "2026-09-21T08:10:00Z"
+  },
+  {
+   "id": "PAY_KRA_006",
+   "order_id": "ORD_KRA_006",
+   "customer_id": "CUST_KRA_06",
+   "amount_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4106",
+   "created_at": "2026-10-05T15:20:00Z"
+  },
+  {
+   "id": "PAY_KRA_007",
+   "order_id": "ORD_KRA_007",
+   "customer_id": "CUST_KRA_07",
+   "amount_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4107",
+   "created_at": "2026-10-19T07:45:00Z"
+  },
+  {
+   "id": "PAY_KRA_008",
+   "order_id": "ORD_KRA_008",
+   "customer_id": "CUST_KRA_02",
+   "amount_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4108",
+   "created_at": "2026-11-02T08:00:00Z"
+  },
+  {
+   "id": "PAY_KRA_009",
+   "order_id": "ORD_KRA_009",
+   "customer_id": "CUST_KRA_08",
+   "amount_money": {
+    "amount": 1750,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4109",
+   "created_at": "2026-11-16T16:10:00Z"
+  },
+  {
+   "id": "PAY_KRA_010",
+   "order_id": "ORD_KRA_010",
+   "customer_id": "CUST_KRA_01",
+   "amount_money": {
+    "amount": 1000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4110",
+   "created_at": "2026-12-01T07:50:00Z"
+  },
+  {
+   "id": "PAY_KRA_011",
+   "order_id": "ORD_KRA_011",
+   "customer_id": "CUST_KRA_04",
+   "amount_money": {
+    "amount": 400,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4111",
+   "created_at": "2027-01-06T15:35:00Z"
+  },
+  {
+   "id": "PAY_KRA_012",
+   "order_id": "ORD_KRA_012",
+   "customer_id": "CUST_KRA_05",
+   "amount_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_SHOP",
+   "receipt_number": "KRA4112",
+   "created_at": "2027-01-18T12:15:00Z"
+  },
+  {
+   "id": "PAY_KRA_013",
+   "order_id": "ORD_KRA_013",
+   "customer_id": "CUST_KRA_07",
+   "amount_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "status": "COMPLETED",
+   "source_type": "CARD",
+   "location_id": "LOC_KRA_CANTEEN",
+   "receipt_number": "KRA4113",
+   "created_at": "2027-02-01T07:40:00Z"
+  }
+ ],
+ "orders": [
+  {
+   "id": "ORD_KRA_001",
+   "customer_id": "CUST_KRA_01",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_PEPOLO",
+     "quantity": "2"
+    },
+    {
+     "catalog_object_id": "VAR_KRA_PESHORT",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 3900,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-09-02T15:39:00Z"
+  },
+  {
+   "id": "ORD_KRA_002",
+   "customer_id": "CUST_KRA_02",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP20",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-09-03T07:54:00Z"
+  },
+  {
+   "id": "ORD_KRA_003",
+   "customer_id": "CUST_KRA_03",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TIE",
+     "quantity": "2"
+    }
+   ],
+   "total_money": {
+    "amount": 1300,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-09-03T16:04:00Z"
+  },
+  {
+   "id": "ORD_KRA_004",
+   "customer_id": "CUST_KRA_04",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_CALC",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-09-08T12:29:00Z"
+  },
+  {
+   "id": "ORD_KRA_005",
+   "customer_id": "CUST_KRA_05",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP10",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-09-21T08:09:00Z"
+  },
+  {
+   "id": "ORD_KRA_006",
+   "customer_id": "CUST_KRA_06",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_BAG",
+     "quantity": "1"
+    },
+    {
+     "catalog_object_id": "VAR_KRA_PLANNER",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-10-05T15:19:00Z"
+  },
+  {
+   "id": "ORD_KRA_007",
+   "customer_id": "CUST_KRA_07",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP20",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-10-19T07:44:00Z"
+  },
+  {
+   "id": "ORD_KRA_008",
+   "customer_id": "CUST_KRA_02",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP20",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-11-02T07:59:00Z"
+  },
+  {
+   "id": "ORD_KRA_009",
+   "customer_id": "CUST_KRA_08",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_PESHORT",
+     "quantity": "1"
+    },
+    {
+     "catalog_object_id": "VAR_KRA_TIE",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1750,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-11-16T16:09:00Z"
+  },
+  {
+   "id": "ORD_KRA_010",
+   "customer_id": "CUST_KRA_01",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP10",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2026-12-01T07:49:00Z"
+  },
+  {
+   "id": "ORD_KRA_011",
+   "customer_id": "CUST_KRA_04",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_PLANNER",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 400,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2027-01-06T15:34:00Z"
+  },
+  {
+   "id": "ORD_KRA_012",
+   "customer_id": "CUST_KRA_05",
+   "location_id": "LOC_KRA_SHOP",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_CALC",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 1250,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2027-01-18T12:14:00Z"
+  },
+  {
+   "id": "ORD_KRA_013",
+   "customer_id": "CUST_KRA_07",
+   "location_id": "LOC_KRA_CANTEEN",
+   "line_items": [
+    {
+     "catalog_object_id": "VAR_KRA_TOPUP20",
+     "quantity": "1"
+    }
+   ],
+   "total_money": {
+    "amount": 2000,
+    "currency": "GBP"
+   },
+   "state": "COMPLETED",
+   "created_at": "2027-02-01T07:39:00Z"
+  }
+ ]
+}

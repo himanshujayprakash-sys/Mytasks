@@ -1,0 +1,529 @@
+{
+  "pytest": {
+    "score": 0.3755,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3755,
+        "raw": 0.375451,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 107 of 277, charged 3; missed 46: test_mail_read, test_freight_line_box_lorry_read, test_plan_lines, test_added_line_created, test_plan_simulated, test_loading_order, test_lifeline_first, test_spacing_kept, test_hoistable_clearance, test_hoistable_weight, test_weighbridge_weights, test_deadweight_kept, test_dg_lane_only, test_dg_class_correction_applied, test_freight_line_change_applied, test_freight_line_late_ignored, test_box_lorry_applied, test_latest_weighbridge_reading, test_dg_segregation, test_added_vehicle_in_place, test_ticket_changes_applied, test_height_change_applied, test_charged_length, test_lifeline_rebate, test_excess_restated, test_new_holds_raised, test_final_states_revenue, test_final_states_loaded, test_final_states_moved, test_final_states_bridge, test_final_states_every_bridge_step, test_final_states_lane_split, test_final_names_tightest_lanes, test_final_names_record_ids, test_final_states_plan_corrections, test_final_explains_box_lorry, test_texts_exact, test_ticket_tags, test_dossier_per_outcome, test_dossier_box_lorry, test_reconciliation_fare_rows, test_reconciliation_order, test_reconciliation_carries_steps, test_page_headline_in_full, test_page_bridge_anchors, test_page_table_rows_and_sorting; guards tripped: test_guard_misread_loaded_stated"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.4478,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-gives-sailing-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note gives the sailing's vehicle revenue as 2293.25 pounds.",
+        "reasoning": "final_message.md states \u201cVehicle revenue \u00a32,521.92,\u201d not \u00a32,293.25."
+      },
+      {
+        "id": "2",
+        "name": "j-note-says-29-vehicles",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says 29 vehicles are loaded on the 08:15.",
+        "reasoning": "final_message.md states \u201c37 loaded,\u201d not 29."
+      },
+      {
+        "id": "3",
+        "name": "j-note-says-17-vehicles",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says 17 vehicles are moved to the 14:30 and names them: TSF-2225, TSF-2226, TSF-2228, TSF-2229, TSF-2231, TSF-2232, TSF-2234, TSF-2235, TSF-2237, TSF-2240, TSF-2241, TSF-2242, TSF-2243, TSF-2245, TSF-2246, TSF-2247, TSF-2248.",
+        "reasoning": "final_message.md says 8 vehicles moved and lists only TSF-2240 through TSF-2248 (with gaps), not the required 17."
+      },
+      {
+        "id": "4",
+        "name": "j-note-names-tsf-2219",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note names TSF-2219, TSF-2236, TSF-2238 as the refused vehicles.",
+        "reasoning": "The \u201cRefused\u201d line in final_message.md explicitly names TSF-2219, TSF-2238, and TSF-2236."
+      },
+      {
+        "id": "5",
+        "name": "j-note-names-tsf-2212",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note names TSF-2212 as cancelled by the customer.",
+        "reasoning": "final_message.md explicitly says \u201cCancelled by customer: TSF-2212.\u201d"
+      },
+      {
+        "id": "6",
+        "name": "j-note-gives-revenue-lane",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note gives the revenue for each lane: Lane M1 385.95, Lane M2 402.50, Lane M3 589.00, Lane M4 462.20, Lane M5 48.00, Lane U1 148.20, Lane U2 144.30, Lane U3 113.10.",
+        "reasoning": "The lane table in final_message.md differs from the criterion for U3, M2, M3, M4, and M5."
+      },
+      {
+        "id": "7",
+        "name": "j-note-says-plan-worked",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note says the plan was worked under DLS-4 second issue and T-26 second issue, in force for sailings from 9 November 2026, with the first issues superseded.",
+        "reasoning": "The \u201cPapers applied\u201d section names DLS-4 and T-26 second issues, says they apply from 2026-11-09, and says the prior issue is replaced; the chat table also calls the first issues superseded."
+      },
+      {
+        "id": "8",
+        "name": "j-note-starts-bridge-2882",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note starts the bridge at 2882.35 pounds, last season's flat 8.50 a metre on every vehicle including TSF-2290.",
+        "reasoning": "The bridge in final_message.md starts at \u00a32,782.90, not \u00a32,882.35."
+      },
+      {
+        "id": "9",
+        "name": "j-note-s-bridge-takes",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note's bridge takes off the cancelled, refused and moved vehicles to reach 1865.75 pounds on the loaded vehicles.",
+        "reasoning": "The bridge reaches \u00a32,116.50 after removing 12 vehicles, not \u00a31,865.75 after removing all cancelled, refused, and moved vehicles."
+      },
+      {
+        "id": "10",
+        "name": "j-note-s-bridge-gives",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note's bridge gives 2465.00 pounds at the band rates on the charged length.",
+        "reasoning": "The bridge gives \u00a32,636.20 after band-rate adjustments, not \u00a32,465.00."
+      },
+      {
+        "id": "11",
+        "name": "j-note-s-bridge-gives-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note's bridge gives 2212.65 pounds after the lifeline rebate.",
+        "reasoning": "The bridge gives \u00a32,441.32 after the lifeline rebate, not \u00a32,212.65."
+      },
+      {
+        "id": "12",
+        "name": "j-note-s-bridge-ends",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note's bridge ends at 2293.25 pounds once the dangerous goods surcharge is added.",
+        "reasoning": "The bridge ends at \u00a32,521.92 after the DG surcharge, not \u00a32,293.25."
+      },
+      {
+        "id": "13",
+        "name": "j-note-names-both-lanes",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note names both lanes with the least room left, M2 and M4, with 0.7 m each.",
+        "reasoning": "final_message.md names M3 and M4 as tightest at 0.00 m; it gives M2 1.20 m, not M2 and M4 at 0.7 m."
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-39-loading",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says 39 loading plan lines were corrected.",
+        "reasoning": "The \u201cPlan lines\u201d section says \u201c35 lines corrected,\u201d not 39."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-plan-line",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note says a plan line was opened for TSF-2290 in lane M1.",
+        "reasoning": "final_message.md says lp-TSF-2290 was added in Main, M1."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-second-tsf",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the second TSF-2217 line, lp-TSF-2217b, was deleted and quotes its record id recc4891fad4d1df3.",
+        "reasoning": "final_message.md says lp-TSF-2217b, record recc4891fad4d1df3, was removed as the second TSF-2217 line."
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-dh-401",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says DH-401 and DH-402 were deleted from the deck holds record and quotes their record ids recfead2d38a6a967 and recef91ba081822d7.",
+        "reasoning": "The deck-holds section says DH-401 recfead2d38a6a967 and DH-402 recef91ba081822d7 were closed (deleted)."
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-dh-403",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says DH-403 was restated to 175.00 and quotes its record id rec62fff18818eb46.",
+        "reasoning": "final_message.md says DH-403 was untouched; it does not restate it to \u00a3175.00 or give record rec62fff18818eb46."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-20-holds",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says 20 holds were raised: DG declaration not valid for TSF-2219; Overflow - next sailing for TSF-2225; Overflow - next sailing for TSF-2226; Overflow - next sailing for TSF-2228; Overflow - next sailing for TSF-2229; Overflow - next sailing for TSF-2231; Overflow - next sailing for TSF-2232; Overflow - next sailing for TSF-2234; Overflow - next sailing for TSF-2235; Outside vessel limits for TSF-2236; Overflow - next sailing for TSF-2237; DG declaration not valid for TSF-2238; Overflow - next sailing for TSF-2240; Overflow - next sailing for TSF-2241; Overflow - next sailing for TSF-2242; Overflow - next sailing for TSF-2243; Overflow - next sailing for TSF-2245; Overflow - next sailing for TSF-2246; Overflow - next sailing for TSF-2247; Overflow - next sailing for TSF-2248.",
+        "reasoning": "The \u201cRaised\u201d subsection explicitly lists only 11 holds: eight overflow, two invalid-DG, and one outside-limits hold, omitting nine required overflow holds."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-chat-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the chat's 8.50 a metre does not stand because it is last season's rate under the superseded first issue.",
+        "reasoning": "The chat table says the \u00a38.50/m claim does not stand because that rate is in the superseded first issue."
+      },
+      {
+        "id": "21",
+        "name": "j-note-says-chat-s-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the chat's 2.30 m hoistable deck clearance does not stand: the clearance is 2.10 m.",
+        "reasoning": "The chat table rejects 2.30 m and explicitly gives hoistable clearance as 2.10 m."
+      },
+      {
+        "id": "22",
+        "name": "j-note-says-chat-s-3",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the chat's 'diesel in any lane' does not stand: dangerous goods go only in lane M1.",
+        "reasoning": "The chat table rejects \u201cDiesel\u2019s fine in any lane\u201d and says DG vehicles go only in M1."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-chat-s-4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the chat's claim that the pool chemicals and the heating oil can share M1 stands only because the adviser corrected the pool chemicals to class 8, which Appendix C allows with class 3; as class 5.1 they could not.",
+        "reasoning": "The chat table says sharing M1 works only because Ferrier corrected TSF-2211 to class 8; it says class 5.1 would be separate from class 3."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-r-fennimore",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says R. Fennimore's signature on TSF-2219's declaration does not stand because R. Fennimore left the signatory register on 30 November 2026, so TSF-2219 is refused.",
+        "reasoning": "The chat table says Fennimore was struck off on 2026-11-30 and therefore TSF-2219 is refused."
+      },
+      {
+        "id": "25",
+        "name": "j-note-says-weighbridge-weights",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the weighbridge weights govern, not the booked weights the chat proposes.",
+        "reasoning": "The chat table rejects booked weights and says the latest weighbridge reading replaces booked weight."
+      },
+      {
+        "id": "26",
+        "name": "j-note-says-lane-u4",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says lane U4 is shut for the day on the chief engineer's mail, although the chat says the hoist is fixed.",
+        "reasoning": "final_message.md rejects the chat claim that U4 is fixed and applies the chief engineer\u2019s written notice that U4 is out of use all Saturday."
+      },
+      {
+        "id": "27",
+        "name": "j-note-says-port-manager",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says the port manager's ruling (Ronsay Stores first and in M2) does not stand: lifeline traffic goes first and TSF-2201 is in lane M3.",
+        "reasoning": "Although final_message.md rejects the ruling and says lifeline traffic goes first, it explicitly says TSF-2201 \u201cdoes end in M2,\u201d not M3."
+      },
+      {
+        "id": "28",
+        "name": "j-note-says-dangerous-goods",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note says the dangerous goods surcharge is 20% for this sailing because the 25% in T-26 amendment 1 starts on 4 January 2027.",
+        "reasoning": "final_message.md says 20% applies and amendment 1\u2019s 25% commences on 4 January 2027."
+      },
+      {
+        "id": "29",
+        "name": "j-note-says-tsf-2236",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says TSF-2236, at 4.95 m, is higher than the 4.80 m main deck clearance and is refused.",
+        "reasoning": "The chat table says the main deck is 4.80 m, TSF-2236 is 4.95 m, and it is refused outside vessel limits."
+      },
+      {
+        "id": "30",
+        "name": "j-note-lists-papers-made",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note lists the papers that made no difference, including last Saturday's loading report, the loading crib sheet, the superseded first issues of DLS-4 and T-26 and the Kilbride route plan.",
+        "reasoning": "The \u201cPapers in the folders that made no difference\u201d section includes last Saturday\u2019s report, the loading crib sheet, both superseded first issues, and the Kilbride plan."
+      },
+      {
+        "id": "31",
+        "name": "j-note-says-dangerous-goods-2",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says the dangerous goods safety adviser corrected TSF-2211's load to UN1791, class 8, so TSF-2211 is loaded in M1.",
+        "reasoning": "final_message.md says K. Ferrier corrected TSF-2211 to UN1791 class 8; the added-plan discussion and DG bridge list place it in M1 as loaded."
+      },
+      {
+        "id": "32",
+        "name": "j-note-says-sales-office",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note says the sales office's remark on TSF-2211 changes nothing, because only the adviser named on the declaration can correct it.",
+        "reasoning": "final_message.md says the sales-office guess was ignored because only the named adviser can change the declaration."
+      },
+      {
+        "id": "33",
+        "name": "j-note-says-tsf-2222",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says TSF-2222's driver's message on the freight messaging line, before the cut-off, makes it 2.45 m high, so it goes on the main deck, not the hoistable deck.",
+        "reasoning": "final_message.md says TSF-2222\u2019s in-time freight-line change made its height 2.45 m, but it does not explicitly state that it therefore goes on the main deck rather than the hoistable deck."
+      },
+      {
+        "id": "34",
+        "name": "j-note-says-tsf-2224",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.007462686567164179,
+        "description": "[final answer] The note says TSF-2224's driver's message came at 19:10 on 11 December, after the cut-off, so it changes nothing.",
+        "reasoning": "final_message.md says TSF-2224\u2019s 9.4 m change at 19:10 was too late and disregarded."
+      },
+      {
+        "id": "35",
+        "name": "j-note-says-tsf-2224-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says TSF-2224 was re-weighed at 16:35 on 11 December at 16,900 kg and that this latest reading replaces the morning export's 21,800 kg.",
+        "reasoning": "final_message.md gives the later 16:35 reading of 16,900 kg, but says the morning log would have \u201cunder-read\u201d it by 4,900 kg rather than explicitly stating the earlier 21,800 kg reading required by the criterion."
+      },
+      {
+        "id": "36",
+        "name": "j-note-says-tsf-2227",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says TSF-2227's booking-ticket amendment makes its physical length 13.6 m; it is planned at that length and charged at 14.0 m after rounding up to the next half metre, giving a fare of 173.60 pounds.",
+        "reasoning": "final_message.md states the in-time ticket length of 13.6 m, but does not explicitly give 14.0 m charged length or the \u00a3173.60 fare."
+      },
+      {
+        "id": "37",
+        "name": "j-note-says-tsf-2204",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says TSF-2204's change on the booking ticket to 2.35 m high counts, so it goes on the main deck.",
+        "reasoning": "final_message.md gives TSF-2204\u2019s in-time height as 2.35 m but does not explicitly say it consequently goes on the main deck."
+      },
+      {
+        "id": "38",
+        "name": "j-note-says-tsf-2221",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says TSF-2221's change was written on the booking ticket after the cut-off, so it changes nothing.",
+        "reasoning": "final_message.md says TSF-2221\u2019s 7.6 m change at 19:20 was too late and disregarded."
+      },
+      {
+        "id": "39",
+        "name": "j-note-says-master-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says that on the master's later reply M4 is 41.5 m and M3 is back to its full length.",
+        "reasoning": "final_message.md says the master\u2019s second notice puts the restriction in M4 at 41.5 m and restores M3 to 52.0 m."
+      },
+      {
+        "id": "40",
+        "name": "j-note-says-tsf-2208",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says TSF-2208's driver changed it on the freight messaging line, before the cut-off, to the box lorry at 7.2 m long, 3.20 m high and 6,900 kg.",
+        "reasoning": "final_message.md does not state TSF-2208\u2019s box-lorry change, dimensions, weight, or freight-line timing."
+      },
+      {
+        "id": "41",
+        "name": "j-note-says-tsf-2208-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] The note says TSF-2208 is planned as the box lorry in lane M2 and charged 60.45 pounds.",
+        "reasoning": "final_message.md does not explicitly say TSF-2208 is planned in M2 as the box lorry and charged \u00a360.45."
+      },
+      {
+        "id": "42",
+        "name": "j-note-says-ronsay-community",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says Ronsay Community Energy's comment on its freight account ticket, before the cut-off, makes TSF-2203 a part load at 19,500 kg, and that weight is used against the vehicle deadweight.",
+        "reasoning": "final_message.md says TSF-2203\u2019s in-time freight-account-ticket change set its weight to 19,500 kg; the deck-weight discussion shows current weights were used."
+      },
+      {
+        "id": "43",
+        "name": "j-note-says-tsf-2210",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.03731343283582089,
+        "description": "[final answer] The note says TSF-2210 is sent no text because it texted STOP to the bookings line's Ronsay office number, +447700901502.",
+        "reasoning": "final_message.md says TSF-2210 sent STOP to the Ronsay bookings number, identifies +447700901502 as part of the bookings line, and says TSF-2210 received nothing."
+      },
+      {
+        "id": "44",
+        "name": "n-note-states-vehicle-revenue",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note states a vehicle revenue other than 2293.25 pounds as the sailing's result.",
+        "reasoning": "final_message.md explicitly states the sailing result as \u00a32,521.92, a revenue other than \u00a32,293.25."
+      },
+      {
+        "id": "45",
+        "name": "n-note-states-number-vehicles",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note states a number of vehicles loaded other than 29, or a number moved other than 17, as the result.",
+        "reasoning": "final_message.md explicitly reports \u201c37 loaded, 8 moved,\u201d both differing from 29 and 17."
+      },
+      {
+        "id": "46",
+        "name": "n-note-says-chat-claim",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note says a chat claim stands that does not, such as R. Fennimore's signature being valid, U4 being usable, the 2.30 m clearance or the port manager's ruling on Ronsay Stores.",
+        "reasoning": "The chat table rejects the invalid chat claims. Although TSF-2201 ends in M2, the note explicitly says the port manager\u2019s ruling itself does not stand."
+      },
+      {
+        "id": "47",
+        "name": "n-note-uses-figure-last",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.007462686567164179,
+        "description": "[final answer] The note uses a figure from last Saturday's loading report or the loading crib sheet as a figure for this sailing.",
+        "reasoning": "final_message.md lists last Saturday\u2019s report and the crib sheet among papers that made no difference and says the crib figures were from summer 2025."
+      },
+      {
+        "id": "48",
+        "name": "n-note-says-tsf-2211",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note says TSF-2211 is moved to the 14:30 or treats its load as class 5.1.",
+        "reasoning": "final_message.md treats TSF-2211 as corrected to class 8 and included among loaded DG vehicles, not moved or class 5.1."
+      },
+      {
+        "id": "49",
+        "name": "n-note-places-tsf-2222",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note places TSF-2222 on the hoistable deck.",
+        "reasoning": "final_message.md does not place TSF-2222 on the hoistable deck."
+      },
+      {
+        "id": "50",
+        "name": "n-note-gives-tsf-2224",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.007462686567164179,
+        "description": "[final answer] The note gives TSF-2224's weight for this sailing as 21,800 kg.",
+        "reasoning": "final_message.md gives TSF-2224\u2019s latest weight as 16,900 kg, not 21,800 kg."
+      },
+      {
+        "id": "51",
+        "name": "n-note-gives-tsf-2208",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.022388059701492536,
+        "description": "[final answer] The note gives TSF-2208 as the van at 5.4 m, or TSF-2203 at 26,000 kg, for this sailing.",
+        "reasoning": "final_message.md does not describe TSF-2208 as a 5.4 m van and gives TSF-2203 as 19,500 kg, not 26,000 kg."
+      },
+      {
+        "id": "52",
+        "name": "j-explains-substantive-source-decision",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.022388059701492536,
+        "description": "[final answer] Explains the substantive source decision: The first plan save released the signed weighbridge closeout. TSF-2201 was re-weighed at 17:55 at 43,900 kg; this supersedes the earlier 36,400 kg reading and the affected plan must be replayed before notices. Equivalent wording and source identification are sufficient.",
+        "reasoning": "Item 5 of \u201cThings that decided outcomes\u201d says the signed weighbridge closeout released after the first plan save, restated TSF-2201 from 36,400 kg to 43,900 kg at 17:55, and caused the plan to be reread and rebuilt before texts."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-gives-sailing-s\":{\"score\":\"no\",\"reasoning\":\"final_message.md states \u201cVehicle revenue \u00a32,521.92,\u201d not \u00a32,293.25.\"},\"j-note-says-29-vehicles\":{\"score\":\"no\",\"reasoning\":\"final_message.md states \u201c37 loaded,\u201d not 29.\"},\"j-note-says-17-vehicles\":{\"score\":\"no\",\"reasoning\":\"final_message.md says 8 vehicles moved and lists only TSF-2240 through TSF-2248 (with gaps), not the required 17.\"},\"j-note-names-tsf-2219\":{\"score\":\"yes\",\"reasoning\":\"The \u201cRefused\u201d line in final_message.md explicitly names TSF-2219, TSF-2238, and TSF-2236.\"},\"j-note-names-tsf-2212\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly says \u201cCancelled by customer: TSF-2212.\u201d\"},\"j-note-gives-revenue-lane\":{\"score\":\"no\",\"reasoning\":\"The lane table in final_message.md differs from the criterion for U3, M2, M3, M4, and M5.\"},\"j-note-says-plan-worked\":{\"score\":\"yes\",\"reasoning\":\"The \u201cPapers applied\u201d section names DLS-4 and T-26 second issues, says they apply from 2026-11-09, and says the prior issue is replaced; the chat table also calls the first issues superseded.\"},\"j-note-starts-bridge-2882\":{\"score\":\"no\",\"reasoning\":\"The bridge in final_message.md starts at \u00a32,782.90, not \u00a32,882.35.\"},\"j-note-s-bridge-takes\":{\"score\":\"no\",\"reasoning\":\"The bridge reaches \u00a32,116.50 after removing 12 vehicles, not \u00a31,865.75 after removing all cancelled, refused, and moved vehicles.\"},\"j-note-s-bridge-gives\":{\"score\":\"no\",\"reasoning\":\"The bridge gives \u00a32,636.20 after band-rate adjustments, not \u00a32,465.00.\"},\"j-note-s-bridge-gives-2\":{\"score\":\"no\",\"reasoning\":\"The bridge gives \u00a32,441.32 after the lifeline rebate, not \u00a32,212.65.\"},\"j-note-s-bridge-ends\":{\"score\":\"no\",\"reasoning\":\"The bridge ends at \u00a32,521.92 after the DG surcharge, not \u00a32,293.25.\"},\"j-note-names-both-lanes\":{\"score\":\"no\",\"reasoning\":\"final_message.md names M3 and M4 as tightest at 0.00 m; it gives M2 1.20 m, not M2 and M4 at 0.7 m.\"},\"j-note-says-39-loading\":{\"score\":\"no\",\"reasoning\":\"The \u201cPlan lines\u201d section says \u201c35 lines corrected,\u201d not 39.\"},\"j-note-says-plan-line\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says lp-TSF-2290 was added in Main, M1.\"},\"j-note-says-second-tsf\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says lp-TSF-2217b, record recc4891fad4d1df3, was removed as the second TSF-2217 line.\"},\"j-note-says-dh-401\":{\"score\":\"yes\",\"reasoning\":\"The deck-holds section says DH-401 recfead2d38a6a967 and DH-402 recef91ba081822d7 were closed (deleted).\"},\"j-note-says-dh-403\":{\"score\":\"no\",\"reasoning\":\"final_message.md says DH-403 was untouched; it does not restate it to \u00a3175.00 or give record rec62fff18818eb46.\"},\"j-note-says-20-holds\":{\"score\":\"no\",\"reasoning\":\"The \u201cRaised\u201d subsection explicitly lists only 11 holds: eight overflow, two invalid-DG, and one outside-limits hold, omitting nine required overflow holds.\"},\"j-note-says-chat-s\":{\"score\":\"yes\",\"reasoning\":\"The chat table says the \u00a38.50/m claim does not stand because that rate is in the superseded first issue.\"},\"j-note-says-chat-s-2\":{\"score\":\"yes\",\"reasoning\":\"The chat table rejects 2.30 m and explicitly gives hoistable clearance as 2.10 m.\"},\"j-note-says-chat-s-3\":{\"score\":\"yes\",\"reasoning\":\"The chat table rejects \u201cDiesel\u2019s fine in any lane\u201d and says DG vehicles go only in M1.\"},\"j-note-says-chat-s-4\":{\"score\":\"yes\",\"reasoning\":\"The chat table says sharing M1 works only because Ferrier corrected TSF-2211 to class 8; it says class 5.1 would be separate from class 3.\"},\"j-note-says-r-fennimore\":{\"score\":\"yes\",\"reasoning\":\"The chat table says Fennimore was struck off on 2026-11-30 and therefore TSF-2219 is refused.\"},\"j-note-says-weighbridge-weights\":{\"score\":\"yes\",\"reasoning\":\"The chat table rejects booked weights and says the latest weighbridge reading replaces booked weight.\"},\"j-note-says-lane-u4\":{\"score\":\"yes\",\"reasoning\":\"final_message.md rejects the chat claim that U4 is fixed and applies the chief engineer\u2019s written notice that U4 is out of use all Saturday.\"},\"j-note-says-port-manager\":{\"score\":\"no\",\"reasoning\":\"Although final_message.md rejects the ruling and says lifeline traffic goes first, it explicitly says TSF-2201 \u201cdoes end in M2,\u201d not M3.\"},\"j-note-says-dangerous-goods\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says 20% applies and amendment 1\u2019s 25% commences on 4 January 2027.\"},\"j-note-says-tsf-2236\":{\"score\":\"yes\",\"reasoning\":\"The chat table says the main deck is 4.80 m, TSF-2236 is 4.95 m, and it is refused outside vessel limits.\"},\"j-note-lists-papers-made\":{\"score\":\"yes\",\"reasoning\":\"The \u201cPapers in the folders that made no difference\u201d section includes last Saturday\u2019s report, the loading crib sheet, both superseded first issues, and the Kilbride plan.\"},\"j-note-says-dangerous-goods-2\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says K. Ferrier corrected TSF-2211 to UN1791 class 8; the added-plan discussion and DG bridge list place it in M1 as loaded.\"},\"j-note-says-sales-office\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says the sales-office guess was ignored because only the named adviser can change the declaration.\"},\"j-note-says-tsf-2222\":{\"score\":\"no\",\"reasoning\":\"final_message.md says TSF-2222\u2019s in-time freight-line change made its height 2.45 m, but it does not explicitly state that it therefore goes on the main deck rather than the hoistable deck.\"},\"j-note-says-tsf-2224\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says TSF-2224\u2019s 9.4 m change at 19:10 was too late and disregarded.\"},\"j-note-says-tsf-2224-2\":{\"score\":\"no\",\"reasoning\":\"final_message.md gives the later 16:35 reading of 16,900 kg, but says the morning log would have \u201cunder-read\u201d it by 4,900 kg rather than explicitly stating the earlier 21,800 kg reading required by the criterion.\"},\"j-note-says-tsf-2227\":{\"score\":\"no\",\"reasoning\":\"final_message.md states the in-time ticket length of 13.6 m, but does not explicitly give 14.0 m charged length or the \u00a3173.60 fare.\"},\"j-note-says-tsf-2204\":{\"score\":\"no\",\"reasoning\":\"final_message.md gives TSF-2204\u2019s in-time height as 2.35 m but does not explicitly say it consequently goes on the main deck.\"},\"j-note-says-tsf-2221\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says TSF-2221\u2019s 7.6 m change at 19:20 was too late and disregarded.\"},\"j-note-says-master-s\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says the master\u2019s second notice puts the restriction in M4 at 41.5 m and restores M3 to 52.0 m.\"},\"j-note-says-tsf-2208\":{\"score\":\"no\",\"reasoning\":\"final_message.md does not state TSF-2208\u2019s box-lorry change, dimensions, weight, or freight-line timing.\"},\"j-note-says-tsf-2208-2\":{\"score\":\"no\",\"reasoning\":\"final_message.md does not explicitly say TSF-2208 is planned in M2 as the box lorry and charged \u00a360.45.\"},\"j-note-says-ronsay-community\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says TSF-2203\u2019s in-time freight-account-ticket change set its weight to 19,500 kg; the deck-weight discussion shows current weights were used.\"},\"j-note-says-tsf-2210\":{\"score\":\"yes\",\"reasoning\":\"final_message.md says TSF-2210 sent STOP to the Ronsay bookings number, identifies +447700901502 as part of the bookings line, and says TSF-2210 received nothing.\"},\"n-note-states-vehicle-revenue\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly states the sailing result as \u00a32,521.92, a revenue other than \u00a32,293.25.\"},\"n-note-states-number-vehicles\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly reports \u201c37 loaded, 8 moved,\u201d both differing from 29 and 17.\"},\"n-note-says-chat-claim\":{\"score\":\"no\",\"reasoning\":\"The chat table rejects the invalid chat claims. Although TSF-2201 ends in M2, the note explicitly says the port manager\u2019s ruling itself does not stand.\"},\"n-note-uses-figure-last\":{\"score\":\"no\",\"reasoning\":\"final_message.md lists last Saturday\u2019s report and the crib sheet among papers that made no difference and says the crib figures were from summer 2025.\"},\"n-note-says-tsf-2211\":{\"score\":\"no\",\"reasoning\":\"final_message.md treats TSF-2211 as corrected to class 8 and included among loaded DG vehicles, not moved or class 5.1.\"},\"n-note-places-tsf-2222\":{\"score\":\"no\",\"reasoning\":\"final_message.md does not place TSF-2222 on the hoistable deck.\"},\"n-note-gives-tsf-2224\":{\"score\":\"no\",\"reasoning\":\"final_message.md gives TSF-2224\u2019s latest weight as 16,900 kg, not 21,800 kg.\"},\"n-note-gives-tsf-2208\":{\"score\":\"no\",\"reasoning\":\"final_message.md does not describe TSF-2208 as a 5.4 m van and gives TSF-2203 as 19,500 kg, not 26,000 kg.\"},\"j-explains-substantive-source-decision\":{\"score\":\"yes\",\"reasoning\":\"Item 5 of \u201cThings that decided outcomes\u201d says the signed weighbridge closeout released after the first plan save, restated TSF-2201 from 36,400 kg to 43,900 kg at 17:55, and caused the plan to be reread and rebuilt before texts.\"}}",
+    "usage": {
+      "input_tokens": 45096,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 19712,
+      "output_tokens": 3765,
+      "reasoning_output_tokens": 127,
+      "total_tokens": 48861,
+      "cost_usd": 0.18472080000000002,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 45096,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 19712,
+          "output_tokens": 3765,
+          "reasoning_output_tokens": 127,
+          "total_tokens": 48861,
+          "cost_usd": 0.18472080000000002
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.e9f0620485824eb592362887c5c62314.jsonl"
+    ]
+  }
+}

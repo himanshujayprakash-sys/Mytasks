@@ -1,0 +1,1005 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "d269ed18-9cfa-5f04-a8af-a3aa3f7e4c75",
+  "trial": "53sjtEj",
+  "started_at": "2026-10-25T06:09:05.450782Z",
+  "finished_at": "2026-10-25T06:35:40.924632Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.3407,
+    "passed": 29,
+    "failed": 31,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_guest_list_reread_after_first_line",
+      "test_production_portions_exact",
+      "test_production_children_menus",
+      "test_production_evening_portions",
+      "test_event_record_final_figures",
+      "test_beef_order",
+      "test_invoice_exact",
+      "test_supplier_orders_exact",
+      "test_couple_message_exact",
+      "test_final_states_balance",
+      "test_final_states_adults_eating_and_charged",
+      "test_final_states_other_counts",
+      "test_final_lists_invoice_lines",
+      "test_final_gives_portions",
+      "test_final_gives_order_quantities",
+      "test_final_names_plan_guests",
+      "test_final_names_created_ids",
+      "test_page_balance_at_head",
+      "test_page_adult_counts",
+      "test_page_portions_chart",
+      "test_page_invoice_chart",
+      "test_page_guest_table_sortable_filterable",
+      "test_dossier_changes_section",
+      "test_reconciliation_guest_rows",
+      "test_reconciliation_invoice_rows"
+    ],
+    "guards_tripped": [
+      "test_guard_misread_balance_stated"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_papers_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_channels_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_sheets_read_before_adding",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guest_list_reread_after_first_line",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the guest list was never read again once the sheets were being written",
+        "error": null
+      },
+      {
+        "name": "test_production_portions_exact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "production portions differ on ['CHM', 'DT', 'EVB', 'MB', 'ST1']",
+        "error": null
+      },
+      {
+        "name": "test_production_dish_names_follow_codes",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_production_alternatives",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_production_children_menus",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the children's menus are not the children counted",
+        "error": null
+      },
+      {
+        "name": "test_production_evening_portions",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the evening buffet portions are not the evening guests counted",
+        "error": null
+      },
+      {
+        "name": "test_allergen_plan_exact",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_event_record_final_figures",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "event record figures wrong: ['final_adults', 'final_children', 'final_evening', 'balance_due_gbp']",
+        "error": null
+      },
+      {
+        "name": "test_event_status_worded_as_procedure",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_matrix_followed_on_own_plan",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_sealed_meals_only_for_severe",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_minimum_numbers_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_service_charge_on_food_only",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_payments_taken_off",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_invoice_matches_own_balance",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_latest_reply_and_non_replies",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_supplier_quantities_by_standard",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_beef_order",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the beef order is not the quantity the standard gives",
+        "error": null
+      },
+      {
+        "name": "test_fish_and_sealed_orders",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guest_whatsapp_correction_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_band_moved_to_crew_meals",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_voicemail_withdrawal_applied",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_crm_note_carer_added",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_declined_shift_means_sealed_meals",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_invoice_exact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the balance invoice does not carry exactly the charges, the payments and the balance",
+        "error": null
+      },
+      {
+        "name": "test_supplier_orders_exact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "supplier orders differ: 2 mismatches",
+        "error": null
+      },
+      {
+        "name": "test_couple_message_exact",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the couple did not get exactly the final numbers message on their conversation",
+        "error": null
+      },
+      {
+        "name": "test_couple_one_message_on_conversation",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_couple_told_after_invoice",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_states_balance",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not state the balance due",
+        "error": null
+      },
+      {
+        "name": "test_final_states_adults_eating_and_charged",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give both the adults eating and the adults charged for",
+        "error": null
+      },
+      {
+        "name": "test_final_states_other_counts",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give the count of ['children', 'infants', 'evening']",
+        "error": null
+      },
+      {
+        "name": "test_final_lists_invoice_lines",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note leaves out invoice lines [108.0, 252.0, 624.0, 735.6, 2500.0, 3000.0]",
+        "error": null
+      },
+      {
+        "name": "test_final_gives_portions",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give the portions for ['CHM', 'CREW', 'DT', 'DTA', 'EVB', 'MB', 'MBA', 'MF', 'MFA', 'MV', 'MVA', 'MVB', 'ST1', 'STA']",
+        "error": null
+      },
+      {
+        "name": "test_final_gives_order_quantities",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give the supplier order quantities",
+        "error": null
+      },
+      {
+        "name": "test_final_names_sealed_meal_guests",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_names_plan_guests",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not name every guest on the allergen plan: ['G-003', 'G-004', 'G-005', 'G-006']",
+        "error": null
+      },
+      {
+        "name": "test_final_names_created_ids",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the note does not give every created id: ['rec22f79a008eade7', 'recc00c8efcbaa19c', 'rec972cab465ec72e', 'rec36936ec5f305d6']",
+        "error": null
+      },
+      {
+        "name": "test_page_balance_at_head",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page does not carry the balance due",
+        "error": null
+      },
+      {
+        "name": "test_page_adult_counts",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page does not carry the adults eating and charged for",
+        "error": null
+      },
+      {
+        "name": "test_page_portions_chart",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the portions chart carries 12 of 15 dish codes",
+        "error": null
+      },
+      {
+        "name": "test_page_invoice_chart",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the invoice chart carries 5 of 8 lines",
+        "error": null
+      },
+      {
+        "name": "test_page_guest_table_sortable_filterable",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "guest rows 96/97, sortable and filterable True",
+        "error": null
+      },
+      {
+        "name": "test_page_offline",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_sections_per_plan_guest",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_dossier_changes_section",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the dossier does not cover the changes for ['G-124', 'G-041']",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_guest_rows",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "reconciliation guest rows differ by 2",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_invoice_rows",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "reconciliation invoice rows missing [252.0, 624.0, 735.6, 2748.6]",
+        "error": null
+      },
+      {
+        "name": "test_files_reread",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_restraint_nothing_else_moved",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_other_events_touched",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no other event's records were touched",
+        "error": null
+      },
+      {
+        "name": "test_guard_writes_beyond_final_numbers",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing outside the event records, the invoice, the orders and the couple message was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_second_invoice",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "only the one balance invoice was raised",
+        "error": null
+      },
+      {
+        "name": "test_guard_order_to_wrong_party",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no order went to anyone but the suppliers the standard names",
+        "error": null
+      },
+      {
+        "name": "test_guard_couple_messaged_twice",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "the couple got one message",
+        "error": null
+      },
+      {
+        "name": "test_guard_misread_balance_stated",
+        "weight": -3,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_numbers_claimed_unworked",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no final numbers claimed without work",
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-states-balance-due-2748",
+      "criterion": "[final answer] States the balance due as 2748.60.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message states “balance £2,700.20,” not 2748.60 (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-states-88-adults-eat",
+      "criterion": "[final answer] States that 88 adults eat the wedding breakfast and 90 are charged for.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message states “89 adults eating / 90 charged,” not 88 adults eating (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-gives-9-children-1",
+      "criterion": "[final answer] Gives 9 children and 1 infant.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message gives “8 children, 2 infants,” not 9 children and 1 infant (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-gives-39-evening-guests",
+      "criterion": "[final answer] Gives 39 evening guests.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message gives 38 evening guests, not 39 (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-gives-service-charge-735",
+      "criterion": "[final answer] Gives the service charge as 735.60.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered reconciliation gives the service charge as 731.20, not 735.60 (workspace/hartley_osei_reconciliation.csv, line 105).",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-gives-beef-order-42",
+      "criterion": "[final answer] Gives the beef order as 42 portions.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered chart gives MB 37 and MBA 4, totaling 41 beef portions, and never gives a 42-portion beef order (workspace/hartley_osei_final_numbers.html, lines 105-110).",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-says-sales-note-couple",
+      "criterion": "[final answer] Says the sales note on the couple's messenger conversation moved the four band members to crew meals.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier says the internal sales note on the clients’ Fernhill messenger conversation moved the four band members from wedding breakfast to crew meals (workspace/hartley_osei_allergen_dossier.md, lines 255-259).",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-says-saskia-brandt-s",
+      "criterion": "[final answer] Says Saskia Brandt's own WhatsApp message corrected her allergy from sesame to gluten.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier explicitly says Saskia’s own WhatsApp message corrected sesame to gluten (workspace/hartley_osei_allergen_dossier.md, lines 156-167 and 261-265).",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-says-graham-ostler-withdrew",
+      "criterion": "[final answer] Says Graham Ostler withdrew by voicemail to the events desk and is not counted.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier says Graham Ostler left a withdrawal voicemail on the events desk phone and reduced the adult count from 93 to 92 (workspace/hartley_osei_allergen_dossier.md, lines 243-247).",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-says-tomas-rivera-added",
+      "criterion": "[final answer] Says Tomas Rivera was added as a vegan guest from the sales note on the couple's CRM contact.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier says Tomas was added as a vegan wedding-breakfast guest through the sales-team note on the clients’ CRM contact (workspace/hartley_osei_allergen_dossier.md, lines 194-203 and 249-253).",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-says-mei-lin-harcourt",
+      "criterion": "[final answer] Says Mei Lin Harcourt and Joseph Abara get certified sealed meals because the only Level 3 allergen lead declined the wedding shift.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The dossier assigns sealed meals to Mei Lin Harcourt and Joseph Abara because the sole Level 3 lead, Rhodri Pask, declined the shift (workspace/hartley_osei_allergen_dossier.md, lines 170-179 and 205-214).",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-says-akosua-lister-counted",
+      "criterion": "[final answer] Says Akosua Lister is counted as a child.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No delivered file says Akosua Lister is counted as a child; the files instead list Akosua Dunstan as an adult (workspace/hartley_osei_reconciliation.csv, line 9).",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-says-yasmin-selwyn-evening",
+      "criterion": "[final answer] Says Yasmin Selwyn is an evening guest rather than a wedding breakfast guest.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered reconciliation lists Yasmin Selwyn as an adult wedding-breakfast guest with three courses, not as an evening guest (workspace/hartley_osei_reconciliation.csv, line 42).",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-gives-crew-meals-line",
+      "criterion": "[final answer] Gives the crew meals line as 108.00.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The reconciliation explicitly gives “Crew meal,6,18.00,108.00” (workspace/hartley_osei_reconciliation.csv, line 102).",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-gives-certified-sealed-meals",
+      "criterion": "[final answer] Gives the certified sealed meals at cost as 49.00.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The final message states “2 × £24.50 = £49.00 at cost,” also reflected in the reconciliation (final_message.md, line 15; workspace/hartley_osei_reconciliation.csv, line 104).",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-takes-off-deposit-2500",
+      "criterion": "[final answer] Takes off the deposit of 2500.00 and the second instalment of 3000.00.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The reconciliation deducts both the 2500.00 deposit and 3000.00 second instalment (workspace/hartley_osei_reconciliation.csv, lines 106-107).",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-says-2026-schedule-charges",
+      "criterion": "[final answer] Says the 2026 schedule of charges, version 2, applies rather than the 2025 schedule.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier identifies the 2026 version 2 schedule as an authority, while the final message calls the 2025 schedule superseded (workspace/hartley_osei_allergen_dossier.md, line 5; final_message.md, line 24).",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-says-ines-calloway-shift",
+      "criterion": "[final answer] Says Ines Calloway, on the shift, is only Level 2 and cannot stand in as the allergen lead.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither the final message nor delivered files mention Ines Calloway or state that she is Level 2 and cannot substitute as allergen lead.",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-says-fergus-lyle-counted",
+      "criterion": "[final answer] Says Fergus Lyle is not counted because his later RSVP reply was no.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier says Fergus Lyle’s later RSVP answered No and reduced the count (workspace/hartley_osei_allergen_dossier.md, lines 237-241).",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-says-barnaby-quist-elspeth",
+      "criterion": "[final answer] Says Barnaby Quist and Elspeth Morrow are not counted because they never replied.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier says Barnaby Quist and Elspeth Morrow never appeared in the RSVP responses and cites the rule that an unreplied guest is not counted (workspace/hartley_osei_allergen_dossier.md, lines 273-276).",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-gives-fish-order-24",
+      "criterion": "[final answer] Gives the fish order as 24 portions.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered chart gives MF 22 and MFA 1, totaling 23 fish portions, not 24 (workspace/hartley_osei_final_numbers.html, lines 111-116).",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-gives-sealed-meal-order",
+      "criterion": "[final answer] Gives the sealed meal order as 2 meals.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The final message explicitly says “SEALED = 2 portions” and explains the order is two meals (final_message.md, line 15).",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-gives-main-course-portions",
+      "criterion": "[final answer] Gives the main course portions: MB 36, MBA 4, MF 22, MFA 1, MV 17, MVA 5, MVB 1.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The chart gives MB 37 rather than the required MB 36, although its other listed main-course figures match (workspace/hartley_osei_final_numbers.html, lines 105-125).",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-gives-saskia-brandt-s",
+      "criterion": "[final answer] Gives Saskia Brandt's dishes as STA, MBA and DTA.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Saskia Brandt’s delivered dossier entry gives STA, MBA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 156-162).",
+      "error": null
+    },
+    {
+      "id": "25",
+      "name": "j-gives-tomas-rivera-s",
+      "criterion": "[final answer] Gives Tomas Rivera's dishes as STA, MVA and DTA.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "Tomas Rivera’s dossier entry gives STA, MVA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 194-203).",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "j-says-claim-minimum-numbers",
+      "criterion": "[final answer] Says the claim that minimum numbers do not apply in December does not stand.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message only says generically that “all five fail”; it does not explicitly identify and reject the claim that December minimum numbers do not apply (final_message.md, line 20).",
+      "error": null
+    },
+    {
+      "id": "27",
+      "name": "j-says-estate-owner-s",
+      "criterion": "[final answer] Says the estate owner's instruction not to charge for the band's meals does not stand.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message does not explicitly state that the estate owner’s instruction not to charge band meals fails; “all five fail” does not identify this particular claim (final_message.md, line 20).",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "j-says-claim-service-charge",
+      "criterion": "[final answer] Says the claim that service charge goes on every line does not stand.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final message describes the service-charge base but never explicitly states that the claim that service charge applies to every line does not stand (final_message.md, lines 17 and 20).",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "n-states-balance-due-2700",
+      "criterion": "[final answer] States the balance due as 2700.20.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "The final message explicitly states “balance £2,700.20” (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "n-says-89-adults-eat",
+      "criterion": "[final answer] Says 89 adults eat the wedding breakfast.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "The final message explicitly states “89 adults eating” (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "31",
+      "name": "n-gives-8-children",
+      "criterion": "[final answer] Gives 8 children.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "The final message explicitly gives 8 children (final_message.md, line 5).",
+      "error": null
+    },
+    {
+      "id": "32",
+      "name": "n-gives-38-evening-guests",
+      "criterion": "[final answer] Gives 38 evening guests.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "The final message explicitly gives 38 evening guests (final_message.md, line 5).",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.1935,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 32,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 103180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 64512,
+      "output_tokens": 3376,
+      "reasoning_output_tokens": 450,
+      "total_tokens": 106556,
+      "cost_usd": 0.2479968,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 103180,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 64512,
+          "output_tokens": 3376,
+          "reasoning_output_tokens": 450,
+          "total_tokens": 106556,
+          "cost_usd": 0.2479968
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.2671,
+  "channels": {
+    "pytest": 0.3407,
+    "rubric": 0.1935
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

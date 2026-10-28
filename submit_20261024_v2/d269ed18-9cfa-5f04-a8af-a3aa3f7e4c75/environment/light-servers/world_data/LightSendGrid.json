@@ -1,0 +1,144 @@
+{
+ "contacts": [
+  {
+   "id": "contact-fh-01",
+   "email": "hollie.grant@weddingplans.example",
+   "first_name": "Hollie",
+   "last_name": "Grant",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-02-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-fh-02",
+   "email": "sian.rees@weddingplans.example",
+   "first_name": "Sian",
+   "last_name": "Rees",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-03-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-fh-03",
+   "email": "kemi.ade@weddingplans.example",
+   "first_name": "Kemi",
+   "last_name": "Ade",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-04-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-fh-04",
+   "email": "rosa.lind@weddingplans.example",
+   "first_name": "Rosa",
+   "last_name": "Lind",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-05-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-fh-05",
+   "email": "ola.bakare@weddingplans.example",
+   "first_name": "Ola",
+   "last_name": "Bakare",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-06-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  },
+  {
+   "id": "contact-fh-06",
+   "email": "isla.monro@weddingplans.example",
+   "first_name": "Isla",
+   "last_name": "Monro",
+   "country": "GB",
+   "list_ids": [
+    "list-fh-enquiries"
+   ],
+   "created_at": "2026-07-01T10:00:00Z",
+   "updated_at": "2026-11-01T10:00:00Z"
+  }
+ ],
+ "sent_log": [
+  {
+   "message_id": "msg-fh-01",
+   "to_email": "hollie.grant@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 1,
+   "sent_at": "2026-11-15T09:00:00Z"
+  },
+  {
+   "message_id": "msg-fh-02",
+   "to_email": "sian.rees@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 0,
+   "sent_at": "2026-11-15T09:00:00Z"
+  },
+  {
+   "message_id": "msg-fh-03",
+   "to_email": "kemi.ade@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 1,
+   "sent_at": "2026-11-15T09:00:00Z"
+  },
+  {
+   "message_id": "msg-fh-04",
+   "to_email": "rosa.lind@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-15T09:00:00Z"
+  },
+  {
+   "message_id": "msg-fh-05",
+   "to_email": "ola.bakare@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-11-15T09:00:00Z"
+  },
+  {
+   "message_id": "msg-fh-06",
+   "to_email": "isla.monro@weddingplans.example",
+   "from_email": "hello@fernhillbarn.example",
+   "subject": "Winter weddings at Fernhill",
+   "template_id": null,
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-15T09:00:00Z"
+  }
+ ]
+}

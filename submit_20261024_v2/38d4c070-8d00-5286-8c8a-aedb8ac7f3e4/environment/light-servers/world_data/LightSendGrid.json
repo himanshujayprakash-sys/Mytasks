@@ -1,0 +1,209 @@
+{
+ "templates": [
+  {
+   "id": "d-pm19staffnews01",
+   "name": "Staff news",
+   "generation": "dynamic",
+   "updated_at": "2026-10-01T10:00:00Z",
+   "versions": [
+    {
+     "id": "v_pm19a",
+     "template_id": "d-pm19staffnews01",
+     "active": 1,
+     "name": "v1",
+     "subject": "Pellbridge MC staff news"
+    }
+   ]
+  }
+ ],
+ "contacts": [
+  {
+   "id": "contact-pm1901",
+   "email": "odette.faraday@pellbridge-mc.example",
+   "first_name": "Odette",
+   "last_name": "Faraday",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1902",
+   "email": "dominic.rusk@pellbridge-mc.example",
+   "first_name": "Dominic",
+   "last_name": "Rusk",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1903",
+   "email": "benedict.sowerby@pellbridge-mc.example",
+   "first_name": "Benedict",
+   "last_name": "Sowerby",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1904",
+   "email": "imelda.craven@pellbridge-mc.example",
+   "first_name": "Imelda",
+   "last_name": "Craven",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1905",
+   "email": "kayode.bright@pellbridge-mc.example",
+   "first_name": "Kayode",
+   "last_name": "Bright",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1906",
+   "email": "priya.natarajan@pellbridge-mc.example",
+   "first_name": "Priya",
+   "last_name": "Natarajan",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1907",
+   "email": "hollis.greaves@pellbridge-mc.example",
+   "first_name": "Hollis",
+   "last_name": "Greaves",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1908",
+   "email": "morwenna.tate@pellbridge-mc.example",
+   "first_name": "Morwenna",
+   "last_name": "Tate",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1909",
+   "email": "gordon.ibbotson@pellbridge-mc.example",
+   "first_name": "Gordon",
+   "last_name": "Ibbotson",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  },
+  {
+   "id": "contact-pm1910",
+   "email": "ruby.anand@pellbridge-mc.example",
+   "first_name": "Ruby",
+   "last_name": "Anand",
+   "country": "GB",
+   "list_ids": [
+    "list-pm19-staff"
+   ],
+   "created_at": "2025-01-06T10:00:00Z",
+   "updated_at": "2026-10-01T10:00:00Z"
+  }
+ ],
+ "sent_log": [
+  {
+   "message_id": "msg-pm1901",
+   "to_email": "imelda.craven@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: car park closed Saturday 21 November",
+   "template_id": "d-pm19staffnews01",
+   "status": "delivered",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-02T07:30:00Z"
+  },
+  {
+   "message_id": "msg-pm1902",
+   "to_email": "kayode.bright@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: car park closed Saturday 21 November",
+   "template_id": "d-pm19staffnews01",
+   "status": "opened",
+   "opens": 2,
+   "clicks": 1,
+   "sent_at": "2026-11-02T07:30:00Z"
+  },
+  {
+   "message_id": "msg-pm1903",
+   "to_email": "priya.natarajan@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: laptop swaps on the second floor",
+   "template_id": "d-pm19staffnews01",
+   "status": "delivered",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-03T07:30:00Z"
+  },
+  {
+   "message_id": "msg-pm1904",
+   "to_email": "hollis.greaves@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: laptop swaps on the second floor",
+   "template_id": "d-pm19staffnews01",
+   "status": "opened",
+   "opens": 1,
+   "clicks": 0,
+   "sent_at": "2026-11-03T07:30:00Z"
+  },
+  {
+   "message_id": "msg-pm1905",
+   "to_email": "morwenna.tate@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: Christmas lunch tickets",
+   "template_id": "d-pm19staffnews01",
+   "status": "opened",
+   "opens": 3,
+   "clicks": 2,
+   "sent_at": "2026-11-04T07:30:00Z"
+  },
+  {
+   "message_id": "msg-pm1906",
+   "to_email": "gordon.ibbotson@pellbridge-mc.example",
+   "from_email": "staff.news@pellbridge-mc.example",
+   "subject": "Staff news: flu jab vouchers",
+   "template_id": "d-pm19staffnews01",
+   "status": "bounced",
+   "opens": 0,
+   "clicks": 0,
+   "sent_at": "2026-11-04T07:30:00Z"
+  }
+ ]
+}

@@ -1,0 +1,440 @@
+{
+ "lists": [
+  {
+   "date_created": "2024-01-10T09:00:00+00:00",
+   "id": "aud-plotholders",
+   "member_count": 42,
+   "name": "Wexcombe plot holders' news"
+  },
+  {
+   "date_created": "2023-01-10T09:00:00+00:00",
+   "id": "aud-society",
+   "member_count": 0,
+   "name": "Allotment society mailing"
+  }
+ ],
+ "members": [
+  {
+   "_pk": "aud-plotholders@10af2064864a9844ac7aa60e92eac41a",
+   "email_address": "BERNARD.OCAMPO.1002@MAIL.EXAMPLE",
+   "full_name": "Bernard Ocampo",
+   "id": "10af2064864a9844ac7aa60e92eac41a",
+   "list_id": "aud-plotholders",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-03-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@871616a55adafed1cdeaf50678cc4b38",
+   "email_address": "nnenna.ashdown.1014@mail.example",
+   "full_name": "Nnenna Ashdown",
+   "id": "871616a55adafed1cdeaf50678cc4b38",
+   "list_id": "aud-plotholders",
+   "member_rating": 2,
+   "status": "unsubscribed",
+   "timestamp_signup": "2025-03-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@01d87374e13f45af80797e1cde63217f",
+   "email_address": "holder00.plots@mail.example",
+   "full_name": "Alys Dunmore",
+   "id": "01d87374e13f45af80797e1cde63217f",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@735783267b0de7002458b25c79ffdb52",
+   "email_address": "holder01.plots@mail.example",
+   "full_name": "Rhodri Usher",
+   "id": "735783267b0de7002458b25c79ffdb52",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@6aab1a64a8704078f98f2258306730fd",
+   "email_address": "holder02.plots@mail.example",
+   "full_name": "Dov Usher",
+   "id": "6aab1a64a8704078f98f2258306730fd",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@8602c3d649313a33734ebbf157d723c3",
+   "email_address": "holder03.plots@mail.example",
+   "full_name": "Joss Tremlett",
+   "id": "8602c3d649313a33734ebbf157d723c3",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@fb43dc0ffb7325d10e9caefbe53ed1c2",
+   "email_address": "holder04.plots@mail.example",
+   "full_name": "Bram Tremlett",
+   "id": "fb43dc0ffb7325d10e9caefbe53ed1c2",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@a5b3da65c6a1873ff3ed02914ea313db",
+   "email_address": "holder05.plots@mail.example",
+   "full_name": "Joss Nuttall",
+   "id": "a5b3da65c6a1873ff3ed02914ea313db",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@fe09e3ed0e937789d5d2532ff008c1e4",
+   "email_address": "holder06.plots@mail.example",
+   "full_name": "Iona Ledger",
+   "id": "fe09e3ed0e937789d5d2532ff008c1e4",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@3b39ab49d454f7e326ae7ef4a9957003",
+   "email_address": "holder07.plots@mail.example",
+   "full_name": "Kit Orme",
+   "id": "3b39ab49d454f7e326ae7ef4a9957003",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@101c1ff77e83a6db0b07046dcb4291e8",
+   "email_address": "holder08.plots@mail.example",
+   "full_name": "Lark Yeo",
+   "id": "101c1ff77e83a6db0b07046dcb4291e8",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@553c5d371e9e947261cf44f1a66d774d",
+   "email_address": "holder09.plots@mail.example",
+   "full_name": "Fenn Rudge",
+   "id": "553c5d371e9e947261cf44f1a66d774d",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@4d1c044d67ed86f7707d805f6323afd7",
+   "email_address": "holder10.plots@mail.example",
+   "full_name": "Hal Mottram",
+   "id": "4d1c044d67ed86f7707d805f6323afd7",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@2f5bbab249324485cb400000a3281712",
+   "email_address": "holder11.plots@mail.example",
+   "full_name": "Sorrel Dunmore",
+   "id": "2f5bbab249324485cb400000a3281712",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@aa27ede7888ffd5acbcac927b4c95ef5",
+   "email_address": "holder12.plots@mail.example",
+   "full_name": "Sorrel Frome",
+   "id": "aa27ede7888ffd5acbcac927b4c95ef5",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@13d2789d95e24904b3872d24f4f6b7cd",
+   "email_address": "holder13.plots@mail.example",
+   "full_name": "Tegan Pargeter",
+   "id": "13d2789d95e24904b3872d24f4f6b7cd",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@a65eac57f528f6fe4bc9d04ac94c2938",
+   "email_address": "holder14.plots@mail.example",
+   "full_name": "Iona Quaife",
+   "id": "a65eac57f528f6fe4bc9d04ac94c2938",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@de44e79ff9e435ba47569f37fae9ef95",
+   "email_address": "holder15.plots@mail.example",
+   "full_name": "Carys Whitcombe",
+   "id": "de44e79ff9e435ba47569f37fae9ef95",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@5b0c0dee9345c1af005a8dfa1aac624b",
+   "email_address": "holder16.plots@mail.example",
+   "full_name": "Hal Jessop",
+   "id": "5b0c0dee9345c1af005a8dfa1aac624b",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@8361ba98a24936f340ab55b8330e50b7",
+   "email_address": "holder17.plots@mail.example",
+   "full_name": "Gwen Nuttall",
+   "id": "8361ba98a24936f340ab55b8330e50b7",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@8a23cf1885d3cf0300b9132c6f885416",
+   "email_address": "holder18.plots@mail.example",
+   "full_name": "Rhodri Jessop",
+   "id": "8a23cf1885d3cf0300b9132c6f885416",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@bc6a4bb8bd733f967423ee911d88d01d",
+   "email_address": "holder19.plots@mail.example",
+   "full_name": "Kit Rudge",
+   "id": "bc6a4bb8bd733f967423ee911d88d01d",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@219346afdcecc0fc4911381bfb150e45",
+   "email_address": "holder20.plots@mail.example",
+   "full_name": "Bram Ledger",
+   "id": "219346afdcecc0fc4911381bfb150e45",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@97dcd075f2a7b40a9bf5a86b1929e916",
+   "email_address": "holder21.plots@mail.example",
+   "full_name": "Lark Sallis",
+   "id": "97dcd075f2a7b40a9bf5a86b1929e916",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@50d039ceb2f7447954d32bbcd88e46b0",
+   "email_address": "holder22.plots@mail.example",
+   "full_name": "Rhodri Ince",
+   "id": "50d039ceb2f7447954d32bbcd88e46b0",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@1f074b4babf8a8e70cfd189d744ad95e",
+   "email_address": "holder23.plots@mail.example",
+   "full_name": "Sorrel Nuttall",
+   "id": "1f074b4babf8a8e70cfd189d744ad95e",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@7d1580cfc1e1416acd7cd899944fe594",
+   "email_address": "holder24.plots@mail.example",
+   "full_name": "Lark Rudge",
+   "id": "7d1580cfc1e1416acd7cd899944fe594",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@23eb2c9b9fc48ed181c826c5becdb4d4",
+   "email_address": "holder25.plots@mail.example",
+   "full_name": "Wynn Dunmore",
+   "id": "23eb2c9b9fc48ed181c826c5becdb4d4",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@2bccf7d2e887a2061fa66e0e98d69df9",
+   "email_address": "holder26.plots@mail.example",
+   "full_name": "Joss Orme",
+   "id": "2bccf7d2e887a2061fa66e0e98d69df9",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@66dd68bc652845c6fbb61fbb97a1655e",
+   "email_address": "holder27.plots@mail.example",
+   "full_name": "Joss Vosper",
+   "id": "66dd68bc652845c6fbb61fbb97a1655e",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@dadaee603d8d5884e0d9d407a6c344b3",
+   "email_address": "holder28.plots@mail.example",
+   "full_name": "Mabli Whitcombe",
+   "id": "dadaee603d8d5884e0d9d407a6c344b3",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@be4e4313e639a3f9c3b047d2cd1eb4a9",
+   "email_address": "holder29.plots@mail.example",
+   "full_name": "Ottilie Whitcombe",
+   "id": "be4e4313e639a3f9c3b047d2cd1eb4a9",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@13dae029e68461e325c4731648c91070",
+   "email_address": "holder30.plots@mail.example",
+   "full_name": "Alys Tremlett",
+   "id": "13dae029e68461e325c4731648c91070",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@af8479afeac126759b3f4bff4dc7fc39",
+   "email_address": "holder31.plots@mail.example",
+   "full_name": "Iona Whitcombe",
+   "id": "af8479afeac126759b3f4bff4dc7fc39",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@165691979063b3be2fd7f6dd90882960",
+   "email_address": "holder32.plots@mail.example",
+   "full_name": "Bram Ince",
+   "id": "165691979063b3be2fd7f6dd90882960",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@63074ff6b878c15c241ed51ad5b2722b",
+   "email_address": "holder33.plots@mail.example",
+   "full_name": "Esme Jessop",
+   "id": "63074ff6b878c15c241ed51ad5b2722b",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@79ab2e96f6c06b8e80683c92e1740ec3",
+   "email_address": "holder34.plots@mail.example",
+   "full_name": "Carys Bligh",
+   "id": "79ab2e96f6c06b8e80683c92e1740ec3",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@cbb574272dde57884ddb70f15c668acf",
+   "email_address": "holder35.plots@mail.example",
+   "full_name": "Lark Bligh",
+   "id": "cbb574272dde57884ddb70f15c668acf",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@3ed6ff097f3893cd3a8b48139dbe33b3",
+   "email_address": "holder36.plots@mail.example",
+   "full_name": "Lark Pargeter",
+   "id": "3ed6ff097f3893cd3a8b48139dbe33b3",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@4b001f17cce50cf5a51b2e3b4ddd33ee",
+   "email_address": "holder37.plots@mail.example",
+   "full_name": "Mabli Rudge",
+   "id": "4b001f17cce50cf5a51b2e3b4ddd33ee",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@a4b6a2829cae357789c0c6e3b7142dfa",
+   "email_address": "holder38.plots@mail.example",
+   "full_name": "Wynn Ince",
+   "id": "a4b6a2829cae357789c0c6e3b7142dfa",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  },
+  {
+   "_pk": "aud-plotholders@85381cde38a944c1ddbdc80a20147a0b",
+   "email_address": "holder39.plots@mail.example",
+   "full_name": "Alys Kerridge",
+   "id": "85381cde38a944c1ddbdc80a20147a0b",
+   "list_id": "aud-plotholders",
+   "member_rating": 3,
+   "status": "subscribed",
+   "timestamp_signup": "2024-04-01 09:00:00"
+  }
+ ],
+ "campaigns": [],
+ "reports": []
+}

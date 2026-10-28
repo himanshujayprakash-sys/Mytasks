@@ -1,0 +1,294 @@
+{
+ "boards": [
+  {
+   "id": "60b100000000000000919b01",
+   "name": "Magistrates' open evening, 2 December",
+   "desc": "Recruitment open evening in the public foyer, 18:00 to 20:00.",
+   "closed": false,
+   "id_organization": "5e0a00000000000000919f01",
+   "url": "https://trello.com/b/pm19open/magistrates-open-evening",
+   "member_ids": [
+    "5f1a00000000000000919a01",
+    "5f1a00000000000000919a02",
+    "5f1a00000000000000919a03",
+    "5f1a00000000000000919a04"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "61c100000000000000919c01",
+   "id_board": "60b100000000000000919b01",
+   "name": "To Do",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "61c100000000000000919c02",
+   "id_board": "60b100000000000000919b01",
+   "name": "Doing",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "61c100000000000000919c03",
+   "id_board": "60b100000000000000919b01",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "members": [
+  {
+   "id": "5f1a00000000000000919a01",
+   "fullName": "Ruby Anand",
+   "username": "rubyanand",
+   "email": "ruby.anand@pellbridge-mc.example"
+  },
+  {
+   "id": "5f1a00000000000000919a02",
+   "fullName": "Imelda Craven",
+   "username": "imeldacraven",
+   "email": "imelda.craven@pellbridge-mc.example"
+  },
+  {
+   "id": "5f1a00000000000000919a03",
+   "fullName": "Gordon Ibbotson",
+   "username": "gordonibbotson",
+   "email": "gordon.ibbotson@pellbridge-mc.example"
+  },
+  {
+   "id": "5f1a00000000000000919a04",
+   "fullName": "Morwenna Tate",
+   "username": "morwennatate",
+   "email": "morwenna.tate@pellbridge-mc.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "62d100000000000000919d01",
+   "name": "Book the public foyer for 2 December evening",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c03",
+   "pos": 16384.0,
+   "due": "2026-10-23T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "venue"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d02",
+   "name": "Talk: what a legal adviser does",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c02",
+   "pos": 32768.0,
+   "due": "2026-11-25T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a02"
+   ],
+   "labels": [
+    "talks"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d03",
+   "name": "Security cover for the evening",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c03",
+   "pos": 49152.0,
+   "due": "2026-11-06T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a03"
+   ],
+   "labels": [
+    "security"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d04",
+   "name": "Tea, coffee and biscuits",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c01",
+   "pos": 65536.0,
+   "due": "2026-11-27T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "catering"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d05",
+   "name": "Print 60 information packs",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c01",
+   "pos": 81920.0,
+   "due": "2026-11-30T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "publicity"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d06",
+   "name": "Social media posts and local radio",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c02",
+   "pos": 98304.0,
+   "due": "2026-11-18T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "publicity"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d07",
+   "name": "Volunteers to show visitors round",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c02",
+   "pos": 114688.0,
+   "due": "2026-11-26T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a04"
+   ],
+   "labels": [
+    "people"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d08",
+   "name": "Sign-up sheet for application support",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c01",
+   "pos": 131072.0,
+   "due": "2026-12-01T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a04"
+   ],
+   "labels": [
+    "follow-up"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d09",
+   "name": "Feedback form",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c01",
+   "pos": 147456.0,
+   "due": "2026-12-01T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "follow-up"
+   ]
+  },
+  {
+   "id": "62d100000000000000919d10",
+   "name": "Thank-you e-mails after the evening",
+   "desc": "Magistrates' recruitment open evening planning card.",
+   "id_board": "60b100000000000000919b01",
+   "id_list": "61c100000000000000919c01",
+   "pos": 163840.0,
+   "due": "2026-12-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a00000000000000919a01"
+   ],
+   "labels": [
+    "follow-up"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_pm19talk",
+   "id_card": "62d100000000000000919d02",
+   "id_board": "60b100000000000000919b01",
+   "name": "Talk outline",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_pm19t1",
+     "id_checklist": "cl_pm19talk",
+     "name": "A day in the life",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_pm19t2",
+     "id_checklist": "cl_pm19talk",
+     "name": "Training for new magistrates",
+     "state": "incomplete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_pm19t3",
+     "id_checklist": "cl_pm19talk",
+     "name": "Questions from the floor",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  },
+  {
+   "id": "cl_pm19packs",
+   "id_card": "62d100000000000000919d05",
+   "id_board": "60b100000000000000919b01",
+   "name": "Pack contents",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_pm19p1",
+     "id_checklist": "cl_pm19packs",
+     "name": "Recruitment leaflet",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_pm19p2",
+     "id_checklist": "cl_pm19packs",
+     "name": "How to apply sheet",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_pm19p3",
+     "id_checklist": "cl_pm19packs",
+     "name": "Employer letter template",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,324 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-bmg-school-90",
+   "owner": "Rafe Oduya",
+   "name": "School group visit",
+   "slug": "school-visit",
+   "duration": 90,
+   "kind": "solo",
+   "color": "#1B5E7A",
+   "description": "School group visit at Brennock Museum and Art Gallery, booked through the museum website.",
+   "scheduling_url": "https://calendly.com/brennock-museum/school-visit",
+   "created_at": "2026-09-08T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-bmg-study-60",
+   "owner": "Maud Ellery",
+   "name": "Study room appointment (shipyard archive)",
+   "slug": "study-room",
+   "duration": 60,
+   "kind": "solo",
+   "color": "#1B5E7A",
+   "description": "Study room appointment (shipyard archive) at Brennock Museum and Art Gallery, booked through the museum website.",
+   "scheduling_url": "https://calendly.com/brennock-museum/study-room",
+   "created_at": "2026-09-08T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-bmg-hire-45",
+   "owner": "Mirren Achebe",
+   "name": "Venue hire viewing",
+   "slug": "venue-hire-viewing",
+   "duration": 45,
+   "kind": "solo",
+   "color": "#1B5E7A",
+   "description": "Venue hire viewing at Brennock Museum and Art Gallery, booked through the museum website.",
+   "scheduling_url": "https://calendly.com/brennock-museum/venue-hire-viewing",
+   "created_at": "2026-09-08T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-bmg-01",
+   "owner": "Rafe Oduya",
+   "event_type": "et-bmg-school-90",
+   "name": "School group visit - St Aidan's Primary Year 4",
+   "status": "active",
+   "start_time": "2026-12-02T09:45:00.000000Z",
+   "end_time": "2026-12-02T11:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-03T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-02",
+   "owner": "Rafe Oduya",
+   "event_type": "et-bmg-school-90",
+   "name": "School group visit - Harbourside Academy Year 9 history",
+   "status": "active",
+   "start_time": "2026-12-08T10:00:00.000000Z",
+   "end_time": "2026-12-08T11:30:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-10T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-03",
+   "owner": "Rafe Oduya",
+   "event_type": "et-bmg-school-90",
+   "name": "School group visit - Lowmoor Infants Reception",
+   "status": "canceled",
+   "start_time": "2026-12-09T09:30:00.000000Z",
+   "end_time": "2026-12-09T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-04T08:40:00.000000Z",
+   "canceled_reason": "Coach company let the school down; rebooking in the spring term"
+  },
+  {
+   "uuid": "sev-bmg-04",
+   "owner": "Rafe Oduya",
+   "event_type": "et-bmg-school-90",
+   "name": "School group visit - Brennock Grammar sixth form art",
+   "status": "active",
+   "start_time": "2027-01-19T13:30:00.000000Z",
+   "end_time": "2027-01-19T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-25T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-05",
+   "owner": "Maud Ellery",
+   "event_type": "et-bmg-study-60",
+   "name": "Study room - shipyard launch registers",
+   "status": "active",
+   "start_time": "2026-12-01T10:00:00.000000Z",
+   "end_time": "2026-12-01T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-19T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-06",
+   "owner": "Maud Ellery",
+   "event_type": "et-bmg-study-60",
+   "name": "Study room - rivet gang photographs",
+   "status": "active",
+   "start_time": "2026-12-04T14:00:00.000000Z",
+   "end_time": "2026-12-04T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-22T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-07",
+   "owner": "Maud Ellery",
+   "event_type": "et-bmg-study-60",
+   "name": "Study room - ship plans for a model",
+   "status": "active",
+   "start_time": "2026-12-11T11:00:00.000000Z",
+   "end_time": "2026-12-11T12:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-26T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-08",
+   "owner": "Mirren Achebe",
+   "event_type": "et-bmg-hire-45",
+   "name": "Venue hire viewing - wedding reception",
+   "status": "active",
+   "start_time": "2026-12-03T16:00:00.000000Z",
+   "end_time": "2026-12-03T16:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-21T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-09",
+   "owner": "Mirren Achebe",
+   "event_type": "et-bmg-hire-45",
+   "name": "Venue hire viewing - company awards dinner",
+   "status": "active",
+   "start_time": "2026-12-07T12:30:00.000000Z",
+   "end_time": "2026-12-07T13:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-24T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-bmg-10",
+   "owner": "Mirren Achebe",
+   "event_type": "et-bmg-hire-45",
+   "name": "Venue hire viewing - charity quiz",
+   "status": "canceled",
+   "start_time": "2026-11-26T17:30:00.000000Z",
+   "end_time": "2026-11-26T18:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Brennock Museum and Art Gallery, front desk",
+   "created_at": "2026-11-12T08:40:00.000000Z",
+   "canceled_reason": "Found a venue nearer to their office"
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-bmg-01",
+   "event": "sev-bmg-01",
+   "name": "Gemma Rowntree",
+   "email": "g.rowntree@staidans-primary.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-03T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Group size and age?",
+     "answer": "28 pupils, age 8-9"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-02",
+   "event": "sev-bmg-02",
+   "name": "Callum Pyle",
+   "email": "c.pyle@harbourside-academy.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-10T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Group size and age?",
+     "answer": "31 pupils, age 13-14"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-03",
+   "event": "sev-bmg-03",
+   "name": "Asha Dhillon",
+   "email": "office@lowmoor-infants.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-04T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Group size and age?",
+     "answer": "22 children, age 4-5"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-04",
+   "event": "sev-bmg-04",
+   "name": "Peter Hesketh",
+   "email": "p.hesketh@brennock-grammar.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-25T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Group size and age?",
+     "answer": "16 students, age 16-17"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-05",
+   "event": "sev-bmg-05",
+   "name": "Doreen Ashby",
+   "email": "doreen.ashby@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-19T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to see?",
+     "answer": "Launch registers 1919-1925 for my grandfather's ship"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-06",
+   "event": "sev-bmg-06",
+   "name": "Ken Mallory",
+   "email": "kenmallory@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-22T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to see?",
+     "answer": "Photographs of the east yard rivet gangs, 1950s"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-07",
+   "event": "sev-bmg-07",
+   "name": "Stan Liddell",
+   "email": "s.liddell@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-26T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "What would you like to see?",
+     "answer": "General arrangement plans of the collier SS Brennock Head"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-08",
+   "event": "sev-bmg-08",
+   "name": "Lucy Farrow",
+   "email": "lucy.farrow@inbox.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-21T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Date and numbers?",
+     "answer": "Saturday 14 August 2027, about 90 guests"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-09",
+   "event": "sev-bmg-09",
+   "name": "Dan Okafor",
+   "email": "events@tyneside-marine-eng.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-24T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Date and numbers?",
+     "answer": "Friday 23 April 2027, 120 seated"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-bmg-10",
+   "event": "sev-bmg-10",
+   "name": "Joy Pattinson",
+   "email": "joy@coastline-hospice.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-12T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Date and numbers?",
+     "answer": "March 2027, 60 people"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,439 @@
+{
+ "customers": [
+  {
+   "Id": "301",
+   "DisplayName": "Ruth Hartley and Kwame Osei",
+   "PrimaryEmailAddr": {
+    "Address": "ruth.hartley@mailbox.example"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Wedding at Fernhill, 2026-12-19"
+  },
+  {
+   "Id": "302",
+   "DisplayName": "Tilly Fowler and Arjun Bains",
+   "PrimaryEmailAddr": {
+    "Address": "tilly.fowler@post.example"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Wedding at Fernhill, 2026-12-12"
+  },
+  {
+   "Id": "303",
+   "DisplayName": "Leah Corrigan and Sam Whitby",
+   "PrimaryEmailAddr": {
+    "Address": "leah.corrigan@mailbox.example"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Wedding at Fernhill, 2027-01-16"
+  },
+  {
+   "Id": "304",
+   "DisplayName": "Priyanka Nair and Tom Ellery",
+   "PrimaryEmailAddr": {
+    "Address": "priyanka.nair@inbox.example"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Wedding at Fernhill, 2027-02-13"
+  },
+  {
+   "Id": "305",
+   "DisplayName": "Hannah Crewe and Moses Danquah",
+   "PrimaryEmailAddr": {
+    "Address": "hannah.crewe@post.example"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Wedding at Fernhill, 2026-12-05"
+  }
+ ],
+ "payments": [
+  {
+   "Id": "9101",
+   "TxnDate": "2026-05-12",
+   "CustomerRef": {
+    "value": "301",
+    "name": "Ruth Hartley and Kwame Osei"
+   },
+   "TotalAmt": 2500.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "5091",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 2500.0
+    }
+   ],
+   "PrivateNote": "Deposit, bank transfer"
+  },
+  {
+   "Id": "9102",
+   "TxnDate": "2026-10-01",
+   "CustomerRef": {
+    "value": "301",
+    "name": "Ruth Hartley and Kwame Osei"
+   },
+   "TotalAmt": 3000.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "5095",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 3000.0
+    }
+   ],
+   "PrivateNote": "Second instalment, bank transfer"
+  },
+  {
+   "Id": "9103",
+   "TxnDate": "2026-04-02",
+   "CustomerRef": {
+    "value": "302",
+    "name": "Tilly Fowler and Arjun Bains"
+   },
+   "TotalAmt": 2500.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "5088",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 2500.0
+    }
+   ],
+   "PrivateNote": "Deposit, bank transfer"
+  },
+  {
+   "Id": "9104",
+   "TxnDate": "2026-09-15",
+   "CustomerRef": {
+    "value": "302",
+    "name": "Tilly Fowler and Arjun Bains"
+   },
+   "TotalAmt": 3000.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "5093",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 3000.0
+    }
+   ],
+   "PrivateNote": "Second instalment, bank transfer"
+  },
+  {
+   "Id": "9105",
+   "TxnDate": "2026-11-20",
+   "CustomerRef": {
+    "value": "304",
+    "name": "Priyanka Nair and Tom Ellery"
+   },
+   "TotalAmt": 2500.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "5098",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 2500.0
+    }
+   ],
+   "PrivateNote": "Deposit, bank transfer"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "5088",
+   "DocNumber": "FH-5088",
+   "TxnDate": "2026-04-01",
+   "DueDate": "2026-04-01",
+   "CustomerRef": {
+    "value": "302",
+    "name": "Tilly Fowler and Arjun Bains"
+   },
+   "Line": [
+    {
+     "Amount": 2500.0,
+     "Description": "Deposit, wedding 12 December 2026",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2500.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "5091",
+   "DocNumber": "FH-5091",
+   "TxnDate": "2026-05-11",
+   "DueDate": "2026-05-11",
+   "CustomerRef": {
+    "value": "301",
+    "name": "Ruth Hartley and Kwame Osei"
+   },
+   "Line": [
+    {
+     "Amount": 2500.0,
+     "Description": "Deposit, wedding 19 December 2026",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2500.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "5093",
+   "DocNumber": "FH-5093",
+   "TxnDate": "2026-09-14",
+   "DueDate": "2026-09-14",
+   "CustomerRef": {
+    "value": "302",
+    "name": "Tilly Fowler and Arjun Bains"
+   },
+   "Line": [
+    {
+     "Amount": 3000.0,
+     "Description": "Second instalment, wedding 12 December 2026",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 3000.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "5095",
+   "DocNumber": "FH-5095",
+   "TxnDate": "2026-09-30",
+   "DueDate": "2026-09-30",
+   "CustomerRef": {
+    "value": "301",
+    "name": "Ruth Hartley and Kwame Osei"
+   },
+   "Line": [
+    {
+     "Amount": 3000.0,
+     "Description": "Second instalment, wedding 19 December 2026",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 3000.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "5098",
+   "DocNumber": "FH-5098",
+   "TxnDate": "2026-11-19",
+   "DueDate": "2026-11-19",
+   "CustomerRef": {
+    "value": "304",
+    "name": "Priyanka Nair and Tom Ellery"
+   },
+   "Line": [
+    {
+     "Amount": 2500.0,
+     "Description": "Deposit, wedding 13 February 2027",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 2500.0,
+   "Balance": 0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "5101",
+   "DocNumber": "FH-5101",
+   "TxnDate": "2026-12-07",
+   "DueDate": "2026-12-07",
+   "CustomerRef": {
+    "value": "302",
+    "name": "Tilly Fowler and Arjun Bains"
+   },
+   "Line": [
+    {
+     "Amount": 3184.5,
+     "Description": "Final balance, wedding 12 December 2026",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Wedding charges"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 3184.5,
+   "Balance": 0,
+   "Status": "Paid"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "81",
+   "DisplayName": "Hollybank Butchers",
+   "PrimaryEmailAddr": {
+    "Address": "orders@hollybankbutchers.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961500"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  },
+  {
+   "Id": "82",
+   "DisplayName": "Severn & Wye Fish",
+   "PrimaryEmailAddr": {
+    "Address": "orders@severnwyefish.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961501"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  },
+  {
+   "Id": "83",
+   "DisplayName": "Allerfree Kitchens",
+   "PrimaryEmailAddr": {
+    "Address": "orders@allerfreekitchens.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961502"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  },
+  {
+   "Id": "84",
+   "DisplayName": "Marcher Dairy",
+   "PrimaryEmailAddr": {
+    "Address": "orders@marcherdairy.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961503"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  },
+  {
+   "Id": "85",
+   "DisplayName": "Ledbury Bakehouse",
+   "PrimaryEmailAddr": {
+    "Address": "orders@ledburybakehouse.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961504"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  },
+  {
+   "Id": "86",
+   "DisplayName": "Golden Valley Growers",
+   "PrimaryEmailAddr": {
+    "Address": "orders@goldenvalleygrowers.example"
+   },
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 961505"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Kitchen supplier"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "8401",
+   "DocNumber": "HB-8812",
+   "VendorRef": {
+    "value": "81",
+    "name": "Hollybank Butchers"
+   },
+   "TxnDate": "2026-12-13",
+   "DueDate": "2027-01-12",
+   "Line": [
+    {
+     "Amount": 1112.8,
+     "Description": "Beef fillet portions, 12 December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Food purchases",
+       "value": "51"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 1112.8,
+   "Balance": 1112.8,
+   "PrivateNote": "Awaiting approval."
+  },
+  {
+   "Id": "8402",
+   "DocNumber": "SWF-30219",
+   "VendorRef": {
+    "value": "82",
+    "name": "Severn & Wye Fish"
+   },
+   "TxnDate": "2026-12-12",
+   "DueDate": "2027-01-11",
+   "Line": [
+    {
+     "Amount": 392.0,
+     "Description": "Sea bass, 12 December",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Food purchases",
+       "value": "51"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 392.0,
+   "Balance": 392.0,
+   "PrivateNote": "Awaiting approval."
+  }
+ ]
+}

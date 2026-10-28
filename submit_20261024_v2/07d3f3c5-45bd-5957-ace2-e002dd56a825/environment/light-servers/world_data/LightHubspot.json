@@ -1,0 +1,297 @@
+{
+ "companies": [
+  {
+   "id": "8101",
+   "properties": {
+    "name": "Lowther Lettings",
+    "domain": "lowtherlettings.example",
+    "industry": "Real estate",
+    "city": "Penrith",
+    "state": "Cumbria",
+    "numberofemployees": "45",
+    "annualrevenue": "3100000",
+    "createdate": "2026-09-02T10:00:00Z"
+   },
+   "createdAt": "2026-09-02T10:00:00Z",
+   "updatedAt": "2026-10-02T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8102",
+   "properties": {
+    "name": "Brackenridge Building Society",
+    "domain": "brackenridgebs.example",
+    "industry": "Financial services",
+    "city": "Kendal",
+    "state": "Cumbria",
+    "numberofemployees": "220",
+    "annualrevenue": "41000000",
+    "createdate": "2026-09-03T10:00:00Z"
+   },
+   "createdAt": "2026-09-03T10:00:00Z",
+   "updatedAt": "2026-10-09T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8103",
+   "properties": {
+    "name": "Thwaite Mortgage Advice",
+    "domain": "thwaitemortgages.example",
+    "industry": "Financial services",
+    "city": "Keswick",
+    "state": "Cumbria",
+    "numberofemployees": "2",
+    "annualrevenue": "160000",
+    "createdate": "2026-09-10T10:00:00Z"
+   },
+   "createdAt": "2026-09-10T10:00:00Z",
+   "updatedAt": "2026-10-01T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8104",
+   "properties": {
+    "name": "Mardale Property Management",
+    "domain": "mardalepm.example",
+    "industry": "Real estate",
+    "city": "Carlisle",
+    "state": "Cumbria",
+    "numberofemployees": "60",
+    "annualrevenue": "5200000",
+    "createdate": "2026-10-16T10:00:00Z"
+   },
+   "createdAt": "2026-10-16T10:00:00Z",
+   "updatedAt": "2026-10-16T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8105",
+   "properties": {
+    "name": "Fellside Community Energy",
+    "domain": "fellsideenergy.example",
+    "industry": "Utilities",
+    "city": "Cockermouth",
+    "state": "Cumbria",
+    "numberofemployees": "12",
+    "annualrevenue": "900000",
+    "createdate": "2026-09-24T10:00:00Z"
+   },
+   "createdAt": "2026-09-24T10:00:00Z",
+   "updatedAt": "2026-10-06T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "contacts": [
+  {
+   "id": "8201",
+   "properties": {
+    "firstname": "Philippa",
+    "lastname": "Dunstan",
+    "email": "philippa.dunstan@lowtherlettings.example",
+    "phone": "01632 960850",
+    "jobtitle": "Operations manager",
+    "company": "Lowther Lettings",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-02T11:00:00Z",
+    "lastmodifieddate": "2026-10-02T16:00:00Z"
+   },
+   "createdAt": "2026-09-02T11:00:00Z",
+   "updatedAt": "2026-10-02T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8202",
+   "properties": {
+    "firstname": "Tobias",
+    "lastname": "Merriman",
+    "email": "tobias.merriman@brackenridgebs.example",
+    "phone": "01632 960851",
+    "jobtitle": "Partnerships manager",
+    "company": "Brackenridge Building Society",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-09-03T11:00:00Z",
+    "lastmodifieddate": "2026-10-09T16:00:00Z"
+   },
+   "createdAt": "2026-09-03T11:00:00Z",
+   "updatedAt": "2026-10-09T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8203",
+   "properties": {
+    "firstname": "Glenys",
+    "lastname": "Bewley",
+    "email": "glenys.bewley@brackenridgebs.example",
+    "phone": "01632 960852",
+    "jobtitle": "Marketing lead",
+    "company": "Brackenridge Building Society",
+    "lifecyclestage": "lead",
+    "createdate": "2026-09-15T11:00:00Z",
+    "lastmodifieddate": "2026-10-09T16:00:00Z"
+   },
+   "createdAt": "2026-09-15T11:00:00Z",
+   "updatedAt": "2026-10-09T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8204",
+   "properties": {
+    "firstname": "Ciaran",
+    "lastname": "Hollis",
+    "email": "ciaran.hollis@thwaitemortgages.example",
+    "phone": "01632 960853",
+    "jobtitle": "Adviser",
+    "company": "Thwaite Mortgage Advice",
+    "lifecyclestage": "customer",
+    "createdate": "2026-09-10T11:00:00Z",
+    "lastmodifieddate": "2026-10-01T16:00:00Z"
+   },
+   "createdAt": "2026-09-10T11:00:00Z",
+   "updatedAt": "2026-10-01T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8205",
+   "properties": {
+    "firstname": "Esther",
+    "lastname": "Quayle",
+    "email": "esther.quayle@mardalepm.example",
+    "phone": "01632 960854",
+    "jobtitle": "Head of lettings",
+    "company": "Mardale Property Management",
+    "lifecyclestage": "lead",
+    "createdate": "2026-10-16T11:00:00Z",
+    "lastmodifieddate": "2026-10-16T16:00:00Z"
+   },
+   "createdAt": "2026-10-16T11:00:00Z",
+   "updatedAt": "2026-10-16T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8206",
+   "properties": {
+    "firstname": "Barnaby",
+    "lastname": "Ruddock",
+    "email": "barnaby.ruddock@mardalepm.example",
+    "phone": "01632 960855",
+    "jobtitle": "Director",
+    "company": "Mardale Property Management",
+    "lifecyclestage": "lead",
+    "createdate": "2026-10-16T11:00:00Z",
+    "lastmodifieddate": "2026-10-16T16:00:00Z"
+   },
+   "createdAt": "2026-10-16T11:00:00Z",
+   "updatedAt": "2026-10-16T16:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "8207",
+   "properties": {
+    "firstname": "Marnie",
+    "lastname": "Coulthard",
+    "email": "marnie.coulthard@fellsideenergy.example",
+    "phone": "01632 960856",
+    "jobtitle": "Community officer",
+    "company": "Fellside Community Energy",
+    "lifecyclestage": "lead",
+    "createdate": "2026-09-24T11:00:00Z",
+    "lastmodifieddate": "2026-10-06T16:00:00Z"
+   },
+   "createdAt": "2026-09-24T11:00:00Z",
+   "updatedAt": "2026-10-06T16:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "8301",
+   "properties": {
+    "dealname": "Lowther Lettings - co-branded tenant contents page",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "18000",
+    "closedate": "2027-02-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-04T10:00:00Z",
+    "lastmodifieddate": "2026-10-02T10:00:00Z"
+   },
+   "createdAt": "2026-09-04T10:00:00Z",
+   "updatedAt": "2026-10-02T10:00:00Z",
+   "archived": false,
+   "_company": "8101",
+   "_contact": "8201"
+  },
+  {
+   "id": "8302",
+   "properties": {
+    "dealname": "Brackenridge - referral banner in the members' app",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "42000",
+    "closedate": "2026-12-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-07T10:00:00Z",
+    "lastmodifieddate": "2026-10-09T10:00:00Z"
+   },
+   "createdAt": "2026-09-07T10:00:00Z",
+   "updatedAt": "2026-10-09T10:00:00Z",
+   "archived": false,
+   "_company": "8102",
+   "_contact": "8202"
+  },
+  {
+   "id": "8303",
+   "properties": {
+    "dealname": "Thwaite - adviser referral leaflet",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "3500",
+    "closedate": "2026-10-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-10T10:00:00Z",
+    "lastmodifieddate": "2026-10-01T10:00:00Z"
+   },
+   "createdAt": "2026-09-10T10:00:00Z",
+   "updatedAt": "2026-10-01T10:00:00Z",
+   "archived": false,
+   "_company": "8103",
+   "_contact": "8204"
+  },
+  {
+   "id": "8304",
+   "properties": {
+    "dealname": "Mardale - landlords' block policy webinar",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "9000",
+    "closedate": "2027-03-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-10-16T10:00:00Z",
+    "lastmodifieddate": "2026-10-16T10:00:00Z"
+   },
+   "createdAt": "2026-10-16T10:00:00Z",
+   "updatedAt": "2026-10-16T10:00:00Z",
+   "archived": false,
+   "_company": "8104",
+   "_contact": "8205"
+  },
+  {
+   "id": "8305",
+   "properties": {
+    "dealname": "Fellside Community Energy - home insurance offer for members",
+    "pipeline": "default",
+    "dealstage": "qualifiedtobuy",
+    "amount": "6500",
+    "closedate": "2027-04-01T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-25T10:00:00Z",
+    "lastmodifieddate": "2026-10-06T10:00:00Z"
+   },
+   "createdAt": "2026-09-25T10:00:00Z",
+   "updatedAt": "2026-10-06T10:00:00Z",
+   "archived": false,
+   "_company": "8105",
+   "_contact": "8207"
+  }
+ ]
+}

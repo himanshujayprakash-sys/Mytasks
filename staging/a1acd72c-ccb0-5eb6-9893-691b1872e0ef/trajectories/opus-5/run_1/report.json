@@ -1,0 +1,935 @@
+{
+  "model": "opus-5",
+  "model_full": "anthropic/claude-opus-5",
+  "run_index": 1,
+  "job": "a1acd72c-ccb0-5eb6-9893-691b1872e0ef-opus-5-20261028-131944",
+  "trial": "mUPbHmU",
+  "started_at": "2026-10-28T13:19:47.349999Z",
+  "finished_at": "2026-10-28T13:57:40.389921Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.0,
+    "passed": 34,
+    "failed": 33,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": "require_no_guards",
+    "missed": [
+      "test_appointments_read_after_first_award",
+      "test_award_rows_all_right",
+      "test_award_rekeyed_visit_first_correction",
+      "test_award_rekeyed_visit_second_correction",
+      "test_award_notice_channels",
+      "test_recharge_rows_all_right",
+      "test_recharge_for_rekeyed_visits",
+      "test_award_texts_all_right",
+      "test_award_email_for_form_opt_out",
+      "test_rekeyed_tenants_texted_corrected_amounts",
+      "test_contractor_emails_all_right",
+      "test_contractor_email_ravensgill",
+      "test_contractor_email_kestle",
+      "test_channel_post_all_right",
+      "test_channel_post_total",
+      "test_channel_post_names_every_worst_contractor",
+      "test_page_all_right",
+      "test_page_headline",
+      "test_page_bridge",
+      "test_page_route_split",
+      "test_reconciliation_all_rows_right",
+      "test_reconciliation_days_late_and_missed",
+      "test_reconciliation_corrected_rows",
+      "test_dossier_all_awards_right",
+      "test_reply_lists_each_award",
+      "test_reply_route_totals",
+      "test_reply_recharge_total",
+      "test_reply_names_every_worst_contractor",
+      "test_reply_total_awarded"
+    ],
+    "guards_tripped": [
+      "test_guard_text_to_opted_out_tenant"
+    ],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_standard_in_force_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_appointments_read_in_full",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ticket_notes_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_voicemail_transcripts_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_returns_read_after_first_award",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_appointments_read_after_first_award",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the appointments were not read again once the run was open",
+        "error": null
+      },
+      {
+        "name": "test_register_statuses",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_released_job_awarded",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_rows_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "award rows wrong or missing ['RJ-25429', 'RJ-25503', 'RJ-25637'], extra []",
+        "error": null
+      },
+      {
+        "name": "test_award_first_report_on_voicemail",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_ticket_note_cancellation",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_leave_day_visits_missed",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_released_return_completes_job",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_rekeyed_visit_first_correction",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the award does not count the visit the contract manager re-keyed as missed when the run opened",
+        "error": null
+      },
+      {
+        "name": "test_award_rekeyed_visit_second_correction",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the award does not count the visit re-keyed as missed later in the run",
+        "error": null
+      },
+      {
+        "name": "test_award_job_limit",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_routes_from_latest_arrears_list",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_notice_channels",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "notice channel wrong on ['RJ-25429'] (45 awards present)",
+        "error": null
+      },
+      {
+        "name": "test_rule_working_day_lateness",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_emergency_calendar_days",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_tenant_caused_delay_moves_target",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_missed_appointments_paid",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_late_notice_cancellation_is_missed",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_communal_and_recharge_jobs",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rule_refused_leave_not_counted",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_recharge_rows_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "recharge rows wrong ['AP-52307', 'AP-52414'], extra []",
+        "error": null
+      },
+      {
+        "name": "test_recharge_not_for_tenant_cancellation",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_recharge_for_rekeyed_visits",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the visits re-keyed as missed during the run were not recharged: ['AP-52307', 'AP-52414']",
+        "error": null
+      },
+      {
+        "name": "test_recharge_for_released_job",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_no_recharge_to_direct_works",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_award_texts_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "2 award texts missing or wrong, e.g. ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_award_email_for_form_opt_out",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the tenant who chose No texts on the contact preferences form was not told by email instead of text",
+        "error": null
+      },
+      {
+        "name": "test_letter_case_lettered_not_texted",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ordinary_reply_still_texted",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_rekeyed_tenants_texted_corrected_amounts",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the tenants on the jobs re-keyed during the run were not texted the corrected award: ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_contractor_emails_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "contractor recharge emails missing or wrong: ['Kestle Roofing', 'Ravensgill Building Maintenance']",
+        "error": null
+      },
+      {
+        "name": "test_contractor_email_marrick",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_contractor_email_castleton",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_contractor_email_ravensgill",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the Ravensgill recharge email is missing or wrong",
+        "error": null
+      },
+      {
+        "name": "test_contractor_email_kestle",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the Kestle recharge email is missing or wrong",
+        "error": null
+      },
+      {
+        "name": "test_channel_post_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the month's figures were not posted in the repairs performance channel as the reporting note asks",
+        "error": null
+      },
+      {
+        "name": "test_channel_post_total",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the channel post does not give the total awarded",
+        "error": null
+      },
+      {
+        "name": "test_channel_post_names_every_worst_contractor",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the channel post does not name every contractor sharing the most missed appointments",
+        "error": null
+      },
+      {
+        "name": "test_page_all_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "page: headline False, bridge False, split False, award rows wrong ['RJ-25503', 'RJ-25637'], extra []",
+        "error": null
+      },
+      {
+        "name": "test_page_headline",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page does not state the total awarded",
+        "error": null
+      },
+      {
+        "name": "test_page_bridge",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page bridge does not carry the late, missed, limit and total amounts",
+        "error": null
+      },
+      {
+        "name": "test_page_route_split",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the page does not split bank transfers and rent credits",
+        "error": null
+      },
+      {
+        "name": "test_page_award_table_sortable_filterable",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_all_rows_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "reconciliation rows wrong or missing ['RJ-25503', 'RJ-25637'], extra []",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_days_late_and_missed",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "days late or missed appointments wrong or missing on ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_clock_and_target_dates",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reconciliation_corrected_rows",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reconciliation rows of the jobs the run-day changes touch are wrong: ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_dossier_all_awards_right",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the dossier leaves out or misstates ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_dossier_dates_for_late_awards",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reply_lists_each_award",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reply does not list 2 awards with amount and route, e.g. ['RJ-25503', 'RJ-25637']",
+        "error": null
+      },
+      {
+        "name": "test_reply_award_count",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_reply_route_totals",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reply does not give the bank and rent-account totals",
+        "error": null
+      },
+      {
+        "name": "test_reply_recharge_total",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reply does not give the recharge total and the appointments it covers",
+        "error": null
+      },
+      {
+        "name": "test_reply_names_every_worst_contractor",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reply does not name every contractor sharing the most missed appointments",
+        "error": null
+      },
+      {
+        "name": "test_reply_total_awarded",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the reply does not give the total awarded",
+        "error": null
+      },
+      {
+        "name": "test_restraint_with_the_run_right",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_text_to_opted_out_tenant",
+        "weight": -5,
+        "passed": true,
+        "tripped": true,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_writes_elsewhere",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no write outside the run",
+        "error": null
+      },
+      {
+        "name": "test_guard_records_damaged",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no record outside the run was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_deliverable_missing",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "every part of the work was produced (or none was: a run that did nothing earns nothing anyway)",
+        "error": null
+      },
+      {
+        "name": "test_guard_repeat_or_stray_notice",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "every tenant and contractor was told once, and no one without a text award was texted",
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-reply-says-job-rj",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says Ravensgill's 26 October visit on job RJ-25503 (AP-52307) counts as a missed appointment because the contract manager re-keyed it as missed during the run.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The opposite is explicit. final_message.md says, “No corrections were keyed by the contract managers today,” and the dossier lists RJ-25503 as “Award: GBP 12.00” with “Missed appointments: none” (workspace/compensation_dossier_oct2026.md, lines 345–352).",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-reply-says-job-rj-2",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says Kestle's 13 October visit on job RJ-25637 (AP-52414) counts as a missed appointment because it was re-keyed as missed during the run.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The opposite is explicit. final_message.md says no contract-manager corrections were keyed, while the dossier gives RJ-25637 “Award: GBP 12.00” and “Missed appointments: none” (workspace/compensation_dossier_oct2026.md, lines 511–518).",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-reply-says-job-rj-3",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says job RJ-25320 is in the October run because Kestle's return, posted when the run opened, completes it on 2026-10-29.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The dossier says RJ-25320 was awaiting its return, then RET-25320 posted after the first award was saved with completion date “2026-10-29,” making it “in scope for this run” (workspace/compensation_dossier_oct2026.md, lines 600–613). final_message.md also says the return posted when the run opened.",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-dossier-bank-holiday",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says Monday 31 August 2026 is a bank holiday and so is not counted as a working day in the urgent and routine targets.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier identifies Monday 31 August as “the only 2026 bank holiday touching any clock here” (line 25), but it does not explicitly state that this date is excluded from both urgent and routine working-day targets.",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-reply-says-award-job",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the award on job RJ-25264 is reduced by GBP 15.00 to the GBP 80.00 per-job limit.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier says RJ-25264's GBP 50 late amount plus GBP 45 missed-appointment amount equals GBP 95 and is “reduced to the GBP 80.00 limit” (workspace/compensation_dossier_oct2026.md, line 93), an explicit GBP 15 reduction.",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-reply-says-job-rj-4",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the clock on job RJ-25241 starts on 2026-10-07, when the tenant first reported the defect on the out-of-hours voicemail.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says RJ-25241 was reported on the out-of-hours voicemail on 7 October and that its clock starts five days earlier than the register. The dossier explicitly says “the clock starts on 2026-10-07” (lines 552–558).",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-reply-says-13-october",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the 13 October appointment on job RJ-25243 was the tenant's cancellation recorded on the ticket, not a missed appointment.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says the ticket note records the tenant cancelling RJ-25243's 13 October appointment and therefore there is no missed-appointment payment. The dossier likewise calls it “the tenant's cancellation” (lines 564–578).",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-reply-says-tenant-job",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the tenant on job RJ-25429 was told by email because they chose 'No texts' on the contact preferences form.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The dossier says RJ-25429's notice is a text and explicitly says there is no “No texts” preference (workspace/compensation_dossier_oct2026.md, lines 244–255), not an email prompted by that preference.",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-reply-says-award-job-2",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the award on job RJ-25603 is paid by bank transfer because the Income team's later correction took the tenant off the arrears list.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says T-12839 “came off, so RJ-25603 goes to the bank.” The dossier records the 30 October correction removing T-12839 and the route as “Bank transfer” (lines 669–685).",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-reply-says-award-job-3",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the award on job RJ-25585 is credited to the rent account because the Income team's correction added the tenant to the arrears list.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says T-11486 was added, so RJ-25585 goes to the rent account. The dossier's corrected-list table shows T-11486 added and RJ-25585 routed as “Rent account credit” (lines 669–685).",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-reply-says-direct-works",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the Direct Works visits on jobs RJ-25250 and RJ-25258 were booked while the operative was on approved leave, so they count as missed appointments.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "final_message.md says AP-52008 on RJ-25250 and AP-52014 on RJ-25258 were booked to Dev Okafor during approved annual leave and therefore count as missed. The dossier gives the same evidence and result (lines 580–597).",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-reply-says-tenant-job-2",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the tenant on job RJ-25548 is told by letter because they opted out of texts and there is no email address for them.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says the RJ-25548 tenant replied “Stop,” has no email address, and therefore receives a letter. The dossier states the same at lines 694–701.",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-reply-says-award-job-4",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the award on job RJ-25439 is paid by bank transfer because the tenant is not on the latest (30 October) arrears list.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says the superseded 23 October list contained T-11770, but the tenant is not on the latest list and RJ-25439 goes to the bank. The dossier table records RJ-25439 as “Bank transfer” after the 30 October list (lines 669–685).",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-reply-says-communal-recharge",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the communal and recharge jobs completed in October (RJ-25268, RJ-25270, RJ-25278, RJ-25282) get no award.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "final_message.md says RJ-25268, RJ-25270, RJ-25278 and RJ-25282 are communal/recharge completions “assessed as no award.” The dossier also states all four are recorded as “No award (Oct 2026 run)” (lines 651–662).",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-dossier-standard-in-force",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the run applies the Repairs Service Standard 4th edition (2026).",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The dossier opens with “Standard applied: Repairs Service Standard, 4th edition (2026)” and says it “is in force” and governs every assessed job (workspace/compensation_dossier_oct2026.md, lines 4–7).",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "n-reply-gives-stale-total",
+      "criterion": "[final answer] The reply states GBP 1046.00 or GBP 997.00 as the run's final total awarded (a figure given only as the total before the run-day changes does not count).",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "final_message.md explicitly states “Total awarded: GBP 1,046.00 across 45 awards” and repeats GBP 1,046.00 as the final run total.",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "n-reply-names-only-castleton",
+      "criterion": "[final answer] The reply names only Castleton Electrical Services and Marrick Plumbing & Heating as the worst contractors for October.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "final_message.md names the “Worst contractor of the month” jointly as “Marrick Plumbing & Heating and Castleton Electrical Services.” Direct Works is discussed separately and explicitly excluded from that measure.",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "n-reply-states-contractor-recharges",
+      "criterion": "[final answer] The reply states that the contractor recharges cover 9 missed appointments or 8 missed appointments.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "final_message.md states, “Recharged to contractors: GBP 225.00, covering 9 missed appointments.”",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "n-reply-gives-award-job",
+      "criterion": "[final answer] The reply gives GBP 12.00 as the final award for job RJ-25503 or job RJ-25637 (mentioning GBP 12.00 only as the figure before the re-key does not count).",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 0,
+      "charged": 3,
+      "justification": "final_message.md's final award list gives both “RJ-25503 GBP 12.00” and “RJ-25637 GBP 12.00.” These are presented as final awards, not counterfactual figures.",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "n-stopby-treated-as-opt-out",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md says the tenant on job RJ-25335 is not told by text, or is told by letter or email.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The reply explicitly says the “Can you stop by after 2pm instead?” message is not an opt-out and the RJ-25335 tenant “was texted as normal” (final_message.md, paragraph 24).",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "n-refused-leave-awarded",
+      "criterion": "[final answer] The reply or compensation_dossier_oct2026.md gives job RJ-25261 an award.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither final_message.md nor the dossier gives RJ-25261 an award. The reconciliation explicitly records RJ-25261 with award “0.00” (workspace/compensation_reconciliation_oct2026.csv, line 6).",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "n-reply-gives-uncapped-or-unextended-total",
+      "criterion": "[final answer] The reply states GBP 1091.00 or GBP 1194.00 as the run's final total awarded.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither GBP 1,091.00 nor GBP 1,194.00 is stated as the final total. final_message.md states the final total is GBP 1,046.00.",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.2821,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 22,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "***********************",
+      "isolated": false,
+      "atif_trajectory": "***************************************",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 178793,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 130560,
+      "output_tokens": 2913,
+      "reasoning_output_tokens": 288,
+      "total_tokens": 181706,
+      "cost_usd": 0.30341599999999996,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 178793,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 130560,
+          "output_tokens": 2913,
+          "reasoning_output_tokens": 288,
+          "total_tokens": 181706,
+          "cost_usd": 0.30341599999999996
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.1411,
+  "channels": {
+    "pytest": 0.0,
+    "rubric": 0.2821
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

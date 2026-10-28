@@ -1,0 +1,191 @@
+{
+ "team": {
+  "domain": "wexcombe-parks",
+  "id": "T7WEX",
+  "name": "Wexcombe Parks"
+ },
+ "users": [
+  {
+   "id": "U7HAMISH",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "hamish.doyle",
+   "presence": "away",
+   "profile": {
+    "email": "hamish.doyle@wexcombe.gov.example"
+   },
+   "real_name": "Hamish Doyle"
+  },
+  {
+   "id": "U7PRIYA",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "priya.venn",
+   "presence": "away",
+   "profile": {
+    "email": "priya.venn@wexcombe.gov.example"
+   },
+   "real_name": "Priya Venn"
+  },
+  {
+   "id": "U7GARETH",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "gareth.ellery",
+   "presence": "away",
+   "profile": {
+    "email": "gareth.ellery@wexcombe.gov.example"
+   },
+   "real_name": "Gareth Ellery"
+  },
+  {
+   "id": "U7HEAD",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "rowena.blackwood",
+   "presence": "away",
+   "profile": {
+    "email": "rowena.blackwood@wexcombe.gov.example"
+   },
+   "real_name": "Rowena Blackwood"
+  },
+  {
+   "id": "U7ZED",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "zed.okafor",
+   "presence": "away",
+   "profile": {
+    "email": "zed.okafor@wexcombe.gov.example"
+   },
+   "real_name": "Zed Okafor"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1767225600,
+   "creator": "U7PRIYA",
+   "id": "C7ALLOT",
+   "is_archived": false,
+   "is_private": false,
+   "name": "allotments-office",
+   "num_members": 5,
+   "purpose": "Allotments office",
+   "topic": "Allotments office"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C7ALLOT",
+   "user_id": "U7HAMISH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "user_id": "U7PRIYA"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "user_id": "U7GARETH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "user_id": "U7HEAD"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "user_id": "U7ZED"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Register's keyed. I just used 45 a plot like last year, it's close enough.",
+   "thread_ts": null,
+   "ts": "1793500000.000000",
+   "user_id": "U7HAMISH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Corrigendum 1 to the charges is out, water is 22 now, use that for the 2027 invoices.",
+   "thread_ts": null,
+   "ts": "1793500900.000000",
+   "user_id": "U7GARETH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Raised beds can go to anyone this year, nobody in band A wants them.",
+   "thread_ts": null,
+   "ts": "1793501800.000000",
+   "user_id": "U7ZED"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Quarry Field is in poles, I always call a pole 30 square metres, easier sums.",
+   "thread_ts": null,
+   "ts": "1793502700.000000",
+   "user_id": "U7HAMISH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "W-1007 is back on, I saw the reinstatement go through.",
+   "thread_ts": null,
+   "ts": "1793503600.000000",
+   "user_id": "U7GARETH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Hester Quinlan's assessment came in, she's band A.",
+   "thread_ts": null,
+   "ts": "1793504500.000000",
+   "user_id": "U7ZED"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruling from me: Brook Meadow BM-27 goes to Ffion Westlake (W-1033) this round, she has waited long enough. Confirm here when it's done.",
+   "thread_ts": null,
+   "ts": "1793505400.000000",
+   "user_id": "U7HEAD"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ashworth have three spare plots on their list too, we might as well fill them from ours.",
+   "thread_ts": null,
+   "ts": "1793506300.000000",
+   "user_id": "U7GARETH"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruling from me: let the raised bed BM-46 to Bernard Ocampo (W-1002) this round, it's only 40 m² so it's the cheapest rent going for a pensioner. Confirm here when it's done.",
+   "thread_ts": null,
+   "ts": "1793507200.000000",
+   "user_id": "U7HEAD"
+  },
+  {
+   "channel_id": "C7ALLOT",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't reply in here about the round, I'll pick it up.",
+   "thread_ts": null,
+   "ts": "1793508100.000000",
+   "user_id": "U7PRIYA"
+  }
+ ]
+}

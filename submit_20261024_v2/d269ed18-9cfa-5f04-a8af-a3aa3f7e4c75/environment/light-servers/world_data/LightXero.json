@@ -1,0 +1,122 @@
+{
+ "contacts": [
+  {
+   "ContactID": "cf000000-2026-0000-0000-000000000001",
+   "Name": "Pennant family",
+   "EmailAddress": "guest1@cottagestay.example",
+   "IsSupplier": false,
+   "IsCustomer": true,
+   "FirstName": "",
+   "LastName": "",
+   "ContactStatus": "ACTIVE",
+   "AccountNumber": "COT-01"
+  },
+  {
+   "ContactID": "cf000000-2026-0000-0000-000000000002",
+   "Name": "Dr A. Lowe",
+   "EmailAddress": "guest2@cottagestay.example",
+   "IsSupplier": false,
+   "IsCustomer": true,
+   "FirstName": "",
+   "LastName": "",
+   "ContactStatus": "ACTIVE",
+   "AccountNumber": "COT-02"
+  },
+  {
+   "ContactID": "cf000000-2026-0000-0000-000000000003",
+   "Name": "Harbour Walkers Club",
+   "EmailAddress": "guest3@cottagestay.example",
+   "IsSupplier": false,
+   "IsCustomer": true,
+   "FirstName": "",
+   "LastName": "",
+   "ContactStatus": "ACTIVE",
+   "AccountNumber": "COT-03"
+  },
+  {
+   "ContactID": "cf000000-2026-0000-0000-000000000004",
+   "Name": "M. and J. Ruiz",
+   "EmailAddress": "guest4@cottagestay.example",
+   "IsSupplier": false,
+   "IsCustomer": true,
+   "FirstName": "",
+   "LastName": "",
+   "ContactStatus": "ACTIVE",
+   "AccountNumber": "COT-04"
+  }
+ ],
+ "invoices": [
+  {
+   "InvoiceID": "if000001-2026-0000-0000-000000000001",
+   "InvoiceNumber": "COT-1101",
+   "Type": "ACCREC",
+   "contact_id": "cf000000-2026-0000-0000-000000000001",
+   "contact_name": "Pennant family",
+   "Date": "2026-11-02",
+   "DueDate": "2026-11-02",
+   "Status": "PAID",
+   "LineAmountTypes": "NoTax",
+   "SubTotal": 640.0,
+   "TotalTax": 0.0,
+   "Total": 640.0,
+   "AmountDue": 0.0,
+   "AmountPaid": 640.0,
+   "CurrencyCode": "GBP",
+   "Reference": "Cottage 2, 3 nights"
+  },
+  {
+   "InvoiceID": "if000002-2026-0000-0000-000000000002",
+   "InvoiceNumber": "COT-1104",
+   "Type": "ACCREC",
+   "contact_id": "cf000000-2026-0000-0000-000000000002",
+   "contact_name": "Dr A. Lowe",
+   "Date": "2026-11-20",
+   "DueDate": "2026-11-20",
+   "Status": "PAID",
+   "LineAmountTypes": "NoTax",
+   "SubTotal": 420.0,
+   "TotalTax": 0.0,
+   "Total": 420.0,
+   "AmountDue": 0.0,
+   "AmountPaid": 420.0,
+   "CurrencyCode": "GBP",
+   "Reference": "Cottage 1, 2 nights"
+  },
+  {
+   "InvoiceID": "if000003-2026-0000-0000-000000000003",
+   "InvoiceNumber": "COT-1110",
+   "Type": "ACCREC",
+   "contact_id": "cf000000-2026-0000-0000-000000000003",
+   "contact_name": "Harbour Walkers Club",
+   "Date": "2026-12-04",
+   "DueDate": "2026-12-04",
+   "Status": "AUTHORISED",
+   "LineAmountTypes": "NoTax",
+   "SubTotal": 880.0,
+   "TotalTax": 0.0,
+   "Total": 880.0,
+   "AmountDue": 880.0,
+   "AmountPaid": 0.0,
+   "CurrencyCode": "GBP",
+   "Reference": "Cottage 4, Christmas week deposit"
+  },
+  {
+   "InvoiceID": "if000004-2026-0000-0000-000000000004",
+   "InvoiceNumber": "COT-1112",
+   "Type": "ACCREC",
+   "contact_id": "cf000000-2026-0000-0000-000000000004",
+   "contact_name": "M. and J. Ruiz",
+   "Date": "2026-12-10",
+   "DueDate": "2026-12-10",
+   "Status": "AUTHORISED",
+   "LineAmountTypes": "NoTax",
+   "SubTotal": 510.0,
+   "TotalTax": 0.0,
+   "Total": 510.0,
+   "AmountDue": 510.0,
+   "AmountPaid": 0.0,
+   "CurrencyCode": "GBP",
+   "Reference": "Cottage 3, 3 nights"
+  }
+ ]
+}

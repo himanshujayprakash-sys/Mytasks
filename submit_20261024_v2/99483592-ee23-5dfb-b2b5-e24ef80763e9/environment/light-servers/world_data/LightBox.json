@@ -1,0 +1,173 @@
+{
+ "users": [
+  {
+   "id": "41730021",
+   "name": "Lucinda Fairweather",
+   "login": "lucinda.fairweather@greyfriarswharf.example",
+   "role": "user",
+   "status": "active",
+   "language": "en",
+   "timezone": "Europe/London",
+   "space_amount": 10737418240,
+   "space_used": 1383400,
+   "max_upload_size": 2147483648,
+   "job_title": "Production accountant",
+   "phone": "01632 960712",
+   "created_at": "2026-02-10T09:00:00+00:00"
+  }
+ ],
+ "folders": [
+  {
+   "id": "9831001",
+   "name": "Suppliers and venues",
+   "parent_id": "0",
+   "owner_id": "41730021",
+   "description": "Signed supplier and venue agreements.",
+   "created_at": "2026-02-10T09:30:00+00:00",
+   "modified_at": "2026-11-14T16:20:00+00:00",
+   "item_count": 5
+  },
+  {
+   "id": "9831002",
+   "name": "Insurance",
+   "parent_id": "0",
+   "owner_id": "41730021",
+   "description": "Insurance certificates and schedules.",
+   "created_at": "2026-02-10T09:30:00+00:00",
+   "modified_at": "2026-03-01T16:20:00+00:00",
+   "item_count": 2
+  },
+  {
+   "id": "9831003",
+   "name": "Accounts",
+   "parent_id": "0",
+   "owner_id": "41730021",
+   "description": "Cost reports and bank papers.",
+   "created_at": "2026-02-10T09:30:00+00:00",
+   "modified_at": "2026-11-16T16:20:00+00:00",
+   "item_count": 3
+  }
+ ],
+ "files": [
+  {
+   "id": "9832000",
+   "name": "Assembly_Rooms_hire_agreement_wrap_party.pdf",
+   "parent_id": "9831001",
+   "owner_id": "41730021",
+   "description": "Hire agreement for the wrap party, 12 December.",
+   "size": 182300,
+   "extension": "pdf",
+   "sha1": "6a12d3a2aca614f76d86aa68f45492fa84537bec",
+   "created_at": "2026-11-05T09:00:00+00:00",
+   "modified_at": "2026-11-05T16:20:00+00:00"
+  },
+  {
+   "id": "9832001",
+   "name": "Unit_base_licence_Rookhaven_Leisure_Centre.pdf",
+   "parent_id": "9831001",
+   "owner_id": "41730021",
+   "description": "Licence for the overflow car park, 2 March to 18 December.",
+   "size": 241000,
+   "extension": "pdf",
+   "sha1": "41500440752a763e4d00b0afdf183bd2c317ce93",
+   "created_at": "2026-02-27T09:00:00+00:00",
+   "modified_at": "2026-02-27T16:20:00+00:00"
+  },
+  {
+   "id": "9832002",
+   "name": "Honeywagon_hire_contract_series2.pdf",
+   "parent_id": "9831001",
+   "owner_id": "41730021",
+   "description": "Honeywagon hire with the extension to 18 December.",
+   "size": 156400,
+   "extension": "pdf",
+   "sha1": "28d6cc8fa3a7119afb14ebedc79483f574651acb",
+   "created_at": "2026-11-14T09:00:00+00:00",
+   "modified_at": "2026-11-14T16:20:00+00:00"
+  },
+  {
+   "id": "9832003",
+   "name": "Catering_contract_Salt_and_Ember.pdf",
+   "parent_id": "9831001",
+   "owner_id": "41730021",
+   "description": "Location catering contract, series 2.",
+   "size": 210900,
+   "extension": "pdf",
+   "sha1": "95619dd62c75afd12f011a70e83f7e9589770c2d",
+   "created_at": "2026-02-20T09:00:00+00:00",
+   "modified_at": "2026-02-20T16:20:00+00:00"
+  },
+  {
+   "id": "9832004",
+   "name": "Generator_hire_Greenlight_series2.pdf",
+   "parent_id": "9831001",
+   "owner_id": "41730021",
+   "description": "Silent generator hire and service schedule.",
+   "size": 133700,
+   "extension": "pdf",
+   "sha1": "dfb6b4d786200c3d9780497ee1f2bb2d278582d8",
+   "created_at": "2026-02-24T09:00:00+00:00",
+   "modified_at": "2026-02-24T16:20:00+00:00"
+  },
+  {
+   "id": "9832005",
+   "name": "Employers_liability_certificate_2026-27.pdf",
+   "parent_id": "9831002",
+   "owner_id": "41730021",
+   "description": "Employers' liability certificate; copy on the base noticeboard.",
+   "size": 98200,
+   "extension": "pdf",
+   "sha1": "b2fa64d2e43d22ba383b644485ea2a129f2374bf",
+   "created_at": "2026-03-01T09:00:00+00:00",
+   "modified_at": "2026-03-01T16:20:00+00:00"
+  },
+  {
+   "id": "9832006",
+   "name": "Vehicle_insurance_schedule_series2.pdf",
+   "parent_id": "9831002",
+   "owner_id": "41730021",
+   "description": "Unit vehicle insurance schedule.",
+   "size": 120500,
+   "extension": "pdf",
+   "sha1": "18cbcf193bad4ffd7e778aacde42e6bd51cafdcf",
+   "created_at": "2026-03-01T09:00:00+00:00",
+   "modified_at": "2026-03-01T16:20:00+00:00"
+  },
+  {
+   "id": "9832007",
+   "name": "Cost_report_week46.xlsx",
+   "parent_id": "9831003",
+   "owner_id": "41730021",
+   "description": "Weekly cost report to the financier, week 46.",
+   "size": 88400,
+   "extension": "xlsx",
+   "sha1": "a3bc7f3b3236ee5da878b91c12293b5ccc0fb3b1",
+   "created_at": "2026-11-16T09:00:00+00:00",
+   "modified_at": "2026-11-16T16:20:00+00:00"
+  },
+  {
+   "id": "9832008",
+   "name": "Cost_report_week45.xlsx",
+   "parent_id": "9831003",
+   "owner_id": "41730021",
+   "description": "Weekly cost report to the financier, week 45.",
+   "size": 87900,
+   "extension": "xlsx",
+   "sha1": "43fed1f5b510245e5419e8e4bb3364a305a2ce8d",
+   "created_at": "2026-11-09T09:00:00+00:00",
+   "modified_at": "2026-11-09T16:20:00+00:00"
+  },
+  {
+   "id": "9832009",
+   "name": "Bank_mandate_production_account.pdf",
+   "parent_id": "9831003",
+   "owner_id": "41730021",
+   "description": "Signatories for the production account.",
+   "size": 64100,
+   "extension": "pdf",
+   "sha1": "d15c51817bc17f099b4892ca9df98587f6b28349",
+   "created_at": "2026-02-12T09:00:00+00:00",
+   "modified_at": "2026-02-12T16:20:00+00:00"
+  }
+ ]
+}

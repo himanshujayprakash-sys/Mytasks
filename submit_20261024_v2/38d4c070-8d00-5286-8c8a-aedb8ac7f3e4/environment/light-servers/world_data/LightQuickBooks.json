@@ -1,0 +1,574 @@
+{
+ "customers": [
+  {
+   "Id": "91901",
+   "DisplayName": "Bright, Kayode",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Social club member"
+  },
+  {
+   "Id": "91902",
+   "DisplayName": "Greaves, Hollis",
+   "PrimaryEmailAddr": null,
+   "Balance": 64.0,
+   "Active": true,
+   "Notes": "Social club member"
+  },
+  {
+   "Id": "91903",
+   "DisplayName": "Tate, Morwenna",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Social club member"
+  },
+  {
+   "Id": "91904",
+   "DisplayName": "Ibbotson, Gordon",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Social club member"
+  },
+  {
+   "Id": "91905",
+   "DisplayName": "Natarajan, Priya",
+   "PrimaryEmailAddr": null,
+   "Balance": 32.0,
+   "Active": true,
+   "Notes": "Social club member"
+  },
+  {
+   "Id": "91906",
+   "DisplayName": "Anand, Ruby",
+   "PrimaryEmailAddr": null,
+   "Balance": 0,
+   "Active": true,
+   "Notes": "Social club member"
+  }
+ ],
+ "vendors": [
+  {
+   "Id": "91911",
+   "DisplayName": "The Weir House Restaurant",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 901213"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Social club supplier"
+  },
+  {
+   "Id": "91912",
+   "DisplayName": "Pellbridge Party Supplies",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 902426"
+   },
+   "Balance": 42.6,
+   "Active": true,
+   "Notes": "Social club supplier"
+  },
+  {
+   "Id": "91913",
+   "DisplayName": "Quiz Night Hosts",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 903639"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Social club supplier"
+  },
+  {
+   "Id": "91914",
+   "DisplayName": "Corner Bakery",
+   "PrimaryEmailAddr": null,
+   "PrimaryPhone": {
+    "FreeFormNumber": "01632 904852"
+   },
+   "Balance": 0.0,
+   "Active": true,
+   "Notes": "Social club supplier"
+  }
+ ],
+ "items": [
+  {
+   "Id": "91921",
+   "Name": "Christmas lunch ticket",
+   "Description": "Three-course lunch at the Weir House, Friday 18 December",
+   "Type": "Service",
+   "UnitPrice": 32.0,
+   "IncomeAccountRef": {
+    "value": "9191",
+    "name": "Social Club Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-09-01 08:00:00",
+    "LastUpdatedTime": "2026-09-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91922",
+   "Name": "Quiz night ticket",
+   "Description": "Team quiz with a buffet",
+   "Type": "Service",
+   "UnitPrice": 8.0,
+   "IncomeAccountRef": {
+    "value": "9191",
+    "name": "Social Club Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-09-01 08:00:00",
+    "LastUpdatedTime": "2026-09-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91923",
+   "Name": "Annual club subscription",
+   "Description": "Staff social club, one year",
+   "Type": "Service",
+   "UnitPrice": 12.0,
+   "IncomeAccountRef": {
+    "value": "9191",
+    "name": "Social Club Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-09-01 08:00:00",
+    "LastUpdatedTime": "2026-09-01 08:00:00"
+   },
+   "SyncToken": "0"
+  },
+  {
+   "Id": "91924",
+   "Name": "Raffle strip",
+   "Description": "Five raffle tickets",
+   "Type": "Service",
+   "UnitPrice": 2.0,
+   "IncomeAccountRef": {
+    "value": "9191",
+    "name": "Social Club Income"
+   },
+   "Active": true,
+   "Taxable": false,
+   "MetaData": {
+    "CreateTime": "2026-09-01 08:00:00",
+    "LastUpdatedTime": "2026-09-01 08:00:00"
+   },
+   "SyncToken": "0"
+  }
+ ],
+ "invoices": [
+  {
+   "Id": "91931",
+   "DocNumber": "SC-26-101",
+   "TxnDate": "2026-10-05",
+   "DueDate": "2026-10-19",
+   "CustomerRef": {
+    "value": "91901",
+    "name": "Bright, Kayode"
+   },
+   "Line": [
+    {
+     "Amount": 12.0,
+     "Description": "Annual club subscription",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Annual club subscription"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 12.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91932",
+   "DocNumber": "SC-26-102",
+   "TxnDate": "2026-10-05",
+   "DueDate": "2026-10-19",
+   "CustomerRef": {
+    "value": "91902",
+    "name": "Greaves, Hollis"
+   },
+   "Line": [
+    {
+     "Amount": 12.0,
+     "Description": "Annual club subscription",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Annual club subscription"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 12.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91933",
+   "DocNumber": "SC-26-108",
+   "TxnDate": "2026-10-22",
+   "DueDate": "2026-11-05",
+   "CustomerRef": {
+    "value": "91903",
+    "name": "Tate, Morwenna"
+   },
+   "Line": [
+    {
+     "Amount": 16.0,
+     "Description": "Quiz night tickets, two",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Quiz night tickets"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 16.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91934",
+   "DocNumber": "SC-26-114",
+   "TxnDate": "2026-11-02",
+   "DueDate": "2026-11-16",
+   "CustomerRef": {
+    "value": "91902",
+    "name": "Greaves, Hollis"
+   },
+   "Line": [
+    {
+     "Amount": 64.0,
+     "Description": "Christmas lunch tickets, two",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Christmas lunch tickets"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 64.0,
+   "Balance": 64.0,
+   "Status": "Open"
+  },
+  {
+   "Id": "91935",
+   "DocNumber": "SC-26-115",
+   "TxnDate": "2026-11-02",
+   "DueDate": "2026-11-16",
+   "CustomerRef": {
+    "value": "91904",
+    "name": "Ibbotson, Gordon"
+   },
+   "Line": [
+    {
+     "Amount": 32.0,
+     "Description": "Christmas lunch ticket",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Christmas lunch ticket"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 32.0,
+   "Balance": 0.0,
+   "Status": "Paid"
+  },
+  {
+   "Id": "91936",
+   "DocNumber": "SC-26-117",
+   "TxnDate": "2026-11-04",
+   "DueDate": "2026-11-18",
+   "CustomerRef": {
+    "value": "91905",
+    "name": "Natarajan, Priya"
+   },
+   "Line": [
+    {
+     "Amount": 32.0,
+     "Description": "Christmas lunch ticket",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "name": "Christmas lunch ticket"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 32.0,
+   "Balance": 32.0,
+   "Status": "Open"
+  }
+ ],
+ "bills": [
+  {
+   "Id": "91941",
+   "DocNumber": "WH-1188",
+   "VendorRef": {
+    "value": "91911",
+    "name": "The Weir House Restaurant"
+   },
+   "TxnDate": "2026-11-03",
+   "DueDate": "2026-11-17",
+   "Line": [
+    {
+     "Amount": 320.0,
+     "Description": "Deposit for the Christmas lunch, 30 covers",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Social Club Events",
+       "value": "9192"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 320.0,
+   "Balance": 0.0,
+   "PrivateNote": "Social club account"
+  },
+  {
+   "Id": "91942",
+   "DocNumber": "PPS-552",
+   "VendorRef": {
+    "value": "91912",
+    "name": "Pellbridge Party Supplies"
+   },
+   "TxnDate": "2026-11-05",
+   "DueDate": "2026-11-19",
+   "Line": [
+    {
+     "Amount": 42.6,
+     "Description": "Crackers and table decorations",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Social Club Events",
+       "value": "9192"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 42.6,
+   "Balance": 42.6,
+   "PrivateNote": "Social club account"
+  },
+  {
+   "Id": "91943",
+   "DocNumber": "QNH-77",
+   "VendorRef": {
+    "value": "91913",
+    "name": "Quiz Night Hosts"
+   },
+   "TxnDate": "2026-10-16",
+   "DueDate": "2026-10-30",
+   "Line": [
+    {
+     "Amount": 90.0,
+     "Description": "Quiz host fee, October quiz",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Social Club Events",
+       "value": "9192"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 90.0,
+   "Balance": 0.0,
+   "PrivateNote": "Social club account"
+  },
+  {
+   "Id": "91944",
+   "DocNumber": "CB-3021",
+   "VendorRef": {
+    "value": "91914",
+    "name": "Corner Bakery"
+   },
+   "TxnDate": "2026-10-23",
+   "DueDate": "2026-11-06",
+   "Line": [
+    {
+     "Amount": 36.5,
+     "Description": "Buffet for the October quiz",
+     "AccountBasedExpenseLineDetail": {
+      "AccountRef": {
+       "name": "Social Club Events",
+       "value": "9192"
+      }
+     }
+    }
+   ],
+   "TotalAmt": 36.5,
+   "Balance": 0.0,
+   "PrivateNote": "Social club account"
+  }
+ ],
+ "payments": [
+  {
+   "Id": "91950",
+   "TxnDate": "2026-10-06",
+   "CustomerRef": {
+    "value": "91901",
+    "name": "Bright, Kayode"
+   },
+   "TotalAmt": 12.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91931",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 12.0
+    }
+   ],
+   "PrivateNote": "Cash"
+  },
+  {
+   "Id": "91951",
+   "TxnDate": "2026-10-07",
+   "CustomerRef": {
+    "value": "91902",
+    "name": "Greaves, Hollis"
+   },
+   "TotalAmt": 12.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91932",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 12.0
+    }
+   ],
+   "PrivateNote": "Bank transfer"
+  },
+  {
+   "Id": "91952",
+   "TxnDate": "2026-10-22",
+   "CustomerRef": {
+    "value": "91903",
+    "name": "Tate, Morwenna"
+   },
+   "TotalAmt": 16.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91933",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 16.0
+    }
+   ],
+   "PrivateNote": "Cash"
+  },
+  {
+   "Id": "91953",
+   "TxnDate": "2026-11-03",
+   "CustomerRef": {
+    "value": "91904",
+    "name": "Ibbotson, Gordon"
+   },
+   "TotalAmt": 32.0,
+   "Line": [
+    {
+     "LinkedTxn": [
+      {
+       "TxnId": "91935",
+       "TxnType": "Invoice"
+      }
+     ],
+     "Amount": 32.0
+    }
+   ],
+   "PrivateNote": "Bank transfer"
+  }
+ ],
+ "estimates": [
+  {
+   "Id": "91961",
+   "DocNumber": "SC-E-26-03",
+   "TxnDate": "2026-11-04",
+   "ExpirationDate": "2026-12-04",
+   "CustomerRef": {
+    "value": "91906",
+    "name": "Anand, Ruby"
+   },
+   "Line": [
+    {
+     "Id": "1",
+     "LineNum": 1,
+     "Amount": 40.0,
+     "DetailType": "SalesItemLineDetail",
+     "Description": "Raffle strips for the outreach team, 20",
+     "SalesItemLineDetail": {
+      "ItemRef": {
+       "value": "91924",
+       "name": "Raffle strip"
+      },
+      "UnitPrice": 2.0,
+      "Qty": 20
+     }
+    }
+   ],
+   "TotalAmt": 40.0,
+   "TxnStatus": "Pending",
+   "AcceptedDate": "",
+   "MetaData": {
+    "CreateTime": "2026-11-04 10:00:00",
+    "LastUpdatedTime": "2026-11-04 10:00:00"
+   },
+   "SyncToken": "0",
+   "LinkedTxn": []
+  }
+ ],
+ "expenses": [
+  {
+   "Id": "91970",
+   "TxnDate": "2026-10-16",
+   "TotalAmt": 14.99,
+   "Line": [
+    {
+     "Description": "Quiz prizes",
+     "Amount": 14.99
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-10-16T09:00:00"
+   }
+  },
+  {
+   "Id": "91971",
+   "TxnDate": "2026-11-05",
+   "TotalAmt": 6.4,
+   "Line": [
+    {
+     "Description": "Envelopes for ticket money",
+     "Amount": 6.4
+    }
+   ],
+   "MetaData": {
+    "CreateTime": "2026-11-05T09:00:00"
+   }
+  }
+ ]
+}

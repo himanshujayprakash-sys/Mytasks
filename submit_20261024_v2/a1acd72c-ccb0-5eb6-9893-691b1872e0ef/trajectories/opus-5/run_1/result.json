@@ -1,0 +1,135 @@
+{
+  "id": "5fcf00c8-b705-4138-9483-af4c3f0bfe76",
+  "task_name": "atlas/a1acd72c-ccb0-5eb6-9893-691b1872e0ef",
+  "trial_name": "a1acd72c-ccb0-5eb6-9893-691b1872__4BGcvdp",
+  "trial_uri": "output_oh_new10_recipe/a1acd72c-ccb0-5eb6-9893-691b1872e0ef/a1acd72c-ccb0-5eb6-9893-691b1872__4BGcvdp",
+  "task_id": {
+    "path": "tasks_new10/a1acd72c-ccb0-5eb6-9893-691b1872e0ef"
+  },
+  "source": null,
+  "task_checksum": "600b9e928ac8c7b489f1a06a42bbb78903c6e283f8e5b7bde015c20dc17188f4",
+  "config": {
+    "task": {
+      "path": "tasks_new10/a1acd72c-ccb0-5eb6-9893-691b1872e0ef",
+      "git_url": null,
+      "git_commit_id": null,
+      "name": null,
+      "ref": null,
+      "overwrite": false,
+      "download_dir": null,
+      "source": null
+    },
+    "trial_name": "a1acd72c-ccb0-5eb6-9893-691b1872__4BGcvdp",
+    "trials_dir": "output_oh_new10_recipe/a1acd72c-ccb0-5eb6-9893-691b1872e0ef",
+    "install_only": false,
+    "timeout_multiplier": 1.0,
+    "agent_timeout_multiplier": null,
+    "verifier_timeout_multiplier": null,
+    "agent_setup_timeout_multiplier": 6.0,
+    "environment_build_timeout_multiplier": 3.0,
+    "agent": {
+      "name": "tools.openhands_agent.agent:OpenHandsAgent",
+      "import_path": null,
+      "model_name": "claude-opus-5",
+      "n_concurrent": null,
+      "concurrency_group": null,
+      "skills": [],
+      "override_timeout_sec": null,
+      "override_setup_timeout_sec": null,
+      "max_timeout_sec": null,
+      "resume_trajectory": false,
+      "load_trajectory": null,
+      "extra_allowed_hosts": [
+        "host.docker.internal"
+      ],
+      "kwargs": {
+        "reasoning_effort": "high"
+      },
+      "mcp_servers": []
+    },
+    "user_agent": null,
+    "environment": {
+      "type": "docker",
+      "import_path": null,
+      "force_build": false,
+      "delete": true,
+      "stream": false,
+      "cpu_enforcement_policy": "auto",
+      "memory_enforcement_policy": "auto",
+      "override_cpus": null,
+      "override_memory_mb": null,
+      "override_storage_mb": null,
+      "override_gpus": null,
+      "override_tpu": null,
+      "mounts": null,
+      "extra_docker_compose": [
+        "tools/openhands_agent/overlay.yaml",
+        "tools/openhands_agent/overlay-host-gateway.yaml"
+      ],
+      "kwargs": {},
+      "extra_allowed_hosts": []
+    },
+    "verifier": {
+      "override_timeout_sec": null,
+      "max_timeout_sec": null,
+      "disable": false
+    },
+    "artifacts": [],
+    "extra_instruction_paths": [],
+    "extra_instructions": [],
+    "job_id": "a3ce4edd-fe14-4a9e-89cf-a7bc1660deb7",
+    "source_trial": null
+  },
+  "agent_info": {
+    "name": "openhands",
+    "version": "1.49.2",
+    "model_info": {
+      "name": "claude-opus-5",
+      "provider": null
+    }
+  },
+  "agent_result": {
+    "n_input_tokens": 49894328,
+    "n_cache_tokens": 49101107,
+    "n_output_tokens": 189459,
+    "cost_usd": 34.24,
+    "model_usage": {
+      "anthropic/claude-opus-5": {
+        "n_input_tokens": 49894328,
+        "n_cache_tokens": 49101107,
+        "n_output_tokens": 189459,
+        "cost_usd": null
+      }
+    },
+    "rollout_details": null,
+    "metadata": null
+  },
+  "verifier_result": {
+    "rewards": {
+      "pytest": 0.1402,
+      "rubric": 0.3288,
+      "reward": 23.45
+    }
+  },
+  "verifier_environment_mode": "separate",
+  "exception_info": null,
+  "started_at": "2026-10-25T04:03:00.959528Z",
+  "finished_at": "2026-10-25T04:47:43.224463Z",
+  "environment_setup": {
+    "started_at": "2026-10-25T04:03:01.254475Z",
+    "finished_at": "2026-10-25T04:04:53.056071Z"
+  },
+  "agent_setup": {
+    "started_at": "2026-10-25T04:04:53.060474Z",
+    "finished_at": "2026-10-25T04:05:11.403846Z"
+  },
+  "agent_execution": {
+    "started_at": "2026-10-25T04:05:11.407843Z",
+    "finished_at": "2026-10-25T04:46:30.749104Z"
+  },
+  "verifier": {
+    "started_at": "2026-10-25T04:46:46.593695Z",
+    "finished_at": "2026-10-25T04:47:43.224099Z"
+  },
+  "step_results": null
+}

@@ -1,0 +1,239 @@
+{
+ "boards": [
+  {
+   "id": "7c3a0000000000000000b001",
+   "name": "Spring concert 2027",
+   "desc": "Everything for the concert on 25 March.",
+   "closed": false,
+   "id_organization": "7c3a0000000000000000f001",
+   "url": "https://trello.com/b/kraconcert27/spring-concert-2027",
+   "member_ids": [
+    "7c3a0000000000000000a001",
+    "7c3a0000000000000000a002",
+    "7c3a0000000000000000a003",
+    "7c3a0000000000000000a004"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "7c3a0000000000000000c001",
+   "id_board": "7c3a0000000000000000b001",
+   "name": "Backlog",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "7c3a0000000000000000c002",
+   "id_board": "7c3a0000000000000000b001",
+   "name": "This week",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "7c3a0000000000000000c003",
+   "id_board": "7c3a0000000000000000b001",
+   "name": "In progress",
+   "closed": false,
+   "pos": 3
+  },
+  {
+   "id": "7c3a0000000000000000c004",
+   "id_board": "7c3a0000000000000000b001",
+   "name": "Finished",
+   "closed": false,
+   "pos": 4
+  }
+ ],
+ "members": [
+  {
+   "id": "7c3a0000000000000000a001",
+   "fullName": "Kirsty Lund",
+   "username": "kirstylund",
+   "email": "kirsty.lund@kestrelridge.example"
+  },
+  {
+   "id": "7c3a0000000000000000a002",
+   "fullName": "Ellie Marsden",
+   "username": "elliemarsden",
+   "email": "ellie.marsden@kestrelridge.example"
+  },
+  {
+   "id": "7c3a0000000000000000a003",
+   "fullName": "Ben Ashworth",
+   "username": "benashworth",
+   "email": "ben.ashworth@kestrelridge.example"
+  },
+  {
+   "id": "7c3a0000000000000000a004",
+   "fullName": "Hannah Clegg",
+   "username": "hannahclegg",
+   "email": "hannah.clegg@kestrelridge.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "7c3a0000000000000000d001",
+   "name": "Book the piano tuner",
+   "desc": "Tuned on 2 February after the damp week.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c004",
+   "pos": 16384.0,
+   "due": "2027-02-02T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a001"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d002",
+   "name": "Hall staging: borrow risers from the primary",
+   "desc": "Holmbrook Primary will lend six risers; collect on the Thursday before.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c002",
+   "pos": 32768.0,
+   "due": "2027-03-18T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a003"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d003",
+   "name": "Programme design",
+   "desc": "Running order from the music department; print 250 copies.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c003",
+   "pos": 49152.0,
+   "due": "2027-03-12T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a001"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d004",
+   "name": "Interval refreshments",
+   "desc": "Squash, tea and biscuits; ask the canteen for urns.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c001",
+   "pos": 65536.0,
+   "due": "2027-03-22T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a004"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d005",
+   "name": "Ticket sales on Eventbrite",
+   "desc": "Online sales opened on 25 January.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c004",
+   "pos": 81920.0,
+   "due": "2027-01-25T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a001"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d006",
+   "name": "Volunteers for the door",
+   "desc": "Four parents for the door and two for the raffle.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c002",
+   "pos": 98304.0,
+   "due": "2027-03-11T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a002"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d007",
+   "name": "Raffle prizes",
+   "desc": "Letters to local shops; the bakery has offered a cake.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c001",
+   "pos": 114688.0,
+   "due": "2027-03-19T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a002"
+   ],
+   "labels": [
+    "concert"
+   ]
+  },
+  {
+   "id": "7c3a0000000000000000d008",
+   "name": "Sound check timings",
+   "desc": "Brass group 16:00, choir 16:45, band 17:30.",
+   "id_board": "7c3a0000000000000000b001",
+   "id_list": "7c3a0000000000000000c001",
+   "pos": 131072.0,
+   "due": "2027-03-25T16:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "7c3a0000000000000000a001"
+   ],
+   "labels": [
+    "concert"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_kra_01",
+   "id_card": "7c3a0000000000000000d003",
+   "id_board": "7c3a0000000000000000b001",
+   "name": "Programme",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_kra_01",
+     "id_checklist": "cl_kra_01",
+     "name": "Running order",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_kra_02",
+     "id_checklist": "cl_kra_01",
+     "name": "Performer names checked",
+     "state": "incomplete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_kra_03",
+     "id_checklist": "cl_kra_01",
+     "name": "Print proof",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

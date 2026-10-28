@@ -1,0 +1,2227 @@
+{
+  "drafts": [],
+  "labels": [
+    {
+      "id": "INBOX",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "INBOX",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    },
+    {
+      "id": "SENT",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "SENT",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    },
+    {
+      "id": "DRAFT",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "DRAFT",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    },
+    {
+      "id": "SPAM",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "SPAM",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    },
+    {
+      "id": "TRASH",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "TRASH",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    },
+    {
+      "id": "STARRED",
+      "messagesTotal": 0,
+      "messagesUnread": 0,
+      "name": "STARRED",
+      "threadsTotal": 0,
+      "threadsUnread": 0,
+      "type": "system"
+    }
+  ],
+  "messages": [
+    {
+      "body": "Hello listing,\n\nThe trial in R v Morgan Tilley (CR-26-1150, affray, estimate 120 minutes, defence K. Osei) was adjourned this afternoon because the prosecution's main witness is ill. The bench directed that it goes back into the next listing round, not before 18 November 2026. It is on the change log; it was not on the queue when the queue was drawn.\n\nCourtroom 1 clerk",
+      "cc_addr": "",
+      "date": "2026-11-06T16:30:00Z",
+      "from_addr": "court.clerk.c1@pellbridge-mc.example",
+      "id": "msg-b73bdf5508",
+      "internal_date": 1793982600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 371,
+      "snippet": "Hello listing,\n\nThe trial in R v Morgan Tilley (CR-26-1150, affray, estimate 120 minutes, ",
+      "subject": "CR-26-1150 adjourned today: relist",
+      "thread_id": "thr-980c4415",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Dear listing office,\n\nThe Courtroom 1 bench will be on mandatory training on the afternoon of Friday 20 November 2026, so there is no sitting in Courtroom 1 that afternoon. The sessions table has not been changed yet. All other sittings stand.\n\nBench chair",
+      "cc_addr": "",
+      "date": "2026-11-05T12:10:00Z",
+      "from_addr": "bench.chair@pellbridge-mc.example",
+      "id": "msg-096e6bd038",
+      "internal_date": 1793880600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 256,
+      "snippet": "Dear listing office,\n\nThe Courtroom 1 bench will be on mandatory training on the afternoon",
+      "subject": "No afternoon sitting on Friday 20 November",
+      "thread_id": "thr-9c6570a8",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nCV-26-0402 (licensing appeal from the September list): the appellant paid 137.50 on 30 October, so the fee outstanding is now 137.50 pounds. Please update the exceptions record.\n\nCourt finance",
+      "cc_addr": "",
+      "date": "2026-11-04T15:00:00Z",
+      "from_addr": "finance@pellbridge-mc.example",
+      "id": "msg-da61a6f4ce",
+      "internal_date": 1793804400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 200,
+      "snippet": "Hello,\n\nCV-26-0402 (licensing appeal from the September list): the appellant paid 137.50 o",
+      "subject": "Fee position: CV-26-0402",
+      "thread_id": "thr-48425bb1",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Morning,\n\nPlease build the list for the fortnight 16 to 27 November on Monday from the queue and anything that has come back since, and tell the listing contacts the same day. New contacts join the court users' bulletin.\n\nListing manager",
+      "cc_addr": "",
+      "date": "2026-11-06T09:00:00Z",
+      "from_addr": "listing.manager@pellbridge-mc.example",
+      "id": "msg-174f7018e2",
+      "internal_date": 1793955600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 237,
+      "snippet": "Morning,\n\nPlease build the list for the fortnight 16 to 27 November on Monday from the que",
+      "subject": "Fortnight list 16-27 November",
+      "thread_id": "thr-2ba4f033",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Dear listing,\n\nCould you reply today to confirm that Mr Wolak's trial will be listed on 16 November? Our client is anxious about his custody time limit.\n\nOsei & Lamb, criminal clerk",
+      "cc_addr": "",
+      "date": "2026-11-08T19:20:00Z",
+      "from_addr": "clerk@osei-lamb.example",
+      "id": "msg-0c344f67c7",
+      "internal_date": 1794165600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 181,
+      "snippet": "Dear listing,\n\nCould you reply today to confirm that Mr Wolak's trial will be listed on 16",
+      "subject": "R v Wolak (CR-26-1101): please confirm 16 November",
+      "thread_id": "thr-4a30a814",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Dear listing,\n\nFurther to my email last night, and please disregard its request for 16 November: K. Osei has been called into a part-heard trial at the Crown Court and cannot appear at Pellbridge at all on Tuesday 17 November 2026. Please take this as our notice of unavailability for that day, for every Pellbridge case K. Osei holds.\n\nOsei & Lamb, criminal clerk",
+      "cc_addr": "",
+      "date": "2026-11-09T07:25:00Z",
+      "from_addr": "clerk@osei-lamb.example",
+      "id": "msg-a410ce5054",
+      "internal_date": 1794209100000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 364,
+      "snippet": "Dear listing,\n\nFurther to my email last night, and please disregard its request for 16 Nov",
+      "subject": "Re: R v Wolak (CR-26-1101): please confirm 16 November",
+      "thread_id": "thr-4a30a814",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Listing,\n\nTara Quigley (CR-26-1137, public order) was arrested overnight on a warrant for breach of bail and was remanded in custody by the remand court at 09:05 this morning. Custody time limit expires 2026-11-25. From now on this is a custody case.\n\nCustody suite",
+      "cc_addr": "",
+      "date": "2026-11-09T09:20:00Z",
+      "from_addr": "custody.suite@pellbridge-mc.example",
+      "id": "msg-333e55d80e",
+      "internal_date": 1794216000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 265,
+      "snippet": "Listing,\n\nTara Quigley (CR-26-1137, public order) was arrested overnight on a warrant for ",
+      "subject": "Remanded this morning: CR-26-1137",
+      "thread_id": "thr-373dbda2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello listing,\n\nR v Ivy Stannard (CR-26-1131): at Friday's case management hearing the defence admitted the breath reading, so only the special reasons argument is left, and both sides now put the trial at 60 minutes. Please use 60 minutes, not 120, from today.\n\nCase progression, desk A",
+      "cc_addr": "",
+      "date": "2026-11-09T08:40:00Z",
+      "from_addr": "desk.a@pellbridge-mc.example",
+      "id": "msg-497d2f02ee",
+      "internal_date": 1794213600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 287,
+      "snippet": "Hello listing,\n\nR v Ivy Stannard (CR-26-1131): at Friday's case management hearing the def",
+      "subject": "CR-26-1131 trial estimate revised",
+      "thread_id": "thr-f5ff4a18",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hi Pellbridge,\n\nWhen your list for 16-27 November is built, could you email it to us so we can avoid clashing defence advocates? A reply with the list attached would be ideal.\n\nAshcombe listing",
+      "cc_addr": "",
+      "date": "2026-11-07T10:45:00Z",
+      "from_addr": "listing@ashcombe-mc.example",
+      "id": "msg-18380323da",
+      "internal_date": 1794048300000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 193,
+      "snippet": "Hi Pellbridge,\n\nWhen your list for 16-27 November is built, could you email it to us so we",
+      "subject": "Your fortnight list",
+      "thread_id": "thr-c4e9dd76",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Morning,\n\nWhen the fortnight list is done, please email it straight to the CPS unit at cps.unit@cps.example so they can warn witnesses. No need to wait for the listing manager.\n\nJustices' clerk",
+      "cc_addr": "",
+      "date": "2026-11-09T08:05:00Z",
+      "from_addr": "justices.clerk@pellbridge-mc.example",
+      "id": "msg-3dedd6ce88",
+      "internal_date": 1794211500000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 193,
+      "snippet": "Morning,\n\nWhen the fortnight list is done, please email it straight to the CPS unit at cps",
+      "subject": "Send the list to the CPS",
+      "thread_id": "thr-81ea132b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Listing office,\n\nFor the District Judge: order DJ/26/0409, made in chambers this morning: CR-26-1133 is not to be listed before 2026-11-25, because the interpreter-assisted psychiatric assessment is not due until then.\n\nImelda Craven, legal adviser",
+      "cc_addr": "",
+      "date": "2026-11-03T10:15:00Z",
+      "from_addr": "legal.adviser@pellbridge-mc.example",
+      "id": "msg-e6e4ce0ef6",
+      "internal_date": 1793700900000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 248,
+      "snippet": "Listing office,\n\nFor the District Judge: order DJ/26/0409, made in chambers this morning: ",
+      "subject": "Chambers order DJ/26/0409",
+      "thread_id": "thr-1c8f7146",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Dear colleagues,\n\nA short round-up from Linden Abbott before the winter. Our criminal team has finished its move to the second floor of the Corn Exchange building on Market Row, and the old side door on Tanner Street is closed to visitors. Two trainees joined us in October and will shadow our advocates at Pellbridge and Ashcombe until the new year. The secure address for case papers is unchanged. The office closes at noon on Thursday 24 December and opens again on Monday 4 January.\n\nDiary notice for Pellbridge: M. Linden is on leave on Thursday 19 November 2026 and is not available at Pellbridge at all that day. Please take this as our notice of unavailability for that day, for every Pellbridge case M. Linden holds.\n\nWith best wishes for the season,\nLinden Abbott Solicitors, criminal clerk",
+      "cc_addr": "",
+      "date": "2026-11-05T17:45:00Z",
+      "from_addr": "clerk@linden-abbott.example",
+      "id": "msg-10539ae542",
+      "internal_date": 1793900700000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 800,
+      "snippet": "Dear colleagues,\n\nA short round-up from Linden Abbott before the winter. Our criminal team",
+      "subject": "Linden Abbott Solicitors: news for November",
+      "thread_id": "thr-197fbf23",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-03T15:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-aaf40d4086",
+      "internal_date": 1793718000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 1)",
+      "thread_id": "thr-db423f50",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-03T18:37:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-8bda135521",
+      "internal_date": 1793731020000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 2)",
+      "thread_id": "thr-23fbffe6",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-03T22:14:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-35e49ac939",
+      "internal_date": 1793744040000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 3)",
+      "thread_id": "thr-f01e1530",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T01:51:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-c7a4621a80",
+      "internal_date": 1793757060000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 4)",
+      "thread_id": "thr-49af7ba8",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T05:28:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-fb15f1affc",
+      "internal_date": 1793770080000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Witness rooms (week of 2 November, 5)",
+      "thread_id": "thr-a7c0db42",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T09:05:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-cb2d39a5b9",
+      "internal_date": 1793783100000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 6)",
+      "thread_id": "thr-3d1c3cb7",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T12:42:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-3774a65109",
+      "internal_date": 1793796120000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 7)",
+      "thread_id": "thr-e5127037",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T16:19:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-d911af5ea1",
+      "internal_date": 1793809140000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 8)",
+      "thread_id": "thr-406eacbc",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T19:56:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-c5ee13f73b",
+      "internal_date": 1793822160000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 9)",
+      "thread_id": "thr-9eafa1c1",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-04T23:33:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-f75d95fd31",
+      "internal_date": 1793835180000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 10)",
+      "thread_id": "thr-7d8a0d9d",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T03:10:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-bd3983e888",
+      "internal_date": 1793848200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 11)",
+      "thread_id": "thr-a618b427",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T06:47:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-f7ae8d000f",
+      "internal_date": 1793861220000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 12)",
+      "thread_id": "thr-734385d6",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T10:24:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-9b17778643",
+      "internal_date": 1793874240000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 13)",
+      "thread_id": "thr-cf5bb1d7",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T14:01:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-9c6d25842b",
+      "internal_date": 1793887260000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 14)",
+      "thread_id": "thr-a527f130",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T17:38:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-37223a2627",
+      "internal_date": 1793900280000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 15)",
+      "thread_id": "thr-3493913c",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-05T21:15:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-fb92c02630",
+      "internal_date": 1793913300000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Lockers (week of 2 November, 16)",
+      "thread_id": "thr-ebac032c",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T00:52:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-94082b4675",
+      "internal_date": 1793926320000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 17)",
+      "thread_id": "thr-a2424db3",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T04:29:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-6e0d4fcd27",
+      "internal_date": 1793939340000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 18)",
+      "thread_id": "thr-4c091e0f",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T08:06:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-c26ef690d9",
+      "internal_date": 1793952360000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 19)",
+      "thread_id": "thr-457ab9ca",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T11:43:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-141af25f3d",
+      "internal_date": 1793965380000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 20)",
+      "thread_id": "thr-d7431f51",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T15:20:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-d7025ff328",
+      "internal_date": 1793978400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 21)",
+      "thread_id": "thr-5d38c168",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T18:57:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-f06b4dca3a",
+      "internal_date": 1793991420000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 22)",
+      "thread_id": "thr-ac149994",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-06T22:34:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-ba3954ed42",
+      "internal_date": 1794004440000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 23)",
+      "thread_id": "thr-c4e8a1fb",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T02:11:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-a037ae08f3",
+      "internal_date": 1794017460000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Witness rooms (week of 2 November, 24)",
+      "thread_id": "thr-5bb7db8c",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T05:48:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-7304a45174",
+      "internal_date": 1794030480000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Witness rooms (week of 2 November, 25)",
+      "thread_id": "thr-eb20ac7d",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T09:25:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-3e1d86946c",
+      "internal_date": 1794043500000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 26)",
+      "thread_id": "thr-97b26b36",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T13:02:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-b1f358cf2b",
+      "internal_date": 1794056520000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Room bookings (week of 2 November, 27)",
+      "thread_id": "thr-713dbbe4",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T16:39:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-eff7b9cd09",
+      "internal_date": 1794069540000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 28)",
+      "thread_id": "thr-e680c2d2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T20:16:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-7725014521",
+      "internal_date": 1794082560000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Courtroom 2 works (week of 2 November, 29)",
+      "thread_id": "thr-636a4f95",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-07T23:53:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-4bb8e155c5",
+      "internal_date": 1794095580000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Lockers (week of 2 November, 30)",
+      "thread_id": "thr-be6e41eb",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-08T03:30:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-21015b7461",
+      "internal_date": 1794108600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Visitor badges (week of 2 November, 31)",
+      "thread_id": "thr-df02d25a",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-08T07:07:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-f3045692f7",
+      "internal_date": 1794121620000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Canteen (week of 2 November, 32)",
+      "thread_id": "thr-d1309053",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-12T08:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-444cf7f2b9",
+      "internal_date": 1791792000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (1)",
+      "thread_id": "thr-e9fd7b34",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-12T19:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-b4f8ef3764",
+      "internal_date": 1791831600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (2)",
+      "thread_id": "thr-488379e5",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-13T06:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-5f8a6649df",
+      "internal_date": 1791871200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Room bookings (3)",
+      "thread_id": "thr-27a755fd",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-13T17:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-83e3f6ab9e",
+      "internal_date": 1791910800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Lockers (4)",
+      "thread_id": "thr-6fe48cff",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-14T04:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-a13b4bebad",
+      "internal_date": 1791950400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Room bookings (5)",
+      "thread_id": "thr-662ecf3b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-14T15:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-c64f91bc3b",
+      "internal_date": 1791990000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Witness rooms (6)",
+      "thread_id": "thr-60df8871",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-15T02:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-bd42b4a36e",
+      "internal_date": 1792029600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Witness rooms (7)",
+      "thread_id": "thr-7f4b77e7",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-15T13:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-b3219907e3",
+      "internal_date": 1792069200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (8)",
+      "thread_id": "thr-a60c35b2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-16T00:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-c2d12d24db",
+      "internal_date": 1792108800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Witness rooms (9)",
+      "thread_id": "thr-6aec53e7",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-16T11:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-f609171393",
+      "internal_date": 1792148400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Witness rooms (10)",
+      "thread_id": "thr-8ffcb898",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-16T22:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-142291a6d4",
+      "internal_date": 1792188000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Badges (11)",
+      "thread_id": "thr-4172a1b3",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-17T09:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-49f135950b",
+      "internal_date": 1792227600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Lockers (12)",
+      "thread_id": "thr-c66e723b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-17T20:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-0429bf0eef",
+      "internal_date": 1792267200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (13)",
+      "thread_id": "thr-01f61ceb",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-18T07:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-aed6ca034b",
+      "internal_date": 1792306800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Lockers (14)",
+      "thread_id": "thr-ac29d29f",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-18T18:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-94d3234592",
+      "internal_date": 1792346400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Witness rooms (15)",
+      "thread_id": "thr-5bfa65a2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-19T05:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-78982f470d",
+      "internal_date": 1792386000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Badges (16)",
+      "thread_id": "thr-0938a8dc",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-19T16:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-b15d896f4b",
+      "internal_date": 1792425600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Badges (17)",
+      "thread_id": "thr-3ab095f1",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-20T03:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-e724c7e907",
+      "internal_date": 1792465200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Lockers (18)",
+      "thread_id": "thr-6fb1fc62",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-20T14:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-1aad80fc0a",
+      "internal_date": 1792504800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Witness rooms (19)",
+      "thread_id": "thr-90a4e704",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-21T01:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-37ebc575f2",
+      "internal_date": 1792544400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Lockers (20)",
+      "thread_id": "thr-f57c6a03",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-21T12:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-bcc2076cd5",
+      "internal_date": 1792584000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Witness rooms (21)",
+      "thread_id": "thr-b11ac6ef",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-21T23:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-12764774c2",
+      "internal_date": 1792623600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Room bookings (22)",
+      "thread_id": "thr-cdf295a2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-22T10:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-0d18d3c9ea",
+      "internal_date": 1792663200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (23)",
+      "thread_id": "thr-efe02be0",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-22T21:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-ad2039a706",
+      "internal_date": 1792702800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Lockers (24)",
+      "thread_id": "thr-138a7c73",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-23T08:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-c160afa908",
+      "internal_date": 1792742400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Room bookings (25)",
+      "thread_id": "thr-67f7a6d6",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-23T19:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-d944a08051",
+      "internal_date": 1792782000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (26)",
+      "thread_id": "thr-316fc889",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-24T06:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-5724709735",
+      "internal_date": 1792821600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Badges (27)",
+      "thread_id": "thr-0b337f42",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-24T17:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-d47beacce3",
+      "internal_date": 1792861200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Room bookings (28)",
+      "thread_id": "thr-0f25600b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-25T04:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-9dc9b44953",
+      "internal_date": 1792900800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Room bookings (29)",
+      "thread_id": "thr-0e00948b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-25T15:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-94d6ebcdc8",
+      "internal_date": 1792940400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Witness rooms (30)",
+      "thread_id": "thr-c5051f60",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-26T02:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-c801744a71",
+      "internal_date": 1792980000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Lockers (31)",
+      "thread_id": "thr-51809dfa",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-26T13:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-1e60e884aa",
+      "internal_date": 1793019600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Witness rooms (32)",
+      "thread_id": "thr-d17a4b3a",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-27T00:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-d323180c2a",
+      "internal_date": 1793059200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Lockers (33)",
+      "thread_id": "thr-c9a1e77a",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-27T11:00:00Z",
+      "from_addr": "witness.service@pellbridge-mc.example",
+      "id": "msg-b507486c75",
+      "internal_date": 1793098800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Witness rooms (34)",
+      "thread_id": "thr-1d435df1",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-27T22:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-78d1ef7f78",
+      "internal_date": 1793138400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Witness rooms (35)",
+      "thread_id": "thr-88cfec05",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-28T09:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-f4c2fdfb78",
+      "internal_date": 1793178000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (36)",
+      "thread_id": "thr-aceadd82",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-28T20:00:00Z",
+      "from_addr": "estates@pellbridge-mc.example",
+      "id": "msg-8093e0c8e4",
+      "internal_date": 1793217600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Badges (37)",
+      "thread_id": "thr-6b43335a",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-29T07:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-b9e3cf1dac",
+      "internal_date": 1793257200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Witness rooms (38)",
+      "thread_id": "thr-6f8b360f",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-29T18:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-44769f60bd",
+      "internal_date": 1793296800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 37,
+      "snippet": "Hello,\n\nNoted, thanks.\n\nPellbridge MC",
+      "subject": "Lockers (39)",
+      "thread_id": "thr-a3a0333b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-30T05:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-33677eec12",
+      "internal_date": 1793336400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Witness rooms (40)",
+      "thread_id": "thr-ec7630dd",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-30T16:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-e5b781ea80",
+      "internal_date": 1793376000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Lockers (41)",
+      "thread_id": "thr-b6e69ca6",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-31T03:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-b26546e05d",
+      "internal_date": 1793415600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Room bookings (42)",
+      "thread_id": "thr-7933249e",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-10-31T14:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-1dacca016a",
+      "internal_date": 1793455200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 30,
+      "snippet": "Hello,\n\nBooked.\n\nPellbridge MC",
+      "subject": "Heating in Courtroom 2 (43)",
+      "thread_id": "thr-6a7d9d96",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nDone.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-01T01:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-3716a189b5",
+      "internal_date": 1793494800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 28,
+      "snippet": "Hello,\n\nDone.\n\nPellbridge MC",
+      "subject": "Room bookings (44)",
+      "thread_id": "thr-92656266",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "cc_addr": "",
+      "date": "2026-11-01T12:00:00Z",
+      "from_addr": "usher.desk@pellbridge-mc.example",
+      "id": "msg-c5071cb58d",
+      "internal_date": 1793534400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 49,
+      "snippet": "Hello,\n\nWe will sort it this week.\n\nPellbridge MC",
+      "subject": "Room bookings (45)",
+      "thread_id": "thr-ac55a341",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-21T08:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-cdc58312d7",
+      "internal_date": 1789977600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 1",
+      "thread_id": "thr-e8219e82",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-22T07:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-be76d17d6c",
+      "internal_date": 1790060400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 2",
+      "thread_id": "thr-c712b816",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-23T06:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-a58e7b1e7a",
+      "internal_date": 1790143200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 3",
+      "thread_id": "thr-55e76742",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-24T05:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-6a636ecbe1",
+      "internal_date": 1790226000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 4",
+      "thread_id": "thr-5b2859bc",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-25T04:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-3ad87a42b4",
+      "internal_date": 1790308800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 5",
+      "thread_id": "thr-dba33720",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-26T03:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-5826d879f6",
+      "internal_date": 1790391600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 6",
+      "thread_id": "thr-78612f83",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-27T02:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-526e9507e2",
+      "internal_date": 1790474400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 7",
+      "thread_id": "thr-b6f35d14",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-28T01:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-bbf52558ba",
+      "internal_date": 1790557200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 8",
+      "thread_id": "thr-8afc3bfd",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-29T00:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-54ecdff3d9",
+      "internal_date": 1790640000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 9",
+      "thread_id": "thr-5d80a436",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-29T23:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-ae560f63e9",
+      "internal_date": 1790722800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 10",
+      "thread_id": "thr-ee1ef9a9",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-09-30T22:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-f47eabd8c7",
+      "internal_date": 1790805600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 11",
+      "thread_id": "thr-29a002b2",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-01T21:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-f72dc66d30",
+      "internal_date": 1790888400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 12",
+      "thread_id": "thr-498e106e",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-02T20:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-6645de5871",
+      "internal_date": 1790971200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 13",
+      "thread_id": "thr-e183b080",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-03T19:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-46b2fc30fd",
+      "internal_date": 1791054000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 14",
+      "thread_id": "thr-07a30a42",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-04T18:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-a215002276",
+      "internal_date": 1791136800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 15",
+      "thread_id": "thr-a00e5566",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-05T17:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-84c59297ab",
+      "internal_date": 1791219600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 16",
+      "thread_id": "thr-e094c24e",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-06T16:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-790ac26724",
+      "internal_date": 1791302400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 17",
+      "thread_id": "thr-1f1eccd4",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-07T15:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-780335aa3e",
+      "internal_date": 1791385200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 18",
+      "thread_id": "thr-67b991de",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-08T14:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-2c3f128947",
+      "internal_date": 1791468000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 19",
+      "thread_id": "thr-4ed14581",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-09T13:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-ed238bc585",
+      "internal_date": 1791550800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 20",
+      "thread_id": "thr-ef737fa5",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-10T12:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-9d74f8a868",
+      "internal_date": 1791633600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 21",
+      "thread_id": "thr-b426e5a4",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-11T11:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-b0707d9ff8",
+      "internal_date": 1791716400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 22",
+      "thread_id": "thr-2628614c",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-12T10:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-d1d96d1bf4",
+      "internal_date": 1791799200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 23",
+      "thread_id": "thr-83332b76",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-13T09:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-540bb19e52",
+      "internal_date": 1791882000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 24",
+      "thread_id": "thr-188a9df3",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-14T08:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-faa7f55b0a",
+      "internal_date": 1791964800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 25",
+      "thread_id": "thr-f22e2548",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-15T07:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-c825ae22b0",
+      "internal_date": 1792047600000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 26",
+      "thread_id": "thr-cec5bc3f",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-16T06:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-2607b43883",
+      "internal_date": 1792130400000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 27",
+      "thread_id": "thr-d6f49f1b",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-17T05:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-5e052e2ff2",
+      "internal_date": 1792213200000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 28",
+      "thread_id": "thr-01dfbdef",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-18T04:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-bc51ec63ba",
+      "internal_date": 1792296000000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 29",
+      "thread_id": "thr-0f634387",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen menu.\n\nCommunications",
+      "cc_addr": "",
+      "date": "2026-10-19T03:00:00Z",
+      "from_addr": "comms@pellbridge-mc.example",
+      "id": "msg-c709b66021",
+      "internal_date": 1792378800000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 112,
+      "snippet": "Hello all,\n\nCar park resurfacing, fire drill dates, the new visitor badges and the canteen",
+      "subject": "Court bulletin 30",
+      "thread_id": "thr-f55e782f",
+      "to_addr": "listing@pellbridge-mc.example"
+    },
+    {
+      "body": "The legal adviser forwards order DJ/26/0527, made in chambers on 6 November: CV-26-0507 is not to be listed before 2026-12-01. This replaces the earlier ordinary listing direction for that case. The order is effective for this round.\nLegal adviser",
+      "cc_addr": "",
+      "date": "2026-11-06T16:35:00Z",
+      "from_addr": "legal.adviser@pellbridge-mc.example",
+      "id": "msg-cae361b46a390b",
+      "internal_date": 1793982900000,
+      "is_starred": false,
+      "is_unread": true,
+      "labels": [
+        "INBOX"
+      ],
+      "size_estimate": 248,
+      "snippet": "Please retain the attached direction with the civil listing papers.",
+      "subject": "Civil list: chambers order forwarded",
+      "thread_id": "thr-1c8f7146",
+      "to_addr": "listing@pellbridge-mc.example"
+    }
+  ],
+  "profile": {
+    "emailAddress": "listing@pellbridge-mc.example",
+    "historyId": "9301",
+    "messagesTotal": 119,
+    "threadsTotal": 119
+  }
+}

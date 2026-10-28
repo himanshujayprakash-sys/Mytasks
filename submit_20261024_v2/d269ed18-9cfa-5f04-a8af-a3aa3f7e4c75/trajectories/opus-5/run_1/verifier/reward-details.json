@@ -1,0 +1,349 @@
+{
+  "pytest": {
+    "score": 0.3407,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.3407,
+        "raw": 0.340659,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 34 of 91, charged 3; missed 25: test_guest_list_reread_after_first_line, test_production_portions_exact, test_production_children_menus, test_production_evening_portions, test_event_record_final_figures, test_beef_order, test_invoice_exact, test_supplier_orders_exact, test_couple_message_exact, test_final_states_balance, test_final_states_adults_eating_and_charged, test_final_states_other_counts, test_final_lists_invoice_lines, test_final_gives_portions, test_final_gives_order_quantities, test_final_names_plan_guests, test_final_names_created_ids, test_page_balance_at_head, test_page_adult_counts, test_page_portions_chart, test_page_invoice_chart, test_page_guest_table_sortable_filterable, test_dossier_changes_section, test_reconciliation_guest_rows, test_reconciliation_invoice_rows; guards tripped: test_guard_misread_balance_stated"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.1935,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-states-balance-due-2748",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] States the balance due as 2748.60.",
+        "reasoning": "The final message states \u201cbalance \u00a32,700.20,\u201d not 2748.60 (final_message.md, line 5)."
+      },
+      {
+        "id": "2",
+        "name": "j-states-88-adults-eat",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] States that 88 adults eat the wedding breakfast and 90 are charged for.",
+        "reasoning": "The final message states \u201c89 adults eating / 90 charged,\u201d not 88 adults eating (final_message.md, line 5)."
+      },
+      {
+        "id": "3",
+        "name": "j-gives-9-children-1",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] Gives 9 children and 1 infant.",
+        "reasoning": "The final message gives \u201c8 children, 2 infants,\u201d not 9 children and 1 infant (final_message.md, line 5)."
+      },
+      {
+        "id": "4",
+        "name": "j-gives-39-evening-guests",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] Gives 39 evening guests.",
+        "reasoning": "The final message gives 38 evening guests, not 39 (final_message.md, line 5)."
+      },
+      {
+        "id": "5",
+        "name": "j-gives-service-charge-735",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] Gives the service charge as 735.60.",
+        "reasoning": "The delivered reconciliation gives the service charge as 731.20, not 735.60 (workspace/hartley_osei_reconciliation.csv, line 105)."
+      },
+      {
+        "id": "6",
+        "name": "j-gives-beef-order-42",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08064516129032258,
+        "description": "[final answer] Gives the beef order as 42 portions.",
+        "reasoning": "The delivered chart gives MB 37 and MBA 4, totaling 41 beef portions, and never gives a 42-portion beef order (workspace/hartley_osei_final_numbers.html, lines 105-110)."
+      },
+      {
+        "id": "7",
+        "name": "j-says-sales-note-couple",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04838709677419355,
+        "description": "[final answer] Says the sales note on the couple's messenger conversation moved the four band members to crew meals.",
+        "reasoning": "The dossier says the internal sales note on the clients\u2019 Fernhill messenger conversation moved the four band members from wedding breakfast to crew meals (workspace/hartley_osei_allergen_dossier.md, lines 255-259)."
+      },
+      {
+        "id": "8",
+        "name": "j-says-saskia-brandt-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04838709677419355,
+        "description": "[final answer] Says Saskia Brandt's own WhatsApp message corrected her allergy from sesame to gluten.",
+        "reasoning": "The dossier explicitly says Saskia\u2019s own WhatsApp message corrected sesame to gluten (workspace/hartley_osei_allergen_dossier.md, lines 156-167 and 261-265)."
+      },
+      {
+        "id": "9",
+        "name": "j-says-graham-ostler-withdrew",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04838709677419355,
+        "description": "[final answer] Says Graham Ostler withdrew by voicemail to the events desk and is not counted.",
+        "reasoning": "The dossier says Graham Ostler left a withdrawal voicemail on the events desk phone and reduced the adult count from 93 to 92 (workspace/hartley_osei_allergen_dossier.md, lines 243-247)."
+      },
+      {
+        "id": "10",
+        "name": "j-says-tomas-rivera-added",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04838709677419355,
+        "description": "[final answer] Says Tomas Rivera was added as a vegan guest from the sales note on the couple's CRM contact.",
+        "reasoning": "The dossier says Tomas was added as a vegan wedding-breakfast guest through the sales-team note on the clients\u2019 CRM contact (workspace/hartley_osei_allergen_dossier.md, lines 194-203 and 249-253)."
+      },
+      {
+        "id": "11",
+        "name": "j-says-mei-lin-harcourt",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.04838709677419355,
+        "description": "[final answer] Says Mei Lin Harcourt and Joseph Abara get certified sealed meals because the only Level 3 allergen lead declined the wedding shift.",
+        "reasoning": "The dossier assigns sealed meals to Mei Lin Harcourt and Joseph Abara because the sole Level 3 lead, Rhodri Pask, declined the shift (workspace/hartley_osei_allergen_dossier.md, lines 170-179 and 205-214)."
+      },
+      {
+        "id": "12",
+        "name": "j-says-akosua-lister-counted",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says Akosua Lister is counted as a child.",
+        "reasoning": "No delivered file says Akosua Lister is counted as a child; the files instead list Akosua Dunstan as an adult (workspace/hartley_osei_reconciliation.csv, line 9)."
+      },
+      {
+        "id": "13",
+        "name": "j-says-yasmin-selwyn-evening",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says Yasmin Selwyn is an evening guest rather than a wedding breakfast guest.",
+        "reasoning": "The delivered reconciliation lists Yasmin Selwyn as an adult wedding-breakfast guest with three courses, not as an evening guest (workspace/hartley_osei_reconciliation.csv, line 42)."
+      },
+      {
+        "id": "14",
+        "name": "j-gives-crew-meals-line",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives the crew meals line as 108.00.",
+        "reasoning": "The reconciliation explicitly gives \u201cCrew meal,6,18.00,108.00\u201d (workspace/hartley_osei_reconciliation.csv, line 102)."
+      },
+      {
+        "id": "15",
+        "name": "j-gives-certified-sealed-meals",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives the certified sealed meals at cost as 49.00.",
+        "reasoning": "The final message states \u201c2 \u00d7 \u00a324.50 = \u00a349.00 at cost,\u201d also reflected in the reconciliation (final_message.md, line 15; workspace/hartley_osei_reconciliation.csv, line 104)."
+      },
+      {
+        "id": "16",
+        "name": "j-takes-off-deposit-2500",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Takes off the deposit of 2500.00 and the second instalment of 3000.00.",
+        "reasoning": "The reconciliation deducts both the 2500.00 deposit and 3000.00 second instalment (workspace/hartley_osei_reconciliation.csv, lines 106-107)."
+      },
+      {
+        "id": "17",
+        "name": "j-says-2026-schedule-charges",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says the 2026 schedule of charges, version 2, applies rather than the 2025 schedule.",
+        "reasoning": "The dossier identifies the 2026 version 2 schedule as an authority, while the final message calls the 2025 schedule superseded (workspace/hartley_osei_allergen_dossier.md, line 5; final_message.md, line 24)."
+      },
+      {
+        "id": "18",
+        "name": "j-says-ines-calloway-shift",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says Ines Calloway, on the shift, is only Level 2 and cannot stand in as the allergen lead.",
+        "reasoning": "Neither the final message nor delivered files mention Ines Calloway or state that she is Level 2 and cannot substitute as allergen lead."
+      },
+      {
+        "id": "19",
+        "name": "j-says-fergus-lyle-counted",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says Fergus Lyle is not counted because his later RSVP reply was no.",
+        "reasoning": "The dossier says Fergus Lyle\u2019s later RSVP answered No and reduced the count (workspace/hartley_osei_allergen_dossier.md, lines 237-241)."
+      },
+      {
+        "id": "20",
+        "name": "j-says-barnaby-quist-elspeth",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says Barnaby Quist and Elspeth Morrow are not counted because they never replied.",
+        "reasoning": "The dossier says Barnaby Quist and Elspeth Morrow never appeared in the RSVP responses and cites the rule that an unreplied guest is not counted (workspace/hartley_osei_allergen_dossier.md, lines 273-276)."
+      },
+      {
+        "id": "21",
+        "name": "j-gives-fish-order-24",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives the fish order as 24 portions.",
+        "reasoning": "The delivered chart gives MF 22 and MFA 1, totaling 23 fish portions, not 24 (workspace/hartley_osei_final_numbers.html, lines 111-116)."
+      },
+      {
+        "id": "22",
+        "name": "j-gives-sealed-meal-order",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives the sealed meal order as 2 meals.",
+        "reasoning": "The final message explicitly says \u201cSEALED = 2 portions\u201d and explains the order is two meals (final_message.md, line 15)."
+      },
+      {
+        "id": "23",
+        "name": "j-gives-main-course-portions",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives the main course portions: MB 36, MBA 4, MF 22, MFA 1, MV 17, MVA 5, MVB 1.",
+        "reasoning": "The chart gives MB 37 rather than the required MB 36, although its other listed main-course figures match (workspace/hartley_osei_final_numbers.html, lines 105-125)."
+      },
+      {
+        "id": "24",
+        "name": "j-gives-saskia-brandt-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives Saskia Brandt's dishes as STA, MBA and DTA.",
+        "reasoning": "Saskia Brandt\u2019s delivered dossier entry gives STA, MBA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 156-162)."
+      },
+      {
+        "id": "25",
+        "name": "j-gives-tomas-rivera-s",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Gives Tomas Rivera's dishes as STA, MVA and DTA.",
+        "reasoning": "Tomas Rivera\u2019s dossier entry gives STA, MVA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 194-203)."
+      },
+      {
+        "id": "26",
+        "name": "j-says-claim-minimum-numbers",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says the claim that minimum numbers do not apply in December does not stand.",
+        "reasoning": "The final message only says generically that \u201call five fail\u201d; it does not explicitly identify and reject the claim that December minimum numbers do not apply (final_message.md, line 20)."
+      },
+      {
+        "id": "27",
+        "name": "j-says-estate-owner-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says the estate owner's instruction not to charge for the band's meals does not stand.",
+        "reasoning": "The final message does not explicitly state that the estate owner\u2019s instruction not to charge band meals fails; \u201call five fail\u201d does not identify this particular claim (final_message.md, line 20)."
+      },
+      {
+        "id": "28",
+        "name": "j-says-claim-service-charge",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016129032258064516,
+        "description": "[final answer] Says the claim that service charge goes on every line does not stand.",
+        "reasoning": "The final message describes the service-charge base but never explicitly states that the claim that service charge applies to every line does not stand (final_message.md, lines 17 and 20)."
+      },
+      {
+        "id": "29",
+        "name": "n-states-balance-due-2700",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04838709677419355,
+        "description": "[final answer] States the balance due as 2700.20.",
+        "reasoning": "The final message explicitly states \u201cbalance \u00a32,700.20\u201d (final_message.md, line 5)."
+      },
+      {
+        "id": "30",
+        "name": "n-says-89-adults-eat",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04838709677419355,
+        "description": "[final answer] Says 89 adults eat the wedding breakfast.",
+        "reasoning": "The final message explicitly states \u201c89 adults eating\u201d (final_message.md, line 5)."
+      },
+      {
+        "id": "31",
+        "name": "n-gives-8-children",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04838709677419355,
+        "description": "[final answer] Gives 8 children.",
+        "reasoning": "The final message explicitly gives 8 children (final_message.md, line 5)."
+      },
+      {
+        "id": "32",
+        "name": "n-gives-38-evening-guests",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": -0.04838709677419355,
+        "description": "[final answer] Gives 38 evening guests.",
+        "reasoning": "The final message explicitly gives 38 evening guests (final_message.md, line 5)."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-states-balance-due-2748\":{\"score\":\"no\",\"reasoning\":\"The final message states \u201cbalance \u00a32,700.20,\u201d not 2748.60 (final_message.md, line 5).\"},\"j-states-88-adults-eat\":{\"score\":\"no\",\"reasoning\":\"The final message states \u201c89 adults eating / 90 charged,\u201d not 88 adults eating (final_message.md, line 5).\"},\"j-gives-9-children-1\":{\"score\":\"no\",\"reasoning\":\"The final message gives \u201c8 children, 2 infants,\u201d not 9 children and 1 infant (final_message.md, line 5).\"},\"j-gives-39-evening-guests\":{\"score\":\"no\",\"reasoning\":\"The final message gives 38 evening guests, not 39 (final_message.md, line 5).\"},\"j-gives-service-charge-735\":{\"score\":\"no\",\"reasoning\":\"The delivered reconciliation gives the service charge as 731.20, not 735.60 (workspace/hartley_osei_reconciliation.csv, line 105).\"},\"j-gives-beef-order-42\":{\"score\":\"no\",\"reasoning\":\"The delivered chart gives MB 37 and MBA 4, totaling 41 beef portions, and never gives a 42-portion beef order (workspace/hartley_osei_final_numbers.html, lines 105-110).\"},\"j-says-sales-note-couple\":{\"score\":\"yes\",\"reasoning\":\"The dossier says the internal sales note on the clients\u2019 Fernhill messenger conversation moved the four band members from wedding breakfast to crew meals (workspace/hartley_osei_allergen_dossier.md, lines 255-259).\"},\"j-says-saskia-brandt-s\":{\"score\":\"yes\",\"reasoning\":\"The dossier explicitly says Saskia\u2019s own WhatsApp message corrected sesame to gluten (workspace/hartley_osei_allergen_dossier.md, lines 156-167 and 261-265).\"},\"j-says-graham-ostler-withdrew\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Graham Ostler left a withdrawal voicemail on the events desk phone and reduced the adult count from 93 to 92 (workspace/hartley_osei_allergen_dossier.md, lines 243-247).\"},\"j-says-tomas-rivera-added\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Tomas was added as a vegan wedding-breakfast guest through the sales-team note on the clients\u2019 CRM contact (workspace/hartley_osei_allergen_dossier.md, lines 194-203 and 249-253).\"},\"j-says-mei-lin-harcourt\":{\"score\":\"yes\",\"reasoning\":\"The dossier assigns sealed meals to Mei Lin Harcourt and Joseph Abara because the sole Level 3 lead, Rhodri Pask, declined the shift (workspace/hartley_osei_allergen_dossier.md, lines 170-179 and 205-214).\"},\"j-says-akosua-lister-counted\":{\"score\":\"no\",\"reasoning\":\"No delivered file says Akosua Lister is counted as a child; the files instead list Akosua Dunstan as an adult (workspace/hartley_osei_reconciliation.csv, line 9).\"},\"j-says-yasmin-selwyn-evening\":{\"score\":\"no\",\"reasoning\":\"The delivered reconciliation lists Yasmin Selwyn as an adult wedding-breakfast guest with three courses, not as an evening guest (workspace/hartley_osei_reconciliation.csv, line 42).\"},\"j-gives-crew-meals-line\":{\"score\":\"yes\",\"reasoning\":\"The reconciliation explicitly gives \u201cCrew meal,6,18.00,108.00\u201d (workspace/hartley_osei_reconciliation.csv, line 102).\"},\"j-gives-certified-sealed-meals\":{\"score\":\"yes\",\"reasoning\":\"The final message states \u201c2 \u00d7 \u00a324.50 = \u00a349.00 at cost,\u201d also reflected in the reconciliation (final_message.md, line 15; workspace/hartley_osei_reconciliation.csv, line 104).\"},\"j-takes-off-deposit-2500\":{\"score\":\"yes\",\"reasoning\":\"The reconciliation deducts both the 2500.00 deposit and 3000.00 second instalment (workspace/hartley_osei_reconciliation.csv, lines 106-107).\"},\"j-says-2026-schedule-charges\":{\"score\":\"yes\",\"reasoning\":\"The dossier identifies the 2026 version 2 schedule as an authority, while the final message calls the 2025 schedule superseded (workspace/hartley_osei_allergen_dossier.md, line 5; final_message.md, line 24).\"},\"j-says-ines-calloway-shift\":{\"score\":\"no\",\"reasoning\":\"Neither the final message nor delivered files mention Ines Calloway or state that she is Level 2 and cannot substitute as allergen lead.\"},\"j-says-fergus-lyle-counted\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Fergus Lyle\u2019s later RSVP answered No and reduced the count (workspace/hartley_osei_allergen_dossier.md, lines 237-241).\"},\"j-says-barnaby-quist-elspeth\":{\"score\":\"yes\",\"reasoning\":\"The dossier says Barnaby Quist and Elspeth Morrow never appeared in the RSVP responses and cites the rule that an unreplied guest is not counted (workspace/hartley_osei_allergen_dossier.md, lines 273-276).\"},\"j-gives-fish-order-24\":{\"score\":\"no\",\"reasoning\":\"The delivered chart gives MF 22 and MFA 1, totaling 23 fish portions, not 24 (workspace/hartley_osei_final_numbers.html, lines 111-116).\"},\"j-gives-sealed-meal-order\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly says \u201cSEALED = 2 portions\u201d and explains the order is two meals (final_message.md, line 15).\"},\"j-gives-main-course-portions\":{\"score\":\"no\",\"reasoning\":\"The chart gives MB 37 rather than the required MB 36, although its other listed main-course figures match (workspace/hartley_osei_final_numbers.html, lines 105-125).\"},\"j-gives-saskia-brandt-s\":{\"score\":\"yes\",\"reasoning\":\"Saskia Brandt\u2019s delivered dossier entry gives STA, MBA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 156-162).\"},\"j-gives-tomas-rivera-s\":{\"score\":\"yes\",\"reasoning\":\"Tomas Rivera\u2019s dossier entry gives STA, MVA and DTA (workspace/hartley_osei_allergen_dossier.md, lines 194-203).\"},\"j-says-claim-minimum-numbers\":{\"score\":\"no\",\"reasoning\":\"The final message only says generically that \u201call five fail\u201d; it does not explicitly identify and reject the claim that December minimum numbers do not apply (final_message.md, line 20).\"},\"j-says-estate-owner-s\":{\"score\":\"no\",\"reasoning\":\"The final message does not explicitly state that the estate owner\u2019s instruction not to charge band meals fails; \u201call five fail\u201d does not identify this particular claim (final_message.md, line 20).\"},\"j-says-claim-service-charge\":{\"score\":\"no\",\"reasoning\":\"The final message describes the service-charge base but never explicitly states that the claim that service charge applies to every line does not stand (final_message.md, lines 17 and 20).\"},\"n-states-balance-due-2700\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201cbalance \u00a32,700.20\u201d (final_message.md, line 5).\"},\"n-says-89-adults-eat\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly states \u201c89 adults eating\u201d (final_message.md, line 5).\"},\"n-gives-8-children\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly gives 8 children (final_message.md, line 5).\"},\"n-gives-38-evening-guests\":{\"score\":\"yes\",\"reasoning\":\"The final message explicitly gives 38 evening guests (final_message.md, line 5).\"}}",
+    "usage": {
+      "input_tokens": 103180,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 64512,
+      "output_tokens": 3376,
+      "reasoning_output_tokens": 450,
+      "total_tokens": 106556,
+      "cost_usd": 0.2479968,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 103180,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 64512,
+          "output_tokens": 3376,
+          "reasoning_output_tokens": 450,
+          "total_tokens": 106556,
+          "cost_usd": 0.2479968
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.53e30ad1992948d7a0aa6278850fd067.jsonl"
+    ]
+  }
+}

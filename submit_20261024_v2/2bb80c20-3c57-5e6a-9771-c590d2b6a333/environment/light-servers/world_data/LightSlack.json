@@ -1,0 +1,520 @@
+{
+ "team": {
+  "domain": "brennockmuseum",
+  "id": "T27BMAG",
+  "name": "Brennock Museum"
+ },
+ "users": [
+  {
+   "id": "U27000",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tamsin.rook",
+   "presence": "away",
+   "profile": {
+    "email": "tamsin.rook@brennock-museums.example"
+   },
+   "real_name": "Tamsin Rook"
+  },
+  {
+   "id": "U27001",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "kit.laverick",
+   "presence": "away",
+   "profile": {
+    "email": "kit.laverick@brennock-museums.example"
+   },
+   "real_name": "Kit Laverick"
+  },
+  {
+   "id": "U27002",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "olwen.pryce",
+   "presence": "away",
+   "profile": {
+    "email": "olwen.pryce@brennock-museums.example"
+   },
+   "real_name": "Olwen Pryce"
+  },
+  {
+   "id": "U27003",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "isaac.venn",
+   "presence": "away",
+   "profile": {
+    "email": "isaac.venn@brennock-museums.example"
+   },
+   "real_name": "Isaac Venn"
+  },
+  {
+   "id": "U27004",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "hollis.brandt",
+   "presence": "away",
+   "profile": {
+    "email": "hollis.brandt@brennock-museums.example"
+   },
+   "real_name": "Hollis Brandt"
+  },
+  {
+   "id": "U27005",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "maud.ellery",
+   "presence": "away",
+   "profile": {
+    "email": "maud.ellery@brennock-museums.example"
+   },
+   "real_name": "Maud Ellery"
+  },
+  {
+   "id": "U27006",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "saoirse.dunmore",
+   "presence": "away",
+   "profile": {
+    "email": "saoirse.dunmore@brennock-museums.example"
+   },
+   "real_name": "Saoirse Dunmore"
+  },
+  {
+   "id": "U27007",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ned.aske",
+   "presence": "away",
+   "profile": {
+    "email": "ned.aske@brennock-museums.example"
+   },
+   "real_name": "Ned Aske"
+  },
+  {
+   "id": "U27008",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "priya.calloway",
+   "presence": "away",
+   "profile": {
+    "email": "priya.calloway@brennock-museums.example"
+   },
+   "real_name": "Priya Calloway"
+  },
+  {
+   "id": "U27009",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "gil.harker",
+   "presence": "away",
+   "profile": {
+    "email": "gil.harker@brennock-museums.example"
+   },
+   "real_name": "Gil Harker"
+  },
+  {
+   "id": "U27010",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "celia.woodhouse",
+   "presence": "away",
+   "profile": {
+    "email": "celia.woodhouse@brennock-museums.example"
+   },
+   "real_name": "Celia Woodhouse"
+  },
+  {
+   "id": "U27011",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "bryony.stell",
+   "presence": "away",
+   "profile": {
+    "email": "bryony.stell@brennock-museums.example"
+   },
+   "real_name": "Bryony Stell"
+  },
+  {
+   "id": "U27012",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "rafe.oduya",
+   "presence": "away",
+   "profile": {
+    "email": "rafe.oduya@brennock-museums.example"
+   },
+   "real_name": "Rafe Oduya"
+  },
+  {
+   "id": "U27013",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "lark.simmonds",
+   "presence": "away",
+   "profile": {
+    "email": "lark.simmonds@brennock-museums.example"
+   },
+   "real_name": "Lark Simmonds"
+  },
+  {
+   "id": "U27014",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "dev.malhotra",
+   "presence": "away",
+   "profile": {
+    "email": "dev.malhotra@brennock-museums.example"
+   },
+   "real_name": "Dev Malhotra"
+  },
+  {
+   "id": "U27015",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ines.carvalho",
+   "presence": "away",
+   "profile": {
+    "email": "ines.carvalho@brennock-museums.example"
+   },
+   "real_name": "Ines Carvalho"
+  },
+  {
+   "id": "U27016",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "joss.penrith",
+   "presence": "away",
+   "profile": {
+    "email": "joss.penrith@brennock-museums.example"
+   },
+   "real_name": "Joss Penrith"
+  },
+  {
+   "id": "U27017",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "mirren.achebe",
+   "presence": "away",
+   "profile": {
+    "email": "mirren.achebe@brennock-museums.example"
+   },
+   "real_name": "Mirren Achebe"
+  },
+  {
+   "id": "U27018",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "wyn.halloran",
+   "presence": "away",
+   "profile": {
+    "email": "wyn.halloran@brennock-museums.example"
+   },
+   "real_name": "Wyn Halloran"
+  },
+  {
+   "id": "U27019",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "fenella.brook",
+   "presence": "away",
+   "profile": {
+    "email": "fenella.brook@brennock-museums.example"
+   },
+   "real_name": "Fenella Brook"
+  },
+  {
+   "id": "U27020",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "tobias.grieve",
+   "presence": "away",
+   "profile": {
+    "email": "tobias.grieve@brennock-museums.example"
+   },
+   "real_name": "Tobias Grieve"
+  },
+  {
+   "id": "U27021",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "annika.sorensen",
+   "presence": "away",
+   "profile": {
+    "email": "annika.sorensen@brennock-museums.example"
+   },
+   "real_name": "Annika Sorensen"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1761900000,
+   "creator": "U27000",
+   "id": "C27LOANS",
+   "is_archived": false,
+   "is_private": false,
+   "name": "tidelines-loans",
+   "num_members": 9,
+   "purpose": "Inbound loans for Tidelines",
+   "topic": "Tidelines loans"
+  },
+  {
+   "created": 1756900000,
+   "creator": "U27016",
+   "id": "C27BUILD",
+   "is_archived": false,
+   "is_private": false,
+   "name": "building",
+   "num_members": 12,
+   "purpose": "Building and facilities",
+   "topic": "Building"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27000"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27001"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27002"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27003"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27009"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27006"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27011"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27007"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27005"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "user_id": "U27008"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27000"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27001"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27002"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27003"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27004"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27005"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27006"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27007"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27008"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27009"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27010"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "user_id": "U27011"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Put all four Dutch dealer pictures on one van. Splitting the Amsterdam consignment doubles the courier cost for nothing.",
+   "thread_ts": null,
+   "ts": "1795424400.000000",
+   "user_id": "U27009"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Use Bryony's market rates for the euro and krona values, they're the latest we have.",
+   "thread_ts": null,
+   "ts": "1795429800.000000",
+   "user_id": "U27002"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Aldred are a museum, so their two go under the indemnity like the other museums.",
+   "thread_ts": null,
+   "ts": "1795435200.000000",
+   "user_id": "U27001"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Couriers by seniority this time, surely. Hollis should take the big Swedish loan.",
+   "thread_ts": null,
+   "ts": "1795440600.000000",
+   "user_id": "U27006"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Keel & Lantern's premium is 0.18% flat, same as last year.",
+   "thread_ts": null,
+   "ts": "1795446000.000000",
+   "user_id": "U27011"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I'm off 22-26 February, I've put in for it, so leave me off those trips.",
+   "thread_ts": null,
+   "ts": "1795451400.000000",
+   "user_id": "U27007"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Garside's agreement is as good as signed, count their two pictures in.",
+   "thread_ts": null,
+   "ts": "1795456800.000000",
+   "user_id": "U27005"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The Carrow & Webb values are as in their agreement, nothing's changed there.",
+   "thread_ts": null,
+   "ts": "1795462200.000000",
+   "user_id": "U27008"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The 2027 rate schedule is out, use that for the premium, it's cheaper.",
+   "thread_ts": null,
+   "ts": "1795467600.000000",
+   "user_id": "U27009"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't post figures in here; I'll take them from the note.",
+   "thread_ts": null,
+   "ts": "1795473000.000000",
+   "user_id": "U27000"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "All the condition checks are done now.",
+   "thread_ts": null,
+   "ts": "1795478400.000000",
+   "user_id": "U27003"
+  },
+  {
+   "channel_id": "C27LOANS",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The Strandhuis van comes on the 12th as booked.",
+   "thread_ts": null,
+   "ts": "1795483800.000000",
+   "user_id": "U27002"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Goods lift service on 2 December, 07:00-09:00.",
+   "thread_ts": null,
+   "ts": "1795338000.000000",
+   "user_id": "U27016"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The gallery 4 blinds are fixed.",
+   "thread_ts": null,
+   "ts": "1795251600.000000",
+   "user_id": "U27016"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Fire alarm test Thursday 10:00 as usual.",
+   "thread_ts": null,
+   "ts": "1795165200.000000",
+   "user_id": "U27016"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Yard gritting from tonight.",
+   "thread_ts": null,
+   "ts": "1795078800.000000",
+   "user_id": "U27016"
+  },
+  {
+   "channel_id": "C27BUILD",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Lantern night set-up starts 15:00 on 10 December.",
+   "thread_ts": null,
+   "ts": "1794992400.000000",
+   "user_id": "U27016"
+  }
+ ]
+}

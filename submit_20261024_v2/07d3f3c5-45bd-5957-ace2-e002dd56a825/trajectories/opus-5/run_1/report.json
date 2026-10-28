@@ -1,0 +1,1321 @@
+{
+  "model": "opus-5",
+  "model_full": "claude-opus-5",
+  "run_index": 1,
+  "job": "07d3f3c5-45bd-5957-ace2-e002dd56a825",
+  "trial": "jGXWNoM",
+  "started_at": "2026-10-25T01:48:38.740267Z",
+  "finished_at": "2026-10-25T02:19:09.683721Z",
+  "scale": "0-1",
+  "pytest": {
+    "score": 0.8182,
+    "passed": 55,
+    "failed": 19,
+    "exit_code": 1,
+    "guard_polarity": "pass_charges",
+    "gate": null,
+    "missed": [
+      "test_web_chat_read",
+      "test_register_headings",
+      "test_register_values",
+      "test_loss_time_decides",
+      "test_web_chat_duplicate_merged",
+      "test_lapse_and_reinstatement",
+      "test_gust_threshold",
+      "test_merged_once",
+      "test_final_answer_states_bridge",
+      "test_final_answer_states_corrections"
+    ],
+    "guards_tripped": [],
+    "errors": [],
+    "tests": [
+      {
+        "name": "test_every_ledger_page_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_second_edition_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_corrigendum_opened",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_procedure_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_clock_note_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_desk_basis_note_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_scope_memo_opened",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_station_plan_and_gusts_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_territories_opened",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_valuations_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_recoveries_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_scans_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tally_opened",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_mailbox_rules_read",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_event_period_revision_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ticket_internal_notes_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_web_chat_read",
+        "weight": 1,
+        "passed": false,
+        "tripped": null,
+        "reason": "the policyholders' web chat messages were never opened",
+        "error": null
+      },
+      {
+        "name": "test_every_policy_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_every_open_slot_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_text_history_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_audience_members_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tickets_read",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_register_headings",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "12 lines with the wrong heading: ['C-26-311', 'C-26-319', 'C-26-320', 'C-26-323', 'C-26-330', 'C-26-336']",
+        "error": null
+      },
+      {
+        "name": "test_register_values",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "12 lines with the wrong heading or net reserve: ['C-26-311', 'C-26-319', 'C-26-320', 'C-26-323', 'C-26-330', 'C-26-336']",
+        "error": null
+      },
+      {
+        "name": "test_loss_time_decides",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the recorded loss time (with corrections) did not decide the event",
+        "error": null
+      },
+      {
+        "name": "test_event_time_order",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_review_decision",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_event_period_revision_applied",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_adjuster_revision_applied",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_web_chat_duplicate_merged",
+        "weight": 5,
+        "passed": false,
+        "tripped": null,
+        "reason": "the duplicate the policyholder confirmed in the web chat was not merged into the earlier claim",
+        "error": null
+      },
+      {
+        "name": "test_reserve_authority",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ra_register_dates",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_lapse_and_reinstatement",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the lapse list or the reinstatement was misapplied",
+        "error": null
+      },
+      {
+        "name": "test_gust_threshold",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the storm gust threshold at the assigned station was misapplied",
+        "error": null
+      },
+      {
+        "name": "test_binder_excluded",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_merged_once",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the merged loss was not counted exactly once",
+        "error": null
+      },
+      {
+        "name": "test_vat_basis",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_average",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_valuation_date",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_wear_and_tear",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_tally_claim",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_excess",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_corrigendum_not_applied",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_recoveries",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_return",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_bridge",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not carry the bridge from claimant estimates",
+        "error": null
+      },
+      {
+        "name": "test_final_answer_states_corrections",
+        "weight": 3,
+        "passed": false,
+        "tripped": null,
+        "reason": "the final answer does not say how many register lines were corrected",
+        "error": null
+      },
+      {
+        "name": "test_slot_holds",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_desk_limit",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_vulnerable_first",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_structural_triage",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_leave_respected",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_notices",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_sms_consent",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_authority_redirect",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ticket_tags",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_ticket_status",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_audience",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_hold_before_notice",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_guard_touched_correct_lines",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "no line that was already right was written to",
+        "error": null
+      },
+      {
+        "name": "test_guard_other_writes",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing outside the register lines, held slots, inspected tickets, notices and the audience was changed",
+        "error": null
+      },
+      {
+        "name": "test_guard_texted_without_consent",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nobody was texted without consent or from the wrong line",
+        "error": null
+      },
+      {
+        "name": "test_guard_resubscribed",
+        "weight": -5,
+        "passed": false,
+        "tripped": false,
+        "reason": "nobody who unsubscribed was put back on the audience",
+        "error": null
+      },
+      {
+        "name": "test_guard_invalid_slot",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no slot was double-held, overwritten, booked for a claim with no inspection, outside the window or on leave",
+        "error": null
+      },
+      {
+        "name": "test_guard_duplicate_notice",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "nobody got two notices",
+        "error": null
+      },
+      {
+        "name": "test_guard_deleted_records",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "nothing was deleted",
+        "error": null
+      },
+      {
+        "name": "test_guard_claims_without_work",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no claim of a return or inspections that were not made",
+        "error": null
+      },
+      {
+        "name": "test_guard_wrong_total_stated",
+        "weight": -3,
+        "passed": false,
+        "tripped": false,
+        "reason": "no misread return figure was stated as the result",
+        "error": null
+      },
+      {
+        "name": "test_page_headline_in_full",
+        "weight": 5,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_bridge_anchors",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_split_figures",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_table_rows_and_sorting",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_self_contained",
+        "weight": 3,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      },
+      {
+        "name": "test_page_read_back_after_writing",
+        "weight": 1,
+        "passed": true,
+        "tripped": null,
+        "reason": null,
+        "error": null
+      }
+    ]
+  },
+  "rubric": [
+    {
+      "id": "1",
+      "name": "j-report-gives-storm-imogen",
+      "criterion": "[final answer] The report gives the Storm Imogen net incurred reserve as £340,312.26.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The delivered HTML states “£340,312.26” under “Storm Imogen — event reserve return” (workspace/storm_imogen_event_return.html, lines 56–58).",
+      "error": null
+    },
+    {
+      "id": "2",
+      "name": "j-report-splits-reserve-damage",
+      "criterion": "[final answer] The report splits the reserve by damage group: roof £94,120.50, structural £87,342.00, other £158,849.76.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The report explicitly lists Roof £94,120.50, Structural £87,342.00, and Other £158,849.76 (workspace/storm_imogen_event_return.html, lines 65–67).",
+      "error": null
+    },
+    {
+      "id": "3",
+      "name": "j-report-says-am-cat",
+      "criterion": "[final answer] The report says AM-CAT-03 second edition was applied.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The report says “Standard applied AM-CAT-03, second edition” (workspace/storm_imogen_event_return.html, line 60).",
+      "error": null
+    },
+    {
+      "id": "4",
+      "name": "j-report-starts-bridge-902",
+      "criterion": "[final answer] The report starts the bridge at £902,691.00 of claimant estimates.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge opens with “Claimant estimates on the ledger: 902,691.00” (workspace/storm_imogen_event_return.html, lines 88–89).",
+      "error": null
+    },
+    {
+      "id": "5",
+      "name": "j-report-s-bridge-takes",
+      "criterion": "[final answer] The report's bridge takes off £2,650.00 as below the excess.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge explicitly shows “Below the excess: -2,650.00” (workspace/storm_imogen_event_return.html, lines 118–119).",
+      "error": null
+    },
+    {
+      "id": "6",
+      "name": "j-report-s-bridge-takes-2",
+      "criterion": "[final answer] The report's bridge takes off £217,357.00 as declined.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report shows Declined as only £28,079.00, not £217,357.00 (workspace/storm_imogen_event_return.html, excluded-classes table).",
+      "error": null
+    },
+    {
+      "id": "7",
+      "name": "j-report-s-bridge-takes-3",
+      "criterion": "[final answer] The report's bridge takes off £33,110.00 as merged into another claim.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The bridge shows “Merged into another claim: -16,370.00,” not £33,110.00 (workspace/storm_imogen_event_return.html, bridge).",
+      "error": null
+    },
+    {
+      "id": "8",
+      "name": "j-report-s-bridge-takes-4",
+      "criterion": "[final answer] The report's bridge takes off £49,785.00 as not covered.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report shows Not covered as £255,803.00, not £49,785.00 (workspace/storm_imogen_event_return.html, excluded-classes table).",
+      "error": null
+    },
+    {
+      "id": "9",
+      "name": "j-report-s-bridge-takes-5",
+      "criterion": "[final answer] The report's bridge takes off £11,650.00 as not this book's event.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge explicitly shows “Not this book's event: -11,650.00” (workspace/storm_imogen_event_return.html, lines 107–108).",
+      "error": null
+    },
+    {
+      "id": "10",
+      "name": "j-report-s-bridge-takes-6",
+      "criterion": "[final answer] The report's bridge takes off £86,641.00 as outside the event window.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge explicitly shows “Outside the event window: -86,641.00” (workspace/storm_imogen_event_return.html, lines 93–94).",
+      "error": null
+    },
+    {
+      "id": "11",
+      "name": "j-report-s-bridge-takes-7",
+      "criterion": "[final answer] The report's bridge takes off £60,650.00 as reserve not authorised.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge explicitly shows “Reserve not authorised: -60,650.00” (workspace/storm_imogen_event_return.html, lines 114–115).",
+      "error": null
+    },
+    {
+      "id": "12",
+      "name": "j-report-s-bridge-takes-8",
+      "criterion": "[final answer] The report's bridge takes off £16,254.00 as withdrawn.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The bridge explicitly shows “Withdrawn: -16,254.00” (workspace/storm_imogen_event_return.html, lines 100–101).",
+      "error": null
+    },
+    {
+      "id": "13",
+      "name": "j-report-names-claims-excluded",
+      "criterion": "[final answer] The report names the claims excluded as below the excess: C-26-309, C-26-335, C-26-348.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The Below the excess row names C-26-309, C-26-335, and C-26-348 (workspace/storm_imogen_event_return.html, line 147).",
+      "error": null
+    },
+    {
+      "id": "14",
+      "name": "j-report-names-claims-excluded-2",
+      "criterion": "[final answer] The report names the claims excluded as declined: C-26-304, C-26-311, C-26-319, C-26-320, C-26-322, C-26-323, C-26-325, C-26-330, C-26-336, C-26-339, C-26-342, C-26-344, C-26-349, C-26-351.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The Declined row names only C-26-304, C-26-322, and C-26-325, not the required 14-claim list (workspace/storm_imogen_event_return.html, excluded-classes table).",
+      "error": null
+    },
+    {
+      "id": "15",
+      "name": "j-report-names-claims-excluded-3",
+      "criterion": "[final answer] The report names the claims excluded as merged into another claim: C-26-337, C-26-341.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The Merged row names only C-26-337; C-26-341 is instead classified Not covered (workspace/storm_imogen_event_return.html, excluded-classes table; final_message.md assumption 2).",
+      "error": null
+    },
+    {
+      "id": "16",
+      "name": "j-report-names-claims-excluded-4",
+      "criterion": "[final answer] The report names the claims excluded as not covered: C-26-338, C-26-350, C-26-353.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Although C-26-338, C-26-350, and C-26-353 appear, the Not covered row also contains 12 additional claims, so it does not name the stipulated class membership (workspace/storm_imogen_event_return.html, line 145).",
+      "error": null
+    },
+    {
+      "id": "17",
+      "name": "j-report-names-claims-excluded-5",
+      "criterion": "[final answer] The report names the claims excluded as not this book's event: C-26-340.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The Not this book's event row names C-26-340 (workspace/storm_imogen_event_return.html, line 144).",
+      "error": null
+    },
+    {
+      "id": "18",
+      "name": "j-report-names-claims-excluded-6",
+      "criterion": "[final answer] The report names the claims excluded as outside the event window: C-26-303, C-26-308, C-26-316, C-26-332, C-26-347.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The Outside the event window row names C-26-303, C-26-308, C-26-316, C-26-332, and C-26-347 (workspace/storm_imogen_event_return.html, line 140).",
+      "error": null
+    },
+    {
+      "id": "19",
+      "name": "j-report-names-claims-excluded-7",
+      "criterion": "[final answer] The report names the claims excluded as reserve not authorised: C-26-306, C-26-331.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The Reserve not authorised row names C-26-306 and C-26-331 (workspace/storm_imogen_event_return.html, line 146).",
+      "error": null
+    },
+    {
+      "id": "20",
+      "name": "j-report-names-claims-excluded-8",
+      "criterion": "[final answer] The report names the claims excluded as withdrawn: C-26-314, C-26-345.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 1,
+      "charged": 0,
+      "justification": "The Withdrawn row names C-26-314 and C-26-345 (workspace/storm_imogen_event_return.html, line 142).",
+      "error": null
+    },
+    {
+      "id": "21",
+      "name": "j-report-s-bridge-reaches",
+      "criterion": "[final answer] The report's bridge reaches £424,594.00 of claimant estimates counted, corrected to £340,312.26 of assessed net reserve.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The table states £424,594.00 of claimant estimates on counted claims and £340,312.26 net incurred reserve (workspace/storm_imogen_event_return.html, lines 148–150).",
+      "error": null
+    },
+    {
+      "id": "22",
+      "name": "j-report-says-38-register",
+      "criterion": "[final answer] The report says 38 register rows were changed.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer says “37 register rows corrected,” not 38 (final_message.md, Final state).",
+      "error": null
+    },
+    {
+      "id": "23",
+      "name": "j-report-says-16-register",
+      "criterion": "[final answer] The report says 16 register rows were left as they were.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer says “17 left untouched,” not 16 (final_message.md, Final state).",
+      "error": null
+    },
+    {
+      "id": "24",
+      "name": "j-report-says-17-claims",
+      "criterion": "[final answer] The report says 17 claims were booked for inspection.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 3,
+      "charged": 0,
+      "justification": "The final answer explicitly says “17 claims booked” (final_message.md, Part two — inspections).",
+      "error": null
+    },
+    {
+      "id": "25",
+      "name": "j-report-says-chat-s",
+      "criterion": "[final answer] The report says the chat's £500 storm excess does not hold for Imogen, because corrigendum 1 commences on 1 November 2026.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report says Corrigendum 1 is effective 1 November and does not apply, but it does not explicitly identify or reject the chat's £500-excess assertion (workspace/storm_imogen_event_return.html, footer).",
+      "error": null
+    },
+    {
+      "id": "26",
+      "name": "j-report-says-chat-s-2",
+      "criterion": "[final answer] The report says the chat's claim that desk D figures want VAT adding does not hold, because desk D figures are already inclusive of VAT.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither final_message.md nor the delivered report explicitly discusses the chat's desk D VAT assertion or says desk D figures already include VAT.",
+      "error": null
+    },
+    {
+      "id": "27",
+      "name": "j-report-says-average-applies",
+      "criterion": "[final answer] The report says average applies only where the sum insured is below 85% of the rebuild cost, not on any shortfall as the chat says.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer discusses an 85% test for one valuation, but does not explicitly contrast the rule with the chat's claim or state that average applies only below 85% (final_message.md, final paragraph).",
+      "error": null
+    },
+    {
+      "id": "28",
+      "name": "j-report-says-c-26",
+      "criterion": "[final answer] The report says C-26-331 has no valid reserve authority because its signer had been removed from the reserve authority register on 30 September 2026, before signing it on 16 October 2026.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report classifies C-26-331 as Reserve not authorised but does not give the required removal date, signature date, and causal explanation (workspace/storm_imogen_event_return.html, C-26-331 row).",
+      "error": null
+    },
+    {
+      "id": "29",
+      "name": "j-report-says-customer-calling",
+      "criterion": "[final answer] The report says a customer calling it storm does not make it a storm: the gust at the assigned weather station decides.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered report does not explicitly say that a customer's storm description is insufficient and that the assigned-station gust decides.",
+      "error": null
+    },
+    {
+      "id": "30",
+      "name": "j-report-says-losses-13",
+      "criterion": "[final answer] The report says losses on 13 October are outside the event period.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report gives the revised event period, but does not explicitly state that losses on 13 October are outside it.",
+      "error": null
+    },
+    {
+      "id": "31",
+      "name": "j-report-says-head-claims",
+      "criterion": "[final answer] The report says the head of claims' ruling that C-26-340 goes in does not hold, because it is a binder claim that belongs on the binder's own bordereau.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "C-26-340 is classified Not this book's event, but the report does not explicitly explain that the head-of-claims ruling fails because it is a binder claim belonging on the binder's bordereau.",
+      "error": null
+    },
+    {
+      "id": "32",
+      "name": "j-report-lists-reserving-crib",
+      "criterion": "[final answer] The report lists the reserving crib sheet among the documents that settled nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered report contains no list of documents that settled nothing and does not identify the reserving crib sheet in that way.",
+      "error": null
+    },
+    {
+      "id": "33",
+      "name": "j-report-identifies-previous-storm",
+      "criterion": "[final answer] The report identifies the previous Storm Henk printed return among the documents that settled nothing. Identifying it as the printed return or the published return is sufficient.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The delivered report does not identify a printed or published Storm Henk return among documents that settled nothing.",
+      "error": null
+    },
+    {
+      "id": "34",
+      "name": "j-report-lists-superseded-first",
+      "criterion": "[final answer] The report lists the superseded first edition of AM-CAT-03 among the documents that settled nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report identifies the second edition but does not list the superseded first edition among documents that settled nothing.",
+      "error": null
+    },
+    {
+      "id": "35",
+      "name": "j-report-lists-harlow-building",
+      "criterion": "[final answer] The report lists the Harlow Building Society binder ledger page among the documents that settled nothing.",
+      "weight": 1,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer mentions sending nothing to Harlow BS, but it does not list the Harlow Building Society binder ledger page among documents that settled nothing (final_message.md, Held back).",
+      "error": null
+    },
+    {
+      "id": "36",
+      "name": "j-report-says-catastrophe-team",
+      "criterion": "[final answer] The report says the catastrophe team's later reply of 19 October revised the event period to 2026-10-14 18:00 to 2026-10-17 21:00.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": true,
+      "earned": 5,
+      "charged": 0,
+      "justification": "The report gives the event period as 14 October 18:00 to 17 October 21:00, and claim rows attribute it to the “cat team revision of 19 Oct” (workspace/storm_imogen_event_return.html, metadata and C-26-316 row).",
+      "error": null
+    },
+    {
+      "id": "37",
+      "name": "j-report-says-c-26-2",
+      "criterion": "[final answer] The report says C-26-301, with its loss on 17 October at 19:40, belongs to the event under the revised period.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "C-26-301 is marked Counted in the event, but the report does not explicitly state its 17 October 19:40 loss time or explain that this places it inside the revised period (workspace/storm_imogen_event_return.html, C-26-301 row).",
+      "error": null
+    },
+    {
+      "id": "38",
+      "name": "j-report-says-adjuster-s",
+      "criterion": "[final answer] The report says the adjuster's internal note on C-26-310's ticket revised its buildings repair estimate to £13,600 ex VAT, replacing the ledger figure.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report gives C-26-310 a reserve but does not state that an adjuster's internal ticket note revised the buildings estimate to £13,600 ex VAT in place of £9,200.",
+      "error": null
+    },
+    {
+      "id": "39",
+      "name": "j-report-says-policyholder-confirmed",
+      "criterion": "[final answer] The report says the policyholder confirmed in the web chat that C-26-311 and C-26-341 are the same loss, so C-26-341 is merged into C-26-311.",
+      "weight": 5,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The final answer expressly says it found no written policyholder confirmation and classifies C-26-341 as Not covered rather than merged (final_message.md, assumption 2).",
+      "error": null
+    },
+    {
+      "id": "40",
+      "name": "j-report-gives-inspection-booking",
+      "criterion": "[final answer] The report gives the inspection booking order: C-26-315, C-26-334, C-26-317, C-26-318, C-26-302, C-26-354, C-26-333, C-26-328, C-26-327, C-26-313, C-26-312, C-26-301, C-26-329, C-26-310, C-26-324, C-26-352, C-26-321.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report includes booking details per claim, but does not present the stipulated inspection-priority order; its event-register rows are ordered numerically by claim.",
+      "error": null
+    },
+    {
+      "id": "42",
+      "name": "n-report-states-return-figure",
+      "criterion": "[final answer] The report states a return figure other than £340,312.26 as the result.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The stated result is consistently £340,312.26 in final_message.md and the delivered HTML; no different figure is presented as the result.",
+      "error": null
+    },
+    {
+      "id": "43",
+      "name": "n-report-says-c-26",
+      "criterion": "[final answer] The report says C-26-340 belongs in the Imogen figure, or that the head of claims' ruling on it holds.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report excludes C-26-340 as “Not this book's event” and does not say the head-of-claims ruling holds (workspace/storm_imogen_event_return.html, line 144).",
+      "error": null
+    },
+    {
+      "id": "44",
+      "name": "n-report-says-corrigendum-1",
+      "criterion": "[final answer] The report says corrigendum 1's £500 storm excess applies to the Imogen claims.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The footer explicitly says Corrigendum 1 “does not apply to any Storm Imogen loss” (workspace/storm_imogen_event_return.html, lines 251–252).",
+      "error": null
+    },
+    {
+      "id": "45",
+      "name": "n-report-gives-published-storm",
+      "criterion": "[final answer] The report gives the published Storm Henk return figure as a figure for Imogen.",
+      "weight": -1,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "No Storm Henk published-return figure is given as the Imogen result; the report consistently uses £340,312.26.",
+      "error": null
+    },
+    {
+      "id": "46",
+      "name": "n-report-says-c-26-2",
+      "criterion": "[final answer] The report says C-26-301 is outside the event period.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "C-26-301 is explicitly marked “Counted in the event,” not outside the event period (workspace/storm_imogen_event_return.html, line 192).",
+      "error": null
+    },
+    {
+      "id": "47",
+      "name": "n-report-counts-c-26",
+      "criterion": "[final answer] The report counts C-26-341 as a separate claim in the return.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "C-26-341 is excluded as Not covered with a £0.00 reserve, not counted separately in the return (workspace/storm_imogen_event_return.html, line 232).",
+      "error": null
+    },
+    {
+      "id": "48",
+      "name": "n-report-gives-c-26",
+      "criterion": "[final answer] The report gives C-26-310's buildings repair estimate as the ledger's £9,200.",
+      "weight": -3,
+      "is_positive": false,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report does not give £9,200 as C-26-310's buildings estimate; its row shows an assessed reserve of £15,420.00 (workspace/storm_imogen_event_return.html, line 201).",
+      "error": null
+    },
+    {
+      "id": "49",
+      "name": "j-explains-substantive-source-decision",
+      "criterion": "[final answer] Explains the substantive source decision: Cleared receipt RC-IM-701 is a 70.00 pound recovery received on 18 October. Its payment reference joins to C-26-327, reducing that reserve and changing its ranking against C-26-328. The pending 20 October receipt is excluded. Equivalent wording and source identification are sufficient.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "Neither the final message nor delivered report explains cleared receipt RC-IM-701, its £70 recovery for C-26-327, the ranking change against C-26-328, and exclusion of the pending 20 October receipt.",
+      "error": null
+    },
+    {
+      "id": "50",
+      "name": "j-explains-substantive-source-decision-2",
+      "criterion": "[final answer] Explains the substantive source decision: Approved weather return AW-1026 replaces the WS-Cragmouth maxima on 14–16 October with 42, 46 and 43 knots respectively. Each is below the unchanged event threshold; the 17 October reading remains unchanged. Claims mapped to those station/date pairs are declined before calculating reserves or booking inspections; other stations retain their own readings. Equivalent wording and source identification are sufficient.",
+      "weight": 3,
+      "is_positive": true,
+      "evaluation_target": "final_answer",
+      "satisfied": false,
+      "earned": 0,
+      "charged": 0,
+      "justification": "The report identifies AW-1026 and the replacement 42/46/43-knot readings, and says they remove 11 claims (HTML footer; final_message.md, “one thing to brief”), but it does not explicitly state all required consequences: the unchanged 17 October reading, pre-reserve/pre-booking rejection, and retention of other stations' own readings.",
+      "error": null
+    }
+  ],
+  "rubric_score": 0.4216,
+  "judge": {
+    "ran": true,
+    "transport": "codex",
+    "model": "gpt-5.6-sol",
+    "reason": null,
+    "criteria": 49,
+    "configured": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "usage": {
+      "input_tokens": 100208,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 67712,
+      "output_tokens": 4573,
+      "reasoning_output_tokens": 153,
+      "total_tokens": 104781,
+      "cost_usd": 0.2485288,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 100208,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 67712,
+          "output_tokens": 4573,
+          "reasoning_output_tokens": 153,
+          "total_tokens": 104781,
+          "cost_usd": 0.2485288
+        }
+      }
+    },
+    "rewardkit": "0.2.3",
+    "codex": "codex-cli 0.154.0"
+  },
+  "final_reward": 0.6199,
+  "channels": {
+    "pytest": 0.8182,
+    "rubric": 0.4216
+  },
+  "weights": {
+    "pytest": 0.5,
+    "rubric": 0.5
+  },
+  "state_capture_failed": null,
+  "errored": false
+}

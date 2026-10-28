@@ -1,0 +1,341 @@
+{
+ "boards": [
+  {
+   "id": "6a1e0000000000000000b001",
+   "name": "Christmas at Quayside 2026",
+   "desc": "Social club planning for December.",
+   "closed": false,
+   "id_organization": "6a1e0000000000000000f001",
+   "url": "https://trello.com/b/efpxmas26/christmas-at-quayside-2026",
+   "member_ids": [
+    "6a1e0000000000000000a001",
+    "6a1e0000000000000000a002",
+    "6a1e0000000000000000a003",
+    "6a1e0000000000000000a004"
+   ],
+   "prefs": {
+    "permissionLevel": "private"
+   }
+  }
+ ],
+ "lists": [
+  {
+   "id": "6a1e0000000000000000c001",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "Ideas",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6a1e0000000000000000c002",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "To do",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6a1e0000000000000000c003",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "Doing",
+   "closed": false,
+   "pos": 3
+  },
+  {
+   "id": "6a1e0000000000000000c004",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "Done",
+   "closed": false,
+   "pos": 4
+  }
+ ],
+ "members": [
+  {
+   "id": "6a1e0000000000000000a001",
+   "fullName": "Morwenna Hext",
+   "username": "morwennahext",
+   "email": "morwenna.hext@ellisford-produce.example"
+  },
+  {
+   "id": "6a1e0000000000000000a002",
+   "fullName": "Lowenna Treharne",
+   "username": "lowennatreharne",
+   "email": "lowenna.treharne@ellisford-produce.example"
+  },
+  {
+   "id": "6a1e0000000000000000a003",
+   "fullName": "Bettany Hoskin",
+   "username": "bettanyhoskin",
+   "email": "bettany.hoskin@ellisford-produce.example"
+  },
+  {
+   "id": "6a1e0000000000000000a004",
+   "fullName": "Caspar Vosper",
+   "username": "casparvosper",
+   "email": "caspar.vosper@ellisford-produce.example"
+  }
+ ],
+ "cards": [
+  {
+   "id": "6a1e0000000000000000d001",
+   "name": "Book the function room at The Chain Locker",
+   "desc": "Deposit paid on 20 November; the upstairs room holds 80.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 16384.0,
+   "due": "2026-11-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d002",
+   "name": "Christmas party menu choices",
+   "desc": "Choices closed on 4 December and the numbers went to the venue the same day.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 32768.0,
+   "due": "2026-12-04T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d003",
+   "name": "Taxis home from the party",
+   "desc": "Two runs, 23:30 and 00:30. Ask who needs a lift back to Penryn and Falmouth.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c002",
+   "pos": 49152.0,
+   "due": "2026-12-16T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a002"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d004",
+   "name": "Charity quiz: write the rounds",
+   "desc": "Eight rounds; music round played on the canteen speaker.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c003",
+   "pos": 65536.0,
+   "due": "2026-12-10T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a001"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d005",
+   "name": "Charity quiz: raffle prizes",
+   "desc": "A hamper from the bakery on Arwenack Street, a meal voucher and a fleece.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 81920.0,
+   "due": "2026-12-07T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a003"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d006",
+   "name": "Decorate the canteen",
+   "desc": "Tree went up on 1 December. No tinsel near the heaters.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 98304.0,
+   "due": "2026-12-01T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a003"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d007",
+   "name": "Secret Santa",
+   "desc": "Ten pound limit; names drawn on 23 November.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 114688.0,
+   "due": "2026-11-23T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a001"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d008",
+   "name": "Mince pies for the early shift",
+   "desc": "Ask the canteen whether they can do a batch on the 21st.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c001",
+   "pos": 131072.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d009",
+   "name": "Christmas jumper day for the lifeboat",
+   "desc": "Two pounds to join in; maybe the Friday before the party.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c001",
+   "pos": 147456.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d010",
+   "name": "Lights on the yard tree",
+   "desc": "Outdoor socket by the transport office checked first; lights on since 3 December.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c004",
+   "pos": 163840.0,
+   "due": "2026-12-03T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a004"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d011",
+   "name": "Thank-you cards for the cleaners and security",
+   "desc": "A card and a tin of biscuits each before the 18th.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c002",
+   "pos": 180224.0,
+   "due": "2026-12-17T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6a1e0000000000000000a001"
+   ],
+   "labels": [
+    "social"
+   ]
+  },
+  {
+   "id": "6a1e0000000000000000d012",
+   "name": "Quiz photos for the noticeboard",
+   "desc": "Ask before putting anyone's picture up.",
+   "id_board": "6a1e0000000000000000b001",
+   "id_list": "6a1e0000000000000000c001",
+   "pos": 196608.0,
+   "due": null,
+   "closed": false,
+   "member_ids": [],
+   "labels": [
+    "social"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_efp_01",
+   "id_card": "6a1e0000000000000000d002",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "Menu returns",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_efp_01",
+     "id_checklist": "cl_efp_01",
+     "name": "Office staff",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_efp_02",
+     "id_checklist": "cl_efp_01",
+     "name": "Goods-in",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_efp_03",
+     "id_checklist": "cl_efp_01",
+     "name": "Drivers",
+     "state": "complete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_efp_04",
+     "id_checklist": "cl_efp_01",
+     "name": "Northgate guests",
+     "state": "complete",
+     "pos": 4000
+    }
+   ]
+  },
+  {
+   "id": "cl_efp_02",
+   "id_card": "6a1e0000000000000000d004",
+   "id_board": "6a1e0000000000000000b001",
+   "name": "Rounds",
+   "pos": 2000,
+   "check_items": [
+    {
+     "id": "ci_efp_11",
+     "id_checklist": "cl_efp_02",
+     "name": "General knowledge",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_efp_12",
+     "id_checklist": "cl_efp_02",
+     "name": "Cornish history",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_efp_13",
+     "id_checklist": "cl_efp_02",
+     "name": "Music",
+     "state": "complete",
+     "pos": 3000
+    },
+    {
+     "id": "ci_efp_14",
+     "id_checklist": "cl_efp_02",
+     "name": "Picture round",
+     "state": "incomplete",
+     "pos": 4000
+    }
+   ]
+  }
+ ]
+}

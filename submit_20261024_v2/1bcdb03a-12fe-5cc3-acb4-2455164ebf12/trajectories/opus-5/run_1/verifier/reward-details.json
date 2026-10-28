@@ -1,0 +1,529 @@
+{
+  "pytest": {
+    "score": 0.9052,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.9052,
+        "raw": 0.905213,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 196 of 211, charged 5; missed 3: test_room_holds, test_logistics_contact, test_audience_members; guards tripped: test_guard_housed_ineligible"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.3333,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-gives-hotel-liability",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.050505050505050504,
+        "description": "[final answer] The note gives the hotel liability statement as GBP 6,725.20.",
+        "reasoning": "The delivered HTML states \u201cGBP 6,725.20\u201d at line 72, and final_message.md repeats \u201cTotal owed: GBP 6,725.20.\u201d"
+      },
+      {
+        "id": "2",
+        "name": "j-note-splits-total-hotel",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note splits the total by hotel: Quayside Northlight 3,158.40, Harbour Inn 1,415.20, Corrin Lodge 2,151.60.",
+        "reasoning": "final_message.md explicitly gives \u201cQuayside Northlight 3,158.40, Harbour Inn 1,415.20, Corrin Lodge 2,151.60\u201d; the HTML table at lines 179\u2013182 confirms the same split."
+      },
+      {
+        "id": "3",
+        "name": "j-note-says-nsf-02",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note says NSF-02 second edition was used.",
+        "reasoning": "final_message.md says the statement was \u201cPrepared under NSF-02 second edition,\u201d also stated in the HTML at lines 70 and 75."
+      },
+      {
+        "id": "4",
+        "name": "j-note-starts-bridge-13",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note starts the bridge at 13,900.00 gross booked value.",
+        "reasoning": "The HTML bridge begins with \u201cGross booked value\u201d of 13,900.00 at lines 99 and 142."
+      },
+      {
+        "id": "5",
+        "name": "j-note-s-bridge-takes",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note's bridge takes off 1,134.00 for arrival outside the block window, naming NL-2616.",
+        "reasoning": "HTML line 144 explicitly deducts 1,134.00 for \u201cArrival outside the block window\u201d and names NL-2616."
+      },
+      {
+        "id": "6",
+        "name": "j-note-s-bridge-takes-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note's bridge takes off 1,062.00 for the cancelled reservations that carry a charge, naming NL-2604, NL-2624.",
+        "reasoning": "The bridge does not separately deduct 1,062.00 for NL-2604 and NL-2624. HTML line 148 combines all cancelled bookings into one 2,595.00 deduction."
+      },
+      {
+        "id": "7",
+        "name": "j-note-s-bridge-takes-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note's bridge takes off 1,533.00 for the reservations cancelled without charge, naming NL-2605, NL-2606, NL-2607, NL-2628.",
+        "reasoning": "The bridge does not separately deduct 1,533.00 for NL-2605, NL-2606, NL-2607, and NL-2628; HTML line 148 combines those with charged cancellations in a 2,595.00 step."
+      },
+      {
+        "id": "8",
+        "name": "j-note-s-bridge-takes-4",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note's bridge takes off 2,882.00 as not guaranteed, naming NL-2609, NL-2626, NL-2610, NL-2611, NL-2621 and NL-2625.",
+        "reasoning": "Although HTML line 146 deducts 2,882.00 as not guaranteed, its list additionally includes NL-2620, so it does not give the specified six-reservation list."
+      },
+      {
+        "id": "9",
+        "name": "j-note-s-bridge-takes-5",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note's bridge takes off 873.00 for Harbour Tech Week, naming NL-2615 and NL-2627.",
+        "reasoning": "HTML line 143 deducts 873.00 for \u201cNot this event's block,\u201d names NL-2615 and NL-2627, and lines 230 and 242 identify their event code as Harbour Tech Week."
+      },
+      {
+        "id": "10",
+        "name": "j-note-s-bridge-takes-6",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note's bridge takes off 330.00 as sponsor-billed, naming NL-2613.",
+        "reasoning": "HTML line 147 deducts 330.00 as \u201cSponsor-billed\u201d and names NL-2613."
+      },
+      {
+        "id": "11",
+        "name": "j-note-s-bridge-takes-7",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note's bridge takes off 567.00 as superseded, naming NL-2608, stated as NL-2608R.",
+        "reasoning": "HTML line 145 deducts 567.00 for NL-2608 as superseded, while line 222 states it was \u201cmoved to NL-2608R.\u201d"
+      },
+      {
+        "id": "12",
+        "name": "j-note-s-bridge-reaches",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note's bridge reaches 5,519.00 counted at quoted rates, which is 5,425.60 at contract rates with VAT and the levy.",
+        "reasoning": "HTML lines 148\u2013149 show the bridge reaching 5,519.00 and then 5,425.60 after repricing at contract rates with VAT and levy."
+      },
+      {
+        "id": "13",
+        "name": "j-note-s-bridge-adds",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note's bridge adds 150.00 of cancellation charges.",
+        "reasoning": "HTML line 150 explicitly adds cancellation charges of 150.00."
+      },
+      {
+        "id": "14",
+        "name": "j-note-gives-attrition-1",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note gives attrition of 1,149.60 by hotel: Quayside 316.80, Harbour Inn 141.60, Corrin Lodge 691.20.",
+        "reasoning": "The HTML attrition table gives Quayside 316.80, Harbour Inn 141.60, and Corrin Lodge 691.20, with total attrition 1,149.60 at lines 179\u2013182 and 192\u2013194."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-20-register",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says 20 register lines were corrected.",
+        "reasoning": "final_message.md explicitly states \u201cRegister: 20 lines corrected,\u201d also shown in the HTML metadata."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-9-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note says 9 register lines were left untouched.",
+        "reasoning": "The note states 29 total lines and 20 corrected, but never explicitly says \u201c9\u201d lines were left untouched; the rubric requires explicit evidence."
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-78-speakers",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says 78 speakers were housed: keynote 7, invited 25, contributed 46.",
+        "reasoning": "final_message.md instead explicitly reports \u201c79 speakers housed (7 keynote, 25 invited, 47 contributed).\u201d"
+      },
+      {
+        "id": "18",
+        "name": "j-note-names-speakers-manual",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note names the speakers on manual contact: SP-319, SP-388, SP-472, SP-489, SP-535.",
+        "reasoning": "final_message.md names the five manual cases as SP-388, SP-535, SP-319, SP-472, and SP-489."
+      },
+      {
+        "id": "19",
+        "name": "j-note-gives-sp-560",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.050505050505050504,
+        "description": "[final answer] The note gives SP-560 as not housed because the programme chair withdrew them.",
+        "reasoning": "Neither final_message.md nor the delivered HTML mentions SP-560 or states that the programme chair withdrew them."
+      },
+      {
+        "id": "20",
+        "name": "j-note-gives-sp-524",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note gives SP-524, SP-514, SP-447 as not housed because the programme chair withdrew them.",
+        "reasoning": "The final answer and delivered HTML do not name SP-524, SP-514, and SP-447 as programme-chair withdrawals."
+      },
+      {
+        "id": "21",
+        "name": "j-note-gives-sp-302",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-302 as not housed because a signed sponsor letter covers the hotel.",
+        "reasoning": "The final answer and delivered HTML contain no statement about SP-302 or a signed sponsor letter covering their hotel."
+      },
+      {
+        "id": "22",
+        "name": "j-note-gives-rm-4002",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.050505050505050504,
+        "description": "[final answer] The note gives RM-4002 as ruled out because it is out of service for the nights of 24 and 25 November.",
+        "reasoning": "The final answer and delivered HTML do not mention RM-4002 or its being out of service on 24\u201325 November."
+      },
+      {
+        "id": "23",
+        "name": "j-note-gives-rooms-corrin",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note gives the rooms Corrin Lodge handed back as ruled out: RM-4003, RM-4006, RM-4028, RM-4037, RM-4052, RM-4059, RM-4075, RM-4079, RM-4092.",
+        "reasoning": "The delivered note does not list RM-4003, RM-4006, RM-4028, RM-4037, RM-4052, RM-4059, RM-4075, RM-4079, and RM-4092 as Corrin Lodge hand-backs."
+      },
+      {
+        "id": "24",
+        "name": "j-note-gives-sp-567",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note gives SP-567's room as RM-4503.",
+        "reasoning": "No delivered note states that SP-567 was assigned RM-4503."
+      },
+      {
+        "id": "26",
+        "name": "j-note-gives-sp-629",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note gives SP-629's room as RM-4629.",
+        "reasoning": "No delivered note states that SP-629 was assigned RM-4629."
+      },
+      {
+        "id": "28",
+        "name": "j-note-gives-keynote-sp",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-390's room as RM-4163.",
+        "reasoning": "No delivered note states that keynote SP-390 was assigned RM-4163."
+      },
+      {
+        "id": "29",
+        "name": "j-note-gives-keynote-sp-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-550's room as RM-4039.",
+        "reasoning": "No delivered note states that keynote SP-550 was assigned RM-4039."
+      },
+      {
+        "id": "30",
+        "name": "j-note-gives-keynote-sp-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-582's room as RM-4015.",
+        "reasoning": "No delivered note states that keynote SP-582 was assigned RM-4015."
+      },
+      {
+        "id": "31",
+        "name": "j-note-gives-keynote-sp-4",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-568's room as RM-4033.",
+        "reasoning": "No delivered note states that keynote SP-568 was assigned RM-4033."
+      },
+      {
+        "id": "32",
+        "name": "j-note-gives-keynote-sp-5",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-448's room as RM-4026.",
+        "reasoning": "No delivered note states that keynote SP-448 was assigned RM-4026."
+      },
+      {
+        "id": "33",
+        "name": "j-note-gives-keynote-sp-6",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-423's room as RM-4125.",
+        "reasoning": "No delivered note states that keynote SP-423 was assigned RM-4125."
+      },
+      {
+        "id": "34",
+        "name": "j-note-gives-keynote-sp-7",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives keynote SP-497's room as RM-4303.",
+        "reasoning": "No delivered note states that keynote SP-497 was assigned RM-4303."
+      },
+      {
+        "id": "35",
+        "name": "j-note-gives-sp-310",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-310's room as RM-4237.",
+        "reasoning": "No delivered note states that SP-310 was assigned RM-4237."
+      },
+      {
+        "id": "36",
+        "name": "j-note-gives-sp-333",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-333's room as RM-4469.",
+        "reasoning": "No delivered note states that SP-333 was assigned RM-4469."
+      },
+      {
+        "id": "37",
+        "name": "j-note-gives-sp-339",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-339's room as RM-4572.",
+        "reasoning": "No delivered note states that SP-339 was assigned RM-4572."
+      },
+      {
+        "id": "38",
+        "name": "j-note-gives-sp-345",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-345's room as RM-4321.",
+        "reasoning": "No delivered note states that SP-345 was assigned RM-4321."
+      },
+      {
+        "id": "39",
+        "name": "j-note-gives-sp-346",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-346's room as RM-4583.",
+        "reasoning": "No delivered note states that SP-346 was assigned RM-4583."
+      },
+      {
+        "id": "40",
+        "name": "j-note-gives-sp-414",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note gives SP-414's room as RM-4413.",
+        "reasoning": "No delivered note states that SP-414 was assigned RM-4413."
+      },
+      {
+        "id": "41",
+        "name": "j-note-says-hotels-desk",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says the hotels desk's suggestion to use the quoted rates does not hold, and that NSF-02 second edition settles it.",
+        "reasoning": "The HTML uses contract rather than quoted rates and cites NSF-02, but it never explicitly identifies and rejects the hotels desk's quoted-rate suggestion."
+      },
+      {
+        "id": "42",
+        "name": "j-note-says-hotels-desk-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says the hotels desk's suggestion to treat Corrin bed-nights as room-nights does not hold, and that the Corrin desk note settles it.",
+        "reasoning": "The HTML converts Corrin bed-nights using occupancy, but never explicitly says the hotels desk's room-night suggestion does not hold or that the Corrin desk note settles it."
+      },
+      {
+        "id": "43",
+        "name": "j-note-says-hotels-desk-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says the hotels desk's suggestion to take attrition from the pickup report does not hold, and that NSF-02 second edition settles it.",
+        "reasoning": "The hotels' pickup report is listed as \u201cNot used\u201d at HTML line 256, but the note does not explicitly identify the hotels desk's attrition suggestion and say NSF-02 second edition settles it."
+      },
+      {
+        "id": "44",
+        "name": "j-note-says-suggestion-use",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.010101010101010102,
+        "description": "[final answer] The note says the suggestion to use 176 for Quayside peak nights does not hold, and that amendment 1 itself settles it.",
+        "reasoning": "The note says amendment 1 is not in force for these arrivals, but does not explicitly mention or reject a suggested Quayside peak rate of 176."
+      },
+      {
+        "id": "45",
+        "name": "j-note-says-corvid-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note says Corvid's request to treat NL-2614 as sponsor-billed does not hold, and that its unsigned billing letter settles it.",
+        "reasoning": "HTML line 229 treats NL-2614 as committed because its sponsor letter was unsigned, but it does not explicitly identify and reject Corvid's request."
+      },
+      {
+        "id": "46",
+        "name": "j-note-lists-papers-settled",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] The note lists the papers that settled nothing, including the first edition, the crib sheet, the 2025 published statement, the hotels' pickup report and the October draft rooming list.",
+        "reasoning": "HTML lines 255\u2013256 list the first edition, amendment 1, April crib sheet, 2025 statement, and hotels' pickup report as not used, but omit the October draft rooming list and do not say these papers \u201csettled nothing.\u201d"
+      },
+      {
+        "id": "47",
+        "name": "n-note-states-statement-total",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note states a statement total other than GBP 6,725.20 as the result.",
+        "reasoning": "The note consistently presents GBP 6,725.20 as the statement result; no different statement total is given."
+      },
+      {
+        "id": "48",
+        "name": "n-note-says-nl-2614",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note says NL-2614 is sponsor-billed, or that Corvid's request on it holds.",
+        "reasoning": "HTML line 229 explicitly classifies NL-2614 as a committed stay because the sponsor billing letter was unsigned, not sponsor-billed."
+      },
+      {
+        "id": "49",
+        "name": "n-note-says-amendment-1",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note says amendment 1's 176 rate applies to the November arrivals.",
+        "reasoning": "final_message.md says amendment 1 \u201cdoes not reach any November arrival,\u201d and the HTML says it is not in force here."
+      },
+      {
+        "id": "50",
+        "name": "n-note-gives-2025-published",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.010101010101010102,
+        "description": "[final answer] The note gives the 2025 published statement's total as this year's figure.",
+        "reasoning": "The HTML lists the \u201c2025 statement print\u201d under \u201cNot used\u201d at line 256 and does not adopt its total."
+      },
+      {
+        "id": "51",
+        "name": "n-note-says-sp-560",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note says SP-560 was housed or gives SP-560 a room.",
+        "reasoning": "SP-560 is not mentioned or assigned a room in the final answer or delivered HTML."
+      },
+      {
+        "id": "52",
+        "name": "n-note-gives-rm-4002",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note gives RM-4002 to a speaker.",
+        "reasoning": "RM-4002 is not mentioned or assigned to a speaker in the final answer or delivered HTML."
+      },
+      {
+        "id": "53",
+        "name": "n-note-says-nl-2607",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.030303030303030304,
+        "description": "[final answer] The note says NL-2607 carries a cancellation charge.",
+        "reasoning": "HTML line 221 explicitly classifies NL-2607 as \u201cCancelled without charge\u201d with amount 0.00."
+      },
+      {
+        "id": "54",
+        "name": "j-explains-substantive-source-decision",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.030303030303030304,
+        "description": "[final answer] Explains the substantive source decision: The hotels desk handover withdrawn-room update made RM-4062 unavailable after the first reservation-register correction. The final room allocation uses the refreshed room table rather than the provisional export. Equivalent wording and source identification are sufficient.",
+        "reasoning": "final_message.md says availability was refreshed after the first corrected register line and that RM-4062 was then withdrawn, but it does not explicitly explain that the final allocation used the refreshed room table instead of the provisional export."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\n  \"j-note-gives-hotel-liability\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"The delivered HTML states \u201cGBP 6,725.20\u201d at line 72, and final_message.md repeats \u201cTotal owed: GBP 6,725.20.\u201d\"\n  },\n  \"j-note-splits-total-hotel\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"final_message.md explicitly gives \u201cQuayside Northlight 3,158.40, Harbour Inn 1,415.20, Corrin Lodge 2,151.60\u201d; the HTML table at lines 179\u2013182 confirms the same split.\"\n  },\n  \"j-note-says-nsf-02\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"final_message.md says the statement was \u201cPrepared under NSF-02 second edition,\u201d also stated in the HTML at lines 70 and 75.\"\n  },\n  \"j-note-starts-bridge-13\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"The HTML bridge begins with \u201cGross booked value\u201d of 13,900.00 at lines 99 and 142.\"\n  },\n  \"j-note-s-bridge-takes\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML line 144 explicitly deducts 1,134.00 for \u201cArrival outside the block window\u201d and names NL-2616.\"\n  },\n  \"j-note-s-bridge-takes-2\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The bridge does not separately deduct 1,062.00 for NL-2604 and NL-2624. HTML line 148 combines all cancelled bookings into one 2,595.00 deduction.\"\n  },\n  \"j-note-s-bridge-takes-3\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The bridge does not separately deduct 1,533.00 for NL-2605, NL-2606, NL-2607, and NL-2628; HTML line 148 combines those with charged cancellations in a 2,595.00 step.\"\n  },\n  \"j-note-s-bridge-takes-4\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Although HTML line 146 deducts 2,882.00 as not guaranteed, its list additionally includes NL-2620, so it does not give the specified six-reservation list.\"\n  },\n  \"j-note-s-bridge-takes-5\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML line 143 deducts 873.00 for \u201cNot this event's block,\u201d names NL-2615 and NL-2627, and lines 230 and 242 identify their event code as Harbour Tech Week.\"\n  },\n  \"j-note-s-bridge-takes-6\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML line 147 deducts 330.00 as \u201cSponsor-billed\u201d and names NL-2613.\"\n  },\n  \"j-note-s-bridge-takes-7\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML line 145 deducts 567.00 for NL-2608 as superseded, while line 222 states it was \u201cmoved to NL-2608R.\u201d\"\n  },\n  \"j-note-s-bridge-reaches\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML lines 148\u2013149 show the bridge reaching 5,519.00 and then 5,425.60 after repricing at contract rates with VAT and levy.\"\n  },\n  \"j-note-s-bridge-adds\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"HTML line 150 explicitly adds cancellation charges of 150.00.\"\n  },\n  \"j-note-gives-attrition-1\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"The HTML attrition table gives Quayside 316.80, Harbour Inn 141.60, and Corrin Lodge 691.20, with total attrition 1,149.60 at lines 179\u2013182 and 192\u2013194.\"\n  },\n  \"j-note-says-20-register\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"final_message.md explicitly states \u201cRegister: 20 lines corrected,\u201d also shown in the HTML metadata.\"\n  },\n  \"j-note-says-9-register\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The note states 29 total lines and 20 corrected, but never explicitly says \u201c9\u201d lines were left untouched; the rubric requires explicit evidence.\"\n  },\n  \"j-note-says-78-speakers\": {\n    \"score\": \"no\",\n    \"reasoning\": \"final_message.md instead explicitly reports \u201c79 speakers housed (7 keynote, 25 invited, 47 contributed).\u201d\"\n  },\n  \"j-note-names-speakers-manual\": {\n    \"score\": \"yes\",\n    \"reasoning\": \"final_message.md names the five manual cases as SP-388, SP-535, SP-319, SP-472, and SP-489.\"\n  },\n  \"j-note-gives-sp-560\": {\n    \"score\": \"no\",\n    \"reasoning\": \"Neither final_message.md nor the delivered HTML mentions SP-560 or states that the programme chair withdrew them.\"\n  },\n  \"j-note-gives-sp-524\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final answer and delivered HTML do not name SP-524, SP-514, and SP-447 as programme-chair withdrawals.\"\n  },\n  \"j-note-gives-sp-302\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final answer and delivered HTML contain no statement about SP-302 or a signed sponsor letter covering their hotel.\"\n  },\n  \"j-note-gives-rm-4002\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The final answer and delivered HTML do not mention RM-4002 or its being out of service on 24\u201325 November.\"\n  },\n  \"j-note-gives-rooms-corrin\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The delivered note does not list RM-4003, RM-4006, RM-4028, RM-4037, RM-4052, RM-4059, RM-4075, RM-4079, and RM-4092 as Corrin Lodge hand-backs.\"\n  },\n  \"j-note-gives-sp-567\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-567 was assigned RM-4503.\"\n  },\n  \"j-note-gives-sp-629\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-629 was assigned RM-4629.\"\n  },\n  \"j-note-gives-keynote-sp\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-390 was assigned RM-4163.\"\n  },\n  \"j-note-gives-keynote-sp-2\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-550 was assigned RM-4039.\"\n  },\n  \"j-note-gives-keynote-sp-3\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-582 was assigned RM-4015.\"\n  },\n  \"j-note-gives-keynote-sp-4\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-568 was assigned RM-4033.\"\n  },\n  \"j-note-gives-keynote-sp-5\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-448 was assigned RM-4026.\"\n  },\n  \"j-note-gives-keynote-sp-6\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-423 was assigned RM-4125.\"\n  },\n  \"j-note-gives-keynote-sp-7\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that keynote SP-497 was assigned RM-4303.\"\n  },\n  \"j-note-gives-sp-310\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-310 was assigned RM-4237.\"\n  },\n  \"j-note-gives-sp-333\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-333 was assigned RM-4469.\"\n  },\n  \"j-note-gives-sp-339\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-339 was assigned RM-4572.\"\n  },\n  \"j-note-gives-sp-345\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-345 was assigned RM-4321.\"\n  },\n  \"j-note-gives-sp-346\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-346 was assigned RM-4583.\"\n  },\n  \"j-note-gives-sp-414\": {\n    \"score\": \"no\",\n    \"reasoning\": \"No delivered note states that SP-414 was assigned RM-4413.\"\n  },\n  \"j-note-says-hotels-desk\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The HTML uses contract rather than quoted rates and cites NSF-02, but it never explicitly identifies and rejects the hotels desk's quoted-rate suggestion.\"\n  },\n  \"j-note-says-hotels-desk-2\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The HTML converts Corrin bed-nights using occupancy, but never explicitly says the hotels desk's room-night suggestion does not hold or that the Corrin desk note settles it.\"\n  },\n  \"j-note-says-hotels-desk-3\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The hotels' pickup report is listed as \u201cNot used\u201d at HTML line 256, but the note does not explicitly identify the hotels desk's attrition suggestion and say NSF-02 second edition settles it.\"\n  },\n  \"j-note-says-suggestion-use\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The note says amendment 1 is not in force for these arrivals, but does not explicitly mention or reject a suggested Quayside peak rate of 176.\"\n  },\n  \"j-note-says-corvid-s\": {\n    \"score\": \"no\",\n    \"reasoning\": \"HTML line 229 treats NL-2614 as committed because its sponsor letter was unsigned, but it does not explicitly identify and reject Corvid's request.\"\n  },\n  \"j-note-lists-papers-settled\": {\n    \"score\": \"no\",\n    \"reasoning\": \"HTML lines 255\u2013256 list the first edition, amendment 1, April crib sheet, 2025 statement, and hotels' pickup report as not used, but omit the October draft rooming list and do not say these papers \u201csettled nothing.\u201d\"\n  },\n  \"n-note-states-statement-total\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The note consistently presents GBP 6,725.20 as the statement result; no different statement total is given.\"\n  },\n  \"n-note-says-nl-2614\": {\n    \"score\": \"no\",\n    \"reasoning\": \"HTML line 229 explicitly classifies NL-2614 as a committed stay because the sponsor billing letter was unsigned, not sponsor-billed.\"\n  },\n  \"n-note-says-amendment-1\": {\n    \"score\": \"no\",\n    \"reasoning\": \"final_message.md says amendment 1 \u201cdoes not reach any November arrival,\u201d and the HTML says it is not in force here.\"\n  },\n  \"n-note-gives-2025-published\": {\n    \"score\": \"no\",\n    \"reasoning\": \"The HTML lists the \u201c2025 statement print\u201d under \u201cNot used\u201d at line 256 and does not adopt its total.\"\n  },\n  \"n-note-says-sp-560\": {\n    \"score\": \"no\",\n    \"reasoning\": \"SP-560 is not mentioned or assigned a room in the final answer or delivered HTML.\"\n  },\n  \"n-note-gives-rm-4002\": {\n    \"score\": \"no\",\n    \"reasoning\": \"RM-4002 is not mentioned or assigned to a speaker in the final answer or delivered HTML.\"\n  },\n  \"n-note-says-nl-2607\": {\n    \"score\": \"no\",\n    \"reasoning\": \"HTML line 221 explicitly classifies NL-2607 as \u201cCancelled without charge\u201d with amount 0.00.\"\n  },\n  \"j-explains-substantive-source-decision\": {\n    \"score\": \"no\",\n    \"reasoning\": \"final_message.md says availability was refreshed after the first corrected register line and that RM-4062 was then withdrawn, but it does not explicitly explain that the final allocation used the refreshed room table instead of the provisional export.\"\n  }\n}",
+    "usage": {
+      "input_tokens": 103936,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 53760,
+      "output_tokens": 5121,
+      "reasoning_output_tokens": 379,
+      "total_tokens": 109057,
+      "cost_usd": 0.324628,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 103936,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 53760,
+          "output_tokens": 5121,
+          "reasoning_output_tokens": 379,
+          "total_tokens": 109057,
+          "cost_usd": 0.324628
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.daca14de2bd44abbb8e1188084aad22c.jsonl"
+    ]
+  }
+}

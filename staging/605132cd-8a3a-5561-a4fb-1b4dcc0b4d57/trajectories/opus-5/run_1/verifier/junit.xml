@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="37" skipped="0" tests="55" time="1.233" timestamp="2026-10-28T13:34:02.916506+00:00" hostname="312e923bd89b"><testcase classname="test_outputs" name="test_schedule_of_charges_opened" time="0.026" /><testcase classname="test_outputs" name="test_register_read_before_written" time="0.000" /><testcase classname="test_outputs" name="test_each_register_line_read_before_written" time="0.002" /><testcase classname="test_outputs" name="test_exceptions_read_before_written" time="0.000" /><testcase classname="test_outputs" name="test_offers_after_register_written" time="0.002"><failure message="AssertionError: offers sent before the plot's register line was written: ['W-1009']&#10;assert ({'447700970003': 140, '447700970001': 141, '447700970033': 142, '447700970004': 143, ...} and not ['W-1009'])">def test_offers_after_register_written():
+        regw = _records()[2]; first = {}
+        for i, w, _k, _p in _sends():
+            first.setdefault(w, i)
+        by_plot = {}
+        for ln, idx in regw.items():
+            p = R['line_plot'].get(ln) or (_records()[0].get(ln) or {}).get('plot_ref')
+            if p:
+                by_plot.setdefault(p, []).extend(idx)
+        right = {p for p, ln in (R.get('first_line') or {}).items() if ln in set(R.get('correct_lines') or [])}   # already right: never written
+        # D7: a plot the run left as keyed because its own (made-misreading) answer equals the keyed line needs no write either
+        right |= {p for p in R['plots'] if p not in by_plot and len(_lines_for(p)) == 1
+                  and any(_line_is(_records()[0][_lines_for(p)[0]], R['alt'][g]['want'][p]) for g in _made() if p in R['alt'][g]['want'])}
+        own = {_norm(v.get('applicant_ref')).upper(): v.get('plot_ref') for v in _records()[0].values() if v.get('applicant_ref')}   # D7: the run's own line
+        bad = [a for a, p0 in R['let'].items() for p in [own.get(a.upper(), p0)]
+               if p not in right and R['wa_of'].get(a) in first and not [i for i in by_plot.get(p, []) if i &lt; first[R['wa_of'][a]]]]
+&gt;       assert first and not bad, f'offers sent before the plot\'s register line was written: {bad[:6]}'
+E       AssertionError: offers sent before the plot's register line was written: ['W-1009']
+E       assert ({'447700970003': 140, '447700970001': 141, '447700970033': 142, '447700970004': 143, ...} and not ['W-1009'])
+
+test_outputs.py:857: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_missing_line_created" time="0.001"><failure message="AssertionError: late vacancies without exactly one new, correct register line: ['BM-19']&#10;assert (False)&#10; +  where False = _worked()">def test_missing_line_created():
+        bad = [p for p in R['create_plots'] if not (len(_lines_for(p)) == 1 and _lines_for(p)[0].startswith('new:') and _plot_ok_own(p, None))]
+&gt;       assert _worked() and not bad, f'late vacancies without exactly one new, correct register line: {bad}'
+E       AssertionError: late vacancies without exactly one new, correct register line: ['BM-19']
+E       assert (False)
+E        +  where False = _worked()
+
+test_outputs.py:866: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_duplicate_line_removed" time="0.001"><failure message="AssertionError: the second line for ['HL-33'] was not removed, or the plot is wrong&#10;assert (not [] and False)&#10; +  where False = all(&lt;generator object test_duplicate_line_removed.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa1d9c740&gt;)">def test_duplicate_line_removed():
+        regl = _records()[0]
+        # HARDEN_R2 D7: HL-33's own content is charged by the tests that own it; here it is right, or right for a misreading the run made
+        plots = [R['line_plot'][d] for d in R['dup_lines']]
+&gt;       assert not [d for d in R['dup_lines'] if d in regl] and all(R['first_line'][p] in regl and _plot_ok_own(p, None) for p in plots), \
+            f'the second line for {plots} was not removed, or the plot is wrong'
+E       AssertionError: the second line for ['HL-33'] was not removed, or the plot is wrong
+E       assert (not [] and False)
+E        +  where False = all(&lt;generator object test_duplicate_line_removed.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa1d9c740&gt;)
+
+test_outputs.py:874: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_states_rent" time="0.013"><failure message="AssertionError: the final answer does not state the rent invoiced as 1058.36 (stated [1194.05])&#10;assert (1058.36 in {1194.05})">def test_final_answer_states_rent():
+        hl = L.headline('2027 rent invoiced total', min_value=100, answer=_answer()); h = set(hl['figures']); sent = hl.get('sentence') or ''
+        def superseded(x):
+            # a misread or stale total cited as the superseded figure ('a read-once pass gave 1,043.17') is not stated as the rent
+            m = re.search(re.escape('{:,.2f}'.format(x)).replace(',', ',?'), sent)
+            return bool(m and _SUPERSEDED.search(sent[max(0, m.start() - 50):m.start()]))
+        wrong = [x for x in list(R.get('wrong_totals') or []) + list(R.get('stale_totals') or []) if x in h and not superseded(x)]
+&gt;       assert R['total'] in h and not wrong, f'the final answer does not state the rent invoiced as {R["total"]:.2f} (stated {sorted(h)})'
+E       AssertionError: the final answer does not state the rent invoiced as 1058.36 (stated [1194.05])
+E       assert (1058.36 in {1194.05})
+
+test_outputs.py:895: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_states_plots_let" time="0.001"><failure message="AssertionError: the final answer does not say how many plots were let&#10;assert False&#10; +  where False = _says_count('Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is &quot;in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 &quot;Council news&quot; circulars.', 14, '(?:plots?|let)\\b')&#10; +    where 'Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is &quot;in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 &quot;Council news&quot; circulars.' = _answer()">def test_final_answer_states_plots_let():
+&gt;       assert _says_count(_answer(), R['plots_let'], r'(?:plots?|let)\b'), 'the final answer does not say how many plots were let'
+E       AssertionError: the final answer does not say how many plots were let
+E       assert False
+E        +  where False = _says_count('Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is "in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 "Council news" circulars.', 14, '(?:plots?|let)\\b')
+E        +    where 'Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is "in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 "Council news" circulars.' = _answer()
+
+test_outputs.py:900: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_states_waiting" time="0.001"><failure message="AssertionError: the final answer does not say how many applicants are still waiting&#10;assert False&#10; +  where False = _says_count('Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is &quot;in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 &quot;Council news&quot; circulars.', 214, '(?:applicants?|waiting|people|households|names)\\b')&#10; +    where 'Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is &quot;in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 &quot;Council news&quot; circulars.' = _answer()">def test_final_answer_states_waiting():
+&gt;       assert _says_count(_answer(), R['waiting'], r'(?:applicants?|waiting|people|households|names)\b'), 'the final answer does not say how many applicants are still waiting'
+E       AssertionError: the final answer does not say how many applicants are still waiting
+E       assert False
+E        +  where False = _says_count('Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is "in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 "Council news" circulars.', 214, '(?:applicants?|waiting|people|households|names)\\b')
+E        +    where 'Round run, records corrected, files saved, offers sent. Here is the note.\n\n---\n\n# Wexcombe allotments: the 2027 lettings round — note for Priya Venn\n\n## 1. The headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| Site | Plots let | 2027 rent invoiced |\n|---|---:|---:|\n| Hollins Lane | 7 | £564.40 |\n| Brook Meadow | 7 | £515.88 |\n| Quarry Field | 2 | £113.77 |\n| **Total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**Three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. Each was reopened and checked after saving — the HTML has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the CSV\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. Which edition I worked under\n\n**WDC-AL-02, second edition.** It was adopted on 2026-09-15 and is "in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **Lettings crib sheet** (July 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **Last season\'s lettings report** (2026, first-edition method) — history only.\n- **Ashworth Borough Council allotment vacancies, page 8** — another council\'s list.\n- **Parks Committee minutes, 15 September 2026** — confirm the adoption dates; the band C priority proposal was not adopted.\n- Allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- Logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- In Airtable: the `tenancy_history` table (2021-25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- Helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at Hollins Lane), the wider parks service tickets, and all 32 "Council news" circulars.' = _answer()
+
+test_outputs.py:905: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_states_split" time="0.001"><failure message="AssertionError: the final answer does not give the rent split by site&#10;assert False&#10; +  where False = all(&lt;generator object test_final_answer_states_split.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa326f9f0&gt;)">def test_final_answer_states_split():
+        f = _figures(_answer())
+&gt;       assert all(x in f for x in R['split_fig']), 'the final answer does not give the rent split by site'
+E       AssertionError: the final answer does not give the rent split by site
+E       assert False
+E        +  where False = all(&lt;generator object test_final_answer_states_split.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa326f9f0&gt;)
+
+test_outputs.py:911: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_walks_bridge" time="0.002"><failure message="AssertionError: the bridge is not walked step by step with its plots: [1058.36, 'the step from the flat charge on the let plots to the rent']&#10;assert not [1058.36, 'the step from the flat charge on the let plots to the rent']">def test_final_answer_walks_bridge():
+        """the start (last year's flat on every vacant plot), each excluded class with its plots, and the rent invoiced, plus
+        the move from the flat charge on the let plots to the rent, given as a level (630.00, 1032.24) or as a step (+402.24 to
+        the 2027 area rates, +26.12 for concessions and water). Whole pounds ('takes out 135') count."""
+        said = _answer(); b = sorted(float(x) for x in R['bridge_fig']); total = float(R['total'])
+        f = _figures(said) | {float(x) for x in re.findall(r'(?&lt;![\w.,-])(\d{2,3})(?![\d,]|\.\d)', said)}
+        levels = [x for x in b if 200 &lt; x &lt; total]                       # flat on the let plots, then at the area rates
+        middle = set(levels) | {round(y - x, 2) for x, y in zip(levels, levels[1:] + [total])}
+        need = [max(b), total] + [x for x in b if x &lt; 200]
+        miss = [x for x in need if not _fig_ok(x, f)] + [p for p in R['bridge_plots'] if p not in said]
+        if not any(_fig_ok(x, f) for x in middle):
+            miss.append('the step from the flat charge on the let plots to the rent')
+&gt;       assert not miss, f'the bridge is not walked step by step with its plots: {miss[:5]}'
+E       AssertionError: the bridge is not walked step by step with its plots: [1058.36, 'the step from the flat charge on the let plots to the rent']
+E       assert not [1058.36, 'the step from the flat charge on the let plots to the rent']
+
+test_outputs.py:927: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_final_answer_names_record_changes" time="0.001" /><testcase classname="test_outputs" name="test_final_answer_names_unsent_offers" time="0.000" /><testcase classname="test_outputs" name="test_final_answer_states_corrections" time="0.002"><failure message="AssertionError: the final answer does not say how many register lines were corrected&#10;assert False&#10; +  where False = any(&lt;generator object test_final_answer_states_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa1a84400&gt;)">def test_final_answer_states_corrections():
+        said = _answer(); n = len(R['fix_plots']); V = r'(?:corrected|correct(?:ing|ions?)|needed correct\w*|fixed|amended|put right|rewr(?:ote|itten)|changed|updated)'
+        N = r'(?&lt;![\w.,-])\**%d\**(?!\d|[.,]\d|\s*%%)' % n
+        pats = (N + r'\s+(?:[\w-]+\s+){0,2}?lines?\b[^.;\n]{0,30}?' + V,             # 14 register lines corrected
+                V + r'\s+(?:[\w-]+\s+){0,2}?' + N + r'\s+(?:register\s+)?lines?\b',  # corrected 14 lines
+                r'lines?\s+(?:[\w-]+\s+){0,2}?' + V + r'[^\w,;.\n]{0,6}' + N)       # lines corrected: 14
+&gt;       assert any(re.search(q, said, re.I) for q in pats), \
+            'the final answer does not say how many register lines were corrected'
+E       AssertionError: the final answer does not say how many register lines were corrected
+E       assert False
+E        +  where False = any(&lt;generator object test_final_answer_states_corrections.&lt;locals&gt;.&lt;genexpr&gt; at 0xffffa1a84400&gt;)
+
+test_outputs.py:955: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_notices_sent" time="0.003"><failure message="AssertionError: offers differ: 16 mismatches&#10;assert ([('4477009700...accept'), ...] == [('4477009700...accept'), ...]&#10;  &#10;  At index 3 diff: ('447700970004', 'text', 'wexcombe allotments: plot hl-33 at hollins lane is offered to you for 2027 at 73.60 pounds. reply yes within 14 days to accept') != ('447700970004', 'text', 'wexcombe allotments: plot hl-21 at hollins lane is offered to you for 2027 at 90.00 pounds. reply yes within 14 days to accept')&#10;  Left contains 2 more items, first extra item: ('447700970023', 'text', 'wexcombe allotments: plot hl-50 at hollins lane is offered to you for 2027 at 68.40 pounds. reply yes within 14 days to accept')&#10;  &#10;  Full diff:&#10;    [&#10;        (...&#10;  &#10;  ...Full output truncated (136 lines hidden), use '-vv' to show or False)">def test_notices_sent():
+        got = sorted(((w, k, p) for _i, w, k, p in _sends()), key=str); acc = _want_sends_own()
+        own = len(got) == len(_want_sends()) and sorted(x[0] for x in got) == sorted(x[0] for x in _want_sends()) \
+            and all((w, k, p) in [tuple(y) for y in acc.get(w, [])] for w, k, p in got)
+&gt;       assert got == _want_sends() or own, f'offers differ: {len(set(map(str, got)) ^ set(map(str, _want_sends())))} mismatches'
+E       AssertionError: offers differ: 16 mismatches
+E       assert ([('4477009700...accept'), ...] == [('4477009700...accept'), ...]
+E         
+E         At index 3 diff: ('447700970004', 'text', 'wexcombe allotments: plot hl-33 at hollins lane is offered to you for 2027 at 73.60 pounds. reply yes within 14 days to accept') != ('447700970004', 'text', 'wexcombe allotments: plot hl-21 at hollins lane is offered to you for 2027 at 90.00 pounds. reply yes within 14 days to accept')
+E         Left contains 2 more items, first extra item: ('447700970023', 'text', 'wexcombe allotments: plot hl-50 at hollins lane is offered to you for 2027 at 68.40 pounds. reply yes within 14 days to accept')
+E         
+E         Full diff:
+E           [
+E               (...
+E         
+E         ...Full output truncated (136 lines hidden), use '-vv' to show or False)
+
+test_outputs.py:976: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_stop_respected" time="0.001" /><testcase classname="test_outputs" name="test_contact_hold_respected" time="0.001" /><testcase classname="test_outputs" name="test_offer_notice_recorded" time="0.000"><failure message="AssertionError: offer_notice wrong on []&#10;assert ({'W-1002': 'texted', 'W-1003': 'template', 'W-1004': 'texted', 'W-1005': 'texted', ...} and not [] and {'W-1002', 'W...'W-1008', ...} &lt;= {'W-1002', 'W...'W-1008', ...}&#10;  &#10;  Extra items in the left set:&#10;  'W-1024'&#10;  'W-1022')">def test_offer_notice_recorded():
+        got = _records()[4]
+        bad = [a for a, v in R['notice'].items() if got.get(a) != v]
+&gt;       assert R['notice'] and not bad and set(got) &lt;= set(R['notice']), f'offer_notice wrong on {bad[:6]}'
+E       AssertionError: offer_notice wrong on []
+E       assert ({'W-1002': 'texted', 'W-1003': 'template', 'W-1004': 'texted', 'W-1005': 'texted', ...} and not [] and {'W-1002', 'W...'W-1008', ...} &lt;= {'W-1002', 'W...'W-1008', ...}
+E         
+E         Extra items in the left set:
+E         'W-1024'
+E         'W-1022')
+
+test_outputs.py:996: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_audience" time="0.001"><failure message="AssertionError: audience differs by 2&#10;assert ['cecily.mars...example', ...] == ['cecily.mars...example', ...]&#10;  &#10;  Left contains 2 more items, first extra item: 'verity.coombe.1022@mail.example'&#10;  &#10;  Full diff:&#10;    [&#10;        'cecily.marsh.1003@mail.example',&#10;        'desmond.achterberg.1004@mail.example',...&#10;  &#10;  ...Full output truncated (14 lines hidden), use '-vv' to show">def test_audience():
+        got = sorted(e for e, st in _audience().items() if st == 'subscribed')
+&gt;       assert got == sorted(R.get('audience') or []), f'audience differs by {len(set(got) ^ set(R.get("audience") or []))}'
+E       AssertionError: audience differs by 2
+E       assert ['cecily.mars...example', ...] == ['cecily.mars...example', ...]
+E         
+E         Left contains 2 more items, first extra item: 'verity.coombe.1022@mail.example'
+E         
+E         Full diff:
+E           [
+E               'cecily.marsh.1003@mail.example',
+E               'desmond.achterberg.1004@mail.example',...
+E         
+E         ...Full output truncated (14 lines hidden), use '-vv' to show
+
+test_outputs.py:1002: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_dossier_delivered" time="0.001" /><testcase classname="test_outputs" name="test_dossier_cross_references" time="0.000" /><testcase classname="test_outputs" name="test_reconciliation_rows" time="0.014"><failure message="AssertionError: reconciliation rows missing or wrong for ['BM-27', 'BM-41', 'HL-17', 'HL-33', 'HL-38']&#10;assert (True and [['row_type', 'offer_seq', 'plot_ref', 'site', 'applicant_ref', 'applicant_name', ...], ['offer', '1', 'HL-04', 'Hollins Lane', 'W-1004', 'Desmond Achterberg', ...], ['offer', '2', 'BM-11', 'Brook Meadow', 'W-1001', '', ...], ['offer', '3', 'BM-11', 'Brook Meadow', 'W-1002', 'Bernard Ocampo', ...], ['offer', '4', 'QF-07', 'Quarry Field', 'W-1003', 'Cecily Marsh', ...], ['offer', '5', 'HL-21', 'Hollins Lane', 'W-1001', '', ...], ...] and not ['BM-27', 'BM-41', 'HL-17', 'HL-33', 'HL-38'])&#10; +  where True = _written('reconcil')">def test_reconciliation_rows():
+        rows = _recon_rows(); bad = []
+        for p in R['plots']:
+            if R['HD'][p] != 'Let for 2027':     # a plot the round leaves unlet: its heading, and no accepted offer for it (HARDEN_R2: a 0.00 cell is no proof)
+                ok = [r for r in rows if _cell_has(r, p) and _unlet_said(R['HD'][p], r)] and not [r for r in rows if _cell_has(r, p) and _outcome(r, 'accept')]
+            else:
+                ok = [r for r in rows if _cell_has(r, p) and [c for c in r if _num(c) is not None and abs(_num(c) - float(R['RENT'][p])) &lt; 0.006]]
+            if not ok:
+                bad.append(p)
+&gt;       assert _written('reconcil') and rows and not bad, f'reconciliation rows missing or wrong for {bad[:6]}'
+E       AssertionError: reconciliation rows missing or wrong for ['BM-27', 'BM-41', 'HL-17', 'HL-33', 'HL-38']
+E       assert (True and [['row_type', 'offer_seq', 'plot_ref', 'site', 'applicant_ref', 'applicant_name', ...], ['offer', '1', 'HL-04', 'Hollins Lane', 'W-1004', 'Desmond Achterberg', ...], ['offer', '2', 'BM-11', 'Brook Meadow', 'W-1001', '', ...], ['offer', '3', 'BM-11', 'Brook Meadow', 'W-1002', 'Bernard Ocampo', ...], ['offer', '4', 'QF-07', 'Quarry Field', 'W-1003', 'Cecily Marsh', ...], ['offer', '5', 'HL-21', 'Hollins Lane', 'W-1001', '', ...], ...] and not ['BM-27', 'BM-41', 'HL-17', 'HL-33', 'HL-38'])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1072: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_offer_sequence" time="0.010"><failure message="AssertionError: the reconciliation does not log every offer in order (9 offers missing)&#10;assert (True and False)&#10; +  where True = _written('reconcil')">def test_reconciliation_offer_sequence():
+        rows = _recon_rows(); pos = []
+        ok = False
+        for seq in [R['offers']] + [R['alt'][g]['offers_full'] for g in _made()]:      # D7: or the order the made misreading's round runs in
+            pos = []
+            for p, a, out in seq:
+                hit = [i for i, r in enumerate(rows) if _cell_has(r, p) and _cell_has(r, a) and _outcome(r, 'declin' if out.startswith('declin') else 'accept')]
+                pos.append(hit[0] if hit else None)
+            if None not in pos and pos == sorted(pos):
+                ok = True; break
+&gt;       assert _written('reconcil') and ok, f'the reconciliation does not log every offer in order ({sum(1 for x in pos if x is None)} offers missing)'
+E       AssertionError: the reconciliation does not log every offer in order (9 offers missing)
+E       assert (True and False)
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1086: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_steps" time="0.006" /><testcase classname="test_outputs" name="test_deliverables_read_back" time="0.002" /><testcase classname="test_outputs" name="test_guard_register_misworked" time="0.001"><failure message="AssertionError: no correct line was written, no line wrongly removed or added, and no plot has two lines&#10;assert []">def test_guard_register_misworked():
+        regl, _e, regw = _records()[:3]
+        hits = [ln for ln in R['correct_lines'] if ln in regw]
+        hits += [ln for ln in R['keyed'] if ln not in regl and ln not in R['dup_lines']]
+        hits += [ln for ln, _v in regl.items() if ln.startswith('new:') and _norm(regl[ln]['plot_ref']).upper() not in [x.upper() for x in R['create_plots']]]
+        hits += [p for p in R['plots'] if len([ln for ln in _lines_for(p) if ln not in R['dup_lines']]) &gt; 1]
+        hits += [i for kind, i in _records()[5] if kind == 'register']        # any other accepted write to the register (other fields, unknown record)
+&gt;       assert hits, 'no correct line was written, no line wrongly removed or added, and no plot has two lines'
+E       AssertionError: no correct line was written, no line wrongly removed or added, and no plot has two lines
+E       assert []
+
+test_outputs.py:1116: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_exceptions_misworked" time="0.000"><failure message="AssertionError: no open item that must stay was touched and no other write hit the ledger&#10;assert []">def test_guard_exceptions_misworked():
+        excl, exw, created = _records()[1], _records()[3], _records()[7]
+        # an open item the policy leaves alone was written or removed, or any other write to the ledger; an unwarranted or doubled
+        # raise is a wrong decision, charged by test_exceptions_raised
+        hits = [x for x in R['keep_exc'] if x in exw or x not in excl]
+        hits += [i for kind, i in _records()[5] if kind == 'exceptions']
+&gt;       assert hits, 'no open item that must stay was touched and no other write hit the ledger'
+E       AssertionError: no open item that must stay was touched and no other write hit the ledger
+E       assert []
+
+test_outputs.py:1126: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_other_writes" time="0.002"><failure message="AssertionError: nothing outside the two records, offer_notice, the offers and the audience was changed&#10;assert []">def test_guard_other_writes():
+        own_apps, own_mails = _own_let()
+        hits = [i for kind, i in _records()[5] if kind == 'other']
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] not in ('LightAirtable', 'LightWhatsApp', 'LightMailchimp', None, '')
+                 and str(_app_tool(s)[0]).startswith('Light') and _is_write(_app_tool(s)[1])]
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] == 'LightMailchimp' and _app_tool(s)[1] in ('create_member', 'update_member', 'delete_member', 'create_campaign', 'send_campaign')
+                 and (str(_args(s).get('list_id') or R.get('aud')) != R.get('aud') or _app_tool(s)[1] in ('create_campaign', 'send_campaign'))]
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] == 'LightMailchimp' and _is_write(_app_tool(s)[1])
+                 and _app_tool(s)[1] not in ('create_member', 'update_member', 'delete_member', 'create_campaign', 'send_campaign')]
+        hits += [i for i, s in _calls('LightMailchimp', 'create_member', 'update_member', 'delete_member')
+                 if str(_args(s).get('list_id') or '') == R.get('aud') and (_app_tool(s)[1] == 'delete_member'
+                     or _member_email(_args(s)) not in set(R['audience']) | set(R.get('unsub_emails') or []) | own_mails)]
+        hits += [i for i, s in enumerate(_steps()) if _attempted(s) and _app_tool(s)[0] == 'LightWhatsApp' and _is_write(_app_tool(s)[1])
+                 and _app_tool(s)[1] not in ('send_text', 'send_template')]
+        hits += [a for a in _records()[9] if a not in R['notice'] and a.upper() not in own_apps and not any(a in (R['alt'][g].get('notice') or {}) for g in _made())]   # offer_notice set on an entry with no let plot (D7: or none in a made misreading's round)
+&gt;       assert hits, 'nothing outside the two records, offer_notice, the offers and the audience was changed'
+E       AssertionError: nothing outside the two records, offer_notice, the offers and the audience was changed
+E       assert []
+
+test_outputs.py:1156: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_messaged_without_consent" time="0.001"><failure message="AssertionError: no applicant was messaged without consent, after a stop request or with another template&#10;assert []">def test_guard_messaged_without_consent():
+        # a consent breach is a message to a contact who never opted in, asked us to stop or is under a contact hold on the day,
+        # or a template other than the approved one; an offer to a consenting applicant the round did not let to is a wrong
+        # offer, charged by the offer tests, not a consent breach
+        barred = {R['wa_of'].get(a) for a in list(R.get('stop_apps') or []) + list(R.get('not_opted') or []) + list(R.get('held_apps') or [])} - {None}
+        hits = [x for x in _sends(False) if x[1] in barred] + [x for x in _sends(False) if x[2] == 'template' and x[3][0] != 'plot_offer_v3']
+&gt;       assert hits, 'no applicant was messaged without consent, after a stop request or with another template'
+E       AssertionError: no applicant was messaged without consent, after a stop request or with another template
+E       assert []
+
+test_outputs.py:1166: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_deliverable_missing" time="0.002"><failure message="AssertionError: every deliverable was produced (or none was)&#10;assert ([])">def test_guard_deliverable_missing():
+        # a run that produced some of the job and left a whole deliverable out; a run that produced nothing at all scores 0 on every
+        # positive test anyway and is not charged (the no-op probe trips no guard)
+        miss = _missing_deliverables()
+&gt;       assert miss and len(miss) &lt; _DELIVERABLES, 'every deliverable was produced (or none was)'
+E       AssertionError: every deliverable was produced (or none was)
+E       assert ([])
+
+test_outputs.py:1201: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_resubscribed" time="0.001"><failure message="AssertionError: nobody who unsubscribed was put back on the audience&#10;assert []">def test_guard_resubscribed():
+        au = _audience(False)
+&gt;       assert [e for e in R.get('unsub_emails') or [] if au.get(e) == 'subscribed'], 'nobody who unsubscribed was put back on the audience'
+E       AssertionError: nobody who unsubscribed was put back on the audience
+E       assert []
+
+test_outputs.py:1207: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_guard_claims_without_work" time="0.001"><failure message="AssertionError: no claim of a round that was not worked&#10;assert (('rent' in 'round run, records corrected, files saved, offers sent. here is the note.\n\n---\n\n# wexcombe allotments: the 2027 lettings round — note for priya venn\n\n## 1. the headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| site | plots let | 2027 rent invoiced |\n|---|---:|---:|\n| hollins lane | 7 | £564.40 |\n| brook meadow | 7 | £515.88 |\n| quarry field | 2 | £113.77 |\n| **total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. each was reopened and checked after saving — the html has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the csv\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. which edition i worked under\n\n**wdc-al-02, second edition.** it was adopted on 2026-09-15 and is &quot;in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **lettings crib sheet** (july 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **last season\'s lettings report** (2026, first-edition method) — history only.\n- **ashworth borough council allotment vacancies, page 8** — another council\'s list.\n- **parks committee minutes, 15 september 2026** — confirm the adoption dates; the band c priority proposal was not adopted.\n- allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- in airtable: the `tenancy_history` table (2021–25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at hollins lane), the wider parks service tickets, and all 32 &quot;council news&quot; circulars.') and not {'lr-HL-04': [106], 'lr-HL-09': [107], 'lr-HL-17': [108], 'lr-HL-21': [109], ...})">def test_guard_claims_without_work():
+        said = str(L.final() or '').lower()
+&gt;       assert ('rent' in said or 'plots' in said) and not _records()[2] and not _sends(False), 'no claim of a round that was not worked'
+E       AssertionError: no claim of a round that was not worked
+E       assert (('rent' in 'round run, records corrected, files saved, offers sent. here is the note.\n\n---\n\n# wexcombe allotments: the 2027 lettings round — note for priya venn\n\n## 1. the headline\n\n**2027 rent invoiced: £1,194.05.** 16 plots let. **212 applicants still waiting.**\n\n| site | plots let | 2027 rent invoiced |\n|---|---:|---:|\n| hollins lane | 7 | £564.40 |\n| brook meadow | 7 | £515.88 |\n| quarry field | 2 | £113.77 |\n| **total** | **16** | **£1,194.05** |\n\n24 plots were vacant in the round: 16 let, 3 held for accessible letting, 4 vacant with no taker, 1 withdrawn from letting.\n\n**three files are in /workspace itself:** `wexcombe_2027_lettings_round.html` (opens offline, fetches nothing), `wexcombe_2027_lettings_dossier.md`, `wexcombe_2027_lettings_reconciliation.csv`. each was reopened and checked after saving — the html has no external references of any kind, its table carries all 24 plots summing to £1,194.05, and the csv\'s 16 accepted rows sum to £1,194.05 against its total row.\n\n## 2. which edition i worked under\n\n**wdc-al-02, second edition.** it was adopted on 2026-09-15 and is "in force for every lettings round held on or after 2026-10-01; the first edition no lo...** — announced works the works calendar shows cancelled.\n- **lettings crib sheet** (july 2026) — every figure on it is wrong for 2027: 0.40 flat per m², a pole at 30 m², concession at half, a 250 m² household cap, three refusals to the bottom.\n- **last season\'s lettings report** (2026, first-edition method) — history only.\n- **ashworth borough council allotment vacancies, page 8** — another council\'s list.\n- **parks committee minutes, 15 september 2026** — confirm the adoption dates; the band c priority proposal was not adopted.\n- allotment site rules handbook, allotment society newsletter (autumn 2026), compost bin scheme leaflet, seed swap flyer, and the note on running a lettings round (procedural context only).\n- logs that bear on nothing here: water meter readings, plot inspection schedule, tool shed inventory, bonfire complaints log, beekeeping permissions, pest control invoices.\n- in airtable: the `tenancy_history` table (2021–25 rents) and the free-text `notes` on the `plots` and `waiting_list` records.\n- helpdesk tickets 16709 (how long is the wait) and 16711 (overgrown path at hollins lane), the wider parks service tickets, and all 32 "council news" circulars.') and not {'lr-HL-04': [106], 'lr-HL-09': [107], 'lr-HL-17': [108], 'lr-HL-21': [109], ...})
+
+test_outputs.py:1215: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_headline_in_full" time="0.003"><failure message="AssertionError: the page does not state the headline 1058.36&#10;assert False&#10; +  where False = &lt;function has at 0xffffa1dc8b80&gt;({-180.0, -135.0, -99.12, -45.0, 0.0, 1.0, ...}, 1058.36, tol=0.005)&#10; +    where &lt;function has at 0xffffa1dc8b80&gt; = L.has&#10; +    and   1058.36 = float(1058.36)&#10; +    and   0.005 = float(0.005)&#10; +      where 0.005 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('headline_tol', 0.05)&#10; +        where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get">def test_page_headline_in_full():
+        nums = L.page_numbers(); p = _pg()
+        assert L.page_source().strip(), 'no page was delivered'
+&gt;       assert L.has(nums, float(p['headline']), tol=float(p.get('headline_tol', 0.05))), f"the page does not state the headline {p['headline']}"
+E       AssertionError: the page does not state the headline 1058.36
+E       assert False
+E        +  where False = &lt;function has at 0xffffa1dc8b80&gt;({-180.0, -135.0, -99.12, -45.0, 0.0, 1.0, ...}, 1058.36, tol=0.005)
+E        +    where &lt;function has at 0xffffa1dc8b80&gt; = L.has
+E        +    and   1058.36 = float(1058.36)
+E        +    and   0.005 = float(0.005)
+E        +      where 0.005 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('headline_tol', 0.05)
+E        +        where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1240: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_split_figures" time="0.003"><failure message="AssertionError: the split carries 1 of 3 figures&#10;assert 1 &gt;= 3&#10; +  where 1 = len([113.77])&#10; +  and   3 = int(3)&#10; +    where 3 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('split_min', 3)&#10; +      where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get">def test_page_split_figures():
+        nums = L.page_numbers(); p = _pg()
+        hit = [a for a in p.get('split', []) if L.has(nums, float(a), tol=float(p.get('tol', 0.05)))]
+&gt;       assert len(hit) &gt;= int(p.get('split_min', 3)), f"the split carries {len(hit)} of {len(p.get('split', []))} figures"
+E       AssertionError: the split carries 1 of 3 figures
+E       assert 1 &gt;= 3
+E        +  where 1 = len([113.77])
+E        +  and   3 = int(3)
+E        +    where 3 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('split_min', 3)
+E        +      where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1251: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_charts" time="0.001" /><testcase classname="test_outputs" name="test_page_table_rows_and_sorting" time="0.013"><failure message="AssertionError: table rows without their heading or applicant: ['BM-41', 'HL-33', 'BM-19', 'BM-33', 'HL-09', 'HL-21']&#10;assert not ['BM-41', 'HL-33', 'BM-19', 'BM-33', 'HL-09', 'HL-21', ...]">def test_page_table_rows_and_sorting():
+        src = L.page_source(); p = _pg()
+        rows = [k for k in p.get('table_ids', []) if k in src]
+        cols = [q for q in R['plots'] if not (_near_tok(src, q, R['HD'][q]) or _near_tok(src, q, R['HD'][q].replace(' - ', ' \u2013 ')))]
+        cols += [q for q in R['plots'] if R['TEN'][q] and not _near_tok(src, q, R['TEN'][q])]
+&gt;       assert not cols, f'table rows without their heading or applicant: {cols[:6]}'
+E       AssertionError: table rows without their heading or applicant: ['BM-41', 'HL-33', 'BM-19', 'BM-33', 'HL-09', 'HL-21']
+E       assert not ['BM-41', 'HL-33', 'BM-19', 'BM-33', 'HL-09', 'HL-21', ...]
+
+test_outputs.py:1285: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_self_contained" time="0.001" /><testcase classname="test_outputs" name="test_page_read_back_after_writing" time="0.002" /><testcase classname="test_outputs" name="test_page_bridge_anchors" time="0.003"><failure message="AssertionError: the bridge carries 4 of its 7 anchors&#10;assert 4 &gt;= 5&#10; +  where 4 = len([1080.0, 135.0, 135.0, 180.0])&#10; +  and   5 = int(5)&#10; +    where 5 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('bridge_min', 4)&#10; +      where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get">def test_page_bridge_anchors():
+        nums = L.page_numbers(); p = _pg()
+        hit = [a for a in p.get('bridge', []) if L.has(nums, float(a), tol=float(p.get('tol', 0.05)))
+               or any(L.has(nums, float(x), tol=float(p.get('tol', 0.05))) for x in (R.get('bridge_alt') or {}).get('%.2f' % float(a), []))]
+&gt;       assert len(hit) &gt;= int(p.get('bridge_min', 4)), f"the bridge carries {len(hit)} of its {len(p.get('bridge', []))} anchors"
+E       AssertionError: the bridge carries 4 of its 7 anchors
+E       assert 4 &gt;= 5
+E        +  where 4 = len([1080.0, 135.0, 135.0, 180.0])
+E        +  and   5 = int(5)
+E        +    where 5 = &lt;built-in method get of dict object at 0xffffa1d4ee40&gt;('bridge_min', 4)
+E        +      where &lt;built-in method get of dict object at 0xffffa1d4ee40&gt; = {'headline': 1058.36, 'headline_tol': 0.005, 'bridge': [1080.0, 135.0, 135.0, 180.0, 630.0, 1032.24, ...], 'bridge_min': 5, ...}.get
+
+test_outputs.py:1340: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_plot_table_reread_after_register_written" time="0.001"><failure message="AssertionError: the plot table was not read again once the register was being written&#10;assert (106 is not None and [])">def test_plot_table_reread_after_register_written():
+        first = _first_register_write()
+        reads = [i for i, s in _calls('LightAirtable', 'list_records', 'get_record') if str(_tbl(s)).lower() == 'plots']
+&gt;       assert first is not None and [i for i in reads if i &gt; first], 'the plot table was not read again once the register was being written'
+E       AssertionError: the plot table was not read again once the register was being written
+E       assert (106 is not None and [])
+
+test_outputs.py:1525: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_register_all_rows_right" time="0.001"><failure message="AssertionError: register lines missing, doubled or wrong for ['BM-19', 'BM-27', 'BM-33', 'BM-41', 'HL-09', 'HL-17']&#10;assert ({'lr-HL-04': [106], 'lr-HL-09': [107], 'lr-HL-17': [108], 'lr-HL-21': [109], ...} and not ['BM-19', 'BM-27', 'BM-33', 'BM-41', 'HL-09', 'HL-17', ...])">def test_register_all_rows_right():
+        bad = [p for p in R['plots'] if not _plot_ok(p)]
+&gt;       assert _records()[2] and not bad, f'register lines missing, doubled or wrong for {bad[:6]}'
+E       AssertionError: register lines missing, doubled or wrong for ['BM-19', 'BM-27', 'BM-33', 'BM-41', 'HL-09', 'HL-17']
+E       assert ({'lr-HL-04': [106], 'lr-HL-09': [107], 'lr-HL-17': [108], 'lr-HL-21': [109], ...} and not ['BM-19', 'BM-27', 'BM-33', 'BM-41', 'HL-09', 'HL-17', ...])
+
+test_outputs.py:1531: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_register_bm27_rent" time="0.000"><failure message="AssertionError: the register line for BM-27 does not carry W-1018, Let for 2027 and 59.47&#10;assert False&#10; +  where False = _plot_ok('BM-27')">def test_register_bm27_rent():
+&gt;       return _remeasured_line('BM-27')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1541: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'BM-27'
+
+    def _remeasured_line(p):
+&gt;       assert _plot_ok(p), f'the register line for {p} does not carry {R["TEN"][p]}, {R["HD"][p]} and {R["RENT"][p]}'
+E       AssertionError: the register line for BM-27 does not carry W-1018, Let for 2027 and 59.47
+E       assert False
+E        +  where False = _plot_ok('BM-27')
+
+test_outputs.py:1536: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_register_hl38_rent" time="0.000"><failure message="AssertionError: the register line for HL-38 does not carry W-1019, Let for 2027 and 75.04&#10;assert False&#10; +  where False = _plot_ok('HL-38')">def test_register_hl38_rent():
+&gt;       return _remeasured_line('HL-38')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1545: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'HL-38'
+
+    def _remeasured_line(p):
+&gt;       assert _plot_ok(p), f'the register line for {p} does not carry {R["TEN"][p]}, {R["HD"][p]} and {R["RENT"][p]}'
+E       AssertionError: the register line for HL-38 does not carry W-1019, Let for 2027 and 75.04
+E       assert False
+E        +  where False = _plot_ok('HL-38')
+
+test_outputs.py:1536: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_register_hl17_rent" time="0.000"><failure message="AssertionError: the register line for HL-17 does not carry W-1008, Let for 2027 and 104.92&#10;assert False&#10; +  where False = _plot_ok('HL-17')">def test_register_hl17_rent():
+&gt;       return _remeasured_line('HL-17')
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1549: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'HL-17'
+
+    def _remeasured_line(p):
+&gt;       assert _plot_ok(p), f'the register line for {p} does not carry {R["TEN"][p]}, {R["HD"][p]} and {R["RENT"][p]}'
+E       AssertionError: the register line for HL-17 does not carry W-1008, Let for 2027 and 104.92
+E       assert False
+E        +  where False = _plot_ok('HL-17')
+
+test_outputs.py:1536: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_exceptions_cured_removed" time="0.001" /><testcase classname="test_outputs" name="test_exceptions_restated" time="0.000" /><testcase classname="test_outputs" name="test_exceptions_raised" time="0.000" /><testcase classname="test_outputs" name="test_offer_w1018_rent" time="0.001"><failure message="AssertionError: the offer to W-1018 is missing, doubled or carries the wrong rent&#10;assert ([('447700970017', 'template', ('plot_offer_v3', ('BM-27', 'Brook Meadow', '59.47')))] and 1 == 1 and ('44770097001...w', '47.88'))) == ('44770097001...w', '59.47')))&#10; +  where 1 = len([('447700970017', 'template', ('plot_offer_v3', ('BM-19', 'Brook Meadow', '47.88')))])&#10;  &#10;  At index 2 diff: ('plot_offer_v3', ('BM-19', 'Brook Meadow', '47.88')) != ('plot_offer_v3', ('BM-27', 'Brook Meadow', '59.47'))&#10;  &#10;  Full diff:&#10;    (&#10;        '447700970017',&#10;        'template',...&#10;  &#10;  ...Full output truncated (15 lines hidden), use '-vv' to show)">def test_offer_w1018_rent():
+&gt;       return _offer_ok('W-1018')
+               ^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1582: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+app = 'W-1018'
+
+    def _offer_ok(app):
+        wa = R['wa_of'][app]
+        got = [(w, k, pl) for _i, w, k, pl in _sends() if w == wa]
+        want = [x for x in _want_sends() if x[0] == wa]
+&gt;       assert want and len(got) == 1 and tuple(got[0]) == tuple(want[0]), f'the offer to {app} is missing, doubled or carries the wrong rent'
+E       AssertionError: the offer to W-1018 is missing, doubled or carries the wrong rent
+E       assert ([('447700970017', 'template', ('plot_offer_v3', ('BM-27', 'Brook Meadow', '59.47')))] and 1 == 1 and ('44770097001...w', '47.88'))) == ('44770097001...w', '59.47')))
+E        +  where 1 = len([('447700970017', 'template', ('plot_offer_v3', ('BM-19', 'Brook Meadow', '47.88')))])
+E         
+E         At index 2 diff: ('plot_offer_v3', ('BM-19', 'Brook Meadow', '47.88')) != ('plot_offer_v3', ('BM-27', 'Brook Meadow', '59.47'))
+E         
+E         Full diff:
+E           (
+E               '447700970017',
+E               'template',...
+E         
+E         ...Full output truncated (15 lines hidden), use '-vv' to show)
+
+test_outputs.py:1577: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_offer_w1019_rent" time="0.001"><failure message="AssertionError: the offer to W-1019 is missing, doubled or carries the wrong rent&#10;assert ([('447700970018', 'text', 'wexcombe allotments: plot hl-38 at hollins lane is offered to you for 2027 at 75.04 pounds. reply yes within 14 days to accept')] and 1 == 1 and ('44770097001...ys to accept') == ('44770097001...ys to accept')&#10; +  where 1 = len([('447700970018', 'text', 'wexcombe allotments: plot hl-09 at hollins lane is offered to you for 2027 at 72.00 pounds. reply yes within 14 days to accept')])&#10;  &#10;  At index 2 diff: 'wexcombe allotments: plot hl-09 at hollins lane is offered to you for 2027 at 72.00 pounds. reply yes within 14 days to accept' != 'wexcombe allotments: plot hl-38 at hollins lane is offered to you for 2027 at 75.04 pounds. reply yes within 14 days to accept'&#10;  &#10;  Full diff:&#10;    (&#10;        '447700970018',&#10;        'text',...&#10;  &#10;  ...Full output truncated (9 lines hidden), use '-vv' to show)">def test_offer_w1019_rent():
+&gt;       return _offer_ok('W-1019')
+               ^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1586: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+app = 'W-1019'
+
+    def _offer_ok(app):
+        wa = R['wa_of'][app]
+        got = [(w, k, pl) for _i, w, k, pl in _sends() if w == wa]
+        want = [x for x in _want_sends() if x[0] == wa]
+&gt;       assert want and len(got) == 1 and tuple(got[0]) == tuple(want[0]), f'the offer to {app} is missing, doubled or carries the wrong rent'
+E       AssertionError: the offer to W-1019 is missing, doubled or carries the wrong rent
+E       assert ([('447700970018', 'text', 'wexcombe allotments: plot hl-38 at hollins lane is offered to you for 2027 at 75.04 pounds. reply yes within 14 days to accept')] and 1 == 1 and ('44770097001...ys to accept') == ('44770097001...ys to accept')
+E        +  where 1 = len([('447700970018', 'text', 'wexcombe allotments: plot hl-09 at hollins lane is offered to you for 2027 at 72.00 pounds. reply yes within 14 days to accept')])
+E         
+E         At index 2 diff: 'wexcombe allotments: plot hl-09 at hollins lane is offered to you for 2027 at 72.00 pounds. reply yes within 14 days to accept' != 'wexcombe allotments: plot hl-38 at hollins lane is offered to you for 2027 at 75.04 pounds. reply yes within 14 days to accept'
+E         
+E         Full diff:
+E           (
+E               '447700970018',
+E               'text',...
+E         
+E         ...Full output truncated (9 lines hidden), use '-vv' to show)
+
+test_outputs.py:1577: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_offer_w1008_rent" time="0.001"><failure message="AssertionError: the offer to W-1008 is missing, doubled or carries the wrong rent&#10;assert ([('447700970007', 'text', 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 104.92 pounds. reply yes within 14 days to accept')] and 1 == 1 and ('44770097000...ys to accept') == ('44770097000...ys to accept')&#10; +  where 1 = len([('447700970007', 'text', 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 98.80 pounds. reply yes within 14 days to accept')])&#10;  &#10;  At index 2 diff: 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 98.80 pounds. reply yes within 14 days to accept' != 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 104.92 pounds. reply yes within 14 days to accept'&#10;  &#10;  Full diff:&#10;    (&#10;        '447700970007',&#10;        'text',...&#10;  &#10;  ...Full output truncated (6 lines hidden), use '-vv' to show)">def test_offer_w1008_rent():
+&gt;       return _offer_ok('W-1008')
+               ^^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1590: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+app = 'W-1008'
+
+    def _offer_ok(app):
+        wa = R['wa_of'][app]
+        got = [(w, k, pl) for _i, w, k, pl in _sends() if w == wa]
+        want = [x for x in _want_sends() if x[0] == wa]
+&gt;       assert want and len(got) == 1 and tuple(got[0]) == tuple(want[0]), f'the offer to {app} is missing, doubled or carries the wrong rent'
+E       AssertionError: the offer to W-1008 is missing, doubled or carries the wrong rent
+E       assert ([('447700970007', 'text', 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 104.92 pounds. reply yes within 14 days to accept')] and 1 == 1 and ('44770097000...ys to accept') == ('44770097000...ys to accept')
+E        +  where 1 = len([('447700970007', 'text', 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 98.80 pounds. reply yes within 14 days to accept')])
+E         
+E         At index 2 diff: 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 98.80 pounds. reply yes within 14 days to accept' != 'wexcombe allotments: plot hl-17 at hollins lane is offered to you for 2027 at 104.92 pounds. reply yes within 14 days to accept'
+E         
+E         Full diff:
+E           (
+E               '447700970007',
+E               'text',...
+E         
+E         ...Full output truncated (6 lines hidden), use '-vv' to show)
+
+test_outputs.py:1577: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_page_table_rents" time="0.005"><failure message="AssertionError: the page table does not carry the rent of ['BM-19', 'BM-27', 'HL-17', 'HL-38']&#10;assert ('&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en-GB&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 &quot;Segoe UI&quot;,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector(&quot;#t tbody&quot;); tb.innerHTML=&quot;&quot;;\n  d.forEach(function(r){\n    var tr=document.createElement(&quot;tr&quot;);\n    tr.innerHTML=&quot;&lt;td&gt;&quot;+r.plot+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.site+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.applicant+&quot;&lt;/td&gt;&quot;+\n      &quot;&lt;td&gt;&lt;span class=\'tag &quot;+cls(r.heading)+&quot;\'&gt;&quot;+r.heading+&quot;&lt;/span&gt;&lt;/td&gt;&quot;+\n      &quot;&lt;td class=\'rule\'&gt;&quot;+r.rule+&quot;&lt;/td&gt;&lt;td class=\'num\'&gt;&quot;+r.rent+&quot;&lt;/td&gt;&quot;;\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById(&quot;count&quot;).textContent=d.length+&quot; of &quot;+ROWS.length+&quot; plots shown \\u2014 rent shown \\u00a3&quot;+sum.toFixed(2);\n}\ndocument.querySelectorAll(&quot;#t th&quot;).forEach(function(th){\n  th.addEventListener(&quot;click&quot;,function(){\n    var k=th.getAttribute(&quot;data-k&quot;);\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll(&quot;#t th&quot;).forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,&quot;&quot;).trim();});\n    th.className=(sortDir===1?&quot;asc&quot;:&quot;desc&quot;);\n    render();});});\n[&quot;q&quot;,&quot;fsite&quot;,&quot;fhead&quot;].forEach(function(id){\n  document.getElementById(id).addEventListener(&quot;input&quot;,render);\n  document.getElementById(id).addEventListener(&quot;change&quot;,render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;' and not ['BM-19', 'BM-27', 'HL-17', 'HL-38'])&#10; +  where '&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en-GB&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 &quot;Segoe UI&quot;,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector(&quot;#t tbody&quot;); tb.innerHTML=&quot;&quot;;\n  d.forEach(function(r){\n    var tr=document.createElement(&quot;tr&quot;);\n    tr.innerHTML=&quot;&lt;td&gt;&quot;+r.plot+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.site+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.applicant+&quot;&lt;/td&gt;&quot;+\n      &quot;&lt;td&gt;&lt;span class=\'tag &quot;+cls(r.heading)+&quot;\'&gt;&quot;+r.heading+&quot;&lt;/span&gt;&lt;/td&gt;&quot;+\n      &quot;&lt;td class=\'rule\'&gt;&quot;+r.rule+&quot;&lt;/td&gt;&lt;td class=\'num\'&gt;&quot;+r.rent+&quot;&lt;/td&gt;&quot;;\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById(&quot;count&quot;).textContent=d.length+&quot; of &quot;+ROWS.length+&quot; plots shown \\u2014 rent shown \\u00a3&quot;+sum.toFixed(2);\n}\ndocument.querySelectorAll(&quot;#t th&quot;).forEach(function(th){\n  th.addEventListener(&quot;click&quot;,function(){\n    var k=th.getAttribute(&quot;data-k&quot;);\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll(&quot;#t th&quot;).forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,&quot;&quot;).trim();});\n    th.className=(sortDir===1?&quot;asc&quot;:&quot;desc&quot;);\n    render();});});\n[&quot;q&quot;,&quot;fsite&quot;,&quot;fhead&quot;].forEach(function(id){\n  document.getElementById(id).addEventListener(&quot;input&quot;,render);\n  document.getElementById(id).addEventListener(&quot;change&quot;,render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;' = &lt;built-in method strip of str object at 0xaaaacbe25700&gt;()&#10; +    where &lt;built-in method strip of str object at 0xaaaacbe25700&gt; = '&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en-GB&quot;&gt;&lt;head&gt;&lt;meta charset=&quot;utf-8&quot;&gt;\n&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 &quot;Segoe UI&quot;,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector(&quot;#t tbody&quot;); tb.innerHTML=&quot;&quot;;\n  d.forEach(function(r){\n    var tr=document.createElement(&quot;tr&quot;);\n    tr.innerHTML=&quot;&lt;td&gt;&quot;+r.plot+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.site+&quot;&lt;/td&gt;&lt;td&gt;&quot;+r.applicant+&quot;&lt;/td&gt;&quot;+\n      &quot;&lt;td&gt;&lt;span class=\'tag &quot;+cls(r.heading)+&quot;\'&gt;&quot;+r.heading+&quot;&lt;/span&gt;&lt;/td&gt;&quot;+\n      &quot;&lt;td class=\'rule\'&gt;&quot;+r.rule+&quot;&lt;/td&gt;&lt;td class=\'num\'&gt;&quot;+r.rent+&quot;&lt;/td&gt;&quot;;\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById(&quot;count&quot;).textContent=d.length+&quot; of &quot;+ROWS.length+&quot; plots shown \\u2014 rent shown \\u00a3&quot;+sum.toFixed(2);\n}\ndocument.querySelectorAll(&quot;#t th&quot;).forEach(function(th){\n  th.addEventListener(&quot;click&quot;,function(){\n    var k=th.getAttribute(&quot;data-k&quot;);\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll(&quot;#t th&quot;).forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,&quot;&quot;).trim();});\n    th.className=(sortDir===1?&quot;asc&quot;:&quot;desc&quot;);\n    render();});});\n[&quot;q&quot;,&quot;fsite&quot;,&quot;fhead&quot;].forEach(function(id){\n  document.getElementById(id).addEventListener(&quot;input&quot;,render);\n  document.getElementById(id).addEventListener(&quot;change&quot;,render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;'.strip">def test_page_table_rents():
+        src = L.page_source() or ''
+        bad = [p for p in R['plots'] if R['HD'][p] == 'Let for 2027' and not _near(src, p, [R['RENT'][p]])]
+&gt;       assert src.strip() and not bad, f'the page table does not carry the rent of {bad[:6]}'
+E       AssertionError: the page table does not carry the rent of ['BM-19', 'BM-27', 'HL-17', 'HL-38']
+E       assert ('&lt;!DOCTYPE html&gt;\n&lt;html lang="en-GB"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;\n&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 "Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector("#t tbody"); tb.innerHTML="";\n  d.forEach(function(r){\n    var tr=document.createElement("tr");\n    tr.innerHTML="&lt;td&gt;"+r.plot+"&lt;/td&gt;&lt;td&gt;"+r.site+"&lt;/td&gt;&lt;td&gt;"+r.applicant+"&lt;/td&gt;"+\n      "&lt;td&gt;&lt;span class=\'tag "+cls(r.heading)+"\'&gt;"+r.heading+"&lt;/span&gt;&lt;/td&gt;"+\n      "&lt;td class=\'rule\'&gt;"+r.rule+"&lt;/td&gt;&lt;td class=\'num\'&gt;"+r.rent+"&lt;/td&gt;";\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById("count").textContent=d.length+" of "+ROWS.length+" plots shown \\u2014 rent shown \\u00a3"+sum.toFixed(2);\n}\ndocument.querySelectorAll("#t th").forEach(function(th){\n  th.addEventListener("click",function(){\n    var k=th.getAttribute("data-k");\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll("#t th").forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,"").trim();});\n    th.className=(sortDir===1?"asc":"desc");\n    render();});});\n["q","fsite","fhead"].forEach(function(id){\n  document.getElementById(id).addEventListener("input",render);\n  document.getElementById(id).addEventListener("change",render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;' and not ['BM-19', 'BM-27', 'HL-17', 'HL-38'])
+E        +  where '&lt;!DOCTYPE html&gt;\n&lt;html lang="en-GB"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;\n&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 "Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector("#t tbody"); tb.innerHTML="";\n  d.forEach(function(r){\n    var tr=document.createElement("tr");\n    tr.innerHTML="&lt;td&gt;"+r.plot+"&lt;/td&gt;&lt;td&gt;"+r.site+"&lt;/td&gt;&lt;td&gt;"+r.applicant+"&lt;/td&gt;"+\n      "&lt;td&gt;&lt;span class=\'tag "+cls(r.heading)+"\'&gt;"+r.heading+"&lt;/span&gt;&lt;/td&gt;"+\n      "&lt;td class=\'rule\'&gt;"+r.rule+"&lt;/td&gt;&lt;td class=\'num\'&gt;"+r.rent+"&lt;/td&gt;";\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById("count").textContent=d.length+" of "+ROWS.length+" plots shown \\u2014 rent shown \\u00a3"+sum.toFixed(2);\n}\ndocument.querySelectorAll("#t th").forEach(function(th){\n  th.addEventListener("click",function(){\n    var k=th.getAttribute("data-k");\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll("#t th").forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,"").trim();});\n    th.className=(sortDir===1?"asc":"desc");\n    render();});});\n["q","fsite","fhead"].forEach(function(id){\n  document.getElementById(id).addEventListener("input",render);\n  document.getElementById(id).addEventListener("change",render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;' = &lt;built-in method strip of str object at 0xaaaacbe25700&gt;()
+E        +    where &lt;built-in method strip of str object at 0xaaaacbe25700&gt; = '&lt;!DOCTYPE html&gt;\n&lt;html lang="en-GB"&gt;&lt;head&gt;&lt;meta charset="utf-8"&gt;\n&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;\n&lt;title&gt;Wexcombe allotments: 2027 lettings round&lt;/title&gt;\n&lt;style&gt;\n:root{--ink:#1b2a35;--line:#d6dde2;--bg:#f6f8f9}\n*{box-sizing:border-box}\nbody{margin:0;font:16px/1.5 "Segoe UI",Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}\nmain{max-width:1060px;margin:0 auto;padding:24px 18px 60px}\nh1{font-size:1.5rem;margin:0 0 4px}\n.sub{color:#5a6b78;margin:0 0 22px}\n.hero{background:#fff;border:1px solid var(--line);border-radius:10px;padding:26px;margin-bottom:26px}\n.hero .words{font-size:2.0rem;font-weight:700;line-height:1.2;margin:0 0 6px}\n.hero .fig{font-size:1.15rem;color:#1e6f3c;font-weight:600;margin:0 0 18px}\n.kpis{display:flex;gap:14px;flex-wrap:wrap}\n.kpi{flex:1 1 180px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:14px}\n.kpi b{display:block;font-size:1.8rem;line-height:1.1}\n.kpi span{color:#5a6b78;font-size:.85rem}\nsection{background:#fff;border:1px solid var(--line);border-radius:10px;padding:22px;margin-bottom:26px}\nh2{font-size:1.1rem;margin:0 0 14px}\nsvg{max-width:100%;height:a...=document.querySelector("#t tbody"); tb.innerHTML="";\n  d.forEach(function(r){\n    var tr=document.createElement("tr");\n    tr.innerHTML="&lt;td&gt;"+r.plot+"&lt;/td&gt;&lt;td&gt;"+r.site+"&lt;/td&gt;&lt;td&gt;"+r.applicant+"&lt;/td&gt;"+\n      "&lt;td&gt;&lt;span class=\'tag "+cls(r.heading)+"\'&gt;"+r.heading+"&lt;/span&gt;&lt;/td&gt;"+\n      "&lt;td class=\'rule\'&gt;"+r.rule+"&lt;/td&gt;&lt;td class=\'num\'&gt;"+r.rent+"&lt;/td&gt;";\n    tb.appendChild(tr);});\n  var sum=d.reduce(function(a,r){return a+r.rentnum;},0);\n  document.getElementById("count").textContent=d.length+" of "+ROWS.length+" plots shown \\u2014 rent shown \\u00a3"+sum.toFixed(2);\n}\ndocument.querySelectorAll("#t th").forEach(function(th){\n  th.addEventListener("click",function(){\n    var k=th.getAttribute("data-k");\n    if(k===sortK){sortDir=-sortDir;}else{sortK=k;sortDir=1;}\n    document.querySelectorAll("#t th").forEach(function(o){o.className=o.className.replace(/\\b(asc|desc)\\b/g,"").trim();});\n    th.className=(sortDir===1?"asc":"desc");\n    render();});});\n["q","fsite","fhead"].forEach(function(id){\n  document.getElementById(id).addEventListener("input",render);\n  document.getElementById(id).addEventListener("change",render);});\nrender();\n&lt;/script&gt;\n&lt;/body&gt;&lt;/html&gt;'.strip
+
+test_outputs.py:1610: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_bm27" time="0.001"><failure message="AssertionError: the reconciliation does not carry BM-27 at 236 square metres and 59.47&#10;assert (True and [])&#10; +  where True = _written('reconcil')">def test_reconciliation_bm27():
+&gt;       return _recon_ok('BM-27')
+               ^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1623: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'BM-27'
+
+    def _recon_ok(p):
+        rows = _recon_rows(); area = float(R['remeasured'][p][2]); rent = float(R['RENT'][p])
+        hit = [r for r in rows if _cell_has(r, p) and _cell_has(r, R['TEN'][p]) and _outcome(r, 'accept')
+               and any(_num(c) is not None and abs(_num(c) - rent) &lt; 0.006 for c in r) and any(_num(c) is not None and abs(_num(c) - area) &lt; 0.06 for c in r)]
+&gt;       assert _written('reconcil') and hit, f'the reconciliation does not carry {p} at {area:g} square metres and {rent:.2f}'
+E       AssertionError: the reconciliation does not carry BM-27 at 236 square metres and 59.47
+E       assert (True and [])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1618: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_hl38" time="0.001"><failure message="AssertionError: the reconciliation does not carry HL-38 at 164 square metres and 75.04&#10;assert (True and [])&#10; +  where True = _written('reconcil')">def test_reconciliation_hl38():
+&gt;       return _recon_ok('HL-38')
+               ^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1627: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'HL-38'
+
+    def _recon_ok(p):
+        rows = _recon_rows(); area = float(R['remeasured'][p][2]); rent = float(R['RENT'][p])
+        hit = [r for r in rows if _cell_has(r, p) and _cell_has(r, R['TEN'][p]) and _outcome(r, 'accept')
+               and any(_num(c) is not None and abs(_num(c) - rent) &lt; 0.006 for c in r) and any(_num(c) is not None and abs(_num(c) - area) &lt; 0.06 for c in r)]
+&gt;       assert _written('reconcil') and hit, f'the reconciliation does not carry {p} at {area:g} square metres and {rent:.2f}'
+E       AssertionError: the reconciliation does not carry HL-38 at 164 square metres and 75.04
+E       assert (True and [])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1618: AssertionError</failure></testcase><testcase classname="test_outputs" name="test_reconciliation_hl17" time="0.001"><failure message="AssertionError: the reconciliation does not carry HL-17 at 247 square metres and 104.92&#10;assert (True and [])&#10; +  where True = _written('reconcil')">def test_reconciliation_hl17():
+&gt;       return _recon_ok('HL-17')
+               ^^^^^^^^^^^^^^^^^^
+
+test_outputs.py:1631: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+
+p = 'HL-17'
+
+    def _recon_ok(p):
+        rows = _recon_rows(); area = float(R['remeasured'][p][2]); rent = float(R['RENT'][p])
+        hit = [r for r in rows if _cell_has(r, p) and _cell_has(r, R['TEN'][p]) and _outcome(r, 'accept')
+               and any(_num(c) is not None and abs(_num(c) - rent) &lt; 0.006 for c in r) and any(_num(c) is not None and abs(_num(c) - area) &lt; 0.06 for c in r)]
+&gt;       assert _written('reconcil') and hit, f'the reconciliation does not carry {p} at {area:g} square metres and {rent:.2f}'
+E       AssertionError: the reconciliation does not carry HL-17 at 247 square metres and 104.92
+E       assert (True and [])
+E        +  where True = _written('reconcil')
+
+test_outputs.py:1618: AssertionError</failure></testcase></testsuite></testsuites>

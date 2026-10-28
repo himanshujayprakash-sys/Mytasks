@@ -1,0 +1,502 @@
+{
+  "pytest": {
+    "score": 0.8182,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.8182,
+        "raw": 0.818182,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 153 of 187, charged 0; missed 10: test_web_chat_read, test_register_headings, test_register_values, test_loss_time_decides, test_web_chat_duplicate_merged, test_lapse_and_reinstatement, test_gust_threshold, test_merged_once, test_final_answer_states_bridge, test_final_answer_states_corrections"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.4216,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-report-gives-storm-imogen",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.049019607843137254,
+        "description": "[final answer] The report gives the Storm Imogen net incurred reserve as \u00a3340,312.26.",
+        "reasoning": "The delivered HTML states \u201c\u00a3340,312.26\u201d under \u201cStorm Imogen \u2014 event reserve return\u201d (workspace/storm_imogen_event_return.html, lines 56\u201358)."
+      },
+      {
+        "id": "2",
+        "name": "j-report-splits-reserve-damage",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report splits the reserve by damage group: roof \u00a394,120.50, structural \u00a387,342.00, other \u00a3158,849.76.",
+        "reasoning": "The report explicitly lists Roof \u00a394,120.50, Structural \u00a387,342.00, and Other \u00a3158,849.76 (workspace/storm_imogen_event_return.html, lines 65\u201367)."
+      },
+      {
+        "id": "3",
+        "name": "j-report-says-am-cat",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report says AM-CAT-03 second edition was applied.",
+        "reasoning": "The report says \u201cStandard applied AM-CAT-03, second edition\u201d (workspace/storm_imogen_event_return.html, line 60)."
+      },
+      {
+        "id": "4",
+        "name": "j-report-starts-bridge-902",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report starts the bridge at \u00a3902,691.00 of claimant estimates.",
+        "reasoning": "The bridge opens with \u201cClaimant estimates on the ledger: 902,691.00\u201d (workspace/storm_imogen_event_return.html, lines 88\u201389)."
+      },
+      {
+        "id": "5",
+        "name": "j-report-s-bridge-takes",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a32,650.00 as below the excess.",
+        "reasoning": "The bridge explicitly shows \u201cBelow the excess: -2,650.00\u201d (workspace/storm_imogen_event_return.html, lines 118\u2013119)."
+      },
+      {
+        "id": "6",
+        "name": "j-report-s-bridge-takes-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a3217,357.00 as declined.",
+        "reasoning": "The report shows Declined as only \u00a328,079.00, not \u00a3217,357.00 (workspace/storm_imogen_event_return.html, excluded-classes table)."
+      },
+      {
+        "id": "7",
+        "name": "j-report-s-bridge-takes-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a333,110.00 as merged into another claim.",
+        "reasoning": "The bridge shows \u201cMerged into another claim: -16,370.00,\u201d not \u00a333,110.00 (workspace/storm_imogen_event_return.html, bridge)."
+      },
+      {
+        "id": "8",
+        "name": "j-report-s-bridge-takes-4",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a349,785.00 as not covered.",
+        "reasoning": "The report shows Not covered as \u00a3255,803.00, not \u00a349,785.00 (workspace/storm_imogen_event_return.html, excluded-classes table)."
+      },
+      {
+        "id": "9",
+        "name": "j-report-s-bridge-takes-5",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a311,650.00 as not this book's event.",
+        "reasoning": "The bridge explicitly shows \u201cNot this book's event: -11,650.00\u201d (workspace/storm_imogen_event_return.html, lines 107\u2013108)."
+      },
+      {
+        "id": "10",
+        "name": "j-report-s-bridge-takes-6",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a386,641.00 as outside the event window.",
+        "reasoning": "The bridge explicitly shows \u201cOutside the event window: -86,641.00\u201d (workspace/storm_imogen_event_return.html, lines 93\u201394)."
+      },
+      {
+        "id": "11",
+        "name": "j-report-s-bridge-takes-7",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a360,650.00 as reserve not authorised.",
+        "reasoning": "The bridge explicitly shows \u201cReserve not authorised: -60,650.00\u201d (workspace/storm_imogen_event_return.html, lines 114\u2013115)."
+      },
+      {
+        "id": "12",
+        "name": "j-report-s-bridge-takes-8",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge takes off \u00a316,254.00 as withdrawn.",
+        "reasoning": "The bridge explicitly shows \u201cWithdrawn: -16,254.00\u201d (workspace/storm_imogen_event_return.html, lines 100\u2013101)."
+      },
+      {
+        "id": "13",
+        "name": "j-report-names-claims-excluded",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as below the excess: C-26-309, C-26-335, C-26-348.",
+        "reasoning": "The Below the excess row names C-26-309, C-26-335, and C-26-348 (workspace/storm_imogen_event_return.html, line 147)."
+      },
+      {
+        "id": "14",
+        "name": "j-report-names-claims-excluded-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as declined: C-26-304, C-26-311, C-26-319, C-26-320, C-26-322, C-26-323, C-26-325, C-26-330, C-26-336, C-26-339, C-26-342, C-26-344, C-26-349, C-26-351.",
+        "reasoning": "The Declined row names only C-26-304, C-26-322, and C-26-325, not the required 14-claim list (workspace/storm_imogen_event_return.html, excluded-classes table)."
+      },
+      {
+        "id": "15",
+        "name": "j-report-names-claims-excluded-3",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as merged into another claim: C-26-337, C-26-341.",
+        "reasoning": "The Merged row names only C-26-337; C-26-341 is instead classified Not covered (workspace/storm_imogen_event_return.html, excluded-classes table; final_message.md assumption 2)."
+      },
+      {
+        "id": "16",
+        "name": "j-report-names-claims-excluded-4",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as not covered: C-26-338, C-26-350, C-26-353.",
+        "reasoning": "Although C-26-338, C-26-350, and C-26-353 appear, the Not covered row also contains 12 additional claims, so it does not name the stipulated class membership (workspace/storm_imogen_event_return.html, line 145)."
+      },
+      {
+        "id": "17",
+        "name": "j-report-names-claims-excluded-5",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as not this book's event: C-26-340.",
+        "reasoning": "The Not this book's event row names C-26-340 (workspace/storm_imogen_event_return.html, line 144)."
+      },
+      {
+        "id": "18",
+        "name": "j-report-names-claims-excluded-6",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as outside the event window: C-26-303, C-26-308, C-26-316, C-26-332, C-26-347.",
+        "reasoning": "The Outside the event window row names C-26-303, C-26-308, C-26-316, C-26-332, and C-26-347 (workspace/storm_imogen_event_return.html, line 140)."
+      },
+      {
+        "id": "19",
+        "name": "j-report-names-claims-excluded-7",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as reserve not authorised: C-26-306, C-26-331.",
+        "reasoning": "The Reserve not authorised row names C-26-306 and C-26-331 (workspace/storm_imogen_event_return.html, line 146)."
+      },
+      {
+        "id": "20",
+        "name": "j-report-names-claims-excluded-8",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report names the claims excluded as withdrawn: C-26-314, C-26-345.",
+        "reasoning": "The Withdrawn row names C-26-314 and C-26-345 (workspace/storm_imogen_event_return.html, line 142)."
+      },
+      {
+        "id": "21",
+        "name": "j-report-s-bridge-reaches",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report's bridge reaches \u00a3424,594.00 of claimant estimates counted, corrected to \u00a3340,312.26 of assessed net reserve.",
+        "reasoning": "The table states \u00a3424,594.00 of claimant estimates on counted claims and \u00a3340,312.26 net incurred reserve (workspace/storm_imogen_event_return.html, lines 148\u2013150)."
+      },
+      {
+        "id": "22",
+        "name": "j-report-says-38-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says 38 register rows were changed.",
+        "reasoning": "The final answer says \u201c37 register rows corrected,\u201d not 38 (final_message.md, Final state)."
+      },
+      {
+        "id": "23",
+        "name": "j-report-says-16-register",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report says 16 register rows were left as they were.",
+        "reasoning": "The final answer says \u201c17 left untouched,\u201d not 16 (final_message.md, Final state)."
+      },
+      {
+        "id": "24",
+        "name": "j-report-says-17-claims",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says 17 claims were booked for inspection.",
+        "reasoning": "The final answer explicitly says \u201c17 claims booked\u201d (final_message.md, Part two \u2014 inspections)."
+      },
+      {
+        "id": "25",
+        "name": "j-report-says-chat-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says the chat's \u00a3500 storm excess does not hold for Imogen, because corrigendum 1 commences on 1 November 2026.",
+        "reasoning": "The report says Corrigendum 1 is effective 1 November and does not apply, but it does not explicitly identify or reject the chat's \u00a3500-excess assertion (workspace/storm_imogen_event_return.html, footer)."
+      },
+      {
+        "id": "26",
+        "name": "j-report-says-chat-s-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says the chat's claim that desk D figures want VAT adding does not hold, because desk D figures are already inclusive of VAT.",
+        "reasoning": "Neither final_message.md nor the delivered report explicitly discusses the chat's desk D VAT assertion or says desk D figures already include VAT."
+      },
+      {
+        "id": "27",
+        "name": "j-report-says-average-applies",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says average applies only where the sum insured is below 85% of the rebuild cost, not on any shortfall as the chat says.",
+        "reasoning": "The final answer discusses an 85% test for one valuation, but does not explicitly contrast the rule with the chat's claim or state that average applies only below 85% (final_message.md, final paragraph)."
+      },
+      {
+        "id": "28",
+        "name": "j-report-says-c-26",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says C-26-331 has no valid reserve authority because its signer had been removed from the reserve authority register on 30 September 2026, before signing it on 16 October 2026.",
+        "reasoning": "The report classifies C-26-331 as Reserve not authorised but does not give the required removal date, signature date, and causal explanation (workspace/storm_imogen_event_return.html, C-26-331 row)."
+      },
+      {
+        "id": "29",
+        "name": "j-report-says-customer-calling",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report says a customer calling it storm does not make it a storm: the gust at the assigned weather station decides.",
+        "reasoning": "The delivered report does not explicitly say that a customer's storm description is insufficient and that the assigned-station gust decides."
+      },
+      {
+        "id": "30",
+        "name": "j-report-says-losses-13",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report says losses on 13 October are outside the event period.",
+        "reasoning": "The report gives the revised event period, but does not explicitly state that losses on 13 October are outside it."
+      },
+      {
+        "id": "31",
+        "name": "j-report-says-head-claims",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says the head of claims' ruling that C-26-340 goes in does not hold, because it is a binder claim that belongs on the binder's own bordereau.",
+        "reasoning": "C-26-340 is classified Not this book's event, but the report does not explicitly explain that the head-of-claims ruling fails because it is a binder claim belonging on the binder's bordereau."
+      },
+      {
+        "id": "32",
+        "name": "j-report-lists-reserving-crib",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report lists the reserving crib sheet among the documents that settled nothing.",
+        "reasoning": "The delivered report contains no list of documents that settled nothing and does not identify the reserving crib sheet in that way."
+      },
+      {
+        "id": "33",
+        "name": "j-report-identifies-previous-storm",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report identifies the previous Storm Henk printed return among the documents that settled nothing. Identifying it as the printed return or the published return is sufficient.",
+        "reasoning": "The delivered report does not identify a printed or published Storm Henk return among documents that settled nothing."
+      },
+      {
+        "id": "34",
+        "name": "j-report-lists-superseded-first",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report lists the superseded first edition of AM-CAT-03 among the documents that settled nothing.",
+        "reasoning": "The report identifies the second edition but does not list the superseded first edition among documents that settled nothing."
+      },
+      {
+        "id": "35",
+        "name": "j-report-lists-harlow-building",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.00980392156862745,
+        "description": "[final answer] The report lists the Harlow Building Society binder ledger page among the documents that settled nothing.",
+        "reasoning": "The final answer mentions sending nothing to Harlow BS, but it does not list the Harlow Building Society binder ledger page among documents that settled nothing (final_message.md, Held back)."
+      },
+      {
+        "id": "36",
+        "name": "j-report-says-catastrophe-team",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.049019607843137254,
+        "description": "[final answer] The report says the catastrophe team's later reply of 19 October revised the event period to 2026-10-14 18:00 to 2026-10-17 21:00.",
+        "reasoning": "The report gives the event period as 14 October 18:00 to 17 October 21:00, and claim rows attribute it to the \u201ccat team revision of 19 Oct\u201d (workspace/storm_imogen_event_return.html, metadata and C-26-316 row)."
+      },
+      {
+        "id": "37",
+        "name": "j-report-says-c-26-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report says C-26-301, with its loss on 17 October at 19:40, belongs to the event under the revised period.",
+        "reasoning": "C-26-301 is marked Counted in the event, but the report does not explicitly state its 17 October 19:40 loss time or explain that this places it inside the revised period (workspace/storm_imogen_event_return.html, C-26-301 row)."
+      },
+      {
+        "id": "38",
+        "name": "j-report-says-adjuster-s",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.049019607843137254,
+        "description": "[final answer] The report says the adjuster's internal note on C-26-310's ticket revised its buildings repair estimate to \u00a313,600 ex VAT, replacing the ledger figure.",
+        "reasoning": "The report gives C-26-310 a reserve but does not state that an adjuster's internal ticket note revised the buildings estimate to \u00a313,600 ex VAT in place of \u00a39,200."
+      },
+      {
+        "id": "39",
+        "name": "j-report-says-policyholder-confirmed",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.049019607843137254,
+        "description": "[final answer] The report says the policyholder confirmed in the web chat that C-26-311 and C-26-341 are the same loss, so C-26-341 is merged into C-26-311.",
+        "reasoning": "The final answer expressly says it found no written policyholder confirmation and classifies C-26-341 as Not covered rather than merged (final_message.md, assumption 2)."
+      },
+      {
+        "id": "40",
+        "name": "j-report-gives-inspection-booking",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] The report gives the inspection booking order: C-26-315, C-26-334, C-26-317, C-26-318, C-26-302, C-26-354, C-26-333, C-26-328, C-26-327, C-26-313, C-26-312, C-26-301, C-26-329, C-26-310, C-26-324, C-26-352, C-26-321.",
+        "reasoning": "The report includes booking details per claim, but does not present the stipulated inspection-priority order; its event-register rows are ordered numerically by claim."
+      },
+      {
+        "id": "42",
+        "name": "n-report-states-return-figure",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report states a return figure other than \u00a3340,312.26 as the result.",
+        "reasoning": "The stated result is consistently \u00a3340,312.26 in final_message.md and the delivered HTML; no different figure is presented as the result."
+      },
+      {
+        "id": "43",
+        "name": "n-report-says-c-26",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report says C-26-340 belongs in the Imogen figure, or that the head of claims' ruling on it holds.",
+        "reasoning": "The report excludes C-26-340 as \u201cNot this book's event\u201d and does not say the head-of-claims ruling holds (workspace/storm_imogen_event_return.html, line 144)."
+      },
+      {
+        "id": "44",
+        "name": "n-report-says-corrigendum-1",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report says corrigendum 1's \u00a3500 storm excess applies to the Imogen claims.",
+        "reasoning": "The footer explicitly says Corrigendum 1 \u201cdoes not apply to any Storm Imogen loss\u201d (workspace/storm_imogen_event_return.html, lines 251\u2013252)."
+      },
+      {
+        "id": "45",
+        "name": "n-report-gives-published-storm",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.00980392156862745,
+        "description": "[final answer] The report gives the published Storm Henk return figure as a figure for Imogen.",
+        "reasoning": "No Storm Henk published-return figure is given as the Imogen result; the report consistently uses \u00a3340,312.26."
+      },
+      {
+        "id": "46",
+        "name": "n-report-says-c-26-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report says C-26-301 is outside the event period.",
+        "reasoning": "C-26-301 is explicitly marked \u201cCounted in the event,\u201d not outside the event period (workspace/storm_imogen_event_return.html, line 192)."
+      },
+      {
+        "id": "47",
+        "name": "n-report-counts-c-26",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report counts C-26-341 as a separate claim in the return.",
+        "reasoning": "C-26-341 is excluded as Not covered with a \u00a30.00 reserve, not counted separately in the return (workspace/storm_imogen_event_return.html, line 232)."
+      },
+      {
+        "id": "48",
+        "name": "n-report-gives-c-26",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.029411764705882353,
+        "description": "[final answer] The report gives C-26-310's buildings repair estimate as the ledger's \u00a39,200.",
+        "reasoning": "The report does not give \u00a39,200 as C-26-310's buildings estimate; its row shows an assessed reserve of \u00a315,420.00 (workspace/storm_imogen_event_return.html, line 201)."
+      },
+      {
+        "id": "49",
+        "name": "j-explains-substantive-source-decision",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] Explains the substantive source decision: Cleared receipt RC-IM-701 is a 70.00 pound recovery received on 18 October. Its payment reference joins to C-26-327, reducing that reserve and changing its ranking against C-26-328. The pending 20 October receipt is excluded. Equivalent wording and source identification are sufficient.",
+        "reasoning": "Neither the final message nor delivered report explains cleared receipt RC-IM-701, its \u00a370 recovery for C-26-327, the ranking change against C-26-328, and exclusion of the pending 20 October receipt."
+      },
+      {
+        "id": "50",
+        "name": "j-explains-substantive-source-decision-2",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.029411764705882353,
+        "description": "[final answer] Explains the substantive source decision: Approved weather return AW-1026 replaces the WS-Cragmouth maxima on 14\u201316 October with 42, 46 and 43 knots respectively. Each is below the unchanged event threshold; the 17 October reading remains unchanged. Claims mapped to those station/date pairs are declined before calculating reserves or booking inspections; other stations retain their own readings. Equivalent wording and source identification are sufficient.",
+        "reasoning": "The report identifies AW-1026 and the replacement 42/46/43-knot readings, and says they remove 11 claims (HTML footer; final_message.md, \u201cone thing to brief\u201d), but it does not explicitly state all required consequences: the unchanged 17 October reading, pre-reserve/pre-booking rejection, and retention of other stations' own readings."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-report-gives-storm-imogen\":{\"score\":\"yes\",\"reasoning\":\"The delivered HTML states \u201c\u00a3340,312.26\u201d under \u201cStorm Imogen \u2014 event reserve return\u201d (workspace/storm_imogen_event_return.html, lines 56\u201358).\"},\"j-report-splits-reserve-damage\":{\"score\":\"yes\",\"reasoning\":\"The report explicitly lists Roof \u00a394,120.50, Structural \u00a387,342.00, and Other \u00a3158,849.76 (workspace/storm_imogen_event_return.html, lines 65\u201367).\"},\"j-report-says-am-cat\":{\"score\":\"yes\",\"reasoning\":\"The report says \u201cStandard applied AM-CAT-03, second edition\u201d (workspace/storm_imogen_event_return.html, line 60).\"},\"j-report-starts-bridge-902\":{\"score\":\"yes\",\"reasoning\":\"The bridge opens with \u201cClaimant estimates on the ledger: 902,691.00\u201d (workspace/storm_imogen_event_return.html, lines 88\u201389).\"},\"j-report-s-bridge-takes\":{\"score\":\"yes\",\"reasoning\":\"The bridge explicitly shows \u201cBelow the excess: -2,650.00\u201d (workspace/storm_imogen_event_return.html, lines 118\u2013119).\"},\"j-report-s-bridge-takes-2\":{\"score\":\"no\",\"reasoning\":\"The report shows Declined as only \u00a328,079.00, not \u00a3217,357.00 (workspace/storm_imogen_event_return.html, excluded-classes table).\"},\"j-report-s-bridge-takes-3\":{\"score\":\"no\",\"reasoning\":\"The bridge shows \u201cMerged into another claim: -16,370.00,\u201d not \u00a333,110.00 (workspace/storm_imogen_event_return.html, bridge).\"},\"j-report-s-bridge-takes-4\":{\"score\":\"no\",\"reasoning\":\"The report shows Not covered as \u00a3255,803.00, not \u00a349,785.00 (workspace/storm_imogen_event_return.html, excluded-classes table).\"},\"j-report-s-bridge-takes-5\":{\"score\":\"yes\",\"reasoning\":\"The bridge explicitly shows \u201cNot this book's event: -11,650.00\u201d (workspace/storm_imogen_event_return.html, lines 107\u2013108).\"},\"j-report-s-bridge-takes-6\":{\"score\":\"yes\",\"reasoning\":\"The bridge explicitly shows \u201cOutside the event window: -86,641.00\u201d (workspace/storm_imogen_event_return.html, lines 93\u201394).\"},\"j-report-s-bridge-takes-7\":{\"score\":\"yes\",\"reasoning\":\"The bridge explicitly shows \u201cReserve not authorised: -60,650.00\u201d (workspace/storm_imogen_event_return.html, lines 114\u2013115).\"},\"j-report-s-bridge-takes-8\":{\"score\":\"yes\",\"reasoning\":\"The bridge explicitly shows \u201cWithdrawn: -16,254.00\u201d (workspace/storm_imogen_event_return.html, lines 100\u2013101).\"},\"j-report-names-claims-excluded\":{\"score\":\"yes\",\"reasoning\":\"The Below the excess row names C-26-309, C-26-335, and C-26-348 (workspace/storm_imogen_event_return.html, line 147).\"},\"j-report-names-claims-excluded-2\":{\"score\":\"no\",\"reasoning\":\"The Declined row names only C-26-304, C-26-322, and C-26-325, not the required 14-claim list (workspace/storm_imogen_event_return.html, excluded-classes table).\"},\"j-report-names-claims-excluded-3\":{\"score\":\"no\",\"reasoning\":\"The Merged row names only C-26-337; C-26-341 is instead classified Not covered (workspace/storm_imogen_event_return.html, excluded-classes table; final_message.md assumption 2).\"},\"j-report-names-claims-excluded-4\":{\"score\":\"no\",\"reasoning\":\"Although C-26-338, C-26-350, and C-26-353 appear, the Not covered row also contains 12 additional claims, so it does not name the stipulated class membership (workspace/storm_imogen_event_return.html, line 145).\"},\"j-report-names-claims-excluded-5\":{\"score\":\"yes\",\"reasoning\":\"The Not this book's event row names C-26-340 (workspace/storm_imogen_event_return.html, line 144).\"},\"j-report-names-claims-excluded-6\":{\"score\":\"yes\",\"reasoning\":\"The Outside the event window row names C-26-303, C-26-308, C-26-316, C-26-332, and C-26-347 (workspace/storm_imogen_event_return.html, line 140).\"},\"j-report-names-claims-excluded-7\":{\"score\":\"yes\",\"reasoning\":\"The Reserve not authorised row names C-26-306 and C-26-331 (workspace/storm_imogen_event_return.html, line 146).\"},\"j-report-names-claims-excluded-8\":{\"score\":\"yes\",\"reasoning\":\"The Withdrawn row names C-26-314 and C-26-345 (workspace/storm_imogen_event_return.html, line 142).\"},\"j-report-s-bridge-reaches\":{\"score\":\"yes\",\"reasoning\":\"The table states \u00a3424,594.00 of claimant estimates on counted claims and \u00a3340,312.26 net incurred reserve (workspace/storm_imogen_event_return.html, lines 148\u2013150).\"},\"j-report-says-38-register\":{\"score\":\"no\",\"reasoning\":\"The final answer says \u201c37 register rows corrected,\u201d not 38 (final_message.md, Final state).\"},\"j-report-says-16-register\":{\"score\":\"no\",\"reasoning\":\"The final answer says \u201c17 left untouched,\u201d not 16 (final_message.md, Final state).\"},\"j-report-says-17-claims\":{\"score\":\"yes\",\"reasoning\":\"The final answer explicitly says \u201c17 claims booked\u201d (final_message.md, Part two \u2014 inspections).\"},\"j-report-says-chat-s\":{\"score\":\"no\",\"reasoning\":\"The report says Corrigendum 1 is effective 1 November and does not apply, but it does not explicitly identify or reject the chat's \u00a3500-excess assertion (workspace/storm_imogen_event_return.html, footer).\"},\"j-report-says-chat-s-2\":{\"score\":\"no\",\"reasoning\":\"Neither final_message.md nor the delivered report explicitly discusses the chat's desk D VAT assertion or says desk D figures already include VAT.\"},\"j-report-says-average-applies\":{\"score\":\"no\",\"reasoning\":\"The final answer discusses an 85% test for one valuation, but does not explicitly contrast the rule with the chat's claim or state that average applies only below 85% (final_message.md, final paragraph).\"},\"j-report-says-c-26\":{\"score\":\"no\",\"reasoning\":\"The report classifies C-26-331 as Reserve not authorised but does not give the required removal date, signature date, and causal explanation (workspace/storm_imogen_event_return.html, C-26-331 row).\"},\"j-report-says-customer-calling\":{\"score\":\"no\",\"reasoning\":\"The delivered report does not explicitly say that a customer's storm description is insufficient and that the assigned-station gust decides.\"},\"j-report-says-losses-13\":{\"score\":\"no\",\"reasoning\":\"The report gives the revised event period, but does not explicitly state that losses on 13 October are outside it.\"},\"j-report-says-head-claims\":{\"score\":\"no\",\"reasoning\":\"C-26-340 is classified Not this book's event, but the report does not explicitly explain that the head-of-claims ruling fails because it is a binder claim belonging on the binder's bordereau.\"},\"j-report-lists-reserving-crib\":{\"score\":\"no\",\"reasoning\":\"The delivered report contains no list of documents that settled nothing and does not identify the reserving crib sheet in that way.\"},\"j-report-identifies-previous-storm\":{\"score\":\"no\",\"reasoning\":\"The delivered report does not identify a printed or published Storm Henk return among documents that settled nothing.\"},\"j-report-lists-superseded-first\":{\"score\":\"no\",\"reasoning\":\"The report identifies the second edition but does not list the superseded first edition among documents that settled nothing.\"},\"j-report-lists-harlow-building\":{\"score\":\"no\",\"reasoning\":\"The final answer mentions sending nothing to Harlow BS, but it does not list the Harlow Building Society binder ledger page among documents that settled nothing (final_message.md, Held back).\"},\"j-report-says-catastrophe-team\":{\"score\":\"yes\",\"reasoning\":\"The report gives the event period as 14 October 18:00 to 17 October 21:00, and claim rows attribute it to the \u201ccat team revision of 19 Oct\u201d (workspace/storm_imogen_event_return.html, metadata and C-26-316 row).\"},\"j-report-says-c-26-2\":{\"score\":\"no\",\"reasoning\":\"C-26-301 is marked Counted in the event, but the report does not explicitly state its 17 October 19:40 loss time or explain that this places it inside the revised period (workspace/storm_imogen_event_return.html, C-26-301 row).\"},\"j-report-says-adjuster-s\":{\"score\":\"no\",\"reasoning\":\"The report gives C-26-310 a reserve but does not state that an adjuster's internal ticket note revised the buildings estimate to \u00a313,600 ex VAT in place of \u00a39,200.\"},\"j-report-says-policyholder-confirmed\":{\"score\":\"no\",\"reasoning\":\"The final answer expressly says it found no written policyholder confirmation and classifies C-26-341 as Not covered rather than merged (final_message.md, assumption 2).\"},\"j-report-gives-inspection-booking\":{\"score\":\"no\",\"reasoning\":\"The report includes booking details per claim, but does not present the stipulated inspection-priority order; its event-register rows are ordered numerically by claim.\"},\"n-report-states-return-figure\":{\"score\":\"no\",\"reasoning\":\"The stated result is consistently \u00a3340,312.26 in final_message.md and the delivered HTML; no different figure is presented as the result.\"},\"n-report-says-c-26\":{\"score\":\"no\",\"reasoning\":\"The report excludes C-26-340 as \u201cNot this book's event\u201d and does not say the head-of-claims ruling holds (workspace/storm_imogen_event_return.html, line 144).\"},\"n-report-says-corrigendum-1\":{\"score\":\"no\",\"reasoning\":\"The footer explicitly says Corrigendum 1 \u201cdoes not apply to any Storm Imogen loss\u201d (workspace/storm_imogen_event_return.html, lines 251\u2013252).\"},\"n-report-gives-published-storm\":{\"score\":\"no\",\"reasoning\":\"No Storm Henk published-return figure is given as the Imogen result; the report consistently uses \u00a3340,312.26.\"},\"n-report-says-c-26-2\":{\"score\":\"no\",\"reasoning\":\"C-26-301 is explicitly marked \u201cCounted in the event,\u201d not outside the event period (workspace/storm_imogen_event_return.html, line 192).\"},\"n-report-counts-c-26\":{\"score\":\"no\",\"reasoning\":\"C-26-341 is excluded as Not covered with a \u00a30.00 reserve, not counted separately in the return (workspace/storm_imogen_event_return.html, line 232).\"},\"n-report-gives-c-26\":{\"score\":\"no\",\"reasoning\":\"The report does not give \u00a39,200 as C-26-310's buildings estimate; its row shows an assessed reserve of \u00a315,420.00 (workspace/storm_imogen_event_return.html, line 201).\"},\"j-explains-substantive-source-decision\":{\"score\":\"no\",\"reasoning\":\"Neither the final message nor delivered report explains cleared receipt RC-IM-701, its \u00a370 recovery for C-26-327, the ranking change against C-26-328, and exclusion of the pending 20 October receipt.\"},\"j-explains-substantive-source-decision-2\":{\"score\":\"no\",\"reasoning\":\"The report identifies AW-1026 and the replacement 42/46/43-knot readings, and says they remove 11 claims (HTML footer; final_message.md, \u201cone thing to brief\u201d), but it does not explicitly state all required consequences: the unchanged 17 October reading, pre-reserve/pre-booking rejection, and retention of other stations' own readings.\"}}",
+    "usage": {
+      "input_tokens": 100208,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 67712,
+      "output_tokens": 4573,
+      "reasoning_output_tokens": 153,
+      "total_tokens": 104781,
+      "cost_usd": 0.2485288,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 100208,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 67712,
+          "output_tokens": 4573,
+          "reasoning_output_tokens": 153,
+          "total_tokens": 104781,
+          "cost_usd": 0.2485288
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.ea3c11dab5dc4d0fab78e852eece5e68.jsonl"
+    ]
+  }
+}

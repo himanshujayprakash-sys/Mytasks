@@ -1,0 +1,240 @@
+{
+ "folders": {
+  "fd_parks_office": {
+   "fdid": "fd_parks_office",
+   "name": "Parks office",
+   "parent_id": "fd_root",
+   "path": "/Parks office",
+   "created_at": "2026-08-26T11:50"
+  },
+  "fd_events": {
+   "fdid": "fd_events",
+   "name": "Events",
+   "parent_id": "fd_parks_office",
+   "path": "/Parks office/Events",
+   "created_at": "2026-08-31T13:05"
+  },
+  "fd_playgrounds": {
+   "fdid": "fd_playgrounds",
+   "name": "Playgrounds",
+   "parent_id": "fd_parks_office",
+   "path": "/Parks office/Playgrounds",
+   "created_at": "2026-09-04T12:15"
+  },
+  "fd_volunteers": {
+   "fdid": "fd_volunteers",
+   "name": "Volunteers",
+   "parent_id": "fd_root",
+   "path": "/Volunteers",
+   "created_at": "2026-09-08T14:30"
+  }
+ },
+ "files": {
+  "fYdg8zuXwchengQuymRbAo": {
+   "fid": "fYdg8zuXwchengQuymRbAo",
+   "name": "Fireworks stewarding rota.xlsx",
+   "folder_id": "fd_events",
+   "path": "/Parks office/Events/Fireworks stewarding rota.xlsx",
+   "size_bytes": 2231759,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-08-24T14:25",
+   "updated_at": "2026-08-24T15:41",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_mTXeuYbzEw"
+  },
+  "fitfhbbEmaBmAfQH3dRjh6": {
+   "fid": "fitfhbbEmaBmAfQH3dRjh6",
+   "name": "Fireworks site plan.pdf",
+   "folder_id": "fd_events",
+   "path": "/Parks office/Events/Fireworks site plan.pdf",
+   "size_bytes": 1734173,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-07T11:00",
+   "updated_at": "2026-09-07T12:24",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_Q5eogUK6UA"
+  },
+  "fxKv7Q2r5balmBIzjD1zZT": {
+   "fid": "fxKv7Q2r5balmBIzjD1zZT",
+   "name": "Christmas market stall plan.pdf",
+   "folder_id": "fd_events",
+   "path": "/Parks office/Events/Christmas market stall plan.pdf",
+   "size_bytes": 967793,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-18T16:20",
+   "updated_at": "2026-09-20T17:33",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_RnL5JonnDp"
+  },
+  "fz3DsfulXnlxOlOqhzNLjh": {
+   "fid": "fz3DsfulXnlxOlOqhzNLjh",
+   "name": "Playground inspection checklist.docx",
+   "folder_id": "fd_playgrounds",
+   "path": "/Parks office/Playgrounds/Playground inspection checklist.docx",
+   "size_bytes": 2281067,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-09-25T09:50",
+   "updated_at": "2026-09-27T12:27",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_HNgcIteLrH"
+  },
+  "fDjGvjeTiR3GX4Mi6OwK3N": {
+   "fid": "fDjGvjeTiR3GX4Mi6OwK3N",
+   "name": "Springer replacement order.pdf",
+   "folder_id": "fd_playgrounds",
+   "path": "/Parks office/Playgrounds/Springer replacement order.pdf",
+   "size_bytes": 795845,
+   "mime_type": "application/pdf",
+   "created_at": "2026-09-29T12:20",
+   "updated_at": "2026-09-30T14:17",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_8GS4o78bTw"
+  },
+  "fupDkggvld4RiScNqZTIBd": {
+   "fid": "fupDkggvld4RiScNqZTIBd",
+   "name": "Volunteer sign-in sheet.docx",
+   "folder_id": "fd_volunteers",
+   "path": "/Volunteers/Volunteer sign-in sheet.docx",
+   "size_bytes": 3123371,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-10-12T09:15",
+   "updated_at": "2026-10-13T10:13",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_k0K1bd1K12"
+  },
+  "f0SNDWMlVdRTHqD4zl20UW": {
+   "fid": "f0SNDWMlVdRTHqD4zl20UW",
+   "name": "Litter pick dates.xlsx",
+   "folder_id": "fd_volunteers",
+   "path": "/Volunteers/Litter pick dates.xlsx",
+   "size_bytes": 2308988,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2026-10-16T12:10",
+   "updated_at": "2026-10-26T15:57",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_IXDt189WEV"
+  },
+  "fbXIj8tPTGSJB9wYlQVJDr": {
+   "fid": "fbXIj8tPTGSJB9wYlQVJDr",
+   "name": "Parks office phone list.docx",
+   "folder_id": "fd_parks_office",
+   "path": "/Parks office/Parks office phone list.docx",
+   "size_bytes": 307514,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2026-10-29T13:55",
+   "updated_at": "2026-11-01T18:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_sxnWzReIZw"
+  }
+ },
+ "versions": {
+  "v_AFVEhvbOLL": {
+   "vid": "v_AFVEhvbOLL",
+   "file_id": "fYdg8zuXwchengQuymRbAo",
+   "version_number": 1,
+   "size_bytes": 2230559,
+   "created_at": "2026-08-24T14:25",
+   "comment": "First draft"
+  },
+  "v_mTXeuYbzEw": {
+   "vid": "v_mTXeuYbzEw",
+   "file_id": "fYdg8zuXwchengQuymRbAo",
+   "version_number": 2,
+   "size_bytes": 2231759,
+   "created_at": "2026-08-24T15:41",
+   "comment": "Twenty stewards confirmed"
+  },
+  "v_Q5eogUK6UA": {
+   "vid": "v_Q5eogUK6UA",
+   "file_id": "fitfhbbEmaBmAfQH3dRjh6",
+   "version_number": 1,
+   "size_bytes": 1734173,
+   "created_at": "2026-09-07T12:24",
+   "comment": "Uploaded"
+  },
+  "v_RnL5JonnDp": {
+   "vid": "v_RnL5JonnDp",
+   "file_id": "fxKv7Q2r5balmBIzjD1zZT",
+   "version_number": 1,
+   "size_bytes": 967793,
+   "created_at": "2026-09-20T17:33",
+   "comment": "Uploaded"
+  },
+  "v_HNgcIteLrH": {
+   "vid": "v_HNgcIteLrH",
+   "file_id": "fz3DsfulXnlxOlOqhzNLjh",
+   "version_number": 1,
+   "size_bytes": 2281067,
+   "created_at": "2026-09-27T12:27",
+   "comment": "Uploaded"
+  },
+  "v_8GS4o78bTw": {
+   "vid": "v_8GS4o78bTw",
+   "file_id": "fDjGvjeTiR3GX4Mi6OwK3N",
+   "version_number": 1,
+   "size_bytes": 795845,
+   "created_at": "2026-09-30T14:17",
+   "comment": "Uploaded"
+  },
+  "v_k0K1bd1K12": {
+   "vid": "v_k0K1bd1K12",
+   "file_id": "fupDkggvld4RiScNqZTIBd",
+   "version_number": 1,
+   "size_bytes": 3123371,
+   "created_at": "2026-10-13T10:13",
+   "comment": "Uploaded"
+  },
+  "v_7yGs4dhMFW": {
+   "vid": "v_7yGs4dhMFW",
+   "file_id": "f0SNDWMlVdRTHqD4zl20UW",
+   "version_number": 1,
+   "size_bytes": 2307788,
+   "created_at": "2026-10-16T12:10",
+   "comment": "Autumn dates"
+  },
+  "v_IXDt189WEV": {
+   "vid": "v_IXDt189WEV",
+   "file_id": "f0SNDWMlVdRTHqD4zl20UW",
+   "version_number": 2,
+   "size_bytes": 2308988,
+   "created_at": "2026-10-26T15:57",
+   "comment": "Winter dates added"
+  },
+  "v_sxnWzReIZw": {
+   "vid": "v_sxnWzReIZw",
+   "file_id": "fbXIj8tPTGSJB9wYlQVJDr",
+   "version_number": 1,
+   "size_bytes": 307514,
+   "created_at": "2026-11-01T18:00",
+   "comment": "Uploaded"
+  }
+ },
+ "share_links": {
+  "sl_UTZ74U7Jqt": {
+   "slid": "sl_UTZ74U7Jqt",
+   "target_kind": "file",
+   "target_id": "fitfhbbEmaBmAfQH3dRjh6",
+   "url": "https://drive.google.com/file/d/ijYdHoGAmxZRBRlH3vVtToYYEvO7/view",
+   "can_edit": false,
+   "expires_at": "2026-09-30T12:24",
+   "view_count": 37
+  },
+  "sl_1a98QJajZe": {
+   "slid": "sl_1a98QJajZe",
+   "target_kind": "file",
+   "target_id": "f0SNDWMlVdRTHqD4zl20UW",
+   "url": "https://drive.google.com/file/d/VpaGhfov2thQFF4FxoQRXOm7PJjv/view",
+   "can_edit": false,
+   "expires_at": "2026-11-10T15:57",
+   "view_count": 58
+  }
+ }
+}

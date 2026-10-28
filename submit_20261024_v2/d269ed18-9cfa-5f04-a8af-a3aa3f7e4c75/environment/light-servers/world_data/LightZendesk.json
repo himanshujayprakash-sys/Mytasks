@@ -1,0 +1,327 @@
+{
+ "organizations": [
+  {
+   "id": 97001,
+   "name": "Fernhill Estate",
+   "created_at": "2025-01-06T09:00:00Z"
+  }
+ ],
+ "users": [
+  {
+   "id": 98001,
+   "name": "Marisol Baptiste",
+   "email": "marisol.baptiste@fernhillbarn.example",
+   "role": "agent",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98002,
+   "name": "Dewi Pugh",
+   "email": "dewi.pugh@fernhillbarn.example",
+   "role": "agent",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98003,
+   "name": "Lewis Brannock",
+   "email": "lewis.brannock@fernhillbarn.example",
+   "role": "end-user",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98004,
+   "name": "Gethin Whitlow",
+   "email": "gethin.whitlow@fernhillbarn.example",
+   "role": "end-user",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98005,
+   "name": "Petra Noakes",
+   "email": "petra.noakes@fernhillbarn.example",
+   "role": "end-user",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98006,
+   "name": "Tamsin Odell",
+   "email": "tamsin.odell@fernhillbarn.example",
+   "role": "end-user",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  },
+  {
+   "id": 98007,
+   "name": "Kojo Mensah",
+   "email": "kojo.mensah@fernhillbarn.example",
+   "role": "end-user",
+   "organization_id": 97001,
+   "created_at": "2025-01-06T09:00:00Z"
+  }
+ ],
+ "tickets": [
+  {
+   "id": 7301,
+   "subject": "Log burner door seal in the main barn",
+   "description": "The seal on the left log burner door is fraying.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98003,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-11-10T09:00:00Z",
+   "updated_at": "2026-11-10T09:00:00Z"
+  },
+  {
+   "id": 7302,
+   "subject": "Ice machine leaking",
+   "description": "The bar ice machine is leaking onto the floor.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98004,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-11-18T17:00:00Z",
+   "updated_at": "2026-11-18T17:00:00Z"
+  },
+  {
+   "id": 7303,
+   "subject": "Outside lights on the drive",
+   "description": "Two of the drive lights are out by the walled garden.",
+   "status": "open",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98005,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-08T16:30:00Z",
+   "updated_at": "2026-12-08T16:30:00Z"
+  },
+  {
+   "id": 7304,
+   "subject": "Walk-in fridge door alarm",
+   "description": "The alarm sounds even when the door is shut.",
+   "status": "pending",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98007,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-09T08:10:00Z",
+   "updated_at": "2026-12-09T08:10:00Z"
+  },
+  {
+   "id": 7305,
+   "subject": "Bridal suite radiator",
+   "description": "Radiator cold in the bridal suite.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98005,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-02T10:00:00Z",
+   "updated_at": "2026-12-02T10:00:00Z"
+  },
+  {
+   "id": 7306,
+   "subject": "Gravel on the ramp",
+   "description": "Gravel washed onto the side ramp after the rain.",
+   "status": "solved",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98003,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-04T09:20:00Z",
+   "updated_at": "2026-12-04T09:20:00Z"
+  },
+  {
+   "id": 7307,
+   "subject": "Dishwasher rinse aid",
+   "description": "Rinse aid pump not dosing.",
+   "status": "open",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98006,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-11T15:00:00Z",
+   "updated_at": "2026-12-11T15:00:00Z"
+  },
+  {
+   "id": 7308,
+   "subject": "Stage lighting dimmer",
+   "description": "Dimmer on stage lights flickers at 40%.",
+   "status": "open",
+   "priority": "normal",
+   "type": "incident",
+   "requester_id": 98004,
+   "assignee_id": 98002,
+   "organization_id": 97001,
+   "tags": [
+    "estate"
+   ],
+   "created_at": "2026-12-12T11:00:00Z",
+   "updated_at": "2026-12-12T11:00:00Z"
+  }
+ ],
+ "comments": [
+  {
+   "id": 89001,
+   "ticket_id": 7301,
+   "author_id": 98003,
+   "body": "The seal on the left log burner door is fraying.",
+   "public": true,
+   "created_at": "2026-11-10T09:00:00Z"
+  },
+  {
+   "id": 89002,
+   "ticket_id": 7301,
+   "author_id": 98002,
+   "body": "Fixed, thanks.",
+   "public": true,
+   "created_at": "2026-11-10T09:00:00Z"
+  },
+  {
+   "id": 89003,
+   "ticket_id": 7302,
+   "author_id": 98004,
+   "body": "The bar ice machine is leaking onto the floor.",
+   "public": true,
+   "created_at": "2026-11-18T17:00:00Z"
+  },
+  {
+   "id": 89004,
+   "ticket_id": 7302,
+   "author_id": 98002,
+   "body": "Fixed, thanks.",
+   "public": true,
+   "created_at": "2026-11-18T17:00:00Z"
+  },
+  {
+   "id": 89005,
+   "ticket_id": 7303,
+   "author_id": 98005,
+   "body": "Two of the drive lights are out by the walled garden.",
+   "public": true,
+   "created_at": "2026-12-08T16:30:00Z"
+  },
+  {
+   "id": 89006,
+   "ticket_id": 7303,
+   "author_id": 98002,
+   "body": "Booked in with the estate handyman.",
+   "public": true,
+   "created_at": "2026-12-08T16:30:00Z"
+  },
+  {
+   "id": 89007,
+   "ticket_id": 7304,
+   "author_id": 98007,
+   "body": "The alarm sounds even when the door is shut.",
+   "public": true,
+   "created_at": "2026-12-09T08:10:00Z"
+  },
+  {
+   "id": 89008,
+   "ticket_id": 7304,
+   "author_id": 98002,
+   "body": "Booked in with the estate handyman.",
+   "public": true,
+   "created_at": "2026-12-09T08:10:00Z"
+  },
+  {
+   "id": 89009,
+   "ticket_id": 7305,
+   "author_id": 98005,
+   "body": "Radiator cold in the bridal suite.",
+   "public": true,
+   "created_at": "2026-12-02T10:00:00Z"
+  },
+  {
+   "id": 89010,
+   "ticket_id": 7305,
+   "author_id": 98002,
+   "body": "Fixed, thanks.",
+   "public": true,
+   "created_at": "2026-12-02T10:00:00Z"
+  },
+  {
+   "id": 89011,
+   "ticket_id": 7306,
+   "author_id": 98003,
+   "body": "Gravel washed onto the side ramp after the rain.",
+   "public": true,
+   "created_at": "2026-12-04T09:20:00Z"
+  },
+  {
+   "id": 89012,
+   "ticket_id": 7306,
+   "author_id": 98002,
+   "body": "Fixed, thanks.",
+   "public": true,
+   "created_at": "2026-12-04T09:20:00Z"
+  },
+  {
+   "id": 89013,
+   "ticket_id": 7307,
+   "author_id": 98006,
+   "body": "Rinse aid pump not dosing.",
+   "public": true,
+   "created_at": "2026-12-11T15:00:00Z"
+  },
+  {
+   "id": 89014,
+   "ticket_id": 7307,
+   "author_id": 98002,
+   "body": "Booked in with the estate handyman.",
+   "public": true,
+   "created_at": "2026-12-11T15:00:00Z"
+  },
+  {
+   "id": 89015,
+   "ticket_id": 7308,
+   "author_id": 98004,
+   "body": "Dimmer on stage lights flickers at 40%.",
+   "public": true,
+   "created_at": "2026-12-12T11:00:00Z"
+  },
+  {
+   "id": 89016,
+   "ticket_id": 7308,
+   "author_id": 98002,
+   "body": "Booked in with the estate handyman.",
+   "public": true,
+   "created_at": "2026-12-12T11:00:00Z"
+  }
+ ]
+}

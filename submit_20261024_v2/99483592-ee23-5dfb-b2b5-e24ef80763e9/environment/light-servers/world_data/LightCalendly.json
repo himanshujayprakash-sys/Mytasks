@@ -1,0 +1,258 @@
+{
+ "event_types": [
+  {
+   "uuid": "et-gwp-recce-60",
+   "owner": "Rafe Adeyinka",
+   "name": "Location recce visit",
+   "slug": "location-recce",
+   "duration": 60,
+   "kind": "solo",
+   "color": "#1F4E79",
+   "active": true,
+   "description": "Location recce visit for 'The Lamplighter's Daughter', booked through the production office page.",
+   "scheduling_url": "https://calendly.com/greyfriarswharf/location-recce",
+   "created_at": "2026-09-01T09:00:00.000000Z"
+  },
+  {
+   "uuid": "et-gwp-extras-15",
+   "owner": "Marisol Echeverria",
+   "name": "Supporting artist costume fitting",
+   "slug": "supporting-artist-fitting",
+   "duration": 15,
+   "kind": "solo",
+   "color": "#1F4E79",
+   "active": true,
+   "description": "Supporting artist costume fitting for 'The Lamplighter's Daughter', booked through the production office page.",
+   "scheduling_url": "https://calendly.com/greyfriarswharf/supporting-artist-fitting",
+   "created_at": "2026-09-01T09:00:00.000000Z"
+  }
+ ],
+ "scheduled_events": [
+  {
+   "uuid": "sev-gwp-01",
+   "owner": "Rafe Adeyinka",
+   "event_type": "et-gwp-recce-60",
+   "name": "Recce - Sallowmere Lane barn",
+   "status": "active",
+   "start_time": "2026-11-11T10:00:00.000000Z",
+   "end_time": "2026-11-11T11:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Sallowmere Lane barn",
+   "created_at": "2026-11-04T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-02",
+   "owner": "Rafe Adeyinka",
+   "event_type": "et-gwp-recce-60",
+   "name": "Recce - Old Rope Works",
+   "status": "active",
+   "start_time": "2026-11-25T14:00:00.000000Z",
+   "end_time": "2026-11-25T15:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Old Rope Works",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-03",
+   "owner": "Rafe Adeyinka",
+   "event_type": "et-gwp-recce-60",
+   "name": "Recce - Rookhaven Lido",
+   "status": "active",
+   "start_time": "2026-12-02T11:00:00.000000Z",
+   "end_time": "2026-12-02T12:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Rookhaven Lido",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-04",
+   "owner": "Rafe Adeyinka",
+   "event_type": "et-gwp-recce-60",
+   "name": "Recce - Wainwright's Mill",
+   "status": "canceled",
+   "start_time": "2026-11-19T09:00:00.000000Z",
+   "end_time": "2026-11-19T10:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Wainwright's Mill",
+   "created_at": "2026-11-09T08:40:00.000000Z",
+   "canceled_reason": "Owner unwell; will rebook"
+  },
+  {
+   "uuid": "sev-gwp-05",
+   "owner": "Marisol Echeverria",
+   "event_type": "et-gwp-extras-15",
+   "name": "Costume fitting - Blessing Okwu",
+   "status": "active",
+   "start_time": "2026-11-23T08:30:00.000000Z",
+   "end_time": "2026-11-23T08:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Greyfriars Wharf production office",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-06",
+   "owner": "Marisol Echeverria",
+   "event_type": "et-gwp-extras-15",
+   "name": "Costume fitting - Tobias Merrin",
+   "status": "active",
+   "start_time": "2026-11-23T08:45:00.000000Z",
+   "end_time": "2026-11-23T09:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Greyfriars Wharf production office",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-07",
+   "owner": "Marisol Echeverria",
+   "event_type": "et-gwp-extras-15",
+   "name": "Costume fitting - Ida Fellowes",
+   "status": "active",
+   "start_time": "2026-11-23T09:00:00.000000Z",
+   "end_time": "2026-11-23T09:15:00.000000Z",
+   "location_type": "physical",
+   "location": "Greyfriars Wharf production office",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-gwp-08",
+   "owner": "Marisol Echeverria",
+   "event_type": "et-gwp-extras-15",
+   "name": "Costume fitting - Ronan Ashe",
+   "status": "canceled",
+   "start_time": "2026-11-24T08:30:00.000000Z",
+   "end_time": "2026-11-24T08:45:00.000000Z",
+   "location_type": "physical",
+   "location": "Greyfriars Wharf production office",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "canceled_reason": "Booked twice"
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-gwp-01",
+   "event": "sev-gwp-01",
+   "name": "Hugh Tillotson",
+   "email": "hugh@sallowmerefarm.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-04T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Access for a low loader?",
+     "answer": "Yes, via the farm track"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-02",
+   "event": "sev-gwp-02",
+   "name": "Fenella Crabtree",
+   "email": "fenella@oldropeworks.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Access for a low loader?",
+     "answer": "Only from the canal side"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-03",
+   "event": "sev-gwp-03",
+   "name": "Ade Bamgbose",
+   "email": "lido@rookhaven-leisure.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-18T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Access for a low loader?",
+     "answer": "Car park only"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-04",
+   "event": "sev-gwp-04",
+   "name": "Jem Wainwright",
+   "email": "jem@wainwrightsmill.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-09T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Access for a low loader?",
+     "answer": "Yes"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-05",
+   "event": "sev-gwp-05",
+   "name": "Blessing Okwu",
+   "email": "blessing.okwu@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Size?",
+     "answer": "12"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-06",
+   "event": "sev-gwp-06",
+   "name": "Tobias Merrin",
+   "email": "tobias.merrin@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-16T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Size?",
+     "answer": "40R"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-07",
+   "event": "sev-gwp-07",
+   "name": "Ida Fellowes",
+   "email": "ida.fellowes@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Size?",
+     "answer": "10"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-gwp-08",
+   "event": "sev-gwp-08",
+   "name": "Ronan Ashe",
+   "email": "ronan.ashe@mail.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-11-17T08:40:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Size?",
+     "answer": "38S"
+    }
+   ]
+  }
+ ]
+}

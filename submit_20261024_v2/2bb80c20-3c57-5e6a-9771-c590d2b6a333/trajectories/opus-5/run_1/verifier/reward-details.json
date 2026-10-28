@@ -1,0 +1,313 @@
+{
+  "pytest": {
+    "score": 0.8125,
+    "criteria": [
+      {
+        "name": "pytest_ledger",
+        "value": 0.8125,
+        "raw": 0.8125,
+        "weight": 1.0,
+        "description": "weighted ledger over tests/test_outputs.py: max(0, (earned - charged guards) / total positive weight)",
+        "reasoning": "earned 81 of 96, charged 3; missed 5: test_courier_texts_all_right, test_lender_confirmations_all_right, test_final_objects_counted, test_final_vehicles, test_restraint_only_what_the_close_needs; guards tripped: test_guard_duplicate_messages"
+      }
+    ],
+    "kind": "programmatic"
+  },
+  "rubric": {
+    "score": 0.4667,
+    "criteria": [
+      {
+        "id": "1",
+        "name": "j-note-says-total-commercial",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note says the total commercial premium is 11341.14 pounds.",
+        "reasoning": "In final_message.md under \u201cHeadline,\u201d the note states \u201cTotal premium | GBP 11,341.14.\u201d"
+      },
+      {
+        "id": "2",
+        "name": "j-note-says-shipping-agent",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note says the shipping agent's confirmation NFA-5103 books the Galerie Hendriks & Daalder consignment (TRP-03 and TRP-03-2) as air freight on 2027-02-15, so TW-07 to TW-10 carry the air transit loading.",
+        "reasoning": "final_message.md says NFA-5103 re-booked Amsterdam as air freight on 15 February and separately mentions TRP-03/TRP-03-2, but it never explicitly identifies this as the Galerie Hendriks & Daalder consignment carrying the loading on TW-07 through TW-10."
+      },
+      {
+        "id": "3",
+        "name": "j-note-gives-galerie-hendriks",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note gives the Galerie Hendriks & Daalder premiums with the air loading: TW-07 1415.53, TW-08 1188.34, TW-09 1324.65 and TW-10 588.54 pounds.",
+        "reasoning": "The four premiums appear in workspace/tidelines_loans_reconciliation.csv, but the closing note in final_message.md does not give the individual TW-07\u2013TW-10 premium figures."
+      },
+      {
+        "id": "4",
+        "name": "j-note-says-trp-08",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note says TRP-08 travels on the shipping agent's confirmed slot, departing 2027-02-18 and arriving 2027-02-20, not the requested dates.",
+        "reasoning": "final_message.md says NFA-5108 moved Oostduin to 18\u201320 February, but it does not explicitly state that this is TRP-08 traveling on the confirmed slot rather than its requested dates."
+      },
+      {
+        "id": "5",
+        "name": "j-note-says-kit-laverick",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note says Kit Laverick was passed over for TRP-08 because of approved leave from 15 to 19 February, and Saoirse Dunmore accompanies TRP-08.",
+        "reasoning": "final_message.md explicitly says \u201cKit Laverick was passed over for TRP-08 (approved leave 15\u201319 Feb),\u201d and its vehicle list assigns TRP-08 to Saoirse Dunmore."
+      },
+      {
+        "id": "6",
+        "name": "j-note-gives-courier-vehicle",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.08333333333333333,
+        "description": "[final answer] The note gives the courier for every vehicle: TRP-01 Hollis Brandt; TRP-02 Maud Ellery; TRP-04 Kit Laverick; TRP-03 Saoirse Dunmore; TRP-03-2 Ned Aske; TRP-05 Priya Calloway; TRP-06 Hollis Brandt; TRP-07 Maud Ellery; TRP-08 Saoirse Dunmore; TRP-09 Lender's courier; TRP-10 Ned Aske; TRP-10-2 Priya Calloway; TRP-11 Hollis Brandt; TRP-12 Maud Ellery.",
+        "reasoning": "The \u201cVehicles\u201d section of final_message.md explicitly lists all 14 required vehicle\u2013courier assignments, including TRP-09 as \u201cLender's courier.\u201d"
+      },
+      {
+        "id": "7",
+        "name": "j-note-says-total-insured",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.05,
+        "description": "[final answer] The note says the total insured value of the confirmed loans is 14,280,008 pounds.",
+        "reasoning": "The headline table in final_message.md states \u201cTotal insured value, confirmed loans | GBP 14,280,008.\u201d"
+      },
+      {
+        "id": "8",
+        "name": "j-note-says-daniel-carrow",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.05,
+        "description": "[final answer] The note says Daniel Carrow's WhatsApp message revised TW-28 to USD 1,850,000, giving an insured value of 1,450,955 pounds.",
+        "reasoning": "final_message.md states that TW-28 was revised to USD 1,850,000 via \u201cCarrow WhatsApp\u201d and converted to GBP 1,450,955, but it does not explicitly name Daniel Carrow."
+      },
+      {
+        "id": "9",
+        "name": "j-note-says-tw-20",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.05,
+        "description": "[final answer] The note says TW-20 was declined because the conservator's comment on the condition-checks page found it not fit to travel.",
+        "reasoning": "final_message.md identifies TW-20 as \u201cDeclined \u2013 condition\u201d and cites \u201cVenn's comment cmt-bmcon-090\u201d reporting active flaking; the channel-claims section also says Venn's own comment declines TW-20."
+      },
+      {
+        "id": "10",
+        "name": "j-note-says-mr-ruaridh",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.05,
+        "description": "[final answer] The note says Mr Ruaridh Fennick was sent his confirmation by email because he replied STOP to the courier desk's out-of-hours line.",
+        "reasoning": "final_message.md says \u201cLND-12 by email\u201d because of a STOP reply, but it does not explicitly identify LND-12 as Mr Ruaridh Fennick in the note."
+      },
+      {
+        "id": "11",
+        "name": "j-note-says-carrow-webb",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.05,
+        "description": "[final answer] The note says the Carrow & Webb consignment needed a second vehicle, TRP-10-2 carrying TW-29, once the TW-28 revision took it over the vehicle limit.",
+        "reasoning": "final_message.md reports the New York split into TRP-10 and TRP-10-2 and separately reports the TW-28 revision, but it does not explicitly say that the revision caused the limit breach or that TRP-10-2 carries TW-29."
+      },
+      {
+        "id": "12",
+        "name": "j-note-says-olwen-pryce",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.05,
+        "description": "[final answer] The note says Olwen Pryce's claim that the Strandhuis van comes on the 12th does not stand because the shipping agent's confirmation moved it to 18 February.",
+        "reasoning": "final_message.md rejects the claim that the Strandhuis van comes on the 12th because NFA-5108 moved it, but it never names Olwen Pryce."
+      },
+      {
+        "id": "13",
+        "name": "j-note-says-31-objects",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says 31 objects are confirmed and 4 are not.",
+        "reasoning": "The headline table in final_message.md explicitly states \u201cConfirmed / not confirmed | 31 / 4.\u201d"
+      },
+      {
+        "id": "14",
+        "name": "j-note-says-5-920",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says 5,920,088 pounds of the total is under the Government Indemnity Scheme and 8,359,920 pounds under commercial cover.",
+        "reasoning": "final_message.md gives GBP 5,920,088 under GIS and GBP 8,359,920 under commercial cover."
+      },
+      {
+        "id": "15",
+        "name": "j-note-says-tw-12",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says TW-12 was withdrawn by its lender in a later reply in her email thread, before the freeze.",
+        "reasoning": "final_message.md says TW-12 was withdrawn by the lender in a Thackwray email before the freeze, but it does not explicitly say that the withdrawal was in a later reply in her email thread."
+      },
+      {
+        "id": "16",
+        "name": "j-note-says-tw-34",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says TW-34 and TW-35 are not confirmed because the Garside Hall Estate agreement lacks the lender's signature and date.",
+        "reasoning": "final_message.md groups TW-34 and TW-35 as not confirmed because LND-13 was returned with only the museum's countersignature, explicitly establishing the missing lender signature; this also leaves the lender date absent."
+      },
+      {
+        "id": "17",
+        "name": "j-note-says-revision-tw",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says the revision of TW-16 to SEK 10,400,000 arrived after the freeze and was not applied.",
+        "reasoning": "The \u201cLender changes\u201d section of final_message.md says TW-16\u2019s revision to SEK 10,400,000 arrived by email on 28 November after the freeze and was not applied."
+      },
+      {
+        "id": "18",
+        "name": "j-note-says-values-were",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says values were converted at the exchange rates fixed in the loan agreements, not at finance's market rates.",
+        "reasoning": "final_message.md rejects Bryony's market rates and states \u201cagreement rate never a later market rate\u201d; it also says TW-28 was converted at the agreement's 0.7843 rate."
+      },
+      {
+        "id": "19",
+        "name": "j-note-says-insured-value",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says the insured value of TW-15 is 248,385 pounds, the half pound rounded up.",
+        "reasoning": "TW-15\u2019s GBP 248,385 value appears in workspace/tidelines_loans_dossier.md, but final_message.md does not mention TW-15 or say that a half pound was rounded up."
+      },
+      {
+        "id": "20",
+        "name": "j-note-says-aldred-maritime",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says Aldred Maritime Museum's objects are under commercial cover because Aldred is not on the GIS approval schedule.",
+        "reasoning": "The channel-claims section of final_message.md says \u201cAldred under the indemnity \u2717 (not on the GIS schedule),\u201d and the closing sentence says the correct treatment was commercial cover."
+      },
+      {
+        "id": "21",
+        "name": "j-note-says-premium-keel",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says the premium is at Keel & Lantern's second issue: 0.150% on the first 500,000 pounds of each object, 0.085% above it and 0.020% air transit loading.",
+        "reasoning": "final_message.md identifies Keel & Lantern's second issue and the 0.020% air loading, but it does not give the required 0.150% first-band and 0.085% excess rates."
+      },
+      {
+        "id": "22",
+        "name": "j-note-gives-bridge-14",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note gives the bridge: 14,530,073 pounds at the agreement rates for all objects, less 218,000 for the unsigned agreement, less 210,000 for TW-12, less 175,000 for TW-20, plus 352,935 for the TW-28 revision, ending at 14,280,008.",
+        "reasoning": "final_message.md provides the same starting and ending totals and all four adjustments, but its bridge orders them as \u2212210,000, \u2212175,000, \u2212218,000, +352,935 rather than the criterion\u2019s explicit \u2212218,000, \u2212210,000, \u2212175,000, +352,935 bridge."
+      },
+      {
+        "id": "23",
+        "name": "j-note-says-14-vehicles",
+        "value": 0.0,
+        "raw": "no",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says 14 vehicles travel and the Galerie Hendriks & Daalder consignment needed a second vehicle, TRP-03-2 carrying TW-10, because of the 3,000,000 pound vehicle limit.",
+        "reasoning": "final_message.md says 14 vehicles travel and that Amsterdam required TRP-03 plus TRP-03-2 under the split rule, but it does not explicitly name Galerie Hendriks & Daalder or state in the note that TRP-03-2 carries TW-10."
+      },
+      {
+        "id": "24",
+        "name": "j-note-says-ned-aske",
+        "value": 1.0,
+        "raw": "yes",
+        "weight": 0.016666666666666666,
+        "description": "[final answer] The note says Ned Aske accompanies TRP-10 because his 22-26 February leave is only requested, not approved.",
+        "reasoning": "final_message.md assigns Ned Aske to TRP-10 and explicitly says his 22\u201326 February leave was only requested, so he was not passed over."
+      },
+      {
+        "id": "25",
+        "name": "n-note-gives-total-commercial",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.05,
+        "description": "[final answer] The note gives the total commercial premium as 10709.32 pounds.",
+        "reasoning": "final_message.md mentions GBP 10,709.32 only as the superseded premium before the air re-booking; it identifies GBP 11,341.14 as the total premium."
+      },
+      {
+        "id": "26",
+        "name": "n-note-says-kit-laverick",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.05,
+        "description": "[final answer] The note says Kit Laverick accompanies TRP-03.",
+        "reasoning": "The vehicle list in final_message.md assigns Kit Laverick to TRP-04 and Saoirse Dunmore to TRP-03."
+      },
+      {
+        "id": "27",
+        "name": "n-note-says-trp-08",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.05,
+        "description": "[final answer] The note says TRP-08 departs on 2027-02-12.",
+        "reasoning": "final_message.md says the Oostduin/Strandhuis movement was changed from the 12th to 18\u201320 February, not that TRP-08 departs on 12 February."
+      },
+      {
+        "id": "28",
+        "name": "n-note-says-priya-calloway",
+        "value": 0.0,
+        "raw": "no",
+        "weight": -0.05,
+        "description": "[final answer] The note says Priya Calloway accompanies TRP-08.",
+        "reasoning": "The vehicle list in final_message.md assigns Saoirse Dunmore to TRP-08; Priya Calloway is assigned to TRP-05 and TRP-10-2."
+      }
+    ],
+    "kind": "agent",
+    "judge": {
+      "agent": "codex",
+      "model": "gpt-5.6-sol",
+      "version": null,
+      "reasoning_effort": null,
+      "timeout": 1200,
+      "cwd": "/logs/verifier/judge_ws",
+      "isolated": false,
+      "atif_trajectory": "/logs/verifier/judge_ws/trajectory.json",
+      "mode": "batched",
+      "mcp_servers": [],
+      "samples": 1,
+      "guard": "off"
+    },
+    "judge_output": "{\"j-note-says-total-commercial\":{\"score\":\"yes\",\"reasoning\":\"In final_message.md under \u201cHeadline,\u201d the note states \u201cTotal premium | GBP 11,341.14.\u201d\"},\"j-note-says-shipping-agent\":{\"score\":\"no\",\"reasoning\":\"final_message.md says NFA-5103 re-booked Amsterdam as air freight on 15 February and separately mentions TRP-03/TRP-03-2, but it never explicitly identifies this as the Galerie Hendriks & Daalder consignment carrying the loading on TW-07 through TW-10.\"},\"j-note-gives-galerie-hendriks\":{\"score\":\"no\",\"reasoning\":\"The four premiums appear in workspace/tidelines_loans_reconciliation.csv, but the closing note in final_message.md does not give the individual TW-07\u2013TW-10 premium figures.\"},\"j-note-says-trp-08\":{\"score\":\"no\",\"reasoning\":\"final_message.md says NFA-5108 moved Oostduin to 18\u201320 February, but it does not explicitly state that this is TRP-08 traveling on the confirmed slot rather than its requested dates.\"},\"j-note-says-kit-laverick\":{\"score\":\"yes\",\"reasoning\":\"final_message.md explicitly says \u201cKit Laverick was passed over for TRP-08 (approved leave 15\u201319 Feb),\u201d and its vehicle list assigns TRP-08 to Saoirse Dunmore.\"},\"j-note-gives-courier-vehicle\":{\"score\":\"yes\",\"reasoning\":\"The \u201cVehicles\u201d section of final_message.md explicitly lists all 14 required vehicle\u2013courier assignments, including TRP-09 as \u201cLender's courier.\u201d\"},\"j-note-says-total-insured\":{\"score\":\"yes\",\"reasoning\":\"The headline table in final_message.md states \u201cTotal insured value, confirmed loans | GBP 14,280,008.\u201d\"},\"j-note-says-daniel-carrow\":{\"score\":\"no\",\"reasoning\":\"final_message.md states that TW-28 was revised to USD 1,850,000 via \u201cCarrow WhatsApp\u201d and converted to GBP 1,450,955, but it does not explicitly name Daniel Carrow.\"},\"j-note-says-tw-20\":{\"score\":\"yes\",\"reasoning\":\"final_message.md identifies TW-20 as \u201cDeclined \u2013 condition\u201d and cites \u201cVenn's comment cmt-bmcon-090\u201d reporting active flaking; the channel-claims section also says Venn's own comment declines TW-20.\"},\"j-note-says-mr-ruaridh\":{\"score\":\"no\",\"reasoning\":\"final_message.md says \u201cLND-12 by email\u201d because of a STOP reply, but it does not explicitly identify LND-12 as Mr Ruaridh Fennick in the note.\"},\"j-note-says-carrow-webb\":{\"score\":\"no\",\"reasoning\":\"final_message.md reports the New York split into TRP-10 and TRP-10-2 and separately reports the TW-28 revision, but it does not explicitly say that the revision caused the limit breach or that TRP-10-2 carries TW-29.\"},\"j-note-says-olwen-pryce\":{\"score\":\"no\",\"reasoning\":\"final_message.md rejects the claim that the Strandhuis van comes on the 12th because NFA-5108 moved it, but it never names Olwen Pryce.\"},\"j-note-says-31-objects\":{\"score\":\"yes\",\"reasoning\":\"The headline table in final_message.md explicitly states \u201cConfirmed / not confirmed | 31 / 4.\u201d\"},\"j-note-says-5-920\":{\"score\":\"yes\",\"reasoning\":\"final_message.md gives GBP 5,920,088 under GIS and GBP 8,359,920 under commercial cover.\"},\"j-note-says-tw-12\":{\"score\":\"no\",\"reasoning\":\"final_message.md says TW-12 was withdrawn by the lender in a Thackwray email before the freeze, but it does not explicitly say that the withdrawal was in a later reply in her email thread.\"},\"j-note-says-tw-34\":{\"score\":\"yes\",\"reasoning\":\"final_message.md groups TW-34 and TW-35 as not confirmed because LND-13 was returned with only the museum's countersignature, explicitly establishing the missing lender signature; this also leaves the lender date absent.\"},\"j-note-says-revision-tw\":{\"score\":\"yes\",\"reasoning\":\"The \u201cLender changes\u201d section of final_message.md says TW-16\u2019s revision to SEK 10,400,000 arrived by email on 28 November after the freeze and was not applied.\"},\"j-note-says-values-were\":{\"score\":\"yes\",\"reasoning\":\"final_message.md rejects Bryony's market rates and states \u201cagreement rate never a later market rate\u201d; it also says TW-28 was converted at the agreement's 0.7843 rate.\"},\"j-note-says-insured-value\":{\"score\":\"no\",\"reasoning\":\"TW-15\u2019s GBP 248,385 value appears in workspace/tidelines_loans_dossier.md, but final_message.md does not mention TW-15 or say that a half pound was rounded up.\"},\"j-note-says-aldred-maritime\":{\"score\":\"yes\",\"reasoning\":\"The channel-claims section of final_message.md says \u201cAldred under the indemnity \u2717 (not on the GIS schedule),\u201d and the closing sentence says the correct treatment was commercial cover.\"},\"j-note-says-premium-keel\":{\"score\":\"no\",\"reasoning\":\"final_message.md identifies Keel & Lantern's second issue and the 0.020% air loading, but it does not give the required 0.150% first-band and 0.085% excess rates.\"},\"j-note-gives-bridge-14\":{\"score\":\"no\",\"reasoning\":\"final_message.md provides the same starting and ending totals and all four adjustments, but its bridge orders them as \u2212210,000, \u2212175,000, \u2212218,000, +352,935 rather than the criterion\u2019s explicit \u2212218,000, \u2212210,000, \u2212175,000, +352,935 bridge.\"},\"j-note-says-14-vehicles\":{\"score\":\"no\",\"reasoning\":\"final_message.md says 14 vehicles travel and that Amsterdam required TRP-03 plus TRP-03-2 under the split rule, but it does not explicitly name Galerie Hendriks & Daalder or state in the note that TRP-03-2 carries TW-10.\"},\"j-note-says-ned-aske\":{\"score\":\"yes\",\"reasoning\":\"final_message.md assigns Ned Aske to TRP-10 and explicitly says his 22\u201326 February leave was only requested, so he was not passed over.\"},\"n-note-gives-total-commercial\":{\"score\":\"no\",\"reasoning\":\"final_message.md mentions GBP 10,709.32 only as the superseded premium before the air re-booking; it identifies GBP 11,341.14 as the total premium.\"},\"n-note-says-kit-laverick\":{\"score\":\"no\",\"reasoning\":\"The vehicle list in final_message.md assigns Kit Laverick to TRP-04 and Saoirse Dunmore to TRP-03.\"},\"n-note-says-trp-08\":{\"score\":\"no\",\"reasoning\":\"final_message.md says the Oostduin/Strandhuis movement was changed from the 12th to 18\u201320 February, not that TRP-08 departs on 12 February.\"},\"n-note-says-priya-calloway\":{\"score\":\"no\",\"reasoning\":\"The vehicle list in final_message.md assigns Saoirse Dunmore to TRP-08; Priya Calloway is assigned to TRP-05 and TRP-10-2.\"}}",
+    "usage": {
+      "input_tokens": 62393,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 37248,
+      "output_tokens": 3426,
+      "reasoning_output_tokens": 952,
+      "total_tokens": 65819,
+      "cost_usd": 0.1839992,
+      "cost_source": "litellm_estimate",
+      "models": {
+        "gpt-5.6-sol": {
+          "input_tokens": 62393,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 37248,
+          "output_tokens": 3426,
+          "reasoning_output_tokens": 952,
+          "total_tokens": 65819,
+          "cost_usd": 0.1839992
+        }
+      }
+    },
+    "judge_logs": [
+      "/logs/verifier/trajectory.codex.batched-1.f256e59615d44e92a0e38eb289f046e1.jsonl"
+    ]
+  }
+}

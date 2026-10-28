@@ -1,0 +1,196 @@
+{
+ "cards": [
+  {
+   "id": "62d11d9226d5b4a0310bbebd",
+   "name": "Riverside fireworks display",
+   "desc": "Display at 19:00, stewards, toilets, lighting towers and the lost children point.",
+   "id_board": "60b120a698f4e1804b6eaa47",
+   "id_list": "61c18985983a34014a2881bb",
+   "pos": 16384.0,
+   "due": "2026-09-08T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a0d112f3f79be26e9d34e",
+    "5f1ae63c7b220c028c1438bc"
+   ],
+   "labels": [
+    "fireworks"
+   ]
+  },
+  {
+   "id": "62d154ada89945e3819ef1a8",
+   "name": "Christmas market in the market square",
+   "desc": "Pitch plan agreed with the farmers market; power points to be checked.",
+   "id_board": "60b120a698f4e1804b6eaa47",
+   "id_list": "61c18985983a34014a2881bb",
+   "pos": 32768.0,
+   "due": "2026-09-15T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a0d112f3f79be26e9d34e"
+   ],
+   "labels": [
+    "markets"
+   ]
+  },
+  {
+   "id": "62d1a1fc738692e06eb17bd7",
+   "name": "Bandstand afternoons, spring",
+   "desc": "Riverside Brass Band want eight Sunday afternoons.",
+   "id_board": "60b120a698f4e1804b6eaa47",
+   "id_list": "61c140827b8a3374fd6c0afb",
+   "pos": 16384.0,
+   "due": "2026-09-21T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a0d112f3f79be26e9d34e"
+   ],
+   "labels": [
+    "bandstand"
+   ]
+  },
+  {
+   "id": "62d12f9825344f7b449e7d20",
+   "name": "Winter 10k route",
+   "desc": "Route through the riverside park approved, avoiding the playground.",
+   "id_board": "60b120a698f4e1804b6eaa47",
+   "id_list": "61c13e9d29babd9ee7fb5141",
+   "pos": 16384.0,
+   "due": "2026-09-26T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1a0d112f3f79be26e9d34e"
+   ],
+   "labels": [
+    "running"
+   ]
+  },
+  {
+   "id": "62d136c067c1e67f6b394413",
+   "name": "Fireworks stewards",
+   "desc": "Twenty stewards needed; eighteen confirmed so far.",
+   "id_board": "60b1727752174209d920a019",
+   "id_list": "61c1b70a461030f467f1204f",
+   "pos": 16384.0,
+   "due": "2026-10-15T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1ae63c7b220c028c1438bc"
+   ],
+   "labels": [
+    "fireworks"
+   ]
+  },
+  {
+   "id": "62d15274b3042a83effd9643",
+   "name": "Autumn litter pick",
+   "desc": "Thirty-one volunteers, forty bags collected along the river.",
+   "id_board": "60b1727752174209d920a019",
+   "id_list": "61c178920a2e0734f65189aa",
+   "pos": 16384.0,
+   "due": "2026-10-09T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1ae63c7b220c028c1438bc"
+   ],
+   "labels": [
+    "litter"
+   ]
+  },
+  {
+   "id": "62d1cef700d2feba87fe01d9",
+   "name": "Bulb planting by the river path",
+   "desc": "Daffodils along the river path with the primary school.",
+   "id_board": "60b1727752174209d920a019",
+   "id_list": "61c115b3da82a617c5947763",
+   "pos": 16384.0,
+   "due": "2026-10-27T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1ae63c7b220c028c1438bc"
+   ],
+   "labels": [
+    "planting"
+   ]
+  },
+  {
+   "id": "62d1c7038a64d45bbd6ed4e8",
+   "name": "Volunteer sign-in on tablets",
+   "desc": "Swap the paper sign-in sheet for the tablets the grounds team are getting.",
+   "id_board": "60b1727752174209d920a019",
+   "id_list": "61c1b70a461030f467f1204f",
+   "pos": 32768.0,
+   "due": "2026-10-30T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "5f1ae63c7b220c028c1438bc",
+    "5f1aa7775deaa47a18e399ca"
+   ],
+   "labels": [
+    "admin"
+   ]
+  }
+ ],
+ "checklists": [
+  {
+   "id": "cl_wx001",
+   "id_card": "62d11d9226d5b4a0310bbebd",
+   "id_board": "60b120a698f4e1804b6eaa47",
+   "name": "Before the night",
+   "pos": 1000,
+   "check_items": [
+    {
+     "id": "ci_wx101",
+     "id_checklist": "cl_wx001",
+     "name": "Display company confirmed",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_wx102",
+     "id_checklist": "cl_wx001",
+     "name": "Toilets booked",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_wx103",
+     "id_checklist": "cl_wx001",
+     "name": "Lighting towers delivered",
+     "state": "incomplete",
+     "pos": 3000
+    }
+   ]
+  },
+  {
+   "id": "cl_wx002",
+   "id_card": "62d15274b3042a83effd9643",
+   "id_board": "60b1727752174209d920a019",
+   "name": "Litter pick kit",
+   "pos": 2000,
+   "check_items": [
+    {
+     "id": "ci_wx201",
+     "id_checklist": "cl_wx002",
+     "name": "Gloves and pickers",
+     "state": "complete",
+     "pos": 1000
+    },
+    {
+     "id": "ci_wx202",
+     "id_checklist": "cl_wx002",
+     "name": "Bags",
+     "state": "complete",
+     "pos": 2000
+    },
+    {
+     "id": "ci_wx203",
+     "id_checklist": "cl_wx002",
+     "name": "Tea urn",
+     "state": "complete",
+     "pos": 3000
+    }
+   ]
+  }
+ ]
+}

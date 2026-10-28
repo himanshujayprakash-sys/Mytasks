@@ -1,0 +1,174 @@
+{
+ "scheduled_events": [
+  {
+   "uuid": "sev-nl04-001",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-vol-20",
+   "name": "Volunteer onboarding call",
+   "status": "active",
+   "start_time": "2026-11-03T18:00:00.000000Z",
+   "end_time": "2026-11-03T18:20:00.000000Z",
+   "location_type": "google_conference",
+   "location": "Google Meet",
+   "created_at": "2026-10-20T10:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-nl04-002",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-vol-20",
+   "name": "Volunteer onboarding call",
+   "status": "active",
+   "start_time": "2026-11-04T18:30:00.000000Z",
+   "end_time": "2026-11-04T18:50:00.000000Z",
+   "location_type": "google_conference",
+   "location": "Google Meet",
+   "created_at": "2026-10-21T11:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-nl04-003",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-vol-20",
+   "name": "Volunteer onboarding call",
+   "status": "canceled",
+   "start_time": "2026-11-05T12:00:00.000000Z",
+   "end_time": "2026-11-05T12:20:00.000000Z",
+   "location_type": "zoom",
+   "location": "Zoom",
+   "created_at": "2026-10-22T12:15:00.000000Z",
+   "canceled_reason": "Rebooking once the work rota is out"
+  },
+  {
+   "uuid": "sev-nl04-004",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-walk-60",
+   "name": "Venue walk-through for team leads",
+   "status": "active",
+   "start_time": "2026-11-19T16:00:00.000000Z",
+   "end_time": "2026-11-19T17:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Exchange Hall, Port Corrin",
+   "created_at": "2026-10-23T10:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-nl04-005",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-vol-20",
+   "name": "Volunteer onboarding call",
+   "status": "active",
+   "start_time": "2026-11-12T18:00:00.000000Z",
+   "end_time": "2026-11-12T18:20:00.000000Z",
+   "location_type": "google_conference",
+   "location": "Google Meet",
+   "created_at": "2026-10-24T11:15:00.000000Z",
+   "canceled_reason": null
+  },
+  {
+   "uuid": "sev-nl04-006",
+   "owner": "Sunniva Holt",
+   "event_type": "et-nl-walk-60",
+   "name": "Venue walk-through for team leads",
+   "status": "active",
+   "start_time": "2026-11-19T16:00:00.000000Z",
+   "end_time": "2026-11-19T17:00:00.000000Z",
+   "location_type": "physical",
+   "location": "Exchange Hall, Port Corrin",
+   "created_at": "2026-10-25T12:15:00.000000Z",
+   "canceled_reason": null
+  }
+ ],
+ "invitees": [
+  {
+   "uuid": "inv-nl04-001",
+   "event": "sev-nl04-001",
+   "name": "Rory Tennant",
+   "email": "rory.tennant@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-20T10:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "Can I do mornings only?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-nl04-002",
+   "event": "sev-nl04-002",
+   "name": "Yasmin Darcy",
+   "email": "yasmin.darcy@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-21T11:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "First time volunteering at a conference"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-nl04-003",
+   "event": "sev-nl04-003",
+   "name": "Piotr Nowicki",
+   "email": "piotr.nowicki@mail.example",
+   "status": "canceled",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-22T12:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "Need to check my shifts at work"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-nl04-004",
+   "event": "sev-nl04-004",
+   "name": "Rory Tennant",
+   "email": "rory.tennant@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-23T10:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "Where do we store bags?"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-nl04-005",
+   "event": "sev-nl04-005",
+   "name": "Leila Ahmadi",
+   "email": "leila.ahmadi@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-24T11:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "I speak French and Farsi if that helps"
+    }
+   ]
+  },
+  {
+   "uuid": "inv-nl04-006",
+   "event": "sev-nl04-006",
+   "name": "Yasmin Darcy",
+   "email": "yasmin.darcy@mail.example",
+   "status": "active",
+   "timezone": "Europe/London",
+   "created_at": "2026-10-25T12:15:00.000000Z",
+   "questions_and_answers": [
+    {
+     "question": "Anything we should know before the call?",
+     "answer": "Where is the volunteer break area?"
+    }
+   ]
+  }
+ ]
+}

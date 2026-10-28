@@ -1,0 +1,156 @@
+{
+ "teams": [
+  {
+   "id": "team_ts_shore",
+   "displayName": "Tarrow Sound shore staff",
+   "description": "Calderwick and Ronsay shore offices and the café",
+   "membershipType": "standard",
+   "visibility": "private",
+   "isArchived": false,
+   "webUrl": "https://teams.tarrowsound.example/l/team/team_ts_shore",
+   "member_ids": [
+    "user-001",
+    "user-ts-01",
+    "user-ts-02",
+    "user-ts-03",
+    "user-ts-04",
+    "user-ts-05",
+    "user-ts-06",
+    "user-ts-07",
+    "user-ts-08"
+   ]
+  }
+ ],
+ "channels": [
+  {
+   "id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "displayName": "General",
+   "membershipType": "standard",
+   "description": "Day-to-day chat for shore staff",
+   "webUrl": "https://teams.tarrowsound.example/l/team/team_ts_shore/channel/ch_ts_general",
+   "createdDateTime": "2026-11-09T08:00:00Z"
+  },
+  {
+   "id": "ch_ts_ithelp",
+   "team_id": "team_ts_shore",
+   "displayName": "IT help",
+   "membershipType": "standard",
+   "description": "Quick IT questions and fixes",
+   "webUrl": "https://teams.tarrowsound.example/l/team/team_ts_shore/channel/ch_ts_ithelp",
+   "createdDateTime": "2026-11-09T08:00:00Z"
+  }
+ ],
+ "messages": [
+  {
+   "id": "1796100000201",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-01",
+   "from_display_name": "Euan Galbraith",
+   "content": "Jacket sizes please, sheet is in the shared drive. Order goes in on 11 December.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-10T09:50:00Z"
+  },
+  {
+   "id": "1796100000202",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-02",
+   "from_display_name": "Lachlan Moffat",
+   "content": "Ronsay waiting room heater fixed, new thermostat in.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-02T15:30:00Z"
+  },
+  {
+   "id": "1796100000203",
+   "channel_id": "ch_ts_ithelp",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-02",
+   "from_display_name": "Lachlan Moffat",
+   "content": "Pier office printer has dropped off again.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-23T08:50:00Z"
+  },
+  {
+   "id": "1796100000204",
+   "channel_id": "ch_ts_ithelp",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-03",
+   "from_display_name": "Ewan Inglis",
+   "content": "Given the pier office printer a fixed address. Shout if it drops off again.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-25T14:12:00Z"
+  },
+  {
+   "id": "1796100000205",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-04",
+   "from_display_name": "Aileen Carmichael",
+   "content": "Gift vouchers are in the café now. Display stand coming next week.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-04T16:20:00Z"
+  },
+  {
+   "id": "1796100000206",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-05",
+   "from_display_name": "Niall Urquhart",
+   "content": "First aid course on 16 December in the crew mess, two places left.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-03T14:30:00Z"
+  },
+  {
+   "id": "1796100000207",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-06",
+   "from_display_name": "Rhona Dalgetty",
+   "content": "Wellbeing survey is open until 31 December, five minutes, anonymous.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-30T09:10:00Z"
+  },
+  {
+   "id": "1796100000208",
+   "channel_id": "ch_ts_ithelp",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-07",
+   "from_display_name": "Beth Tulloch",
+   "content": "Payroll export is missing the overtime column.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-11-30T15:15:00Z"
+  },
+  {
+   "id": "1796100000209",
+   "channel_id": "ch_ts_ithelp",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-03",
+   "from_display_name": "Ewan Inglis",
+   "content": "Overtime column restored in the payroll export template.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-01T09:55:00Z"
+  },
+  {
+   "id": "1796100000210",
+   "channel_id": "ch_ts_general",
+   "team_id": "team_ts_shore",
+   "from_user_id": "user-ts-08",
+   "from_display_name": "Morven Lumsden",
+   "content": "Lost property clear-out on 14 December. Anything you know the owner of, flag it before then.",
+   "contentType": "html",
+   "importance": "normal",
+   "createdDateTime": "2026-12-07T11:00:00Z"
+  }
+ ]
+}

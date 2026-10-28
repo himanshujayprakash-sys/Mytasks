@@ -1,0 +1,405 @@
+{
+ "employees": [
+  {
+   "id": "emp-kr-01",
+   "firstName": "Ruth",
+   "lastName": "Okafor",
+   "jobTitle": "Educational Visits Coordinator",
+   "department": "Pastoral",
+   "workEmail": "ruth.okafor@kestrelridge.example",
+   "hireDate": "2012-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-02",
+   "firstName": "Simon",
+   "lastName": "Tranter",
+   "jobTitle": "School Business Manager",
+   "department": "Business office",
+   "workEmail": "simon.tranter@kestrelridge.example",
+   "hireDate": "2013-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-03",
+   "firstName": "Leanne",
+   "lastName": "Birch",
+   "jobTitle": "Attendance Officer",
+   "department": "Pastoral",
+   "workEmail": "leanne.birch@kestrelridge.example",
+   "hireDate": "2014-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-04",
+   "firstName": "Harriet",
+   "lastName": "Vale",
+   "jobTitle": "Headteacher",
+   "department": "Leadership",
+   "workEmail": "harriet.vale@kestrelridge.example",
+   "hireDate": "2015-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": null
+  },
+  {
+   "id": "emp-kr-05",
+   "firstName": "Callum",
+   "lastName": "Reid",
+   "jobTitle": "Head of Year 7",
+   "department": "Pastoral",
+   "workEmail": "callum.reid@kestrelridge.example",
+   "hireDate": "2016-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-06",
+   "firstName": "Priya",
+   "lastName": "Nandakumar",
+   "jobTitle": "Form tutor 7A",
+   "department": "Teaching",
+   "workEmail": "priya.nandakumar@kestrelridge.example",
+   "hireDate": "2017-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-07",
+   "firstName": "Owen",
+   "lastName": "Batty",
+   "jobTitle": "Form tutor 7B",
+   "department": "Teaching",
+   "workEmail": "owen.batty@kestrelridge.example",
+   "hireDate": "2018-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-08",
+   "firstName": "Megan",
+   "lastName": "Doyle",
+   "jobTitle": "Form tutor 7C",
+   "department": "Teaching",
+   "workEmail": "megan.doyle@kestrelridge.example",
+   "hireDate": "2019-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-09",
+   "firstName": "Tomasz",
+   "lastName": "Wrobel",
+   "jobTitle": "Form tutor 7D",
+   "department": "Teaching",
+   "workEmail": "tomasz.wrobel@kestrelridge.example",
+   "hireDate": "2020-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-10",
+   "firstName": "Janet",
+   "lastName": "Hollins",
+   "jobTitle": "Finance Assistant",
+   "department": "Business office",
+   "workEmail": "janet.hollins@kestrelridge.example",
+   "hireDate": "2021-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-11",
+   "firstName": "Gareth",
+   "lastName": "Pike",
+   "jobTitle": "PE teacher",
+   "department": "Teaching",
+   "workEmail": "gareth.pike@kestrelridge.example",
+   "hireDate": "2022-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-12",
+   "firstName": "Sadia",
+   "lastName": "Rahman",
+   "jobTitle": "School Nurse",
+   "department": "Pastoral",
+   "workEmail": "sadia.rahman@kestrelridge.example",
+   "hireDate": "2023-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-13",
+   "firstName": "Ellie",
+   "lastName": "Marsden",
+   "jobTitle": "Teaching Assistant",
+   "department": "Learning support",
+   "workEmail": "ellie.marsden@kestrelridge.example",
+   "hireDate": "2024-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-14",
+   "firstName": "Ben",
+   "lastName": "Ashworth",
+   "jobTitle": "Site Manager",
+   "department": "Site",
+   "workEmail": "ben.ashworth@kestrelridge.example",
+   "hireDate": "2012-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-15",
+   "firstName": "Grace",
+   "lastName": "Ogunleye",
+   "jobTitle": "SENCo",
+   "department": "Learning support",
+   "workEmail": "grace.ogunleye@kestrelridge.example",
+   "hireDate": "2013-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-16",
+   "firstName": "Martin",
+   "lastName": "Healey",
+   "jobTitle": "Deputy Head",
+   "department": "Leadership",
+   "workEmail": "martin.healey@kestrelridge.example",
+   "hireDate": "2014-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-17",
+   "firstName": "Kirsty",
+   "lastName": "Lund",
+   "jobTitle": "Reception and Admissions",
+   "department": "Business office",
+   "workEmail": "kirsty.lund@kestrelridge.example",
+   "hireDate": "2015-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-18",
+   "firstName": "Daniel",
+   "lastName": "Frost",
+   "jobTitle": "IT Technician",
+   "department": "Site",
+   "workEmail": "daniel.frost@kestrelridge.example",
+   "hireDate": "2016-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-19",
+   "firstName": "Hannah",
+   "lastName": "Clegg",
+   "jobTitle": "Catering Manager",
+   "department": "Catering",
+   "workEmail": "hannah.clegg@kestrelridge.example",
+   "hireDate": "2017-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  },
+  {
+   "id": "emp-kr-20",
+   "firstName": "Yusuf",
+   "lastName": "Patel",
+   "jobTitle": "Science teacher",
+   "department": "Teaching",
+   "workEmail": "yusuf.patel@kestrelridge.example",
+   "hireDate": "2018-09-01",
+   "status": "active",
+   "location": "Holmbrook",
+   "supervisorId": "emp-kr-04"
+  }
+ ],
+ "time_off": [
+  {
+   "id": "tor-kr-001",
+   "employeeId": "emp-kr-18",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-10-26",
+   "end": "2026-10-28",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Half-term trip to Whitby",
+   "created": "2026-10-05"
+  },
+  {
+   "id": "tor-kr-002",
+   "employeeId": "emp-kr-10",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2026-12-21",
+   "end": "2026-12-23",
+   "amount": 3,
+   "unit": "days",
+   "notes": "Christmas shopping and family visit",
+   "created": "2026-11-30"
+  },
+  {
+   "id": "tor-kr-003",
+   "employeeId": "emp-kr-14",
+   "type": "Vacation",
+   "status": "approved",
+   "start": "2027-02-15",
+   "end": "2027-02-17",
+   "amount": 3,
+   "unit": "days",
+   "notes": "February half-term, site covered by the agency caretaker",
+   "created": "2027-01-25"
+  },
+  {
+   "id": "tor-kr-004",
+   "employeeId": "emp-kr-17",
+   "type": "Sick",
+   "status": "approved",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "amount": 1,
+   "unit": "days",
+   "notes": "Dental surgery",
+   "created": "2026-11-02"
+  },
+  {
+   "id": "tor-kr-005",
+   "employeeId": "emp-kr-20",
+   "type": "Training",
+   "status": "approved",
+   "start": "2027-01-11",
+   "end": "2027-01-11",
+   "amount": 1,
+   "unit": "days",
+   "notes": "Exam board moderation day in Leeds",
+   "created": "2026-12-21"
+  },
+  {
+   "id": "tor-kr-006",
+   "employeeId": "emp-kr-19",
+   "type": "Vacation",
+   "status": "requested",
+   "start": "2027-02-19",
+   "end": "2027-02-19",
+   "amount": 1,
+   "unit": "days",
+   "notes": "Moving house",
+   "created": "2027-01-29"
+  },
+  {
+   "id": "tor-kr-007",
+   "employeeId": "emp-kr-08",
+   "type": "Sick",
+   "status": "approved",
+   "start": "2026-11-09",
+   "end": "2026-11-10",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Chest infection",
+   "created": "2026-10-19"
+  },
+  {
+   "id": "tor-kr-008",
+   "employeeId": "emp-kr-11",
+   "type": "Vacation",
+   "status": "requested",
+   "start": "2027-05-24",
+   "end": "2027-05-28",
+   "amount": 5,
+   "unit": "days",
+   "notes": "Whit half-term walking holiday",
+   "created": "2027-02-05"
+  },
+  {
+   "id": "tor-kr-009",
+   "employeeId": "emp-kr-16",
+   "type": "Training",
+   "status": "approved",
+   "start": "2026-10-29",
+   "end": "2026-10-30",
+   "amount": 2,
+   "unit": "days",
+   "notes": "Deputy heads' conference",
+   "created": "2026-10-08"
+  }
+ ],
+ "whos_out": [
+  {
+   "id": "wo-kr-001",
+   "employeeId": "emp-kr-18",
+   "start": "2026-10-26",
+   "end": "2026-10-28",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-kr-002",
+   "employeeId": "emp-kr-10",
+   "start": "2026-12-21",
+   "end": "2026-12-23",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-kr-003",
+   "employeeId": "emp-kr-14",
+   "start": "2027-02-15",
+   "end": "2027-02-17",
+   "type": "Vacation"
+  },
+  {
+   "id": "wo-kr-004",
+   "employeeId": "emp-kr-17",
+   "start": "2026-11-23",
+   "end": "2026-11-23",
+   "type": "Sick"
+  },
+  {
+   "id": "wo-kr-005",
+   "employeeId": "emp-kr-20",
+   "start": "2027-01-11",
+   "end": "2027-01-11",
+   "type": "Training"
+  },
+  {
+   "id": "wo-kr-007",
+   "employeeId": "emp-kr-08",
+   "start": "2026-11-09",
+   "end": "2026-11-10",
+   "type": "Sick"
+  },
+  {
+   "id": "wo-kr-009",
+   "employeeId": "emp-kr-16",
+   "start": "2026-10-29",
+   "end": "2026-10-30",
+   "type": "Training"
+  }
+ ]
+}

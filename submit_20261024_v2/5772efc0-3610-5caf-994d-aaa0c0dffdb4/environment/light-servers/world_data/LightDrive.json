@@ -1,0 +1,219 @@
+{
+ "folders": {
+  "fd_tn_design": {
+   "fdid": "fd_tn_design",
+   "name": "Design studio",
+   "parent_id": "fd_root",
+   "path": "/Design studio",
+   "created_at": "2026-09-01T09:00"
+  },
+  "fd_tn_clients": {
+   "fdid": "fd_tn_clients",
+   "name": "Client plans 2027",
+   "parent_id": "fd_tn_design",
+   "path": "/Design studio/Client plans 2027",
+   "created_at": "2027-01-04T09:00"
+  }
+ },
+ "files": {
+  "tn17file01xQpR": {
+   "fid": "tn17file01xQpR",
+   "name": "Cholsey memorial garden - sketches v1.pdf",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Cholsey memorial garden - sketches v1.pdf",
+   "size_bytes": 1210334,
+   "mime_type": "application/pdf",
+   "created_at": "2027-04-12T15:20",
+   "updated_at": "2027-04-15T10:05",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1701a"
+  },
+  "tn17file02xQpR": {
+   "fid": "tn17file02xQpR",
+   "name": "Ogden cottage garden - consultation notes.docx",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Ogden cottage garden - consultation notes.docx",
+   "size_bytes": 31877,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2027-05-20T11:02",
+   "updated_at": "2027-05-20T11:40",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1702a"
+  },
+  "tn17file03xQpR": {
+   "fid": "tn17file03xQpR",
+   "name": "Ogden cottage garden - concept.pdf",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Ogden cottage garden - concept.pdf",
+   "size_bytes": 1874301,
+   "mime_type": "application/pdf",
+   "created_at": "2027-05-26T16:10",
+   "updated_at": "2027-05-28T09:15",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_tn1703a"
+  },
+  "tn17file04xQpR": {
+   "fid": "tn17file04xQpR",
+   "name": "Teale terrace - survey photos.zip",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Teale terrace - survey photos.zip",
+   "size_bytes": 22310482,
+   "mime_type": "application/zip",
+   "created_at": "2027-05-27T17:45",
+   "updated_at": "2027-05-27T17:45",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1704a"
+  },
+  "tn17file05xQpR": {
+   "fid": "tn17file05xQpR",
+   "name": "Teale terrace - planting plan v2.pdf",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Teale terrace - planting plan v2.pdf",
+   "size_bytes": 2310482,
+   "mime_type": "application/pdf",
+   "created_at": "2027-06-02T10:30",
+   "updated_at": "2027-06-04T14:50",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1705a"
+  },
+  "tn17file06xQpR": {
+   "fid": "tn17file06xQpR",
+   "name": "Riverside Hotel terrace - first thoughts.docx",
+   "folder_id": "fd_tn_clients",
+   "path": "/Design studio/Client plans 2027/Riverside Hotel terrace - first thoughts.docx",
+   "size_bytes": 40210,
+   "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+   "created_at": "2027-05-11T09:30",
+   "updated_at": "2027-05-18T12:00",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1706a"
+  },
+  "tn17file07xQpR": {
+   "fid": "tn17file07xQpR",
+   "name": "Design fees 2027.xlsx",
+   "folder_id": "fd_tn_design",
+   "path": "/Design studio/Design fees 2027.xlsx",
+   "size_bytes": 26112,
+   "mime_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+   "created_at": "2027-01-06T09:40",
+   "updated_at": "2027-03-01T08:55",
+   "is_starred": true,
+   "is_trashed": false,
+   "current_version_id": "v_tn1707a"
+  },
+  "tn17file08xQpR": {
+   "fid": "tn17file08xQpR",
+   "name": "Studio portfolio 2026.pdf",
+   "folder_id": "fd_tn_design",
+   "path": "/Design studio/Studio portfolio 2026.pdf",
+   "size_bytes": 8822016,
+   "mime_type": "application/pdf",
+   "created_at": "2026-12-14T13:00",
+   "updated_at": "2027-02-02T16:30",
+   "is_starred": false,
+   "is_trashed": false,
+   "current_version_id": "v_tn1708a"
+  }
+ },
+ "versions": {
+  "v_tn1701a": {
+   "vid": "v_tn1701a",
+   "file_id": "tn17file01xQpR",
+   "version_number": 1,
+   "size_bytes": 1210334,
+   "created_at": "2027-04-15T10:05",
+   "comment": "Sketches sent with the April invoice"
+  },
+  "v_tn1702a": {
+   "vid": "v_tn1702a",
+   "file_id": "tn17file02xQpR",
+   "version_number": 1,
+   "size_bytes": 31877,
+   "created_at": "2027-05-20T11:40",
+   "comment": "Typed up after the studio meeting"
+  },
+  "v_tn1703a": {
+   "vid": "v_tn1703a",
+   "file_id": "tn17file03xQpR",
+   "version_number": 1,
+   "size_bytes": 1874301,
+   "created_at": "2027-05-28T09:15",
+   "comment": "Concept as sent to the client on Friday"
+  },
+  "v_tn1704a": {
+   "vid": "v_tn1704a",
+   "file_id": "tn17file04xQpR",
+   "version_number": 1,
+   "size_bytes": 22310482,
+   "created_at": "2027-05-27T17:45",
+   "comment": "Photos from the East Hendred visit"
+  },
+  "v_tn1705a": {
+   "vid": "v_tn1705a",
+   "file_id": "tn17file05xQpR",
+   "version_number": 1,
+   "size_bytes": 2310482,
+   "created_at": "2027-06-04T14:50",
+   "comment": "Sheet two redrawn for a west-facing terrace"
+  },
+  "v_tn1706a": {
+   "vid": "v_tn1706a",
+   "file_id": "tn17file06xQpR",
+   "version_number": 1,
+   "size_bytes": 40210,
+   "created_at": "2027-05-18T12:00",
+   "comment": "Notes from the call with the general manager"
+  },
+  "v_tn1707a": {
+   "vid": "v_tn1707a",
+   "file_id": "tn17file07xQpR",
+   "version_number": 1,
+   "size_bytes": 26112,
+   "created_at": "2027-03-01T08:55",
+   "comment": "Fee scale for 2027"
+  },
+  "v_tn1708a": {
+   "vid": "v_tn1708a",
+   "file_id": "tn17file08xQpR",
+   "version_number": 1,
+   "size_bytes": 8822016,
+   "created_at": "2027-02-02T16:30",
+   "comment": "Portfolio with the Cholsey courtyard added"
+  }
+ },
+ "share_links": {
+  "sl_tn172": {
+   "slid": "sl_tn172",
+   "target_kind": "file",
+   "target_id": "tn17file03xQpR",
+   "url": "https://drive.example.com/s/tn17plan2",
+   "can_edit": false,
+   "expires_at": "2027-07-31T23:59",
+   "view_count": 4
+  },
+  "sl_tn174": {
+   "slid": "sl_tn174",
+   "target_kind": "file",
+   "target_id": "tn17file05xQpR",
+   "url": "https://drive.example.com/s/tn17plan4",
+   "can_edit": false,
+   "expires_at": "2027-07-31T23:59",
+   "view_count": 2
+  },
+  "sl_tn170": {
+   "slid": "sl_tn170",
+   "target_kind": "file",
+   "target_id": "tn17file01xQpR",
+   "url": "https://drive.example.com/s/tn17plan0",
+   "can_edit": false,
+   "expires_at": "2027-05-31T23:59",
+   "view_count": 6
+  }
+ }
+}

@@ -1,0 +1,332 @@
+{
+ "contacts": [
+  {
+   "id": "6421",
+   "properties": {
+    "firstname": "Aisling",
+    "lastname": "Moran",
+    "email": "aisling.moran@corrinuni.example",
+    "phone": "01632 960 610",
+    "jobtitle": "Careers adviser",
+    "company": "University of Port Corrin",
+    "lifecyclestage": "customer",
+    "createdate": "2026-03-20T10:00:00Z",
+    "lastmodifieddate": "2026-11-01T12:00:00Z"
+   },
+   "createdAt": "2026-03-20T10:00:00Z",
+   "updatedAt": "2026-11-01T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6422",
+   "properties": {
+    "firstname": "Bram",
+    "lastname": "de Wit",
+    "email": "bram@corrindevs.example",
+    "phone": "07700 900 621",
+    "jobtitle": "Organiser",
+    "company": "Corrin Developers Meetup",
+    "lifecyclestage": "customer",
+    "createdate": "2026-04-21T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T12:00:00Z"
+   },
+   "createdAt": "2026-04-21T10:00:00Z",
+   "updatedAt": "2026-11-02T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6423",
+   "properties": {
+    "firstname": "Chiara",
+    "lastname": "Benedetti",
+    "email": "chiara@womenintechnorth.example",
+    "phone": "07700 900 632",
+    "jobtitle": "Programme lead",
+    "company": "Women in Tech North",
+    "lifecyclestage": "opportunity",
+    "createdate": "2026-05-22T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T12:00:00Z"
+   },
+   "createdAt": "2026-05-22T10:00:00Z",
+   "updatedAt": "2026-11-03T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6424",
+   "properties": {
+    "firstname": "Duncan",
+    "lastname": "Fraser",
+    "email": "d.fraser@corrincollege.example",
+    "phone": "01632 960 643",
+    "jobtitle": "Head of computing",
+    "company": "Port Corrin College",
+    "lifecyclestage": "salesqualifiedlead",
+    "createdate": "2026-06-23T10:00:00Z",
+    "lastmodifieddate": "2026-11-04T12:00:00Z"
+   },
+   "createdAt": "2026-06-23T10:00:00Z",
+   "updatedAt": "2026-11-04T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6425",
+   "properties": {
+    "firstname": "Esme",
+    "lastname": "Larkin",
+    "email": "esme@harbourdesign.example",
+    "phone": "07700 900 654",
+    "jobtitle": "Studio manager",
+    "company": "Harbourside Design Collective",
+    "lifecyclestage": "lead",
+    "createdate": "2026-07-24T10:00:00Z",
+    "lastmodifieddate": "2026-11-05T12:00:00Z"
+   },
+   "createdAt": "2026-07-24T10:00:00Z",
+   "updatedAt": "2026-11-05T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6426",
+   "properties": {
+    "firstname": "Femi",
+    "lastname": "Adebayo",
+    "email": "femi.adebayo@northdata.example",
+    "phone": "01632 960 665",
+    "jobtitle": "Community manager",
+    "company": "North Data Guild",
+    "lifecyclestage": "marketingqualifiedlead",
+    "createdate": "2026-08-25T10:00:00Z",
+    "lastmodifieddate": "2026-11-06T12:00:00Z"
+   },
+   "createdAt": "2026-08-25T10:00:00Z",
+   "updatedAt": "2026-11-06T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6427",
+   "properties": {
+    "firstname": "Greer",
+    "lastname": "Halvorsen",
+    "email": "greer@corrinmakers.example",
+    "phone": "07700 900 676",
+    "jobtitle": "Coordinator",
+    "company": "Corrin Makerspace",
+    "lifecyclestage": "lead",
+    "createdate": "2026-03-26T10:00:00Z",
+    "lastmodifieddate": "2026-11-07T12:00:00Z"
+   },
+   "createdAt": "2026-03-26T10:00:00Z",
+   "updatedAt": "2026-11-07T12:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6428",
+   "properties": {
+    "firstname": "Hamza",
+    "lastname": "Qureshi",
+    "email": "hamza.q@corrinuni.example",
+    "phone": "01632 960 687",
+    "jobtitle": "Student union officer",
+    "company": "University of Port Corrin",
+    "lifecyclestage": "customer",
+    "createdate": "2026-04-27T10:00:00Z",
+    "lastmodifieddate": "2026-11-08T12:00:00Z"
+   },
+   "createdAt": "2026-04-27T10:00:00Z",
+   "updatedAt": "2026-11-08T12:00:00Z",
+   "archived": false
+  }
+ ],
+ "companies": [
+  {
+   "id": "6431",
+   "properties": {
+    "name": "University of Port Corrin",
+    "domain": "corrinuni.example",
+    "industry": "Higher Education",
+    "city": "Port Corrin",
+    "state": "England",
+    "numberofemployees": "3200",
+    "annualrevenue": "180000000",
+    "createdate": "2026-02-02T10:00:00Z"
+   },
+   "createdAt": "2026-02-02T10:00:00Z",
+   "updatedAt": "2026-02-02T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6432",
+   "properties": {
+    "name": "Corrin Developers Meetup",
+    "domain": "corrindevs.example",
+    "industry": "Community",
+    "city": "Port Corrin",
+    "state": "England",
+    "numberofemployees": "1",
+    "annualrevenue": "0",
+    "createdate": "2026-02-11T10:00:00Z"
+   },
+   "createdAt": "2026-02-11T10:00:00Z",
+   "updatedAt": "2026-02-11T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6433",
+   "properties": {
+    "name": "Women in Tech North",
+    "domain": "womenintechnorth.example",
+    "industry": "Non-profit",
+    "city": "Port Corrin",
+    "state": "England",
+    "numberofemployees": "4",
+    "annualrevenue": "60000",
+    "createdate": "2026-03-18T10:00:00Z"
+   },
+   "createdAt": "2026-03-18T10:00:00Z",
+   "updatedAt": "2026-03-18T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6434",
+   "properties": {
+    "name": "Port Corrin College",
+    "domain": "corrincollege.example",
+    "industry": "Education",
+    "city": "Port Corrin",
+    "state": "England",
+    "numberofemployees": "450",
+    "annualrevenue": "21000000",
+    "createdate": "2026-05-06T10:00:00Z"
+   },
+   "createdAt": "2026-05-06T10:00:00Z",
+   "updatedAt": "2026-05-06T10:00:00Z",
+   "archived": false
+  },
+  {
+   "id": "6435",
+   "properties": {
+    "name": "North Data Guild",
+    "domain": "northdata.example",
+    "industry": "Community",
+    "city": "Port Corrin",
+    "state": "England",
+    "numberofemployees": "2",
+    "annualrevenue": "0",
+    "createdate": "2026-06-24T10:00:00Z"
+   },
+   "createdAt": "2026-06-24T10:00:00Z",
+   "updatedAt": "2026-06-24T10:00:00Z",
+   "archived": false
+  }
+ ],
+ "deals": [
+  {
+   "id": "6441",
+   "properties": {
+    "dealname": "University group tickets - 40 students",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "2400",
+    "closedate": "2026-10-15T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-04-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-02T09:00:00Z"
+   },
+   "createdAt": "2026-04-05T10:00:00Z",
+   "updatedAt": "2026-11-02T09:00:00Z",
+   "archived": false,
+   "_company": "6431",
+   "_contact": "6421"
+  },
+  {
+   "id": "6442",
+   "properties": {
+    "dealname": "Meetup community tickets",
+    "pipeline": "default",
+    "dealstage": "closedwon",
+    "amount": "900",
+    "closedate": "2026-10-30T00:00:00Z",
+    "dealtype": "existingbusiness",
+    "createdate": "2026-05-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-03T09:00:00Z"
+   },
+   "createdAt": "2026-05-05T10:00:00Z",
+   "updatedAt": "2026-11-03T09:00:00Z",
+   "archived": false,
+   "_company": "6432",
+   "_contact": "6422"
+  },
+  {
+   "id": "6443",
+   "properties": {
+    "dealname": "Women in Tech North scholarship places",
+    "pipeline": "default",
+    "dealstage": "decisionmakerboughtin",
+    "amount": "1200",
+    "closedate": "2026-11-16T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-06-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-04T09:00:00Z"
+   },
+   "createdAt": "2026-06-05T10:00:00Z",
+   "updatedAt": "2026-11-04T09:00:00Z",
+   "archived": false,
+   "_company": "6433",
+   "_contact": "6423"
+  },
+  {
+   "id": "6444",
+   "properties": {
+    "dealname": "College staff day passes",
+    "pipeline": "default",
+    "dealstage": "presentationscheduled",
+    "amount": "600",
+    "closedate": "2026-11-18T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-07-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-05T09:00:00Z"
+   },
+   "createdAt": "2026-07-05T10:00:00Z",
+   "updatedAt": "2026-11-05T09:00:00Z",
+   "archived": false,
+   "_company": "6434",
+   "_contact": "6424"
+  },
+  {
+   "id": "6445",
+   "properties": {
+    "dealname": "Data Guild evening social",
+    "pipeline": "default",
+    "dealstage": "appointmentscheduled",
+    "amount": "0",
+    "closedate": "2026-11-20T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-08-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-06T09:00:00Z"
+   },
+   "createdAt": "2026-08-05T10:00:00Z",
+   "updatedAt": "2026-11-06T09:00:00Z",
+   "archived": false,
+   "_company": "6435",
+   "_contact": "6426"
+  },
+  {
+   "id": "6446",
+   "properties": {
+    "dealname": "Makerspace demo table",
+    "pipeline": "default",
+    "dealstage": "closedlost",
+    "amount": "300",
+    "closedate": "2026-10-31T00:00:00Z",
+    "dealtype": "newbusiness",
+    "createdate": "2026-09-05T10:00:00Z",
+    "lastmodifieddate": "2026-11-07T09:00:00Z"
+   },
+   "createdAt": "2026-09-05T10:00:00Z",
+   "updatedAt": "2026-11-07T09:00:00Z",
+   "archived": false,
+   "_company": null,
+   "_contact": "6427"
+  }
+ ]
+}

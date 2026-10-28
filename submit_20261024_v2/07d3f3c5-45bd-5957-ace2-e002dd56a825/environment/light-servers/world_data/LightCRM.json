@@ -1,0 +1,190 @@
+{
+ "contacts": {
+  "brkc8b60ff18e5a66bf41f": {
+   "cid": "brkc8b60ff18e5a66bf41f",
+   "name": "Moira Tennant",
+   "email": "moira.tennant@fellsidebrokers.example",
+   "phone": "01632 960820",
+   "company": "Fellside Insurance Brokers",
+   "title": "Account director",
+   "tags": [
+    "broker",
+    "partner"
+   ],
+   "notes": "Places about 300 home policies a year with us; quarterly review booked for 10 November."
+  },
+  "brk74774fd96211fe712a7": {
+   "cid": "brk74774fd96211fe712a7",
+   "name": "Jasper Coutts",
+   "email": "jasper.coutts@fellsidebrokers.example",
+   "phone": "01632 960821",
+   "company": "Fellside Insurance Brokers",
+   "title": "Account handler",
+   "tags": [
+    "broker",
+    "partner"
+   ],
+   "notes": "Day-to-day contact for new business questions."
+  },
+  "brkea09dba99df42d47ecf": {
+   "cid": "brkea09dba99df42d47ecf",
+   "name": "Anwen Lusty",
+   "email": "anwen.lusty@harbourgate.example",
+   "phone": "01632 960822",
+   "company": "Harbourgate Brokers",
+   "title": "Principal",
+   "tags": [
+    "broker",
+    "partner"
+   ],
+   "notes": "Wants the landlord product on their panel from January; product sheet sent 12 October."
+  },
+  "brk9f570d7c71fdc2c6369": {
+   "cid": "brk9f570d7c71fdc2c6369",
+   "name": "Gwendolen Pask",
+   "email": "gwendolen.pask@scarthis.example",
+   "phone": "01632 960823",
+   "company": "Scarth Insurance Services",
+   "title": "Director",
+   "tags": [
+    "broker",
+    "partner"
+   ],
+   "notes": "Asked for dates for the new broker portal training; moved to the November session."
+  },
+  "brk144ab163f97126e999e": {
+   "cid": "brk144ab163f97126e999e",
+   "name": "Seamus Kerrigan",
+   "email": "seamus.kerrigan@kirkbyrowe.example",
+   "phone": "01632 960824",
+   "company": "Kirkby & Rowe Insurance",
+   "title": "Commercial lead",
+   "tags": [
+    "broker",
+    "prospect"
+   ],
+   "notes": "Mostly farms and smallholdings. First meeting on 4 November."
+  },
+  "brkbdeeafc3dfd6e06f751": {
+   "cid": "brkbdeeafc3dfd6e06f751",
+   "name": "Rhodri Penhale",
+   "email": "rhodri.penhale@edenvalleybrokers.example",
+   "phone": "01632 960825",
+   "company": "Eden Valley Brokers",
+   "title": "Branch manager",
+   "tags": [
+    "broker",
+    "prospect"
+   ],
+   "notes": "Met at last spring's broker breakfast; meeting booked for 28 October."
+  },
+  "brk0eb914141381cda8b28": {
+   "cid": "brk0eb914141381cda8b28",
+   "name": "Esther Quayle",
+   "email": "esther.quayle@mardalepm.example",
+   "phone": "01632 960826",
+   "company": "Mardale Property Management",
+   "title": "Head of lettings",
+   "tags": [
+    "broker",
+    "prospect"
+   ],
+   "notes": "Manages about 900 flats; wants to talk about a block policy on 18 November."
+  },
+  "brk264cb03119240c10485": {
+   "cid": "brk264cb03119240c10485",
+   "name": "Philippa Dunstan",
+   "email": "philippa.dunstan@lowtherlettings.example",
+   "phone": "01632 960827",
+   "company": "Lowther Lettings",
+   "title": "Operations manager",
+   "tags": [
+    "broker",
+    "affinity"
+   ],
+   "notes": "Tenant contents scheme proposal sent on 2 October; pricing with underwriting."
+  },
+  "brk97679dbb398d5712853": {
+   "cid": "brk97679dbb398d5712853",
+   "name": "Tobias Merriman",
+   "email": "tobias.merriman@brackenridgebs.example",
+   "phone": "01632 960828",
+   "company": "Brackenridge Building Society",
+   "title": "Partnerships manager",
+   "tags": [
+    "broker",
+    "affinity"
+   ],
+   "notes": "Referral scheme for mortgage customers; contract renews in March."
+  },
+  "brkc94f0e7c5461e4fb692": {
+   "cid": "brkc94f0e7c5461e4fb692",
+   "name": "Ciaran Hollis",
+   "email": "ciaran.hollis@thwaitemortgages.example",
+   "phone": "01632 960829",
+   "company": "Thwaite Mortgage Advice",
+   "title": "Adviser",
+   "tags": [
+    "broker",
+    "affinity"
+   ],
+   "notes": "Two-person firm; referral agreement signed on 1 October."
+  }
+ },
+ "deals": {
+  "dbr623a1913b02a634c52e": {
+   "did": "dbr623a1913b02a634c52e",
+   "title": "Fellside: home book terms for 2027",
+   "contact_id": "brkc8b60ff18e5a66bf41f",
+   "stage": "negotiation",
+   "amount": 0.0,
+   "close_date": "2026-12-15",
+   "notes": "Commission rate review at the 10 November meeting."
+  },
+  "dbr5cf94ebe540e1249a55": {
+   "did": "dbr5cf94ebe540e1249a55",
+   "title": "Harbourgate: landlord product panel listing",
+   "contact_id": "brkea09dba99df42d47ecf",
+   "stage": "proposal",
+   "amount": 0.0,
+   "close_date": "2027-01-15",
+   "notes": "Product sheet sent 12 October."
+  },
+  "dbre1114c70b5cbb51e086": {
+   "did": "dbre1114c70b5cbb51e086",
+   "title": "Lowther Lettings tenant contents scheme",
+   "contact_id": "brk264cb03119240c10485",
+   "stage": "proposal",
+   "amount": 0.0,
+   "close_date": "2027-02-01",
+   "notes": "Waiting on underwriting sign-off of the pricing."
+  },
+  "dbr45913c3f4974b603ead": {
+   "did": "dbr45913c3f4974b603ead",
+   "title": "Brackenridge referral scheme renewal",
+   "contact_id": "brk97679dbb398d5712853",
+   "stage": "qualified",
+   "amount": 0.0,
+   "close_date": "2027-03-31",
+   "notes": "Referral volumes steady through the summer."
+  },
+  "dbr07af4de7984bc9c11aa": {
+   "did": "dbr07af4de7984bc9c11aa",
+   "title": "Kirkby & Rowe farm panel introduction",
+   "contact_id": "brk144ab163f97126e999e",
+   "stage": "lead",
+   "amount": 0.0,
+   "close_date": "2027-04-30",
+   "notes": "First meeting 4 November."
+  },
+  "dbr551f467cb42357d151f": {
+   "did": "dbr551f467cb42357d151f",
+   "title": "Thwaite referral agreement",
+   "contact_id": "brkc94f0e7c5461e4fb692",
+   "stage": "won",
+   "amount": 0.0,
+   "close_date": "2026-10-01",
+   "notes": "Signed 1 October; welcome pack posted the same day."
+  }
+ }
+}

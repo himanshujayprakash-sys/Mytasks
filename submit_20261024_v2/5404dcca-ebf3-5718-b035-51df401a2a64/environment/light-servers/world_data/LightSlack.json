@@ -1,0 +1,224 @@
+{
+ "team": {
+  "domain": "ellisford",
+  "id": "T9EFP",
+  "name": "Ellisford Fresh Produce"
+ },
+ "users": [
+  {
+   "id": "U9GID",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "gideon.marrack",
+   "presence": "away",
+   "profile": {
+    "email": "gideon.marrack@ellisford-produce.example"
+   },
+   "real_name": "Gideon Marrack"
+  },
+  {
+   "id": "U9PHI",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "philippa.venning",
+   "presence": "away",
+   "profile": {
+    "email": "philippa.venning@ellisford-produce.example"
+   },
+   "real_name": "Philippa Venning"
+  },
+  {
+   "id": "U9SAL",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "cathal.rennie",
+   "presence": "away",
+   "profile": {
+    "email": "cathal.rennie@ellisford-produce.example"
+   },
+   "real_name": "Cathal Rennie"
+  },
+  {
+   "id": "U9TRN",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "bettany.hoskin",
+   "presence": "away",
+   "profile": {
+    "email": "bettany.hoskin@ellisford-produce.example"
+   },
+   "real_name": "Bettany Hoskin"
+  },
+  {
+   "id": "U9GIN",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "ruan.polkinghorne",
+   "presence": "away",
+   "profile": {
+    "email": "ruan.polkinghorne@ellisford-produce.example"
+   },
+   "real_name": "Ruan Polkinghorne"
+  },
+  {
+   "id": "U9MOR",
+   "is_admin": false,
+   "is_bot": false,
+   "name": "morven.alcott",
+   "presence": "away",
+   "profile": {
+    "email": "morven.alcott@ellisford-produce.example"
+   },
+   "real_name": "Morven Alcott"
+  }
+ ],
+ "channels": [
+  {
+   "created": 1767225600,
+   "creator": "U9MOR",
+   "id": "C9ALLOC",
+   "is_archived": false,
+   "is_private": false,
+   "name": "quayside-allocations",
+   "num_members": 6,
+   "purpose": "Quayside allocations desk",
+   "topic": "Quayside allocations"
+  }
+ ],
+ "channel_members": [
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9GID"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9PHI"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9SAL"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9TRN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9GIN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "user_id": "U9MOR"
+  }
+ ],
+ "messages": [
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "I gave out the trade and market stock in the order it came in, like we always have. Quickest way.",
+   "thread_ts": null,
+   "ts": "1796630400.000000",
+   "user_id": "U9PHI"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Clementines are 14.20 a case now and the vine tomatoes 15.10, the new prices are out.",
+   "thread_ts": null,
+   "ts": "1796631600.000000",
+   "user_id": "U9GIN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Round everyone to the nearest case, it's fairer than chopping bits off.",
+   "thread_ts": null,
+   "ts": "1796632800.000000",
+   "user_id": "U9PHI"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "St Brannoc's always have eight cases of vine tomatoes, I've keyed them as usual.",
+   "thread_ts": null,
+   "ts": "1796634000.000000",
+   "user_id": "U9GID"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Valli are still on stop, don't send them anything this week.",
+   "thread_ts": null,
+   "ts": "1796635200.000000",
+   "user_id": "U9TRN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "The leeks in bay 3 are fine for Wednesday, the date is only a day out.",
+   "thread_ts": null,
+   "ts": "1796636400.000000",
+   "user_id": "U9GIN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Ruling from me: Ristorante Valli get their full six cases of vine tomatoes, they're our biggest trade account. Confirm here when it's in.",
+   "thread_ts": null,
+   "ts": "1796637600.000000",
+   "user_id": "U9SAL"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Saltings are still class C, that variation won't be through until January.",
+   "thread_ts": null,
+   "ts": "1796638800.000000",
+   "user_id": "U9GID"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Treloar's moved up to class C this month, Hollis signed it off.",
+   "thread_ts": null,
+   "ts": "1796640000.000000",
+   "user_id": "U9PHI"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Minimum drop is off this week, the vans are going that way anyway.",
+   "thread_ts": null,
+   "ts": "1796641200.000000",
+   "user_id": "U9TRN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Cos goes to anyone short of iceberg, no need to check the account.",
+   "thread_ts": null,
+   "ts": "1796642400.000000",
+   "user_id": "U9GIN"
+  },
+  {
+   "channel_id": "C9ALLOC",
+   "reactions": [],
+   "reply_count": 0,
+   "text": "Please don't reply in here about the allocation, I'll pick it up.",
+   "thread_ts": null,
+   "ts": "1796643600.000000",
+   "user_id": "U9MOR"
+  }
+ ]
+}

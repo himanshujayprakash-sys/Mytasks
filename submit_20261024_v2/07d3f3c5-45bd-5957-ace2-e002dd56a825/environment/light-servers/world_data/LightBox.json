@@ -1,0 +1,173 @@
+{
+ "users": [
+  {
+   "id": "52811904",
+   "name": "Ottoline Brack",
+   "login": "ottoline.brack@ashgrovemutual.test",
+   "role": "user",
+   "status": "active",
+   "language": "en",
+   "timezone": "Europe/London",
+   "space_amount": 10737418240,
+   "space_used": 7922500,
+   "max_upload_size": 2147483648,
+   "job_title": "Office manager",
+   "phone": "01632 960720",
+   "created_at": "2026-09-01T09:00:00+00:00"
+  }
+ ],
+ "folders": [
+  {
+   "id": "8806001",
+   "name": "Ashgrove House premises",
+   "parent_id": "0",
+   "owner_id": "52811904",
+   "description": "Certificates, drawings and quotes for the head office building.",
+   "created_at": "2026-09-01T09:30:00+00:00",
+   "modified_at": "2026-10-14T16:20:00+00:00",
+   "item_count": 4
+  },
+  {
+   "id": "8806002",
+   "name": "IT policies",
+   "parent_id": "0",
+   "owner_id": "52811904",
+   "description": "Policies approved by the IT steering group.",
+   "created_at": "2026-09-01T09:30:00+00:00",
+   "modified_at": "2026-09-16T16:20:00+00:00",
+   "item_count": 2
+  },
+  {
+   "id": "8806003",
+   "name": "People",
+   "parent_id": "0",
+   "owner_id": "52811904",
+   "description": "Guidance, wellbeing, recruitment and social events.",
+   "created_at": "2026-09-01T09:30:00+00:00",
+   "modified_at": "2026-10-14T16:20:00+00:00",
+   "item_count": 4
+  }
+ ],
+ "files": [
+  {
+   "id": "8807000",
+   "name": "Fire_risk_assessment_Ashgrove_House_2026.pdf",
+   "parent_id": "8806001",
+   "owner_id": "52811904",
+   "description": "Annual review; two actions to close before the floor 3 refit.",
+   "size": 512300,
+   "extension": "pdf",
+   "sha1": "a296960788006293bde5111f74b8f2886f9a1be4",
+   "created_at": "2026-09-04T09:00:00+00:00",
+   "modified_at": "2026-09-04T16:20:00+00:00"
+  },
+  {
+   "id": "8807001",
+   "name": "Lift_examination_report_Sep2026.pdf",
+   "parent_id": "8806001",
+   "owner_id": "52811904",
+   "description": "Six-monthly lift examination; both cars passed.",
+   "size": 202100,
+   "extension": "pdf",
+   "sha1": "61d5a4248496f8e985f33836a2daff5607f5c09a",
+   "created_at": "2026-09-22T09:00:00+00:00",
+   "modified_at": "2026-09-22T16:20:00+00:00"
+  },
+  {
+   "id": "8807002",
+   "name": "Floor3_refit_drawings_rev_C.pdf",
+   "parent_id": "8806001",
+   "owner_id": "52811904",
+   "description": "Architect's revision C drawings for the third-floor layout.",
+   "size": 2405600,
+   "extension": "pdf",
+   "sha1": "8064dc564a720b4626b4bb6dc9008e28fa45989f",
+   "created_at": "2026-09-10T09:00:00+00:00",
+   "modified_at": "2026-09-10T16:20:00+00:00"
+  },
+  {
+   "id": "8807003",
+   "name": "Floor3_electrical_quote.pdf",
+   "parent_id": "8806001",
+   "owner_id": "52811904",
+   "description": "Electrician's quote for two floor boxes and the printer move.",
+   "size": 96400,
+   "extension": "pdf",
+   "sha1": "a9a77cb3c401dcd1cbd6b36052b4eebdaf11cc12",
+   "created_at": "2026-10-14T09:00:00+00:00",
+   "modified_at": "2026-10-14T16:20:00+00:00"
+  },
+  {
+   "id": "8807004",
+   "name": "Information_security_policy_v7.pdf",
+   "parent_id": "8806002",
+   "owner_id": "52811904",
+   "description": "Version 7, approved by the IT steering group on 15 September.",
+   "size": 640800,
+   "extension": "pdf",
+   "sha1": "ea47453a2ca7cd429c15263ec5e76f5eb8030a77",
+   "created_at": "2026-09-16T09:00:00+00:00",
+   "modified_at": "2026-09-16T16:20:00+00:00"
+  },
+  {
+   "id": "8807005",
+   "name": "Acceptable_use_policy_v4.pdf",
+   "parent_id": "8806002",
+   "owner_id": "52811904",
+   "description": "Laptops, phones and personal devices; reissued with version 7 of the security policy.",
+   "size": 220400,
+   "extension": "pdf",
+   "sha1": "1dd5926ea8d299ad32fd4ff7066c7e446c9a87c7",
+   "created_at": "2026-09-16T09:00:00+00:00",
+   "modified_at": "2026-09-16T16:20:00+00:00"
+  },
+  {
+   "id": "8807006",
+   "name": "Hybrid_working_guidance_Sep2026.docx",
+   "parent_id": "8806003",
+   "owner_id": "52811904",
+   "description": "Team days, desk booking and home working kit.",
+   "size": 81200,
+   "extension": "docx",
+   "sha1": "dd3a4eaee724426be20d6a85b9b884a86769bace",
+   "created_at": "2026-09-08T09:00:00+00:00",
+   "modified_at": "2026-09-08T16:20:00+00:00"
+  },
+  {
+   "id": "8807007",
+   "name": "Wellbeing_week_programme_Oct2026.pdf",
+   "parent_id": "8806003",
+   "owner_id": "52811904",
+   "description": "Walks, talks and the mental health first aiders, 5 to 9 October.",
+   "size": 304500,
+   "extension": "pdf",
+   "sha1": "4c49073315c7354b3bbd9a6eb9a6692f2c7056c8",
+   "created_at": "2026-09-29T09:00:00+00:00",
+   "modified_at": "2026-09-29T16:20:00+00:00"
+  },
+  {
+   "id": "8807008",
+   "name": "Graduate_scheme_brochure_2027.pdf",
+   "parent_id": "8806003",
+   "owner_id": "52811904",
+   "description": "Brochure for the September 2027 graduate intake.",
+   "size": 3301000,
+   "extension": "pdf",
+   "sha1": "bde84aa30d78eff94d07eee5f4956b1361782ef1",
+   "created_at": "2026-09-28T09:00:00+00:00",
+   "modified_at": "2026-09-28T16:20:00+00:00"
+  },
+  {
+   "id": "8807009",
+   "name": "Christmas_party_contract_Old_Mill_Hotel.pdf",
+   "parent_id": "8806003",
+   "owner_id": "52811904",
+   "description": "Booking contract for 11 December; deposit paid on 14 October.",
+   "size": 158200,
+   "extension": "pdf",
+   "sha1": "88908ae9e3a173108b8f28e9a430cb91f3e7fc0a",
+   "created_at": "2026-10-14T09:00:00+00:00",
+   "modified_at": "2026-10-14T16:20:00+00:00"
+  }
+ ]
+}

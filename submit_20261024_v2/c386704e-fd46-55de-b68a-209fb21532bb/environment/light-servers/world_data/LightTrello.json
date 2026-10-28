@@ -1,0 +1,112 @@
+{
+ "members": [
+  {
+   "id": "6b2f0000000000000000c101",
+   "fullName": "Marcus Oyelowo",
+   "username": "marcusoyelowo",
+   "email": "marcus.oyelowo@thornwickjuniors.example"
+  },
+  {
+   "id": "6b2f0000000000000000c102",
+   "fullName": "Hannah Ledgard",
+   "username": "hannahledgard",
+   "email": "hannah.ledgard@thornwickjuniors.example"
+  }
+ ],
+ "boards": [
+  {
+   "id": "6b2f0000000000000000c201",
+   "name": "Christmas tournament 2026",
+   "desc": "Planning for 19 December.",
+   "closed": false,
+   "id_organization": "6b2f0000000000000000c301",
+   "url": "https://trello.com/b/tJx26mas/christmas-tournament-2026",
+   "member_ids": [
+    "6b2f0000000000000000c101",
+    "6b2f0000000000000000c102"
+   ]
+  }
+ ],
+ "lists": [
+  {
+   "id": "6b2f0000000000000000c401",
+   "id_board": "6b2f0000000000000000c201",
+   "name": "To do",
+   "closed": false,
+   "pos": 1
+  },
+  {
+   "id": "6b2f0000000000000000c402",
+   "id_board": "6b2f0000000000000000c201",
+   "name": "Doing",
+   "closed": false,
+   "pos": 2
+  },
+  {
+   "id": "6b2f0000000000000000c403",
+   "id_board": "6b2f0000000000000000c201",
+   "name": "Done",
+   "closed": false,
+   "pos": 3
+  }
+ ],
+ "cards": [
+  {
+   "id": "6b2f00000000000000d00000",
+   "name": "Book referees for the tournament",
+   "desc": "Four referees for the morning.",
+   "id_board": "6b2f0000000000000000c201",
+   "id_list": "6b2f0000000000000000c402",
+   "pos": 16384.0,
+   "due": "2026-12-11T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000c101"
+   ],
+   "label_ids": []
+  },
+  {
+   "id": "6b2f00000000000000d00001",
+   "name": "Medals and trophies",
+   "desc": "Order 120 medals.",
+   "id_board": "6b2f0000000000000000c201",
+   "id_list": "6b2f0000000000000000c401",
+   "pos": 32768.0,
+   "due": "2026-12-05T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000c102"
+   ],
+   "label_ids": []
+  },
+  {
+   "id": "6b2f00000000000000d00002",
+   "name": "Pitch plan",
+   "desc": "Four 7v7 pitches on the 3G and grass 2.",
+   "id_board": "6b2f0000000000000000c201",
+   "id_list": "6b2f0000000000000000c403",
+   "pos": 49152.0,
+   "due": "2026-11-20T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000c101"
+   ],
+   "label_ids": []
+  },
+  {
+   "id": "6b2f00000000000000d00003",
+   "name": "Raffle prizes",
+   "desc": "Ask the sponsors for prizes.",
+   "id_board": "6b2f0000000000000000c201",
+   "id_list": "6b2f0000000000000000c402",
+   "pos": 65536.0,
+   "due": "2026-12-12T17:00:00Z",
+   "closed": false,
+   "member_ids": [
+    "6b2f0000000000000000c102"
+   ],
+   "label_ids": []
+  }
+ ],
+ "checklists": []
+}
